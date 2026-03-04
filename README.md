@@ -32,6 +32,8 @@ aemet androidtv androidtv_remote apple_tv backup bluetooth bthome caldav camera 
 > **Note**: This is only a partial preview of the full list. The complete list can be viewed with `eix app-misc/homeassistant-full` after syncing the overlay. Not every flag is exhaustively tested — some are still to be fully implemented. Feedback and requests are appreciated!
 > Homeassistant package is being maintained with all integrations and their correct dependency requests as per upstream, however the python dependencies themselves not part of the useflags above  are not being "all" actively maintained by be as it is a tremendous work. Pypi repository may have most of the dependencies. If you need support with a particular dependency or useflag, raise an Issue and I'll see what i can do.
 
+Ha and most of the HA ecossystem packages are ready and should be running fine with python3_14. 
+
 ## Installation
 
 Add the overlay to your system:
