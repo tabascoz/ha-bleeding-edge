@@ -1049,8 +1049,7 @@ RDEPEND="${RDEPEND}
 	ssl? ( dev-libs/openssl app-crypt/certbot net-proxy/haproxy )
 	starline? ( ~dev-python/starline-0.1.5[${PYTHON_USEDEP}] )
 	starlingbank? ( ~dev-python/starlingbank-3.2[${PYTHON_USEDEP}] )
-	starlink? ( ~dev-python/starlink-grpc-core-1.2.4
-	[${PYTHON_USEDEP}] )
+	starlink? ( ~dev-python/starlink-grpc-core-1.2.4[${PYTHON_USEDEP}] )
 	startca? ( ~dev-python/xmltodict-1.0.2[${PYTHON_USEDEP}] )
 	statsd? ( ~dev-python/statsd-3.2.1[${PYTHON_USEDEP}] )
 	steam_online? ( ~dev-python/steamodd-4.21[${PYTHON_USEDEP}] )
