@@ -268,7 +268,7 @@ RDEPEND="${RDEPEND}
 	blue_current? ( ~dev-python/bluecurrent-api-1.3.2[${PYTHON_USEDEP}] )
 	bluemaestro? ( ~dev-python/bluemaestro-ble-0.2.3[${PYTHON_USEDEP}] )
 	bluesound? ( ~dev-python/pyblu-2.0.5[${PYTHON_USEDEP}] )
-	bluetooth? ( ~dev-python/bleak-2.1.1[${PYTHON_USEDEP}] ~dev-python/bleak-retry-connector-4.6.0[${PYTHON_USEDEP}] ~dev-python/bluetooth-adapters-2.1.1[${PYTHON_USEDEP}] ~dev-python/bluetooth-auto-recovery-1.5.3[${PYTHON_USEDEP}] ~dev-python/bluetooth-data-tools-1.28.4[${PYTHON_USEDEP}] ~dev-python/dbus-fast-4.0.0[${PYTHON_USEDEP}] ~dev-python/habluetooth-5.8.0[${PYTHON_USEDEP}] )
+	bluetooth? ( ~dev-python/bleak-2.1.1[${PYTHON_USEDEP}] ~dev-python/bleak-retry-connector-4.6.0[${PYTHON_USEDEP}] ~dev-python/bluetooth-adapters-2.1.1[${PYTHON_USEDEP}] ~dev-python/bluetooth-auto-recovery-1.5.3[${PYTHON_USEDEP}] ~dev-python/bluetooth-data-tools-1.28.4[${PYTHON_USEDEP}] ~dev-python/dbus-fast-4.0.0[${PYTHON_USEDEP}] ~dev-python/habluetooth-5.11.1[${PYTHON_USEDEP}] )
 	bluetooth_le_tracker? ( ~dev-python/pygatt-4.0.5[${PYTHON_USEDEP}] )
 	bme280? ( ~dev-python/i2csense-0.0.4[${PYTHON_USEDEP}] ~dev-python/smbus-cffi-0.5.1[${PYTHON_USEDEP}] ~dev-python/bme280spi-0.2.0[${PYTHON_USEDEP}] )
 	bme680? ( ~dev-python/bme680-1.0.5[${PYTHON_USEDEP}] ~dev-python/smbus-cffi-0.5.1[${PYTHON_USEDEP}] )
