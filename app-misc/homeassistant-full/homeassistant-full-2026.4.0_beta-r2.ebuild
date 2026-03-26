@@ -823,7 +823,7 @@ RDEPEND="${RDEPEND}
 	onedrive_for_business? ( ~dev-python/onedrive-personal-sdk-0.1.7[${PYTHON_USEDEP}] )
 	onewire? ( ~dev-python/aio-ownet-0.0.5[${PYTHON_USEDEP}] )
 	onkyo? ( ~dev-python/aioonkyo-0.4.0[${PYTHON_USEDEP}] )
-	onvif? ( ~dev-python/onvif-zeep-async-4.0.4[${PYTHON_USEDEP}] ~dev-python/WSDiscovery-2.1.2[${PYTHON_USEDEP}] ~dev-python/onvif_parsers-2.3.0[${PYTHON_USEDEP}]  )
+	onvif? ( ~dev-python/onvif-zeep-async-4.0.4[${PYTHON_USEDEP}] ~dev-python/WSDiscovery-2.1.2[${PYTHON_USEDEP}] ~dev-python/onvif-parsers-2.3.0[${PYTHON_USEDEP}]  )
 	open_meteo? ( ~dev-python/open-meteo-0.3.2[${PYTHON_USEDEP}] )
 	openai_conversation? ( ~dev-python/openai-2.21.0[${PYTHON_USEDEP}] )
 	opendisplay? ( ~dev-python/py-opendisplay-5.5.0[${PYTHON_USEDEP}] )
