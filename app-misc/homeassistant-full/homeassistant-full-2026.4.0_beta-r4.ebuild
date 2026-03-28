@@ -139,7 +139,7 @@ RDEPEND="${RDEPEND}
 	>=dev-python/tuf-4.0.0[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.15.0[${PYTHON_USEDEP}]
 	<dev-python/typing-extensions-5.0[${PYTHON_USEDEP}]
-	~dev-python/ulid-transform-1.5.2[${PYTHON_USEDEP}]
+	~dev-python/ulid-transform-2.2.0[${PYTHON_USEDEP}]
 	dev-python/urllib3[${PYTHON_USEDEP}]
 	dev-python/uv
 	~dev-python/voluptuous-openapi-0.1.0[${PYTHON_USEDEP}]
@@ -147,7 +147,7 @@ RDEPEND="${RDEPEND}
 	~dev-python/voluptuous-0.16.0[${PYTHON_USEDEP}]
 	~dev-python/webrtc-models-0.3.0[${PYTHON_USEDEP}]
 	>=dev-python/websockets-13.1[${PYTHON_USEDEP}]
-	~dev-python/yarl-1.22.0[${PYTHON_USEDEP}]
+	~dev-python/yarl-1.23.0[${PYTHON_USEDEP}]
 	dev-python/zeroconf[${PYTHON_USEDEP}]
 	"
 # unknown origin, still something to clean up here
