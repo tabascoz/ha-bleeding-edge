@@ -103,6 +103,7 @@ RDEPEND="${RDEPEND}
 	~dev-python/httpx-0.28.1[${PYTHON_USEDEP}]
 	>=dev-python/hyperframe-5.2.0[${PYTHON_USEDEP}]
 	~dev-python/ifaddr-0.2.0[${PYTHON_USEDEP}]
+	~dev-python/infrared-protocols-1.1.0[${PYTHON_USEDEP}] 
 	~dev-python/jinja2-3.1.6[${PYTHON_USEDEP}]
 	~dev-python/litellm-1.81.3[${PYTHON_USEDEP}]
 	~dev-python/lru-dict-1.3.0[${PYTHON_USEDEP}]
