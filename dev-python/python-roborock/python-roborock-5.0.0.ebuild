@@ -23,7 +23,7 @@ RDEPEND=">=dev-python/click-8.0.0[${PYTHON_USEDEP}]
 	>=dev-python/paho-mqtt-1.6.1[${PYTHON_USEDEP}]
 	>=dev-python/construct-2.10.57[${PYTHON_USEDEP}]
 	dev-python/vacuum-map-parser-roborock[${PYTHON_USEDEP}]
-	>=dev-python/pyrate-limiter-3.7.0[${PYTHON_USEDEP}]
+	>=dev-python/pyrate-limiter-4.1.0[${PYTHON_USEDEP}]
 	>=dev-python/aiomqtt-2.3.2[${PYTHON_USEDEP}]
 	~dev-python/click-shell-2.1[${PYTHON_USEDEP}]"
 	
