@@ -20,7 +20,7 @@ DOCS="README.md"
 RDEPEND=">=dev-python/click-8.0.0[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-3.8.2[${PYTHON_USEDEP}]
 	>=dev-python/pycryptodome-3.18.0[${PYTHON_USEDEP}]
-	>=dev-python/paho-mqtt-1.6.1[${PYTHON_USEDEP}]
+	>=dev-python/paho-mqtt-2.1.0[${PYTHON_USEDEP}]
 	>=dev-python/construct-2.10.57[${PYTHON_USEDEP}]
 	dev-python/vacuum-map-parser-roborock[${PYTHON_USEDEP}]
 	>=dev-python/pyrate-limiter-4.1.0[${PYTHON_USEDEP}]
