@@ -19,7 +19,7 @@ RESTRICT="!test? ( test )"
 DOCS="README.md"
 
 RDEPEND="
-	~app-crypt/certbot-5.1.0[${PYTHON_USEDEP}]
+	~app-crypt/certbot-5.4.0[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-3.6.1[${PYTHON_USEDEP}]
 	>=dev-python/atomicwrites-homeassistant-1.4.1[${PYTHON_USEDEP}]
 	>=dev-python/attrs-19.3.0[${PYTHON_USEDEP}]
@@ -32,6 +32,7 @@ RDEPEND="
 	>=dev-python/snitun-0.44.0[${PYTHON_USEDEP}]
 	<dev-python/webrtc-models-1.0.0[${PYTHON_USEDEP}]
 	>=dev-python/yarl-1.20[${PYTHON_USEDEP}]
+	<dev-python/yarl-2[${PYTHON_USEDEP}]
 	dev-python/sentence-stream[${PYTHON_USEDEP}]"
 
 BDEPEND="
