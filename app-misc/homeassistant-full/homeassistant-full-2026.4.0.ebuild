@@ -122,7 +122,6 @@ RDEPEND="${RDEPEND}
 	>=dev-python/pycryptodome-3.6.6[${PYTHON_USEDEP}]
 	dev-python/pydantic[${PYTHON_USEDEP}]
 	~dev-python/pyjwt-2.10.1[${PYTHON_USEDEP}]
-	~dev-python/pynacl-1.5.0[${PYTHON_USEDEP}]
 	dev-python/pyopenssl[${PYTHON_USEDEP}]
 	~dev-python/pyserial-3.5[${PYTHON_USEDEP}]
 	~dev-python/pymicro-vad-1.0.1[${PYTHON_USEDEP}]
@@ -730,7 +729,7 @@ RDEPEND="${RDEPEND}
 	minecraft_server? ( ~dev-python/mcstatus-12.1.0[${PYTHON_USEDEP}] )
 	minio? ( ~dev-python/minio-7.1.12[${PYTHON_USEDEP}] )
 	moat? ( ~dev-python/moat-ble-0.1.1[${PYTHON_USEDEP}] )
-	mobile_app? ( ~dev-python/pynacl-1.5.0[${PYTHON_USEDEP}] )
+	mobile_app? ( ~dev-python/pynacl-1.6.2[${PYTHON_USEDEP}] )
 	mochad? ( ~dev-python/pymochad-0.2.0[${PYTHON_USEDEP}] )
 	modbus? ( ~dev-python/pymodbus-3.11.2[${PYTHON_USEDEP}] )
 	modem_callerid? ( ~dev-python/phone-modem-0.1.1[${PYTHON_USEDEP}] )
