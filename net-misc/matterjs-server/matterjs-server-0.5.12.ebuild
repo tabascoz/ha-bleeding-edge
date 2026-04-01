@@ -8,8 +8,9 @@ HOMEPAGE="https://github.com/matter-js/matterjs-server"
 
 SRC_URI="
     https://registry.npmjs.org/matter-server/-/matter-server-${PV}.tgz -> ${P}.tgz
-    https://raw.githubusercontent.com/tabascoz/ha-bleeding-edge/refs/heads/main/net-misc/matterjs-server/files/matter-server-${PV}-vendor.tar.xz -> ${P}-vendor.tar.xz
+    https://github.com/tabascoz/ha-bleeding-edge/raw/refs/heads/main/net-misc/matterjs-server/files/matterjs-server-${PV}-vendor.tar.xz -> ${P}-vendor.tar.xz
 "
+
 
 LICENSE="Apache-2.0"
 SLOT="0"
