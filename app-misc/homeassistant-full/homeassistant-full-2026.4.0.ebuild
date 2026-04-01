@@ -82,6 +82,7 @@ RDEPEND="${RDEPEND}
 	>=dev-python/chacha20poly1305-reuseable-0.13.0[${PYTHON_USEDEP}]
 	dev-python/charset-normalizer[${PYTHON_USEDEP}]
 	~dev-python/ciso8601-2.3.3[${PYTHON_USEDEP}]
+	~dev-python/cronsim-2.7[${PYTHON_USEDEP}]
 	dev-python/cryptography[${PYTHON_USEDEP}]
 	~dev-python/dbus-fast-4.0.0[${PYTHON_USEDEP}]
 	~dev-python/fastuuid-0.14.0[${PYTHON_USEDEP}]
