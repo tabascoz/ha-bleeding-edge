@@ -8,8 +8,8 @@ HOMEPAGE="https://github.com/matter-js/matterjs-server"
 
 SRC_URI="
     https://registry.npmjs.org/matter-server/-/matter-server-${PV}.tgz -> ${P}.tgz
-    ${FILESDIR}/${P}-vendor.tar.xz
 "
+#    ${FILESDIR}/${P}-vendor.tar.xz
 
 LICENSE="Apache-2.0"
 SLOT="0"
