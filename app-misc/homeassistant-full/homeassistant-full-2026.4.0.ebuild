@@ -41,9 +41,7 @@ RDEPEND="
 	acct-user/${MY_PN}
 	dev-lang/python:3.14
 	app-admin/logrotate
-	dev-db/sqlite
-	dev-libs/libfastjson
-	dev-libs/xerces-c"
+	dev-db/sqlite"
 # make sure no conflicting main Ebuild is installed
 RDEPEND="${RDEPEND}
 	!app-misc/homeassistant-min
@@ -84,14 +82,13 @@ RDEPEND="${RDEPEND}
 	~dev-python/ciso8601-2.3.3[${PYTHON_USEDEP}]
 	~dev-python/cronsim-2.7[${PYTHON_USEDEP}]
 	dev-python/cryptography[${PYTHON_USEDEP}]
-	~dev-python/dbus-fast-4.0.0[${PYTHON_USEDEP}]
-	~dev-python/fastuuid-0.14.0[${PYTHON_USEDEP}]
+	~dev-python/dbus-fast-4.0.4[${PYTHON_USEDEP}]
 	>=dev-python/faust-cchardet-2.1.18[${PYTHON_USEDEP}]
 	~dev-python/fnv-hash-fast-2.0.0[${PYTHON_USEDEP}]
 	~dev-python/go2rtc-client-0.4.0[${PYTHON_USEDEP}]
-	~dev-python/grpcio-reflection-1.76.0[${PYTHON_USEDEP}]
-	~dev-python/grpcio-status-1.76.0[${PYTHON_USEDEP}]
-	~dev-python/grpcio-1.76.0[${PYTHON_USEDEP}]
+	~dev-python/grpcio-reflection-1.78.0[${PYTHON_USEDEP}]
+	~dev-python/grpcio-status-1.78.0[${PYTHON_USEDEP}]
+	~dev-python/grpcio-1.78.0[${PYTHON_USEDEP}]
 	~dev-python/ha-ffmpeg-3.2.2[${PYTHON_USEDEP}]
 	~dev-python/habluetooth-5.11.1[${PYTHON_USEDEP}]
 	~dev-python/hass-nabucasa-2.2.0[${PYTHON_USEDEP}]
@@ -105,7 +102,6 @@ RDEPEND="${RDEPEND}
 	~dev-python/ifaddr-0.2.0[${PYTHON_USEDEP}]
 	~dev-python/infrared-protocols-1.1.0[${PYTHON_USEDEP}] 
 	~dev-python/jinja2-3.1.6[${PYTHON_USEDEP}]
-	~dev-python/litellm-1.81.3[${PYTHON_USEDEP}]
 	~dev-python/lru-dict-1.3.0[${PYTHON_USEDEP}]
 	>=dev-python/mashumaro-3.17[${PYTHON_USEDEP}]
 	>=dev-python/multidict-6.0.2[${PYTHON_USEDEP}]
@@ -150,6 +146,12 @@ RDEPEND="${RDEPEND}
 	~dev-python/yarl-1.23.0[${PYTHON_USEDEP}]
 	dev-python/zeroconf[${PYTHON_USEDEP}]
 	"
+#removed:
+# ~dev-python/fastuuid-0.14.0[${PYTHON_USEDEP}]
+# dev-libs/libfastjson
+# dev-libs/xerces-c 
+# ~dev-python/litellm-1.81.3[${PYTHON_USEDEP}]
+
 # unknown origin, still something to clean up here
 # cronsim  spotifyaio propcache
 RDEPEND="${RDEPEND}
@@ -268,7 +270,7 @@ RDEPEND="${RDEPEND}
 	blue_current? ( ~dev-python/bluecurrent-api-1.3.2[${PYTHON_USEDEP}] )
 	bluemaestro? ( ~dev-python/bluemaestro-ble-0.2.3[${PYTHON_USEDEP}] )
 	bluesound? ( ~dev-python/pyblu-2.0.6[${PYTHON_USEDEP}] )
-	bluetooth? ( ~dev-python/bleak-2.1.1[${PYTHON_USEDEP}] ~dev-python/bleak-retry-connector-4.6.0[${PYTHON_USEDEP}] ~dev-python/bluetooth-adapters-2.1.1[${PYTHON_USEDEP}] ~dev-python/bluetooth-auto-recovery-1.5.3[${PYTHON_USEDEP}] ~dev-python/bluetooth-data-tools-1.28.4[${PYTHON_USEDEP}] ~dev-python/dbus-fast-4.0.0[${PYTHON_USEDEP}] ~dev-python/habluetooth-5.11.1[${PYTHON_USEDEP}] )
+	bluetooth? ( ~dev-python/bleak-2.1.1[${PYTHON_USEDEP}] ~dev-python/bleak-retry-connector-4.6.0[${PYTHON_USEDEP}] ~dev-python/bluetooth-adapters-2.1.1[${PYTHON_USEDEP}] ~dev-python/bluetooth-auto-recovery-1.5.3[${PYTHON_USEDEP}] ~dev-python/bluetooth-data-tools-1.28.4[${PYTHON_USEDEP}] ~dev-python/dbus-fast-4.0.4[${PYTHON_USEDEP}] ~dev-python/habluetooth-5.11.1[${PYTHON_USEDEP}] )
 	bluetooth_le_tracker? ( ~dev-python/pygatt-4.0.5[${PYTHON_USEDEP}] )
 	bme280? ( ~dev-python/i2csense-0.0.4[${PYTHON_USEDEP}] ~dev-python/smbus-cffi-0.5.1[${PYTHON_USEDEP}] ~dev-python/bme280spi-0.2.0[${PYTHON_USEDEP}] )
 	bme680? ( ~dev-python/bme680-1.0.5[${PYTHON_USEDEP}] ~dev-python/smbus-cffi-0.5.1[${PYTHON_USEDEP}] )
@@ -699,7 +701,7 @@ RDEPEND="${RDEPEND}
 	marytts? ( ~dev-python/speak2mary-1.5.0[${PYTHON_USEDEP}] )
 	mastodon? ( ~dev-python/Mastodon-py-1.8.1[${PYTHON_USEDEP}] )
 	matrix? ( ~dev-python/matrix-nio-0.25.2[${PYTHON_USEDEP}] dev-python/pillow[${PYTHON_USEDEP}] )
-	matter? ( ~dev-python/matter-python-client-0.4.3[${PYTHON_USEDEP}] ~net-misc/matterjs-server-0.5.12 ~dev-python/dacite-1.9.2[${PYTHON_USEDEP}] )
+	matter? ( ~dev-python/matter-python-client-0.5.12[${PYTHON_USEDEP}] ~net-misc/matterjs-server-0.5.12 ~dev-python/dacite-1.9.2[${PYTHON_USEDEP}] )
 	maxcube? ( ~dev-python/maxcube-api-0.4.3[${PYTHON_USEDEP}] )
 	mcp23017? ( ~dev-python/RPi-GPIO-0.7.1_alpha4[${PYTHON_USEDEP}] ~dev-python/adafruit-circuitpython-mcp230xx-2.2.2[${PYTHON_USEDEP}] )
 	mcp_server? ( ~dev-python/mcp-1.26.0[${PYTHON_USEDEP}] ~dev-python/anyio-4.12.1[${PYTHON_USEDEP}] ~dev-python/aiohttp_sse-2.2.0[${PYTHON_USEDEP}] )
@@ -1055,7 +1057,7 @@ RDEPEND="${RDEPEND}
 	squeezebox? ( ~dev-python/pysqueezebox-0.14.0[${PYTHON_USEDEP}] )
 	srp_energy? ( ~dev-python/srpenergy-1.3.6[${PYTHON_USEDEP}] )
 	ssdp? ( ~dev-python/async-upnp-client-0.46.2[${PYTHON_USEDEP}] )
-	ssl? ( dev-libs/openssl app-crypt/certbot net-proxy/haproxy )
+	ssl? ( dev-libs/openssl app-crypt/certbot )
 	starline? ( ~dev-python/starline-0.1.5[${PYTHON_USEDEP}] )
 	starlingbank? ( ~dev-python/starlingbank-3.2[${PYTHON_USEDEP}] )
 	starlink? ( ~dev-python/starlink-grpc-core-1.2.4[${PYTHON_USEDEP}] )
@@ -1268,8 +1270,13 @@ RDEPEND="${RDEPEND}
 	zoneminder? ( ~dev-python/zm-py-0.5.4[${PYTHON_USEDEP}] )
 	zwave_js? ( ~dev-python/pyserial-3.5[${PYTHON_USEDEP}] ~dev-python/zwave-js-server-python-0.68.0[${PYTHON_USEDEP}] )
 	zwave_me? ( ~dev-python/zwave-me-ws-0.4.3[${PYTHON_USEDEP}] ~dev-python/url-normalize-1.4.3[${PYTHON_USEDEP}] )"
+##removed 
+#	ssl? ( net-proxy/haproxy )
+
+
 ## -- todo session
 ##integrations to be added: (last update time 2026-01-28)
+
 BDEPEND="${RDEPEND}
 	test? (
 		~dev-python/astroid-3.3.11[${PYTHON_USEDEP}]
