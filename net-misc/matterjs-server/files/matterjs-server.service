@@ -6,10 +6,8 @@ Wants=network-online.target
 
 [Service]
 Type=simple
-DynamicUser=yes
-User=matter-server
-Group=matter-server
-StateDirectory=matterjs-server
+User=matterjs-server
+Group=matterjs-server
 WorkingDirectory=/var/lib/matterjs-server
 ExecStart=/usr/bin/matter-server --storage-path /var/lib/matterjs-server
 Restart=always

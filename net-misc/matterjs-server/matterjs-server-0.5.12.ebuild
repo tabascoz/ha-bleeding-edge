@@ -9,7 +9,6 @@ HOMEPAGE="https://github.com/matter-js/matterjs-server"
 SRC_URI="
     https://registry.npmjs.org/matter-server/-/matter-server-${PV}.tgz -> ${P}.tgz
 "
-#    ${FILESDIR}/${P}-vendor.tar.xz
 
 LICENSE="Apache-2.0"
 SLOT="0"
@@ -19,7 +18,7 @@ IUSE="+server +systemd"
 REQUIRED_USE="systemd? ( server )"
 
 RDEPEND="
-    server? ( >=net-libs/nodejs-22.13.0:* acct-group/matter-server acct-user/matter-server )
+    server? ( >=net-libs/nodejs-22.13.0:* acct-group/matterjs-server acct-user/matterjs-server )
 "
 
 BDEPEND="${RDEPEND}"
@@ -51,7 +50,7 @@ src_compile() {
     cd "${S}" || die
 
     einfo "Running npm install to fix scoped packages and symlinks..."
-    npm install --production --omit=dev --ignore-scripts --no-audit --no-fund --no-bin-links || die "npm install failed"
+#    npm install --production --omit=dev --ignore-scripts --no-audit --no-fund --no-bin-links || die "npm install failed"
 
     einfo "matter-server build completed"
 }
@@ -65,7 +64,6 @@ src_install() {
 
     doins -r dist node_modules package.json
     [[ -d public ]] && doins -r public
-
     [[ -f README.md ]] && dodoc README.md
 
     cat > "${T}/matter-server" <<-'EOF'
@@ -77,6 +75,15 @@ EOF
     if use systemd; then
         systemd_dounit "${FILESDIR}/${PN}.service"
     fi
+
+    if use server; then                                                                                                                                                               
+	#keepdir "/etc/${PN}"                                                                                                                                                      
+	#fowners -R "${PN}:${PN}" "/etc/${PN}"                                                                                                                                     
+	keepdir "/var/lib/${PN}"                                                                                                                                                  
+	fowners -R "${PN}:${PN}" "/var/lib/${PN}"                                                                                                                                 
+	fperms -R 0775 "/var/lib/${PN}"
+    fi 
+
 }
 
 pkg_postinst() {
