@@ -54,6 +54,8 @@ RDEPEND="${RDEPEND}
 	~dev-python/aiodns-4.0.0[${PYTHON_USEDEP}]
 	~dev-python/aiogithubapi-26.0.0[${PYTHON_USEDEP}]
 	>=dev-python/aiofiles-24.1.0[${PYTHON_USEDEP}]
+	~dev-python/aiohasupervisor-0.4.3[${PYTHON_USEDEP}]
+	~dev-python/aiohttp-fast-zlib-0.3.0[${PYTHON_USEDEP}]
 	~dev-python/aiohttp-fast-zlib-0.3.0[${PYTHON_USEDEP}]
 	~dev-python/aiohttp-asyncmdnsresolver-0.1.1[${PYTHON_USEDEP}]
 	~dev-python/aiohttp-3.13.5[${PYTHON_USEDEP}]
