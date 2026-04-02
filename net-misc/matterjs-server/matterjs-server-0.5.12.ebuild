@@ -38,7 +38,7 @@ src_prepare() {
     if use server; then
         einfo "Unpacking base vendor node_modules..."
         mkdir -p "${S}/node_modules" || die
-        tar -xf "${DISTDIR}/${P}-vendor.tar.xz" -C "${S}/node_modules" --strip-components=1 \
+        tar -xf "${FILESDIR}/${P}-vendor.tar.xz" -C "${S}/node_modules" --strip-components=1 \
             || die "Failed to unpack vendor tarball"
     fi
 }
