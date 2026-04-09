@@ -23,9 +23,11 @@ else
         MY_PV="${PV}"
     fi
     MY_P="${PN}-${MY_PV}"
-    SRC_URI="https://github.com/home-assistant/core/archive/${MY_PV}.tar.gz -> ${MY_P}.tar.gz"
-    S="${WORKDIR}/core-${MY_PV}"
-	
+    SRC_URI="$(pypi_sdist_url)"
+    S="${WORKDIR}/homeassistant-${MY_PV}"
+#    SRC_URI="https://github.com/home-assistant/core/archive/${MY_PV}.tar.gz -> ${MY_P}.tar.gz"#
+#    S="${WORKDIR}/core-${MY_PV}"
+
 fi
 
 DESCRIPTION="Open-source home automation platform running on Python."
@@ -473,7 +475,7 @@ RDEPEND="${RDEPEND}
 	fronius? ( ~dev-python/PyFronius-0.8.2[${PYTHON_USEDEP}] )
 	frontier_silicon? ( ~dev-python/afsapi-0.2.7[${PYTHON_USEDEP}] )
 	fujitsu_fglair? ( ~dev-python/ayla-iot-unofficial-1.4.2[${PYTHON_USEDEP}] )
-	fully_kiosk? ( ~dev-python/python-fullykiosk-0.0.14[${PYTHON_USEDEP}] )
+	fully_kiosk? ( ~dev-python/python-fullykiosk-0.0.15[${PYTHON_USEDEP}] )
 	futurenow? ( ~dev-python/pyfnip-0.2[${PYTHON_USEDEP}] )
 	fyta? ( ~dev-python/fyta-cli-0.6.7[${PYTHON_USEDEP}] )
 	garages_amsterdam? ( ~dev-python/odp-amsterdam-6.0.2[${PYTHON_USEDEP}] )
@@ -952,7 +954,7 @@ RDEPEND="${RDEPEND}
 	risco? ( ~dev-python/pyrisco-0.6.4[${PYTHON_USEDEP}] )
 	rituals_perfume_genie? ( ~dev-python/pyrituals-0.0.7[${PYTHON_USEDEP}] )
 	rmvtransport? ( ~dev-python/PyRMVtransport-0.3.3[${PYTHON_USEDEP}] )
-	roborock? ( ~dev-python/python-roborock-5.0.0[${PYTHON_USEDEP}] ~dev-python/vacuum-map-parser-roborock-0.1.4[${PYTHON_USEDEP}] )
+	roborock? ( ~dev-python/python-roborock-5.7.0[${PYTHON_USEDEP}] ~dev-python/vacuum-map-parser-roborock-0.1.4[${PYTHON_USEDEP}] )
 	rocketchat? ( ~dev-python/rocketchat-API-0.6.1[${PYTHON_USEDEP}] )
 	roku? ( ~dev-python/rokuecp-0.19.3[${PYTHON_USEDEP}] )
 	romy? ( ~dev-python/romy-0.0.10[${PYTHON_USEDEP}] )
