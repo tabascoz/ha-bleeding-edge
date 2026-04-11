@@ -1,0 +1,29 @@
+# Copyright 1999-2023 Gentoo Authors
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=8
+
+PYTHON_COMPAT=( python3_{12..14} )
+
+DISTUTILS_USE_PEP517=setuptools
+inherit distutils-r1 pypi
+
+DESCRIPTION="Python wrapper for NOAA Tides & Currents Data and Metadata"
+HOMEPAGE="https://github.com/GClunies/noaa_coops https://pypi.org/project/noaa-coops/"
+
+LICENSE="Apache-2.0"
+SLOT="0"
+KEYWORDS="amd64 arm arm64 x86"
+IUSE="test"
+RESTRICT="!test? ( test )"
+
+DOCS="README.md"
+
+RDEPEND=">=dev-python/requests-2.32.3[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/pandas-2.2.2[${PYTHON_USEDEP}]
+	<dev-python/pandas-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/zeep-4.2.1[${PYTHON_USEDEP}]
+	<dev-python/zeep-5.0.0[${PYTHON_USEDEP}]"
+
+distutils_enable_tests pytest

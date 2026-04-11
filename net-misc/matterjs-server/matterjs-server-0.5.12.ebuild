@@ -18,7 +18,7 @@ IUSE="+server +systemd"
 REQUIRED_USE="systemd? ( server )"
 
 RDEPEND="
-    server? ( >=net-libs/nodejs-22.13.0:* acct-group/matterjs-server acct-user/matterjs-server )
+    server? ( >=net-libs/nodejs-22.13.0:* ~acct-group/matterjs-server-0 ~acct-user/matterjs-server-0  )
 "
 
 BDEPEND="${RDEPEND}"
