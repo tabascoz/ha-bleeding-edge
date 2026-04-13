@@ -10,6 +10,7 @@ inherit pypi distutils-r1
 
 DESCRIPTION="Python package for interacting with AirPatrol devices."
 HOMEPAGE="https://pypi.org/project/${PN}/"
+
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~arm64"

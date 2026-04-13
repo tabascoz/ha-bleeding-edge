@@ -11,7 +11,7 @@ inherit pypi distutils-r1
 DESCRIPTION="Interact with the bionyx third party API of the ekey biometric systems"
 HOMEPAGE="https://pypi.org/project/ekey-bionyxpy/"
 
-LICENSE="All-rights-reserved"
+LICENSE="unknown"
 SLOT="0"
 KEYWORDS="~amd64 ~arm64"
 IUSE="test"
@@ -26,4 +26,5 @@ BDEPEND="
         dev-python/pytest[${PYTHON_USEDEP}]
     )
 "
+
 distutils_enable_tests pytest

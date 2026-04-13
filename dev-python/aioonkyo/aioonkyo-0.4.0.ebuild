@@ -13,10 +13,12 @@ HOMEPAGE="https://pypi.org/project/${PN}/"
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~arm64"
-IUSE=""
-RESTRICT="test"
+IUSE="test"
+RESTRICT="!test? ( test )"
 
 RDEPEND=""
 BDEPEND="
     >=dev-python/setuptools-68.0[${PYTHON_USEDEP}]
 "
+
+distutils_enable_tests pytest

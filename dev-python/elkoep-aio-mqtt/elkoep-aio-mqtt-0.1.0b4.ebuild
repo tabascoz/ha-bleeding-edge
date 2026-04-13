@@ -25,4 +25,5 @@ BDEPEND="
         >=dev-python/pytest-asyncio-1.2.0[${PYTHON_USEDEP}]
     )
 "
+
 distutils_enable_tests pytest

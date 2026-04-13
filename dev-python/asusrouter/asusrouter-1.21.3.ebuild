@@ -9,11 +9,13 @@ DISTUTILS_USE_PEP517=setuptools
 inherit pypi distutils-r1
 
 DESCRIPTION="API wrapper for communication with ASUSWRT-powered routers using HTTP protocol"
-HOMEPAGE="https://pypi.org/project/${PN}/"
+HOMEPAGE="https://github.com/Vaskivskyi/asusrouter"
 
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~arm64"
+IUSE="test"
+RESTRICT="!test? ( test )"
 
 RDEPEND="
     >=dev-python/aiohttp-3.8.1[${PYTHON_USEDEP}]
@@ -22,4 +24,9 @@ RDEPEND="
 "
 BDEPEND="
     >=dev-python/setuptools-68.0[${PYTHON_USEDEP}]
+    test? (
+        dev-python/pytest[${PYTHON_USEDEP}]
+    )
 "
+
+distutils_enable_tests pytest

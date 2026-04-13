@@ -23,6 +23,7 @@ RDEPEND="
     >=dev-python/backoff-2.2.1[${PYTHON_USEDEP}]
     >=dev-python/requests-2.32.3[${PYTHON_USEDEP}]
 "
+
 BDEPEND="
     >=dev-python/setuptools-68.0[${PYTHON_USEDEP}]
     test? (
@@ -30,4 +31,5 @@ BDEPEND="
         dev-python/pytest-asyncio[${PYTHON_USEDEP}]
     )
 "
+
 distutils_enable_tests pytest

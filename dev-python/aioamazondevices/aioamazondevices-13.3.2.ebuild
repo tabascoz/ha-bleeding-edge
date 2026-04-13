@@ -6,7 +6,7 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 
 DISTUTILS_USE_PEP517=poetry
-inherit pypi distutils-r1
+inherit distutils-r1 pypi
 
 DESCRIPTION="Python library to control Amazon devices"
 HOMEPAGE="https://pypi.org/project/${PN}/"
@@ -29,6 +29,7 @@ RDEPEND="
 
 BDEPEND="
     >=dev-python/setuptools-68.0[${PYTHON_USEDEP}]
+    dev-python/poetry[${PYTHON_USEDEP}]
     test? (
         dev-python/pytest[${PYTHON_USEDEP}]
         dev-python/pytest-asyncio[${PYTHON_USEDEP}]

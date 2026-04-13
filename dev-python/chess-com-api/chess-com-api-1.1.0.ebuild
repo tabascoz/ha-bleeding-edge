@@ -26,6 +26,8 @@ BDEPEND="
     test? (
         dev-python/pytest[${PYTHON_USEDEP}]
         dev-python/pytest-asyncio[${PYTHON_USEDEP}]
+        dev-python/pytest-cov[${PYTHON_USEDEP}]
+        dev-python/pytest-mock[${PYTHON_USEDEP}]
     )
 "
 

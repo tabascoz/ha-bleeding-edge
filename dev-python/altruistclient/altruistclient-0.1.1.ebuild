@@ -23,6 +23,7 @@ RDEPEND="
     >=dev-python/zeroconf-0.143.0[${PYTHON_USEDEP}]
     <dev-python/zeroconf-1.0.0[${PYTHON_USEDEP}]
 "
+
 BDEPEND="
     >=dev-python/setuptools-68.0[${PYTHON_USEDEP}]
     test? (

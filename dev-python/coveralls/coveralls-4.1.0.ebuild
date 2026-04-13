@@ -1,0 +1,32 @@
+# Copyright 1999-2023 Gentoo Authors
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=8
+
+PYTHON_COMPAT=( python3_{12..14} )
+
+DISTUTILS_USE_PEP517=poetry
+inherit distutils-r1 pypi
+
+DESCRIPTION="Show coverage stats online via coveralls.io"
+HOMEPAGE="http://github.com/TheKevJames/coveralls-python https://pypi.org/project/coveralls/"
+
+LICENSE="MIT"
+SLOT="0"
+KEYWORDS="amd64 arm arm64 x86"
+IUSE="test yaml"
+RESTRICT="!test? ( test )"
+
+DOCS="README.rst"
+
+RDEPEND=">=dev-python/coverage-5.0[${PYTHON_USEDEP}]
+	<dev-python/coverage-8.0[${PYTHON_USEDEP}]
+	>=dev-python/docopt-0.6.1[${PYTHON_USEDEP}]
+	>=dev-python/requests-1.0.0[${PYTHON_USEDEP}]
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/typer-0.12.0[${PYTHON_USEDEP}]
+	<dev-python/typer-1.0.0[${PYTHON_USEDEP}]
+	yaml? ( >=dev-python/pyyaml-3.10[${PYTHON_USEDEP}]
+		<dev-python/pyyaml-7.0[${PYTHON_USEDEP}] )"
+
+distutils_enable_tests pytest

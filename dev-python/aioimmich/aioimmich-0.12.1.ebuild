@@ -8,10 +8,9 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit pypi distutils-r1
 
-DESCRIPTION="Asynchronous library to fetch albums and assests from immich."
+DESCRIPTION="Asynchronous library to fetch albums and assets from immich."
 HOMEPAGE="https://pypi.org/project/aioimmich/"
-SRC_URI="$(pypi_wheel_url)"
-
+SRC_URI="$(pypi_wheel_url)"                                                                                                                                                                                        	
 LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="~amd64 ~arm64"

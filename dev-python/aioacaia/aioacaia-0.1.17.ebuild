@@ -24,13 +24,12 @@ RDEPEND="
 BDEPEND="
     >=dev-python/setuptools-68.0[${PYTHON_USEDEP}]
     test? (
+        dev-python/covdefaults[${PYTHON_USEDEP}]
+        dev-python/coverage[${PYTHON_USEDEP}]
+        dev-python/syrupy[${PYTHON_USEDEP}]
         dev-python/pytest[${PYTHON_USEDEP}]
         dev-python/pytest-asyncio[${PYTHON_USEDEP}]
         dev-python/pytest-cov[${PYTHON_USEDEP}]
-        dev-python/syrupy[${PYTHON_USEDEP}]
-        dev-python/covdefaults[${PYTHON_USEDEP}]
-        dev-python/coverage[${PYTHON_USEDEP}]
     )
 "
-
 distutils_enable_tests pytest

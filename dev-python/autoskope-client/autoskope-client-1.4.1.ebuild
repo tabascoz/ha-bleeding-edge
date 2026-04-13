@@ -9,7 +9,7 @@ DISTUTILS_USE_PEP517=setuptools
 inherit pypi distutils-r1
 
 DESCRIPTION="Python client library for the Autoskope API."
-HOMEPAGE="https://pypi.org/project/${PN}/"
+HOMEPAGE="https://github.com/mcisk/autoskope_client"
 
 LICENSE="Apache-2.0"
 SLOT="0"
@@ -20,12 +20,13 @@ RESTRICT="!test? ( test )"
 RDEPEND="
     >=dev-python/aiohttp-3.8.0[${PYTHON_USEDEP}]
 "
+
 BDEPEND="
     >=dev-python/setuptools-68.0[${PYTHON_USEDEP}]
     test? (
-        dev-python/pytest[${PYTHON_USEDEP}]
-        dev-python/pytest-asyncio[${PYTHON_USEDEP}]
-        dev-python/python-dotenv[${PYTHON_USEDEP}]
+        ~dev-python/pytest-7.0.0[${PYTHON_USEDEP}]
+        ~dev-python/pytest-asyncio-0.21.0[${PYTHON_USEDEP}]
+        ~dev-python/python-dotenv-0.19.0[${PYTHON_USEDEP}]
     )
 "
 distutils_enable_tests pytest

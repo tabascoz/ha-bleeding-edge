@@ -9,7 +9,8 @@ PYPI_NO_NORMALIZE=1
 inherit pypi distutils-r1
 
 DESCRIPTION="Server-sent events support for aiohttp"
-HOMEPAGE="https://pypi.org/project/${PN}/"
+HOMEPAGE="https://github.com/aio-libs/aiohttp_sse/"
+
 LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="~amd64 ~arm64"
@@ -19,12 +20,10 @@ RESTRICT="!test? ( test )"
 RDEPEND="
     >=dev-python/aiohttp-3.0[${PYTHON_USEDEP}]
 "
-
 BDEPEND="
     >=dev-python/setuptools-68.0[${PYTHON_USEDEP}]
     test? (
         dev-python/pytest[${PYTHON_USEDEP}]
     )
 "
-
 distutils_enable_tests pytest

@@ -6,7 +6,7 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 
 DISTUTILS_USE_PEP517=setuptools
-inherit distutils-r1 pypi
+inherit pypi distutils-r1
 
 DESCRIPTION="Async ntfy client library"
 HOMEPAGE="https://pypi.org/project/${PN}/"
@@ -25,10 +25,12 @@ RDEPEND="
     >=dev-python/orjson-3.11.7[${PYTHON_USEDEP}]
     <dev-python/orjson-4.0[${PYTHON_USEDEP}]
 "
+
 BDEPEND="
     >=dev-python/setuptools-68.0[${PYTHON_USEDEP}]
     test? (
         dev-python/pytest[${PYTHON_USEDEP}]
+        dev-python/pytest-asyncio[${PYTHON_USEDEP}]
     )
 "
 

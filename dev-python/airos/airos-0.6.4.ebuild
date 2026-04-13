@@ -6,9 +6,9 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 
 DISTUTILS_USE_PEP517=setuptools
-inherit pypi distutils-r1
+inherit distutils-r1 pypi
 
-DESCRIPTION="Ubiquiti airOS module(s) for Python 3"
+DESCRIPTION="Ubiquiti airOS module(s) for Python 3."
 HOMEPAGE="https://pypi.org/project/${PN}/"
 
 LICENSE="MIT"

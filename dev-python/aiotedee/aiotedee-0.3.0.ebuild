@@ -9,7 +9,7 @@ DISTUTILS_USE_PEP517=setuptools
 inherit pypi distutils-r1
 
 DESCRIPTION="A package to interact with Tedee locks using asyncio"
-HOMEPAGE="https://pypi.org/project/${PN}/"
+HOMEPAGE="https://pypi.org/project/aiotedee/"
 
 LICENSE="MIT"
 SLOT="0"
@@ -24,13 +24,13 @@ RDEPEND="
 BDEPEND="
     >=dev-python/setuptools-68.0[${PYTHON_USEDEP}]
     test? (
-        =dev-python/aioresponses-0.7.8[${PYTHON_USEDEP}]
-        =dev-python/covdefaults-2.3.0[${PYTHON_USEDEP}]
-        =dev-python/coverage-7.6.7[${PYTHON_USEDEP}]
-        =dev-python/syrupy-4.7.2[${PYTHON_USEDEP}]
-        =dev-python/pytest-8.3.3[${PYTHON_USEDEP}]
-        =dev-python/pytest-asyncio-0.24.0[${PYTHON_USEDEP}]
-        =dev-python/pytest-cov-6.0.0[${PYTHON_USEDEP}]
+        ~dev-python/aioresponses-0.7.8[${PYTHON_USEDEP}]
+        ~dev-python/covdefaults-2.3.0[${PYTHON_USEDEP}]
+        ~dev-python/coverage-7.6.7[${PYTHON_USEDEP}]
+        ~dev-python/syrupy-4.7.2[${PYTHON_USEDEP}]
+        ~dev-python/pytest-8.3.3[${PYTHON_USEDEP}]
+        ~dev-python/pytest-asyncio-0.24.0[${PYTHON_USEDEP}]
+        ~dev-python/pytest-cov-6.0.0[${PYTHON_USEDEP}]
     )
 "
 

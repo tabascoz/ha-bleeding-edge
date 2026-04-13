@@ -20,5 +20,9 @@ RESTRICT="!test? ( test )"
 RDEPEND=""
 BDEPEND="
     >=dev-python/setuptools-68.0[${PYTHON_USEDEP}]
+    test? (
+        dev-python/pytest[${PYTHON_USEDEP}]
+    )
 "
+
 distutils_enable_tests pytest

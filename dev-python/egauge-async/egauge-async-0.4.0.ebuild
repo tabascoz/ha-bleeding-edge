@@ -21,6 +21,7 @@ RDEPEND="
     >=dev-python/httpx-0.25.1[${PYTHON_USEDEP}]
     <dev-python/httpx-1.0.0[${PYTHON_USEDEP}]
 "
+
 BDEPEND="
     >=dev-python/setuptools-68.0[${PYTHON_USEDEP}]
     test? (

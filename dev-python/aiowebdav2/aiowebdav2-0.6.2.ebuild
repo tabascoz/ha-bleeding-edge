@@ -24,6 +24,7 @@ RDEPEND="
     >=dev-python/python-dateutil-2.9.0.post0[${PYTHON_USEDEP}]
     >=dev-python/yarl-1.18.3[${PYTHON_USEDEP}]
 "
+
 BDEPEND="
     >=dev-python/setuptools-68.0[${PYTHON_USEDEP}]
     test? (

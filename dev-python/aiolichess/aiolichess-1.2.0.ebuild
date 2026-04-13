@@ -6,12 +6,11 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 
 DISTUTILS_USE_PEP517=setuptools
-inherit pypi distutils-r1
+inherit distutils-r1 pypi
 
 DESCRIPTION="Async Python client for the Lichess REST API"
 HOMEPAGE="https://pypi.org/project/${PN}/"
-
-LICENSE="GPL-3+"
+LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="~amd64 ~arm64"
 IUSE="test"
@@ -26,4 +25,5 @@ BDEPEND="
         dev-python/pytest[${PYTHON_USEDEP}]
     )
 "
+
 distutils_enable_tests pytest

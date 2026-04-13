@@ -29,4 +29,5 @@ BDEPEND="
         dev-python/pytest-cov[${PYTHON_USEDEP}]
     )
 "
+
 distutils_enable_tests pytest

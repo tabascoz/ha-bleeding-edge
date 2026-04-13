@@ -10,19 +10,15 @@ inherit pypi distutils-r1
 
 DESCRIPTION="Async OWFS (owserver) client"
 HOMEPAGE="https://pypi.org/project/${PN}/"
-
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~arm64"
-IUSE="test"
-RESTRICT="!test? ( test )"
+IUSE="cli"
 
 RDEPEND="
+\tcli? ( >=dev-python/click-8.0.1[${PYTHON_USEDEP}] )
 "
 BDEPEND="
-    >=dev-python/setuptools-68.0[${PYTHON_USEDEP}]
-    test? (
-        dev-python/pytest[${PYTHON_USEDEP}]
-    )
+\t>=dev-python/setuptools-68.0[${PYTHON_USEDEP}]
 "
 distutils_enable_tests pytest

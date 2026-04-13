@@ -8,17 +8,15 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit pypi distutils-r1
 
-DESCRIPTION="File support for asyncio"
+DESCRIPTION="File support for asyncio."
 HOMEPAGE="https://pypi.org/project/${PN}/"
-
 LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="~amd64 ~arm64"
 IUSE="test"
 RESTRICT="!test? ( test )"
 
-RDEPEND="
-"
+RDEPEND=""
 BDEPEND="
     >=dev-python/setuptools-68.0[${PYTHON_USEDEP}]
     test? (
