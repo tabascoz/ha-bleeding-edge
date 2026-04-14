@@ -4,12 +4,11 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
-
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="Provides an API for requesting information from an Openhome device"
-HOMEPAGE="https://github.com/bazwilliams/openhomedevice https://pypi.org/project/openhomedevice/"
+DESCRIPTION="A python library to communicate with the KEBA charging stations via udp"
+HOMEPAGE="https://github.com/dannerph/keba-kecontact https://pypi.org/project/keba-kecontact/"
 
 LICENSE="MIT"
 SLOT="0"
@@ -19,12 +18,15 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND=">=dev-python/async-upnp-client-0.27[${PYTHON_USEDEP}]
-	>=dev-python/lxml-4.8.0[${PYTHON_USEDEP}]"
+RDEPEND="
+	>=dev-python/asyncio-dgram-2.2.0[${PYTHON_USEDEP}]
+"
+
 BDEPEND="
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]
-	)"
+	)
+"
 
 python_test() {
 	py.test -v -v || die

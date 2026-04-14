@@ -4,12 +4,11 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
-
 DISTUTILS_USE_PEP517=setuptools
+PYPI_NO_NORMALIZE=1
 inherit distutils-r1 pypi
-
-DESCRIPTION="Provides an API for requesting information from an Openhome device"
-HOMEPAGE="https://github.com/bazwilliams/openhomedevice https://pypi.org/project/openhomedevice/"
+DESCRIPTION="Automated JSON API based communication with Samsung SyncThru Web Service"
+HOMEPAGE="https://github.com/nielstron/pysyncthru/ https://pypi.org/project/PySyncThru/"
 
 LICENSE="MIT"
 SLOT="0"
@@ -19,8 +18,8 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND=">=dev-python/async-upnp-client-0.27[${PYTHON_USEDEP}]
-	>=dev-python/lxml-4.8.0[${PYTHON_USEDEP}]"
+RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]
+	dev-python/demjson3[${PYTHON_USEDEP}]"
 BDEPEND="
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]

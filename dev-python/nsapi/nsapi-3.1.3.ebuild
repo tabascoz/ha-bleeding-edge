@@ -8,8 +8,8 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="Provides an API for requesting information from an Openhome device"
-HOMEPAGE="https://github.com/bazwilliams/openhomedevice https://pypi.org/project/openhomedevice/"
+DESCRIPTION="api wrapper for Dutch Railways (NS)"
+HOMEPAGE="https://github.com/aquatix/ns-api/ https://pypi.org/project/nsapi/"
 
 LICENSE="MIT"
 SLOT="0"
@@ -17,14 +17,17 @@ KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
 RESTRICT="!test? ( test )"
 
-DOCS="README.md"
+DOCS="README.rst"
 
-RDEPEND=">=dev-python/async-upnp-client-0.27[${PYTHON_USEDEP}]
-	>=dev-python/lxml-4.8.0[${PYTHON_USEDEP}]"
+PYPI_EXTENSION=".zip"
+
+RDEPEND=">dev-python/pytz-2018.5[${PYTHON_USEDEP}]"
 BDEPEND="
+	app-arch/unzip
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]
-	)"
+	)
+"
 
 python_test() {
 	py.test -v -v || die
