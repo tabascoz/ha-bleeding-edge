@@ -19,7 +19,7 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND=">=dev-python/async-upnp-client-0.27[${PYTHON_USEDEP}]
+RDEPEND=">=dev-python/async-upnp-client-0.40[${PYTHON_USEDEP}]
 	>=dev-python/lxml-4.8.0[${PYTHON_USEDEP}]"
 BDEPEND="
 	test? (

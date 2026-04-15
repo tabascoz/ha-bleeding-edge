@@ -20,7 +20,7 @@ SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 
 RDEPEND="
-	>=dev-python/casttube-0.2.1[${PYTHON_USEDEP}]
+	~dev-python/casttube-0.2.1[${PYTHON_USEDEP}]
 	>=dev-python/protobuf-5.29.3[${PYTHON_USEDEP}]
 	>=dev-python/zeroconf-0.147.0[${PYTHON_USEDEP}]
 "

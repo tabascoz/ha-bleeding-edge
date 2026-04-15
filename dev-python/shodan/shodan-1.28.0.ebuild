@@ -9,14 +9,17 @@ DISTUTILS_USE_PEP517=setuptools
 inherit pypi distutils-r1
 
 DESCRIPTION="Python library and command-line utility for Shodan (https://developer.shodan.io)"
-HOMEPAGE="https://pypi.org/project/${PN}/"
-
+HOMEPAGE="https://github.com/achillean/shodan-python"
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~arm64"
-IUSE="test"
-RESTRICT="!test? ( test )"
+IUSE=""
+RESTRICT=""
 
+RDEPEND="
+    >=dev-python/requests-2.20.0[${PYTHON_USEDEP}]
+    >=dev-python/click-7.0[${PYTHON_USEDEP}]
+"
 BDEPEND="
     >=dev-python/setuptools-68.0[${PYTHON_USEDEP}]
 "
