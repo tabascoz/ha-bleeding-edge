@@ -9,7 +9,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="AIO package for the Honeywell Lyric Platform."
 HOMEPAGE="https://github.com/timmo001/aiolyric https://pypi.org/project/aiolyric/"
 
-LICENSE="Apache-2.0"
+LICENSE="MIT"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
@@ -17,8 +17,8 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND=">=dev-python/aiohttp-3.12.15[${PYTHON_USEDEP}]
-	>=dev-python/packaging-24.0[${PYTHON_USEDEP}]"
+RDEPEND=">=dev-python/aiohttp-3.7.3[${PYTHON_USEDEP}]
+	>=dev-python/incremental-22.10.0[${PYTHON_USEDEP}]"
 BDEPEND="
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]
@@ -28,8 +28,22 @@ python_test() {
 	py.test -v -v || die
 }
 
-src_prepare() {
-	eapply ${FILESDIR}/fix-setup.patch
-	default
-}
+#src_prepare() {
+#	eapply ${FILESDIR}/aiolyric-2.0.2-setup-py.patch
+#	default
+#}
+python_prepare_all() {
+
+
+    sed -i \
+        -e '/requirements_setup/d' \
+        -e '/requirements =/d' \
+        -e '/with open("requirements_setup.txt"/,/^$/d' \
+        -e '/with open("requirements.txt"/,/^$/d' \
+        -e 's/install_requires=requirements,/install_requires=[ "aiohttp", "packaging", ],/' \
+        setup.py || die
+
+    sed -i "s/version=\"2.0.2\"/version=\"${PV}\"/" setup.py || die
+    distutils-r1_python_prepare_all
+    }
 distutils_enable_tests pytest

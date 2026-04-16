@@ -18,19 +18,19 @@ IUSE="test"
 RESTRICT="!test? ( test )"
 
 RDEPEND="
-\t>=dev-python/aiohttp-3.8.0[${PYTHON_USEDEP}]
-\t>=dev-python/python-socketio-5.0.0[${PYTHON_USEDEP}]
+    >=dev-python/aiohttp-3.8.0[${PYTHON_USEDEP}]
+    >=dev-python/python-socketio-5.0.0[${PYTHON_USEDEP}]
 "
 BDEPEND="
-\t>=dev-python/setuptools-68.0[${PYTHON_USEDEP}]
-\ttest? (
-\t\tdev-python/pytest[${PYTHON_USEDEP}]
-\t\tdev-python/pytest-asyncio[${PYTHON_USEDEP}]
-\t\tdev-python/aiohttp[${PYTHON_USEDEP}]
-\t\tdev-python/aioresponses[${PYTHON_USEDEP}]
-\t\tdev-python/coverage[${PYTHON_USEDEP}]
-\t\tdev-python/pytest-cov[${PYTHON_USEDEP}]
-\t\tdev-python/python-socketio[${PYTHON_USEDEP}]
-\t)
+    >=dev-python/setuptools-68.0[${PYTHON_USEDEP}]
+    test? (
+    dev-python/pytest[${PYTHON_USEDEP}]
+    dev-python/pytest-asyncio[${PYTHON_USEDEP}]
+    dev-python/aiohttp[${PYTHON_USEDEP}]
+    dev-python/aioresponses[${PYTHON_USEDEP}]
+    dev-python/coverage[${PYTHON_USEDEP}]
+    dev-python/pytest-cov[${PYTHON_USEDEP}]
+    dev-python/python-socketio[${PYTHON_USEDEP}]
+    )
 "
 distutils_enable_tests pytest

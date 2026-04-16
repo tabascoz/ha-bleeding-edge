@@ -17,14 +17,10 @@ KEYWORDS="~amd64 ~arm64"
 IUSE=""
 
 RDEPEND="
-    >=dev-python/pycountry-24.6.1[${PYTHON_USEDEP}]
-    <dev-python/pycountry-25.0.0[${PYTHON_USEDEP}]
-    >=dev-python/pyrate-limiter-4.0.2[${PYTHON_USEDEP}]
-    <dev-python/pyrate-limiter-5.0.0[${PYTHON_USEDEP}]
-    >=dev-python/requests-2.32.5[${PYTHON_USEDEP}]
-    <dev-python/requests-3.0.0[${PYTHON_USEDEP}]
-    >=dev-python/typing-extensions-4.15.0[${PYTHON_USEDEP}]
-    <dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]
+    dev-python/pycountry[${PYTHON_USEDEP}]
+    dev-python/pyrate-limiter[${PYTHON_USEDEP}]
+    dev-python/requests[${PYTHON_USEDEP}]
+    dev-python/typing-extensions[${PYTHON_USEDEP}]
 "
 BDEPEND="
     >=dev-python/setuptools-68.0[${PYTHON_USEDEP}]

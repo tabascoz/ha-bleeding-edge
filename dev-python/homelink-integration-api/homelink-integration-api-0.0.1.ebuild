@@ -23,6 +23,6 @@ RDEPEND="
 "
 BDEPEND="
 	>=dev-python/setuptools-68.0[${PYTHON_USEDEP}]
-	test? (
-	)
+	
+	
 "

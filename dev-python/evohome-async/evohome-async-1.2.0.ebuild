@@ -6,7 +6,7 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 
 DISTUTILS_USE_PEP517=hatchling
-inherit distutils-r1
+inherit distutils-r1 pypi
 #SRC_URI="https://github.com/zxdavb/${PN}/archive/refs/tags/${PV}.tar.gz -> ${P}.gh.tar.gz"
 
 DESCRIPTION="An async Python client for connecting to the Evohome webservice"
@@ -16,7 +16,7 @@ SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
 RESTRICT="!test? ( test )"
-
+SRC_URI="$(pypi_sdist_url)"
 DOCS="README.md"
 
 RDEPEND=">=dev-python/aiohttp-3.13.3[${PYTHON_USEDEP}]

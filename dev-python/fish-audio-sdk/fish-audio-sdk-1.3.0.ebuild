@@ -9,7 +9,7 @@ DISTUTILS_USE_PEP517=setuptools
 inherit pypi distutils-r1
 
 DESCRIPTION="The official Python library for the Fish Audio API"
-HOMEPAGE="https://pypi.org/project/fish-audio-sdk/"
+HOMEPAGE="https://pypi.org/project/fish-audio-sdk/ https://github.com/fishaudio/fish-audio-python"
 
 LICENSE="Apache-2.0"
 SLOT="0"

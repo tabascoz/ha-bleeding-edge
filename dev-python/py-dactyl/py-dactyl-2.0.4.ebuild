@@ -26,4 +26,11 @@ BDEPEND="
         dev-python/pytest[${PYTHON_USEDEP}]
     )
 "
+python_install() {
+    # Remove the tests directory before installing
+    rm -rf "${BUILD_DIR}/install$(python_get_sitedir)/tests" || true
+    
+    distutils-r1_python_install
+    }
+
 distutils_enable_tests pytest

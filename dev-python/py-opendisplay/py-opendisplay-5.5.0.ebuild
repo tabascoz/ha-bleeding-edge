@@ -20,7 +20,7 @@ RESTRICT="!test? ( test )"
 RDEPEND="
 	>=dev-python/bleak-1.0.1[${PYTHON_USEDEP}]
 	>=dev-python/bleak-retry-connector-3.5.0[${PYTHON_USEDEP}]
-	=dev-python/epaper-dithering-0.6.3[${PYTHON_USEDEP}]
+	=dev-python/epaper-dithering-0.6.4[${PYTHON_USEDEP}]
 	>=dev-python/numpy-1.24.0[${PYTHON_USEDEP}]
 	>=dev-python/pillow-10.0.0[${PYTHON_USEDEP}]
 "

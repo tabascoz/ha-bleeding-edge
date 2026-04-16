@@ -17,7 +17,10 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND=">=dev-python/aiohttp-3.3.2,<dev-python/aiohttp-4[${PYTHON_USEDEP}]"
+RDEPEND="
+    >=dev-python/aiohttp-3.3.2[${PYTHON_USEDEP}]
+    <dev-python/aiohttp-4[${PYTHON_USEDEP}]
+    "
 BDEPEND="
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]

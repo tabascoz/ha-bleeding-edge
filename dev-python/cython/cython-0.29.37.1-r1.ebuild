@@ -7,7 +7,7 @@ DISTUTILS_EXT=1
 DISTUTILS_USE_PEP517=setuptools
 PYTHON_TESTED=( python3_{10..11} )
 # 3.12 not tested yet for https://github.com/cython/cython/issues/5285.
-PYTHON_COMPAT=( python3_{11..12} )
+PYTHON_COMPAT=( python3_{12..14} )
 PYTHON_REQ_USE="threads(+)"
 
 inherit distutils-r1 multiprocessing toolchain-funcs elisp-common

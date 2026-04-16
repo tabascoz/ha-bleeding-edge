@@ -29,7 +29,7 @@ BDEPEND="
 		dev-python/pytest[${PYTHON_USEDEP}]
 		dev-python/pytest-asyncio[${PYTHON_USEDEP}]
 		dev-python/pytest-cov[${PYTHON_USEDEP}]
-		dev-python/pytest-httpx>=0.18.0[${PYTHON_USEDEP}]
+		>=dev-python/pytest-httpx-0.18.0[${PYTHON_USEDEP}]
 		dev-python/typing-extensions[${PYTHON_USEDEP}]
 		dev-python/syrupy[${PYTHON_USEDEP}]
 	)"

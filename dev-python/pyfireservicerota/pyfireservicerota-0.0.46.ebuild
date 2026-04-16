@@ -5,7 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=pdm-backend
 inherit distutils-r1 pypi
 
 DESCRIPTION="Python 3 API wrapper for FireServiceRota/BrandweerRooster"

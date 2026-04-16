@@ -5,7 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=hatchling
 inherit pypi distutils-r1
 
 DESCRIPTION="Asynchronous Python client for the Fressnapf Tracker GPS API"

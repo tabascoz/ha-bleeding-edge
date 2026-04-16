@@ -24,4 +24,9 @@ RDEPEND="
 "
 BDEPEND=""
 
+src_prepare() {                                                                                                                                                                                                    
+        echo -e "aiohttp" > requirements.txt                                                                                                                                               
+        eapply_user                                                                                                                                                                                                
+} 
+
 distutils_enable_tests pytest

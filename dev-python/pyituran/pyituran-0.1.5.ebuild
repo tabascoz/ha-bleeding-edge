@@ -10,8 +10,8 @@ inherit pypi distutils-r1
 
 DESCRIPTION="A module to interact with Ituran's web service."
 HOMEPAGE="https://github.com/shmuelzon/pyituran https://pypi.org/project/pyituran/"
-SRC_URI="$(pypi_wheel_url)"
-
+SRC_URI="$(pypi_wheel_url  --unpack)"
+S="${WORKDIR}"
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~arm64"
@@ -36,5 +36,17 @@ BDEPEND="
         dev-python/wheel[${PYTHON_USEDEP}]
     )
 "
+
+python_prepare_all() {
+    # Ensure a clean build-system section (some hatch plugins need this)
+    cat >> pyproject.toml <<- EOF || die
+    [build-system]
+    requires = ["hatchling"]
+    build-backend = "setuptools.build_meta"
+EOF
+
+    distutils-r1_python_prepare_all
+}
+
 
 distutils_enable_tests pytest

@@ -20,9 +20,8 @@ RESTRICT="!test? ( test )"
 DOCS="README.md"
 
 RDEPEND="
-	$(python_gen_cond_dep '~dev-python/bleak-1.0.1[${PYTHON_USEDEP}]' python3_12)
-	$(python_gen_cond_dep '~dev-python/bleak-1.0.1[${PYTHON_USEDEP}]' python3_13)
-	>=dev-python/bleak-retry-connector-4.4.3[${PYTHON_USEDEP}]
+	dev-python/bleak[${PYTHON_USEDEP}] 
+	dev-python/bleak-retry-connector[${PYTHON_USEDEP}]
 	>=dev-python/async-interrupt-1.2.2[${PYTHON_USEDEP}]
 	>=dev-python/cbor2-5.6.5[${PYTHON_USEDEP}]
 "

@@ -3,7 +3,7 @@
 
 EAPI=8
 
-PYTHON_COMPAT=( python3_{10..13} )
+PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=poetry
 inherit distutils-r1 pypi
 
@@ -19,7 +19,10 @@ RESTRICT="!test? ( test )"
 DOCS="README.md"
 
 RDEPEND=">=dev-python/typing-inspect-0.4.0[${PYTHON_USEDEP}]
-	>=dev-python/marshmallow-3.18.0[${PYTHON_USEDEP}]"
+	>=dev-python/marshmallow-3.21.1[${PYTHON_USEDEP}]
+	<dev-python/marshmallow-4[${PYTHON_USEDEP}]
+
+"
 BDEPEND="
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]

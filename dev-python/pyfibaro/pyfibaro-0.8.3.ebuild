@@ -21,6 +21,6 @@ DOCS="README.md"
 
 RDEPEND="
     >=dev-python/requests-2.32[${PYTHON_USEDEP}]
-    <dev-python/requests-2.33[${PYTHON_USEDEP}]
+    <dev-python/requests-3[${PYTHON_USEDEP}]
 "
 distutils_enable_tests pytest

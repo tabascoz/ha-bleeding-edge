@@ -21,6 +21,6 @@ DOCS="README.md"
 
 RDEPEND="dev-python/netifaces[${PYTHON_USEDEP}]
 	>=dev-python/pycryptodome-3.10.0[${PYTHON_USEDEP}]
-	<dev-python/pycryptodome-3.11.0[${PYTHON_USEDEP}]"
+	<dev-python/pycryptodome-4[${PYTHON_USEDEP}]"
 
 distutils_enable_tests pytest

@@ -17,7 +17,6 @@ KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
 RESTRICT="!test? ( test )"
 
-DOCS="README.rst"
 
 RDEPEND=">=dev-python/pyserial-3[${PYTHON_USEDEP}]
 	<dev-python/pyserial-4[${PYTHON_USEDEP}]

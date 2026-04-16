@@ -27,7 +27,7 @@ BDEPEND="
     >=dev-python/setuptools-68.0[${PYTHON_USEDEP}]
     test? (
         dev-python/tomli[${PYTHON_USEDEP}]
-        dev-python/coverage[toml][${PYTHON_USEDEP}]
+        dev-python/coverage[toml,${PYTHON_USEDEP}]
         dev-python/pytest[${PYTHON_USEDEP}]
         dev-python/pytest-xdist[${PYTHON_USEDEP}]
         dev-python/pytest-asyncio[${PYTHON_USEDEP}]

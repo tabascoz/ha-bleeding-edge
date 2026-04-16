@@ -5,7 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 
-DISTUTILS_USE_PEP517=poetry
+DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
 DESCRIPTION="Python client for the Moehlenhoff Alpha2 underfloor heating system"
@@ -25,5 +25,21 @@ BDEPEND="
 	test? (
 		dev-python/pytest-asyncio[${PYTHON_USEDEP}]
 	)"
+
+python_prepare_all() {
+    # Fix missing [build-system] section in upstream pyproject.toml
+    # This is the root cause of "Unable to obtain build-backend from pyproject.toml"
+    cat >> pyproject.toml <<- EOF || die
+
+    [build-system]
+    requires = ["setuptools >= 68.0"]
+    build-backend = "setuptools.build_meta"
+EOF
+                
+    distutils-r1_python_prepare_all
+}
+
+
+
 
 distutils_enable_tests pytest

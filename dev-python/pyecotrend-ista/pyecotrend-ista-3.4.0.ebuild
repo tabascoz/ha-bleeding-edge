@@ -19,7 +19,8 @@ RESTRICT="!test? ( test )"
 DOCS="README.md"
 
 RDEPEND=">=dev-python/requests-2[${PYTHON_USEDEP}]
-	>=dev-python/dataclasses-json-0.6[${PYTHON_USEDEP}]"
+	>=dev-python/dataclasses-json-0.6.7[${PYTHON_USEDEP}]
+"
 
 src_prepare() {
 	touch requirements.txt || die

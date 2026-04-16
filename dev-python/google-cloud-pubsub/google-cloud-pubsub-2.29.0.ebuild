@@ -36,9 +36,8 @@ RDEPEND="
 	<dev-python/protobuf-7.0.0[${PYTHON_USEDEP}]
 	>=dev-python/proto-plus-1.22.0[${PYTHON_USEDEP}]
 	<dev-python/proto-plus-2.0.0[${PYTHON_USEDEP}]
-	python_version >= "3.11" ? ( >=dev-python/proto-plus-1.22.2[${PYTHON_USEDEP}] )
-	python_version >= "3.13" ? ( >=dev-python/proto-plus-1.25.0[${PYTHON_USEDEP}] )
 "
+
 BDEPEND="test? ( dev-python/flaky[${PYTHON_USEDEP}] )"
 
 EPYTEST_PLUGINS=( pytest-asyncio )

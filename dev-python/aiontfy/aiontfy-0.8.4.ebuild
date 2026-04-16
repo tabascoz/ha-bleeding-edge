@@ -5,7 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=hatchling
 inherit pypi distutils-r1
 
 DESCRIPTION="Async ntfy client library"
@@ -18,10 +18,8 @@ IUSE="test"
 RESTRICT="!test? ( test )"
 
 RDEPEND="
-    >=dev-python/aiohttp-3.11[${PYTHON_USEDEP}]
-    <dev-python/aiohttp-3.12[${PYTHON_USEDEP}]
-    >=dev-python/mashumaro-3.13[${PYTHON_USEDEP}]
-    <dev-python/mashumaro-3.14[${PYTHON_USEDEP}]
+    dev-python/aiohttp[${PYTHON_USEDEP}]
+    dev-python/mashumaro[${PYTHON_USEDEP}]
     >=dev-python/orjson-3.11.7[${PYTHON_USEDEP}]
     <dev-python/orjson-4.0[${PYTHON_USEDEP}]
 "

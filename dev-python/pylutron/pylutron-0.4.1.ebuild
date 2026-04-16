@@ -20,7 +20,7 @@ RESTRICT="!test? ( test )"
 DOCS="README.md"
 
 RDEPEND="
-    dev-python/telnetlib3[${PYTHON_USEDEP}]
+    dev-python/standard-telnetlib[${PYTHON_USEDEP}]
 "
 
 distutils_enable_tests pytest

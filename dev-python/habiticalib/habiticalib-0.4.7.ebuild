@@ -6,7 +6,7 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 #PYPI_PN="Habiticalib"
 #PYPI_NO_NORMALIZE=1
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=hatchling
 inherit pypi distutils-r1
 
 DESCRIPTION="Asynchronous Python client library for the Habitica API"

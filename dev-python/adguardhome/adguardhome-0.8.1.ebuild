@@ -17,8 +17,9 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND="dev-python/aiohttp>=3.0.0[${PYTHON_USEDEP}]
-	dev-python/yarl>=1.6.0[${PYTHON_USEDEP}]"
+RDEPEND="
+	>=dev-python/aiohttp-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/yarl-1.6.0[${PYTHON_USEDEP}]"
 
 src_prepare() {
 	# remove unsupported dynamic-versioning plugin

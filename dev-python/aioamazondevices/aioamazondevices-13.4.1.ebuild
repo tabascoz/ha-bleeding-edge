@@ -29,7 +29,7 @@ RDEPEND="
 
 BDEPEND="
     >=dev-python/setuptools-68.0[${PYTHON_USEDEP}]
-    dev-python/poetry[${PYTHON_USEDEP}]
+    dev-python/poetry-core[${PYTHON_USEDEP}]
     test? (
         dev-python/pytest[${PYTHON_USEDEP}]
         dev-python/pytest-asyncio[${PYTHON_USEDEP}]

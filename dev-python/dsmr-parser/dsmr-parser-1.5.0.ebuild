@@ -10,15 +10,14 @@ inherit distutils-r1 pypi
 
 DESCRIPTION="Library to parse Dutch Smart Meter Requirements (DSMR)"
 HOMEPAGE="https://github.com/ndokter/dsmr_parser https://pypi.org/project/dsmr-parser/"
-SRC_URI="$(pypi_wheel_url)"
-
+SRC_URI="$(pypi_wheel_url --unpack)"
+S="${WORKDIR}"
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
 RESTRICT="!test? ( test )"
 
-DOCS="README.rst"
 
 RDEPEND=">=dev-python/pyserial-3[${PYTHON_USEDEP}]
 	<dev-python/pyserial-4[${PYTHON_USEDEP}]
@@ -26,5 +25,16 @@ RDEPEND=">=dev-python/pyserial-3[${PYTHON_USEDEP}]
 	=dev-python/tailer-0.4.1[${PYTHON_USEDEP}]
 	=dev-python/dlms-cosem-21.3.2[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]"
+
+python_prepare_all() {
+    # === Fix missing [build-system] section (same as aioacaia) ===
+    cat >> pyproject.toml <<- EOF || die
+    [build-system]
+    requires = ["setuptools >= 68.0"]
+    build-backend = "setuptools.build_meta"
+EOF
+        
+    distutils-r1_python_prepare_all
+}
 
 distutils_enable_tests pytest

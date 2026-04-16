@@ -5,7 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=hatchling
 inherit pypi distutils-r1
 
 DESCRIPTION="A client library for accessing the Lunatone REST API"
@@ -17,7 +17,7 @@ IUSE="test"
 RESTRICT="!test? ( test )"
 
 RDEPEND="
-    >=dev-python/aiohttp[speedups]-3.12.14[${PYTHON_USEDEP}]
+    >=dev-python/aiohttp-3.12.14[speedups,${PYTHON_USEDEP}]
     >=dev-python/pydantic-2.11.7[${PYTHON_USEDEP}]
 "
 BDEPEND="

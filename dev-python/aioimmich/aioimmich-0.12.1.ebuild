@@ -10,7 +10,10 @@ inherit pypi distutils-r1
 
 DESCRIPTION="Asynchronous library to fetch albums and assets from immich."
 HOMEPAGE="https://pypi.org/project/aioimmich/"
-SRC_URI="$(pypi_wheel_url)"                                                                                                                                                                                        	
+
+SRC_URI="$(pypi_wheel_url --unpack)"
+S="${WORKDIR}"
+
 LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="~amd64 ~arm64"
@@ -29,4 +32,15 @@ BDEPEND="
         dev-python/pytest-asyncio[${PYTHON_USEDEP}]
     )
 "
+python_prepare_all() {
+    # === Fix missing [build-system] section (same as aioacaia) ===
+    cat >> pyproject.toml <<- EOF || die
+    [build-system]
+    requires = ["setuptools >= 68.0"]
+    build-backend = "setuptools.build_meta"
+EOF
+
+    distutils-r1_python_prepare_all
+}
+
 distutils_enable_tests pytest

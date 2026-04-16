@@ -18,12 +18,12 @@ KEYWORDS="~amd64 ~arm64"
 IUSE=""
 
 RDEPEND="
-\tdev-python/requests[${PYTHON_USEDEP}]
-\tdev-python/pandas[${PYTHON_USEDEP}]
-\tdev-python/paho-mqtt[${PYTHON_USEDEP}]
-\tdev-python/xmltodict[${PYTHON_USEDEP}]
-\tdev-python/pycryptodome[${PYTHON_USEDEP}]
+    dev-python/requests[${PYTHON_USEDEP}]
+    dev-python/pandas[${PYTHON_USEDEP}]
+    dev-python/paho-mqtt[${PYTHON_USEDEP}]
+    dev-python/xmltodict[${PYTHON_USEDEP}]
+    dev-python/pycryptodome[${PYTHON_USEDEP}]
 "
 BDEPEND="
-\t>=dev-python/setuptools-68.0[${PYTHON_USEDEP}]
+    >=dev-python/setuptools-68.0[${PYTHON_USEDEP}]
 "

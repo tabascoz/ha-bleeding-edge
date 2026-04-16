@@ -32,7 +32,7 @@ RDEPEND="
     <dev-python/pydantic-3[${PYTHON_USEDEP}]
     >=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
     >=dev-python/rich-13.0.0[${PYTHON_USEDEP}]
-    >=dev-python/srp-1.0.21[${PYTHON_USEDEP}]
+    >=dev-python/srp-1.0.22[${PYTHON_USEDEP}]
     >=dev-python/tinyhtml-1.1.0[${PYTHON_USEDEP}]
     >=dev-python/typer-0.16.1[${PYTHON_USEDEP}]
     =dev-python/tzlocal-5.3.1[${PYTHON_USEDEP}]

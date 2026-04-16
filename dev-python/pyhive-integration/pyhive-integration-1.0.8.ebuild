@@ -18,7 +18,7 @@ IUSE="test"
 RESTRICT="!test? ( test )"
 
 RDEPEND="
-    dev-python/pre-commit[${PYTHON_USEDEP}]
+    dev-vcs/pre-commit
     >=dev-python/boto3-1.16.10[${PYTHON_USEDEP}]
     >=dev-python/botocore-1.19.10[${PYTHON_USEDEP}]
     dev-python/requests[${PYTHON_USEDEP}]

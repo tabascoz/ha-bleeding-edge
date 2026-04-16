@@ -9,13 +9,10 @@ inherit pypi distutils-r1
 
 DESCRIPTION="Microsoft Azure Event Hubs Client Library for Python"
 HOMEPAGE="https://pypi.org/project/${PN}/"
-#SRC_URI="$(pypi_sdist_url --no-normalize)"
-#SRC_URI="$(pypi_sdist_url"
-#SRC_URI="https://files.pythonhosted.org/packages/source/a/azure-eventhub/azure-eventhub-5.11.1.tar.gz"
-#S="${WORKDIR}/azure_eventhub-${PV}"
 
-SRC_URI="$(pypi_wheel_url)"
-
+#SRC_URI="$(pypi_wheel_url) --unpack"
+SRC_URI="$(pypi_wheel_url --unpack)"
+S="${WORKDIR}"
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~arm64"
@@ -29,3 +26,15 @@ RDEPEND="
 BDEPEND="
     >=dev-python/setuptools-68.0[${PYTHON_USEDEP}]
 "
+
+
+python_prepare_all() {
+    # === Fix missing [build-system] section (same as aioacaia) ===
+    cat >> pyproject.toml <<- EOF || die
+    [build-system]
+    requires = ["setuptools >= 68.0"]
+    build-backend = "setuptools.build_meta"
+EOF
+                
+    distutils-r1_python_prepare_all
+}

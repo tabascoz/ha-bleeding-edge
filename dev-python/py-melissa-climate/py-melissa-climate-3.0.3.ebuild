@@ -22,8 +22,8 @@ BDEPEND="
 		dev-python/pytest[${PYTHON_USEDEP}]
 	)
 "
-src_prepare() {
-	eapply "${FILESDIR}"/fix-setup-py.patch
-	eapply_user
-}
+#src_prepare() {
+#	eapply "${FILESDIR}"/fix-setup-py.patch
+#	eapply_user
+#}
 distutils_enable_tests unittest

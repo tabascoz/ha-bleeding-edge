@@ -16,9 +16,9 @@ KEYWORDS="~amd64 ~arm64"
 IUSE="cli"
 
 RDEPEND="
-\tcli? ( >=dev-python/click-8.0.1[${PYTHON_USEDEP}] )
+cli? ( >=dev-python/click-8.0.1[${PYTHON_USEDEP}] )
 "
 BDEPEND="
-\t>=dev-python/setuptools-68.0[${PYTHON_USEDEP}]
+    >=dev-python/setuptools-68.0[${PYTHON_USEDEP}]
 "
 distutils_enable_tests pytest

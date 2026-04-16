@@ -5,7 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 inherit distutils-r1
 
 DESCRIPTION="A aiohttp-based client for Intergas InComfort/InTouch Lan2RF systems"

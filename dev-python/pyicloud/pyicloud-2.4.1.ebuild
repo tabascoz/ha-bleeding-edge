@@ -26,7 +26,7 @@ RDEPEND="
     >=dev-python/keyring-25.6.0[${PYTHON_USEDEP}]
     >=dev-python/keyrings-alt-5.0.2[${PYTHON_USEDEP}]
     >=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
-    >=dev-python/srp-1.0.21[${PYTHON_USEDEP}]
+    >=dev-python/srp-1.0.22[${PYTHON_USEDEP}]
     =dev-python/tzlocal-5.3.1[${PYTHON_USEDEP}]
 "
 BDEPEND="

@@ -17,7 +17,6 @@ KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
 RESTRICT="!test? ( test )"
 
-DOCS="README.rst"
 
 RDEPEND="dev-python/pytz[${PYTHON_USEDEP}]
 	dev-python/pyserial[${PYTHON_USEDEP}]

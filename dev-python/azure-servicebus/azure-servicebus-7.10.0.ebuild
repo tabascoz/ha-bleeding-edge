@@ -10,7 +10,8 @@ inherit pypi distutils-r1
 
 DESCRIPTION="Microsoft Azure Service Bus Client Library for Python"
 HOMEPAGE="https://pypi.org/project/azure-servicebus/"
-SRC_URI="$(pypi_wheel_url)"
+SRC_URI="$(pypi_wheel_url --unpack)"
+S="${WORKDIR}"
 
 
 LICENSE="MIT"
@@ -25,5 +26,15 @@ BDEPEND="
         dev-python/pytest[${PYTHON_USEDEP}]
     )
 "
+python_prepare_all() {
+    # === Fix missing [build-system] section (same as aioacaia) ===
+    cat >> pyproject.toml <<- EOF || die
+    [build-system]
+    requires = ["setuptools >= 68.0"]
+    build-backend = "setuptools.build_meta"
+EOF
+                
+    distutils-r1_python_prepare_all
+}
 
 distutils_enable_tests pytest

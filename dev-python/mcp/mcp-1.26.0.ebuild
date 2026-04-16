@@ -4,9 +4,8 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
-PYTHON_REQ_USE=">=3.10"
 
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=hatchling
 inherit pypi distutils-r1
 
 DESCRIPTION="Model Context Protocol SDK"
@@ -26,7 +25,7 @@ RDEPEND="
     >=dev-python/pydantic-settings-2.5.2[${PYTHON_USEDEP}]
     >=dev-python/pydantic-2.11.0[${PYTHON_USEDEP}]
     <dev-python/pydantic-3.0.0[${PYTHON_USEDEP}]
-    dev-python/pyjwt[crypto]>=2.10.1[${PYTHON_USEDEP}]
+    >=dev-python/pyjwt-2.10.1[crypto,${PYTHON_USEDEP}]
     >=dev-python/python-multipart-0.0.9[${PYTHON_USEDEP}]
     >=dev-python/sse-starlette-1.6.1[${PYTHON_USEDEP}]
     >=dev-python/starlette-0.27[${PYTHON_USEDEP}]

@@ -22,7 +22,7 @@ DOCS="README.md"
 RDEPEND=">=dev-python/aiohttp-3.7.4[${PYTHON_USEDEP}]
 	>=dev-python/backoff-1.9.0[${PYTHON_USEDEP}]
 	dev-python/yarl[${PYTHON_USEDEP}]
-	=dev-python/reverse_geocode-1.6.5[${PYTHON_USEDEP}]"
+	=dev-python/reverse-geocode-1.6.5[${PYTHON_USEDEP}]"
 BDEPEND="
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]

@@ -10,7 +10,8 @@ inherit distutils-r1 pypi
 
 DESCRIPTION="Async version of apcaccess library implemented in python."
 HOMEPAGE="https://github.com/yuxincs/aioapcaccess https://pypi.org/project/aioapcaccess/"
-SRC_URI="$(pypi_wheel_url)"
+SRC_URI="$(pypi_wheel_url --unpack)"
+
 
 LICENSE="MIT"
 SLOT="0"
@@ -25,6 +26,19 @@ BDEPEND="
 		dev-python/pytest-asyncio[${PYTHON_USEDEP}]
 	)"
 
-python_compile() {
-	distutils_wheel_install "${BUILD_DIR}/install" "${DISTDIR}/${P}-py3-none-any.whl"
-}
+#python_compile() {
+#distutils_wheel_install "${BUILD_DIR}/install" "${DISTDIR}/${P}-py3-none-any.whl"
+#
+
+S="${WORKDIR}"
+
+python_prepare_all() {
+    # === Fix missing [build-system] section (same as aioacaia) ===
+    cat >> pyproject.toml <<- EOF || die
+    [build-system]
+    requires = ["setuptools >= 68.0"]
+    build-backend = "setuptools.build_meta"
+EOF
+            
+distutils-r1_python_prepare_all
+                            }

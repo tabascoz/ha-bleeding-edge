@@ -22,4 +22,12 @@ DOCS="README.md"
 
 RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]"
 
+# Remove the tests directory during installation to avoid the stray files warning
+python_install() {
+    # Remove tests directory before installation
+    rm -rf "${BUILD_DIR}/install/$(python_get_sitedir)/tests" || true
+    
+    distutils-r1_python_install
+}
+
 distutils_enable_tests pytest

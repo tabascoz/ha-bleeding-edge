@@ -34,4 +34,15 @@ BDEPEND="
     )
 "
 
+python_prepare_all() {
+    # === Fix missing [build-system] section (same as aioacaia) ===
+    cat >> pyproject.toml <<- EOF || die
+    [build-system]
+    requires = ["setuptools >= 68.0"]
+    build-backend = "setuptools.build_meta"
+EOF
+                        
+    distutils-r1_python_prepare_all
+                            }
+
 distutils_enable_tests pytest

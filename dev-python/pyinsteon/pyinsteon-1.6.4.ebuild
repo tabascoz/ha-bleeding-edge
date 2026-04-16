@@ -17,7 +17,7 @@ KEYWORDS="amd64 arm arm64 x86"
 DOCS="DESCRIPTION.rst"
 
 RDEPEND="
-	dev-python/pypubsub[${PYTHON_USEDEP}]
+	dev-python/PyPubSub[${PYTHON_USEDEP}]
 	dev-python/aiofiles[${PYTHON_USEDEP}]
 	dev-python/aiohttp[${PYTHON_USEDEP}]
 	>=dev-python/pyserial-asyncio-fast-0.16[${PYTHON_USEDEP}]

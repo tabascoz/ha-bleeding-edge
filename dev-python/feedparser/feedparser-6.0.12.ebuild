@@ -23,17 +23,6 @@ RDEPEND="
 	dev-python/sgmllib3k[${PYTHON_USEDEP}]
 "
 
-PATCHES=(
-	"${FILESDIR}/feedparser-6.0.8-fix-py3.10.patch"
-)
-
-src_prepare() {
-	# broken
-	rm \
-		tests/illformed/chardet/big5.xml \
-		tests/illformed/undeclared_namespace.xml || die
-	distutils-r1_src_prepare
-}
 
 python_test() {
 	"${EPYTHON}" tests/runtests.py -v || die "Tests failed with ${EPYTHON}"

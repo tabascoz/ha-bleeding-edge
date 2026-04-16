@@ -4,7 +4,7 @@
 EAPI=8
 
 PYTHON_COMPAT=( pypy3_11 python3_{11..14} )
-DISTUTILS_USE_PEP517=poetry
+DISTUTILS_USE_PEP517=hatchling
 inherit distutils-r1 pypi
 
 DESCRIPTION="Companion library for musiccast devices intended for the Home Assistant integration."

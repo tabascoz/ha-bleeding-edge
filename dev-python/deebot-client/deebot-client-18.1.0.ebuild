@@ -4,7 +4,7 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
-DISTUTILS_USE_PEP517=hatchling
+DISTUTILS_USE_PEP517=maturin
 inherit distutils-r1 pypi
 
 DESCRIPTION="Deebot client library in python 3"

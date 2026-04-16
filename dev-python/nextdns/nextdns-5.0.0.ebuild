@@ -24,16 +24,16 @@ RDEPEND=">=dev-python/aiohttp-3.13.0[${PYTHON_USEDEP}]
 
 BDEPEND="
 	test? (
-		dev-python/pytest-asyncio-1.3.0[${PYTHON_USEDEP}]
-		dev-python/aioresponses-0.7.8[${PYTHON_USEDEP}]
-		dev-python/coverage-7.13.1[${PYTHON_USEDEP}]
-		dev-python/mypy-1.19.1[${PYTHON_USEDEP}]
-		dev-python/pytest-cov-7.0.0[${PYTHON_USEDEP}]
-		dev-python/pytest-error-for-skips-2.0.2[${PYTHON_USEDEP}]
-		dev-python/pytest-timeout-2.4.0[${PYTHON_USEDEP}]
-		dev-python/pytest-9.0.2[${PYTHON_USEDEP}]
-		dev-python/ruff-0.14.10[${PYTHON_USEDEP}]
-		dev-python/syrupy-5.0.0[${PYTHON_USEDEP}]
+		~dev-python/pytest-asyncio-1.3.0[${PYTHON_USEDEP}]
+		~dev-python/aioresponses-0.7.8[${PYTHON_USEDEP}]
+		~dev-python/coverage-7.13.1[${PYTHON_USEDEP}]
+		~dev-python/mypy-1.19.1[${PYTHON_USEDEP}]
+		~dev-python/pytest-cov-7.0.0[${PYTHON_USEDEP}]
+		~dev-python/pytest-error-for-skips-2.0.2[${PYTHON_USEDEP}]
+		~dev-python/pytest-timeout-2.4.0[${PYTHON_USEDEP}]
+		~dev-python/pytest-9.0.2[${PYTHON_USEDEP}]
+		~dev-python/ruff-0.14.10[${PYTHON_USEDEP}]
+		~dev-python/syrupy-5.0.0[${PYTHON_USEDEP}]
 	)"
 
 distutils_enable_tests pytest
