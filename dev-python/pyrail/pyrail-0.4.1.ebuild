@@ -4,7 +4,7 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 inherit distutils-r1 pypi
 
 DESCRIPTION="Python wrapper for the iRail API"
@@ -21,20 +21,14 @@ DOCS="README.md"
 RDEPEND="
 	>=dev-python/aiohttp-3.11.11[${PYTHON_USEDEP}]
 	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
-	>=dev-python/mashumaro[orjson]-3.15[${PYTHON_USEDEP}]
-	<dev-python/mashumaro[orjson]-4.0[${PYTHON_USEDEP}]
+	>=dev-python/mashumaro-3.15[orjson,${PYTHON_USEDEP}]
+	<dev-python/mashumaro-4.0[orjson,${PYTHON_USEDEP}]
 "
 BDEPEND="
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]
 	)
 "
-
-src_prepare() {
-	sed "s/version = os.environ\['CI_JOB_ID'\]/version = '${PV}'/g" -i setup.py || die
-	sed "s/packages=find_packages()/packages=find_packages(exclude=['tests','tests.*'])/g" -i setup.py || die
-	eapply_user
-}
 
 python_test() {
 	py.test -v -v || die

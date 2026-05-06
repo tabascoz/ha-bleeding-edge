@@ -5,7 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 
-DISTUTILS_USE_PEP517=poetry
+DISTUTILS_USE_PEP517=hatchling
 inherit distutils-r1 pypi
 DESCRIPTION="Library for interacting with UPB PIM."
 HOMEPAGE="https://github.com/gwww/upb-lib https://pypi.org/project/upb-lib/"
@@ -25,7 +25,7 @@ RDEPEND="
 
 src_prepare() {
 	sed -e 's/"CHANGELOG.md",//' -i pyproject.toml || die
-	eapply "${FILESDIR}/${PN}-rename-cmdr.patch"
+	#eapply "${FILESDIR}/${PN}-rename-cmdr.patch"
 	mv "${WORKDIR}/upb_lib-${PV}/bin/cmdr.py" "${WORKDIR}/upb_lib-${PV}/bin/upb_cmdr.py"
 	mv "${WORKDIR}/upb_lib-${PV}/bin/simple" "${WORKDIR}/upb_lib-${PV}/bin/upb_simple"
 	eapply_user

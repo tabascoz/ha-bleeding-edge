@@ -27,4 +27,21 @@ BDEPEND="
         dev-python/pytest[${PYTHON_USEDEP}]
     )
 "
+
+python_prepare_all() {
+
+    # Add a clean, working build-system section
+    cat >> pyproject.toml <<- 'EOF' || die
+
+    [build-system]
+    requires = ["setuptools >= 68.0"]
+    build-backend = "setuptools.build_meta"
+EOF
+
+    # Fix hardcoded version if it exists
+    sed -i "s/version = [\"']1\.11\.0[\"']/version = \"${PV}\"/" pyproject.toml || true
+
+    distutils-r1_python_prepare_all
+}
+
 distutils_enable_tests pytest

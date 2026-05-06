@@ -19,7 +19,7 @@ RESTRICT="!test? ( test )"
 DOCS="README.md"
 
 RDEPEND="
-	=dev-python/zigpy-1.2.2[${PYTHON_USEDEP}]
+	dev-python/zigpy[${PYTHON_USEDEP}]
 	=dev-python/bellows-0.49.0[${PYTHON_USEDEP}]
 	=dev-python/zigpy-znp-0.14.3[${PYTHON_USEDEP}]
 	=dev-python/zigpy-deconz-0.25.5[${PYTHON_USEDEP}]

@@ -9,7 +9,7 @@ inherit distutils-r1 pypi
 
 DESCRIPTION="A library to authenticate with yolink device"
 HOMEPAGE="https://github.com/YoSmart-Inc/yolink-api https://pypi.org/project/yolink-api/"
-SRC_URI="$(pypi_wheel_url)"
+SRC_URI="$(pypi_wheel_url --unpack)"
 
 LICENSE="MIT"
 SLOT="0"
@@ -17,10 +17,23 @@ KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
 RESTRICT="!test? ( test )"
 
-DOCS="README.md"
 
-RDEPEND="dev-python/aiohttp-3.8.1[${PYTHON_USEDEP}]
+RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]
 	>=dev-python/aiomqtt-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/aiomqtt-3.0.0[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/tenacity-8.1.0[${PYTHON_USEDEP}]"
+
+
+S="${WORKDIR}"
+
+python_prepare_all() {
+    # === Fix missing [build-system] section (same as aioacaia) ===
+    cat >> pyproject.toml <<- EOF || die
+    [build-system]
+    requires = ["setuptools >= 68.0"]
+    build-backend = "setuptools.build_meta"
+EOF
+
+    distutils-r1_python_prepare_all
+}

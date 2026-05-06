@@ -5,7 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 
-DISTUTILS_USE_PEP517=poetry
+DISTUTILS_USE_PEP517=hatchling
 inherit distutils-r1 pypi
 
 DESCRIPTION="A library implementing API control of the SMLIGHT SLZB-06 LAN Coordinators."

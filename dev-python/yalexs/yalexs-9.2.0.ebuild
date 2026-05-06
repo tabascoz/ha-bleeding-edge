@@ -27,7 +27,7 @@ RDEPEND=">=dev-python/ciso8601-2.1.3[${PYTHON_USEDEP}]
 	>=dev-python/aiofiles-23[${PYTHON_USEDEP}]
 	>=dev-python/freenub-0.1.0[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.5.0[${PYTHON_USEDEP}]
-	>=dev-python/python-socketio-5.11.3[asyncio-client,${PYTHON_USEDEP}]
+	>=dev-python/python-socketio-5.11.3[${PYTHON_USEDEP}]
 	>=dev-python/propcache-0.0.0[${PYTHON_USEDEP}]"
 
 distutils_enable_tests pytest

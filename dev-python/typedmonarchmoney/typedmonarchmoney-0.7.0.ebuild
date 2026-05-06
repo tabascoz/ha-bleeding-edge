@@ -5,7 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 
-DISTUTILS_USE_PEP517=poetry
+DISTUTILS_USE_PEP517=hatchling
 inherit distutils-r1 pypi
 
 DESCRIPTION="A Typed wrapper around Monarch Money"
@@ -19,7 +19,7 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND="=dev-python/monarchmoneycommunity-1.3.0[${PYTHON_USEDEP}]
+RDEPEND="=dev-python/monarchmoneycommunity-1.3.1[${PYTHON_USEDEP}]
 	>=dev-python/rich-10.1.0[${PYTHON_USEDEP}]"
 
 src_prepare() {

@@ -5,7 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=hatchling
 inherit pypi distutils-r1
 
 DESCRIPTION="Async Python client for the Victron Energy VRM API"
@@ -18,7 +18,7 @@ IUSE="dev test"
 RESTRICT="!test? ( test )"
 
 RDEPEND="
-	>=dev-python/aiohttp-3.8.0[speedups,${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-3.8.0[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/pytz-2025.2[${PYTHON_USEDEP}]
 "

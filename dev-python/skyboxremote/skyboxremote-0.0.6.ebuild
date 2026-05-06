@@ -4,7 +4,7 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=flit
 inherit pypi distutils-r1
 SRC_URI="$(pypi_sdist_url)"
 

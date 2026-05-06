@@ -15,7 +15,6 @@ KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
 RESTRICT="!test? ( test )"
 
-DOCS="README.rst"
 
 RDEPEND="dev-python/cryptography[${PYTHON_USEDEP}]"
 BDEPEND="

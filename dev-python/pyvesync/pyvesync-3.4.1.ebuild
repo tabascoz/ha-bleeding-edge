@@ -19,6 +19,6 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND=">=dev-python/aiohttp-3.8.1[${PYTHON_USEDEP}] >=dev-python/mashumaro[orjson]-3.13.1[${PYTHON_USEDEP}]"
+RDEPEND=">=dev-python/aiohttp-3.8.1[${PYTHON_USEDEP}] dev-python/mashumaro[${PYTHON_USEDEP}]"
 
 distutils_enable_tests pytest

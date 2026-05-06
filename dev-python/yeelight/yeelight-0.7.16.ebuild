@@ -26,8 +26,8 @@ DOCS="README.md"
 
 RDEPEND="
     dev-python/ifaddr[${PYTHON_USEDEP}]
-    <dev-python/importlib_metadata-3.8[${PYTHON_USEDEP}]
-    <dev-python/async-timeout-3.11[${PYTHON_USEDEP}]
+    dev-python/importlib-metadata[${PYTHON_USEDEP}]
+    dev-python/async-timeout[${PYTHON_USEDEP}]
 "
 DEPEND="
     test? (

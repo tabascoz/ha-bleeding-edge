@@ -1213,7 +1213,7 @@ RDEPEND="${RDEPEND}
 	wake_on_lan? ( ~dev-python/wakeonlan-3.1.0[${PYTHON_USEDEP}] )
 	wallbox? ( ~dev-python/wallbox-0.9.0[${PYTHON_USEDEP}] )
 	waqi? ( ~dev-python/aiowaqi-3.1.0[${PYTHON_USEDEP}] )
-	waterfurnace? ( ~dev-python/waterfurnace-1.6.2[${PYTHON_USEDEP}] )
+	waterfurnace? ( ~dev-python/waterfurnace-1.6.4[${PYTHON_USEDEP}] )
 	watergate? ( ~dev-python/watergate-local-api-2025.1.0[${PYTHON_USEDEP}] )
 	watts? ( ~dev-python/visionpluspython-1.0.2[${PYTHON_USEDEP}] )
 	watttime? ( ~dev-python/aiowatttime-0.1.1[${PYTHON_USEDEP}] )

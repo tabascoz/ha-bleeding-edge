@@ -4,7 +4,7 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=hatchling
 inherit pypi distutils-r1
 
 DESCRIPTION="Python API for interacting with the Stiebel Eltron ISG web gateway via Modbus."
@@ -27,10 +27,6 @@ BDEPEND="
 	)
 "
 
-src_prepare() {
-	sed -i "s/packages=find_packages()/packages=find_packages(exclude=['test'])/g" -i setup.py || die
-	eapply_user
-}
 
 python_test() {
 	py.test -v -v || die

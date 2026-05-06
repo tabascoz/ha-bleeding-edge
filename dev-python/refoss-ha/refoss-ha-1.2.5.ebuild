@@ -10,7 +10,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Refoss to support for Home Assistant"
 HOMEPAGE="https://github.com/ashionky/refoss_ha https://pypi.org/project/refoss-ha/"
 
-SRC_URI="$(pypi_wheel_url)"
+SRC_URI="$(pypi_wheel_url --unpack)"
 
 LICENSE="MIT"
 SLOT="0"
@@ -18,6 +18,19 @@ KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
 RESTRICT="!test? ( test )"
 
-python_compile() {
-	distutils_wheel_install "${BUILD_DIR}/install" "${DISTDIR}/${P/-/_}-py3-none-any.whl"
+#python_compile() {
+#	distutils_wheel_install "${BUILD_DIR}/install" "${DISTDIR}/${P/-/_}-py3-none-any.whl"
+#}
+
+S="${WORKDIR}"
+
+python_prepare_all() {
+    # === Fix missing [build-system] section (same as aioacaia) ===
+    cat >> pyproject.toml <<- EOF || die
+    [build-system]
+    requires = ["setuptools >= 68.0"]
+    build-backend = "setuptools.build_meta"
+EOF
+
+    distutils-r1_python_prepare_all
 }

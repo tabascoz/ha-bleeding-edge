@@ -16,7 +16,7 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND=">dev-python/Authlib-1.2.0[${PYTHON_USEDEP}]
+RDEPEND=">dev-python/authlib-1.2.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	>=dev-python/deprecated-1.2.15[${PYTHON_USEDEP}]
 	<dev-python/deprecated-2.0.0[${PYTHON_USEDEP}]"

@@ -5,7 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 
-DISTUTILS_USE_PEP517=poetry
+DISTUTILS_USE_PEP517=hatchling
 inherit distutils-r1 pypi
 
 DESCRIPTION="An event-based asynchronous library to read UDP packets from Weatherflow weather systems on a local network without any reliance on the cloud."
@@ -19,8 +19,8 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND=">=dev-python/pint-0.24[${PYTHON_USEDEP}]
-	>=dev-python/psychrolib-2.5.0[${PYTHON_USEDEP}]"
+RDEPEND=">=dev-python/Pint-0.24[${PYTHON_USEDEP}]
+	>=dev-python/PsychroLib-2.5.0[${PYTHON_USEDEP}]"
 BDEPEND="
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]
