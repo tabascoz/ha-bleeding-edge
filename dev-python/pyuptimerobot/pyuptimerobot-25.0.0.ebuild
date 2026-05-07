@@ -2,14 +2,12 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
-
 PYTHON_COMPAT=( python3_{12..14} )
-
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=hatchling
 inherit distutils-r1 pypi
 
-DESCRIPTION="Provides an API for requesting information from an Openhome device"
-HOMEPAGE="https://github.com/bazwilliams/openhomedevice https://pypi.org/project/openhomedevice/"
+DESCRIPTION="Python API wrapper for Uptime Robot."
+HOMEPAGE="https://github.com/ludeeus/pyuptimerobot https://pypi.org/project/pyuptimerobot/"
 
 LICENSE="MIT"
 SLOT="0"
@@ -19,13 +17,13 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND=">=dev-python/async-upnp-client-0.40[${PYTHON_USEDEP}]
-	>=dev-python/lxml-4.8.0[${PYTHON_USEDEP}]"
+RDEPEND=">=dev-python/aiohttp-3.6.1[${PYTHON_USEDEP}]
+	<dev-python/aiohttp-4.0[${PYTHON_USEDEP}]"
 BDEPEND="
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]
-	)
-"
+		dev-python/pytest-asyncio[${PYTHON_USEDEP}]
+	)"
 
 python_test() {
 	py.test -v -v || die

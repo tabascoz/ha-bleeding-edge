@@ -4,14 +4,12 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
-
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
+DESCRIPTION="Asynchronous implementation of the Frontier Silicon API"
+HOMEPAGE="https://github.com/zhelev/python-afsapi.git https://pypi.org/project/afsapi/"
 
-DESCRIPTION="Provides an API for requesting information from an Openhome device"
-HOMEPAGE="https://github.com/bazwilliams/openhomedevice https://pypi.org/project/openhomedevice/"
-
-LICENSE="MIT"
+LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="~amd64 ~arm64"
 IUSE="test"
@@ -19,13 +17,15 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND=">=dev-python/async-upnp-client-0.40[${PYTHON_USEDEP}]
-	>=dev-python/lxml-4.8.0[${PYTHON_USEDEP}]"
+RDEPEND="
+    >=dev-python/aiohttp-3.9[${PYTHON_USEDEP}]
+    <dev-python/aiohttp-4[${PYTHON_USEDEP}]
+    >=dev-python/defusedxml-0.7.1[${PYTHON_USEDEP}]
+    "
 BDEPEND="
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]
-	)
-"
+	)"
 
 python_test() {
 	py.test -v -v || die
