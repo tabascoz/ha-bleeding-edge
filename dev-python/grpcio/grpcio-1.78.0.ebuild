@@ -5,7 +5,7 @@ EAPI=8
 
 DISTUTILS_EXT=1
 DISTUTILS_USE_PEP517=setuptools
-PYTHON_COMPAT=( python3_{12..14} )
+PYTHON_COMPAT=( python3_{11..14} )
 
 inherit distutils-r1 flag-o-matic multiprocessing pypi
 
@@ -29,6 +29,7 @@ SRC_URI+="
 LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
+
 DEPEND="
 	dev-libs/openssl:=
 	net-dns/c-ares:=
@@ -36,8 +37,6 @@ DEPEND="
 "
 RDEPEND="
 	${DEPEND}
-	>=dev-python/typing-extensions-4.12[${PYTHON_USEDEP}]
-	<dev-python/typing-extensions-5.0.0[${PYTHON_USEDEP}]
 "
 # TODO: try to remove coverage dep
 BDEPEND="
