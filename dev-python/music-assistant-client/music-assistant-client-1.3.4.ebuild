@@ -27,7 +27,7 @@ RDEPEND="
 
 BDEPEND="
 	test? (
-		dev-python/codespell[${PYTHON_USEDEP}]
+		dev-util/codespell[${PYTHON_USEDEP}]
 		dev-python/isort[${PYTHON_USEDEP}]
 		dev-python/mypy[${PYTHON_USEDEP}]
 		dev-python/pre-commit[${PYTHON_USEDEP}]

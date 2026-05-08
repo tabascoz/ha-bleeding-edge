@@ -24,7 +24,6 @@ RDEPEND="
     dev-python/audioop-lts[${PYTHON_USEDEP}]
     voice? ( dev-python/pynacl[${PYTHON_USEDEP}] )
     speed? (
-        dev-python/brotli[${PYTHON_USEDEP}]
         dev-python/aiodns[${PYTHON_USEDEP}]
         dev-python/brotlicffi[${PYTHON_USEDEP}]
         dev-python/orjson[${PYTHON_USEDEP}]

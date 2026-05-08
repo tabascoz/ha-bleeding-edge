@@ -19,7 +19,7 @@ RESTRICT="!test? ( test )"
 
 #DOCS="README.md"
 
-RDEPEND="~dev-python/azure-kusto-data-${PV}[${PYTHON_USEDEP}]
+RDEPEND="~dev-python/azure-kusto-data-4.5.1[${PYTHON_USEDEP}]
 	>=dev-python/azure-storage-blob-12[${PYTHON_USEDEP}]
 	>=dev-python/azure-storage-queue-12[${PYTHON_USEDEP}]
 	>=dev-python/tenacity-8.0.0[${PYTHON_USEDEP}]"

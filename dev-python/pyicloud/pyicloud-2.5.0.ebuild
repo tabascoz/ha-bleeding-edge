@@ -9,7 +9,7 @@ DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
 DESCRIPTION="PyiCloud is a module which allows pythonistas to interact with iCloud webservices."
-HOMEPAGE="https://github.com/picklepete/pyicloud https://pypi.org/project/pyicloud/"
+HOMEPAGE="https://github.com/timlaing/pyicloud https://pypi.org/project/pyicloud/"
 
 LICENSE="MIT"
 SLOT="0"
@@ -17,7 +17,7 @@ KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
 RESTRICT="!test? ( test )"
 
-DOCS="README.rst"
+DOCS="README.md"
 
 RDEPEND="
     >=dev-python/certifi-2024.12.14[${PYTHON_USEDEP}]

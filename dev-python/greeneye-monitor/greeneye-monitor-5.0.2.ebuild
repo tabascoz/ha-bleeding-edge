@@ -22,7 +22,7 @@ DOCS="README.rst"
 RDEPEND="
 	>=dev-python/aiohttp-3.8.5[${PYTHON_USEDEP}]
 	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
-	=dev-python/siobrultech-protocols-0.13[${PYTHON_USEDEP}]
+	=dev-python/siobrultech-protocols-0.13.0[${PYTHON_USEDEP}]
 "
 BDEPEND="
 	test? (

@@ -9,7 +9,7 @@ DISTUTILS_USE_PEP517=setuptools
 inherit pypi distutils-r1
 
 DESCRIPTION="An async implementation of PyAcaia"
-HOMEPAGE="https://pypi.org/project/${PN}/"
+HOMEPAGE="https://pypi.org/project/aioacaia/"
 
 SRC_URI="$(pypi_sdist_url)"
 

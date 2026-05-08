@@ -28,7 +28,7 @@ BDEPEND="
 		dev-python/pytest[${PYTHON_USEDEP}]
 		dev-python/pytest-cov[${PYTHON_USEDEP}]
 		dev-python/pytest-socket[${PYTHON_USEDEP}]
-		dev-python/ruff[${PYTHON_USEDEP}]
+		dev-util/ruff[${PYTHON_USEDEP}]
 	)
 "
 distutils_enable_tests pytest

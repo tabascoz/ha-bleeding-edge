@@ -21,7 +21,7 @@ DOCS="README.md"
 RDEPEND=">=dev-python/aiohttp-3.12.7[${PYTHON_USEDEP}]
 	>=dev-python/orjson-3.10[${PYTHON_USEDEP}]
 	<dev-python/orjson-4[${PYTHON_USEDEP}]
-	dev-python/pint[${PYTHON_USEDEP}]"
+	dev-python/Pint[${PYTHON_USEDEP}]"
 BDEPEND="
 	test? (
 		dev-python/pytest-cov[${PYTHON_USEDEP}]

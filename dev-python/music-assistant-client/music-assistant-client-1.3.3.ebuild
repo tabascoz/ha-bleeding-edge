@@ -27,7 +27,7 @@ RDEPEND="
 
 BDEPEND="
 	test? (
-		=dev-python/codespell-2.4.1[${PYTHON_USEDEP}]
+		=dev-util/codespell-2.4.1[${PYTHON_USEDEP}]
 		=dev-python/isort-7.0.0[${PYTHON_USEDEP}]
 		=dev-python/mypy-1.19.1[${PYTHON_USEDEP}]
 		=dev-python/pre-commit-4.5.0[${PYTHON_USEDEP}]

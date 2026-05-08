@@ -27,7 +27,7 @@ BDEPEND="
         >=dev-python/pytest-8.0[${PYTHON_USEDEP}]
         >=dev-python/pytest-asyncio-0.23[${PYTHON_USEDEP}]
         >=dev-python/aioresponses-0.7.6[${PYTHON_USEDEP}]
-        >=dev-python/ruff-0.5.0[${PYTHON_USEDEP}]
+        >=dev-util/ruff-0.5.0[${PYTHON_USEDEP}]
         >=dev-python/mypy-1.9.0[${PYTHON_USEDEP}]
     )
 "

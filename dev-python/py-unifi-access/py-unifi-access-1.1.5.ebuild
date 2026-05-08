@@ -30,7 +30,7 @@ BDEPEND="
         dev-python/aioresponses[${PYTHON_USEDEP}]
         dev-python/pre-commit[${PYTHON_USEDEP}]
         dev-python/mypy[${PYTHON_USEDEP}]
-        dev-python/ruff[${PYTHON_USEDEP}]
+        dev-util/ruff[${PYTHON_USEDEP}]
     )
 "
 distutils_enable_tests pytest

@@ -42,7 +42,7 @@ BDEPEND="
 		dev-python/pyfakefs[${PYTHON_USEDEP}]
 		dev-python/pytest[${PYTHON_USEDEP}]
 		dev-python/pytest-asyncio[${PYTHON_USEDEP}]
-		dev-python/radicale[${PYTHON_USEDEP}]
+		www-apps/radicale[${PYTHON_USEDEP}]
 		dev-python/tzlocal[${PYTHON_USEDEP}]
 		>=dev-python/xandikos-0.3.3[${PYTHON_USEDEP}]
 	)

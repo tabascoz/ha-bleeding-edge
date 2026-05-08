@@ -21,7 +21,7 @@ RDEPEND="
 	dev-python/typing-extensions[${PYTHON_USEDEP}]
 	esphome? ( >=dev-python/aioesphomeapi-44.17.0[${PYTHON_USEDEP}] )
 	dev? (
-		dev-python/ruff[${PYTHON_USEDEP}]
+		dev-util/ruff[${PYTHON_USEDEP}]
 		dev-python/pytest[${PYTHON_USEDEP}]
 		dev-python/pytest-asyncio[${PYTHON_USEDEP}]
 		dev-python/pytest-timeout[${PYTHON_USEDEP}]

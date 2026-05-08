@@ -47,7 +47,7 @@ RDEPEND="
 		<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
 	)
 	local-tokenizer? (
-		>=dev-python/sentencepiece-0.2.0[${PYTHON_USEDEP}]
+		>=sci-ml/sentencepiece-0.2.0[${PYTHON_USEDEP}]
 		dev-python/protobuf[${PYTHON_USEDEP}]
 	)
 	pyopenssl? (

@@ -28,7 +28,7 @@ BDEPEND="
         dev-python/pytest-aiohttp[${PYTHON_USEDEP}]
         dev-python/pytest-cov[${PYTHON_USEDEP}]
         dev-python/black[${PYTHON_USEDEP}]
-        dev-python/ruff[${PYTHON_USEDEP}]
+        dev-util/ruff[${PYTHON_USEDEP}]
         dev-python/mypy[${PYTHON_USEDEP}]
         dev-python/aioresponses[${PYTHON_USEDEP}]
     )

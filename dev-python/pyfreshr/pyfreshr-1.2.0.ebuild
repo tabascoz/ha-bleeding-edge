@@ -25,7 +25,7 @@ BDEPEND="
         dev-python/pytest[${PYTHON_USEDEP}]
         dev-python/pytest-asyncio[${PYTHON_USEDEP}]
         dev-python/pytest-cov[${PYTHON_USEDEP}]
-        dev-python/ruff[${PYTHON_USEDEP}]
+        dev-util/ruff[${PYTHON_USEDEP}]
         dev-python/mypy[${PYTHON_USEDEP}]
     )
 "

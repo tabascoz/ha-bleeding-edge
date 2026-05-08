@@ -27,7 +27,7 @@ BDEPEND="
         >=dev-python/pytest-asyncio-0.21[${PYTHON_USEDEP}]
         >=dev-python/pytest-cov-4.0[${PYTHON_USEDEP}]
         >=dev-python/mypy-1.0[${PYTHON_USEDEP}]
-        >=dev-python/ruff-0.1[${PYTHON_USEDEP}]
+        >=dev-util/ruff-0.1[${PYTHON_USEDEP}]
         >=dev-python/flake8-4.0[${PYTHON_USEDEP}]
         >=dev-python/aioresponses-0.7[${PYTHON_USEDEP}]
     )

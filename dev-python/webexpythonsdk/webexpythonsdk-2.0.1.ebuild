@@ -24,7 +24,7 @@ RDEPEND=">=dev-python/requests-2.32.3[${PYTHON_USEDEP}]
 BDEPEND="
 	test? (
 		dev-python/pyyaml[${PYTHON_USEDEP}]
-		dev-python/ruff[${PYTHON_USEDEP}]
+		dev-util/ruff[${PYTHON_USEDEP}]
 	)"
 
 src_prepare() {
