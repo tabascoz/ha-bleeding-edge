@@ -20,7 +20,3 @@ KEYWORDS="amd64 arm64 ~loong ~riscv x86"
 
 distutils_enable_tests pytest
 
-PATCHES=(
-	# https://github.com/borntyping/python-colorlog/commit/607485def2d60b60c40c0d682574324b47fc30ba
-	"${FILESDIR}/${P}-py313.patch"
-)
