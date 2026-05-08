@@ -9,11 +9,10 @@ inherit distutils-r1 pypi
 
 DESCRIPTION="Find the vendor for a given MAC address"
 HOMEPAGE="https://github.com/bauerj/mac_vendor_lookup https://pypi.org/project/mac-vendor-lookup/"
-#MY_PN=${PN//-/_}
-#COMMIT="90dbea48f8a9d567b5f9039ebd151ddfe7d12a19"
 SRC_URI="$(pypi_wheel_url)"                                                                                                                                                                                        
 
-S="${WORKDIR}/${MY_PN}-${COMMIT}"
+#S="${WORKDIR}/${MY_PN}-${COMMIT}"
+S=${WORKDIR}
 
 LICENSE="Apache-2.0"
 SLOT="0"
@@ -21,7 +20,6 @@ KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
 RESTRICT="!test? ( test )"
 
-DOCS="README.md"
 
 RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]
 	dev-python/aiofiles[${PYTHON_USEDEP}]"
@@ -30,13 +28,12 @@ BDEPEND="
 		dev-python/pytest[${PYTHON_USEDEP}]
 	)"
 
-python_test() {
-	distutils_enable_tests pytest
-}
-
-src_prepare() {
-	xzcat "${DISTDIR}/mac-vendors-${PV}.txt.xz" > "${S}/mac-vendors.txt" || die
-	eapply_user
-}
+#src_prepare() {
+#	xzcat "${DISTDIR}/mac-vendors-${PV}.txt.xz" > "${S}/mac-vendors.txt" || die
+#	eapply_user
+#}
+python_compile() {                                                                                                                                                                                                 
+    distutils_wheel_install "${BUILD_DIR}/install" "${DISTDIR}/mac_vendor_lookup-${PV}-py3-none-any.whl"                                                                                                                          
+}   
 
 distutils_enable_tests pytest

@@ -19,7 +19,9 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND=">=dev-python/cryptography-2.8[${PYTHON_USEDEP}]"
+RDEPEND=">=dev-python/cryptography-2.8[${PYTHON_USEDEP}]
+	~dev-python/pypandoc-1.7.4[${PYTHON_USEDEP}]
+"
 BDEPEND="
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]
