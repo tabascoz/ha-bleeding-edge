@@ -24,7 +24,7 @@ RDEPEND="
 	dev-python/aiohttp-sse-client2[${PYTHON_USEDEP}]
 	>=dev-python/yarl-1.6.0[${PYTHON_USEDEP}]
 	>=dev-python/mashumaro-3.11[${PYTHON_USEDEP}]
-	~dev-python/orjson-3.11.7[${PYTHON_USEDEP}]
+	dev-python/orjson[${PYTHON_USEDEP}]
 "
 BDEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]
