@@ -4,7 +4,7 @@
 # please keep this ebuild at EAPI 8 -- sys-apps/portage dep
 EAPI=8
 
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=standalone
 PYTHON_COMPAT=( python3_{12..14} )
 
 inherit distutils-r1 pypi
