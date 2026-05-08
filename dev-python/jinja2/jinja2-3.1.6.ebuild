@@ -32,10 +32,10 @@ distutils_enable_tests pytest
 # XXX: handle Babel better?
 
 src_prepare() {
-	local PATCHES=(
-		# https://github.com/pallets/jinja/pull/1979
-		"${FILESDIR}/${P}-py313.patch"
-	)
+#	local PATCHES=(
+#		# https://github.com/pallets/jinja/pull/1979
+#		"${FILESDIR}/${P}-py313.patch"
+#	)
 
 	# avoid unnecessary dep on extra sphinxcontrib modules
 	sed -i '/sphinxcontrib.log_cabinet/ d' docs/conf.py || die

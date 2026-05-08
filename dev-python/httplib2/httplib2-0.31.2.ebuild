@@ -34,7 +34,7 @@ BDEPEND="
 
 distutils_enable_tests pytest
 
-PATCHES=( "${FILESDIR}/${PN}-0.12.1-use-system-cacerts.patch" )
+#ATCHES=( "${FILESDIR}/${PN}-0.12.1-use-system-cacerts.patch" )
 
 src_prepare() {
 	sed -i -e '/--cov/d' setup.cfg || die
