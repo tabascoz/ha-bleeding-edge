@@ -2,11 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
     <remote-id type="pypi">PyXiaomiGateway</remote-id>
     <remote-id type="github">Danielhiversen/PyXiaomiGateway</remote-id>
+    <maintainer status="(from package - evaluate that)">
+      <name>=?utf-8?q?Daniel_Hjelseth_H=C3=B8yer?=</name>
+    </maintainer>
   </upstream>
 </pkgmetadata>

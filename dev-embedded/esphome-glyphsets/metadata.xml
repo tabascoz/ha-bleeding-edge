@@ -2,15 +2,11 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
     <remote-id type="pypi">esphome-glyphsets</remote-id>
     <remote-id type="github">esphome/esphome-glyphsets</remote-id>
-    <maintainer status="unknown">
-      <email>hello@openhomefoundation.org</email>
-      <name>ESPHome authors</name>
-    </maintainer>
   </upstream>
 </pkgmetadata>

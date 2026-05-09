@@ -2,15 +2,11 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
     <remote-id type="pypi">devolo-plc-api</remote-id>
     <remote-id type="github">2Fake/devolo_plc_api</remote-id>
-    <maintainer status="unknown">
-      <email>m.bong@famabo.de</email>
-      <name>Markus Bong</name>
-    </maintainer>
   </upstream>
 </pkgmetadata>

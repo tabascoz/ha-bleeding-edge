@@ -2,15 +2,11 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
     <remote-id type="pypi">gpiod</remote-id>
-    <remote-id type="github">hhk7734/python3-gpiod</remote-id>
-    <maintainer status="unknown">
-      <email>hhk7734@gmail.com</email>
-      <name>Hyeonki Hong</name>
-    </maintainer>
+    <remote-id type="github">brgl/libgpiod</remote-id>
   </upstream>
 </pkgmetadata>

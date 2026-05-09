@@ -2,15 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
     <remote-id type="pypi">roonapi</remote-id>
     <remote-id type="github">pavoni/pyroon</remote-id>
-    <maintainer status="unknown">
-      <email>mail@gregdowling.com</email>
+    <maintainer status="(from package - evaluate that)">
       <name>Greg Dowling</name>
+      <email>mail@gregdowling.com</email>
     </maintainer>
   </upstream>
 </pkgmetadata>

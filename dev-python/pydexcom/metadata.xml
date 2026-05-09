@@ -2,15 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">pydexcom</remote-id>
-    <remote-id type="github">gagebenne/pydexcom</remote-id>
-    <maintainer status="unknown">
-      <email>gagedbenne@gmail.com</email>
-      <name>Gage Benne</name>
+    <remote-id type="pypi">dexcom</remote-id>
+    <remote-id type="github">davidmerrick/dexcom</remote-id>
+    <maintainer status="actively maintained">
+      <name>David Merrick</name>
     </maintainer>
   </upstream>
 </pkgmetadata>

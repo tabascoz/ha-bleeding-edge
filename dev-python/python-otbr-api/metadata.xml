@@ -2,15 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">python-otbr-api</remote-id>
-    <remote-id type="github">home-assistant-libs/python-otbr-api</remote-id>
-    <maintainer status="unknown">
-      <email>hello@home-assistant.io</email>
-      <name>The Home Assistant Authors</name>
+    <remote-id type="pypi">otbr-api</remote-id>
+    <remote-id type="github">openweave/ot-br-posix</remote-id>
+    <maintainer status="actively maintained">
+      <name>Weave</name>
     </maintainer>
+    <doc>https://openweave.io/</doc>
   </upstream>
 </pkgmetadata>

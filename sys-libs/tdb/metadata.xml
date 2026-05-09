@@ -1,8 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>samba@gentoo.org</email>
-    <name>Samba</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">tdb</remote-id>
+    <maintainer status="(from package - evaluate that)">
+      <name>UNKNOWN</name>
+      <email>UNKNOWN</email>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

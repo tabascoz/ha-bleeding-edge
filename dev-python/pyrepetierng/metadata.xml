@@ -2,15 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">pyrepetierng</remote-id>
-    <remote-id type="github">ShadowBr0ther/pyrepetier-ng</remote-id>
-    <maintainer status="unknown">
-      <email>lb@revin-tech.com</email>
-      <name>ShadowBr0ther</name>
+    <remote-id type="pypi">repetierng</remote-id>
+    <remote-id type="github">repetier/repetier-ng</remote-id>
+    <maintainer status="actively maintained">
+      <name>Repetier</name>
     </maintainer>
+    <doc>https://repetier.com/</doc>
   </upstream>
 </pkgmetadata>

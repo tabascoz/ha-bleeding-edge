@@ -2,15 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">pyfido</remote-id>
-    <remote-id type="github">titilambert/pyfido</remote-id>
-    <maintainer status="unknown">
-      <email>titilambert@gmail.com</email>
-      <name>Thibault Cohen</name>
+    <remote-id type="pypi">fido</remote-id>
+    <remote-id type="github">Yelp/fido</remote-id>
+    <maintainer status="(from package - evaluate that)">
+      <name>John Billings</name>
+      <email>billings@yelp.com</email>
     </maintainer>
   </upstream>
 </pkgmetadata>

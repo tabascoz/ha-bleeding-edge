@@ -2,15 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
     <remote-id type="pypi">btsocket</remote-id>
-    <remote-id type="github">ukBaz/python_bluezmgmt</remote-id>
-    <maintainer status="unknown">
-      <email>barry_byford@yahoo.co.uk</email>
+    <remote-id type="github">ukBaz/python-btsocket</remote-id>
+    <maintainer status="(from package - evaluate that)">
       <name>Barry Byford</name>
+      <email>barry_byford@yahoo.co.uk</email>
     </maintainer>
   </upstream>
 </pkgmetadata>

@@ -2,15 +2,11 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">PyJWT</remote-id>
-    <remote-id type="github">jpadilla/pyjwt</remote-id>
-    <maintainer status="unknown">
-      <email>hello@jpadilla.com</email>
-      <name>Jose Padilla</name>
-    </maintainer>
+    <remote-id type="pypi">jwt</remote-id>
+    <remote-id type="github">GehirnInc/python-jwt.git</remote-id>
   </upstream>
 </pkgmetadata>

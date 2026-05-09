@@ -2,15 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
     <remote-id type="pypi">py-cpuinfo</remote-id>
-    <remote-id type="github">workhorsy/py-cpuinfo</remote-id>
-    <maintainer status="unknown">
-      <email>matthew.brennan.jones@gmail.com</email>
-      <name>Matthew Brennan Jones</name>
+    <remote-id type="github">s-matyukevich/py-cpuinfo</remote-id>
+    <maintainer status="actively maintained">
+      <name>Sergey Matyukevich</name>
     </maintainer>
   </upstream>
 </pkgmetadata>

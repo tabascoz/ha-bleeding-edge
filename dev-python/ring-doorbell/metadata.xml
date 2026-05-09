@@ -2,11 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
     <remote-id type="pypi">ring-doorbell</remote-id>
     <remote-id type="github">python-ring-doorbell/python-ring-doorbell</remote-id>
+    <maintainer status="(from package - evaluate that)">
+      <name>python-ring-doorbell developers</name>
+    </maintainer>
   </upstream>
 </pkgmetadata>

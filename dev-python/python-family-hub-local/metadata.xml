@@ -2,15 +2,7 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">python-family-hub-local</remote-id>
-    <remote-id type="github">Klathmon/python-family-hub-local</remote-id>
-    <maintainer status="unknown">
-      <email>gregbenner1@gmail.com</email>
-      <name>Gregory Benner</name>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

@@ -2,15 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
     <remote-id type="pypi">pyotp</remote-id>
-    <remote-id type="github">pyotp/pyotp</remote-id>
-    <maintainer status="unknown">
-      <email>kislyuk@gmail.com</email>
-      <name>PyOTP contributors</name>
+    <remote-id type="github">sissaschool/pyotp</remote-id>
+    <maintainer status="actively maintained">
+      <name>Sissa School</name>
     </maintainer>
   </upstream>
 </pkgmetadata>

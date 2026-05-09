@@ -2,15 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">pycfdns</remote-id>
-    <remote-id type="github">ludeeus/pycfdns</remote-id>
-    <maintainer status="unknown">
-      <email>ludeeus@ludeeus.dev</email>
-      <name>Ludeeus</name>
+    <remote-id type="pypi">cfdns</remote-id>
+    <remote-id type="github">madflojo/cfdns</remote-id>
+    <maintainer status="(from package - evaluate that)">
+      <name>madflojo</name>
+      <email>ben@bencane.com</email>
     </maintainer>
   </upstream>
 </pkgmetadata>

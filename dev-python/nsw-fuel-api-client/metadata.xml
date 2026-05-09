@@ -2,15 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
     <remote-id type="pypi">nsw-fuel-api-client</remote-id>
     <remote-id type="github">nickw444/nsw-fuel-api-client</remote-id>
-    <maintainer status="unknown">
-      <email>nick@nickwhyte.com</email>
+    <maintainer status="(from package - evaluate that)">
       <name>Nick Whyte</name>
+      <email>nick@nickwhyte.com</email>
     </maintainer>
   </upstream>
 </pkgmetadata>

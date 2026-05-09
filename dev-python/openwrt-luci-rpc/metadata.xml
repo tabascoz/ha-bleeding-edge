@@ -2,15 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
     <remote-id type="pypi">openwrt-luci-rpc</remote-id>
     <remote-id type="github">fbradyirl/openwrt-luci-rpc</remote-id>
-    <maintainer status="unknown">
-      <email>fbradyirl@github.io</email>
+    <maintainer status="(from package - evaluate that)">
       <name>Finbarr Brady</name>
+      <email>fbradyirl@github.io</email>
     </maintainer>
   </upstream>
 </pkgmetadata>

@@ -2,18 +2,11 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
     <remote-id type="pypi">httpx</remote-id>
     <remote-id type="github">encode/httpx</remote-id>
-    <maintainer status="unknown">
-      <email>tom@tomchristie.com</email>
-      <name>Tom Christie</name>
-    </maintainer>
   </upstream>
-  <use>
-    <flag name="cli">Install the CLI "httpx" client.</flag>
-  </use>
 </pkgmetadata>

@@ -2,15 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
     <remote-id type="pypi">xs1-api-client</remote-id>
     <remote-id type="github">markusressel/xs1-api-client</remote-id>
-    <maintainer status="unknown">
-      <email>mail@markusressel.de</email>
+    <maintainer status="(from package - evaluate that)">
       <name>Markus Ressel</name>
+      <email>mail@markusressel.de</email>
     </maintainer>
   </upstream>
 </pkgmetadata>

@@ -2,11 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">pyeconet</remote-id>
-    <remote-id type="github">w1ll1am23/pyeconet</remote-id>
+    <remote-id type="pypi">econet</remote-id>
+    <remote-id type="github">pyeconet/pyeconet</remote-id>
+    <maintainer status="actively maintained">
+      <name>John Doe</name>
+    </maintainer>
   </upstream>
 </pkgmetadata>

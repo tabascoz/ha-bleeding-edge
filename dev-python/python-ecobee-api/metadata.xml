@@ -2,15 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">python-ecobee-api</remote-id>
-    <remote-id type="github">nkgilley/python-ecobee-api</remote-id>
-    <maintainer status="unknown">
-      <email>nkgilley@gmail.com</email>
-      <name>Nolan Gilley</name>
+    <remote-id type="pypi">ecobee-api</remote-id>
+    <remote-id type="github">simonmcc/ecobee-api</remote-id>
+    <maintainer status="actively maintained">
+      <name>Simon McCulloch</name>
     </maintainer>
   </upstream>
 </pkgmetadata>

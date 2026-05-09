@@ -2,15 +2,12 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
     <remote-id type="pypi">yt-dlp</remote-id>
+    <remote-id type="github">yt-dlp/yt-dlp#readme</remote-id>
     <remote-id type="github">yt-dlp/yt-dlp</remote-id>
-    <maintainer status="unknown">
-      <email>pukkandan.ytdlp@gmail.com</email>
-      <name>pukkandan</name>
-    </maintainer>
   </upstream>
 </pkgmetadata>

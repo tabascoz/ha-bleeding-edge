@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <maintainer type="project">
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
+  </maintainer>
+  <upstream>
+    <remote-id type="pypi">psnawp</remote-id>
+    <remote-id type="github">isFakeAccount/psnawp</remote-id>
+    <maintainer status="(from package - evaluate that)">
+      <name>Yoshikage Kira</name>
+      <email>8bit_yoshikage_kira@proton.me</email>
+    </maintainer>
+  </upstream>
+</pkgmetadata>

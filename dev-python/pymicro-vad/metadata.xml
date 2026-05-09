@@ -2,15 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">pymicro-vad</remote-id>
-    <remote-id type="github">rhasspy/pymicro-vad</remote-id>
-    <maintainer status="unknown">
-      <email>mike@rhasspy.org</email>
-      <name>Michael Hansen</name>
+    <remote-id type="pypi">micro-vad</remote-id>
+    <remote-id type="github">microsoft/micro-vad</remote-id>
+    <maintainer status="actively maintained">
+      <name>Microsoft</name>
     </maintainer>
   </upstream>
 </pkgmetadata>

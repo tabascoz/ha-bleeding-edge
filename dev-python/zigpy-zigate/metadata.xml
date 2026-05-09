@@ -2,15 +2,11 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
     <remote-id type="pypi">zigpy-zigate</remote-id>
     <remote-id type="github">zigpy/zigpy-zigate</remote-id>
-    <maintainer status="unknown">
-      <email>sebatien.ramage@gmail.com</email>
-      <name>Sébastien RAMAGE</name>
-    </maintainer>
   </upstream>
 </pkgmetadata>

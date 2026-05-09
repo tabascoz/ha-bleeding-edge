@@ -2,15 +2,11 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
     <remote-id type="pypi">starlink-grpc-core</remote-id>
     <remote-id type="github">sparky8512/starlink-grpc-tools</remote-id>
-    <maintainer status="unknown">
-      <email>sparky8512-py@yahoo.com</email>
-      <name>sparky8512</name>
-    </maintainer>
   </upstream>
 </pkgmetadata>

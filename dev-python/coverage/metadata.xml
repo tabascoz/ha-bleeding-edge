@@ -2,15 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
     <remote-id type="pypi">coverage</remote-id>
-    <remote-id type="github">nedbat/coveragepy</remote-id>
-    <maintainer status="unknown">
+    <remote-id type="github">coveragepy/coveragepy</remote-id>
+    <maintainer status="(from package - evaluate that)">
+      <name>Ned Batchelder and 253 others</name>
       <email>ned@nedbatchelder.com</email>
-      <name>Ned Batchelder and 222 others</name>
     </maintainer>
   </upstream>
 </pkgmetadata>

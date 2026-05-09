@@ -2,15 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">pyhomematic</remote-id>
-    <remote-id type="github">danielperna84/pyhomematic</remote-id>
-    <maintainer status="unknown">
-      <email>danielperna84@gmail.com</email>
-      <name>Daniel Perna</name>
+    <remote-id type="pypi">homematic</remote-id>
+    <remote-id type="github">pyhomematic/pyhomematic</remote-id>
+    <maintainer status="actively maintained">
+      <name>Hannes D. Schmid</name>
     </maintainer>
   </upstream>
 </pkgmetadata>

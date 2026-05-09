@@ -2,15 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">pychannels</remote-id>
-    <remote-id type="github">fancybits/pychannels</remote-id>
-    <maintainer status="unknown">
-      <email>jon@getchannels.com</email>
-      <name>Fancy Bits, LLC</name>
+    <remote-id type="pypi">channels</remote-id>
+    <remote-id type="github">django/channels</remote-id>
+    <maintainer status="(from package - evaluate that)">
+      <name>Django Software Foundation</name>
+      <email>foundation@djangoproject.com</email>
     </maintainer>
   </upstream>
 </pkgmetadata>

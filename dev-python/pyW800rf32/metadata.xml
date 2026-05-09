@@ -2,15 +2,10 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">pyW800rf32</remote-id>
-    <remote-id type="github">horga83/W800rf32</remote-id>
-    <maintainer status="unknown">
-      <email>farrisg@gmsys.com</email>
-      <name>George Farris</name>
-    </maintainer>
+    <remote-id type="pypi">W800rf32</remote-id>
   </upstream>
 </pkgmetadata>

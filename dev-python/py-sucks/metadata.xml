@@ -2,15 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">py-sucks</remote-id>
-    <remote-id type="github">mib1185/py-sucks</remote-id>
-    <maintainer status="unknown">
-      <email>sucks-users@googlegroups.com</email>
+    <remote-id type="pypi">sucks</remote-id>
+    <remote-id type="github">wpietri/sucks</remote-id>
+    <maintainer status="(from package - evaluate that)">
       <name>William Pietri</name>
+      <email>sucks-users@googlegroups.com</email>
     </maintainer>
   </upstream>
 </pkgmetadata>

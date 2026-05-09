@@ -2,15 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">py-vapid</remote-id>
-    <remote-id type="github">mozilla-services/vapid</remote-id>
-    <maintainer status="unknown">
-      <email>src+vapid@jrconlin.com</email>
-      <name>JR Conlin</name>
+    <remote-id type="pypi">vapid</remote-id>
+    <remote-id type="github">adamchainz/vapid</remote-id>
+    <maintainer status="actively maintained">
+      <name>Adam Chainz</name>
     </maintainer>
   </upstream>
 </pkgmetadata>

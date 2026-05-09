@@ -2,15 +2,12 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
     <remote-id type="pypi">aioruuvigateway</remote-id>
+    <remote-id type="github">akx/aioruuvigateway#readme</remote-id>
     <remote-id type="github">akx/aioruuvigateway</remote-id>
-    <maintainer status="unknown">
-      <email>akx@iki.fi</email>
-      <name>Aarni Koskela</name>
-    </maintainer>
   </upstream>
 </pkgmetadata>

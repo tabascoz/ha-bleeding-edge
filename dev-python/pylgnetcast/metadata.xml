@@ -2,15 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">pylgnetcast</remote-id>
-    <remote-id type="github">Drafteed/python-lgnetcast</remote-id>
-    <maintainer status="unknown">
-      <email>artemon_93@mail.ru</email>
-      <name>Artem Draft</name>
+    <remote-id type="pypi">lgnetcast</remote-id>
+    <remote-id type="github">mikebrady/lgnetcast</remote-id>
+    <maintainer status="actively maintained">
+      <name>Mike Brady</name>
     </maintainer>
   </upstream>
 </pkgmetadata>

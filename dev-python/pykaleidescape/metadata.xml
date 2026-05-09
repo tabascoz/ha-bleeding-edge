@@ -2,15 +2,11 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">pykaleidescape</remote-id>
-    <remote-id type="github">SteveEasley/pykaleidescape</remote-id>
-    <maintainer status="unknown">
-      <email>tardis74@yahoo.com</email>
-      <name>Steve Easley</name>
-    </maintainer>
+    <remote-id type="pypi">kaleidescape</remote-id>
+    <remote-id type="github">kaleidescape/kaleidescape</remote-id>
   </upstream>
 </pkgmetadata>

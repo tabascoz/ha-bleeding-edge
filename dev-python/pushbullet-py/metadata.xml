@@ -2,15 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
     <remote-id type="pypi">pushbullet.py</remote-id>
-    <remote-id type="github">rbrcsk/pushbullet</remote-id>
-    <maintainer status="unknown">
-      <email>pypi@richardb.me</email>
-      <name>Richard B</name>
+    <remote-id type="github">ashleydw/pushbullet.py</remote-id>
+    <maintainer status="actively maintained">
+      <name>Ashley Williams</name>
     </maintainer>
+    <doc>https://pushbullet.com/</doc>
   </upstream>
 </pkgmetadata>

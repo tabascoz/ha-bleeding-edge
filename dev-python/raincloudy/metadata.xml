@@ -2,15 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
     <remote-id type="pypi">raincloudy</remote-id>
     <remote-id type="github">tchellomello/raincloudy</remote-id>
-    <maintainer status="unknown">
-      <email>tchello.mello@gmail.com</email>
+    <maintainer status="(from package - evaluate that)">
       <name>Marcelo Moreira de Mello</name>
+      <email>tchello.mello@gmail.com</email>
     </maintainer>
   </upstream>
 </pkgmetadata>

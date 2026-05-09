@@ -2,15 +2,7 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">pyedimax</remote-id>
-    <remote-id type="github">andreipop2005/pyedimax</remote-id>
-    <maintainer status="unknown">
-      <email>andreipop2005@gmail.com</email>
-      <name>Andrei Pop</name>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

@@ -2,15 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">pyCEC</remote-id>
-    <remote-id type="github">konikvranik/pycec</remote-id>
-    <maintainer status="unknown">
-      <email>hpa@suteren.net</email>
-      <name>Petr Vraník</name>
+    <remote-id type="pypi">CEC</remote-id>
+    <remote-id type="github">trainman419/python-cec</remote-id>
+    <maintainer status="(from package - evaluate that)">
+      <name>Austin Hendrix</name>
+      <email>namniart@gmail.com</email>
     </maintainer>
   </upstream>
 </pkgmetadata>

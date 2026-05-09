@@ -2,15 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
     <remote-id type="pypi">huawei-lte-api</remote-id>
     <remote-id type="github">Salamek/huawei-lte-api</remote-id>
-    <maintainer status="unknown">
-      <email>adam.schubert@sg1-game.net</email>
+    <maintainer status="(from package - evaluate that)">
       <name>Adam Schubert</name>
+      <email>adam.schubert@sg1-game.net</email>
     </maintainer>
   </upstream>
 </pkgmetadata>

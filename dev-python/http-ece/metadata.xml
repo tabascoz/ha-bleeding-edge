@@ -2,15 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
     <remote-id type="pypi">http-ece</remote-id>
     <remote-id type="github">martinthomson/encrypted-content-encoding</remote-id>
-    <maintainer status="unknown">
-      <email>martin.thomson@gmail.com</email>
+    <maintainer status="(from package - evaluate that)">
       <name>Martin Thomson</name>
+      <email>martin.thomson@gmail.com</email>
     </maintainer>
   </upstream>
 </pkgmetadata>

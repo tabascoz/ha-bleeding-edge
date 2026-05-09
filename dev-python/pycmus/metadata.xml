@@ -2,15 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">pycmus</remote-id>
-    <remote-id type="github">mtreinish/pycmus</remote-id>
-    <maintainer status="unknown">
-      <email>mtreinish@kortar.org</email>
-      <name>Matthew Treinish</name>
+    <remote-id type="pypi">cmus</remote-id>
+    <remote-id type="github">michael-grunder/pycmus</remote-id>
+    <maintainer status="actively maintained">
+      <name>Michael Grunder</name>
     </maintainer>
   </upstream>
 </pkgmetadata>

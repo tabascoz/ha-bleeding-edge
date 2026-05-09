@@ -2,15 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
     <remote-id type="pypi">aiolifx-themes</remote-id>
     <remote-id type="github">Djelibeybi/aiolifx-themes</remote-id>
-    <maintainer status="unknown">
-      <email>me@dje.li</email>
+    <maintainer status="(from package - evaluate that)">
       <name>Avi Miller</name>
+      <email>me@dje.li</email>
     </maintainer>
   </upstream>
 </pkgmetadata>

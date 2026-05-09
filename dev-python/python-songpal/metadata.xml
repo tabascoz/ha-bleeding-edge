@@ -2,15 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">python-songpal</remote-id>
-    <remote-id type="github">rytilahti/python-songpal</remote-id>
-    <maintainer status="unknown">
-      <email>tpr@iki.fi</email>
-      <name>Teemu R</name>
+    <remote-id type="pypi">songpal</remote-id>
+    <remote-id type="github">karlch/smart-home</remote-id>
+    <maintainer status="actively maintained">
+      <name>Karl Choi</name>
     </maintainer>
   </upstream>
 </pkgmetadata>

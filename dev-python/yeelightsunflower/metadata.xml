@@ -2,15 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
     <remote-id type="pypi">yeelightsunflower</remote-id>
     <remote-id type="github">lindsaymarkward/python-yeelight-sunflower</remote-id>
-    <maintainer status="unknown">
-      <email>lindsay.ward@jcu.edu.au</email>
+    <maintainer status="(from package - evaluate that)">
       <name>Lindsay Ward</name>
+      <email>lindsay.ward@jcu.edu.au</email>
     </maintainer>
   </upstream>
 </pkgmetadata>

@@ -2,15 +2,11 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
     <remote-id type="pypi">voluptuous-serialize</remote-id>
-    <remote-id type="github">balloob/voluptuous-serialize</remote-id>
-    <maintainer status="unknown">
-      <email>Paulus@PaulusSchoutsen.nl</email>
-      <name>Paulus Schoutsen</name>
-    </maintainer>
+    <remote-id type="github">home-assistant-libs/voluptuous-serialize</remote-id>
   </upstream>
 </pkgmetadata>

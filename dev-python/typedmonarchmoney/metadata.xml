@@ -2,14 +2,10 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
     <remote-id type="pypi">typedmonarchmoney</remote-id>
-    <maintainer status="unknown">
-      <email>jeffstein@gmail.com</email>
-      <name>Jeff Stein</name>
-    </maintainer>
   </upstream>
 </pkgmetadata>

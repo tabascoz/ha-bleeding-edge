@@ -2,15 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">python-digitalocean</remote-id>
-    <remote-id type="github">koalalorenzo/python-digitalocean</remote-id>
-    <maintainer status="unknown">
-      <email>lorenzo@setale.me</email>
-      <name>Lorenzo Setale ( http://who.is.lorenzo.setale.me/? )</name>
+    <remote-id type="pypi">digitalocean</remote-id>
+    <remote-id type="github">digitalocean/digitalocean-python</remote-id>
+    <maintainer status="actively maintained">
+      <name>DigitalOcean</name>
     </maintainer>
   </upstream>
 </pkgmetadata>

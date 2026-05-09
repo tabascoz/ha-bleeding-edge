@@ -2,15 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">pysabnzbd</remote-id>
-    <remote-id type="github">jeradM/pysabnzbd</remote-id>
-    <maintainer status="unknown">
-      <email>jerad.meisner@gmail.com</email>
-      <name>Jerad Meisner</name>
+    <remote-id type="pypi">sabnzbd</remote-id>
+    <remote-id type="github">sabnzbd/sabnzbd</remote-id>
+    <maintainer status="actively maintained">
+      <name>Sabnzbd Team</name>
     </maintainer>
   </upstream>
 </pkgmetadata>

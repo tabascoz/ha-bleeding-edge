@@ -2,18 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
     <remote-id type="pypi">samsungctl</remote-id>
     <remote-id type="github">Ape/samsungctl</remote-id>
-    <maintainer status="unknown">
-      <email>ape@ape3000.com</email>
+    <maintainer status="(from package - evaluate that)">
       <name>Lauri Niskanen</name>
+      <email>ape@ape3000.com</email>
     </maintainer>
   </upstream>
-  <use>
-    <flag name="websocket">Build with websocket support</flag>
-  </use>
 </pkgmetadata>

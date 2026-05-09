@@ -2,15 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">zm-py</remote-id>
-    <remote-id type="github">rohankapoorcom/zm-py</remote-id>
-    <maintainer status="unknown">
-      <email>nic@boet.cc</email>
-      <name>Nic Boet</name>
+    <remote-id type="pypi">zm</remote-id>
+    <maintainer status="(from package - evaluate that)">
+      <name>Pablo Orviz Fernandez</name>
+      <email>orviz@ifca.unican.es</email>
     </maintainer>
+    <doc>replace with the project page</doc>
   </upstream>
 </pkgmetadata>

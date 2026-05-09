@@ -2,10 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
     <remote-id type="pypi">coveralls</remote-id>
+    <remote-id type="github">TheKevJames/coveralls-python</remote-id>
+    <maintainer status="(from package - evaluate that)">
+      <name>Kevin James</name>
+      <email>coveralls-python@thekev.in</email>
+    </maintainer>
   </upstream>
 </pkgmetadata>

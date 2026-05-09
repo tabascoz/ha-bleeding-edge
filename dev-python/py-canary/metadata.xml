@@ -2,15 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">py-canary</remote-id>
-    <remote-id type="github">snjoetw/py-canary</remote-id>
-    <maintainer status="unknown">
-      <email>snjoetw@gmail.com</email>
-      <name>snjoetw</name>
+    <remote-id type="pypi">canary</remote-id>
+    <remote-id type="github">ryanpetrello/canary</remote-id>
+    <maintainer status="(from package - evaluate that)">
+      <name>Ryan Petrello</name>
+      <email>ryan@ryanpetrello.com</email>
     </maintainer>
   </upstream>
 </pkgmetadata>

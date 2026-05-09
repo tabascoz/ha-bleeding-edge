@@ -2,15 +2,11 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
     <remote-id type="pypi">aioshelly</remote-id>
     <remote-id type="github">home-assistant-libs/aioshelly</remote-id>
-    <maintainer status="unknown">
-      <email>paulus@home-assistant.io</email>
-      <name>Paulus Schoutsen</name>
-    </maintainer>
   </upstream>
 </pkgmetadata>

@@ -2,15 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">python-blockchain-api</remote-id>
-    <remote-id type="github">nkgilley/python-blockchain-api</remote-id>
-    <maintainer status="unknown">
-      <email>nkgilley@gmail.com</email>
-      <name>Nolan Gilley</name>
+    <remote-id type="pypi">blockchain-api</remote-id>
+    <remote-id type="github">blockchain/api</remote-id>
+    <maintainer status="actively maintained">
+      <name>Blockchain API Team</name>
     </maintainer>
+    <doc>https://blockchainapi.com</doc>
   </upstream>
 </pkgmetadata>

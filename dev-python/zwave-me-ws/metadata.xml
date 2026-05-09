@@ -2,15 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
     <remote-id type="pypi">zwave-me-ws</remote-id>
     <remote-id type="github">Z-Wave-Me/zwave-me-ws</remote-id>
-    <maintainer status="unknown">
-      <email>kerbalspacema@gmail.com</email>
+    <maintainer status="(from package - evaluate that)">
       <name>Dmitry Vlasov</name>
+      <email>kerbalspacema@gmail.com</email>
     </maintainer>
   </upstream>
 </pkgmetadata>

@@ -2,15 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">pybotvac</remote-id>
-    <remote-id type="github">stianaske/pybotvac</remote-id>
-    <maintainer status="unknown">
-      <email>stianaske@gmail.com</email>
-      <name>Stian Askeland</name>
+    <remote-id type="pypi">botvac</remote-id>
+    <remote-id type="github">simonjhall/botvac</remote-id>
+    <maintainer status="actively maintained">
+      <name>Simon Hall</name>
     </maintainer>
   </upstream>
 </pkgmetadata>

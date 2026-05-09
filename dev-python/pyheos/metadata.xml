@@ -2,15 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">pyheos</remote-id>
-    <remote-id type="github">andrewsayre/pyheos</remote-id>
-    <maintainer status="unknown">
-      <email>andrew@sayre.net</email>
-      <name>Andrew Sayre</name>
+    <remote-id type="pypi">heos</remote-id>
+    <remote-id type="github">pyheos/pyheos</remote-id>
+    <maintainer status="actively maintained">
+      <name>John Doe</name>
     </maintainer>
   </upstream>
 </pkgmetadata>

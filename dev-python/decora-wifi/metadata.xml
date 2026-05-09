@@ -2,15 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
     <remote-id type="pypi">decora-wifi</remote-id>
     <remote-id type="github">tlyakhov/python-decora_wifi</remote-id>
-    <maintainer status="unknown">
-      <email>tlyakhov@gmail.com</email>
+    <maintainer status="(from package - evaluate that)">
       <name>Tim Lyakhovetskiy</name>
+      <email>tlyakhov@gmail.com</email>
     </maintainer>
   </upstream>
 </pkgmetadata>

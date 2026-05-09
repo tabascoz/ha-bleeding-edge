@@ -2,15 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
     <remote-id type="pypi">ismartgate</remote-id>
     <remote-id type="github">bdraco/ismartgate</remote-id>
-    <maintainer status="unknown">
-      <email>nick@koston.org</email>
-      <name>Robbie Van Gorkom; J. Nick Koston</name>
+    <maintainer status="(from package - evaluate that)">
+      <name>Robbie Van Gorkom</name>
+      <email>"J. Nick Koston" <nick@koston.org></email>
     </maintainer>
   </upstream>
 </pkgmetadata>

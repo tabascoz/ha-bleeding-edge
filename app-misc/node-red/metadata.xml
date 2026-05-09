@@ -1,15 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-	<maintainer type="person" proxied="yes">
-		<email>web@inode64.com</email>
-		<name>Fco. Javier Félix</name>
-	</maintainer>
-	<maintainer type="project" proxied="proxy">
-		<email>proxy-maint@gentoo.org</email>
-		<name>Proxy Maintainers</name>
-	</maintainer>
-	<upstream>
-		<remote-id type="github">node-red/node-red</remote-id>
-	</upstream>
+  <maintainer type="project">
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
+  </maintainer>
+  <upstream>
+    <remote-id type="pypi">node-red</remote-id>
+    <remote-id type="github">node-red/node-red</remote-id>
+    <maintainer status="actively maintained">
+      <name>The Node-RED Community</name>
+    </maintainer>
+    <doc>https://nodered.org</doc>
+  </upstream>
 </pkgmetadata>

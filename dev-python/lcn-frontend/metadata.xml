@@ -2,15 +2,11 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
     <remote-id type="pypi">lcn-frontend</remote-id>
     <remote-id type="github">alengwenus/lcn-frontend.git</remote-id>
-    <maintainer status="unknown">
-      <email>alengwenus@gmail.com</email>
-      <name>Andre Lengwenus</name>
-    </maintainer>
   </upstream>
 </pkgmetadata>

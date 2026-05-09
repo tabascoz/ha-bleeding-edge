@@ -2,15 +2,11 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">pyvolumio</remote-id>
-    <remote-id type="github">OnFreund/PyVolumio</remote-id>
-    <maintainer status="unknown">
-      <email>onfreund@gmail.com</email>
-      <name>On Freund</name>
-    </maintainer>
+    <remote-id type="pypi">volumio</remote-id>
+    <remote-id type="github">volumio/volumio</remote-id>
   </upstream>
 </pkgmetadata>

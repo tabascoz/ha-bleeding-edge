@@ -2,15 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
     <remote-id type="pypi">unifiled</remote-id>
     <remote-id type="github">florisvdk/unifiled</remote-id>
-    <maintainer status="unknown">
-      <email>git@florisvdk.net</email>
+    <maintainer status="(from package - evaluate that)">
       <name>Floris Van der krieken</name>
+      <email>git@florisvdk.net</email>
     </maintainer>
   </upstream>
 </pkgmetadata>

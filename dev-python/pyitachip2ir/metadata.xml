@@ -2,15 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">pyitachip2ir</remote-id>
-    <remote-id type="github">alanfischer/itachip2ir</remote-id>
-    <maintainer status="unknown">
-      <email>alan@lightningtoads.com</email>
-      <name>Alan Fischer</name>
+    <remote-id type="pypi">itachip2ir</remote-id>
+    <remote-id type="github">thehappydinoa/itachip2ir</remote-id>
+    <maintainer status="(from package - evaluate that)">
+      <name>Aidan Holland (thehappydinoa)</name>
+      <email>thehappydinoa@gmail.com</email>
     </maintainer>
   </upstream>
 </pkgmetadata>

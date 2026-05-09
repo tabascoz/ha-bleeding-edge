@@ -2,15 +2,11 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">pyEmby</remote-id>
-    <remote-id type="github">mezz64/pyemby</remote-id>
-    <maintainer status="unknown">
-      <email>mezz64@users.noreply.github.com</email>
-      <name>John Mihalic</name>
-    </maintainer>
+    <remote-id type="pypi">Emby</remote-id>
+    <remote-id type="github">Emby/Emby.Api</remote-id>
   </upstream>
 </pkgmetadata>

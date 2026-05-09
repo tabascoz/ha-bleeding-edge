@@ -2,15 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
     <remote-id type="pypi">starlingbank</remote-id>
     <remote-id type="github">Dullage/starlingbank</remote-id>
-    <maintainer status="unknown">
-      <email>adam@dullage.com</email>
+    <maintainer status="(from package - evaluate that)">
       <name>Adam Dullage</name>
+      <email>adam@dullage.com</email>
     </maintainer>
   </upstream>
 </pkgmetadata>

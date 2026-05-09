@@ -2,11 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>bass_dr@hotmail.com</email>
-    <name>David Racine</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
     <remote-id type="pypi">nose</remote-id>
-    <remote-id type="github">nose-devs/nose</remote-id>
+    <maintainer status="(from package - evaluate that)">
+      <name>Jason Pellerin</name>
+      <email>jpellerin+nose@gmail.com</email>
+    </maintainer>
   </upstream>
 </pkgmetadata>

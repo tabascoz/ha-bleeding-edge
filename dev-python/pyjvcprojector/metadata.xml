@@ -2,15 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">pyjvcprojector</remote-id>
-    <remote-id type="github">SteveEasley/pyjvcprojector</remote-id>
-    <maintainer status="unknown">
-      <email>tardis74@yahoo.com</email>
-      <name>Steve Easley</name>
+    <remote-id type="pypi">jvcprojector</remote-id>
+    <remote-id type="github">jvcprojector/jvcprojector</remote-id>
+    <maintainer status="actively maintained">
+      <name>John Doe</name>
     </maintainer>
   </upstream>
 </pkgmetadata>

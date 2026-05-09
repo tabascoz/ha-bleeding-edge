@@ -2,14 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
     <remote-id type="pypi">demjson3</remote-id>
-    <maintainer status="unknown">
-      <email>deron.meranda@gmail.com</email>
+    <maintainer status="(from package - evaluate that)">
       <name>Deron Meranda</name>
+      <email>deron.meranda@gmail.com</email>
     </maintainer>
   </upstream>
 </pkgmetadata>

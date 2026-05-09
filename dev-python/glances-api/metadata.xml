@@ -2,15 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
     <remote-id type="pypi">glances-api</remote-id>
     <remote-id type="github">home-assistant-ecosystem/python-glances-api</remote-id>
-    <maintainer status="unknown">
-      <email>fabian@affolter-engineering.ch</email>
+    <maintainer status="(from package - evaluate that)">
       <name>Fabian Affolter</name>
+      <email>fabian@affolter-engineering.ch</email>
     </maintainer>
   </upstream>
 </pkgmetadata>

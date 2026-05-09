@@ -2,15 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">pyirishrail</remote-id>
-    <remote-id type="github">ttroy50/pyirishrail</remote-id>
-    <maintainer status="unknown">
-      <email>ttroy50@gmail.com</email>
-      <name>Thom Troy</name>
+    <remote-id type="pypi">irishrail</remote-id>
+    <remote-id type="github">rougeth/irishrail</remote-id>
+    <maintainer status="(from package - evaluate that)">
+      <name>Marco Rougeth</name>
+      <email>rougeth@users.noreply.github.com</email>
     </maintainer>
   </upstream>
 </pkgmetadata>

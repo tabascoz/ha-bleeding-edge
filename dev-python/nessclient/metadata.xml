@@ -2,15 +2,11 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
     <remote-id type="pypi">nessclient</remote-id>
     <remote-id type="github">nickw444/nessclient</remote-id>
-    <maintainer status="unknown">
-      <email>nick@nickwhyte.com</email>
-      <name>Nick Whyte</name>
-    </maintainer>
   </upstream>
 </pkgmetadata>

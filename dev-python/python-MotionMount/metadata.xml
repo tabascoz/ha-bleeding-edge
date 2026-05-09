@@ -2,15 +2,7 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">python-MotionMount</remote-id>
-    <remote-id type="github">vogelsproducts/python-MotionMount</remote-id>
-    <maintainer status="unknown">
-      <email>r.poelstra@vogels.com</email>
-      <name>Remco Poelstra</name>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

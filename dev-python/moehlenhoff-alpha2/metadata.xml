@@ -2,15 +2,11 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
     <remote-id type="pypi">moehlenhoff-alpha2</remote-id>
     <remote-id type="github">j-a-n/python-moehlenhoff-alpha2</remote-id>
-    <maintainer status="unknown">
-      <email>oss@janschneider.net</email>
-      <name>Jan Schneider</name>
-    </maintainer>
   </upstream>
 </pkgmetadata>

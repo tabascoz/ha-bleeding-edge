@@ -2,15 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">pyiss</remote-id>
-    <remote-id type="github">HydrelioxGitHub/pyiss</remote-id>
-    <maintainer status="unknown">
-      <email>hydreliox@gmail.com</email>
-      <name>Hydreliox</name>
+    <remote-id type="pypi">iss</remote-id>
+    <maintainer status="(from package - evaluate that)">
+      <name>Jason Dusek</name>
+      <email>jason.dusek@gmail.com</email>
     </maintainer>
   </upstream>
 </pkgmetadata>

@@ -2,15 +2,11 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
     <remote-id type="pypi">afsapi</remote-id>
-    <remote-id type="github">zhelev/python-afsapi</remote-id>
-    <maintainer status="unknown">
-      <email>krasimir.zhelev@gmail.com</email>
-      <name>Krasimir Zhelev</name>
-    </maintainer>
+    <remote-id type="github">wlcrs/python-afsapi</remote-id>
   </upstream>
 </pkgmetadata>

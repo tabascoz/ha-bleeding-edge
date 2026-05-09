@@ -2,15 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">pykira</remote-id>
-    <remote-id type="github">stu-gott/pykira</remote-id>
-    <maintainer status="unknown">
-      <email>stu-gott@users.noreply.github.com</email>
-      <name>Stu Gott</name>
+    <remote-id type="pypi">kira</remote-id>
+    <remote-id type="github">datlofdev/Kira</remote-id>
+    <maintainer status="(from package - evaluate that)">
+      <name>Jackson Ca. Rakena</name>
+      <email>jackson.rakena2@gmail.com</email>
     </maintainer>
   </upstream>
 </pkgmetadata>

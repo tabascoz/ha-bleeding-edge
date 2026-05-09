@@ -2,15 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
     <remote-id type="pypi">tzdata</remote-id>
     <remote-id type="github">python/tzdata</remote-id>
-    <maintainer status="unknown">
-      <email>datetime-sig@python.org</email>
+    <maintainer status="(from package - evaluate that)">
       <name>Python Software Foundation</name>
+      <email>datetime-sig@python.org</email>
     </maintainer>
   </upstream>
 </pkgmetadata>

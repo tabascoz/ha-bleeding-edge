@@ -2,15 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">pyrituals</remote-id>
-    <remote-id type="github">milanmeu/pyrituals</remote-id>
-    <maintainer status="unknown">
-      <email>milan.meulemans@live.be</email>
-      <name>Milan Meulemans</name>
+    <remote-id type="pypi">rituals</remote-id>
+    <remote-id type="github">jhermann/rituals</remote-id>
+    <maintainer status="(from package - evaluate that)">
+      <name>Jürgen Hermann</name>
+      <email>jh@web.de</email>
     </maintainer>
   </upstream>
 </pkgmetadata>

@@ -2,15 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
     <remote-id type="pypi">tellcore-net</remote-id>
     <remote-id type="github">pvizeli/tellcore-net</remote-id>
-    <maintainer status="unknown">
-      <email>pvizeli@syshack.ch</email>
+    <maintainer status="(from package - evaluate that)">
       <name>Pascal Vizeli</name>
+      <email>pvizeli@syshack.ch</email>
     </maintainer>
   </upstream>
 </pkgmetadata>

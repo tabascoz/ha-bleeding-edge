@@ -2,14 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
     <remote-id type="pypi">pymata-express</remote-id>
-    <maintainer status="unknown">
-      <email>MisterYsLab@gmail.com</email>
-      <name>Alan Yorinks</name>
+    <remote-id type="github">pyMata/pymata-express</remote-id>
+    <maintainer status="actively maintained">
+      <name>D. A. O'Brien</name>
     </maintainer>
   </upstream>
 </pkgmetadata>

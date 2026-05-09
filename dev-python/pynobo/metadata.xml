@@ -2,11 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">pynobo</remote-id>
-    <remote-id type="github">echoromeo/pynobo</remote-id>
+    <remote-id type="pypi">nobo</remote-id>
+    <remote-id type="github">fang2hou/nobo</remote-id>
+    <maintainer status="(from package - evaluate that)">
+      <name>Zhou Fang</name>
+      <email>is0385rx@ed.ritsumei.ac.jp</email>
+    </maintainer>
   </upstream>
 </pkgmetadata>

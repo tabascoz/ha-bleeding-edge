@@ -2,15 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
     <remote-id type="pypi">smart-meter-texas</remote-id>
     <remote-id type="github">grahamwetzler/smart-meter-texas</remote-id>
-    <maintainer status="unknown">
-      <email>graham@wetzler.dev</email>
+    <maintainer status="(from package - evaluate that)">
       <name>Graham Wetzler</name>
+      <email>graham@wetzler.dev</email>
     </maintainer>
   </upstream>
 </pkgmetadata>

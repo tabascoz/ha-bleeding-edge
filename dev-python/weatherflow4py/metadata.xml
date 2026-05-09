@@ -2,14 +2,11 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
     <remote-id type="pypi">weatherflow4py</remote-id>
-    <maintainer status="unknown">
-      <email>jeeftor@users.noreply.github.com</email>
-      <name>Jeef</name>
-    </maintainer>
+    <remote-id type="github">jeeftor/weatherflow4py</remote-id>
   </upstream>
 </pkgmetadata>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <maintainer type="project">
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
+  </maintainer>
+  <upstream>
+    <remote-id type="pypi">signalr-client</remote-id>
+    <remote-id type="github">SignalR/signalr-client-dotnet</remote-id>
+    <maintainer status="actively maintained">
+      <name>SignalR Team</name>
+    </maintainer>
+    <doc>https://github.com/SignalR/SignalR</doc>
+  </upstream>
+</pkgmetadata>

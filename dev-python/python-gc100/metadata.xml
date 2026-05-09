@@ -2,15 +2,7 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">python-gc100</remote-id>
-    <remote-id type="github">davegravy/python-gc100</remote-id>
-    <maintainer status="unknown">
-      <email>davegravy@gmail.com</email>
-      <name>David Grant</name>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

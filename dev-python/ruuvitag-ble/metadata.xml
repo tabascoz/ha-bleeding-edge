@@ -2,15 +2,11 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
     <remote-id type="pypi">ruuvitag-ble</remote-id>
-    <remote-id type="github">Bluetooth-Devices/ruuvitag-ble</remote-id>
-    <maintainer status="unknown">
-      <email>akx@iki.fi</email>
-      <name>Aarni Koskela</name>
-    </maintainer>
+    <remote-id type="github">bluetooth-devices/ruuvitag-ble</remote-id>
   </upstream>
 </pkgmetadata>

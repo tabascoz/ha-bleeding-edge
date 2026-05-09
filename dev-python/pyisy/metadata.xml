@@ -2,15 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">pyisy</remote-id>
-    <remote-id type="github">automicus/PyISY</remote-id>
-    <maintainer status="unknown">
-      <email>automicus@gmail.com</email>
-      <name>Ryan Kraus</name>
+    <remote-id type="pypi">isy</remote-id>
+    <remote-id type="github">michaelgrace/pyisy</remote-id>
+    <maintainer status="actively maintained">
+      <name>Michael Grace</name>
     </maintainer>
   </upstream>
 </pkgmetadata>

@@ -2,15 +2,7 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">pyW215</remote-id>
-    <remote-id type="github">linuxchristian/pyW215</remote-id>
-    <maintainer status="unknown">
-      <email>christian@junckerbraedstrup.dk</email>
-      <name>Christian Juncker Brædstrup</name>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

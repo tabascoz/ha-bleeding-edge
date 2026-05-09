@@ -2,15 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
     <remote-id type="pypi">mt-940</remote-id>
     <remote-id type="github">WoLpH/mt940</remote-id>
-    <maintainer status="unknown">
-      <email>wolph@wol.ph</email>
+    <maintainer status="(from package - evaluate that)">
       <name>Rick van Hattem (wolph)</name>
+      <email>wolph@wol.ph</email>
     </maintainer>
   </upstream>
 </pkgmetadata>

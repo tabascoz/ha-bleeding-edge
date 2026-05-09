@@ -2,15 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
     <remote-id type="pypi">titlecase</remote-id>
     <remote-id type="github">ppannuto/python-titlecase</remote-id>
-    <maintainer status="unknown">
-      <email>pat.pannuto+titlecase@gmail.com</email>
+    <maintainer status="(from package - evaluate that)">
       <name>Pat Pannuto</name>
+      <email>pat.pannuto+titlecase@gmail.com</email>
     </maintainer>
   </upstream>
 </pkgmetadata>

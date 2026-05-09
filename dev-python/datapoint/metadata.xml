@@ -2,15 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
     <remote-id type="pypi">datapoint</remote-id>
-    <remote-id type="github">ejep/datapoint-python</remote-id>
-    <maintainer status="unknown">
-      <email>emlyn.je.price@gmail.com</email>
-      <name>Emlyn Price</name>
+    <remote-id type="github">Perseudonymous/datapoint-python</remote-id>
+    <maintainer status="(from package - evaluate that)">
+      <name>Jacob Tomlinson</name>
+      <email>Emily Price <emily.j.price.nth@gmail.com></email>
     </maintainer>
   </upstream>
 </pkgmetadata>

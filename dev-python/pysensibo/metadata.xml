@@ -2,15 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">pysensibo</remote-id>
-    <remote-id type="github">andrey-git/pysensibo</remote-id>
-    <maintainer status="unknown">
-      <email>goran.johansson@shiftit.se</email>
-      <name>G Johansson</name>
+    <remote-id type="pypi">sensibo</remote-id>
+    <remote-id type="github">sensibo/pysensibo</remote-id>
+    <maintainer status="actively maintained">
+      <name>Sensibo</name>
     </maintainer>
   </upstream>
 </pkgmetadata>

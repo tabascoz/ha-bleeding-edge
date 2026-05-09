@@ -2,15 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
     <remote-id type="pypi">discovery30303</remote-id>
     <remote-id type="github">bdraco/discovery30303</remote-id>
-    <maintainer status="unknown">
-      <email>nick@koston.org</email>
+    <maintainer status="(from package - evaluate that)">
       <name>J. Nick Koston</name>
+      <email>nick@koston.org</email>
     </maintainer>
   </upstream>
 </pkgmetadata>

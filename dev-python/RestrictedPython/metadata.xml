@@ -2,15 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
     <remote-id type="pypi">RestrictedPython</remote-id>
     <remote-id type="github">zopefoundation/RestrictedPython</remote-id>
-    <maintainer status="unknown">
-      <email>zope-dev@zope.dev</email>
+    <maintainer status="(from package - evaluate that)">
       <name>Zope Foundation and Contributors</name>
+      <email>zope-dev@zope.dev</email>
     </maintainer>
   </upstream>
 </pkgmetadata>

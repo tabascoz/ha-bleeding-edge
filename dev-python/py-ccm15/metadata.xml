@@ -2,15 +2,11 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">py-ccm15</remote-id>
-    <remote-id type="github">ocalvo/py-ccm15</remote-id>
-    <maintainer status="unknown">
-      <email>oscar@calvonet.com</email>
-      <name>Oscar Calvo</name>
-    </maintainer>
+    <remote-id type="pypi">ccm15</remote-id>
+    <remote-id type="github">ccm15/ccm15</remote-id>
   </upstream>
 </pkgmetadata>

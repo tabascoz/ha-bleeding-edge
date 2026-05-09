@@ -2,14 +2,12 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
     <remote-id type="pypi">numato-gpio</remote-id>
-    <maintainer status="unknown">
-      <email>code@clssn.de</email>
-      <name>Henning Claßen</name>
-    </maintainer>
+    <remote-id type="github">clssn/numato-gpio</remote-id>
+    <remote-id type="github">clssn/numato-gpio.git</remote-id>
   </upstream>
 </pkgmetadata>

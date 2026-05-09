@@ -2,15 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">pybalboa</remote-id>
-    <remote-id type="github">garbled1/pybalboa</remote-id>
-    <maintainer status="unknown">
-      <email>natekspencer@gmail.com</email>
-      <name>Nathan Spencer</name>
+    <remote-id type="pypi">balboa</remote-id>
+    <remote-id type="github">balboa/balboa</remote-id>
+    <maintainer status="actively maintained">
+      <name>Balboa Team</name>
     </maintainer>
   </upstream>
 </pkgmetadata>

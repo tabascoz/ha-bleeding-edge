@@ -2,15 +2,11 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
     <remote-id type="pypi">gTTS</remote-id>
     <remote-id type="github">pndurette/gTTS</remote-id>
-    <maintainer status="unknown">
-      <email>pndurette@gmail.com</email>
-      <name>Pierre Nicolas Durette</name>
-    </maintainer>
   </upstream>
 </pkgmetadata>

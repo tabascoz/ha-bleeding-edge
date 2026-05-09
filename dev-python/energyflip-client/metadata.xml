@@ -2,15 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
     <remote-id type="pypi">energyflip-client</remote-id>
     <remote-id type="github">dennisschroer/energyflip-client</remote-id>
-    <maintainer status="unknown">
-      <email>dev@dennisschroer.nl</email>
+    <maintainer status="(from package - evaluate that)">
       <name>Dennis Schroer</name>
+      <email>dev@dennisschroer.nl</email>
     </maintainer>
   </upstream>
 </pkgmetadata>

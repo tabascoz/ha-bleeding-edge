@@ -2,15 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">python-hpilo</remote-id>
-    <remote-id type="github">seveas/python-hpilo</remote-id>
-    <maintainer status="unknown">
-      <email>dennis@kaarsemaker.net</email>
-      <name>Dennis Kaarsemaker</name>
+    <remote-id type="pypi">hpilo</remote-id>
+    <remote-id type="github">hpilo/hpilo</remote-id>
+    <maintainer status="actively maintained">
+      <name>Hewlett-Packard</name>
     </maintainer>
   </upstream>
 </pkgmetadata>

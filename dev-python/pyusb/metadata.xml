@@ -2,14 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">pyusb</remote-id>
-    <maintainer status="unknown">
-      <email>me@jonasmalaco.com</email>
-      <name>Jonas Malaco</name>
+    <remote-id type="pypi">usb</remote-id>
+    <remote-id type="github">kchawla-pi/united-states-of-browsers</remote-id>
+    <maintainer status="(from package - evaluate that)">
+      <name>kchawla-pi</name>
+      <email>kc.insight.pi@gmail.com</email>
     </maintainer>
   </upstream>
 </pkgmetadata>

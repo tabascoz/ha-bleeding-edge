@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <maintainer type="project">
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
+  </maintainer>
+  <upstream>
+    <remote-id type="pypi">alibabacloud-tea-util</remote-id>
+    <remote-id type="github">aliyun/tea-util</remote-id>
+    <maintainer status="(from package - evaluate that)">
+      <name>Alibaba Cloud</name>
+      <email>alibaba-cloud-sdk-dev-team@list.alibaba-inc.com</email>
+    </maintainer>
+  </upstream>
+</pkgmetadata>

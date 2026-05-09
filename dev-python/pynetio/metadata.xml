@@ -2,15 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">pynetio</remote-id>
-    <remote-id type="github">eagleamon/pynetio</remote-id>
-    <maintainer status="unknown">
-      <email>joseph.piron@gmail.com</email>
-      <name>Joseph Piron (Joseph Piron)</name>
+    <remote-id type="pypi">netio</remote-id>
+    <remote-id type="github">netioproducts/PyNetio</remote-id>
+    <maintainer status="(from package - evaluate that)">
+      <name>Adam Verner</name>
+      <email>averner@netio.eu</email>
     </maintainer>
   </upstream>
 </pkgmetadata>

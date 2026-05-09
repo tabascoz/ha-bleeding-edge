@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <maintainer type="project">
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
+  </maintainer>
+  <upstream>
+    <remote-id type="pypi">aioghost</remote-id>
+    <remote-id type="github">TryGhost/aioghost#readme</remote-id>
+    <remote-id type="github">TryGhost/aioghost</remote-id>
+  </upstream>
+</pkgmetadata>

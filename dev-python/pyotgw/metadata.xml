@@ -2,15 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">pyotgw</remote-id>
-    <remote-id type="github">mvn23/pyotgw</remote-id>
-    <maintainer status="unknown">
-      <email>milan@network23.nl</email>
-      <name>Milan van Nugteren</name>
+    <remote-id type="pypi">otgw</remote-id>
+    <remote-id type="github">otgw/otgw</remote-id>
+    <maintainer status="actively maintained">
+      <name>Johan H. van der Veen</name>
     </maintainer>
   </upstream>
 </pkgmetadata>

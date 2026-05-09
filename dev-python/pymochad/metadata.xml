@@ -2,15 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">pymochad</remote-id>
-    <remote-id type="github">mtreinish/pymochad</remote-id>
-    <maintainer status="unknown">
-      <email>mtreinish@kortar.org</email>
-      <name>Matthew Treinish</name>
+    <remote-id type="pypi">mochad</remote-id>
+    <remote-id type="github">matthewwardrop/mochad</remote-id>
+    <maintainer status="actively maintained">
+      <name>Matthew Wardrop</name>
     </maintainer>
   </upstream>
 </pkgmetadata>

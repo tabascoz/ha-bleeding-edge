@@ -2,15 +2,11 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
     <remote-id type="pypi">webrtc-models</remote-id>
     <remote-id type="github">home-assistant-libs/python-webrtc-models</remote-id>
-    <maintainer status="unknown">
-      <email>robert@resch.dev</email>
-      <name>Robert Resch</name>
-    </maintainer>
   </upstream>
 </pkgmetadata>

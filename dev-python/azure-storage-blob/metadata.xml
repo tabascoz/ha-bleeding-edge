@@ -2,15 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
     <remote-id type="pypi">azure-storage-blob</remote-id>
     <remote-id type="github">Azure/azure-sdk-for-python</remote-id>
-    <maintainer status="unknown">
-      <email>ascl@microsoft.com</email>
+    <maintainer status="(from package - evaluate that)">
       <name>Microsoft Corporation</name>
+      <email>ascl@microsoft.com</email>
     </maintainer>
   </upstream>
 </pkgmetadata>

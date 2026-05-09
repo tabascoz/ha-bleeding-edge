@@ -2,15 +2,11 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
     <remote-id type="pypi">PlexAPI</remote-id>
-    <remote-id type="github">pkkid/python-plexapi</remote-id>
-    <maintainer status="unknown">
-      <email>michael.shepanski@gmail.com</email>
-      <name>Michael Shepanski</name>
-    </maintainer>
+    <remote-id type="github">pushingkarmaorg/python-plexapi</remote-id>
   </upstream>
 </pkgmetadata>

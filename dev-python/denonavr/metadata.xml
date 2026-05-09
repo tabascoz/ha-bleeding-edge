@@ -2,15 +2,11 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
     <remote-id type="pypi">denonavr</remote-id>
     <remote-id type="github">ol-iver/denonavr</remote-id>
-    <maintainer status="unknown">
-      <email>scarface@mywoh.de</email>
-      <name>Oliver Goetz</name>
-    </maintainer>
   </upstream>
 </pkgmetadata>

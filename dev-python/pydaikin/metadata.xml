@@ -2,16 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">pydaikin</remote-id>
-    <remote-id type="github">fredrike/pydaikin</remote-id>
-    <remote-id type="bitbucket">mustang51/pydaikin</remote-id>
-    <maintainer status="unknown">
-      <email>fredrik.e@gmail.com</email>
-      <name>Fredrik Erlandsson</name>
+    <remote-id type="pypi">daikin</remote-id>
+    <remote-id type="github">pypa/daikin</remote-id>
+    <maintainer status="actively maintained">
+      <name>John Doe</name>
     </maintainer>
   </upstream>
 </pkgmetadata>

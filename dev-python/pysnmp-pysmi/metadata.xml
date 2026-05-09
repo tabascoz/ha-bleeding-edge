@@ -2,15 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
     <remote-id type="pypi">pysnmp-pysmi</remote-id>
     <remote-id type="github">pysnmp/pysmi</remote-id>
-    <maintainer status="unknown">
-      <email>rfaircloth@splunk.com</email>
-      <name>rfaircloth-splunk</name>
+    <maintainer status="actively maintained">
+      <name>Ilya Etingof</name>
     </maintainer>
+    <doc>https://pysnmp.github.io/pysmi/</doc>
   </upstream>
 </pkgmetadata>

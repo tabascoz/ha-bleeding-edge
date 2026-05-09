@@ -2,15 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">pydiscovergy</remote-id>
-    <remote-id type="github">jpbede/pydiscovergy</remote-id>
-    <maintainer status="unknown">
-      <email>jan-philipp@bnck.me</email>
-      <name>Jan-Philipp Benecke</name>
+    <remote-id type="pypi">discovergy</remote-id>
+    <remote-id type="github">discovergy/discovergy-python</remote-id>
+    <maintainer status="actively maintained">
+      <name>Discovergy GmbH</name>
     </maintainer>
   </upstream>
 </pkgmetadata>

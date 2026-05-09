@@ -2,15 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">pytomorrowio</remote-id>
-    <remote-id type="github">raman325/pytomorrowio</remote-id>
-    <maintainer status="unknown">
-      <email>7243222+raman325@users.noreply.github.com</email>
-      <name>raman325</name>
+    <remote-id type="pypi">tomorrowio</remote-id>
+    <remote-id type="github">tomorrowio/tomorrowio-python</remote-id>
+    <maintainer status="actively maintained">
+      <name>Tomorrow.io</name>
     </maintainer>
+    <doc>https://www.tomorrow.io/</doc>
   </upstream>
 </pkgmetadata>

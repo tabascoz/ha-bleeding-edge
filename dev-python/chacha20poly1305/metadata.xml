@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <maintainer type="project">
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
+  </maintainer>
+  <upstream>
+    <remote-id type="pypi">chacha20poly1305</remote-id>
+    <remote-id type="github">ph4r05/py-chacha20poly1305</remote-id>
+    <maintainer status="(from package - evaluate that)">
+      <name>Dusan Klinec</name>
+      <email>dusan.klinec@gmail.com</email>
+    </maintainer>
+  </upstream>
+</pkgmetadata>

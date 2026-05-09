@@ -2,11 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">py-synologydsm-api</remote-id>
-    <remote-id type="github">mib1185/py-synologydsm-api</remote-id>
+    <remote-id type="pypi">synologydsm-api</remote-id>
+    <remote-id type="github">hacf-fr/synologydsm-api</remote-id>
+    <maintainer status="(from package - evaluate that)">
+      <name>Quentin POLLET (Quentame)</name>
+    </maintainer>
   </upstream>
 </pkgmetadata>

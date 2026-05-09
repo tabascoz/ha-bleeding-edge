@@ -2,15 +2,7 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">pykulersky</remote-id>
-    <remote-id type="github">emlove/pykulersky</remote-id>
-    <maintainer status="unknown">
-      <email>emily@emlove.me</email>
-      <name>Emily Love Mills</name>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

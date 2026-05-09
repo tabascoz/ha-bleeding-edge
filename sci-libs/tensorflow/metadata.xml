@@ -2,16 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
     <remote-id type="pypi">tensorflow</remote-id>
-    <remote-id type="github">oneapi-src/oneDNN</remote-id>
-    <remote-id type="gitlab">libeigen/eigen</remote-id>
-    <maintainer status="unknown">
-      <email>packages@tensorflow.org</email>
+    <remote-id type="github">tensorflow/tensorflow</remote-id>
+    <maintainer status="(from package - evaluate that)">
       <name>Google Inc.</name>
+      <email>packages@tensorflow.org</email>
     </maintainer>
   </upstream>
 </pkgmetadata>

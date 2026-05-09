@@ -2,15 +2,7 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">pyoppleio-legacy</remote-id>
-    <remote-id type="github">tinysnake/python-oppleio-legacy</remote-id>
-    <maintainer status="unknown">
-      <email>tff.assist@live.com</email>
-      <name>tinysnake</name>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

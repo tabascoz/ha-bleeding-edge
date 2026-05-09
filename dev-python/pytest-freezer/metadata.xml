@@ -2,15 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">pytest-freezer</remote-id>
+    <remote-id type="pypi">test-freezer</remote-id>
     <remote-id type="github">pytest-dev/pytest-freezer</remote-id>
-    <maintainer status="unknown">
-      <email>hey@wimglenn.com</email>
-      <name>Wim Jeantine-Glenn</name>
+    <maintainer status="actively maintained">
+      <name>pytest-dev</name>
     </maintainer>
   </upstream>
 </pkgmetadata>

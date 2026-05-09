@@ -2,15 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">python-http-client</remote-id>
-    <remote-id type="github">sendgrid/python-http-client</remote-id>
-    <maintainer status="unknown">
-      <email>help@twilio.com</email>
-      <name>Elmer Thomas</name>
+    <remote-id type="pypi">http-client</remote-id>
+    <remote-id type="github">huynhminhson/http_client</remote-id>
+    <maintainer status="(from package - evaluate that)">
+      <name>Minh Son Huynh</name>
+      <email>minhsonftu@gmail.com</email>
     </maintainer>
   </upstream>
 </pkgmetadata>

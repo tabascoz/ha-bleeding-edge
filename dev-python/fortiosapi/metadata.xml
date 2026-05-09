@@ -2,15 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
     <remote-id type="pypi">fortiosapi</remote-id>
     <remote-id type="github">fortinet-solutions-cse/fortiosapi</remote-id>
-    <maintainer status="unknown">
-      <email>nthomas@fortinet.com</email>
+    <maintainer status="(from package - evaluate that)">
       <name>Nicolas Thomas</name>
+      <email>nthomas@fortinet.com</email>
     </maintainer>
   </upstream>
 </pkgmetadata>

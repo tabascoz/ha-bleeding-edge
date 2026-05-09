@@ -1,8 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-	<maintainer type="person">
-		<email>b@edevau.net</email>
-		<name>Andreas Billmeier</name>
-	</maintainer>
+  <maintainer type="project">
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
+  </maintainer>
+  <upstream>
+    <remote-id type="pypi">zwavejs2mqtt</remote-id>
+    <remote-id type="github">zwave-js/zwavejs2mqtt</remote-id>
+    <maintainer status="actively maintained">
+      <name>ZwaveJS Team</name>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

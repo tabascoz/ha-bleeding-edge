@@ -2,15 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">pyintesishome</remote-id>
-    <remote-id type="github">jnimmo/pyIntesisHome</remote-id>
-    <maintainer status="unknown">
-      <email>james@nimmo.net.nz</email>
-      <name>James Nimmo</name>
+    <remote-id type="pypi">intesishome</remote-id>
+    <remote-id type="github">intesi/home</remote-id>
+    <maintainer status="actively maintained">
+      <name>Intesi Group</name>
     </maintainer>
   </upstream>
 </pkgmetadata>

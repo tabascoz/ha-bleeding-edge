@@ -2,15 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
     <remote-id type="pypi">dlms-cosem</remote-id>
     <remote-id type="github">pwitab/dlms-cosem</remote-id>
-    <maintainer status="unknown">
-      <email>henrik@pwit.se</email>
+    <maintainer status="(from package - evaluate that)">
       <name>Henrik Palmlund Wahlgren @ Palmlund Wahlgren Innovative Technology AB</name>
+      <email>henrik@pwit.se</email>
     </maintainer>
   </upstream>
 </pkgmetadata>

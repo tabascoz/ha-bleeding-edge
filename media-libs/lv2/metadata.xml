@@ -1,15 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>proaudio@gentoo.org</email>
-    <name>Gentoo ProAudio Project</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
-  <use>
-    <flag name="plugins">Enables examples plugins.</flag>
-  </use>
   <upstream>
-    <remote-id type="gitlab">lv2/lv2</remote-id>
-    <remote-id type="github">lv2/lv2</remote-id>
+    <remote-id type="pypi">lv2</remote-id>
+    <remote-id type="github">LV2/lv2</remote-id>
+    <maintainer status="actively maintained">
+      <name>David Robillard</name>
+    </maintainer>
   </upstream>
 </pkgmetadata>

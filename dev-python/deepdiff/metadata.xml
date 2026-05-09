@@ -2,15 +2,11 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
     <remote-id type="pypi">deepdiff</remote-id>
-    <remote-id type="github">seperman/deepdiff</remote-id>
-    <maintainer status="unknown">
-      <email>sep@zepworks.com</email>
-      <name>Seperman</name>
-    </maintainer>
+    <remote-id type="github">qlustered/deepdiff</remote-id>
   </upstream>
 </pkgmetadata>

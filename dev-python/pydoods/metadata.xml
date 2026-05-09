@@ -2,15 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">pydoods</remote-id>
-    <remote-id type="github">snowzach/pydoods</remote-id>
-    <maintainer status="unknown">
-      <email>doods@prozach.org</email>
-      <name>Zach Brown</name>
+    <remote-id type="pypi">doods</remote-id>
+    <maintainer status="(from package - evaluate that)">
+      <name>Tamsis X Code</name>
+      <email>ceeskamu@gmail.com</email>
     </maintainer>
   </upstream>
 </pkgmetadata>

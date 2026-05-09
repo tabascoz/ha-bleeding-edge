@@ -2,15 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
     <remote-id type="pypi">wled</remote-id>
     <remote-id type="github">frenck/python-wled</remote-id>
-    <maintainer status="unknown">
-      <email>opensource@frenck.dev</email>
+    <maintainer status="(from package - evaluate that)">
       <name>Franck Nijhof</name>
+      <email>opensource@frenck.dev</email>
     </maintainer>
   </upstream>
 </pkgmetadata>

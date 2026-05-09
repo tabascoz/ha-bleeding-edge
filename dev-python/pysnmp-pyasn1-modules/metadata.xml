@@ -2,15 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
     <remote-id type="pypi">pysnmp-pyasn1-modules</remote-id>
-    <remote-id type="github">pysnmp/pyasn1-modules</remote-id>
-    <maintainer status="unknown">
-      <email>rfaircloth@splunk.com</email>
-      <name>rfaircloth-splunk</name>
+    <remote-id type="github">pyasn1/pyasn1-modules</remote-id>
+    <maintainer status="actively maintained">
+      <name>pyasn1 developers</name>
     </maintainer>
+    <doc>https://pyasn1.github.io/pyasn1-modules/</doc>
   </upstream>
 </pkgmetadata>

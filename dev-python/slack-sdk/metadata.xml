@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <maintainer type="project">
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
+  </maintainer>
+  <upstream>
+    <remote-id type="pypi">slack-sdk</remote-id>
+    <remote-id type="github">slackapi/python-slack-sdk</remote-id>
+    <maintainer status="(from package - evaluate that)">
+      <name>Slack Technologies, LLC</name>
+      <email>opensource@slack.com</email>
+    </maintainer>
+  </upstream>
+</pkgmetadata>

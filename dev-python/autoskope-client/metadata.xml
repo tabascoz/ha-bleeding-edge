@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <maintainer type="project">
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
+  </maintainer>
+  <upstream>
+    <remote-id type="pypi">autoskope-client</remote-id>
+    <remote-id type="github">mcisk/autoskope_client</remote-id>
+    <maintainer status="(from package - evaluate that)">
+      <name>Nico Liebeskind</name>
+      <email>nico@autoskope.de</email>
+    </maintainer>
+  </upstream>
+</pkgmetadata>

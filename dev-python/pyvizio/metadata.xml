@@ -2,15 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
     <remote-id type="pypi">pyvizio</remote-id>
-    <remote-id type="github">vkorn/pyvizio</remote-id>
-    <maintainer status="unknown">
-      <email>vladimir.kornev@gmail.com</email>
-      <name>Vlad Korniev</name>
+    <remote-id type="github">samsmithnz/pyvizio</remote-id>
+    <maintainer status="actively maintained">
+      <name>Sam Smith</name>
     </maintainer>
   </upstream>
 </pkgmetadata>

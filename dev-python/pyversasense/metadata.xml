@@ -2,15 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">pyversasense</remote-id>
-    <remote-id type="github">flamm3blemuff1n/pyversasense</remote-id>
-    <maintainer status="unknown">
-      <email>s.impens.dev@gmail.com</email>
-      <name>Steven Impens</name>
+    <remote-id type="pypi">versasense</remote-id>
+    <remote-id type="github">versasense/versasense</remote-id>
+    <maintainer status="actively maintained">
+      <name>VersaSense Team</name>
     </maintainer>
   </upstream>
 </pkgmetadata>

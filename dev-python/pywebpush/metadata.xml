@@ -2,15 +2,11 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">pywebpush</remote-id>
-    <remote-id type="github">web-push-libs/pywebpush</remote-id>
-    <maintainer status="unknown">
-      <email>src+webpusher@jrconlin.com</email>
-      <name>JR Conlin</name>
-    </maintainer>
+    <remote-id type="pypi">webpush</remote-id>
+    <remote-id type="github">delvinru/webpush-py</remote-id>
   </upstream>
 </pkgmetadata>

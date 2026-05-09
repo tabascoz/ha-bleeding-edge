@@ -2,15 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
     <remote-id type="pypi">amcrest</remote-id>
     <remote-id type="github">tchellomello/python-amcrest</remote-id>
-    <maintainer status="unknown">
-      <email>dougsland@gmail.com, tchello.mello@gmail.com</email>
+    <maintainer status="(from package - evaluate that)">
       <name>Douglas Schilling Landgraf, Marcelo Moreira de Mello</name>
+      <email>dougsland@gmail.com, tchello.mello@gmail.com</email>
     </maintainer>
   </upstream>
 </pkgmetadata>

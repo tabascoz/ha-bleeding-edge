@@ -2,15 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
     <remote-id type="pypi">aioeagle</remote-id>
     <remote-id type="github">home-assistant-libs/aioeagle</remote-id>
-    <maintainer status="unknown">
-      <email>paulus@paulusschoutsen.nl</email>
+    <maintainer status="(from package - evaluate that)">
       <name>Paulus Schoutsen</name>
+      <email>paulus@paulusschoutsen.nl</email>
     </maintainer>
   </upstream>
 </pkgmetadata>

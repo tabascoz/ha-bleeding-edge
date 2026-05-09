@@ -2,15 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">geographiclib</remote-id>
-    <remote-id type="sourceforge">geographiclib</remote-id>
-    <maintainer status="unknown">
-      <email>charles@karney.com</email>
+    <remote-id type="pypi">GeographicLib</remote-id>
+    <remote-id type="github">geographiclib/geographiclib-python</remote-id>
+    <maintainer status="(from package - evaluate that)">
       <name>Charles Karney</name>
+      <email>karney@alum.mit.edu</email>
     </maintainer>
   </upstream>
 </pkgmetadata>

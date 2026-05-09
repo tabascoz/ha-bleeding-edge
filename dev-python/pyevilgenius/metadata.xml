@@ -2,15 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">pyevilgenius</remote-id>
-    <remote-id type="github">home-assistant-libs/pyevilgenius</remote-id>
-    <maintainer status="unknown">
-      <email>paulus@paulusschoutsen.nl</email>
-      <name>Paulus Schoutsen</name>
+    <remote-id type="pypi">evilgenius</remote-id>
+    <remote-id type="github">matthewwardrop/evilgenius</remote-id>
+    <maintainer status="actively maintained">
+      <name>Matthew Wardrop</name>
     </maintainer>
   </upstream>
 </pkgmetadata>

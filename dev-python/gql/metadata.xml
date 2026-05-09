@@ -2,15 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
     <remote-id type="pypi">gql</remote-id>
     <remote-id type="github">graphql-python/gql</remote-id>
-    <maintainer status="unknown">
-      <email>me@syrusakbary.com</email>
+    <maintainer status="(from package - evaluate that)">
       <name>Syrus Akbary</name>
+      <email>me@syrusakbary.com</email>
     </maintainer>
   </upstream>
 </pkgmetadata>

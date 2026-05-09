@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <maintainer type="project">
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
+  </maintainer>
+  <upstream>
+    <remote-id type="pypi">pytest-icdiff</remote-id>
+    <remote-id type="github">pytest-dev/pytest-icdiff</remote-id>
+    <maintainer status="actively maintained">
+      <name>pytest-dev</name>
+    </maintainer>
+    <doc>https://pytest.org</doc>
+  </upstream>
+</pkgmetadata>

@@ -2,16 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
     <remote-id type="pypi">gpiozero</remote-id>
     <remote-id type="github">gpiozero/gpiozero</remote-id>
-    <doc>https://pythonhosted.org/gpiozero/</doc>
-    <maintainer status="unknown">
-      <email>ben@bennuttall.com</email>
+    <maintainer status="(from package - evaluate that)">
       <name>Ben Nuttall</name>
+      <email>ben@bennuttall.com</email>
     </maintainer>
   </upstream>
 </pkgmetadata>

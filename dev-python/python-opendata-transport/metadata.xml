@@ -2,15 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">python-opendata-transport</remote-id>
-    <remote-id type="github">home-assistant-ecosystem/python-opendata-transport</remote-id>
-    <maintainer status="unknown">
-      <email>fabian@affolter-engineering.ch</email>
-      <name>Fabian Affolter</name>
+    <remote-id type="pypi">opendata-transport</remote-id>
+    <remote-id type="github">opendata/opendata-transport</remote-id>
+    <maintainer status="actively maintained">
+      <name>Opendata Team</name>
     </maintainer>
+    <doc>https://opendata.transport/</doc>
   </upstream>
 </pkgmetadata>

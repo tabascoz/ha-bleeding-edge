@@ -2,15 +2,16 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
     <remote-id type="pypi">ha-av</remote-id>
     <remote-id type="github">PyAV-Org/PyAV</remote-id>
-    <maintainer status="unknown">
-      <email>pyav@mikeboers.com</email>
+    <remote-id type="github">conda-forge/av-feedstock</remote-id>
+    <maintainer status="(from package - evaluate that)">
       <name>Mike Boers</name>
+      <email>pyav@mikeboers.com</email>
     </maintainer>
   </upstream>
 </pkgmetadata>

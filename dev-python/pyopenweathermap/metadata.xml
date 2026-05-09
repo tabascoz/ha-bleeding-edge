@@ -2,15 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">pyopenweathermap</remote-id>
-    <remote-id type="github">freekode/pyopenweathermap</remote-id>
-    <maintainer status="unknown">
-      <email>iam@freekode.org</email>
-      <name>Evgeny</name>
+    <remote-id type="pypi">openweathermap</remote-id>
+    <remote-id type="github">alishekari/openweathermap</remote-id>
+    <maintainer status="(from package - evaluate that)">
+      <name>Ali Shekari</name>
+      <email>alishekari1991@outlook.com</email>
     </maintainer>
   </upstream>
 </pkgmetadata>

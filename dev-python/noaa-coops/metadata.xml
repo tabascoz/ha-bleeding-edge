@@ -2,15 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
     <remote-id type="pypi">noaa-coops</remote-id>
-    <remote-id type="github">GClunies/noaa_coops</remote-id>
-    <maintainer status="unknown">
+    <maintainer status="(from package - evaluate that)">
+      <name>Gregory Clunies</name>
       <email>greg.clunies@gmail.com</email>
-      <name>Greg Clunies</name>
     </maintainer>
   </upstream>
 </pkgmetadata>

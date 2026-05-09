@@ -2,15 +2,10 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
     <remote-id type="pypi">keba-kecontact</remote-id>
-    <remote-id type="github">dannerph/keba-kecontact</remote-id>
-    <maintainer status="unknown">
-      <email>philipp@danner-web.de</email>
-      <name>Philipp Danner</name>
-    </maintainer>
   </upstream>
 </pkgmetadata>

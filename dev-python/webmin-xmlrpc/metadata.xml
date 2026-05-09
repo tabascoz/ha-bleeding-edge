@@ -2,15 +2,11 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
     <remote-id type="pypi">webmin-xmlrpc</remote-id>
     <remote-id type="github">autinerd/webmin-xmlrpc</remote-id>
-    <maintainer status="unknown">
-      <email>autinerd@kuyateh.eu</email>
-      <name>Sidney Kuyateh</name>
-    </maintainer>
   </upstream>
 </pkgmetadata>

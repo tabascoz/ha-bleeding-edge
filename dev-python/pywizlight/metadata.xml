@@ -2,15 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">pywizlight</remote-id>
-    <remote-id type="github">sbidy/pywizlight</remote-id>
-    <maintainer status="unknown">
-      <email>sbidy@hotmail.com</email>
-      <name>Stephan Traub</name>
+    <remote-id type="pypi">wizlight</remote-id>
+    <remote-id type="github">sidoh/wizlight</remote-id>
+    <maintainer status="actively maintained">
+      <name>Kyle Sidoh</name>
     </maintainer>
   </upstream>
 </pkgmetadata>

@@ -2,15 +2,12 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
     <remote-id type="pypi">aioasuswrt</remote-id>
     <remote-id type="github">kennedyshead/aioasuswrt</remote-id>
-    <maintainer status="unknown">
-      <email>magnusknutas@gmail.com</email>
-      <name>Magnus Knutas</name>
-    </maintainer>
+    <remote-id type="github">kennedyshead/aioasuswrt.git</remote-id>
   </upstream>
 </pkgmetadata>

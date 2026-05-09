@@ -2,14 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
     <remote-id type="pypi">PyRIC</remote-id>
-    <maintainer status="unknown">
-      <email>wraith.wireless@yandex.com</email>
+    <remote-id type="github">wraith-wireless/pyric</remote-id>
+    <maintainer status="(from package - evaluate that)">
       <name>Dale Patterson</name>
+      <email>wraith.wireless@yandex.com</email>
     </maintainer>
   </upstream>
 </pkgmetadata>

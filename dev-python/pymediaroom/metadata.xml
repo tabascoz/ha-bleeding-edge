@@ -2,15 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">pymediaroom</remote-id>
-    <remote-id type="github">dgomes/pymediaroom</remote-id>
-    <maintainer status="unknown">
-      <email>diogogomes@gmail.com</email>
-      <name>Diogo Gomes</name>
+    <remote-id type="pypi">mediaroom</remote-id>
+    <remote-id type="github">pymediaroom/pymediaroom</remote-id>
+    <maintainer status="actively maintained">
+      <name>Pymediaroom Team</name>
     </maintainer>
   </upstream>
 </pkgmetadata>

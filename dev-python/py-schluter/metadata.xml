@@ -2,15 +2,10 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">py-schluter</remote-id>
-    <remote-id type="github">prairieapps/py-schluter</remote-id>
-    <maintainer status="unknown">
-      <email>adam@prairieapps.com</email>
-      <name>Adam Michaleski</name>
-    </maintainer>
+    <remote-id type="pypi">schluter</remote-id>
   </upstream>
 </pkgmetadata>

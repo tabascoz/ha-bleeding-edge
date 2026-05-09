@@ -2,15 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
     <remote-id type="pypi">proliphix</remote-id>
     <remote-id type="github">sdague/proliphix</remote-id>
-    <maintainer status="unknown">
-      <email>sean@dague.net</email>
+    <maintainer status="(from package - evaluate that)">
       <name>Sean Dague</name>
+      <email>sean@dague.net</email>
     </maintainer>
   </upstream>
 </pkgmetadata>

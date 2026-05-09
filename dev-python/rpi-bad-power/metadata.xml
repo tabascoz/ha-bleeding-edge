@@ -2,15 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
     <remote-id type="pypi">rpi-bad-power</remote-id>
     <remote-id type="github">shenxn/rpi-bad-power</remote-id>
-    <maintainer status="unknown">
-      <email>s@sxn.dev</email>
+    <maintainer status="(from package - evaluate that)">
       <name>Xiaonan Shen</name>
+      <email>s@sxn.dev</email>
     </maintainer>
   </upstream>
 </pkgmetadata>

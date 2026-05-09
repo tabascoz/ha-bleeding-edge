@@ -2,15 +2,11 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
     <remote-id type="pypi">teslemetry-stream</remote-id>
     <remote-id type="github">Teslemetry/teslemetry_stream</remote-id>
-    <maintainer status="unknown">
-      <email>hello@teslemetry.com</email>
-      <name>Brett Adams</name>
-    </maintainer>
   </upstream>
 </pkgmetadata>

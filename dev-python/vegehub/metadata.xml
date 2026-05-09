@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <maintainer type="project">
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
+  </maintainer>
+  <upstream>
+    <remote-id type="pypi">vegehub</remote-id>
+    <remote-id type="github">GhoweVege/VegeHubPyPiLib</remote-id>
+    <maintainer status="(from package - evaluate that)">
+      <name>GhoweVege</name>
+      <email>85890024+GhoweVege@users.noreply.github.com</email>
+    </maintainer>
+    <doc>https://www.vegetronix.com/Products/VG-HUB-RELAY/</doc>
+  </upstream>
+</pkgmetadata>

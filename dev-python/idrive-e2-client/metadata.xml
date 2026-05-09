@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <maintainer type="project">
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
+  </maintainer>
+  <upstream>
+    <remote-id type="pypi">idrive-e2-client</remote-id>
+    <remote-id type="github">patrickvorgers/idrive-e2-client</remote-id>
+    <maintainer status="(from package - evaluate that)">
+      <name>Patrick Vorgers</name>
+    </maintainer>
+  </upstream>
+</pkgmetadata>

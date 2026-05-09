@@ -2,15 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">pysnooz</remote-id>
-    <remote-id type="github">AustinBrunkhorst/pysnooz</remote-id>
-    <maintainer status="unknown">
-      <email>pysnooz@alb.dev</email>
-      <name>Austin Brunkhorst</name>
+    <remote-id type="pypi">snooz</remote-id>
+    <remote-id type="github">snooz/snooz</remote-id>
+    <maintainer status="actively maintained">
+      <name>Snooz Team</name>
     </maintainer>
   </upstream>
 </pkgmetadata>

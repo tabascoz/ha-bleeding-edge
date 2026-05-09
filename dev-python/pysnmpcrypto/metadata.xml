@@ -2,15 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
     <remote-id type="pypi">pysnmpcrypto</remote-id>
-    <remote-id type="github">etingof/pysnmpcrypto</remote-id>
-    <maintainer status="unknown">
-      <email>etingof@gmail.com</email>
-      <name>Ilya Etingof &lt;etingof@gmail.com&gt;</name>
+    <remote-id type="github">pysnmp/pysnmp</remote-id>
+    <maintainer status="actively maintained">
+      <name>Ilya Etingof</name>
     </maintainer>
+    <doc>https://pysnmp.sourceforge.io/</doc>
   </upstream>
 </pkgmetadata>

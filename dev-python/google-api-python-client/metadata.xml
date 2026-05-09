@@ -1,13 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-  <maintainer type="person">
-    <email>robbat2@gentoo.org</email>
-    <name>Robin H. Johnson</name>
+  <maintainer type="project">
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
-  <stabilize-allarches/>
   <upstream>
-    <remote-id type="github">google/google-api-python-client</remote-id>
     <remote-id type="pypi">google-api-python-client</remote-id>
+    <remote-id type="github">googleapis/google-api-python-client</remote-id>
+    <maintainer status="(from package - evaluate that)">
+      <name>Google LLC</name>
+      <email>googleapis-packages@google.com</email>
+    </maintainer>
   </upstream>
 </pkgmetadata>

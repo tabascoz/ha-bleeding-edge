@@ -2,15 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
     <remote-id type="pypi">gps3</remote-id>
     <remote-id type="github">wadda/gps3</remote-id>
-    <maintainer status="unknown">
-      <email>waddagit@wadda.org</email>
+    <maintainer status="(from package - evaluate that)">
       <name>Moe</name>
+      <email>waddagit@wadda.org</email>
     </maintainer>
   </upstream>
 </pkgmetadata>

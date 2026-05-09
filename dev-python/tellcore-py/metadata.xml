@@ -2,15 +2,11 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">tellcore-py</remote-id>
-    <remote-id type="github">erijo/tellcore-py</remote-id>
-    <maintainer status="unknown">
-      <email>erik@ejohansson.se</email>
-      <name>Erik Johansson</name>
-    </maintainer>
+    <remote-id type="pypi">tellcore</remote-id>
+    <remote-id type="github">tellcore/tellcore</remote-id>
   </upstream>
 </pkgmetadata>

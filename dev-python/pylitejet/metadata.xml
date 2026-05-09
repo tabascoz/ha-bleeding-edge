@@ -2,15 +2,11 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">pylitejet</remote-id>
-    <remote-id type="github">joncar/pylitejet.git</remote-id>
-    <maintainer status="unknown">
-      <email>jon@joncaruana.com</email>
-      <name>Jon Caruana</name>
-    </maintainer>
+    <remote-id type="pypi">litejet</remote-id>
+    <remote-id type="github">litejet/litejet</remote-id>
   </upstream>
 </pkgmetadata>

@@ -2,15 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
     <remote-id type="pypi">melnor-bluetooth</remote-id>
-    <remote-id type="github">vanstinator/melnor-bluetooth</remote-id>
-    <maintainer status="unknown">
-      <email>justinvdhooft@gmail.com</email>
+    <maintainer status="(from package - evaluate that)">
       <name>Justin Vanderhooft</name>
+      <email>justinvdhooft@gmail.com</email>
     </maintainer>
   </upstream>
 </pkgmetadata>

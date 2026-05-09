@@ -2,15 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">pycomfoconnect</remote-id>
-    <remote-id type="github">michaelarnauts/comfoconnect</remote-id>
-    <maintainer status="unknown">
-      <email>michael.arnauts@gmail.com</email>
-      <name>Michaël Arnauts</name>
+    <remote-id type="pypi">comfoconnect</remote-id>
+    <remote-id type="github">comfoconnect/comfoconnect</remote-id>
+    <maintainer status="actively maintained">
+      <name>Tobias W. Scherer</name>
     </maintainer>
   </upstream>
 </pkgmetadata>

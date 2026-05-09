@@ -2,15 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
     <remote-id type="pypi">pfzy</remote-id>
     <remote-id type="github">kazhala/pfzy</remote-id>
-    <maintainer status="unknown">
-      <email>kevin7441@gmail.com</email>
+    <maintainer status="(from package - evaluate that)">
       <name>Kevin Zhuang</name>
+      <email>kevin7441@gmail.com</email>
     </maintainer>
   </upstream>
 </pkgmetadata>

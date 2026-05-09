@@ -2,11 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">pyoverkiz</remote-id>
-    <remote-id type="github">iMicknl/python-overkiz-api</remote-id>
+    <remote-id type="pypi">overkiz</remote-id>
+    <remote-id type="github">overkiz/pyoverkiz</remote-id>
+    <maintainer status="actively maintained">
+      <name>Overkiz</name>
+    </maintainer>
   </upstream>
 </pkgmetadata>

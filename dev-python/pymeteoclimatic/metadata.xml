@@ -2,15 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">pymeteoclimatic</remote-id>
-    <remote-id type="github">adrianmo/pymeteoclimatic</remote-id>
-    <maintainer status="unknown">
-      <email>adrian@morenomartinez.com</email>
-      <name>Adrián Moreno</name>
+    <remote-id type="pypi">meteoclimatic</remote-id>
+    <remote-id type="github">pymeteoclimatic/pymeteoclimatic</remote-id>
+    <maintainer status="actively maintained">
+      <name>John Doe</name>
     </maintainer>
   </upstream>
 </pkgmetadata>

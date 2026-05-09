@@ -2,15 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">python-rabbitair</remote-id>
-    <remote-id type="github">rabbit-air/python-rabbitair</remote-id>
-    <maintainer status="unknown">
-      <email>developer@rabbitair.com</email>
-      <name>Rabbit Air</name>
+    <remote-id type="pypi">rabbitair</remote-id>
+    <remote-id type="github">rabbitair/rabbitair</remote-id>
+    <maintainer status="actively maintained">
+      <name>Rabbit Air Team</name>
     </maintainer>
   </upstream>
 </pkgmetadata>

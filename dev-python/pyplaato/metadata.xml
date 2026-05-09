@@ -2,15 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">pyplaato</remote-id>
-    <remote-id type="github">JohNan/pyplaato</remote-id>
-    <maintainer status="unknown">
-      <email>johan.nanzen@gmail.com</email>
-      <name>JohNan</name>
+    <remote-id type="pypi">plaato</remote-id>
+    <remote-id type="github">plaato/plaato-python</remote-id>
+    <maintainer status="actively maintained">
+      <name>Plaato</name>
     </maintainer>
   </upstream>
 </pkgmetadata>

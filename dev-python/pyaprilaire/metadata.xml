@@ -2,10 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">pyaprilaire</remote-id>
+    <remote-id type="pypi">aprilaire</remote-id>
+    <remote-id type="github">matthewwhite/aprilaire</remote-id>
+    <maintainer status="actively maintained">
+      <name>Matthew White</name>
+    </maintainer>
   </upstream>
 </pkgmetadata>

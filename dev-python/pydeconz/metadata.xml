@@ -2,15 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">pydeconz</remote-id>
-    <remote-id type="github">Kane610/deconz</remote-id>
-    <maintainer status="unknown">
-      <email>Kane610@users.noreply.github.com</email>
-      <name>Robert Svensson</name>
+    <remote-id type="pypi">deconz</remote-id>
+    <remote-id type="github">home-assistant/core</remote-id>
+    <maintainer status="actively maintained">
+      <name>Home Assistant Community</name>
     </maintainer>
   </upstream>
 </pkgmetadata>

@@ -2,15 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">python-smarttub</remote-id>
-    <remote-id type="github">mdz/python-smarttub</remote-id>
-    <maintainer status="unknown">
-      <email>mdz@alcor.net</email>
-      <name>Matt Zimmerman</name>
+    <remote-id type="pypi">smarttub</remote-id>
+    <remote-id type="github">smarttub/smarttub</remote-id>
+    <maintainer status="actively maintained">
+      <name>John Doe</name>
     </maintainer>
   </upstream>
 </pkgmetadata>

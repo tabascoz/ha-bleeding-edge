@@ -2,15 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">pypjlink2</remote-id>
-    <remote-id type="github">benoitlouy/pypjlink</remote-id>
-    <maintainer status="unknown">
-      <email>pypjlink@mm.st</email>
-      <name>Peter Ward &lt;peteraward@gmail.com&gt;, Gaetano Guerriero &lt;gaetano.guerriero@spacespa.it&gt;, Benoit Louy &lt;pypjlink@mm.st&gt;</name>
+    <remote-id type="pypi">pjlink2</remote-id>
+    <remote-id type="github">pypjlink/pjlink2</remote-id>
+    <maintainer status="actively maintained">
+      <name>Pjlink2 Developers</name>
     </maintainer>
   </upstream>
 </pkgmetadata>

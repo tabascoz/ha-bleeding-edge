@@ -2,15 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
     <remote-id type="pypi">wirelesstagpy</remote-id>
     <remote-id type="github">sergeymaysak/wirelesstagpy</remote-id>
-    <maintainer status="unknown">
-      <email>sergey.maysak@gmail.com</email>
+    <maintainer status="(from package - evaluate that)">
       <name>Sergiy Maysak</name>
+      <email>sergey.maysak@gmail.com</email>
     </maintainer>
   </upstream>
 </pkgmetadata>

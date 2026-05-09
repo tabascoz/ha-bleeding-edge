@@ -2,15 +2,10 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">heatmiserv3</remote-id>
-    <remote-id type="github">andylockran/heatmiserV3</remote-id>
-    <maintainer status="unknown">
-      <email>andy@lockran.com</email>
-      <name>Andy Loughran</name>
-    </maintainer>
+    <remote-id type="pypi">heatmiserV3</remote-id>
   </upstream>
 </pkgmetadata>

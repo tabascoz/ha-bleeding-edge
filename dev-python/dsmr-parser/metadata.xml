@@ -2,15 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
     <remote-id type="pypi">dsmr-parser</remote-id>
     <remote-id type="github">ndokter/dsmr_parser</remote-id>
-    <maintainer status="unknown">
-      <email>mail@nldr.net</email>
+    <maintainer status="(from package - evaluate that)">
       <name>Nigel Dokter and many others</name>
+      <email>mail@nldr.net</email>
     </maintainer>
   </upstream>
 </pkgmetadata>

@@ -2,15 +2,7 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">pysaj</remote-id>
-    <remote-id type="github">fredericvl/pysaj</remote-id>
-    <maintainer status="unknown">
-      <email>frederic.van.linthoudt@gmail.com</email>
-      <name>fredericvl</name>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

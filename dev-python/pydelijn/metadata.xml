@@ -2,15 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">pydelijn</remote-id>
-    <remote-id type="github">bollewolle/pydelijn</remote-id>
-    <maintainer status="unknown">
-      <email>dev@bollewolle.be</email>
-      <name>bollewolle</name>
+    <remote-id type="pypi">delijn</remote-id>
+    <remote-id type="github">delijn/delijn</remote-id>
+    <maintainer status="actively maintained">
+      <name>Jasper De Vries</name>
     </maintainer>
   </upstream>
 </pkgmetadata>

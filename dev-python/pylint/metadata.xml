@@ -2,15 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">pylint</remote-id>
-    <remote-id type="github">pylint-dev/pylint</remote-id>
-    <maintainer status="unknown">
-      <email>code-quality@python.org</email>
-      <name>Python Code Quality Authority</name>
+    <remote-id type="pypi">lint</remote-id>
+    <remote-id type="github">astraw38/lint</remote-id>
+    <maintainer status="(from package - evaluate that)">
+      <name>Ashley Straw</name>
+      <email>strawac1@gmail.com</email>
     </maintainer>
   </upstream>
 </pkgmetadata>

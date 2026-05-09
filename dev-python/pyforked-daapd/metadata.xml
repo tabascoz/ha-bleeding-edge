@@ -2,15 +2,7 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">pyforked-daapd</remote-id>
-    <remote-id type="github">uvjustin/pyforked-daapd</remote-id>
-    <maintainer status="unknown">
-      <email>46082645+uvjustin@users.noreply.github.com</email>
-      <name>Justin Wong</name>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

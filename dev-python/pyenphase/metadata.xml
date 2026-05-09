@@ -2,15 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">pyenphase</remote-id>
-    <remote-id type="github">pyenphase/pyenphase</remote-id>
-    <maintainer status="unknown">
-      <email>cgarwood@gmail.com</email>
-      <name>pyenphase</name>
+    <remote-id type="pypi">enphase</remote-id>
+    <remote-id type="github">enphase/pyenphase</remote-id>
+    <maintainer status="actively maintained">
+      <name>Enphase Energy</name>
     </maintainer>
   </upstream>
 </pkgmetadata>

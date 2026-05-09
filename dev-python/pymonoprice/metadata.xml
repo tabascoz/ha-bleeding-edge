@@ -2,15 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">pymonoprice</remote-id>
-    <remote-id type="github">etsinko/pymonoprice</remote-id>
-    <maintainer status="unknown">
-      <email>etsinko@gmail.com</email>
-      <name>Egor Tsinko</name>
+    <remote-id type="pypi">monoprice</remote-id>
+    <remote-id type="github">michaelhly/pymonoprice</remote-id>
+    <maintainer status="actively maintained">
+      <name>Michael Hly</name>
     </maintainer>
   </upstream>
 </pkgmetadata>

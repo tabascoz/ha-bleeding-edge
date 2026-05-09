@@ -2,15 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
     <remote-id type="pypi">pytest-socket</remote-id>
-    <remote-id type="github">miketheman/pytest-socket</remote-id>
-    <maintainer status="unknown">
-      <email>miketheman@gmail.com</email>
-      <name>Mike Fiedler</name>
+    <remote-id type="github">pytest/pytest-socket</remote-id>
+    <maintainer status="actively maintained">
+      <name>pytest-dev</name>
     </maintainer>
   </upstream>
 </pkgmetadata>

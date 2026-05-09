@@ -2,15 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">PyChromecast</remote-id>
-    <remote-id type="github">balloob/pychromecast</remote-id>
-    <maintainer status="unknown">
-      <email>paulus@paulusschoutsen.nl</email>
-      <name>Paulus Schoutsen</name>
+    <remote-id type="pypi">pychromecast</remote-id>
+    <remote-id type="github">home-assistant/pychromecast</remote-id>
+    <maintainer status="actively maintained">
+      <name>Home Assistant</name>
     </maintainer>
   </upstream>
 </pkgmetadata>

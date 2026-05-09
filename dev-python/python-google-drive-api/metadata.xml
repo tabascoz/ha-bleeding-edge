@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <maintainer type="project">
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
+  </maintainer>
+  <upstream>
+    <remote-id type="pypi">google-drive-api</remote-id>
+    <remote-id type="github">m4ce/google-drive-api-python</remote-id>
+    <maintainer status="(from package - evaluate that)">
+      <name>Matteo Cerutti</name>
+      <email>matteo.cerutti@hotmail.co.uk</email>
+    </maintainer>
+  </upstream>
+</pkgmetadata>

@@ -2,15 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">python-mystrom</remote-id>
-    <remote-id type="github">home-assistant-ecosystem/python-mystrom</remote-id>
-    <maintainer status="unknown">
-      <email>fabian@affolter-engineering.ch</email>
-      <name>Fabian Affolter</name>
+    <remote-id type="pypi">mystrom</remote-id>
+    <remote-id type="github">mystrom/mystrom</remote-id>
+    <maintainer status="actively maintained">
+      <name>Mysstrom Team</name>
     </maintainer>
   </upstream>
 </pkgmetadata>

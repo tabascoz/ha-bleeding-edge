@@ -2,15 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
     <remote-id type="pypi">libsoundtouch</remote-id>
     <remote-id type="github">CharlesBlonde/libsoundtouch</remote-id>
-    <maintainer status="unknown">
-      <email>charles.blonde@gmail.com</email>
+    <maintainer status="(from package - evaluate that)">
       <name>Charles Blonde</name>
+      <email>charles.blonde@gmail.com</email>
     </maintainer>
   </upstream>
 </pkgmetadata>

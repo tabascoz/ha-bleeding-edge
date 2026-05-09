@@ -2,15 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">pyweatherflowudp</remote-id>
-    <remote-id type="github">briis/pyweatherflowudp</remote-id>
-    <maintainer status="unknown">
-      <email>natekspencer@gmail.com</email>
-      <name>Nathan Spencer</name>
+    <remote-id type="pypi">weatherflowudp</remote-id>
+    <remote-id type="github">WeatherFlow/WeatherFlowUDP</remote-id>
+    <maintainer status="actively maintained">
+      <name>WeatherFlow</name>
     </maintainer>
+    <doc>https://weatherflow.com/</doc>
   </upstream>
 </pkgmetadata>
