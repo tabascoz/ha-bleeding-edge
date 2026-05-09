@@ -15,15 +15,17 @@ if [[ ${PV} == *9999* ]]; then
 	EGIT_BRANCH="dev"
 	S="${WORKDIR}/homeassistant-full-9999/"
 else
-	if [[ ${PV} == *_beta* ]]; then
-		beta_num="${PR#r}"
-		MY_PV="${PV%_beta}b${beta_num}"
-	else
-		MY_PV="${PV}"
-	fi
-	MY_P="${PN}-${MY_PV}"
-	SRC_URI="$(pypi_sdist_url)"
-	S="${WORKDIR}/homeassistant-${MY_PV}"
+
+    if [[ ${PV} == *_beta ]]; then
+        beta_num="${PR#r}"
+        MY_PV="${PV%_beta}b${beta_num}"
+    else
+        MY_PV="${PV}"
+    fi
+    MY_P="${PN}-${MY_PV}"
+    SRC_URI="$(pypi_sdist_url)"
+    S="${WORKDIR}/homeassistant-${MY_PV}"
+
 fi
 
 DESCRIPTION="Open-source home automation platform running on Python 3."
@@ -67,7 +69,9 @@ RDEPEND="${RDEPEND}
 	~dev-python/async-timeout-5.0.1[${PYTHON_USEDEP}]
 	~dev-python/async-upnp-client-0.46.2[${PYTHON_USEDEP}]
 	~dev-python/atomicwrites-homeassistant-1.4.1[${PYTHON_USEDEP}]
+	dev-python/attrs[${PYTHON_USEDEP}]
 	~dev-python/annotatedyaml-1.0.2[${PYTHON_USEDEP}]
+	$(python_gen_cond_dep '~dev-python/audioop-lts-0.2.2[${PYTHON_USEDEP}]' python3_14)
 	dev-python/attrs[${PYTHON_USEDEP}]
 	~dev-python/awesomeversion-25.8.0[${PYTHON_USEDEP}]
 	~dev-python/bcrypt-5.0.0[${PYTHON_USEDEP}]
@@ -109,7 +113,7 @@ RDEPEND="${RDEPEND}
 	>=dev-python/multidict-6.0.2[${PYTHON_USEDEP}]
 	~media-libs/mutagen-1.47.0[${PYTHON_USEDEP}]
 	dev-python/numpy[${PYTHON_USEDEP}]
-	~dev-python/orjson-3.11.9[${PYTHON_USEDEP}]
+	dev-python/orjson[${PYTHON_USEDEP}]
 	>=dev-python/packaging-23.1[${PYTHON_USEDEP}]
 	~dev-python/paho-mqtt-2.1.0[${PYTHON_USEDEP}]
 	~dev-python/pandas-2.3.3[${PYTHON_USEDEP}]
@@ -134,6 +138,8 @@ RDEPEND="${RDEPEND}
 	>=net-analyzer/scapy-2.6.1[${PYTHON_USEDEP}]
 	~dev-python/securetar-2026.4.1[${PYTHON_USEDEP}]
 	dev-python/sqlalchemy[${PYTHON_USEDEP}]
+	$(python_gen_cond_dep '~dev-python/standard-aifc-3.13.0[${PYTHON_USEDEP}]' python3_14)
+	$(python_gen_cond_dep '~dev-python/standard-telnetlib-3.13.0[${PYTHON_USEDEP}]' python3_14)
 	>=dev-python/tuf-4.0.0[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.15.0[${PYTHON_USEDEP}]
 	<dev-python/typing-extensions-5.0[${PYTHON_USEDEP}]
@@ -1256,9 +1262,7 @@ BDEPEND="${RDEPEND}
 		~dev-python/tqdm-4.67.1[${PYTHON_USEDEP}]
 	)
 	dev-python/setuptools[${PYTHON_USEDEP}]
-	dev-python/mock[${PYTHON_USEDEP}]
-"
-
+	dev-python/mock[${PYTHON_USEDEP}]"
 src_prepare() {
 	if use test ; then
 		cp --no-preserve=mode --recursive "${WORKDIR}/core-${MY_PV}/tests ${S}"
@@ -1268,7 +1272,6 @@ src_prepare() {
 	sed -E -i "s/uv==[^ ]*/uv/g" -i homeassistant/package_constraints.txt || die
 	distutils-r1_src_prepare
 }
-
 INSTALL_DIR="/opt/${MY_PN}"
 DISABLE_AUTOFORMATTING=1
 DOC_CONTENTS="
@@ -1280,7 +1283,6 @@ The sqlite db is by default in: /etc/${MY_PN}
 support at https://github.com/tabascoz/ha-bleeding-edge
 "
 DOCS="README.rst"
-
 python_install_all() {
 	dodoc ${DOCS}
 	distutils-r1_python_install_all
@@ -1293,10 +1295,6 @@ python_install_all() {
 	newinitd "${FILESDIR}/${MY_PN}.init.d" "${MY_PN}"
 	use systemd && systemd_dounit "${FILESDIR}/${MY_PN}.service"
 	dobin "${FILESDIR}/hasstest"
-	if use socat ; then
-		newinitd "${FILESDIR}/socat-zwave.init.d" "socat-zwave"
-		sed -i -e 's/# need socat-zwave/need socat-zwave/g' "${D}/etc/init.d/${MY_PN}" || die
-	fi
 	if use mqtt ; then
 		sed -i -e 's/# need mosquitto/need mosquitto/g' "${D}/etc/init.d/${MY_PN}" || die
 	fi
