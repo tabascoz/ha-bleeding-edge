@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">homeassistant</remote-id>
     <remote-id type="github">home-assistant/core</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>Home Assistant Community</name>
     </maintainer>
     <doc>https://www.home-assistant.io/</doc>
@@ -297,7 +297,6 @@
     <flag name="emoncms">Integrate emoncms for energy monitoring</flag>
     <flag name="emoncms_history">Integrate emoncms history data</flag>
     <flag name="hypontech">Control Hypontech solar inverters</flag>
-    <flag name="energenie_power_sockets">Control Energenie USB power socket adapters</flag>
     <flag name="smart_meter_texas">Integrate Texas smart electric meters</flag>
     <flag name="powerwall">Integrate Tesla Powerwall</flag>
     <flag name="octopus_energy">Integrate Octopus Energy UK</flag>
@@ -1141,9 +1140,6 @@
     <!-- Network and Presence (Additional) -->
     <flag name="syncthing">Integrate Syncthing file synchronization</flag>
 
-    <!-- Intercom and Communication Devices -->
-    <flag name="comelit">Integrate Comelit intercom and automation</flag>
-
     <!-- Smart Home Protocols (Additional) -->
     <flag name="tellduslive">Integrate Telldus Live smart home cloud</flag>
     <flag name="tellstick">Integrate TellStick RF controller</flag>
@@ -1169,7 +1165,6 @@
     <!-- Additional Integrations -->
     <flag name="adguard">Integrate AdGuard Home DNS ad blocker</flag>
     <flag name="pigpio">Integrate Raspberry Pi GPIO via pigpio</flag>
-    <flag name="ista_ecotrend">Integrate ista EcoTrend energy data</flag>
     <flag name="permobil">Integrate Permobil wheelchair data</flag>
     <flag name="ripple">Integrate Ripple Energy community energy (UK)</flag>
     <flag name="rituals_perfume_genie">Integrate Rituals Perfume Genie diffuser</flag>
