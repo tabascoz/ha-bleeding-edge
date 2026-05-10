@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">sma</remote-id>
     <remote-id type="gitlab">t.seppelt/sesmotifanalyser</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Tim Seppelt</name>
       <email>t.seppelt-dev@posteo.de</email>
     </maintainer>

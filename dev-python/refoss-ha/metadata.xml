@@ -7,7 +7,7 @@
   </maintainer>
   <upstream>
     <remote-id type="pypi">refoss-ha</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>ashionky</name>
       <email>495519020@qq.com</email>
     </maintainer>

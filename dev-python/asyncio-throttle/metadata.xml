@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">asyncio-throttle</remote-id>
     <remote-id type="github">hallazzang/asyncio-throttle</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Hanjun Kim</name>
       <email>hallazzang@gmail.com</email>
     </maintainer>

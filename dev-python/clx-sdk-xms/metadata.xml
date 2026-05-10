@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">clx-sdk-xms</remote-id>
     <remote-id type="github">clxcommunications/sdk-xms-python</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Robert Helgesson</name>
       <email>robert@chaitsa.com</email>
     </maintainer>

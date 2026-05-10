@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">oyaml</remote-id>
     <remote-id type="github">wimglenn/oyaml</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Wim Glenn</name>
       <email>hey@wimglenn.com</email>
     </maintainer>

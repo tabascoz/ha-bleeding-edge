@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">ismartgate</remote-id>
     <remote-id type="github">bdraco/ismartgate</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Robbie Van Gorkom</name>
       <email>"J. Nick Koston" <nick@koston.org></email>
     </maintainer>

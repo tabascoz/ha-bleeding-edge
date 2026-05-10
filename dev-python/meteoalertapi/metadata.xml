@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">meteoalertapi</remote-id>
     <remote-id type="github">rolfberkenbosch/meteoalert-api</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Rolf Berkenbosch</name>
       <email>rolf@berkenbosch.nl</email>
     </maintainer>

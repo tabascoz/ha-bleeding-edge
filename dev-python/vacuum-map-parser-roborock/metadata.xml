@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">vacuum-map-parser-roborock</remote-id>
     <remote-id type="github">PiotrMachowski/Python-package-vacuum-map-parser-roborock</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Piotr Machowski</name>
       <email>piotr.machowski.dev@gmail.com</email>
     </maintainer>

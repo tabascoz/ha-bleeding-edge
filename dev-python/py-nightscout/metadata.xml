@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">nightscout</remote-id>
     <remote-id type="github">nightscout/cgm-remote-monitor</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>Nightscout Team</name>
     </maintainer>
   </upstream>

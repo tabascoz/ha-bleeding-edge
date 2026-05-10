@@ -13,7 +13,7 @@ HOMEPAGE="https://pypi.org/project/aioacaia/"
 
 SRC_URI="$(pypi_sdist_url)"
 
-LICENSE="AGPL-3.0-only"
+LICENSE="AGPL-3"
 SLOT="0"
 KEYWORDS="~amd64 ~arm64"
 IUSE="test"

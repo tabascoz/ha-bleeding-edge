@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">opuslib</remote-id>
     <remote-id type="github">onbeep/opuslib</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Orion Labs, Inc.</name>
       <email>code@orionlabs.io</email>
     </maintainer>

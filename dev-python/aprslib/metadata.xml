@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">aprslib</remote-id>
     <remote-id type="github">rossengeorgiev/aprs-python</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Rossen Georgiev</name>
       <email>hello@rgp.io</email>
     </maintainer>

@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">solaredge-local</remote-id>
     <remote-id type="github">drobtravels/solaredge-local</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>David Roberts</name>
     </maintainer>
   </upstream>

@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">tomorrowio</remote-id>
     <remote-id type="github">tomorrowio/tomorrowio-python</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>Tomorrow.io</name>
     </maintainer>
     <doc>https://www.tomorrow.io/</doc>

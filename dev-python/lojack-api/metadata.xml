@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">lojack-api</remote-id>
     <remote-id type="github">devinslick/lojack_api</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Devin Slick</name>
     </maintainer>
   </upstream>

@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">pynetgear</remote-id>
     <remote-id type="github">briancaffey/pynetgear</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>Brian Caffey</name>
     </maintainer>
   </upstream>

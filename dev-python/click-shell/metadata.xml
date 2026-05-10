@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">click-shell</remote-id>
     <remote-id type="github">clarkperkins/click-shell</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Clark Perkins</name>
       <email>r.clark.perkins@gmail.com</email>
     </maintainer>

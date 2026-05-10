@@ -10,7 +10,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A common runtime for AWS Python projects"
 HOMEPAGE="https://github.com/awslabs/aws-crt-python https://pypi.org/project/awscrt/"
 
-LICENSE="Apache 2.0"
+LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"

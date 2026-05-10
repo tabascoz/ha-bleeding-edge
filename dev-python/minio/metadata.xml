@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">minio</remote-id>
     <remote-id type="github">minio/minio-py</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>MinIO, Inc.</name>
       <email>dev@min.io</email>
     </maintainer>

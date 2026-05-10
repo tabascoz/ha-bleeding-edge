@@ -7,7 +7,7 @@
   </maintainer>
   <upstream>
     <remote-id type="pypi">crc16</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Gennady Trafimenkov</name>
       <email>gennady.trafimenkov@gmail.com</email>
     </maintainer>

@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">pmsensor</remote-id>
     <remote-id type="github">open-homeautomation/pmsensor</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Daniel Matuschek</name>
       <email>daniel@matuschek.net</email>
     </maintainer>

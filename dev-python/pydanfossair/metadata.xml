@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">danfossair</remote-id>
     <remote-id type="github">Danfoss/danfossair</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>Danfoss</name>
     </maintainer>
   </upstream>

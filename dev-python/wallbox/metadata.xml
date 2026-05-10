@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">wallbox</remote-id>
     <remote-id type="github">cliviu74/wallbox</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Liviu Chiribuca</name>
       <email>cliviu74@yahoo.com</email>
     </maintainer>

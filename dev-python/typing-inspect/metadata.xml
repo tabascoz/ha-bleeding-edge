@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">typing-inspect</remote-id>
     <remote-id type="github">ilevkivskyi/typing_inspect</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Ivan Levkivskyi</name>
       <email>levkivskyi@gmail.com</email>
     </maintainer>

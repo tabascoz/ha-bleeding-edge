@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">http-client</remote-id>
     <remote-id type="github">huynhminhson/http_client</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Minh Son Huynh</name>
       <email>minhsonftu@gmail.com</email>
     </maintainer>

@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">blebox-uniapi</remote-id>
     <remote-id type="github">blebox/blebox_uniapi</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>BleBox</name>
       <email>opensource@blebox.eu</email>
     </maintainer>

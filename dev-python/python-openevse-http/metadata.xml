@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">openevse-http</remote-id>
     <remote-id type="github">openEVSE/openEVSE-HTTP</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>openEVSE</name>
     </maintainer>
     <doc>https://openevse.com/</doc>

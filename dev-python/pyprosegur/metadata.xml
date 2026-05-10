@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">prosegur</remote-id>
     <remote-id type="github">prosegur/python-prosegur</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>Prosegur</name>
     </maintainer>
   </upstream>

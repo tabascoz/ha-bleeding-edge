@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">probeplus</remote-id>
     <remote-id type="github">pyprobeplus/pyprobeplus</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>John Doe</name>
     </maintainer>
   </upstream>

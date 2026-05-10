@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">digitalocean</remote-id>
     <remote-id type="github">digitalocean/digitalocean-python</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>DigitalOcean</name>
     </maintainer>
   </upstream>

@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">droplet</remote-id>
     <remote-id type="github">exekias/droplet</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>droplet team</name>
       <email>UNKNOWN</email>
     </maintainer>

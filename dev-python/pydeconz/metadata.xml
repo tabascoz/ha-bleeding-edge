@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">deconz</remote-id>
     <remote-id type="github">home-assistant/core</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>Home Assistant Community</name>
     </maintainer>
   </upstream>

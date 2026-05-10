@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">jvcprojector</remote-id>
     <remote-id type="github">jvcprojector/jvcprojector</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>John Doe</name>
     </maintainer>
   </upstream>

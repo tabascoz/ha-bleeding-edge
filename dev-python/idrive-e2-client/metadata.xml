@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">idrive-e2-client</remote-id>
     <remote-id type="github">patrickvorgers/idrive-e2-client</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Patrick Vorgers</name>
     </maintainer>
   </upstream>

@@ -7,7 +7,7 @@
   </maintainer>
   <upstream>
     <remote-id type="pypi">anel-pwrctrl-homeassistant</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Martin Weinelt</name>
       <email>martin@linuxlounge.net</email>
     </maintainer>

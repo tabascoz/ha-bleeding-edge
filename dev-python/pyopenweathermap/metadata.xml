@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">openweathermap</remote-id>
     <remote-id type="github">alishekari/openweathermap</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Ali Shekari</name>
       <email>alishekari1991@outlook.com</email>
     </maintainer>

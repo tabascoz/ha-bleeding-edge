@@ -8,9 +8,9 @@
   <upstream>
     <remote-id type="pypi">ayla-iot-unofficial</remote-id>
     <remote-id type="github">rewardone/ayla-iot-unofficial</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Reward One</name>
-      <email>Reward One <rewardone.com@gmail.com></email>
+      <email>rewardone.com@gmail.com</email>
     </maintainer>
   </upstream>
 </pkgmetadata>

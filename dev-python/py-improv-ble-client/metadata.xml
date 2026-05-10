@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">improv-ble-client</remote-id>
     <remote-id type="github">improv/improv-ble-client</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>Improv</name>
     </maintainer>
     <doc>https://improv.com</doc>

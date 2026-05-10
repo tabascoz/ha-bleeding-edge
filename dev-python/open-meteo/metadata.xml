@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">open-meteo</remote-id>
     <remote-id type="github">frenck/python-open-meteo</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Franck Nijhof</name>
       <email>opensource@frenck.dev</email>
     </maintainer>

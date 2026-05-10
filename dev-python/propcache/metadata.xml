@@ -9,7 +9,7 @@
     <remote-id type="pypi">propcache</remote-id>
     <remote-id type="github">aio-libs/propcache</remote-id>
     <remote-id type="github">aio-libs/.github</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>aiohttp team <team@aiohttp.org></name>
       <email>team@aiohttp.org</email>
     </maintainer>

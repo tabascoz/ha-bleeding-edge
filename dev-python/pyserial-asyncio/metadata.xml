@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">pyserial-asyncio</remote-id>
     <remote-id type="github">pyserial/pyserial-asyncio</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>Chris Liechti</name>
     </maintainer>
     <doc>https://pyserial.readthedocs.io/en/latest/asyncio.html</doc>

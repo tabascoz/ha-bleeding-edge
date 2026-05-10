@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">netmap</remote-id>
     <remote-id type="github">home-assistant-libs/python-nmap</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Alexandre Norman</name>
       <email>norman@xael.org</email>
     </maintainer>

@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">geojson</remote-id>
     <remote-id type="github">jazzband/geojson</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Ray Riga</name>
       <email>ray.maintainer@gmail.com</email>
     </maintainer>

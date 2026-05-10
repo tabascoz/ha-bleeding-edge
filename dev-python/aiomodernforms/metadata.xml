@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">aiomodernforms</remote-id>
     <remote-id type="github">wonderslug/aiomodernforms</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Brian Towles</name>
       <email>brian@towles.com</email>
     </maintainer>

@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">quantum-gateway</remote-id>
     <remote-id type="github">cisasteelersfan/quantum_gateway</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Colby Rome</name>
       <email>colbyrome@gmail.com</email>
     </maintainer>

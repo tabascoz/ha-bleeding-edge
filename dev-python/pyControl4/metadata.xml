@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">Control4</remote-id>
     <remote-id type="github">Control4/python-control4</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>Control4</name>
     </maintainer>
   </upstream>

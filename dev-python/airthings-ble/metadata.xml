@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">airthings-ble</remote-id>
     <remote-id type="github">Airthings/airthings-ble</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Vincent Giorgi</name>
     </maintainer>
   </upstream>

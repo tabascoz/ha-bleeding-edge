@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">mochad</remote-id>
     <remote-id type="github">matthewwardrop/mochad</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>Matthew Wardrop</name>
     </maintainer>
   </upstream>

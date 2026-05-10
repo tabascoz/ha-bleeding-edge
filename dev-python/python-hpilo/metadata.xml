@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">hpilo</remote-id>
     <remote-id type="github">hpilo/hpilo</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>Hewlett-Packard</name>
     </maintainer>
   </upstream>

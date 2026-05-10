@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">aenum</remote-id>
     <remote-id type="github">ethanfurman/aenum</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Ethan Furman</name>
       <email>ethan@stoneleaf.us</email>
     </maintainer>

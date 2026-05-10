@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">prusalink</remote-id>
     <remote-id type="github">prusa3d/Prusa-Link</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>PrusaLink Developers</name>
       <email>link@prusa3d.cz</email>
     </maintainer>

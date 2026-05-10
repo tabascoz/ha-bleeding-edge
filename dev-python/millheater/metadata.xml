@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">millheater</remote-id>
     <remote-id type="github">Danielhiversen/pymill</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Daniel Hjelseth Hoyer</name>
       <email>mail@dahoiv.net</email>
     </maintainer>

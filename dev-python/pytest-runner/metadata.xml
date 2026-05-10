@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">test-runner</remote-id>
     <remote-id type="github">pytesting/test-runner</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Stephan Lukasczyk</name>
       <email>python-test-runner@googlegroups.com</email>
     </maintainer>

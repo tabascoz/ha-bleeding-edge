@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">vilfo-api-client</remote-id>
     <remote-id type="github">mannew/vilfo-api-client-python</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Emanuel Winblad</name>
       <email>winblad@protonmail.com</email>
     </maintainer>

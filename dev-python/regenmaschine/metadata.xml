@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">regenmaschine</remote-id>
     <remote-id type="github">bachya/regenmaschine</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Aaron Bach</name>
       <email>bachya1208@gmail.com</email>
     </maintainer>

@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">noiseprotocol</remote-id>
     <remote-id type="github">plizonczyk/noiseprotocol</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Piotr Lizonczyk</name>
       <email>plizonczyk.public@gmail.com</email>
     </maintainer>

@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">vesync</remote-id>
     <remote-id type="github">tylergets/python-vesync</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>tylergets</name>
       <email>tylergetsay@gmail.com</email>
     </maintainer>

@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">volvocarsapi</remote-id>
     <remote-id type="github">thomasddn/volvo-cars-api</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>thomasddn</name>
     </maintainer>
   </upstream>

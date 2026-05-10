@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">sleekxmppfs</remote-id>
     <remote-id type="github">aszymanik/SleekXMPP</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Alex Szymanik</name>
       <email>aszymanik@gmail.com</email>
     </maintainer>

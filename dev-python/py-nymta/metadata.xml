@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">nymta</remote-id>
     <remote-id type="github">nymta/nymta</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>Nicolas Dufour</name>
     </maintainer>
   </upstream>

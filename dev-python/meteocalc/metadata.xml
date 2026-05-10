@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">meteocalc</remote-id>
     <remote-id type="github">malexer/meteocalc</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Alex (Oleksii) Markov</name>
       <email>alex@markovs.me</email>
     </maintainer>

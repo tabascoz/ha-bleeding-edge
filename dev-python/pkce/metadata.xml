@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">pkce</remote-id>
     <remote-id type="github">RomeoDespres/pkce</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Roméo Després</name>
       <email>despres.romeo@gmail.com</email>
     </maintainer>

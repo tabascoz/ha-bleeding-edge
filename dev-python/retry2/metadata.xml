@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">retry2</remote-id>
     <remote-id type="github">eSAMTrade/retry</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Andrei Suiu | eSAMTrade</name>
       <email>andrei.suiu@gmail.com</email>
     </maintainer>

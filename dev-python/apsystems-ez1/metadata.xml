@@ -7,7 +7,7 @@
   </maintainer>
   <upstream>
     <remote-id type="pypi">apsystems-ez1</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Sonnenladen GmbH</name>
       <email>l.tiedt@sonnenladen.de</email>
     </maintainer>

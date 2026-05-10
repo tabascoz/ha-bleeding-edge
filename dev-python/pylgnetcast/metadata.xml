@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">lgnetcast</remote-id>
     <remote-id type="github">mikebrady/lgnetcast</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>Mike Brady</name>
     </maintainer>
   </upstream>

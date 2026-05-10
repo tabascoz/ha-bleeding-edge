@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">pytest-socket</remote-id>
     <remote-id type="github">pytest/pytest-socket</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>pytest-dev</name>
     </maintainer>
   </upstream>

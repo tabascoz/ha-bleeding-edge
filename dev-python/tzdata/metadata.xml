@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">tzdata</remote-id>
     <remote-id type="github">python/tzdata</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Python Software Foundation</name>
       <email>datetime-sig@python.org</email>
     </maintainer>

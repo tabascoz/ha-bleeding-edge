@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">comfoconnect</remote-id>
     <remote-id type="github">comfoconnect/comfoconnect</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>Tobias W. Scherer</name>
     </maintainer>
   </upstream>

@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">TwitterAPI</remote-id>
     <remote-id type="github">geduldig/TwitterAPI</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>geduldig</name>
       <email>boxnumber03@gmail.com</email>
     </maintainer>

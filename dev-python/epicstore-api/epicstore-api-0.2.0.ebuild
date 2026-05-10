@@ -7,10 +7,9 @@ PYTHON_COMPAT=( python3_{12..14} )
 
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
-SRC_URI="$(pypi_wheel_url)"                                                                                                                                                                                        
-
 DESCRIPTION="An API wrapper for Epic Games Store written in Python"
 HOMEPAGE="https://github.com/SD4RK/epicstore_api https://pypi.org/project/epicstore-api/"
+SRC_URI="$(pypi_wheel_url)"
 
 LICENSE="MIT"
 SLOT="0"

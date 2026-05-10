@@ -17,10 +17,10 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.rst"
 
-RDEPEND="dev-python/python-dateutil>=2.7.0[${PYTHON_USEDEP}]
-	dev-python/pytz>=2024.2[${PYTHON_USEDEP}]
-	dev-python/regex>=2024.9.11[${PYTHON_USEDEP}]
-	dev-python/tzlocal>=0.2[${PYTHON_USEDEP}]"
+RDEPEND=">=dev-python/python-dateutil-2.7.0[${PYTHON_USEDEP}]
+	>=dev-python/pytz-2024.2[${PYTHON_USEDEP}]
+	>=dev-python/regex-2024.9.11[${PYTHON_USEDEP}]
+	>=dev-python/tzlocal-0.2[${PYTHON_USEDEP}]"
 BDEPEND="
 	test? (
 		dev-python/pytest-cov[${PYTHON_USEDEP}]

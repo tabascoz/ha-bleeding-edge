@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">bravia</remote-id>
     <remote-id type="github">pybravia/pybravia</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>David M.</name>
     </maintainer>
   </upstream>

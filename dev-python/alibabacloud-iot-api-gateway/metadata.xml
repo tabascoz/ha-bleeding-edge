@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">alibabacloud-iot-api-gateway</remote-id>
     <remote-id type="github">aliyun/alibabacloud-iot-api-gateway-sdk</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Alibaba Cloud SDK</name>
       <email>sdk-team@alibabacloud.com</email>
     </maintainer>

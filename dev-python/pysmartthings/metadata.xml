@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">smartthings</remote-id>
     <remote-id type="github">smartthingscommunity/smartthings</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>SmartThings Community</name>
     </maintainer>
   </upstream>

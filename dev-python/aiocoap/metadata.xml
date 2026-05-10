@@ -7,9 +7,9 @@
   </maintainer>
   <upstream>
     <remote-id type="pypi">aiocoap</remote-id>
-    <maintainer status="(from package - evaluate that)">
-      <name>the aiocoap contributors</name>
-      <email>Christian Amsüss <chrysn@fsfe.org></email>
+    <maintainer status="active">
+      <name>Christian Amsüss</name>
+      <email>chrysn@fsfe.org</email>
     </maintainer>
   </upstream>
 </pkgmetadata>

@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">babel</remote-id>
     <remote-id type="github">python-babel/babel</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Aarni Koskela</name>
       <email>akx@iki.fi</email>
     </maintainer>

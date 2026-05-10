@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">loqedAPI</remote-id>
     <remote-id type="github">cpolhout/loqedAPI</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Casper Polhout</name>
       <email>cpolhout@gmail.com</email>
     </maintainer>

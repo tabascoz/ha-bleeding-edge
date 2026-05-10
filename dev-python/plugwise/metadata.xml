@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">plugwise</remote-id>
     <remote-id type="github">plugwise/python-plugwise</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>bouwew, CoMPaTech</name>
     </maintainer>
   </upstream>

@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">modbus</remote-id>
     <remote-id type="github">ipal0/modbus</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Pal</name>
       <email>ipal0can@gmail.com</email>
     </maintainer>

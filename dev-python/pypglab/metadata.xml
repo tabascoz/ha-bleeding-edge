@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">pglab</remote-id>
     <remote-id type="github">pglab/pglab</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>PGLab Team</name>
     </maintainer>
   </upstream>

@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">botvac</remote-id>
     <remote-id type="github">simonjhall/botvac</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>Simon Hall</name>
     </maintainer>
   </upstream>

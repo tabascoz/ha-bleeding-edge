@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">sensorpush-ha</remote-id>
     <remote-id type="github">sstallion/sensorpush-ha</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Steven Stallion</name>
       <email>sstallion@gmail.com</email>
     </maintainer>

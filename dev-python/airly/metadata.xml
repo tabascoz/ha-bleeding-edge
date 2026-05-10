@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">airly</remote-id>
     <remote-id type="github">ak-ambi/python-airly</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Paweł Stankowski</name>
       <email>ak_ambi@op.pl</email>
     </maintainer>

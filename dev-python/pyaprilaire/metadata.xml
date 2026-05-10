@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">aprilaire</remote-id>
     <remote-id type="github">matthewwhite/aprilaire</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>Matthew White</name>
     </maintainer>
   </upstream>

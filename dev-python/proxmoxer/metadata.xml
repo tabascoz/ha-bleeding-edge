@@ -7,7 +7,7 @@
   </maintainer>
   <upstream>
     <remote-id type="pypi">proxmoxer</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Oleg Butovich</name>
       <email>obutovich@gmail.com</email>
     </maintainer>

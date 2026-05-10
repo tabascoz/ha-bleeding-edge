@@ -8,9 +8,9 @@
   <upstream>
     <remote-id type="pypi">aioftp</remote-id>
     <remote-id type="github">aio-libs/aioftp</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>yieyu, rsichnyi, jw4js, oleksandr-kuzmenko, ndhansen, modelmat, greut, PonyPC, jacobtomlinson, bachya, CrafterKolyan, jkr78, sakosha</name>
-      <email>pohmelie <multisosnooley@gmail.com>, asvetlov <andrew.svetlov@gmail.com>, decaz <decaz89@gmail.com>, janneronkko <janne.ronkko@iki.fi>, thirtyseven <ted@shlashdot.org>, ported-pw <contact@ported.pw>, Olegt0rr <t0rr@mail.ru>, michalc <michal@charemza.name>, ch3pjw <paul@concertdaw.co.uk>, puddly <puddly3@gmail.com>, AMDmi3 <amdmi3@amdmi3.ru>, webknjaz <webknjaz+github/profile@redhat.com>, rcfox <ryan@rcfox.ca>, bellini666 <thiago@bellini.dev></email>
+      <email>multisosnooley@gmail.com</email>
     </maintainer>
   </upstream>
 </pkgmetadata>

@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">country-convert</remote-id>
     <remote-id type="github">pycountry/pycountry-convert</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>Michael A. Dorman</name>
     </maintainer>
   </upstream>

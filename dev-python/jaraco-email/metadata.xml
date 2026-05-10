@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">jaraco-email</remote-id>
     <remote-id type="github">jaraco/jaraco.email</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Jason R. Coombs</name>
       <email>jaraco@jaraco.com</email>
     </maintainer>

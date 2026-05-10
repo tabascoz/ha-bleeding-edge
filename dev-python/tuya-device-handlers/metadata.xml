@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">tuya-device-handlers</remote-id>
     <remote-id type="github">home-assistant-libs/tuya-device-handlers</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>epenet</name>
     </maintainer>
   </upstream>

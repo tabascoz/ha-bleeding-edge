@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">repetierng</remote-id>
     <remote-id type="github">repetier/repetier-ng</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>Repetier</name>
     </maintainer>
     <doc>https://repetier.com/</doc>

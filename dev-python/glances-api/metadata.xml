@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">glances-api</remote-id>
     <remote-id type="github">home-assistant-ecosystem/python-glances-api</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Fabian Affolter</name>
       <email>fabian@affolter-engineering.ch</email>
     </maintainer>

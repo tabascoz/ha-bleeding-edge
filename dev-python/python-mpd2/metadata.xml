@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">mpd2</remote-id>
     <remote-id type="github">bmcage/python-mpd2</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>Benedikt Meurer</name>
     </maintainer>
   </upstream>

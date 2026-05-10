@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">PyFlume</remote-id>
     <remote-id type="github">ChrisMandich/PyFlume</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>ChrisMandich</name>
       <email>Chris@Mandich.net</email>
     </maintainer>

@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">discogs-client</remote-id>
     <remote-id type="github">discogs/discogs_client</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Discogs</name>
       <email>api@discogsinc.com</email>
     </maintainer>

@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">snooz</remote-id>
     <remote-id type="github">snooz/snooz</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>Snooz Team</name>
     </maintainer>
   </upstream>

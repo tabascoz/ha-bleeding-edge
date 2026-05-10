@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">nad-receiver</remote-id>
     <remote-id type="github">joopert/nad_receiver</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>joopert</name>
     </maintainer>
   </upstream>

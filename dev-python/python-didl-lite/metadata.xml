@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">didl-lite</remote-id>
     <remote-id type="github">pymusic/didl-lite</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>Pymusic</name>
     </maintainer>
   </upstream>

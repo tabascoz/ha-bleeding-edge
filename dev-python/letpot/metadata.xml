@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">letpot</remote-id>
     <remote-id type="github">jpelgrom/python-letpot</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Joris Pelgröm</name>
       <email>joris.pelgrom@gmail.com</email>
     </maintainer>

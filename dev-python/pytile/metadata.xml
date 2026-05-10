@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">tile</remote-id>
     <remote-id type="github">ViliamV/tile</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Viliam Valent</name>
       <email>tile@viliamvalent.com</email>
     </maintainer>

@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">aioautomower</remote-id>
     <remote-id type="github">Thomas55555/aioautomower</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Thomas Peter Protzner</name>
       <email>thomas.protzner@gmail.com</email>
     </maintainer>

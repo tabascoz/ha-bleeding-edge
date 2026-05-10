@@ -8,9 +8,9 @@
   <upstream>
     <remote-id type="pypi">bleak</remote-id>
     <remote-id type="github">hbldh/bleak</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Henrik Blidh</name>
-      <email>Henrik Blidh <henrik.blidh@nedomkull.com></email>
+      <email>henrik.blidh@nedomkull.com</email>
     </maintainer>
   </upstream>
 </pkgmetadata>

@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">versasense</remote-id>
     <remote-id type="github">versasense/versasense</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>VersaSense Team</name>
     </maintainer>
   </upstream>

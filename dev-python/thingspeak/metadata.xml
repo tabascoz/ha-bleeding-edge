@@ -7,7 +7,7 @@
   </maintainer>
   <upstream>
     <remote-id type="pypi">thingspeak</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Mikołaj Chwalisz</name>
       <email>m.chwalisz@gmail.com</email>
     </maintainer>

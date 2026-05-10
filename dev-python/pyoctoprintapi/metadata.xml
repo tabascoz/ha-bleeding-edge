@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">octoprintapi</remote-id>
     <remote-id type="github">OctoPrint/octoprintapi</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>Gina Häußge</name>
     </maintainer>
     <doc>https://octoprint.org</doc>

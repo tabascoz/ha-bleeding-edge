@@ -1131,7 +1131,7 @@ RDEPEND="${RDEPEND}
 	uptime_kuma? ( ~dev-python/pythonkuma-0.5.0[${PYTHON_USEDEP}] )
 	uptimerobot? ( ~dev-python/pyuptimerobot-25.0.0[${PYTHON_USEDEP}] )
 	usb? ( ~dev-python/aiousbwatcher-1.1.2[${PYTHON_USEDEP}] ~dev-python/serialx-1.7.1[${PYTHON_USEDEP}] )
-	usgs_earthquakes_feed? ( ~dev-python/aio-geojson-usgs-earthquakes-0.3[${PYTHON_USEDEP}] )
+	usgs_earthquakes_feed? ( ~dev-python/aio-geojson-usgs-earthquakes-0.4[${PYTHON_USEDEP}] )
 	utility_meter? ( ~dev-python/cronsim-2.7[${PYTHON_USEDEP}] )
 	uvc? ( ~dev-python/uvcclient-0.12.1[${PYTHON_USEDEP}] )
 	v2c? ( ~dev-python/pytrydan-1.0.0[${PYTHON_USEDEP}] )

@@ -9,7 +9,7 @@
     <remote-id type="pypi">aioaseko</remote-id>
     <remote-id type="github">milanmeu/aioaseko</remote-id>
     <remote-id type="github">sponsors/milanmeu</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Milan Meulemans</name>
       <email>milan.meulemans@live.be</email>
     </maintainer>

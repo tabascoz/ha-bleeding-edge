@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">modbus-repl</remote-id>
     <remote-id type="github">pyModbus/pymodbus-repl</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>pyModbus Team</name>
     </maintainer>
     <doc>https://pymodbus.readthedocs.io/</doc>

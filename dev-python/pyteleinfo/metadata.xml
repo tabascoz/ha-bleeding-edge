@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">teleinfo</remote-id>
     <remote-id type="github">demikl/python-teleinfo</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Mickael Le Baillif</name>
       <email>mickael.le.baillif@gmail.com</email>
     </maintainer>

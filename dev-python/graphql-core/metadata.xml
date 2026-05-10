@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">graphql-core</remote-id>
     <remote-id type="github">graphql-python/graphql-core</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Christoph Zwerschke</name>
       <email>cito@online.de</email>
     </maintainer>

@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">decora-wifi</remote-id>
     <remote-id type="github">tlyakhov/python-decora_wifi</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Tim Lyakhovetskiy</name>
       <email>tlyakhov@gmail.com</email>
     </maintainer>

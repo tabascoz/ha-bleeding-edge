@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">bsblan</remote-id>
     <remote-id type="github">liudger/python-bsblan</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Willem-Jan van Rootselaaar</name>
       <email>liudgervr@gmail.com</email>
     </maintainer>

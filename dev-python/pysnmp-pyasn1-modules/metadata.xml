@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">pysnmp-pyasn1-modules</remote-id>
     <remote-id type="github">pyasn1/pyasn1-modules</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>pyasn1 developers</name>
     </maintainer>
     <doc>https://pyasn1.github.io/pyasn1-modules/</doc>

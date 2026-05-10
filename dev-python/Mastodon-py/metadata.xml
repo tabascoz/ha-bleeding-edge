@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">mastodon</remote-id>
     <remote-id type="github">pyMastodon/mastodon.py</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>Mastodon Community</name>
     </maintainer>
   </upstream>

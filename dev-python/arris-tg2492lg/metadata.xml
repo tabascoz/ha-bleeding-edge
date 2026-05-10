@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">arris-tg2492lg</remote-id>
     <remote-id type="github">vanbalken/arris-tg2492lg</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>vanbalken</name>
     </maintainer>
   </upstream>

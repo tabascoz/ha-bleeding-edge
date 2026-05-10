@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">pyroute2</remote-id>
     <remote-id type="github">scitools/pyroute2</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>Alexander K. S. K.</name>
     </maintainer>
   </upstream>

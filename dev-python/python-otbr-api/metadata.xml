@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">otbr-api</remote-id>
     <remote-id type="github">openweave/ot-br-posix</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>Weave</name>
     </maintainer>
     <doc>https://openweave.io/</doc>

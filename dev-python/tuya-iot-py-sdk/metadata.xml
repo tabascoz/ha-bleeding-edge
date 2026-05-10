@@ -9,7 +9,7 @@
     <remote-id type="pypi">tuya-iot-py-sdk</remote-id>
     <remote-id type="github">tuya/tuya-iot-app-sdk-python</remote-id>
     <remote-id type="github">tuya/tuya-iot-python-sdk</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Tuya Inc.</name>
       <email>developer@tuya.com</email>
     </maintainer>

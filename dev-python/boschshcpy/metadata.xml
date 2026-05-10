@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">boschshcpy</remote-id>
     <remote-id type="github">tschamm/boschshcpy</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Clemens-Alexander Brust, Thomas Schamm</name>
       <email>cabrust@pm.me, thomas@tschamm.de</email>
     </maintainer>

@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">bthomehub5-devicelist</remote-id>
     <remote-id type="github">ahobsonsayers/bthomehub5-devicelist</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Arran Hobson Sayers</name>
       <email>ahobsonsayers@gmail.com</email>
     </maintainer>

@@ -8,9 +8,9 @@
   <upstream>
     <remote-id type="pypi">forecast-solar</remote-id>
     <remote-id type="github">home-assistant-libs/forecast_solar</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Klaas Schoute</name>
-      <email><hello@student-techlife.com></email>
+      <email>hello@student-techlife.com</email>
     </maintainer>
   </upstream>
 </pkgmetadata>

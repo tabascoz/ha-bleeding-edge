@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">casperglow</remote-id>
     <remote-id type="github">casperglow/casperglow</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>John Doe</name>
     </maintainer>
   </upstream>

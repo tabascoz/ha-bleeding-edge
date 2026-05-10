@@ -7,7 +7,7 @@
   </maintainer>
   <upstream>
     <remote-id type="pypi">coloredlogs</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Peter Odding</name>
       <email>peter@peterodding.com</email>
     </maintainer>

@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">envisalink</remote-id>
     <remote-id type="github">glenndandrea/envisalink</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>Glenn D'Andrea</name>
     </maintainer>
   </upstream>

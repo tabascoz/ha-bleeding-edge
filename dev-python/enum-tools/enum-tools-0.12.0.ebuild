@@ -11,7 +11,7 @@ inherit pypi distutils-r1
 DESCRIPTION="Tools to expand Python's enum module."
 HOMEPAGE="https://pypi.org/project/enum-tools/"
 
-LICENSE="LGPL-3.0-or-later"
+LICENSE="LGPL-3"
 SLOT="0"
 KEYWORDS="~amd64 ~arm64"
 IUSE="test"

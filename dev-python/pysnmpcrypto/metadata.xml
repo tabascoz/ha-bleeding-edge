@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">pysnmpcrypto</remote-id>
     <remote-id type="github">pysnmp/pysnmp</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>Ilya Etingof</name>
     </maintainer>
     <doc>https://pysnmp.sourceforge.io/</doc>

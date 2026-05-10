@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">base36</remote-id>
     <remote-id type="github">tonyseek/python-base36</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Jiangge Zhang</name>
       <email>tonyseek@gmail.com</email>
     </maintainer>

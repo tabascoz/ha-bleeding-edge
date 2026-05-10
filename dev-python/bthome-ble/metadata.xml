@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">bthome-ble</remote-id>
     <remote-id type="github">bluetooth-devices/bthome-ble</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Ernst Klamer</name>
       <email>e.klamer@gmail.com</email>
     </maintainer>

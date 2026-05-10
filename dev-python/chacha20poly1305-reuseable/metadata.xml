@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">chacha20poly1305-reuseable</remote-id>
     <remote-id type="github">bdraco/chacha20poly1305-reuseable</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>J. Nick Koston</name>
       <email>nick@koston.org</email>
     </maintainer>

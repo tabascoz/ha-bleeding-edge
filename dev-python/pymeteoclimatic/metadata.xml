@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">meteoclimatic</remote-id>
     <remote-id type="github">pymeteoclimatic/pymeteoclimatic</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>John Doe</name>
     </maintainer>
   </upstream>

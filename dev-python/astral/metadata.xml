@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">astral</remote-id>
     <remote-id type="github">sffjunkie/astral</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Simon Kennedy</name>
       <email>sffjunkie+code@gmail.com</email>
     </maintainer>

@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">sisyphus-control</remote-id>
     <remote-id type="github">jkeljo/sisyphus-control</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Jonathan Keljo</name>
     </maintainer>
   </upstream>

@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">adext</remote-id>
     <remote-id type="github">ajschmidt8/adext</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>AJ Schmidt</name>
     </maintainer>
   </upstream>

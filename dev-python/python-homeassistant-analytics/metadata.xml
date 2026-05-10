@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">homeassistant-analytics</remote-id>
     <remote-id type="github">home-assistant/home-assistant-analytics</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>Home Assistant Community</name>
     </maintainer>
     <doc>https://www.home-assistant.io/</doc>

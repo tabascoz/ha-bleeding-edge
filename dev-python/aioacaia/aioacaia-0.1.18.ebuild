@@ -11,7 +11,7 @@ inherit pypi distutils-r1
 DESCRIPTION="An async implementation of PyAcaia"
 HOMEPAGE="https://pypi.org/project/aioacaia/"
 
-LICENSE="GPL-3.0-only"
+LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="~amd64 ~arm64"
 IUSE="test"

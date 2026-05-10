@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">enphase</remote-id>
     <remote-id type="github">enphase/pyenphase</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>Enphase Energy</name>
     </maintainer>
   </upstream>

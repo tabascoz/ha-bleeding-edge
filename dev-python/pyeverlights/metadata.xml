@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">everlights</remote-id>
     <remote-id type="github">everlights/everlights</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>John Doe</name>
     </maintainer>
   </upstream>

@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">aiolifx-themes</remote-id>
     <remote-id type="github">Djelibeybi/aiolifx-themes</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Avi Miller</name>
       <email>me@dje.li</email>
     </maintainer>

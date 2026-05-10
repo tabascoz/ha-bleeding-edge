@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">renson-endura-delta</remote-id>
     <remote-id type="github">jimmyd-be/Renson-endura-delta-library</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>JimmyD-be</name>
     </maintainer>
   </upstream>

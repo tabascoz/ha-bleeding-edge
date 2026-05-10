@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">slugify</remote-id>
     <remote-id type="github">zacharyvoase/slugify</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Zachary Voase</name>
       <email>z@zacharyvoase.com</email>
     </maintainer>

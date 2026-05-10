@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">lupupy</remote-id>
     <remote-id type="github">majuss/lupupy</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Majuss</name>
     </maintainer>
   </upstream>

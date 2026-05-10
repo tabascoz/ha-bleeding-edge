@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">plexwebsocket</remote-id>
     <remote-id type="github">jjlawren/python-plexwebsocket</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Jason Lawrence</name>
       <email>jjlawren@users.noreply.github.com</email>
     </maintainer>

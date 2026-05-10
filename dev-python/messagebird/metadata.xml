@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">messagebird</remote-id>
     <remote-id type="github">messagebird/python-rest-api</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>MessageBird</name>
       <email>support@messagebird.com</email>
     </maintainer>

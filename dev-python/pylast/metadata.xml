@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">pylast</remote-id>
     <remote-id type="github">pylast/pylast</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>Jesse Noller</name>
     </maintainer>
   </upstream>

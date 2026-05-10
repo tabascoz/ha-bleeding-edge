@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">snapcast</remote-id>
     <remote-id type="github">happyleavesaoc/python-snapcast</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>happyleaves</name>
       <email>happyleaves.tfr@gmail.com</email>
     </maintainer>

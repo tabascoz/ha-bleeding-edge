@@ -7,7 +7,7 @@
   </maintainer>
   <upstream>
     <remote-id type="pypi">pandoc</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Sébastien Boisgérault</name>
       <email>Sebastien.Boisgerault@minesparis.psl.eu</email>
     </maintainer>

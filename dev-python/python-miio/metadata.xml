@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">miio</remote-id>
     <remote-id type="github">rytilahti/python-miio</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>Pauli Rytilahti</name>
     </maintainer>
   </upstream>

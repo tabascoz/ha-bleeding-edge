@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">aioazuredevops</remote-id>
     <remote-id type="github">timmo001/aioazuredevops</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Aidan Timson (Timmo)</name>
       <email>aidan@timmo.dev</email>
     </maintainer>

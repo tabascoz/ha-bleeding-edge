@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">annotatedyaml</remote-id>
     <remote-id type="github">home-assistant-libs/annotatedyaml</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Home Assistant Devs</name>
       <email>hello@home-assistant.io</email>
     </maintainer>

@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">omnilogic</remote-id>
     <remote-id type="github">djtimca/omnilogic-api</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Tim Empringham</name>
       <email>tim.empringham@live.ca</email>
     </maintainer>

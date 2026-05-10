@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">colorlog</remote-id>
     <remote-id type="github">borntyping/python-colorlog</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Sam Clements</name>
       <email>sam@borntyping.co.uk</email>
     </maintainer>

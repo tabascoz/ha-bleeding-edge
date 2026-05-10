@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">melcloud</remote-id>
     <remote-id type="github">melcloud/melcloud</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>Sasha K.</name>
     </maintainer>
   </upstream>

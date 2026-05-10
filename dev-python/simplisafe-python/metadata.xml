@@ -9,7 +9,7 @@
     <remote-id type="pypi">simplisafe-python</remote-id>
     <remote-id type="github">bachya/simplipy</remote-id>
     <remote-id type="github">bachya/simplisafe-python</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Aaron Bach</name>
       <email>bachya1208@gmail.com</email>
     </maintainer>

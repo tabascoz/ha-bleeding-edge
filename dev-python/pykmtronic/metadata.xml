@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">kmtronic</remote-id>
     <remote-id type="github">kmtronic/pykmtronic</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>Unknown</name>
     </maintainer>
   </upstream>

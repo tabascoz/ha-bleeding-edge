@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">xs1-api-client</remote-id>
     <remote-id type="github">markusressel/xs1-api-client</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Markus Ressel</name>
       <email>mail@markusressel.de</email>
     </maintainer>

@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">kodi</remote-id>
     <remote-id type="github">xbmc/xbmc</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>Team Kodi</name>
     </maintainer>
   </upstream>

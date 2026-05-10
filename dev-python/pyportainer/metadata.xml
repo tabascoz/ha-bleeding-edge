@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">portainer</remote-id>
     <remote-id type="github">rnt/python-portainer</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Renato Covarrubias</name>
       <email>rnt@rnt.cl</email>
     </maintainer>

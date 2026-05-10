@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">firefly</remote-id>
     <remote-id type="github">ageller/Firefly</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Alex Gurvich, Aaron Geller</name>
       <email>alex.b.gurvich@gmail.com, a-geller@northwestern.edu</email>
     </maintainer>

@@ -9,7 +9,7 @@
     <remote-id type="pypi">aionanoleaf2</remote-id>
     <remote-id type="github">loebi-ch/aionanoleaf2</remote-id>
     <remote-id type="github">loebi-ch/aionanoleaf</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>loebi-ch</name>
       <email>andy@slyweb.ch</email>
     </maintainer>

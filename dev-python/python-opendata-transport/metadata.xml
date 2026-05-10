@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">opendata-transport</remote-id>
     <remote-id type="github">opendata/opendata-transport</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>Opendata Team</name>
     </maintainer>
     <doc>https://opendata.transport/</doc>

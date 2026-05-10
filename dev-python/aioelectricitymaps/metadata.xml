@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">aioelectricitymaps</remote-id>
     <remote-id type="github">jpbede/aioelectricitymaps</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Jan-Philipp Benecke</name>
       <email>jan-philipp@bnck.me</email>
     </maintainer>

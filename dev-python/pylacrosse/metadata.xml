@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">lacrosse</remote-id>
     <remote-id type="github">pylacrosse/pylacrosse</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>John Doe</name>
     </maintainer>
   </upstream>

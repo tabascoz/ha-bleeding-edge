@@ -9,7 +9,7 @@
     <remote-id type="pypi">wakeonlan</remote-id>
     <remote-id type="github">remcohaszing/pywakeonlan</remote-id>
     <remote-id type="github">sponsors/remcohaszing</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Remco Haszing</name>
       <email>remcohaszing@gmail.com</email>
     </maintainer>

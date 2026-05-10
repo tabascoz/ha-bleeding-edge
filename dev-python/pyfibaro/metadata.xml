@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">fibaro</remote-id>
     <remote-id type="github">mattiasbuelens/fibaro</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>Mattias Buelens</name>
     </maintainer>
   </upstream>

@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">imgw-pib</remote-id>
     <remote-id type="github">bieniu/imgw-pib</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Maciej Bieniek</name>
     </maintainer>
   </upstream>

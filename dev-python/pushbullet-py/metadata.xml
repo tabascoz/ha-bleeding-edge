@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">pushbullet.py</remote-id>
     <remote-id type="github">ashleydw/pushbullet.py</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>Ashley Williams</name>
     </maintainer>
     <doc>https://pushbullet.com/</doc>

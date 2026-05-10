@@ -9,7 +9,7 @@
     <remote-id type="pypi">cognito</remote-id>
     <remote-id type="github">Cleverinsight/congito</remote-id>
     <remote-id type="github">CleverInsight/cognito</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Bastin Robins .J</name>
       <email>robin@cleverinsight.co</email>
     </maintainer>

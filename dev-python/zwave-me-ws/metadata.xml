@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">zwave-me-ws</remote-id>
     <remote-id type="github">Z-Wave-Me/zwave-me-ws</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Dmitry Vlasov</name>
       <email>kerbalspacema@gmail.com</email>
     </maintainer>

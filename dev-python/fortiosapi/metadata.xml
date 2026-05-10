@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">fortiosapi</remote-id>
     <remote-id type="github">fortinet-solutions-cse/fortiosapi</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Nicolas Thomas</name>
       <email>nthomas@fortinet.com</email>
     </maintainer>

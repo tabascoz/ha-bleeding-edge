@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">nextbusnext</remote-id>
     <remote-id type="github">jasonm23/nextbusnext</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>Jason M.</name>
     </maintainer>
   </upstream>

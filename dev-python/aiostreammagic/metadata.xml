@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">aiostreammagic</remote-id>
     <remote-id type="github">noahhusby/aiostreammagic</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Noah Husby</name>
       <email>32528627+noahhusby@users.noreply.github.com</email>
     </maintainer>

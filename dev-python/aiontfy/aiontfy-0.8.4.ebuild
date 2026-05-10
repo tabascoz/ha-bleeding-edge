@@ -11,7 +11,7 @@ inherit pypi distutils-r1
 DESCRIPTION="Async ntfy client library"
 HOMEPAGE="https://pypi.org/project/${PN}/"
 
-LICENSE="None"
+LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="~amd64 ~arm64"
 IUSE="test"

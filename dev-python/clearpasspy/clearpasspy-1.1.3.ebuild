@@ -16,7 +16,7 @@ IUSE="test"
 RESTRICT="!test? ( test )"
 
 RDEPEND="
-    =dev-python/requests-2.21.0[${PYTHON_USEDEP}]
+    ~dev-python/requests-2.21.0[${PYTHON_USEDEP}]
 "
 
 distutils_enable_tests pytest

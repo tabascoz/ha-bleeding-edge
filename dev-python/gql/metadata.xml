@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">gql</remote-id>
     <remote-id type="github">graphql-python/gql</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Syrus Akbary</name>
       <email>me@syrusakbary.com</email>
     </maintainer>

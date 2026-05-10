@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">whois</remote-id>
     <remote-id type="github">mboot-github/WhoisDomain</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>mboot-github</name>
     </maintainer>
   </upstream>

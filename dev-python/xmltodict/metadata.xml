@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">xmltodict</remote-id>
     <remote-id type="github">martinblech/xmltodict</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Martin Blech</name>
     </maintainer>
   </upstream>

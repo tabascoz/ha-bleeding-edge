@@ -7,7 +7,7 @@
   </maintainer>
   <upstream>
     <remote-id type="pypi">teltasync</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Karl Beecken</name>
       <email>Karl Beecken <karl+teltasync@beecken.berlin></email>
     </maintainer>

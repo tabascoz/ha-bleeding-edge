@@ -7,7 +7,7 @@
   </maintainer>
   <upstream>
     <remote-id type="pypi">ipp</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Intel Corporation</name>
       <email>scripting@intel.com</email>
     </maintainer>

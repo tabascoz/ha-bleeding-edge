@@ -12,7 +12,7 @@ HOMEPAGE="https://github.com/DylanGore/PyMetEireann/ https://pypi.org/project/Py
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="amd64 arm arm64 x86"
+KEYWORDS="~amd64 ~arm64 "
 IUSE="test"
 RESTRICT="!test? ( test )"
 

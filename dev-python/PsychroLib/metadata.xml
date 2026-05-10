@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">PsychroLib</remote-id>
     <remote-id type="github">psychrometrics/psychrolib</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>The PsychroLib Developers</name>
       <email>didierthevenard@users.noreply.github.com</email>
     </maintainer>

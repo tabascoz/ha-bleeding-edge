@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">hik</remote-id>
     <remote-id type="github">pyhik/pyhik</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>pyhik maintainers</name>
     </maintainer>
   </upstream>

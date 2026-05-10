@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">webio-api</remote-id>
     <remote-id type="github">nasWebio/webio_api</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>nasWebio</name>
       <email>devel_team@chomtech.com</email>
     </maintainer>

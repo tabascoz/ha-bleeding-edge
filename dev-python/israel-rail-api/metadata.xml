@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">israel-rail-api</remote-id>
     <remote-id type="github">sh0oki/israel-rail-api</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>sh0oki</name>
     </maintainer>
   </upstream>

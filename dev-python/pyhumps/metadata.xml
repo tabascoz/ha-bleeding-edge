@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">humps</remote-id>
     <remote-id type="github">erikhuizinga/humps</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Erik Huizinga</name>
       <email>huizinga.erik@gmail.com</email>
     </maintainer>

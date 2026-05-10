@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">dateparser</remote-id>
     <remote-id type="github">scrapinghub/dateparser</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Scrapinghub</name>
       <email>opensource@zyte.com</email>
     </maintainer>

@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">connect-box</remote-id>
     <remote-id type="github">home-assistant-ecosystem/python-connect-box</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Fabian Affolter</name>
       <email>fabian@affolter-engineering.ch</email>
     </maintainer>

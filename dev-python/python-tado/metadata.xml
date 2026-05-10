@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">tado</remote-id>
     <remote-id type="github">tado/tado</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>Tado</name>
     </maintainer>
   </upstream>

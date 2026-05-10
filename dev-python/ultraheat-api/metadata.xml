@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">ultraheat-api</remote-id>
     <remote-id type="github">vpathuis/ultraheat</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>vpathuis</name>
     </maintainer>
   </upstream>

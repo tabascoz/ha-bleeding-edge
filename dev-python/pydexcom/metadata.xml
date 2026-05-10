@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">dexcom</remote-id>
     <remote-id type="github">davidmerrick/dexcom</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>David Merrick</name>
     </maintainer>
   </upstream>

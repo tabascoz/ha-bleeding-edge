@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">smarttub</remote-id>
     <remote-id type="github">smarttub/smarttub</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>John Doe</name>
     </maintainer>
   </upstream>

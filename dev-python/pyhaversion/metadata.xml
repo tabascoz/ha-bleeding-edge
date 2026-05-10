@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">haversion</remote-id>
     <remote-id type="github">pyhaversion/haversion</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>Daniel Hahler</name>
     </maintainer>
   </upstream>

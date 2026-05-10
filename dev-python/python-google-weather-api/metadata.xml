@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">google-weather-api</remote-id>
     <remote-id type="github">gkoberger/google-weather-api</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>Greg Koberger</name>
     </maintainer>
   </upstream>

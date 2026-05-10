@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">openerz-api</remote-id>
     <remote-id type="github">misialq/openerz-api</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Michał Ziemski</name>
       <email>michal@terrestryal.com</email>
     </maintainer>

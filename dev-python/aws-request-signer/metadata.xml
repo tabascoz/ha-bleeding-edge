@@ -9,7 +9,7 @@
     <remote-id type="pypi">aws-request-signer</remote-id>
     <remote-id type="github">iksteen/aws-request-signer</remote-id>
     <remote-id type="github">iksteen/aws-request-signer.git</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Ingmar Steen</name>
       <email>iksteen@gmail.com</email>
     </maintainer>

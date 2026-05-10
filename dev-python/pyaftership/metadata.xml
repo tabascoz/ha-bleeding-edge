@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">aftership</remote-id>
     <remote-id type="github">aftership/aftership-sdk-python</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>AfterShip</name>
       <email>support@aftership.com</email>
     </maintainer>

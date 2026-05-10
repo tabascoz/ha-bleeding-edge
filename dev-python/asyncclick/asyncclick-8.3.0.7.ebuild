@@ -17,21 +17,8 @@ KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
 RESTRICT="!test? ( test )"
 
-
 RDEPEND="
-    dev-python/anyio[${PYTHON_USEDEP}]
-    dev-python/colorama[${PYTHON_USEDEP}]
-"
-
-#python_prepare_all() {
-# === Fix missing [build-system] section (same as aioacaia) ===
-#    cat >> pyproject.toml <<- EOF || die
-#    [build-system]
-#    requires = ["setuptools >= 68.0"]
-#    build-backend = "setuptools.build_meta"
-#EOF
-#distutils-r1_python_prepare_all
-#}
-
+dev-python/anyio[${PYTHON_USEDEP}]
+dev-python/colorama[${PYTHON_USEDEP}]"
 
 distutils_enable_tests pytest

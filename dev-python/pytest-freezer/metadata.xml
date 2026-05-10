@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">test-freezer</remote-id>
     <remote-id type="github">pytest-dev/pytest-freezer</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>pytest-dev</name>
     </maintainer>
   </upstream>

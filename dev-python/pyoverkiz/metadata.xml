@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">overkiz</remote-id>
     <remote-id type="github">overkiz/pyoverkiz</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>Overkiz</name>
     </maintainer>
   </upstream>

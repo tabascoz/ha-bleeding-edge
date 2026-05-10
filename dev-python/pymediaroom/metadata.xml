@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">mediaroom</remote-id>
     <remote-id type="github">pymediaroom/pymediaroom</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>Pymediaroom Team</name>
     </maintainer>
   </upstream>

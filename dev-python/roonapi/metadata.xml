@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">roonapi</remote-id>
     <remote-id type="github">pavoni/pyroon</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Greg Dowling</name>
       <email>mail@gregdowling.com</email>
     </maintainer>

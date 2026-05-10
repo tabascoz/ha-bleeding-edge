@@ -9,7 +9,7 @@
     <remote-id type="pypi">micloud</remote-id>
     <remote-id type="github">Squachen/micloud</remote-id>
     <remote-id type="github">squachen/micloud</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Sammy Svensson</name>
       <email>sammy@ssvensson.se</email>
     </maintainer>

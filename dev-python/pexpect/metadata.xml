@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">pexpect</remote-id>
     <remote-id type="github">pexpect/pexpect</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Noah Spurrier; Thomas Kluyver; Jeff Quast</name>
       <email>noah@noah.org, thomas@kluyver.me.uk, contact@jeffquast.com</email>
     </maintainer>

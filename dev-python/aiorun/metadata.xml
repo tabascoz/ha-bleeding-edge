@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">aiorun</remote-id>
     <remote-id type="github">cjrh/aiorun</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Caleb Hattingh</name>
       <email>caleb.hattingh@gmail.com</email>
     </maintainer>

@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">sabnzbd</remote-id>
     <remote-id type="github">sabnzbd/sabnzbd</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>Sabnzbd Team</name>
     </maintainer>
   </upstream>

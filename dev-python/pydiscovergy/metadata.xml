@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">discovergy</remote-id>
     <remote-id type="github">discovergy/discovergy-python</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>Discovergy GmbH</name>
     </maintainer>
   </upstream>

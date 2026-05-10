@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">flic</remote-id>
     <remote-id type="github">fliclib/flic</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>Flic Team</name>
     </maintainer>
   </upstream>

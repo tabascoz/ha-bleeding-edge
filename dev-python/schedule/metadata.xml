@@ -9,7 +9,7 @@
     <remote-id type="pypi">schedule</remote-id>
     <remote-id type="github">dbader/schedule</remote-id>
     <remote-id type="github">dbader/schedule.git</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Sijmen Huizenga</name>
     </maintainer>
   </upstream>

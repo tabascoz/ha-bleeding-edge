@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">objgraph</remote-id>
     <remote-id type="github">mgedmin/objgraph</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Marius Gedminas</name>
       <email>marius@gedmin.as</email>
     </maintainer>

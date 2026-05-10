@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">ezvizapi</remote-id>
     <remote-id type="github">pyezviz/ezvizapi</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>pyezviz</name>
     </maintainer>
   </upstream>

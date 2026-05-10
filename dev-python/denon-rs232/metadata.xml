@@ -8,9 +8,9 @@
   <upstream>
     <remote-id type="pypi">denon-rs232</remote-id>
     <remote-id type="github">home-assistant-libs/denon-rs232</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Paulus Schoutsen</name>
-      <email>Paulus Schoutsen <balloob@gmail.com></email>
+      <email>balloob@gmail.com</email>
     </maintainer>
   </upstream>
 </pkgmetadata>

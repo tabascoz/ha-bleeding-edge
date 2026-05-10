@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">sharp-aquos-rc</remote-id>
     <remote-id type="github">jmoore987/sharp_aquos_rc</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Jeffrey Moore</name>
       <email>jmoore987@yahoo.com</email>
     </maintainer>

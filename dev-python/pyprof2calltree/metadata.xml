@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">prof2calltree</remote-id>
     <remote-id type="github">pyutils/prof2calltree</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>PyUtils</name>
     </maintainer>
   </upstream>

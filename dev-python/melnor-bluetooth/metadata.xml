@@ -7,7 +7,7 @@
   </maintainer>
   <upstream>
     <remote-id type="pypi">melnor-bluetooth</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Justin Vanderhooft</name>
       <email>justinvdhooft@gmail.com</email>
     </maintainer>

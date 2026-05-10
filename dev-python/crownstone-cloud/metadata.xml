@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">crownstone-cloud</remote-id>
     <remote-id type="github">Crownstone-Community/crownstone-lib-python-cloud</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Crownstone B.V.</name>
     </maintainer>
   </upstream>

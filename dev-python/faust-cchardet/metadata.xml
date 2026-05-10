@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">faust-cchardet</remote-id>
     <remote-id type="github">faust-streaming/cChardet</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>PyYoshi</name>
       <email>myoshi321go@gmail.com</email>
     </maintainer>

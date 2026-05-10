@@ -7,7 +7,7 @@
   </maintainer>
   <upstream>
     <remote-id type="pypi">dropbox-api</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Hive Solutions Lda.</name>
       <email>development@hive.pt</email>
     </maintainer>

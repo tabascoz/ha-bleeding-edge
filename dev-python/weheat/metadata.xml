@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">weheat</remote-id>
     <remote-id type="github">wefabricate/wh-python</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Jesper Raemaekers</name>
       <email>jesper.raemaekers@wefabricate.com</email>
     </maintainer>

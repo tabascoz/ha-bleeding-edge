@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">iglo</remote-id>
     <remote-id type="github">jesserockz/python-iglo</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Jesse Hills</name>
     </maintainer>
   </upstream>

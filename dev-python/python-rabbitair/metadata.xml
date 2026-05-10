@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">rabbitair</remote-id>
     <remote-id type="github">rabbitair/rabbitair</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>Rabbit Air Team</name>
     </maintainer>
   </upstream>

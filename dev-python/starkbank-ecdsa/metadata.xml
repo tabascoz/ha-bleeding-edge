@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">starkbank-ecdsa</remote-id>
     <remote-id type="github">starkbank/ecdsa-python.git</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Stark Bank</name>
       <email>developers@starkbank.com</email>
     </maintainer>

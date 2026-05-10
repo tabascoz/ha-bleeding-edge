@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">kira</remote-id>
     <remote-id type="github">datlofdev/Kira</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Jackson Ca. Rakena</name>
       <email>jackson.rakena2@gmail.com</email>
     </maintainer>

@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">intesishome</remote-id>
     <remote-id type="github">intesi/home</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>Intesi Group</name>
     </maintainer>
   </upstream>

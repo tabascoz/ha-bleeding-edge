@@ -7,7 +7,7 @@
   </maintainer>
   <upstream>
     <remote-id type="pypi">vera</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>S. Andrew Sheppard</name>
       <email>andrew@wq.io</email>
     </maintainer>

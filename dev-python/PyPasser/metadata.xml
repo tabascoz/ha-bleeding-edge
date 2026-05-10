@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">PyPasser</remote-id>
     <remote-id type="github">xHossein/PyPasser</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>xHossein</name>
     </maintainer>
   </upstream>

@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">aiohttp-sse</remote-id>
     <remote-id type="github">aio-libs/aiohttp_sse</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Nikolay Novik</name>
       <email>nickolainovik@gmail.com</email>
     </maintainer>

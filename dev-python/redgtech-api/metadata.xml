@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">redgtech-api</remote-id>
     <remote-id type="github">redgtech-automacao/redgtech-python-api</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Jonh Sady</name>
       <email>jonh.system@gmail.com</email>
     </maintainer>

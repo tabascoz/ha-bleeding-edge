@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">hkavr</remote-id>
     <remote-id type="github">Devqon/hkavr</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Sander Geerts</name>
       <email>s.geerts@live.nl</email>
     </maintainer>

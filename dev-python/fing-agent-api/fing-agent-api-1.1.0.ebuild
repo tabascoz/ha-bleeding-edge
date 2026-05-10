@@ -9,8 +9,8 @@ DISTUTILS_USE_PEP517=setuptools
 inherit pypi distutils-r1
 
 DESCRIPTION="Fing Agent local API library."
-HOMEPAGE="https://pypi.org/project/${PN}/"
-LICENSE="None"
+HOMEPAGE="https://pypi.org/project/fing-agent-api/"
+LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="~amd64 ~arm64"
 IUSE=""

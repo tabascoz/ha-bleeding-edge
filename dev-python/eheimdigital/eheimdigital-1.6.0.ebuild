@@ -9,9 +9,9 @@ DISTUTILS_USE_PEP517=setuptools
 inherit pypi distutils-r1
 
 DESCRIPTION="Offers a Python API for the EHEIM Digital smart aquarium devices."
-HOMEPAGE="https://pypi.org/project/${PN}/"
+HOMEPAGE="https://pypi.org/project/eheimdigital/"
 
-LICENSE="None"
+LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~arm64"
 IUSE="test"

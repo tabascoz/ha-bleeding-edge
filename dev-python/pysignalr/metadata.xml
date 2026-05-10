@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">signalr-client</remote-id>
     <remote-id type="github">SignalR/signalr-client-dotnet</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>SignalR Team</name>
     </maintainer>
     <doc>https://github.com/SignalR/SignalR</doc>

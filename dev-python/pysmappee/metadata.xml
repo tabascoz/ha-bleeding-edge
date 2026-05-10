@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">smappee</remote-id>
     <remote-id type="github">smappee/python-smappee</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>Smappee</name>
     </maintainer>
   </upstream>

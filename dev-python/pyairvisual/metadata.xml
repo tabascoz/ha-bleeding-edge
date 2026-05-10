@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">airvisual</remote-id>
     <remote-id type="github">airvisual/airvisual</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>AirVisual</name>
     </maintainer>
   </upstream>

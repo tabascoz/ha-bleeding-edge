@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">mbddns</remote-id>
     <remote-id type="github">thinkl33t/mb-ddns</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Bob Clough</name>
       <email>bob@clough.me</email>
     </maintainer>

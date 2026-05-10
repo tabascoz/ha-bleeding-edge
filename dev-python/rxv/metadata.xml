@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">rxv</remote-id>
     <remote-id type="github">wuub/rxv</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Wojciech Bederski</name>
       <email>github@wuub.net</email>
     </maintainer>

@@ -7,7 +7,7 @@
   </maintainer>
   <upstream>
     <remote-id type="pypi">baidu-aip</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Baidu</name>
       <email>aip@baidu.com</email>
     </maintainer>

@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">aiohttp-retry</remote-id>
     <remote-id type="github">inyutin/aiohttp_retry</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Dmitry Inyutin</name>
       <email>inyutin.da@gmail.com</email>
     </maintainer>

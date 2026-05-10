@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">unifi-access</remote-id>
     <remote-id type="github">gonzalo-bulnes/unifi-access</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>Gonzalo Bulnes</name>
     </maintainer>
   </upstream>

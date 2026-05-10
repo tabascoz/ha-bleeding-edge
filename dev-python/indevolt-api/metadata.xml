@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">indevolt-api</remote-id>
     <remote-id type="github">xirt/indevolt-api</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>A. Gideonse</name>
     </maintainer>
   </upstream>

@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">homematic</remote-id>
     <remote-id type="github">pyhomematic/pyhomematic</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>Hannes D. Schmid</name>
     </maintainer>
   </upstream>

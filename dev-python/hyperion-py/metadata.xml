@@ -7,7 +7,7 @@
   </maintainer>
   <upstream>
     <remote-id type="pypi">hyperion</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Thomas Robitaille</name>
       <email>thomas.robitaille@gmail.com</email>
     </maintainer>

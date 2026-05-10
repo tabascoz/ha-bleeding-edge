@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">aiolookin</remote-id>
     <remote-id type="github">ANMalko/aiolookin</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Anton Malko</name>
       <email>antonmalko@mail.ru</email>
     </maintainer>

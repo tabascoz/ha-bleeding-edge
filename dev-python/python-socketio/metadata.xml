@@ -7,7 +7,7 @@
   </maintainer>
   <upstream>
     <remote-id type="pypi">socketio</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>EvgrDan</name>
     </maintainer>
     <doc>http://zvonobot.ru</doc>

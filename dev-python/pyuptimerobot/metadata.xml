@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">uptimerobot</remote-id>
     <remote-id type="github">davidmason/pyuptimerobot</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>David Mason</name>
     </maintainer>
   </upstream>

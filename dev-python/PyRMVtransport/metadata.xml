@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">PyRMVtransport</remote-id>
     <remote-id type="github">cgtobi/PyRMVtransport</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>cgtobi</name>
       <email>cgtobi@gmail.com</email>
     </maintainer>

@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">pymata-express</remote-id>
     <remote-id type="github">pyMata/pymata-express</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>D. A. O'Brien</name>
     </maintainer>
   </upstream>

@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">alibabacloud-tea</remote-id>
     <remote-id type="github">aliyun/tea-python</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Alibaba Cloud</name>
       <email>alibaba-cloud-sdk-dev-team@list.alibaba-inc.com</email>
     </maintainer>

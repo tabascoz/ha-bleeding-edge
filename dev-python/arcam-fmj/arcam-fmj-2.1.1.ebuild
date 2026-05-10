@@ -21,7 +21,7 @@ DOCS="README.rst"
 
 RDEPEND="
 	>=dev-python/aiohttp-3.13.2[${PYTHON_USEDEP}]
-	>dev-python/attrs-18.1[${PYTHON_USEDEP}]
+	>=dev-python/attrs-18.1[${PYTHON_USEDEP}]
 	>=dev-python/defusedxml-0.7.1[${PYTHON_USEDEP}]
 "
 BDEPEND="
@@ -31,7 +31,7 @@ BDEPEND="
 		~dev-python/pytest-asyncio-0.21.2[${PYTHON_USEDEP}]
 		>=dev-python/pytest-cov-3.0.0[${PYTHON_USEDEP}]
 		dev-python/pytest-mock[${PYTHON_USEDEP}]
-		>dev-python/pytest-3.6.4[${PYTHON_USEDEP}]
+		>=dev-python/pytest-3.6.4[${PYTHON_USEDEP}]
 	)
 "
 

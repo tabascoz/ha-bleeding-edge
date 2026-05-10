@@ -7,7 +7,7 @@
   </maintainer>
   <upstream>
     <remote-id type="pypi">zm</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Pablo Orviz Fernandez</name>
       <email>orviz@ifca.unican.es</email>
     </maintainer>

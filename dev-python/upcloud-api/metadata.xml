@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">upcloud-api</remote-id>
     <remote-id type="github">UpCloudLtd/upcloud-python-api</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>UpCloud</name>
       <email>hello@upcloud.com</email>
     </maintainer>

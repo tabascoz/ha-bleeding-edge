@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">pysmhi</remote-id>
     <remote-id type="github">smhi/pysmhi</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>SMHI</name>
     </maintainer>
   </upstream>

@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">pyotp</remote-id>
     <remote-id type="github">sissaschool/pyotp</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>Sissa School</name>
     </maintainer>
   </upstream>

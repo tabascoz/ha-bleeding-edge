@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">py-cpuinfo</remote-id>
     <remote-id type="github">s-matyukevich/py-cpuinfo</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>Sergey Matyukevich</name>
     </maintainer>
   </upstream>

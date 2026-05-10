@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">airnow</remote-id>
     <remote-id type="github">pyairnow/pyairnow</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>Derek K. Smith</name>
     </maintainer>
   </upstream>

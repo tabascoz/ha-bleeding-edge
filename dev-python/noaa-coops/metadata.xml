@@ -7,7 +7,7 @@
   </maintainer>
   <upstream>
     <remote-id type="pypi">noaa-coops</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Gregory Clunies</name>
       <email>greg.clunies@gmail.com</email>
     </maintainer>

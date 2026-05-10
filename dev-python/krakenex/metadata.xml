@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">krakenex</remote-id>
     <remote-id type="github">veox/python3-krakenex</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Noel Maersk</name>
       <email>veox+packages+spamremove@veox.pw</email>
     </maintainer>

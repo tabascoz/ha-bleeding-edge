@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">pysmi</remote-id>
     <remote-id type="github">pySmi/pysmi</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>Ilya Etingof</name>
     </maintainer>
   </upstream>

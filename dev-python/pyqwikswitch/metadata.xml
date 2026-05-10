@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">qwikswitch</remote-id>
     <remote-id type="github">davidm/pyqwikswitch</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>David McNab</name>
     </maintainer>
   </upstream>

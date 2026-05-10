@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">concord232</remote-id>
     <remote-id type="github">JasonCarter80/concord232</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Jason Carter</name>
       <email>jason@jason-carter.net</email>
     </maintainer>

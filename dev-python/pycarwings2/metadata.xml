@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">carwings2</remote-id>
     <remote-id type="github">davidf/pycarwings2</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>David F.</name>
     </maintainer>
   </upstream>

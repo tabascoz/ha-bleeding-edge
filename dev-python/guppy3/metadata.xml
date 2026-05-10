@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">guppy3</remote-id>
     <remote-id type="github">zhuyifei1999/guppy3</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>YiFei Zhu</name>
       <email>zhuyifei1999@gmail.com</email>
     </maintainer>

@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">risco</remote-id>
     <remote-id type="github">pyrisco/pyrisco</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>Pyrisco Team</name>
     </maintainer>
   </upstream>

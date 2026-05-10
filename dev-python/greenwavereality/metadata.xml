@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">greenwavereality</remote-id>
     <remote-id type="github">dfiel/greenwavereality</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>David Fiel</name>
       <email>github@dfiel.com</email>
     </maintainer>

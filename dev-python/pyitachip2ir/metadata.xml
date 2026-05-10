@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">itachip2ir</remote-id>
     <remote-id type="github">thehappydinoa/itachip2ir</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Aidan Holland (thehappydinoa)</name>
       <email>thehappydinoa@gmail.com</email>
     </maintainer>

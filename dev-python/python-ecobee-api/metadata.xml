@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">ecobee-api</remote-id>
     <remote-id type="github">simonmcc/ecobee-api</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>Simon McCulloch</name>
     </maintainer>
   </upstream>

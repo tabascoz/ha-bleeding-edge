@@ -20,6 +20,7 @@ RDEPEND=">=dev-python/aio-geojson-client-0.21[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-3.7.4[${PYTHON_USEDEP}]
 	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
 	>=dev-python/pytz-2019.01[${PYTHON_USEDEP}]"
+
 BDEPEND="
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]

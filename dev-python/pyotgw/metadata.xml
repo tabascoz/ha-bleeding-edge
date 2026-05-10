@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">otgw</remote-id>
     <remote-id type="github">otgw/otgw</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>Johan H. van der Veen</name>
     </maintainer>
   </upstream>

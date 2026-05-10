@@ -7,7 +7,7 @@
   </maintainer>
   <upstream>
     <remote-id type="pypi">zeversolar</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Koen van Zuijlen</name>
       <email>8818390+kvanzuijlen@users.noreply.github.com</email>
     </maintainer>

@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">psutil-home-assistant</remote-id>
     <remote-id type="github">home-assistant-libs/psutil-home-assistant</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Erik Montnemery</name>
     </maintainer>
   </upstream>

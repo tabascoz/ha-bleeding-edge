@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">switchbee</remote-id>
     <remote-id type="github">pyswitchbee/pyswitchbee</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>Miklos Koren</name>
     </maintainer>
   </upstream>

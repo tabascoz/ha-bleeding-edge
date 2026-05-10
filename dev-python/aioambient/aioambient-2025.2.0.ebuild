@@ -31,12 +31,12 @@ RDEPEND="
 "
 BDEPEND="
 	test? (
-		dev-python/aresponses-2.1.6[${PYTHON_USEDEP}]
+		~dev-python/aresponses-2.1.6[${PYTHON_USEDEP}]
 		dev-python/asynctest[${PYTHON_USEDEP}]
-		dev-python/pytest-8.3.4[${PYTHON_USEDEP}]
-		dev-python/pytest-aiohttp-1.0.0[${PYTHON_USEDEP}]
-		dev-python/pytest-asyncio-0.25.2[${PYTHON_USEDEP}]
-		dev-python/pytest-cov-6.0.0[${PYTHON_USEDEP}]
+		~dev-python/pytest-8.3.4[${PYTHON_USEDEP}]
+		~dev-python/pytest-aiohttp-1.0.0[${PYTHON_USEDEP}]
+		~dev-python/pytest-asyncio-0.25.2[${PYTHON_USEDEP}]
+		~dev-python/pytest-cov-6.0.0[${PYTHON_USEDEP}]
 	)
 "
 

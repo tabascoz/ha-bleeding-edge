@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">georss-qld-bushfire-alert-client</remote-id>
     <remote-id type="github">exxamalte/python-georss-qld-bushfire-alert-client</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Malte Franken</name>
       <email>coding@subspace.de</email>
     </maintainer>

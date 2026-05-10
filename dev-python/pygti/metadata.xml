@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">gti</remote-id>
     <remote-id type="github">git-python/gti</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>GitPython Team</name>
     </maintainer>
   </upstream>

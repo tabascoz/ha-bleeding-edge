@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">tailer</remote-id>
     <remote-id type="github">six8/pytailer</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Mike Thornton</name>
       <email>six8@devdetails.com</email>
     </maintainer>

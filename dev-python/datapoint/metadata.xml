@@ -8,9 +8,9 @@
   <upstream>
     <remote-id type="pypi">datapoint</remote-id>
     <remote-id type="github">Perseudonymous/datapoint-python</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Jacob Tomlinson</name>
-      <email>Emily Price <emily.j.price.nth@gmail.com></email>
+      <email>emily.j.price.nth@gmail.com</email>
     </maintainer>
   </upstream>
 </pkgmetadata>

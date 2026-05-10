@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">foobot-async</remote-id>
     <remote-id type="github">reefab/foobot_async</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Fabien Piuzzi</name>
       <email>fabien@reefab.net</email>
     </maintainer>

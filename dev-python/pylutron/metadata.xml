@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">pylutron</remote-id>
     <remote-id type="github">Lutron/pylutron</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>Lutron Electronics Co., Inc.</name>
     </maintainer>
   </upstream>

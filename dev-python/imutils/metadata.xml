@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">imutils</remote-id>
     <remote-id type="github">jrosebr1/imutils</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Adrian Rosebrock</name>
       <email>adrian@pyimagesearch.com</email>
     </maintainer>

@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">wizlight</remote-id>
     <remote-id type="github">sidoh/wizlight</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>Kyle Sidoh</name>
     </maintainer>
   </upstream>

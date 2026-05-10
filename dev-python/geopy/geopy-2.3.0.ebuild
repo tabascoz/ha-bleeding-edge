@@ -4,13 +4,12 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
-
+PYPI_PN="geopy"
 DISTUTILS_USE_PEP517=setuptools
 inherit pypi distutils-r1
 
 DESCRIPTION="Python Geocoding Toolbox"
 HOMEPAGE="https://github.com/geopy/geopy"
-PYPI_PN="geopy"
 
 LICENSE="MIT"
 SLOT="0"

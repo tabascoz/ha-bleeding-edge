@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">victron-vrm</remote-id>
     <remote-id type="github">KSoft-Si/vrm-client</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>AndyTempel</name>
       <email>"KSoft.TECH" <oss@ksoft.tech></email>
     </maintainer>

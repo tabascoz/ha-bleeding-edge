@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">aiosolaredge</remote-id>
     <remote-id type="github">bdraco/aiosolaredge</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>J. Nick Koston</name>
       <email>nick@koston.org</email>
     </maintainer>

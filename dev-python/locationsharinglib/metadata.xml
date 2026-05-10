@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">locationsharinglib</remote-id>
     <remote-id type="github">costastf/locationsharinglib</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Costas Tyfoxylos</name>
       <email>costas.tyf@gmail.com</email>
     </maintainer>

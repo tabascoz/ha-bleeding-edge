@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">monoprice</remote-id>
     <remote-id type="github">michaelhly/pymonoprice</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>Michael Hly</name>
     </maintainer>
   </upstream>

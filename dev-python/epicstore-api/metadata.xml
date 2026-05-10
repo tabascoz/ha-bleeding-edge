@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">epicstore-api</remote-id>
     <remote-id type="github">SD4RK/epicstore_api</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>SD4RK</name>
     </maintainer>
   </upstream>

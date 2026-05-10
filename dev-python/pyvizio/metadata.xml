@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">pyvizio</remote-id>
     <remote-id type="github">samsmithnz/pyvizio</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>Sam Smith</name>
     </maintainer>
   </upstream>

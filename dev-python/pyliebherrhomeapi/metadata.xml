@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">liebherrhomeapi</remote-id>
     <remote-id type="github">juliankrispel/liebherr-home-api</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>Julian Krispel</name>
     </maintainer>
   </upstream>

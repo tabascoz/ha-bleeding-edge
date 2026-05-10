@@ -9,9 +9,9 @@ DISTUTILS_USE_PEP517=hatchling
 inherit pypi distutils-r1
 
 DESCRIPTION="Fitbit Web API"
-HOMEPAGE="https://pypi.org/project/${PN}/"
+HOMEPAGE="https://pypi.org/project/fitbit-web-api/"
 
-LICENSE=""
+LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="~amd64 ~arm64"
 IUSE="test"

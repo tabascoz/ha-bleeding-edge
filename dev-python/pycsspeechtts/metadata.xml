@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">csspeechtts</remote-id>
     <remote-id type="github">CSSpeech/csspeechtts</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>CSSpeech Team</name>
     </maintainer>
   </upstream>

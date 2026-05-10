@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">reverse-geocode</remote-id>
     <remote-id type="github">richardpenman/reverse_geocode</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Richard Penman</name>
       <email>richard.penman@gmail.com</email>
     </maintainer>

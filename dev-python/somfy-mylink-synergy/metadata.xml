@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">somfy-mylink-synergy</remote-id>
     <remote-id type="github">bendews/somfy-mylink-synergy</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Ben Dews</name>
       <email>contact@bendews.com</email>
     </maintainer>

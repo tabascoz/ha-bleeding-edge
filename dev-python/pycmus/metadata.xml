@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">cmus</remote-id>
     <remote-id type="github">michael-grunder/pycmus</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>Michael Grunder</name>
     </maintainer>
   </upstream>

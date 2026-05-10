@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">yeelightsunflower</remote-id>
     <remote-id type="github">lindsaymarkward/python-yeelight-sunflower</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Lindsay Ward</name>
       <email>lindsay.ward@jcu.edu.au</email>
     </maintainer>

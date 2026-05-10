@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">pytest-freezegun</remote-id>
     <remote-id type="github">spulec/freezegun</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>Spulec</name>
     </maintainer>
   </upstream>

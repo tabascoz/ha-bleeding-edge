@@ -7,7 +7,7 @@
   </maintainer>
   <upstream>
     <remote-id type="pypi">icloud</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Matin Tamizi</name>
       <email>mtamizi@gmail.com</email>
     </maintainer>

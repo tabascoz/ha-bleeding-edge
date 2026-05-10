@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">traccar</remote-id>
     <remote-id type="github">traccar/traccar-client-python</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>Traccar Team</name>
     </maintainer>
   </upstream>

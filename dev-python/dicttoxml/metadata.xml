@@ -8,9 +8,9 @@
   <upstream>
     <remote-id type="pypi">dicttoxml</remote-id>
     <remote-id type="github">quandyfactory/dicttoxml</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Ryan McGreal</name>
-      <email>Ryan McGreal <ryan@quandyfactory.com></email>
+      <email>ryan@quandyfactory.com</email>
     </maintainer>
   </upstream>
 </pkgmetadata>

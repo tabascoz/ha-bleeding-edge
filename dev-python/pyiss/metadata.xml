@@ -7,7 +7,7 @@
   </maintainer>
   <upstream>
     <remote-id type="pypi">iss</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Jason Dusek</name>
       <email>jason.dusek@gmail.com</email>
     </maintainer>

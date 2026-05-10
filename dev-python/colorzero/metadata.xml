@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">colorzero</remote-id>
     <remote-id type="github">waveform80/colorzero</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Dave Jones</name>
       <email>dave@waveform.org.uk</email>
     </maintainer>

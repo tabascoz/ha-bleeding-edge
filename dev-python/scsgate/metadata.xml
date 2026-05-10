@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">scsgate</remote-id>
     <remote-id type="github">flavio/scsgate</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Flavio Castelli</name>
       <email>flavio@castelli.me</email>
     </maintainer>

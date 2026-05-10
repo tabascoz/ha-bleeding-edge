@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">lutron-caseta</remote-id>
     <remote-id type="github">pylutron/pylutron-caseta</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>Pylutron Team</name>
     </maintainer>
   </upstream>

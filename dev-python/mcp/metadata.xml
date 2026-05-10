@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">mcp</remote-id>
     <remote-id type="github">modelcontextprotocol/python-sdk</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Anthropic, PBC.</name>
     </maintainer>
   </upstream>

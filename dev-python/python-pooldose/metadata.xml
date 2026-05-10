@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">pooldose</remote-id>
     <remote-id type="github">pooldose/pooldose</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>Unknown</name>
     </maintainer>
   </upstream>

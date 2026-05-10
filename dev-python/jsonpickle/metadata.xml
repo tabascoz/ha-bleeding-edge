@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">jsonpickle</remote-id>
     <remote-id type="github">jsonpickle/jsonpickle</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Theelx</name>
       <email>David Aguilar <davvid+jsonpickle@gmail.com></email>
     </maintainer>

@@ -7,7 +7,7 @@
   </maintainer>
   <upstream>
     <remote-id type="pypi">airtouch5py</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Dave Leaver</name>
       <email>danzel@localhost.geek.nz</email>
     </maintainer>

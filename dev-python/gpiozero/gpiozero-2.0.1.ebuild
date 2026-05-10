@@ -21,8 +21,8 @@ DOCS="README.rst"
 
 RDEPEND="
 	dev-python/colorzero[${PYTHON_USEDEP}]
-	python_targets_python3_9? ( dev-python/importlib-metadata[${PYTHON_USEDEP}] )
-	python_targets_python3_9? ( dev-python/importlib-resources[${PYTHON_USEDEP}] )
+	dev-python/importlib-metadata[${PYTHON_USEDEP}]
+	dev-python/importlib-resources[${PYTHON_USEDEP}]
 	doc? (
 		dev-python/sphinx-rtd-theme[${PYTHON_USEDEP}]
 		dev-python/sphinx[${PYTHON_USEDEP}]

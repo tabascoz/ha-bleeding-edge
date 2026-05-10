@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">balboa</remote-id>
     <remote-id type="github">balboa/balboa</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>Balboa Team</name>
     </maintainer>
   </upstream>

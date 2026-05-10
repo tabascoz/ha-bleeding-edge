@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">horimote</remote-id>
     <remote-id type="github">benleb/horimote</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Ben Lebherz & Auke Willem Oosterhoff</name>
       <email>git@benleb.de</email>
     </maintainer>

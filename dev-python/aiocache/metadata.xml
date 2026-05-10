@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">aiocache</remote-id>
     <remote-id type="github">aio-libs/aiocache</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Manuel Miranda</name>
       <email>manu.mirandad@gmail.com</email>
     </maintainer>

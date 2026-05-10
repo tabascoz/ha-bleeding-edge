@@ -11,7 +11,7 @@ inherit pypi distutils-r1
 DESCRIPTION="XML bomb protection for Python stdlib modules"
 HOMEPAGE="https://github.com/tiran/defusedxml"
 
-LICENSE="PSFL-2"
+LICENSE="PSF-2"
 SLOT="0"
 KEYWORDS="~amd64 ~arm64"
 IUSE="test"

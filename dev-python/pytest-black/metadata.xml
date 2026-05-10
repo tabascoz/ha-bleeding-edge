@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">pytest-black</remote-id>
     <remote-id type="github">psf/black</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>Tom Christie</name>
     </maintainer>
   </upstream>

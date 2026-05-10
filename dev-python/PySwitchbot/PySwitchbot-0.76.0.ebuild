@@ -12,7 +12,7 @@ HOMEPAGE="https://github.com/Danielhiversen/pySwitchbot/ https://pypi.org/projec
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="amd64 arm arm64 x86"
+KEYWORDS="~amd64 ~arm64"
 IUSE="test"
 RESTRICT="!test? ( test )"
 

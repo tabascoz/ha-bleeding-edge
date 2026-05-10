@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">growattServer</remote-id>
     <remote-id type="github">indykoning/PyPi_GrowattServer</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>IndyKoning</name>
       <email>indykoningnl@gmail.com</email>
     </maintainer>

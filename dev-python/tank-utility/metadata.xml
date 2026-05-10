@@ -7,7 +7,7 @@
   </maintainer>
   <upstream>
     <remote-id type="pypi">tank-utility</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Kris Molendyke</name>
       <email>kris@k20e.com</email>
     </maintainer>

@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">georss-generic-client</remote-id>
     <remote-id type="github">exxamalte/python-georss-generic-client</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Malte Franken</name>
       <email>coding@subspace.de</email>
     </maintainer>
