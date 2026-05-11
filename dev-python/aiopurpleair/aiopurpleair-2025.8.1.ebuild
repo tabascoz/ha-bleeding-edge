@@ -4,9 +4,10 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
-DISTUTILS_USE_PEP517=poetry
+DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
-SRC_URI="$(pypi_wheel_url)"
+SRC_URI="$(pypi_wheel_url --unpack)"
+S="${WORKDIR}"
 
 DESCRIPTION="A Python 3, asyncio-based library to interact with the PurpleAir API"
 HOMEPAGE="https://github.com/bachya/aiopurpleair https://pypi.org/project/aiopurpleair/"
@@ -17,7 +18,6 @@ KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
 RESTRICT="!test? ( test )"
 
-DOCS="README.md"
 
 RDEPEND=">=dev-python/aiohttp-3.9.0[${PYTHON_USEDEP}]
 	>=dev-python/certifi-2023.07.22[${PYTHON_USEDEP}]
@@ -28,8 +28,16 @@ BDEPEND="
 		dev-python/pytest[${PYTHON_USEDEP}]
 	)"
 
-python_test() {
-	py.test -v -v || die
+python_prepare_all() {
+    # Ensure a clean build-system section for hatchling
+    cat >> pyproject.toml <<- EOF || die
+
+    [build-system]
+    requires = ["setuptools >= 68.0"]
+    build-backend = "setuptools.build_meta"
+EOF
+
+    distutils-r1_python_prepare_all
 }
 
 distutils_enable_tests pytest

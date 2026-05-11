@@ -17,7 +17,6 @@ SRC_URI="
 "
 
 S="${WORKDIR}/google-api-python-client-${PV}"
-#S="${WORKDIR}/google_api_python_client-${PV}"
 LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="~amd64 ~arm64 ~x86"
@@ -32,7 +31,7 @@ RDEPEND="
 	>=dev-python/google-auth-httplib2-0.1.0[${PYTHON_USEDEP}]
 	>=dev-python/google-api-core-1.31.5[${PYTHON_USEDEP}]
 	<dev-python/google-api-core-3[${PYTHON_USEDEP}]
-	~dev-python/google-api-core-2.30[${PYTHON_USEDEP}]
+	dev-python/google-api-core[${PYTHON_USEDEP}]
 	>=dev-python/uritemplate-3.0.1[${PYTHON_USEDEP}]
 	<dev-python/uritemplate-5[${PYTHON_USEDEP}]
 "

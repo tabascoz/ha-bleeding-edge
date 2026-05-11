@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">tensorflow</remote-id>
     <remote-id type="github">tensorflow/tensorflow</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Google Inc.</name>
       <email>packages@tensorflow.org</email>
     </maintainer>

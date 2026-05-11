@@ -17,7 +17,7 @@ IUSE="test"
 RESTRICT="!test? ( test )"
 
 RDEPEND="
-    >=dev-python/aiohttp[speedups]-3.12.14[${PYTHON_USEDEP}]
+    >=dev-python/aiohttp-3.12.14[${PYTHON_USEDEP}]
     >=dev-python/awesomeversion-25.8.0[${PYTHON_USEDEP}]
     >=dev-python/pydantic-2.11.7[${PYTHON_USEDEP}]
 "

@@ -16,11 +16,6 @@ KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
 RESTRICT="!test? ( test )"
 
-DOCS="README.rst"
-
-
-
-
 S="${WORKDIR}"
 
 python_prepare_all() {

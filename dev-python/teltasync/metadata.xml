@@ -9,7 +9,7 @@
     <remote-id type="pypi">teltasync</remote-id>
     <maintainer status="active">
       <name>Karl Beecken</name>
-      <email>Karl Beecken <karl+teltasync@beecken.berlin></email>
+      <email>karl+teltasync@beecken.berlin</email>
     </maintainer>
   </upstream>
 </pkgmetadata>

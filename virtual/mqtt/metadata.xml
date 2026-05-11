@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">mqtt</remote-id>
     <remote-id type="github">nat-cloud/frp</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Farry</name>
       <email>yu@iotserv.com</email>
     </maintainer>

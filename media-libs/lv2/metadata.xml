@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">lv2</remote-id>
     <remote-id type="github">LV2/lv2</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>David Robillard</name>
     </maintainer>
   </upstream>

@@ -5,7 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=hatchling
 inherit distutils-r1 pypi
 
 DESCRIPTION="Python REST-Client for Kostal Plenticore Solar Inverters"
@@ -19,11 +19,9 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND=">=dev-python/aiohttp-3.8[${PYTHON_USEDEP}]
-	<dev-python/aiohttp-3.9[${PYTHON_USEDEP}]
+RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]
 	>=dev-python/pycryptodome-3.19[${PYTHON_USEDEP}]
-	<dev-python/pycryptodome-3.20[${PYTHON_USEDEP}]
-	>=dev-python/pydantic-1.10[${PYTHON_USEDEP}]
-	<dev-python/pydantic-3[${PYTHON_USEDEP}]"
+	dev-python/pydantic[${PYTHON_USEDEP}]
+	"
 
 distutils_enable_tests pytest

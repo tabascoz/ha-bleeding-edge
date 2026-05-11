@@ -10,7 +10,7 @@
     <remote-id type="github">klaasnicolaas/python-p1monitor</remote-id>
     <maintainer status="active">
       <name>Klaas Schoute</name>
-      <email><hello@student-techlife.com></email>
+      <email>hello@student-techlife.com</email>
     </maintainer>
   </upstream>
 </pkgmetadata>

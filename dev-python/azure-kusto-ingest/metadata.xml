@@ -10,7 +10,7 @@
     <remote-id type="github">Azure/azure-kusto-python</remote-id>
     <maintainer status="active">
       <name>Microsoft Corporation</name>
-      <email>Microsoft Corporation <kustalk@microsoft.com></email>
+      <email>kustalk@microsoft.com</email>
     </maintainer>
   </upstream>
 </pkgmetadata>

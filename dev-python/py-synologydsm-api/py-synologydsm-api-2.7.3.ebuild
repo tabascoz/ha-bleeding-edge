@@ -17,7 +17,6 @@ KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
 RESTRICT="!test? ( test )"
 
-DOCS="README.md"
 
 RDEPEND="
 	dev-python/aiohttp[${PYTHON_USEDEP}]

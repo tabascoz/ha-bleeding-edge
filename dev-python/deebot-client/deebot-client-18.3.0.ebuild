@@ -5,7 +5,98 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=maturin
-inherit distutils-r1 pypi
+
+CRATES="
+	adler2@2.0.1
+	aho-corasick@1.1.4
+	arc-swap@1.9.1
+	autocfg@1.5.0
+	base64@0.22.1
+	bitflags@2.11.1
+	bytemuck@1.25.0
+	byteorder-lite@0.1.0
+	byteorder@1.5.0
+	cc@1.2.61
+	cfg-if@1.0.4
+	crc32fast@1.5.0
+	either@1.15.0
+	equivalent@1.0.2
+	fdeflate@0.3.7
+	find-msvc-tools@0.1.9
+	flate2@1.1.9
+	futures-core@0.3.32
+	futures-macro@0.3.32
+	futures-task@0.3.32
+	futures-timer@3.0.3
+	futures-util@0.3.32
+	getrandom@0.3.4
+	glob@0.3.3
+	hashbrown@0.17.0
+	heck@0.5.0
+	image@0.25.10
+	indexmap@2.14.0
+	itertools@0.14.0
+	itoa@1.0.18
+	jobserver@0.1.34
+	libc@0.2.186
+	liblzma-sys@0.4.6
+	liblzma@0.4.6
+	log@0.4.29
+	memchr@2.8.0
+	miniz_oxide@0.8.9
+	moxcms@0.8.1
+	num-traits@0.2.19
+	once_cell@1.21.4
+	ordermap@1.2.0
+	pin-project-lite@0.2.17
+	pkg-config@0.3.33
+	png@0.18.1
+	portable-atomic@1.13.1
+	proc-macro-crate@3.5.0
+	proc-macro2@1.0.106
+	pxfm@0.1.29
+	pyo3-build-config@0.28.3
+	pyo3-ffi@0.28.3
+	pyo3-log@0.13.3
+	pyo3-macros-backend@0.28.3
+	pyo3-macros@0.28.3
+	pyo3@0.28.3
+	quote@1.0.45
+	r-efi@5.3.0
+	regex-automata@0.4.14
+	regex-syntax@0.8.10
+	regex@1.12.3
+	relative-path@1.9.3
+	rstest@0.26.1
+	rstest_macros@0.26.1
+	rustc_version@0.4.1
+	rustversion@1.0.22
+	semver@1.0.28
+	serde@1.0.228
+	serde_core@1.0.228
+	serde_derive@1.0.228
+	serde_json@1.0.149
+	shlex@1.3.0
+	simd-adler32@0.3.9
+	slab@0.4.12
+	strum@0.28.0
+	strum_macros@0.28.0
+	svg@0.18.0
+	syn@2.0.117
+	target-lexicon@0.13.5
+	toml_datetime@1.1.1+spec-1.1.0
+	toml_edit@0.25.11+spec-1.1.0
+	toml_parser@1.1.2+spec-1.1.0
+	unicode-ident@1.0.24
+	wasip2@1.0.3+wasi-0.2.9
+	winnow@1.0.2
+	wit-bindgen@0.57.1
+	zmij@1.0.21
+	zstd-safe@7.2.4
+	zstd-sys@2.0.16+zstd.1.5.7
+	zstd@0.13.3
+"
+inherit distutils-r1 pypi cargo
 
 DESCRIPTION="Deebot client library in python 3"
 HOMEPAGE="https://github.com/DeebotUniverse/client.py https://pypi.org/project/deebot-client/"
@@ -18,6 +109,10 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
+SRC_URI+="
+	${CARGO_CRATE_URIS}
+"
+
 RDEPEND=">=dev-python/aiohttp-3.13.3[${PYTHON_USEDEP}]
 	<dev-python/aiohttp-4.0[${PYTHON_USEDEP}]
 	>=dev-python/aiomqtt-2.5[${PYTHON_USEDEP}]
@@ -29,5 +124,19 @@ RDEPEND=">=dev-python/aiohttp-3.13.3[${PYTHON_USEDEP}]
 BDEPEND="dev-python/pytest-asyncio[${PYTHON_USEDEP}]
 	dev-python/pytest-timeout[${PYTHON_USEDEP}]
 	>=dev-python/pycountry-24.6.1[${PYTHON_USEDEP}]"
+
+
+
+src_compile() {
+    distutils-r1_src_compile
+}
+
+src_test() {
+    distutils-r1_src_test
+}
+
+src_install() {
+    distutils-r1_src_install
+}
 
 distutils_enable_tests pytest

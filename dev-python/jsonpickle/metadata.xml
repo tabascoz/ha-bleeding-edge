@@ -10,7 +10,7 @@
     <remote-id type="github">jsonpickle/jsonpickle</remote-id>
     <maintainer status="active">
       <name>Theelx</name>
-      <email>David Aguilar <davvid+jsonpickle@gmail.com></email>
+      <email>davvid+jsonpickle@gmail.com</email>
     </maintainer>
   </upstream>
 </pkgmetadata>

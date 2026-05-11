@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">pre-commit</remote-id>
     <remote-id type="github">pre-commit/pre-commit</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Anthony Sottile</name>
       <email>asottile@umich.edu</email>
     </maintainer>

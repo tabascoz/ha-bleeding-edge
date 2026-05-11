@@ -9,7 +9,7 @@
     <remote-id type="pypi">horimote</remote-id>
     <remote-id type="github">benleb/horimote</remote-id>
     <maintainer status="active">
-      <name>Ben Lebherz & Auke Willem Oosterhoff</name>
+      <name>Ben Lebherz</name>
       <email>git@benleb.de</email>
     </maintainer>
   </upstream>

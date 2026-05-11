@@ -18,6 +18,6 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND="~dev-python/awscrt-0.27.4[${PYTHON_USEDEP}]"
+RDEPEND="dev-python/awscrt[${PYTHON_USEDEP}]"
 
 distutils_enable_tests pytest

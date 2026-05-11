@@ -23,8 +23,8 @@ RESTRICT="!test? ( test )"
 RDEPEND="
     dev-python/pytz[${PYTHON_USEDEP}]
     dev-python/six[${PYTHON_USEDEP}]
-    python_version_lt_3_10? ( >=dev-python/python-dateutil-2.5.0[${PYTHON_USEDEP}] )
-    python_version_ge_3_10? ( >=dev-python/python-dateutil-2.7.0[${PYTHON_USEDEP}] )
+    >=dev-python/python-dateutil-2.5.0[${PYTHON_USEDEP}] 
+    >=dev-python/python-dateutil-2.7.0[${PYTHON_USEDEP}] 
 "
 BDEPEND="
     >=dev-python/setuptools-68.0[${PYTHON_USEDEP}]

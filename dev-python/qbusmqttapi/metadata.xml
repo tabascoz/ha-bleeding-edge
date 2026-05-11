@@ -10,7 +10,7 @@
     <remote-id type="github">Qbus-iot/qbusmqttapi</remote-id>
     <maintainer status="active">
       <name>thomasddn</name>
-      <email>Koen Schockaert <ks@qbus.be></email>
+      <email>ks@qbus.be</email>
     </maintainer>
   </upstream>
 </pkgmetadata>

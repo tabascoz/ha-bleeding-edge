@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">geopy</remote-id>
     <remote-id type="github">geopy/geopy</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Kostya Esmukov</name>
       <email>kostya@esmukov.net</email>
     </maintainer>

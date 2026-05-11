@@ -11,6 +11,5 @@
       <name>Linode</name>
       <email>developers@linode.com</email>
     </maintainer>
-    <doc>www.linode.com</doc>
   </upstream>
 </pkgmetadata>

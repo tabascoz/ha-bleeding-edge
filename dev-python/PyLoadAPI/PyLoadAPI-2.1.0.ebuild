@@ -18,7 +18,7 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND="~dev-python/aiohttp-3.9[${PYTHON_USEDEP}]
+RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]
 	cli? ( dev-python/click[${PYTHON_USEDEP}] )"
 BDEPEND="
 	test? (

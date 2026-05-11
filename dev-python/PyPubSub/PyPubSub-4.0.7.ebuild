@@ -4,7 +4,7 @@
 EAPI=8
 DISTUTILS_USE_PEP517=setuptools
 PYTHON_COMPAT=( python3_{12..14} )
-inherit distutils-r1
+inherit distutils-r1 pypi
 
 DESCRIPTION="Python Publish-Subscribe Package"
 HOMEPAGE="https://github.com/schollii/pypubsub https://pypi.org/project/PyPubSub/"
@@ -12,21 +12,27 @@ MY_PN="pypubsub"
 SRC_URI="https://github.com/schollii/${MY_PN}/archive/refs/tags/v${PV}.tar.gz -> ${P}.gh.tar.gz"
 S="${WORKDIR}/${MY_PN}-${PV}"
 
-LICENSE="BSD"
+LICENSE="BSD-2"
 SLOT="0"
-KEYWORDS="amd64 arm arm64 x86"
+KEYWORDS="~amd64 ~arm ~arm64 ~x86"
 IUSE="test"
+
 RESTRICT="!test? ( test )"
 
 DOCS="README.rst"
 
-BDEPEND="
-	test? (
-		dev-python/pytest[${PYTHON_USEDEP}]
-	)"
 
-python_test() {
-	py.test -v -v || die
-}
+RDEPEND="
+    dev-python/six[${PYTHON_USEDEP}]
+"
+
+BDEPEND="
+    dev-python/setuptools[${PYTHON_USEDEP}]
+    dev-python/setuptools-scm[${PYTHON_USEDEP}]
+"
 
 distutils_enable_tests pytest
+
+python_compile() {
+    SETUPTOOLS_SCM_PRETEND_VERSION="${PV}" distutils-r1_python_compile
+}

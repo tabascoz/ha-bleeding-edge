@@ -10,7 +10,7 @@
     <remote-id type="github">luqasz/librouteros</remote-id>
     <maintainer status="active">
       <name>Łukasz Kostka</name>
-      <email>Łukasz Kostka <lukasz.g.kostka@gmail.com></email>
+      <email>lukasz.g.kostka@gmail.com</email>
     </maintainer>
   </upstream>
 </pkgmetadata>

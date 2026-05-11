@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">zwavejs2mqtt</remote-id>
     <remote-id type="github">zwave-js/zwavejs2mqtt</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>ZwaveJS Team</name>
     </maintainer>
   </upstream>

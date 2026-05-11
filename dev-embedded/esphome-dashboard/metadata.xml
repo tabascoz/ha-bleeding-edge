@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">esphome-dashboard</remote-id>
     <remote-id type="github">esphome/dashboard</remote-id>
-    <maintainer status="(from package - evaluate that)">
+    <maintainer status="active">
       <name>Open Home Foundation</name>
       <email>hello@openhomefoundation.org</email>
     </maintainer>

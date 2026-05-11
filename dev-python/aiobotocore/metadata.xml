@@ -1,12 +1,17 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-  <maintainer type="project">
-    <email>tabascoz@gmail.com</email>
-    <name>Fernando Cunha</name>
-  </maintainer>
-  <upstream>
-    <remote-id type="pypi">aiobotocore</remote-id>
-    <remote-id type="github">aio-libs/aiobotocore</remote-id>
-  </upstream>
+	<maintainer type="person">
+		<email>universebenzene@sina.com</email>
+		<name>Astro Benzene</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="pypi">aiobotocore</remote-id>
+		<remote-id type="github">aio-libs/aiobotocore</remote-id>
+	</upstream>
+	<use>
+		<!--<flag name="awscli">Extra require via <pkg>app-admin/awscli</pkg></flag>
+		<flag name="boto3">Extra require via <pkg>dev-python/boto3</pkg></flag>-->
+		<flag name="httpx">Extra require via <pkg>dev-python/httpx</pkg></flag>
+	</use>
 </pkgmetadata>

@@ -7,7 +7,7 @@
   </maintainer>
   <upstream>
     <remote-id type="github">libseccomp/libseccomp</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>Christian Brauner</name>
     </maintainer>
     <doc>https://libseccomp.org/</doc>

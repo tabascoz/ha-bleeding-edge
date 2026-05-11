@@ -8,9 +8,8 @@
   <upstream>
     <remote-id type="pypi">gtfs</remote-id>
     <maintainer status="active">
-      <name>UNKNOWN</name>
-      <email>UNKNOWN</email>
+      <name>Yaron de Leeuw</name>
+      <email>me@jarondl.net</email>
     </maintainer>
-    <doc>UNKNOWN</doc>
   </upstream>
 </pkgmetadata>

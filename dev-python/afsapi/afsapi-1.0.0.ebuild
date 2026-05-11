@@ -4,7 +4,7 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=hatchling
 inherit distutils-r1 pypi
 DESCRIPTION="Asynchronous implementation of the Frontier Silicon API"
 HOMEPAGE="https://github.com/zhelev/python-afsapi.git https://pypi.org/project/afsapi/"

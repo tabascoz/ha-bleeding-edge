@@ -8,7 +8,7 @@
   <upstream>
     <remote-id type="pypi">mqttx</remote-id>
     <remote-id type="github">emqx/MQTTX</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>EMQX</name>
     </maintainer>
   </upstream>

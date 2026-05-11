@@ -1,4 +1,3 @@
-# Copyright 2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -18,10 +17,9 @@ IUSE="test"
 RESTRICT="!test? ( test )"
 
 RDEPEND="
-	~dev-python/aiohttp-3.11[${PYTHON_USEDEP}]
-	~dev-python/mashumaro-3.13[${PYTHON_USEDEP}]
+	dev-python/aiohttp[${PYTHON_USEDEP}]
+	dev-python/mashumaro[${PYTHON_USEDEP}]
 	>=dev-python/orjson-3.11.7[${PYTHON_USEDEP}]
-	<dev-python/orjson-4.0[${PYTHON_USEDEP}]
 "
 
 BDEPEND="

@@ -10,7 +10,7 @@
     <remote-id type="github">repo-helper/whey</remote-id>
     <maintainer status="active">
       <name>Dominic Davis-Foster</name>
-      <email>Dominic Davis-Foster <dominic@davis-foster.co.uk></email>
+      <email>dominic@davis-foster.co.uk</email>
     </maintainer>
   </upstream>
 </pkgmetadata>

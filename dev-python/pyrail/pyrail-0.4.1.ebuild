@@ -21,8 +21,8 @@ DOCS="README.md"
 RDEPEND="
 	>=dev-python/aiohttp-3.11.11[${PYTHON_USEDEP}]
 	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
-	>=dev-python/mashumaro-3.15[orjson,${PYTHON_USEDEP}]
-	<dev-python/mashumaro-4.0[orjson,${PYTHON_USEDEP}]
+	>=dev-python/mashumaro-3.15[${PYTHON_USEDEP}]
+	<dev-python/mashumaro-4.0[${PYTHON_USEDEP}]
 "
 BDEPEND="
 	test? (

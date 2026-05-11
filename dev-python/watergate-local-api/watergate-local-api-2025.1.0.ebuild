@@ -25,11 +25,18 @@ BDEPEND="
     )
 "
 
+python_install() {
+    distutils-r1_python_install
+
+    # Remove stray top-level files
+    local sitedir=$(python_get_sitedir)
+    rm -rf "${D}${sitedir}/tests"
+}
+
 python_prepare_all() {
     # Fix missing version.txt in the PyPI sdist
 
     echo "2025.1.0" > version.txt || die "Failed to create version.txt"
-
 
     # IMPORTANT: Call the eclass function
     distutils-r1_python_prepare_all

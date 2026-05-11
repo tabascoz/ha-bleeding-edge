@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~arm64"
 IUSE="test"
 RESTRICT="!test? ( test )"
 
-DOCS="README.rst"
+DOCS="README.md"
 
 RDEPEND=">=dev-python/httpx-0.28[${PYTHON_USEDEP}] <dev-python/httpx-1[${PYTHON_USEDEP}]"
 BDEPEND="

@@ -6,9 +6,8 @@
     <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">nbfc-linux</remote-id>
     <remote-id type="github">NBFCLinux/nbfc-linux</remote-id>
-    <maintainer status="actively maintained">
+    <maintainer status="active">
       <name>NBFCLinux</name>
     </maintainer>
   </upstream>

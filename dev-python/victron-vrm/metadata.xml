@@ -10,7 +10,7 @@
     <remote-id type="github">KSoft-Si/vrm-client</remote-id>
     <maintainer status="active">
       <name>AndyTempel</name>
-      <email>"KSoft.TECH" <oss@ksoft.tech></email>
+      <email>oss@ksoft.tech</email>
     </maintainer>
   </upstream>
 </pkgmetadata>

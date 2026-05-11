@@ -5,7 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 
-DISTUTILS_USE_PEP517=hatchling
+DISTUTILS_USE_PEP517=uv-build
 inherit distutils-r1 pypi
 
 DESCRIPTION="Async library to control Denon receivers over RS232"

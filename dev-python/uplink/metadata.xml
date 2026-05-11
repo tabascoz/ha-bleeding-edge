@@ -10,7 +10,7 @@
     <remote-id type="github">prkumar/uplink</remote-id>
     <maintainer status="active">
       <name>Kareem Moussa, Brandon Milton, Fabio Rosado, Niko Eckerskorn, Or Carmi, George Kontridze, Sean Chambers, Nils Philippsen, Alexander Duryagin, Sakorn Waungwiwatsin, Jacob Floyd, Guilherme Crocetti, Alexander Shadchin, Ernesto Avilés Vázquez</name>
-      <email>Leiser Fernández Gallo <leiserfg@gmail.com></email>
+      <email>leiserfg@gmail.com</email>
     </maintainer>
   </upstream>
 </pkgmetadata>

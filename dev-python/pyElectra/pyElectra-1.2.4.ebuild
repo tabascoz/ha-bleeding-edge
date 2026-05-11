@@ -3,7 +3,7 @@
 
 EAPI=8
 
-PYTHON_COMPAT=( python3_{11..13} )
+PYTHON_COMPAT=( python3_{11..14} )
 DISTUTILS_USE_PEP517=setuptools
 DESCRIPTION="Electra Smart Python Integration."
 HOMEPAGE="https://github.com/jafar-atili/pyelectra/ https://pypi.org/project/pyElectra/"

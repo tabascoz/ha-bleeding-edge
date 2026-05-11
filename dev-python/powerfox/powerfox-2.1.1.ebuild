@@ -9,7 +9,7 @@ DISTUTILS_USE_PEP517=poetry
 inherit pypi distutils-r1
 
 DESCRIPTION="Asynchronous Python client for the Powerfox devices"
-HOMEPAGE="https://pypi.org/project/${PN}/"
+HOMEPAGE="https://pypi.org/project/powerfox/"
 LICENSE="None"
 SLOT="0"
 KEYWORDS="~amd64 ~arm64"
