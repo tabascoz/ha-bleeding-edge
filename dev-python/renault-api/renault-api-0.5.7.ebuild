@@ -22,7 +22,7 @@ DOCS="README.rst"
 RDEPEND=">=dev-python/aiohttp-3.9.5[${PYTHON_USEDEP}]
 	>=dev-python/pyjwt-2.8.0[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-42.0.5[${PYTHON_USEDEP}]
-	>=dev-python/marshmallow-dataclass-8.2.0[${PYTHON_USEDEP}]
+	>=dev-python/marshmallow-dataclass-8.7.1[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
 	cli? (
 		>=dev-python/click-8.0.1[${PYTHON_USEDEP}]
