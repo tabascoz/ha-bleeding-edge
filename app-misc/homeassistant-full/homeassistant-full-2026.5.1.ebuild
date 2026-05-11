@@ -1,4 +1,4 @@
-# Copyright 1999-202	6 Gentoo Authors
+# Copyright 1999-202	6 Gentoo Authors9
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
