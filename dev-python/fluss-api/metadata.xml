@@ -5,8 +5,7 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">fluss-api</remote-id>
-    <remote-id type="github">fluss/Fluss_Python_Library</remote-id>
-  </upstream>
+  <longdescription lang="en">
+    fluss-api is a Python library for interacting with the Fluss API.
+  </longdescription>
 </pkgmetadata>

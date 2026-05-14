@@ -5,8 +5,7 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">greenplanet-energy-api</remote-id>
-    <remote-id type="github">petschni/greenplanet-energy-api</remote-id>
-  </upstream>
+  <longdescription lang="en">
+    The greenplanet-energy-api provides an interface to interact with the Green Planet Energy API.
+  </longdescription>
 </pkgmetadata>

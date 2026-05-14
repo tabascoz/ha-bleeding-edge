@@ -1,4 +1,4 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -7,7 +7,8 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 DESCRIPTION="An async GeoJSON client library for NSW Rural Fire Service Incidents."
-HOMEPAGE="https://github.com/exxamalte/python-aio-geojson-nsw-rfs-incidents https://pypi.org/project/aio-geojson-nsw-rfs-incidents/"
+HOMEPAGE="https://github.com/exxamalte/python-aio-geojson-nsw-rfs-incidents \
+	https://pypi.org/project/aio-geojson-nsw-rfs-incidents/"
 
 LICENSE="Apache-2.0"
 SLOT="0"

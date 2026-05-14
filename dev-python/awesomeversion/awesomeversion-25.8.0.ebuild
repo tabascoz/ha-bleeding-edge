@@ -1,4 +1,4 @@
-# Copyright 1999-2025 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -6,7 +6,8 @@ EAPI=8
 PYTHON_COMPAT=( pypy3_11 python3_{11..14} )
 DISTUTILS_USE_PEP517=hatchling
 inherit distutils-r1 pypi
-DESCRIPTION="One version package to rule them all, One version package to find them, One version package to bring them all, and in the darkness bind them."
+DESCRIPTION="One version package to rule them all, One version package to find \
+them, One version package to bring them all, and in the darkness bind them."
 HOMEPAGE="https://github.com/ludeeus/awesomeversion https://pypi.org/project/awesomeversion/"
 
 LICENSE="MIT"
@@ -20,7 +21,8 @@ DOCS="README.md"
 BDEPEND="
 	test? (
 		dev-python/pytest-cov[${PYTHON_USEDEP}]
-	)"
+	)
+"
 
 distutils_enable_tests pytest
 

@@ -5,11 +5,7 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">pooldose</remote-id>
-    <remote-id type="github">pooldose/pooldose</remote-id>
-    <maintainer status="active">
-      <name>Unknown</name>
-    </maintainer>
-  </upstream>
+  <longdescription lang="en">
+    pooldose is a Python library for managing object pools.
+  </longdescription>
 </pkgmetadata>

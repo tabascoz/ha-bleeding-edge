@@ -1,4 +1,4 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -9,6 +9,7 @@ PYPI_NO_NORMALIZE=1
 inherit distutils-r1 pypi
 DESCRIPTION="Define module-level imports."
 HOMEPAGE="https://github.com/cgtobi/PyRMVtransport https://pypi.org/project/PyRMVtransport/"
+PYPI_PN="PyRMVtransport"
 
 LICENSE="MIT"
 SLOT="0"
@@ -18,9 +19,10 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND="dev-python/async-timeout[${PYTHON_USEDEP}]
+RDEPEND="
+	dev-python/async-timeout[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]"
+	>=dev-python/httpx-0.28.1-r1[${PYTHON_USEDEP}]"
 BDEPEND="
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]

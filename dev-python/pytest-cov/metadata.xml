@@ -5,11 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">pytest-cov</remote-id>
-    <remote-id type="github">pytest/pytest-cov</remote-id>
-    <maintainer status="active">
-      <name>pytest-dev</name>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

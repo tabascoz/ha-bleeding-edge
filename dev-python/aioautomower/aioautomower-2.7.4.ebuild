@@ -1,4 +1,4 @@
-# Copyright 2026 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -23,7 +23,7 @@ RESTRICT="!test? ( test )"
 RDEPEND="
 	>=dev-python/aiohttp-3.9.0[${PYTHON_USEDEP}]
 	>=dev-python/mashumaro-3.12[${PYTHON_USEDEP}]
-	dev-python/orjson[${PYTHON_USEDEP}]
+	>=dev-python/orjson-3.11.9[${PYTHON_USEDEP}]
 "
 
 BDEPEND="
@@ -37,8 +37,6 @@ BDEPEND="
 	)
 "
 
-
-
 python_prepare_all() {
 	python3 - <<'EOF' || die "Failed to patch pyproject.toml"
 import re, pathlib
@@ -48,37 +46,35 @@ lines = p.read_text().splitlines(keepends=True)
 out, skip = [], False
 
 for line in lines:
-    s = line.strip()
+	s = line.strip()
 
-    # 1. Replace the build backend
-    line = line.replace(
-        '"poetry_dynamic_versioning.backend"',
-        '"poetry.core.masonry.api"',
-    )
+	# 1. Replace the build backend
+	line = line.replace(
+		'"poetry_dynamic_versioning.backend"',
+		'"poetry.core.masonry.api"',
+	)
 
-    # 2. Remove poetry-dynamic-versioning from [build-system] requires
-    if "poetry-dynamic-versioning" in line:
-        line = re.sub(r',?\s*"poetry-dynamic-versioning[^"]*"', "", line)
-        line = re.sub(r'"poetry-dynamic-versioning[^"]*",?\s*', "", line)
+	# 2. Remove poetry-dynamic-versioning from [build-system] requires
+	if "poetry-dynamic-versioning" in line:
+		line = re.sub(r',?\s*"poetry-dynamic-versioning[^"]*"', "", line)
+		line = re.sub(r'"poetry-dynamic-versioning[^"]*",?\s*', "", line)
 
-    # 3. Drop ALL [tool.poetry.group.dev*] sections and their content.
-    #    poetry-core rejects the non-package keys (e.g. enable/metadata)
-    #    that poetry-dynamic-versioning places there; we don't need dev
-    #    deps to build the wheel anyway.
-    if re.match(r'^\[tool\.poetry\.group\.dev', s):
-        skip = True
-        continue
-    if skip and s.startswith("["):
-        skip = False
-    if not skip:
-        out.append(line)
+	# 3. Drop ALL [tool.poetry.group.dev*] sections and their content.
+	#    poetry-core rejects the non-package keys (e.g. enable/metadata)
+	#    that poetry-dynamic-versioning places there; we don't need dev
+	#    deps to build the wheel anyway.
+	if re.match(r'^\[tool\.poetry\.group\.dev', s):
+		skip = True
+		continue
+	if skip and s.startswith("["):
+		skip = False
+	if not skip:
+		out.append(line)
 
 p.write_text("".join(out))
 EOF
 	distutils-r1_python_prepare_all
 }
-
-
 
 src_test() {
 	epytest tests/

@@ -1,4 +1,4 @@
-# Copyright 2026 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -10,6 +10,7 @@ inherit pypi distutils-r1
 
 DESCRIPTION="A Python implementation of the La Marzocco API"
 HOMEPAGE="https://pypi.org/project/pylamarzocco/"
+PYPI_PN="pylamarzocco"
 
 LICENSE="MIT"
 SLOT="0"
@@ -43,10 +44,9 @@ python_prepare_all() {
 
     # Add a clean, working build-system section
     cat >> pyproject.toml <<- 'EOF' || die
-
-    [build-system]
-    requires = ["setuptools >= 68.0"]
-    build-backend = "setuptools.build_meta"
+[build-system]
+requires = ["setuptools >= 68.0"]
+build-backend = "setuptools.build_meta"
 EOF
 
     # Fix hardcoded version if it exists
@@ -56,4 +56,3 @@ EOF
 }
 
 distutils_enable_tests pytest
-

@@ -1,4 +1,4 @@
-# Copyright 1999-2025 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -7,6 +7,8 @@ PYTHON_COMPAT=( pypy3_11 python3_{11..14} )
 DISTUTILS_USE_PEP517=setuptools
 
 inherit distutils-r1
+
+PYPI_PN="PyQRCode"
 
 # upstream doesn't do tags
 EGIT_COMMIT="674a77b5eaf850d063f518bd90c243ee34ad6b5d"
@@ -34,3 +36,5 @@ src_prepare() {
 
 	distutils-r1_src_prepare
 }
+
+distutils_enable_tests pytest

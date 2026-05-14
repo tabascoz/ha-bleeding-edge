@@ -1,4 +1,4 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -31,8 +31,4 @@ python_prepare_all() {
 	# remove pointless dep on pytest-cov
 	sed -i -e '/addopts/d' setup.cfg || die
 	distutils-r1_python_prepare_all
-}
-
-python_test() {
-	epytest -p no:aiohttp
 }

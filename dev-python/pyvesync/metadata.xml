@@ -5,12 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">vesync</remote-id>
-    <remote-id type="github">tylergets/python-vesync</remote-id>
-    <maintainer status="active">
-      <name>tylergets</name>
-      <email>tylergetsay@gmail.com</email>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

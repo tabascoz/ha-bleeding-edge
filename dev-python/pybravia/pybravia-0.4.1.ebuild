@@ -1,4 +1,4 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -10,6 +10,7 @@ inherit distutils-r1 pypi
 
 DESCRIPTION="Python async library for remote control of Sony Bravia TVs 2013 and newer."
 HOMEPAGE="https://github.com/Drafteed/pybravia https://pypi.org/project/pybravia/"
+PYPI_PN="pybravia"
 
 LICENSE="MIT"
 SLOT="0"

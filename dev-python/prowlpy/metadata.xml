@@ -5,11 +5,7 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">prowlpy</remote-id>
-    <remote-id type="github">OMEGARAZER/prowlpy</remote-id>
-    <maintainer status="active">
-      <name>OMEGA_RAZER</name>
-    </maintainer>
-  </upstream>
+  <longdescription lang="en">
+    Prowlpy is a Python library for interacting with the Prowl API.
+  </longdescription>
 </pkgmetadata>

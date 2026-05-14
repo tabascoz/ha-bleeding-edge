@@ -1,4 +1,4 @@
-# Copyright 2026 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -18,7 +18,7 @@ RESTRICT="!test? ( test )"
 
 RDEPEND="
     >=dev-python/cryptography-42.0[${PYTHON_USEDEP}]
-    >=dev-python/httpx-0.25.1[${PYTHON_USEDEP}]
+    >=dev-python/httpx-0.28.1[${PYTHON_USEDEP}]
     >=dev-python/ms-cv-0.1.1[${PYTHON_USEDEP}]
     >=dev-python/pydantic-2.12[${PYTHON_USEDEP}]
     cli? ( >=dev-python/platformdirs-4.5.0[${PYTHON_USEDEP}] )
@@ -31,3 +31,4 @@ BDEPEND="
 "
 
 distutils_enable_tests pytest
+PYPI_PN="python-xbox"

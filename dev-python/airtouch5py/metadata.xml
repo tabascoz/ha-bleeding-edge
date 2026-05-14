@@ -5,11 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">airtouch5py</remote-id>
-    <maintainer status="active">
-      <name>Dave Leaver</name>
-      <email>danzel@localhost.geek.nz</email>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

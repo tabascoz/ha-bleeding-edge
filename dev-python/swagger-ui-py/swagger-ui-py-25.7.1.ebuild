@@ -6,6 +6,7 @@ EAPI=8
 DISTUTILS_USE_PEP517=setuptools
 PYTHON_COMPAT=( python3_{12..14} )
 PYPI_NO_NORMALIZE=1
+PYPI_PN="swagger-ui-py"
 
 inherit distutils-r1 pypi
 
@@ -19,6 +20,7 @@ KEYWORDS="~amd64 ~arm64 ~x86"
 
 RDEPEND="
     dev-python/flask
+	app-arch/unzip
 "
 
 # No runtime dependencies are strictly required (it's mostly static assets + helpers),
@@ -27,13 +29,12 @@ RDEPEND="
 python_prepare_all() {
     # === Fix missing [build-system] section (same as aioacaia) ===
     cat >> pyproject.toml <<- EOF || die
-    [build-system]
-    requires = ["setuptools >= 68.0"]
-    build-backend = "setuptools.build_meta"
+	[build-system]
+	requires = ["setuptools >= 68.0"]
+	build-backend = "setuptools.build_meta"
 EOF
 
     distutils-r1_python_prepare_all
 }
-
 
 distutils_enable_tests pytest

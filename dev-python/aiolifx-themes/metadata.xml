@@ -5,12 +5,7 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">aiolifx-themes</remote-id>
-    <remote-id type="github">Djelibeybi/aiolifx-themes</remote-id>
-    <maintainer status="active">
-      <name>Avi Miller</name>
-      <email>me@dje.li</email>
-    </maintainer>
-  </upstream>
+  <use>
+    <flag name="docs">Build and install documentation.</flag>
+  </use>
 </pkgmetadata>

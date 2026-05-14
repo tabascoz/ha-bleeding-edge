@@ -5,8 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">PyNINA</remote-id>
-    <remote-id type="gitlab">DeerMaximum/pynina</remote-id>
-  </upstream>
 </pkgmetadata>

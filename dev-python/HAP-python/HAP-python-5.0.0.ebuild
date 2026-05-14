@@ -1,4 +1,4 @@
-# Copyright 1999-2025 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -19,20 +19,25 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND="dev-python/async-timeout[${PYTHON_USEDEP}]
+RDEPEND="
+	dev-python/async-timeout[${PYTHON_USEDEP}]
 	dev-python/cryptography[${PYTHON_USEDEP}]
 	dev-python/chacha20poly1305-reuseable[${PYTHON_USEDEP}]
-	>=dev-python/orjson-3.7.2[${PYTHON_USEDEP}]
+	>=dev-python/orjson-3.11.8[${PYTHON_USEDEP}]
 	>=dev-python/zeroconf-0.36.2[${PYTHON_USEDEP}]
 	dev-python/h11[${PYTHON_USEDEP}]
-	qrcode? ( dev-python/base36[${PYTHON_USEDEP}] dev-python/pyqrcode[${PYTHON_USEDEP}] )"
+	qrcode? (
+		dev-python/base36[${PYTHON_USEDEP}]
+		dev-python/pyqrcode[${PYTHON_USEDEP}]
+	)
+"
 BDEPEND="
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]
-	)"
+		dev-python/pytest-cov[${PYTHON_USEDEP}]
+	)
+"
 
-python_test() {
-	py.test -v -v || die
-}
 
 distutils_enable_tests pytest
+

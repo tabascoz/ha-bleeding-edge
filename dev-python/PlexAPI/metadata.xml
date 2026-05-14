@@ -5,8 +5,8 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">PlexAPI</remote-id>
-    <remote-id type="github">pushingkarmaorg/python-plexapi</remote-id>
-  </upstream>
+  <use>
+    <flag name="alert">Enable alert functionality.</flag>
+    <flag name="jwt">Enable JWT support.</flag>
+  </use>
 </pkgmetadata>

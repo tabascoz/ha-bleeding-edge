@@ -1,4 +1,4 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -17,6 +17,10 @@ IUSE="test voice speed"
 RESTRICT="!test? ( test )"
 
 DOCS="README.rst"
+
+BDEPEND="
+    dev-python/orjson[${PYTHON_USEDEP}]
+"
 
 RDEPEND="
     dev-python/aiohttp[${PYTHON_USEDEP}]
@@ -83,6 +87,5 @@ p.write_text("".join(out))
 EOF
 	distutils-r1_python_prepare_all
 }
-
 
 distutils_enable_tests pytest

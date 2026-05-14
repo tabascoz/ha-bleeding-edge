@@ -1,4 +1,4 @@
-# Copyright 1999-2025 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -21,7 +21,7 @@ RDEPEND=">=dev-python/aiohttp-3.11.1[${PYTHON_USEDEP}]
 	>=dev-python/bleak-retry-connector-3.0.0[${PYTHON_USEDEP}]
 	>=dev-python/bluetooth-data-tools-1.28.0[${PYTHON_USEDEP}]
 	>=dev-python/habluetooth-3.42.0[${PYTHON_USEDEP}]
-	>=dev-python/orjson-3.11.6[${PYTHON_USEDEP}]
+	>=dev-python/orjson-3.11.8[${PYTHON_USEDEP}]
 	dev-python/yarl[${PYTHON_USEDEP}]
 	>=dev-python/zeroconf-0.148.0[${PYTHON_USEDEP}]"
 BDEPEND="

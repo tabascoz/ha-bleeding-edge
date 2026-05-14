@@ -5,11 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">socketio</remote-id>
-    <maintainer status="active">
-      <name>EvgrDan</name>
-    </maintainer>
-    <doc>http://zvonobot.ru</doc>
-  </upstream>
 </pkgmetadata>

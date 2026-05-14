@@ -5,8 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">jaraco-abode</remote-id>
-    <remote-id type="github">jaraco/jaraco.abode</remote-id>
-  </upstream>
 </pkgmetadata>

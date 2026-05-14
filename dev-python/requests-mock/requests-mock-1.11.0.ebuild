@@ -1,4 +1,4 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -43,7 +43,8 @@ python_prepare_all() {
 	rm doc/source/release-notes.rst || die
 	sed -i '/^=============$/,/release-notes/d' doc/source/index.rst || die
 	# Disable a test which requires purl (not in the tree)
-	sed -e "/^import purl$/d" -e "s/test_with_purl/_&/" \
+	sed -e "/^import purl$/d" \
+		-e "s/test_with_purl/_&/" \
 		-i tests/test_adapter.py || die
 	distutils-r1_python_prepare_all
 }

@@ -5,12 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">objgraph</remote-id>
-    <remote-id type="github">mgedmin/objgraph</remote-id>
-    <maintainer status="active">
-      <name>Marius Gedminas</name>
-      <email>marius@gedmin.as</email>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

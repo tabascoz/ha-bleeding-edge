@@ -1,4 +1,4 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -25,3 +25,5 @@ RDEPEND="
 	>=dev-python/nose-1.3.7[${PYTHON_USEDEP}]
 	GATTTOOL? ( dev-python/pexpect[${PYTHON_USEDEP}] )
 "
+
+PYPI_PN="pygatt"

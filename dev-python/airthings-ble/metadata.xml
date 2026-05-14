@@ -5,11 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">airthings-ble</remote-id>
-    <remote-id type="github">Airthings/airthings-ble</remote-id>
-    <maintainer status="active">
-      <name>Vincent Giorgi</name>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

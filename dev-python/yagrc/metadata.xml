@@ -5,8 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">yagrc</remote-id>
-    <remote-id type="github">sparky8512/yagrc</remote-id>
-  </upstream>
 </pkgmetadata>

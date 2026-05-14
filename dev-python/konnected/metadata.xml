@@ -5,12 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">konnected</remote-id>
-    <remote-id type="github">konnected-io/konnected-py</remote-id>
-    <maintainer status="active">
-      <name>Nate Clark, Konnected Inc</name>
-      <email>help@konnected.io</email>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

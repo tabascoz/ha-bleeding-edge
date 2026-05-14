@@ -5,8 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">aioairzone</remote-id>
-    <remote-id type="github">Noltari/aioairzone</remote-id>
-  </upstream>
 </pkgmetadata>

@@ -5,8 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">zigpy-xbee</remote-id>
-    <remote-id type="github">zigpy/zigpy-xbee</remote-id>
-  </upstream>
 </pkgmetadata>

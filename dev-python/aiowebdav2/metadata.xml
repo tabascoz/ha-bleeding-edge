@@ -5,8 +5,5 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">aiowebdav2</remote-id>
-    <remote-id type="github">jpbede/aiowebdav2</remote-id>
-  </upstream>
+  <longdescription>Asynchronous WebDAV client for Python.</longdescription>
 </pkgmetadata>

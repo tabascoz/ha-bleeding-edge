@@ -1,4 +1,4 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -20,10 +20,10 @@ RESTRICT="!test? ( test )"
 DOCS="README.md"
 
 RDEPEND="dev-python/cryptography[${PYTHON_USEDEP}]
-	>=dev-python/httpx-0.22.0[${PYTHON_USEDEP}]"
+	>=dev-python/httpx-0.27.2[${PYTHON_USEDEP}]"
 BDEPEND="
 	test? (
-		>dev-python/pytest-3.6.4[${PYTHON_USEDEP}]
+		>=dev-python/pytest-3.6.4[${PYTHON_USEDEP}]
 		<dev-python/pytest-cov-2.6[${PYTHON_USEDEP}]
 		>=dev-python/pytest-asyncio-0.20.2[${PYTHON_USEDEP}]
 		dev-python/coveralls[${PYTHON_USEDEP}]

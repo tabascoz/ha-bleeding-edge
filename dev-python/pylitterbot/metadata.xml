@@ -5,11 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">litterbot</remote-id>
-    <remote-id type="github">litter-bot/litterbot</remote-id>
-    <maintainer status="active">
-      <name>Litter Bot Team</name>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

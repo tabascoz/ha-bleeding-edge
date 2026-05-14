@@ -5,11 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">sabnzbd</remote-id>
-    <remote-id type="github">sabnzbd/sabnzbd</remote-id>
-    <maintainer status="active">
-      <name>Sabnzbd Team</name>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

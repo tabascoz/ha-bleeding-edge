@@ -5,12 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">cfdns</remote-id>
-    <remote-id type="github">madflojo/cfdns</remote-id>
-    <maintainer status="active">
-      <name>madflojo</name>
-      <email>ben@bencane.com</email>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

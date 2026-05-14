@@ -1,4 +1,4 @@
-# Copyright 1999-2025 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -18,8 +18,8 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND=">=dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}]
-	>=dev-python/tzdata-2023.3[${PYTHON_USEDEP}]
+RDEPEND=">=dev-python/python-dateutil-2.8.2[${PYTHON_USEDEP}] \
+	>=dev-python/tzdata-2023.3[${PYTHON_USEDEP}] \
 	>=dev-python/pydantic-2.12.3[${PYTHON_USEDEP}]"
 
 distutils_enable_tests pytest

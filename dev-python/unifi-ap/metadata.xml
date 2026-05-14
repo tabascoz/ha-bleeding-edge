@@ -5,8 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">unifi-ap</remote-id>
-    <remote-id type="github">tofuSCHNITZEL/unifi_ap</remote-id>
-  </upstream>
 </pkgmetadata>

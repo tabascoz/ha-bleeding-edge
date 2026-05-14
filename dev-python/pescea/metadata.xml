@@ -5,12 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">pescea</remote-id>
-    <remote-id type="github">lazdavila/pescea</remote-id>
-    <maintainer status="active">
-      <name>Laz Davila</name>
-      <email>laz.davila@gmail.com</email>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

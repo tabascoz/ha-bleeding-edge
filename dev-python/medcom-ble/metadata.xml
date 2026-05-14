@@ -5,12 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">medcom-ble</remote-id>
-    <remote-id type="github">elafargue/medcom-ble</remote-id>
-    <maintainer status="active">
-      <name>Ed Lafargue</name>
-      <email>ed@wizkers.io</email>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

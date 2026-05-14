@@ -5,8 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">jinja2</remote-id>
-    <remote-id type="github">pallets/jinja</remote-id>
-  </upstream>
 </pkgmetadata>

@@ -1,4 +1,4 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -18,7 +18,7 @@ IUSE="test"
 RESTRICT="!test? ( test )"
 
 RDEPEND="
-dev-python/anyio[${PYTHON_USEDEP}]
-dev-python/colorama[${PYTHON_USEDEP}]"
+	dev-python/anyio[${PYTHON_USEDEP}]
+	dev-python/colorama[${PYTHON_USEDEP}]"
 
 distutils_enable_tests pytest

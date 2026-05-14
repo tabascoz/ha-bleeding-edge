@@ -5,12 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">droplet</remote-id>
-    <remote-id type="github">exekias/droplet</remote-id>
-    <maintainer status="active">
-      <name>droplet team</name>
-      <email>sarah.seidman@lixil.com</email>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

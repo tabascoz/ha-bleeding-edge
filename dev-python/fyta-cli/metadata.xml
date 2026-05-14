@@ -5,9 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">fyta-cli</remote-id>
-    <remote-id type="github">dontinelli/fyta_cli</remote-id>
-    <remote-id type="github">dontinelli/fyta_cli.git</remote-id>
-  </upstream>
 </pkgmetadata>

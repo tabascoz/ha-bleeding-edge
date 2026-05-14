@@ -1,4 +1,4 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -19,7 +19,8 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.rst"
 
-RDEPEND=">=dev-python/aiohttp-3.9.5[${PYTHON_USEDEP}]
+RDEPEND="
+	>=dev-python/aiohttp-3.9.5[${PYTHON_USEDEP}]
 	>=dev-python/pyjwt-2.8.0[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-42.0.5[${PYTHON_USEDEP}]
 	>=dev-python/marshmallow-dataclass-8.7.1[${PYTHON_USEDEP}]
@@ -28,7 +29,8 @@ RDEPEND=">=dev-python/aiohttp-3.9.5[${PYTHON_USEDEP}]
 		>=dev-python/click-8.0.1[${PYTHON_USEDEP}]
 		>=dev-python/dateparser-1.0.0[${PYTHON_USEDEP}]
 		>=dev-python/tabulate-0.8.7[${PYTHON_USEDEP}]
-	)"
+	)
+"
 BDEPEND="
 	test? (
 		dev-python/aioresponses[${PYTHON_USEDEP}]

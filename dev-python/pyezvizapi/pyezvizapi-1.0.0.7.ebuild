@@ -1,4 +1,4 @@
-# Copyright 2026 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -18,12 +18,14 @@ KEYWORDS="~amd64 ~arm64"
 IUSE=""
 
 RDEPEND="
-    dev-python/requests[${PYTHON_USEDEP}]
-    dev-python/pandas[${PYTHON_USEDEP}]
-    dev-python/paho-mqtt[${PYTHON_USEDEP}]
-    dev-python/xmltodict[${PYTHON_USEDEP}]
-    dev-python/pycryptodome[${PYTHON_USEDEP}]
+	dev-python/requests[${PYTHON_USEDEP}]
+	dev-python/pandas[${PYTHON_USEDEP}]
+	dev-python/paho-mqtt[${PYTHON_USEDEP}]
+	dev-python/xmltodict[${PYTHON_USEDEP}]
+	dev-python/pycryptodome[${PYTHON_USEDEP}]
 "
 BDEPEND="
-    >=dev-python/setuptools-68.0[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-68.0[${PYTHON_USEDEP}]
 "
+
+PYPI_PN="pyezvizapi"

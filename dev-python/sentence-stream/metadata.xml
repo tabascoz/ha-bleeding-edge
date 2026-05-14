@@ -5,8 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">sentence-stream</remote-id>
-    <remote-id type="github">OHF-Voice/sentence-stream</remote-id>
-  </upstream>
 </pkgmetadata>

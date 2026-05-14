@@ -5,11 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">pigpio</remote-id>
-    <maintainer status="active">
-      <name>joan</name>
-      <email>joan@abyz.me.uk</email>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

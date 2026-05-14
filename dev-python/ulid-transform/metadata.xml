@@ -5,12 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">ulid-transform</remote-id>
-    <remote-id type="github">bluetooth-devices/ulid-transform</remote-id>
-    <maintainer status="active">
-      <name>J. Nick Koston</name>
-      <email>nick@koston.org</email>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

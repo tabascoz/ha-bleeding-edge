@@ -5,12 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">krakenex</remote-id>
-    <remote-id type="github">veox/python3-krakenex</remote-id>
-    <maintainer status="active">
-      <name>Noel Maersk</name>
-      <email>veox+packages+spamremove@veox.pw</email>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

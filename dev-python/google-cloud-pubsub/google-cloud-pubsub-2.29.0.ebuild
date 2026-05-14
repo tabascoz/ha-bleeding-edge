@@ -38,7 +38,7 @@ RDEPEND="
 	<dev-python/proto-plus-2.0.0[${PYTHON_USEDEP}]
 "
 
-BDEPEND="test? ( dev-python/flaky[${PYTHON_USEDEP}] )"
+BDEPEND="test? ( >=dev-python/flaky-3.8.1[${PYTHON_USEDEP}] )"
 
 EPYTEST_PLUGINS=( pytest-asyncio )
 distutils_enable_tests pytest
@@ -51,9 +51,4 @@ python_compile() {
 src_test() {
 	rm -r google || die "rm failed"
 	distutils-r1_src_test
-}
-
-python_test() {
-	distutils_write_namespace google
-	epytest -v tests || die "tests failed with ${EPYTHON}"
 }

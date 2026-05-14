@@ -5,9 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">striprtf</remote-id>
-    <remote-id type="github">joshy/striprtf</remote-id>
-    <remote-id type="github">joshy/striprtf.git</remote-id>
-  </upstream>
 </pkgmetadata>

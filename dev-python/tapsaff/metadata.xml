@@ -5,12 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">tapsaff</remote-id>
-    <remote-id type="github">bazwilliams/python-taps-aff</remote-id>
-    <maintainer status="active">
-      <name>Barry John Williams</name>
-      <email>barry@bjw.me.uk</email>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

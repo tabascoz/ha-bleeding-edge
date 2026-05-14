@@ -5,12 +5,7 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">webio-api</remote-id>
-    <remote-id type="github">nasWebio/webio_api</remote-id>
-    <maintainer status="active">
-      <name>nasWebio</name>
-      <email>devel_team@chomtech.com</email>
-    </maintainer>
-  </upstream>
+  <longdescription lang="en">
+    WebIO API for Python
+  </longdescription>
 </pkgmetadata>

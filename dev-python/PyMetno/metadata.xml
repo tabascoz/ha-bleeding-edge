@@ -5,11 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">PyMetno</remote-id>
-    <remote-id type="github">Danielhiversen/pyMetno</remote-id>
-    <maintainer status="active">
-      <name>Daniel Hjelseth Høyer</name>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

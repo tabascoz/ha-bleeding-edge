@@ -5,12 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">alibabacloud-iot-api-gateway</remote-id>
-    <remote-id type="github">aliyun/alibabacloud-iot-api-gateway-sdk</remote-id>
-    <maintainer status="active">
-      <name>Alibaba Cloud SDK</name>
-      <email>sdk-team@alibabacloud.com</email>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

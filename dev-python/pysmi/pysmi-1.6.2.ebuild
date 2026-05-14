@@ -1,4 +1,4 @@
-# Copyright 2017-2025 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -36,13 +36,3 @@ BDEPEND="
 
 EPYTEST_XDIST=1
 distutils_enable_tests pytest
-
-python_test() {
-	local EPYTEST_DESELECT=(
-		# incompatibility with pysnmp >= 7
-		tests/test_objecttype_smiv2_pysnmp.py::ObjectTypeBitsTestCase::testObjectTypeSyntax
-	)
-
-	local -x PYTEST_DISABLE_PLUGIN_AUTOLOAD=1
-	epytest
-}

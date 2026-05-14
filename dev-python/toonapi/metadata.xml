@@ -5,12 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">toonapi</remote-id>
-    <remote-id type="github">frenck/python-toonapi</remote-id>
-    <maintainer status="active">
-      <name>Franck Nijhof</name>
-      <email>opensource@frenck.dev</email>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

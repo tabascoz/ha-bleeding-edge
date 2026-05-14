@@ -1,4 +1,4 @@
-# Copyright 2026 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -10,6 +10,7 @@ inherit pypi distutils-r1
 
 DESCRIPTION="Python library for accessing MTA (Metropolitan Transportation Authority) real-time transit data for NYC"
 HOMEPAGE="https://pypi.org/project/${PN}/"
+PYPI_PN="py-nymta"
 
 LICENSE="MIT"
 SLOT="0"

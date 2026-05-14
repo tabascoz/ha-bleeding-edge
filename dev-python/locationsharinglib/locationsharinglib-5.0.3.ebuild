@@ -1,4 +1,4 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -17,18 +17,20 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.rst"
 
-RDEPEND=">=dev-python/coloredlogs-15.0.1[${PYTHON_USEDEP}]
+RDEPEND="
+	>=dev-python/coloredlogs-15.0.1[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	>=dev-python/cachetools-5.3.2[${PYTHON_USEDEP}]
-	>=dev-python/pytz-2023.3.post1[${PYTHON_USEDEP}]"
+	>=dev-python/pytz-2023.3.post1[${PYTHON_USEDEP}]
+"
 BDEPEND="
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]
+		>=dev-python/coloredlogs-15.0.1[${PYTHON_USEDEP}]
+		>=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
+		>=dev-python/cachetools-5.3.2[${PYTHON_USEDEP}]
+		>=dev-python/pytz-2023.3.post1[${PYTHON_USEDEP}]
 	)
 "
-
-python_test() {
-	py.test -v -v || die
-}
 
 distutils_enable_tests pytest

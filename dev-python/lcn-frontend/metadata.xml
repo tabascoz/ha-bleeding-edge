@@ -5,8 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">lcn-frontend</remote-id>
-    <remote-id type="github">alengwenus/lcn-frontend.git</remote-id>
-  </upstream>
 </pkgmetadata>

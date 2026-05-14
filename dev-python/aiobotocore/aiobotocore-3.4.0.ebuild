@@ -19,7 +19,8 @@ IUSE="httpx"
 PROPERTIES="test_network"
 RESTRICT="test"
 
-RDEPEND=">=dev-python/aiohttp-3.12.0[${PYTHON_USEDEP}]
+RDEPEND="
+	>=dev-python/aiohttp-3.12.0[${PYTHON_USEDEP}]
 	>=dev-python/aioitertools-0.5.1[${PYTHON_USEDEP}]
 	>=dev-python/botocore-1.42.62[${PYTHON_USEDEP}]
 	>=dev-python/jmespath-0.7.1[${PYTHON_USEDEP}]
@@ -27,9 +28,10 @@ RDEPEND=">=dev-python/aiohttp-3.12.0[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-2.1[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.14.0[${PYTHON_USEDEP}]
 	>=dev-python/wrapt-1.10.10[${PYTHON_USEDEP}]
-	httpx? ( >=dev-python/httpx-0.25.1[${PYTHON_USEDEP}] )
+	httpx? ( >=dev-python/httpx-0.28.1[${PYTHON_USEDEP}] )
 "
-BDEPEND="test? (
+BDEPEND="
+	test? (
 		dev-python/dill[${PYTHON_USEDEP}]
 		dev-python/docker[${PYTHON_USEDEP}]
 		dev-python/docutils[${PYTHON_USEDEP}]
@@ -56,7 +58,6 @@ EPYTEST_IGNORE=(
 )
 
 EPYTEST_DESELECT=(
-	# https://gitlab.archlinux.org/archlinux/packaging/packages/python-aiobotocore/-/blob/main/PKGBUILD
 	'tests/test_patches.py::test_patches[BaseClient._make_api_call-digests12]'
 	'tests/test_patches.py::test_patches[Config-digests21]'
 	'tests/test_patches.py::test_patches[EndpointRulesetResolver._get_provider_params-digests117]'
@@ -74,12 +75,9 @@ EPYTEST_DESELECT=(
 python_prepare_all() {
 	# Work-around test failures with moto 5.x
 	# See: https://github.com/aio-libs/aiobotocore/issues/1108
-	#use test && { eapply "${FILESDIR}"/${PN}-2.12.3-moto-5.x.diff ; sed -i "s/pip._vendor.//" tests/test_version.py || die ; }
 	use test && { sed -i "s/pip._vendor.//" tests/test_version.py || die ; }
 
 	distutils-r1_python_prepare_all
 }
 
-python_test() {
-	epytest -m "not localonly"
-}
+distutils_enable_tests pytest

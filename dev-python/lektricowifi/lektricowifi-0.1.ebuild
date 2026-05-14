@@ -1,4 +1,4 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -21,6 +21,6 @@ DOCS="README.md"
 
 RDEPEND="
     >=dev-python/async-timeout-4.0.2[${PYTHON_USEDEP}]
-    >=dev-python/httpx-0.27.0[${PYTHON_USEDEP}]
+    >=dev-python/httpx-0.28.1[${PYTHON_USEDEP}]
     >=dev-python/pydantic-1.10.17[${PYTHON_USEDEP}]
 "

@@ -5,8 +5,7 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">imeon-inverter-api</remote-id>
-    <remote-id type="github">Imeon-Inverters-for-Home-Assistant/inverter-api</remote-id>
-  </upstream>
+  <longdescription lang="en">
+    API for interacting with Imeon inverters
+  </longdescription>
 </pkgmetadata>

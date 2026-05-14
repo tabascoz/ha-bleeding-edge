@@ -5,8 +5,7 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">visionpluspython</remote-id>
-    <remote-id type="github">Watts-Digital/visionpluspython</remote-id>
-  </upstream>
+  <longdescription lang="en">
+    visionpluspython is a Python library for computer vision tasks.
+  </longdescription>
 </pkgmetadata>

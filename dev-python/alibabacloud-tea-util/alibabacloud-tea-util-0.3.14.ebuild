@@ -10,7 +10,7 @@ DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
 DESCRIPTION="Alibaba Cloud Tea Util (utility functions for Tea-based SDKs)"
-HOMEPAGE="https://github.com/aliyun/tea-python-util
+HOMEPAGE="https://github.com/aliyun/tea-python-util\
     https://pypi.org/project/alibabacloud-tea-util/"
 
 # Latest version as of early 2026: 0.3.11
@@ -19,7 +19,7 @@ HOMEPAGE="https://github.com/aliyun/tea-python-util
 
 LICENSE="Apache-2.0"
 SLOT="0"
-KEYWORDS="~amd64 ~arm ~arm64 ~x86 ~riscv"
+KEYWORDS="~amd64 ~arm ~arm64 ~riscv ~x86"
 
 # Common dependencies for Tea-based SDKs
 RDEPEND="
@@ -30,7 +30,6 @@ BDEPEND="
     dev-python/setuptools[${PYTHON_USEDEP}]
     dev-python/wheel[${PYTHON_USEDEP}]
 "
-
 
 # sdist usually unpacks to alibabacloud_tea_util-${PV} (underscore)
 S="${WORKDIR}/alibabacloud_tea_util-${PV}"

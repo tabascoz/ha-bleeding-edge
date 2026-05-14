@@ -1,4 +1,4 @@
-# Copyright 1999-2025 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -8,7 +8,8 @@ DISTUTILS_USE_PEP517=poetry
 inherit distutils-r1 pypi
 
 DESCRIPTION="Parser for iBeacon devices"
-HOMEPAGE="https://github.com/bluetooth-devices/ibeacon-ble https://pypi.org/project/ibeacon-ble/"
+HOMEPAGE="https://github.com/bluetooth-devices/ibeacon-ble \
+	https://pypi.org/project/ibeacon-ble/"
 
 LICENSE="MIT"
 SLOT="0"
@@ -18,8 +19,8 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND=">=dev-python/home-assistant-bluetooth-1.3.0[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
+RDEPEND=">=dev-python/home-assistant-bluetooth-1.3.0[${PYTHON_USEDEP}] \
+	dev-python/aiohttp[${PYTHON_USEDEP}] \
 	dev-python/mac-vendor-lookup[${PYTHON_USEDEP}]"
 
 distutils_enable_tests pytest

@@ -5,11 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">proxmoxer</remote-id>
-    <maintainer status="active">
-      <name>Oleg Butovich</name>
-      <email>obutovich@gmail.com</email>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

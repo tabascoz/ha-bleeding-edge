@@ -5,8 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">google-nest-sdm</remote-id>
-    <remote-id type="github">allenporter/google_nest_sdm</remote-id>
-  </upstream>
 </pkgmetadata>

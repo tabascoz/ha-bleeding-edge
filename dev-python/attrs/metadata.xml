@@ -5,9 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">attrs</remote-id>
-    <remote-id type="github">sponsors/hynek</remote-id>
-    <remote-id type="github">python-attrs/attrs</remote-id>
-  </upstream>
 </pkgmetadata>

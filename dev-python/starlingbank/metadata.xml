@@ -5,12 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">starlingbank</remote-id>
-    <remote-id type="github">Dullage/starlingbank</remote-id>
-    <maintainer status="active">
-      <name>Adam Dullage</name>
-      <email>adam@dullage.com</email>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

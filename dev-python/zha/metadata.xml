@@ -5,8 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">zha</remote-id>
-    <remote-id type="github">zigpy/zha</remote-id>
-  </upstream>
 </pkgmetadata>

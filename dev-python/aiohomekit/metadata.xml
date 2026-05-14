@@ -5,12 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">aiohomekit</remote-id>
-    <remote-id type="github">Jc2k/aiohomekit</remote-id>
-    <maintainer status="active">
-      <name>John Carr</name>
-      <email>john.carr@unrouted.co.uk</email>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

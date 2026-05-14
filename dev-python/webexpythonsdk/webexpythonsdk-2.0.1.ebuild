@@ -1,4 +1,4 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -18,7 +18,8 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.rst"
 
-RDEPEND=">=dev-python/requests-2.32.3[${PYTHON_USEDEP}]
+RDEPEND="
+	>=dev-python/requests-2.32.3[${PYTHON_USEDEP}]
 	>=dev-python/requests-toolbelt-1.0.0[${PYTHON_USEDEP}]
 	>=dev-python/pyjwt-2.8.0[${PYTHON_USEDEP}]"
 BDEPEND="
@@ -30,6 +31,6 @@ BDEPEND="
 src_prepare() {
 	sed -i -e '/include = /d' pyproject.toml || die
 	distutils-r1_src_prepare
-	}
+}
 
 distutils_enable_tests pytest

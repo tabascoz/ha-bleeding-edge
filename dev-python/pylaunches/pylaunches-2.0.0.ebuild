@@ -1,4 +1,4 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{11..14} )
 DISTUTILS_USE_PEP517=poetry
 inherit distutils-r1 pypi
 
-DESCRIPTION="A python packages to get information form upcoming space launches"
+DESCRIPTION="A python package to get information from upcoming space launches"
 HOMEPAGE="https://github.com/ludeeus/pylaunches https://pypi.org/project/pylaunches/"
 
 LICENSE="MIT"
@@ -23,6 +23,7 @@ BDEPEND="
 	test? (
 		dev-python/pytest-asyncio[${PYTHON_USEDEP}]
 		dev-python/aresponses[${PYTHON_USEDEP}]
-	)"
+	)
+"
 
 distutils_enable_tests pytest

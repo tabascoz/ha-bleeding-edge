@@ -1,4 +1,4 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -19,8 +19,7 @@ RESTRICT="!test? ( test )"
 DOCS="README.rst"
 
 RDEPEND="
-    >=dev-python/httpx-0.28[${PYTHON_USEDEP}]
-    <dev-python/httpx-1[${PYTHON_USEDEP}]
+    >=dev-python/httpx-0.28.1[${PYTHON_USEDEP}]
 "
 BDEPEND="
 	test? (
@@ -29,9 +28,5 @@ BDEPEND="
 		>=dev-python/pytest-httpx-0.15.0[${PYTHON_USEDEP}]
 	)
 "
-
-python_test() {
-	py.test -v -v || die
-}
 
 distutils_enable_tests pytest

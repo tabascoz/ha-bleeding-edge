@@ -1,4 +1,4 @@
-# Copyright 1999-2025 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -17,7 +17,8 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.rst"
 
-RDEPEND=">=dev-python/aiohappyeyeballs-2.6.1[${PYTHON_USEDEP}]
+RDEPEND="
+	>=dev-python/aiohappyeyeballs-2.6.1[${PYTHON_USEDEP}]
 	>=dev-python/async-interrupt-1.2.0[${PYTHON_USEDEP}]
 	>=dev-python/protobuf-6[${PYTHON_USEDEP}]
 	<dev-python/protobuf-8[${PYTHON_USEDEP}]
@@ -32,8 +33,8 @@ RDEPEND=">=dev-python/aiohappyeyeballs-2.6.1[${PYTHON_USEDEP}]
 BDEPEND="
 	dev-python/cython[${PYTHON_USEDEP}]
 	test? (
-		dev-python/mock[${PYTHON_USEDEP}]
 		dev-python/pytest-asyncio[${PYTHON_USEDEP}]
+		dev-python/mock[${PYTHON_USEDEP}]
 		dev-python/pytest-cov[${PYTHON_USEDEP}]
 		dev-python/pylint[${PYTHON_USEDEP}]
 	)"

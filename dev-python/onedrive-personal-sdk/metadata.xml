@@ -5,8 +5,7 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">onedrive-personal-sdk</remote-id>
-    <remote-id type="github">zweckj/onedrive-personal-sdk</remote-id>
-  </upstream>
+  <longdescription lang="en">
+    The onedrive-personal-sdk is a Python library for interacting with the OneDrive Personal API.
+  </longdescription>
 </pkgmetadata>

@@ -1,4 +1,4 @@
-# Copyright 2026 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -19,10 +19,10 @@ RESTRICT="!test? ( test )"
 
 RDEPEND=""
 BDEPEND="
-    >=dev-python/setuptools-68.0[${PYTHON_USEDEP}]
-    test? (
-        dev-python/pytest[${PYTHON_USEDEP}]
-    )
+	>=dev-python/setuptools-68.0[${PYTHON_USEDEP}]
+	test? (
+		dev-python/pytest[${PYTHON_USEDEP}]
+	)
 "
 
 distutils_enable_tests pytest

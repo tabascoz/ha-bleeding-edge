@@ -5,8 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">bizkaibus</remote-id>
-    <remote-id type="github">UgaitzEtxebarria/BizkaibusRTPI</remote-id>
-  </upstream>
 </pkgmetadata>

@@ -5,11 +5,7 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">citybikes</remote-id>
-    <remote-id type="github">michaeljones/citybikes</remote-id>
-    <maintainer status="active">
-      <name>Michael Jones</name>
-    </maintainer>
-  </upstream>
+  <longdescription lang="en">
+    Python library to access citybike data.
+  </longdescription>
 </pkgmetadata>

@@ -5,9 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">nzbgetapi</remote-id>
-    <remote-id type="github">nzbget/nzbgetapi</remote-id>
-    <doc>https://nzbget.net/</doc>
-  </upstream>
 </pkgmetadata>

@@ -5,8 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">denonavr</remote-id>
-    <remote-id type="github">ol-iver/denonavr</remote-id>
-  </upstream>
 </pkgmetadata>

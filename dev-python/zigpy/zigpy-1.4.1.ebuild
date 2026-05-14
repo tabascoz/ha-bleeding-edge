@@ -1,4 +1,4 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -42,12 +42,9 @@ src_prepare() {
 	eapply_user
 }
 
-
 python_install() {
-    distutils-r1_python_install
-    rm -rf "${D}$(python_get_sitedir)/tools" || die
+	distutils-r1_python_install
+	rm -rf "${D}$(python_get_sitedir)/tools" || die
 }
-
-
 
 distutils_enable_tests pytest

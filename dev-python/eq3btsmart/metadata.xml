@@ -5,9 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">eq3btsmart</remote-id>
-    <remote-id type="github">EuleMitKeule/eq3btsmart</remote-id>
-    <remote-id type="github">eulemitkeule/eq3btsmart</remote-id>
-  </upstream>
 </pkgmetadata>

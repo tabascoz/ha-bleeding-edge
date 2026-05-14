@@ -5,11 +5,7 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">melnor-bluetooth</remote-id>
-    <maintainer status="active">
-      <name>Justin Vanderhooft</name>
-      <email>justinvdhooft@gmail.com</email>
-    </maintainer>
-  </upstream>
+  <longdescription lang="en">
+    Melnor Bluetooth library for controlling sprinkler systems.
+  </longdescription>
 </pkgmetadata>

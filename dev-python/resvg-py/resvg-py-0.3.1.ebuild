@@ -1,4 +1,4 @@
-# Copyright 2026 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -82,53 +82,34 @@ zune-core@0.5.1
 zune-jpeg@0.5.15
 "
 
-
-
-PYTHON_COMPAT=( python3_{11..14} )  # Adjust based on tested compatibility; supports recent Python versions
+PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=maturin
 PYPI_NO_NORMALIZE=1
-PYPI_PN="resvg_py"  # Note the underscore in wheel names
+PYPI_PN="resvg_py"
 RUST_MIN_VER="1.80.0"
 
 inherit cargo distutils-r1 pypi
-SRC_URI+="
-	${CARGO_CRATE_URIS}
-"
 
 DESCRIPTION="Python bindings for resvg, a high-performance SVG rendering library written in Rust"
 HOMEPAGE="https://pypi.org/project/resvg-py/
           https://github.com/baseplate-admin/resvg-py"  # Primary active repo; alternative forks exist
-#SRC_URI="https://pypi.python.org/packages/source/${PN:0:1}/${PN}/${P}.tar.gz -> ${P}.tar.gz#
-#    $(cargo_crate_uris)"
+SRC_URI+="
+	${CARGO_CRATE_URIS}
+"
 
 LICENSE="MPL-2.0"  # Inherited from resvg
 SLOT="0"
 KEYWORDS="~amd64 ~arm64"  # Prebuilt wheels available for common arches; add others as needed
 
-# Runtime dependencies: optional 'affine' for transformation helpers (mentioned in project description)
-RDEPEND="
-"
-#    dev-python/maturin[${PYTHON_USEDEP}]
-# Build dependencies: maturin handles Rust build via cargo eclass
-BDEPEND="
-    ${RDEPEND}
-    >=dev-util/maturin-1.0[${PYTHON_USEDEP}]
+RDEPEND=""
 
+BDEPEND="
+	${RDEPEND}
+	>=dev-util/maturin-1.0[${PYTHON_USEDEP}]
 "
 
 # The package is built with maturin (PyO3), bundling the Rust library → no system Rust libs needed at runtime
 # Tests require additional setup; disabled by default to avoid failures on minimal systems
 RESTRICT="test"
 
-#distutils-r1_src_prepare() {
-#    default
-#    # Optional: patch if needed for specific versions
-#}
-
-#python_compile() {
-#    distutils-r1_python_compile
-#}
-
-#python_install() {
-#    distutils-r1_python_install
-#}
+distutils_enable_tests pytest

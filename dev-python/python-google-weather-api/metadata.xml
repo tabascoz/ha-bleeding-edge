@@ -5,11 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">google-weather-api</remote-id>
-    <remote-id type="github">gkoberger/google-weather-api</remote-id>
-    <maintainer status="active">
-      <name>Greg Koberger</name>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

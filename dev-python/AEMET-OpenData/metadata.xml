@@ -5,8 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">AEMET-OpenData</remote-id>
-    <remote-id type="github">Noltari/AEMET-OpenData</remote-id>
-  </upstream>
 </pkgmetadata>

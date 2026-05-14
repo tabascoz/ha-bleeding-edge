@@ -5,12 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">huum</remote-id>
-    <remote-id type="github">frwickst/pyhuum</remote-id>
-    <maintainer status="active">
-      <name>Frank Wickström</name>
-      <email>frwickst@gmail.com</email>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

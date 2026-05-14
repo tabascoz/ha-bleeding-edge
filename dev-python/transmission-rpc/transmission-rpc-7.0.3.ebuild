@@ -1,4 +1,4 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -6,7 +6,7 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=poetry
 inherit distutils-r1 pypi
-DESCRIPTION="Python module that implements the Transmission bittorent client JSON-RPC protocol"
+DESCRIPTION="Python module that implements the Transmission bittorrent client JSON-RPC protocol"
 HOMEPAGE="https://github.com/Trim21/transmission-rpc https://pypi.org/project/transmission-rpc/"
 
 LICENSE="MIT"
@@ -24,9 +24,5 @@ BDEPEND="
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]
 	)"
-
-python_test() {
-	py.test -v -v || die
-}
 
 distutils_enable_tests pytest

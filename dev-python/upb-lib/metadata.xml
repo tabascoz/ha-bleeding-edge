@@ -5,9 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">upb-lib</remote-id>
-    <remote-id type="github">gwww/upb-lib</remote-id>
-    <remote-id type="github">gwww/upb-lib.git</remote-id>
-  </upstream>
 </pkgmetadata>

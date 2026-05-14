@@ -39,7 +39,7 @@ CRATES="
     zerocopy-derive-0.8.33
 "
 
-inherit cargo distutils-r1 pypi toolchain-funcs
+inherit cargo distutils-r1 pypi
 
 DESCRIPTION="Fast, correct MessagePack library for Python, written in Rust"
 HOMEPAGE="https://github.com/ormsgpack/ormsgpack https://pypi.org/project/ormsgpack/"
@@ -47,7 +47,6 @@ HOMEPAGE="https://github.com/ormsgpack/ormsgpack https://pypi.org/project/ormsgp
 SRC_URI="$(pypi_sdist_url)"
 
 SRC_URI+=" ${CARGO_CRATE_URIS}"
-
 
 LICENSE="Apache-2.0 MIT"
 SLOT="0"
@@ -69,7 +68,4 @@ BDEPEND+="
 # No tests in the sdist (or very minimal)
 RESTRICT="test"
 
-python_test() {
-    # If you want to enable tests later, add pytest + ormsgpack[test] extras
-    epytest || die
-}
+distutils_enable_tests pytest

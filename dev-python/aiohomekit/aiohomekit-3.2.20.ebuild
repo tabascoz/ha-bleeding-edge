@@ -1,4 +1,4 @@
-# Copyright 1999-2025 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -18,14 +18,15 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND=">=dev-python/cryptography-2.9.2[${PYTHON_USEDEP}]
+RDEPEND="
+	>=dev-python/cryptography-2.9.2[${PYTHON_USEDEP}]
 	>=dev-python/zeroconf-0.132.2[${PYTHON_USEDEP}]
 	>=dev-python/commentjson-0.9.0[${PYTHON_USEDEP}]
 	>=dev-python/aiocoap-0.4.5[${PYTHON_USEDEP}]
 	>=dev-python/bleak-0.22.0[${PYTHON_USEDEP}]
 	>=dev-python/chacha20poly1305-reuseable-0.12.1[${PYTHON_USEDEP}]
 	>=dev-python/bleak-retry-connector-2.9.0[${PYTHON_USEDEP}]
-	>=dev-python/orjson-3.7.8[${PYTHON_USEDEP}]
+	>=dev-python/orjson-3.11.8[${PYTHON_USEDEP}]
 	>=dev-python/chacha20poly1305-0.0.3[${PYTHON_USEDEP}]
 	>=dev-python/async-interrupt-1.1.1[${PYTHON_USEDEP}]
 	>=dev-python/aiohappyeyeballs-2.3.0[${PYTHON_USEDEP}]"

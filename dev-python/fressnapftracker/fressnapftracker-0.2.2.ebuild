@@ -1,4 +1,4 @@
-# Copyright 2026 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -18,7 +18,7 @@ IUSE="test"
 RESTRICT="!test? ( test )"
 
 RDEPEND="
-    >=dev-python/httpx-0.28.0[${PYTHON_USEDEP}]
+    >=dev-python/httpx-0.27.2[${PYTHON_USEDEP}]
     >=dev-python/pydantic-2.10.0[${PYTHON_USEDEP}]
 "
 BDEPEND="

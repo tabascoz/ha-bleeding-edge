@@ -5,8 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">afsapi</remote-id>
-    <remote-id type="github">wlcrs/python-afsapi</remote-id>
-  </upstream>
 </pkgmetadata>

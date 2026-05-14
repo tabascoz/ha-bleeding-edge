@@ -5,12 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">netio</remote-id>
-    <remote-id type="github">netioproducts/PyNetio</remote-id>
-    <maintainer status="active">
-      <name>Adam Verner</name>
-      <email>averner@netio.eu</email>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

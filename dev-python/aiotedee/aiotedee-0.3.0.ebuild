@@ -1,4 +1,4 @@
-# Copyright 2026 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -37,12 +37,12 @@ BDEPEND="
 python_prepare_all() {
     # === Fix missing [build-system] section (same as aioacaia) ===
     cat >> pyproject.toml <<- EOF || die
-    [build-system]
-    requires = ["setuptools >= 68.0"]
-    build-backend = "setuptools.build_meta"
+[build-system]
+requires = ["setuptools >= 68.0"]
+build-backend = "setuptools.build_meta"
 EOF
-                        
+
     distutils-r1_python_prepare_all
-                            }
+}
 
 distutils_enable_tests pytest

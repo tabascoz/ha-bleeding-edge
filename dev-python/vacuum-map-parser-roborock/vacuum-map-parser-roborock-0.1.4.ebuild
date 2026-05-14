@@ -1,4 +1,4 @@
-# Copyright 1999-2025 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -8,7 +8,8 @@ DISTUTILS_USE_PEP517=poetry
 inherit distutils-r1 pypi
 
 DESCRIPTION="Functionalities for Roborock vacuum map parsing"
-HOMEPAGE="https://github.com/PiotrMachowski/Python-package-vacuum-map-parser-roborock https://pypi.org/project/vacuum-map-parser-roborock/"
+HOMEPAGE="https://github.com/PiotrMachowski/Python-package-vacuum-map-parser-roborock \
+	https://pypi.org/project/vacuum-map-parser-roborock/"
 
 LICENSE="Apache-2.0"
 SLOT="0"

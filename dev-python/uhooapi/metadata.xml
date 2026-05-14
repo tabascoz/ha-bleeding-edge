@@ -5,8 +5,7 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">uhooapi</remote-id>
-    <remote-id type="github">getuhoo/uhooapi</remote-id>
-  </upstream>
+  <longdescription lang="en">
+    Python library to interact with the Uhoo API.
+  </longdescription>
 </pkgmetadata>

@@ -1,4 +1,4 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -7,7 +7,8 @@ PYTHON_COMPAT=( python3_{12..14} )
 inherit distutils-r1 pypi
 
 DESCRIPTION="Asynchronous Python client for ZAMG weather data."
-HOMEPAGE="https://github.com/killer0071234/python-zamg https://pypi.org/project/zamg/"
+HOMEPAGE="https://github.com/killer0071234/python-zamg \
+	https://pypi.org/project/zamg/"
 
 LICENSE="MIT"
 SLOT="0"
@@ -23,6 +24,7 @@ BDEPEND="
 		dev-python/aresponses[${PYTHON_USEDEP}]
 		dev-python/pytest-asyncio[${PYTHON_USEDEP}]
 		dev-python/pytest-cov[${PYTHON_USEDEP}]
-	)"
+	)
+"
 
 distutils_enable_tests pytest

@@ -5,8 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">clementine-remote</remote-id>
-    <remote-id type="github">clementine-player/clementine-remote</remote-id>
-  </upstream>
 </pkgmetadata>

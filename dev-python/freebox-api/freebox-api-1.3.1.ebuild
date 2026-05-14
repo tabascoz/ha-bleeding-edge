@@ -1,4 +1,4 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -20,7 +20,7 @@ RESTRICT="!test? ( test )"
 DOCS="README.rst"
 
 RDEPEND="
-    >=dev-python/aiohttp-3[${PYTHON_USEDEP}]
-    <dev-python/aiohttp-4[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-3[${PYTHON_USEDEP}]
+	<dev-python/aiohttp-4[${PYTHON_USEDEP}]
 "
 distutils_enable_tests pytest

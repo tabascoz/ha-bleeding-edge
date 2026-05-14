@@ -5,8 +5,7 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">wsdot</remote-id>
-    <remote-id type="github">ucodery/wsdot</remote-id>
-  </upstream>
+  <longdescription lang="en">
+    wsdot is a Python package for interacting with the Washington State Department of Transportation (WSDOT) web services.
+  </longdescription>
 </pkgmetadata>

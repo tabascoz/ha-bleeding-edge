@@ -5,8 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">teslemetry-stream</remote-id>
-    <remote-id type="github">Teslemetry/teslemetry_stream</remote-id>
-  </upstream>
 </pkgmetadata>

@@ -1,4 +1,4 @@
-# Copyright 1999-2025 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -20,8 +20,12 @@ RESTRICT="!test? ( test )"
 
 RDEPEND=">=dev-python/pybind11-2.13.6[${PYTHON_USEDEP}]"
 
+PYPI_PN="pymicro-vad"
+
 src_unpack() {
 	unpack ${A}
 	echo ${P}
 	mv ${P} pymicro_vad-${PV}
 }
+
+distutils_enable_tests pytest

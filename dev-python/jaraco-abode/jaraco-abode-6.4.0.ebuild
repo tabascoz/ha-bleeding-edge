@@ -1,4 +1,4 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -37,3 +37,5 @@ RDEPEND=">=dev-python/requests-2.12.4[${PYTHON_USEDEP}]
 	>=dev-python/importlib-resources-5.10[${PYTHON_USEDEP}]"
 
 distutils_enable_tests pytest
+
+TEST_DEPENDS="pytest"

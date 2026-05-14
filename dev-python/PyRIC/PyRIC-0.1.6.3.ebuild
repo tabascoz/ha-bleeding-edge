@@ -1,11 +1,12 @@
-# Copyright 1999-2025 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
 
-PYTHON_COMPAT=( pypy3_11 python3_{11..14} )
+PYTHON_COMPAT=( pypy3_11 python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 PYPI_NO_NORMALIZE=1
+PYPI_PN="PyRIC"
 inherit distutils-r1 pypi
 DESCRIPTION="Python Wireless Library"
 HOMEPAGE="http://wraith-wireless.github.io/PyRIC/ https://pypi.org/project/PyRIC/"
@@ -21,7 +22,8 @@ DOCS="README.md"
 BDEPEND="
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]
-	)"
+	)
+"
 
 python_test() {
 	py.test -v -v || die

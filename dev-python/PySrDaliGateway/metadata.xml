@@ -5,11 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">PySrDaliGateway</remote-id>
-    <remote-id type="github">maginawin/PySrDaliGateway</remote-id>
-    <maintainer status="active">
-      <name>Sunricher</name>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

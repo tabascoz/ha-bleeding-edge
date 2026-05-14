@@ -5,8 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">asusrouter</remote-id>
-    <remote-id type="github">Vaskivskyi/asusrouter</remote-id>
-  </upstream>
 </pkgmetadata>

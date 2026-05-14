@@ -5,12 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">construct</remote-id>
-    <remote-id type="github">construct/construct</remote-id>
-    <maintainer status="active">
-      <name>Arkadiusz Bulski, Tomer Filiba, Corbin Simpson</name>
-      <email>arek.bulski@gmail.com, tomerfiliba@gmail.com, MostAwesomeDude@gmail.com</email>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

@@ -5,8 +5,7 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">energyid-webhooks</remote-id>
-    <remote-id type="github">EnergieID/energyid-webhooks-py</remote-id>
-  </upstream>
+  <longdescription lang="en">
+    energyid-webhooks is a Python library for handling webhooks.
+  </longdescription>
 </pkgmetadata>

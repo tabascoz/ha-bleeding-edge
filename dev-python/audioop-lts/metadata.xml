@@ -5,9 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">audioop-lts</remote-id>
-    <remote-id type="github">sponsors/AbstractUmbra</remote-id>
-    <remote-id type="github">AbstractUmbra/audioop</remote-id>
-  </upstream>
 </pkgmetadata>

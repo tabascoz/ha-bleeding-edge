@@ -5,12 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">nextcord</remote-id>
-    <remote-id type="github">nextcord/nextcord</remote-id>
-    <maintainer status="active">
-      <name>Nextcord Developers</name>
-      <email>code@nextcord.dev</email>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

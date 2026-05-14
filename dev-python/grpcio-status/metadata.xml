@@ -5,7 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">grpcio-status</remote-id>
-  </upstream>
 </pkgmetadata>

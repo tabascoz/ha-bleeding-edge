@@ -1,4 +1,4 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -21,5 +21,7 @@ DOCS="README.rst"
 
 RDEPEND="dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/cryptography[${PYTHON_USEDEP}]"
+
+PYPI_PN="pyfritzhome"
 
 distutils_enable_tests pytest

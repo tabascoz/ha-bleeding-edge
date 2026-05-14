@@ -1,4 +1,4 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -20,18 +20,18 @@ DOCS="README.rst"
 
 RDEPEND="
 	>=dev-python/google-api-core-2.11.0[${PYTHON_USEDEP}]
-	<dev-python/google-api-core-3.0.0[${PYTHON_USEDEP}]
 	>=dev-python/google-auth-2.14.1[${PYTHON_USEDEP}]
-	<dev-python/google-auth-3.0.0[${PYTHON_USEDEP}]
 	>dev-python/google-auth-2.25.0[${PYTHON_USEDEP}]
-	>=dev-python/grpcio-1.33.2[${PYTHON_USEDEP}]
-	<dev-python/grpcio-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/grpcio-1.75.1[${PYTHON_USEDEP}]
-	>=dev-python/proto-plus-1.22.3[${PYTHON_USEDEP}]
-	<dev-python/proto-plus-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/proto-plus-1.25.0[${PYTHON_USEDEP}]
 	>=dev-python/protobuf-4.25.8[${PYTHON_USEDEP}]
-	<dev-python/protobuf-8.0.0[${PYTHON_USEDEP}]
+
+"
+
+BDEPEND="
+	test? (
+		dev-python/pytest
+	)
 "
 
 distutils_enable_tests pytest

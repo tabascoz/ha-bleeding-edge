@@ -1,4 +1,4 @@
-# Copyright 2024-2026 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -19,23 +19,23 @@ HOMEPAGE="
 	https://pypi.org/project/anthropic
 "
 SRC_URI="
-	https://github.com/anthropics/${MY_PN}/archive/refs/tags/v${PV}.tar.gz
-		-> ${MY_PN}-${PV}.gh.tar.gz
+	https://github.com/anthropics/${MY_PN}/archive/refs/tags/v${PV}.tar.gz \
+	-> ${MY_PN}-${PV}.gh.tar.gz
 
 	test? (
-		${API_SPEC_BASE}/anthropic%2Fanthropic-dd2dcd00a757075370a7e4a7f469a1e2d067c2118684c3b70d7906a8f5cf518b.yml
+		${API_SPEC_BASE}/anthropic%2Fanthropic-dd2dcd00a757075370a7e4a7f469a1e2d067c2118684c3b70d7906a8f5cf518b.yml \
 			-> ${API_SPEC}
 
-		https://registry.npmjs.org/@stdy/cli/-/cli-${STDY_PV}.tgz
+		https://registry.npmjs.org/@stdy/cli/-/cli-${STDY_PV}.tgz \
 			-> npm-@stdy-cli-cli-${STDY_PV}.tgz
 
 		amd64? (
-			https://registry.npmjs.org/@stdy/cli-linux-x64/-/cli-linux-x64-${STDY_PV}.tgz
+			https://registry.npmjs.org/@stdy/cli-linux-x64/-/cli-linux-x64-${STDY_PV}.tgz \
 				-> npm-@stdy-cli-linux-x64-cli-linux-x64-${STDY_PV}.tgz
 		)
 
 		arm64? (
-			https://registry.npmjs.org/@stdy/cli-linux-arm64/-/cli-linux-arm64-${STDY_PV}.tgz
+			https://registry.npmjs.org/@stdy/cli-linux-arm64/-/cli-linux-arm64-${STDY_PV}.tgz \
 				-> npm-@stdy-cli-linux-arm64-cli-linux-arm64-${STDY_PV}.tgz
 		)
 	)
@@ -53,8 +53,7 @@ RDEPEND="
 	<dev-python/distro-2[${PYTHON_USEDEP}]
 	>=dev-python/docstring-parser-0.15[${PYTHON_USEDEP}]
 	<dev-python/docstring-parser-1[${PYTHON_USEDEP}]
-	>=dev-python/httpx-0.25.0[${PYTHON_USEDEP}]
-	<dev-python/httpx-1[${PYTHON_USEDEP}]
+	>=dev-python/httpx-0.28.1[${PYTHON_USEDEP}]
 	>=dev-python/jiter-0.4.0[${PYTHON_USEDEP}]
 	<dev-python/jiter-1[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-1.9.0[${PYTHON_USEDEP}]

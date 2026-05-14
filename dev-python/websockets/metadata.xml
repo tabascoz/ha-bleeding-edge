@@ -5,8 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">websockets</remote-id>
-    <remote-id type="github">python-websockets/websockets</remote-id>
-  </upstream>
 </pkgmetadata>

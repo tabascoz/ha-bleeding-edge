@@ -5,9 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">aioruuvigateway</remote-id>
-    <remote-id type="github">akx/aioruuvigateway#readme</remote-id>
-    <remote-id type="github">akx/aioruuvigateway</remote-id>
-  </upstream>
 </pkgmetadata>

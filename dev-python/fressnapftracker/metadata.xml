@@ -5,8 +5,7 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">fressnapftracker</remote-id>
-    <remote-id type="github">eifinger/fressnapftracker</remote-id>
-  </upstream>
+  <longdescription lang="en">
+    fressnapftracker is a tool to track products on the Fressnapf website.
+  </longdescription>
 </pkgmetadata>

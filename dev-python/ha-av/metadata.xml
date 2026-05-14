@@ -5,13 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">ha-av</remote-id>
-    <remote-id type="github">PyAV-Org/PyAV</remote-id>
-    <remote-id type="github">conda-forge/av-feedstock</remote-id>
-    <maintainer status="active">
-      <name>Mike Boers</name>
-      <email>pyav@mikeboers.com</email>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

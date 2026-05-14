@@ -1,4 +1,4 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -28,6 +28,8 @@ BDEPEND="
 		dev-python/mypy[${PYTHON_USEDEP}]
 		dev-python/pydocstyle[${PYTHON_USEDEP}]
 		dev-python/pylint[${PYTHON_USEDEP}]
-	)"
+	)
+"
 
+PYPI_PN="zm-py"
 distutils_enable_tests pytest

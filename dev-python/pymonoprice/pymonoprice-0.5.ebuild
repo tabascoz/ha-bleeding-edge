@@ -1,4 +1,4 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -22,4 +22,5 @@ RESTRICT="!test? ( test )"
 RDEPEND=">=dev-python/pyserial-3.4[${PYTHON_USEDEP}]
 	>=dev-python/pyserial-asyncio-fast-0.16[${PYTHON_USEDEP}]"
 
+PYPI_PN="pymonoprice"
 distutils_enable_tests pytest

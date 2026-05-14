@@ -5,12 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">geojson</remote-id>
-    <remote-id type="github">jazzband/geojson</remote-id>
-    <maintainer status="active">
-      <name>Ray Riga</name>
-      <email>ray.maintainer@gmail.com</email>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

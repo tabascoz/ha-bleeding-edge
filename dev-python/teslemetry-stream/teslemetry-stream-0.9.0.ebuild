@@ -1,4 +1,4 @@
-# Copyright 2025 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -18,8 +18,8 @@ KEYWORDS="~amd64 ~arm64"
 # Dependencies from pyproject.toml / poetry (as of latest release)
 # Core runtime deps: aiohttp, typing-extensions
 RDEPEND="
-    dev-python/aiohttp[${PYTHON_USEDEP}]
-    dev-python/typing-extensions[${PYTHON_USEDEP}]
+	dev-python/aiohttp[${PYTHON_USEDEP}]
+	dev-python/typing-extensions[${PYTHON_USEDEP}]
 "
 
 # No tests in the upstream package currently, so restrict testing

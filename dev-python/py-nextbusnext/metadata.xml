@@ -5,11 +5,7 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">nextbusnext</remote-id>
-    <remote-id type="github">jasonm23/nextbusnext</remote-id>
-    <maintainer status="active">
-      <name>Jason M.</name>
-    </maintainer>
-  </upstream>
+  <longdescription lang="en">
+NextBusNext API client
+  </longdescription>
 </pkgmetadata>

@@ -1,11 +1,11 @@
-# Copyright 2021-2026 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 # please keep this ebuild at EAPI 8 -- sys-apps/portage dep
 EAPI=8
 
 DISTUTILS_USE_PEP517=no
-PYTHON_COMPAT=( python3_{11..14} python3_{13,14}t pypy3_11 )
+PYTHON_COMPAT=( python3_{12..14})
 
 inherit distutils-r1 pypi
 
@@ -28,7 +28,7 @@ BDEPEND="
 	app-arch/unzip
 "
 
-distutils_enable_tests unittest
+distutils_enable_tests pytest
 
 python_compile() {
 	python_domodule src/tomli "${WORKDIR}"/*.dist-info

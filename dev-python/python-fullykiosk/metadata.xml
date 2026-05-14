@@ -5,12 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">fullykiosk</remote-id>
-    <remote-id type="github">FullyKiosk/fully-kiosk-browser</remote-id>
-    <maintainer status="active">
-      <name>Fully Kiosk</name>
-    </maintainer>
-    <doc>https://fully-kiosk.com</doc>
-  </upstream>
 </pkgmetadata>

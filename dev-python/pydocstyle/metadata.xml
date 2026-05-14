@@ -5,11 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">pydocstyle</remote-id>
-    <remote-id type="github">PyCQA/pydocstyle</remote-id>
-    <maintainer status="active">
-      <name>PyCQA</name>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

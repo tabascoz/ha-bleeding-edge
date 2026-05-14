@@ -5,8 +5,7 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">ohme</remote-id>
-    <remote-id type="github">dan-r/ohmepy</remote-id>
-  </upstream>
+  <longdescription lang="en">
+    Ohme is a Python library for handling electrical calculations.
+  </longdescription>
 </pkgmetadata>

@@ -1,4 +1,4 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -20,23 +20,19 @@ RESTRICT="!test? ( test )"
 DOCS="README.md"
 
 RDEPEND="
-    dev-python/webcolors[${PYTHON_USEDEP}]
-    >=dev-python/async-timeout-3.0.0[${PYTHON_USEDEP}]
+	dev-python/webcolors[${PYTHON_USEDEP}]
+	>=dev-python/async-timeout-3.0.0[${PYTHON_USEDEP}]
 "
 BDEPEND="
-    >=dev-python/pytest-runner-5.2[${PYTHON_USEDEP}]
-    test? (
-        >=dev-python/pytest-5.4.3[${PYTHON_USEDEP}]
-        dev-python/pytest-asyncio[${PYTHON_USEDEP}]
-        >=dev-python/pytest-cov-2.9.0[${PYTHON_USEDEP}]
-        ~dev-python/ruff-0.11.2[${PYTHON_USEDEP}]
-        >=dev-python/codecov-2.1.4[${PYTHON_USEDEP}]
-        >=dev-python/pytest-raises-0.11[${PYTHON_USEDEP}]
-    )
+	>=dev-python/pytest-runner-5.2[${PYTHON_USEDEP}]
+	test? (
+		>=dev-python/pytest-5.4.3[${PYTHON_USEDEP}]
+		dev-python/pytest-asyncio[${PYTHON_USEDEP}]
+		>=dev-python/pytest-cov-2.9.0[${PYTHON_USEDEP}]
+		~dev-python/ruff-0.11.2[${PYTHON_USEDEP}]
+		>=dev-python/codecov-2.1.4[${PYTHON_USEDEP}]
+		>=dev-python/pytest-raises-0.11[${PYTHON_USEDEP}]
+	)
 "
-
-python_test() {
-    py.test -v -v || die
-}
 
 distutils_enable_tests pytest

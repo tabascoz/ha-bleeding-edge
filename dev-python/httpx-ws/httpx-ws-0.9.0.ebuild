@@ -18,7 +18,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~arm64 ~x86"
 
 RDEPEND="
-    >=dev-python/httpx-0.23.0[${PYTHON_USEDEP}]
+    >=dev-python/httpx-0.28.1[${PYTHON_USEDEP}]
 "
 
 # Build dependencies for hatchling + regex commit plugin
@@ -31,12 +31,12 @@ IUSE="test"
 RESTRICT="!test? ( test )"
 
 BDEPEND+="
-    test? (
-        ${RDEPEND}
-        dev-python/pytest[${PYTHON_USEDEP}]
-        dev-python/pytest-asyncio[${PYTHON_USEDEP}]
-        dev-python/anyio[${PYTHON_USEDEP}]
-    )
+	test? (
+		${RDEPEND}
+		dev-python/pytest[${PYTHON_USEDEP}]
+		dev-python/pytest-asyncio[${PYTHON_USEDEP}]
+		dev-python/anyio[${PYTHON_USEDEP}]
+	)
 "
 
 distutils_enable_tests pytest

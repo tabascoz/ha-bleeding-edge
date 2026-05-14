@@ -5,9 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">typing-extensions</remote-id>
-    <remote-id type="github">python/typing_extensions</remote-id>
-    <remote-id type="github">python/typing</remote-id>
-  </upstream>
 </pkgmetadata>

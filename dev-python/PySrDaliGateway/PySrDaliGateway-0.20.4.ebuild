@@ -1,4 +1,4 @@
-# Copyright 2026 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -20,14 +20,14 @@ IUSE="test"
 RESTRICT="!test? ( test )"
 
 RDEPEND="
-    >=dev-python/paho-mqtt-1.6.0[${PYTHON_USEDEP}]
-    >=dev-python/psutil-6.0.0[${PYTHON_USEDEP}]
-    >=dev-python/cryptography-40.0.0[${PYTHON_USEDEP}]
+	>=dev-python/paho-mqtt-1.6.0[${PYTHON_USEDEP}]
+	>=dev-python/psutil-6.0.0[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-40.0.0[${PYTHON_USEDEP}]
 "
 BDEPEND="
-    >=dev-python/setuptools-68.0[${PYTHON_USEDEP}]
-    test? (
-        dev-python/pytest[${PYTHON_USEDEP}]
-    )
+	>=dev-python/setuptools-68.0[${PYTHON_USEDEP}]
+	test? (
+		dev-python/pytest[${PYTHON_USEDEP}]
+	)
 "
 distutils_enable_tests pytest

@@ -1,4 +1,4 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -19,10 +19,10 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND=">=dev-python/cryptography-41[${PYTHON_USEDEP}]
-	>=dev-python/getmac-0.8.2[${PYTHON_USEDEP}]
-	<dev-python/getmac-1[${PYTHON_USEDEP}]
-	>=dev-python/requests-2.22[${PYTHON_USEDEP}]
+RDEPEND=">=dev-python/cryptography-41[${PYTHON_USEDEP}] \
+	>=dev-python/getmac-0.8.2[${PYTHON_USEDEP}] \
+	<dev-python/getmac-1[${PYTHON_USEDEP}] \
+	>=dev-python/requests-2.22[${PYTHON_USEDEP}] \
 	>=dev-python/zeroconf-0.28.0[${PYTHON_USEDEP}]"
 
 distutils_enable_tests pytest

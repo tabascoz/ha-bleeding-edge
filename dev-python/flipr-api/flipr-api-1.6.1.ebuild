@@ -1,4 +1,4 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -21,5 +21,11 @@ DOCS="README.md"
 
 RDEPEND=">=dev-python/requests-2.25.0[${PYTHON_USEDEP}]
 	>=dev-python/python-dateutil-2.7.0[${PYTHON_USEDEP}]"
+
+BDEPEND="
+	test? (
+		dev-python/pytest
+	)
+"
 
 distutils_enable_tests pytest

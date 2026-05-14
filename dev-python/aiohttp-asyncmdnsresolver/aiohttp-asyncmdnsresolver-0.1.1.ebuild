@@ -1,4 +1,4 @@
-# Copyright 1999-2025 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -8,7 +8,8 @@ DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
 DESCRIPTION="An async resolver for aiohttp that supports MDNS"
-HOMEPAGE="https://pypi.org/project/aiohttp-asyncmdnsresolver/ https://github.com/aio-libs/aiohttp-asyncmdnsresolver/"
+HOMEPAGE="https://pypi.org/project/aiohttp-asyncmdnsresolver/ \
+	https://github.com/aio-libs/aiohttp-asyncmdnsresolver/"
 
 LICENSE="Apache-2.0"
 SLOT="0"
@@ -18,12 +19,15 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.rst"
 
-RDEPEND=">=dev-python/aiodns-3.2.0[${PYTHON_USEDEP}]
+RDEPEND="
+	>=dev-python/aiodns-3.2.0[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-3.10.0[${PYTHON_USEDEP}]
-	>=dev-python/zeroconf-0.142.0[${PYTHON_USEDEP}]"
+	>=dev-python/zeroconf-0.142.0[${PYTHON_USEDEP}]
+"
 BDEPEND="
 	test? (
 		dev-python/pytest-asyncio[${PYTHON_USEDEP}]
-	)"
+	)
+"
 
 distutils_enable_tests pytest

@@ -5,8 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">esphome-dashboard-api</remote-id>
-    <remote-id type="github">esphome/dashboard-api</remote-id>
-  </upstream>
 </pkgmetadata>

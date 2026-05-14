@@ -1,4 +1,4 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -24,26 +24,21 @@ BDEPEND="
 		dev-python/pytest[${PYTHON_USEDEP}]
 	)"
 
-python_test() {
-	py.test -v -v || die
-}
 
 #src_prepare() {
 #	eapply ${FILESDIR}/aiolyric-2.0.2-setup-py.patch
 #	default
 #}
 python_prepare_all() {
+	sed -i \
+		-e '/requirements_setup/d' \
+		-e '/requirements =/d' \
+		-e '/with open("requirements_setup.txt"/,/^$/d' \
+		-e '/with open("requirements.txt"/,/^$/d' \
+		-e 's/install_requires=requirements,/install_requires=[ "aiohttp", "packaging" ],/' \
+		setup.py || die
 
-
-    sed -i \
-        -e '/requirements_setup/d' \
-        -e '/requirements =/d' \
-        -e '/with open("requirements_setup.txt"/,/^$/d' \
-        -e '/with open("requirements.txt"/,/^$/d' \
-        -e 's/install_requires=requirements,/install_requires=[ "aiohttp", "packaging", ],/' \
-        setup.py || die
-
-    sed -i "s/version=\"2.0.2\"/version=\"${PV}\"/" setup.py || die
-    distutils-r1_python_prepare_all
-    }
+	sed -i "s/version=\"2.0.2\"/version=\"${PV}\"/" setup.py || die
+	distutils-r1_python_prepare_all
+}
 distutils_enable_tests pytest

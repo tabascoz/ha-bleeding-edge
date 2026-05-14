@@ -5,12 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">huawei-lte-api</remote-id>
-    <remote-id type="github">Salamek/huawei-lte-api</remote-id>
-    <maintainer status="active">
-      <name>Adam Schubert</name>
-      <email>adam.schubert@sg1-game.net</email>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

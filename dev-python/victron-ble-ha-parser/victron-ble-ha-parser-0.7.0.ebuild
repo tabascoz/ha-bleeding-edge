@@ -1,4 +1,4 @@
-# Copyright 2025
+# Copyright 1999-2026
 # Distributed under the terms of the Apache-2.0 license
 
 EAPI=8
@@ -13,7 +13,7 @@ DESCRIPTION="Parser for Victron BLE messages (Home Assistant oriented)"
 HOMEPAGE="https://github.com/rajlaud/victron-ble-ha-parser https://pypi.org/project/${PN}/"
 LICENSE="Apache-2.0"
 SLOT="0"
-KEYWORDS="~amd64 ~arm64 ~arm"
+KEYWORDS="~amd64 ~arm ~arm64"
 IUSE=""
 
 # Uses a PEP517 setuptools build; no tests shipped

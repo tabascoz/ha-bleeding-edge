@@ -5,8 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">aioshelly</remote-id>
-    <remote-id type="github">home-assistant-libs/aioshelly</remote-id>
-  </upstream>
 </pkgmetadata>

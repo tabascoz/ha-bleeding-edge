@@ -5,12 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">PyFlume</remote-id>
-    <remote-id type="github">ChrisMandich/PyFlume</remote-id>
-    <maintainer status="active">
-      <name>ChrisMandich</name>
-      <email>Chris@Mandich.net</email>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

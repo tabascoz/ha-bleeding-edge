@@ -5,12 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">tenacity</remote-id>
-    <remote-id type="github">jd/tenacity</remote-id>
-    <maintainer status="active">
-      <name>Julien Danjou</name>
-      <email>julien@danjou.info</email>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

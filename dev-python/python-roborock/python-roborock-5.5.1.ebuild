@@ -1,4 +1,4 @@
-# Copyright 1999-2025 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -33,6 +33,5 @@ RDEPEND=">=dev-python/click-8.0.0[${PYTHON_USEDEP}]
 	>=dev-python/aiomqtt-2.5.0[${PYTHON_USEDEP}]
 	<dev-python/aiomqtt-3[${PYTHON_USEDEP}]
 	~dev-python/click-shell-2.1[${PYTHON_USEDEP}]"
-	
 
 distutils_enable_tests pytest

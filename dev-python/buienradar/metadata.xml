@@ -5,11 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">buienradar</remote-id>
-    <remote-id type="github">mjj4791/python-buienradar</remote-id>
-    <maintainer status="active">
-      <name>mjj4791</name>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

@@ -5,12 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">foobot-async</remote-id>
-    <remote-id type="github">reefab/foobot_async</remote-id>
-    <maintainer status="active">
-      <name>Fabien Piuzzi</name>
-      <email>fabien@reefab.net</email>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

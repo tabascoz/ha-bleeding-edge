@@ -5,12 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">jaraco-email</remote-id>
-    <remote-id type="github">jaraco/jaraco.email</remote-id>
-    <maintainer status="active">
-      <name>Jason R. Coombs</name>
-      <email>jaraco@jaraco.com</email>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

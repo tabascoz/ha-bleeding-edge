@@ -1,4 +1,4 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -8,7 +8,8 @@ DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
 DESCRIPTION="Asynchronous API Library to work with Elmax devices"
-HOMEPAGE="https://github.com/albertogeniola/elmax-api https://pypi.org/project/elmax-api/"
+HOMEPAGE="https://github.com/albertogeniola/elmax-api \
+	https://pypi.org/project/elmax-api/"
 
 LICENSE="MIT"
 SLOT="0"
@@ -18,10 +19,19 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND=">=dev-python/pyjwt-1.7.1[${PYTHON_USEDEP}]
-	>=dev-python/httpx-0.18.0[${PYTHON_USEDEP}]
+RDEPEND="
+	>=dev-python/pyjwt-1.7.1[${PYTHON_USEDEP}]
+	>=dev-python/httpx-0.28.1[${PYTHON_USEDEP}]
 	>=dev-python/yarl-1.6.3[${PYTHON_USEDEP}]
-	>=dev-python/websockets-13.0[${PYTHON_USEDEP}]"
+	>=dev-python/websockets-13.0[${PYTHON_USEDEP}]
+"
+
+BDEPEND="
+	${RDEPEND}
+	test? (
+		dev-python/pytest
+	)
+"
 
 # prevent writing a useless file to /usr
 src_prepare() {

@@ -1,4 +1,4 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -6,6 +6,8 @@ EAPI=8
 PYTHON_COMPAT=( python3_{11..14} )
 DISTUTILS_USE_PEP517=poetry
 inherit distutils-r1
+
+PYPI_PN="python_opensky"
 
 DESCRIPTION="Asynchronous Python client for Opensky API."
 HOMEPAGE="https://github.com/joostlek/python-opensky https://pypi.org/project/python-opensky/"
@@ -19,7 +21,7 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND=">=dev-python/aiohttp-3.0.0[${PYTHON_USEDEP}]
+RDEPEND=">=dev-python/aiohttp-3.0.0[${PYTHON_USEDEP}] \
 	>=dev-python/yarl-1.6.0[${PYTHON_USEDEP}]"
 BDEPEND="
 	test? (

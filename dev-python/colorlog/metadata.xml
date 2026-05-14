@@ -5,12 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">colorlog</remote-id>
-    <remote-id type="github">borntyping/python-colorlog</remote-id>
-    <maintainer status="active">
-      <name>Sam Clements</name>
-      <email>sam@borntyping.co.uk</email>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

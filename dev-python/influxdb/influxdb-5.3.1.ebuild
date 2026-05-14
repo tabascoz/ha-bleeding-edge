@@ -1,4 +1,4 @@
-# Copyright 1999-2025 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -33,7 +33,8 @@ PATCHES=( "${FILESDIR}/${P}-pandas-future-warning.patch" )
 src_prepare() {
 	# The tarball is missing this file.
 	# <https://github.com/influxdata/influxdb-python/issues/714>
-	cp "${FILESDIR}/influxdb.conf.template" "${S}/influxdb/tests/server_tests/influxdb.conf.template" || die
+	cp "${FILESDIR}/influxdb.conf.template" \
+		"${S}/influxdb/tests/server_tests/influxdb.conf.template" || die
 	default
 }
 

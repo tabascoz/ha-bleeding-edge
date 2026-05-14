@@ -5,8 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">enum-tools</remote-id>
-    <remote-id type="github">domdfcoding/enum_tools</remote-id>
-  </upstream>
 </pkgmetadata>

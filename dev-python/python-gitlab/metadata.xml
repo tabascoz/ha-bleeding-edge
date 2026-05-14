@@ -5,13 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">gitlab</remote-id>
-    <remote-id type="gitlab">yoginth/gitlab</remote-id>
-    <maintainer status="active">
-      <name>Yoginth</name>
-      <email>yoginth@zoho.com</email>
-    </maintainer>
-    <doc>https://yoginth.ml</doc>
-  </upstream>
 </pkgmetadata>

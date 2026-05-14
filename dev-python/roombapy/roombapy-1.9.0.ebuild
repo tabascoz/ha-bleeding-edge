@@ -1,4 +1,4 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -19,16 +19,21 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND="mqtt? ( >=dev-python/paho-mqtt-1.6.1[${PYTHON_USEDEP}]
-            <dev-python/paho-mqtt-3.0.0[${PYTHON_USEDEP}] )
-        >=dev-python/orjson-3.9.13[${PYTHON_USEDEP}]
-        >=dev-python/mashumaro-3.12[${PYTHON_USEDEP}]
-        <dev-python/mashumaro-4.0[${PYTHON_USEDEP}]
-        >=dev-python/typing-extensions-4.12.0[${PYTHON_USEDEP}]
-        cli? ( >=dev-python/click-8.1[${PYTHON_USEDEP}]
-               <dev-python/click-9.0[${PYTHON_USEDEP}]
-               >=dev-python/tabulate-0.9[${PYTHON_USEDEP}]
-               <dev-python/tabulate-0.10[${PYTHON_USEDEP}] )"
+RDEPEND="mqtt? (
+	>=dev-python/paho-mqtt-1.6.1[${PYTHON_USEDEP}]
+	<dev-python/paho-mqtt-3.0.0[${PYTHON_USEDEP}]
+)
+>=dev-python/orjson-3.11.8[${PYTHON_USEDEP}]
+>=dev-python/mashumaro-3.12[${PYTHON_USEDEP}]
+<dev-python/mashumaro-4.0[${PYTHON_USEDEP}]
+>=dev-python/typing-extensions-4.12.0[${PYTHON_USEDEP}]
+cli? (
+	>=dev-python/click-8.1[${PYTHON_USEDEP}]
+	<dev-python/click-9.0[${PYTHON_USEDEP}]
+	>=dev-python/tabulate-0.9[${PYTHON_USEDEP}]
+	<dev-python/tabulate-0.10[${PYTHON_USEDEP}]
+)"
+
 BDEPEND="
 	test? (
 		dev-python/pytest-asyncio[${PYTHON_USEDEP}]

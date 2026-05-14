@@ -5,12 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">requests-mock</remote-id>
-    <remote-id type="github">jamielennox/requests-mock</remote-id>
-    <maintainer status="active">
-      <name>Jamie Lennox</name>
-      <email>jamielennox@gmail.com</email>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

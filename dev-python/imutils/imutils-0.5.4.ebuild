@@ -1,4 +1,4 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -7,7 +7,10 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="A series of convenience functions to make basic image processing functions such as translation, rotation, resizing, skeletonization, displaying Matplotlib images, sorting contours, detecting edges, and much more easier with OpenCV and both Python 2.7 and Python 3."
+DESCRIPTION="A series of convenience functions to make basic image processing \
+functions such as translation, rotation, resizing, skeletonization, displaying \
+Matplotlib images, sorting contours, detecting edges, and much more easier with \
+OpenCV and both Python 2.7 and Python 3."
 HOMEPAGE="https://github.com/jrosebr1/imutils https://pypi.org/project/imutils/"
 #SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
@@ -22,10 +25,7 @@ RESTRICT="!test? ( test )"
 BDEPEND="
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]
-	)"
-
-python_test() {
-	py.test -v -v || die
-}
+	)
+"
 
 distutils_enable_tests pytest

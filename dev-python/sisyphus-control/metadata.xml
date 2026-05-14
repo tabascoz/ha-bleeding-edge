@@ -5,11 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">sisyphus-control</remote-id>
-    <remote-id type="github">jkeljo/sisyphus-control</remote-id>
-    <maintainer status="active">
-      <name>Jonathan Keljo</name>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

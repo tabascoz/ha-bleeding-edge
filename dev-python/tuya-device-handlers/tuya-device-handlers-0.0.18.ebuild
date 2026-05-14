@@ -9,7 +9,8 @@ PYTHON_COMPAT=( python3_{12..14} )
 inherit distutils-r1 pypi
 
 DESCRIPTION="Tuya quirks library"
-HOMEPAGE="https://github.com/hacf-fr/tuya-device-handlers https://tuya-device-handlers.readthedocs.io"
+HOMEPAGE="https://github.com/hacf-fr/tuya-device-handlers \
+	https://tuya-device-handlers.readthedocs.io"
 
 LICENSE="MIT"
 SLOT="0"

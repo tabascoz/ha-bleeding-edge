@@ -1,4 +1,4 @@
-# Copyright 2024 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -13,8 +13,5 @@ HOMEPAGE="https://github.com/quandyfactory/dicttoxml https://pypi.org/project/di
 LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS="~amd64"
-
-RDEPEND=""
-BDEPEND=""
 
 distutils_enable_tests pytest

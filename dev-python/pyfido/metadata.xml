@@ -5,12 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">fido</remote-id>
-    <remote-id type="github">Yelp/fido</remote-id>
-    <maintainer status="active">
-      <name>John Billings</name>
-      <email>billings@yelp.com</email>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

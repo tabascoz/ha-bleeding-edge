@@ -5,8 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">flexparser</remote-id>
-    <remote-id type="github">hgrecco/flexparser</remote-id>
-  </upstream>
 </pkgmetadata>

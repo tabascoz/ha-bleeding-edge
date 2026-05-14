@@ -5,12 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">sentry-sdk</remote-id>
-    <remote-id type="github">getsentry/sentry-python</remote-id>
-    <maintainer status="active">
-      <name>Sentry Team and Contributors</name>
-      <email>hello@sentry.io</email>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

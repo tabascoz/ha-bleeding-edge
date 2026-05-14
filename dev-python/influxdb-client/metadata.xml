@@ -5,8 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">influxdb-client</remote-id>
-    <remote-id type="github">influxdata/influxdb-client-python</remote-id>
-  </upstream>
 </pkgmetadata>

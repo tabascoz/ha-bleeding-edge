@@ -12,7 +12,7 @@ PYTHON_REQ_USE="threads(+)"
 inherit distutils-r1 pypi
 
 DESCRIPTION="Alibaba Cloud API Gateway Util (utility functions for API Gateway SDKs)"
-HOMEPAGE="https://github.com/aliyun/tea-python-util
+HOMEPAGE="https://github.com/aliyun/tea-python-util\
     https://pypi.org/project/alibabacloud-apigateway-util/"
 
 # Latest version as of early 2026 is typically around 0.0.x – update when bumping
@@ -21,7 +21,7 @@ HOMEPAGE="https://github.com/aliyun/tea-python-util
 
 LICENSE="Apache-2.0"
 SLOT="0"
-KEYWORDS="~amd64 ~arm ~arm64 ~x86 ~riscv"
+KEYWORDS="~amd64 ~arm ~arm64 ~riscv ~x86 ~riscv"
 
 RDEPEND="
     >=dev-python/alibabacloud-tea-0.4.0[${PYTHON_USEDEP}]

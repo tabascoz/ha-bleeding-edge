@@ -5,11 +5,7 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">icloud</remote-id>
-    <maintainer status="active">
-      <name>Matin Tamizi</name>
-      <email>mtamizi@gmail.com</email>
-    </maintainer>
-  </upstream>
+  <longdescription>
+    iCloud API client for Python
+  </longdescription>
 </pkgmetadata>

@@ -5,12 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">snapcast</remote-id>
-    <remote-id type="github">happyleavesaoc/python-snapcast</remote-id>
-    <maintainer status="active">
-      <name>happyleaves</name>
-      <email>happyleaves.tfr@gmail.com</email>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

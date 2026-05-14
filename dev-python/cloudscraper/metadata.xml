@@ -5,12 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">cloudscraper</remote-id>
-    <remote-id type="github">venomous/cloudscraper</remote-id>
-    <maintainer status="active">
-      <name>VeNoMouS</name>
-      <email>venom@gen-x.co.nz</email>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

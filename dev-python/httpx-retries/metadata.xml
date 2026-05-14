@@ -5,8 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">httpx-retries</remote-id>
-    <remote-id type="github">will-ockmore/httpx-retries</remote-id>
-  </upstream>
 </pkgmetadata>

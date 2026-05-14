@@ -1,4 +1,4 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -8,6 +8,8 @@ DISTUTILS_USE_PEP517=poetry
 inherit distutils-r1 pypi
 DESCRIPTION="Library to communicate with the Viessmann ViCare API"
 HOMEPAGE="https://github.com/somm15/PyViCare https://pypi.org/project/PyViCare/"
+PYPI_PN="PyViCare"
+
 LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="~amd64 ~arm64"
@@ -16,9 +18,13 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND=">dev-python/authlib-1.2.0[${PYTHON_USEDEP}]
+
+
+RDEPEND=">=dev-python/authlib-1.2.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	>=dev-python/deprecated-1.2.15[${PYTHON_USEDEP}]
 	<dev-python/deprecated-2.0.0[${PYTHON_USEDEP}]"
+
+BDEPEND=">=dev-python/authlib-1.2.0[${PYTHON_USEDEP}]"
 
 distutils_enable_tests pytest

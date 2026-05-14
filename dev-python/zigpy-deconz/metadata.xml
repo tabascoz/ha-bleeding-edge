@@ -5,8 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">zigpy-deconz</remote-id>
-    <remote-id type="github">zigpy/zigpy-deconz</remote-id>
-  </upstream>
 </pkgmetadata>

@@ -5,8 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">eurotronic-cometblue-ha</remote-id>
-    <remote-id type="github">rikroe/eurotronic-cometblue</remote-id>
-  </upstream>
 </pkgmetadata>

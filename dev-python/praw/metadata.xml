@@ -5,8 +5,7 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">praw</remote-id>
-    <remote-id type="github">praw-dev/praw</remote-id>
-  </upstream>
+  <longdescription lang="en">
+    Reddit API wrapper for Python
+  </longdescription>
 </pkgmetadata>

@@ -5,8 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">kaleidescape</remote-id>
-    <remote-id type="github">kaleidescape/kaleidescape</remote-id>
-  </upstream>
 </pkgmetadata>

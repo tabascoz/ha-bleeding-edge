@@ -1,4 +1,4 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -18,11 +18,11 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND=">=dev-python/home-assistant-bluetooth-1.3.0[${PYTHON_USEDEP}]
-	>=dev-python/bluetooth-sensor-state-data-1.5.0[${PYTHON_USEDEP}]
-	>=dev-python/bleak-retry-connector-3.0.2[${PYTHON_USEDEP}]
-	>=dev-python/bleak-0.20.2[${PYTHON_USEDEP}]
-	>=dev-python/Events-0.5[${PYTHON_USEDEP}]
+RDEPEND=">=dev-python/home-assistant-bluetooth-1.3.0[${PYTHON_USEDEP}] \
+	>=dev-python/bluetooth-sensor-state-data-1.5.0[${PYTHON_USEDEP}] \
+	>=dev-python/bleak-retry-connector-3.0.2[${PYTHON_USEDEP}] \
+	>=dev-python/bleak-0.20.2[${PYTHON_USEDEP}] \
+	>=dev-python/Events-0.5[${PYTHON_USEDEP}] \
 	>=dev-python/transitions-0.8.11[${PYTHON_USEDEP}]"
 BDEPEND="
 	test? (
@@ -30,10 +30,8 @@ BDEPEND="
 		dev-python/pytest[${PYTHON_USEDEP}]
 		dev-python/pytest-asyncio[${PYTHON_USEDEP}]
 		dev-python/pytest-cov[${PYTHON_USEDEP}]
-	)"
+	)
+"
 
-python_test() {
-	py.test -v -v || die
-}
-
+PYPI_PN="pysnooz"
 distutils_enable_tests pytest

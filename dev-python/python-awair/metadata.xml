@@ -5,10 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">awair</remote-id>
-    <remote-id type="github">runsascoded/awair#readme</remote-id>
-    <remote-id type="github">runsascoded/awair</remote-id>
-    <remote-id type="github">runsascoded/awair.git</remote-id>
-  </upstream>
 </pkgmetadata>

@@ -5,11 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">vapid</remote-id>
-    <remote-id type="github">adamchainz/vapid</remote-id>
-    <maintainer status="active">
-      <name>Adam Chainz</name>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

@@ -1,4 +1,4 @@
-# Copyright 1999-2025 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -18,10 +18,10 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND=">=dev-python/requests-2.23.0[${PYTHON_USEDEP}]
-	<dev-python/requests-3[${PYTHON_USEDEP}]
-	>=dev-python/ciso8601-2.1.3[${PYTHON_USEDEP}]
-	<dev-python/ciso8601-3[${PYTHON_USEDEP}]
+RDEPEND=">=dev-python/requests-2.23.0[${PYTHON_USEDEP}] \
+	<dev-python/requests-3[${PYTHON_USEDEP}] \
+	>=dev-python/ciso8601-2.1.3[${PYTHON_USEDEP}] \
+	<dev-python/ciso8601-3[${PYTHON_USEDEP}] \
 	>=dev-python/urllib3-1.25.8[${PYTHON_USEDEP}]"
 
 distutils_enable_tests pytest

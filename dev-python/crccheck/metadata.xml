@@ -5,8 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">crccheck</remote-id>
-    <remote-id type="github">MartinScharrer/crccheck</remote-id>
-  </upstream>
 </pkgmetadata>

@@ -1,4 +1,4 @@
-# Copyright 1999-2025 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -18,9 +18,11 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.rst"
 
-RDEPEND=">=dev-python/ifaddr-0.1.0[${PYTHON_USEDEP}]
-	>=dev-python/requests-2.0[${PYTHON_USEDEP}]
-	>=dev-python/urllib3-1.26[${PYTHON_USEDEP}]
+PYPI_PN="pywemo"
+
+RDEPEND=">=dev-python/ifaddr-0.1.0[${PYTHON_USEDEP}] \
+	>=dev-python/requests-2.0[${PYTHON_USEDEP}] \
+	>=dev-python/urllib3-1.26[${PYTHON_USEDEP}] \
 	>=dev-python/lxml-4.6[${PYTHON_USEDEP}]"
 
 distutils_enable_tests pytest

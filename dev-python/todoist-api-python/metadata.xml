@@ -5,8 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">todoist-api-python</remote-id>
-    <remote-id type="github">Doist/todoist-api-python</remote-id>
-  </upstream>
 </pkgmetadata>

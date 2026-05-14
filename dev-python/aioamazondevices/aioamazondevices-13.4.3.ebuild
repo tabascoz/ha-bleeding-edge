@@ -1,4 +1,4 @@
-# Copyright 2026 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -21,8 +21,7 @@ RDEPEND="
 	>=dev-python/aiohttp-3.12.7[${PYTHON_USEDEP}]
 	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
 	dev-python/langcodes[${PYTHON_USEDEP}]
-	>=dev-python/orjson-3.10[${PYTHON_USEDEP}]
-	<dev-python/orjson-4[${PYTHON_USEDEP}]
+	>=dev-python/orjson-3.11.9[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 "
 

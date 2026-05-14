@@ -5,11 +5,7 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">lojack-api</remote-id>
-    <remote-id type="github">devinslick/lojack_api</remote-id>
-    <maintainer status="active">
-      <name>Devin Slick</name>
-    </maintainer>
-  </upstream>
+  <longdescription>
+    LoJack API client library
+  </longdescription>
 </pkgmetadata>

@@ -5,12 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">raincloudy</remote-id>
-    <remote-id type="github">tchellomello/raincloudy</remote-id>
-    <maintainer status="active">
-      <name>Marcelo Moreira de Mello</name>
-      <email>tchello.mello@gmail.com</email>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

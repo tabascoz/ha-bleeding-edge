@@ -1,4 +1,4 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -19,21 +19,21 @@ RESTRICT="!test? ( test )"
 DOCS="README.md"
 
 RDEPEND="
-    >=dev-python/aiolifx-1.1.0[${PYTHON_USEDEP}]
-    <dev-python/aiolifx-2.0.0[${PYTHON_USEDEP}]
-    docs? (
-        >=dev-python/sphinx-9.0.0[${PYTHON_USEDEP}]
-        <dev-python/sphinx-10.0.0[${PYTHON_USEDEP}]
-        >=dev-python/myst-parser-5.0.0[${PYTHON_USEDEP}]
-        <dev-python/myst-parser-6.0.0[${PYTHON_USEDEP}]
-        >=dev-python/sphinx-rtd-theme-3.0.0[${PYTHON_USEDEP}]
-        <dev-python/sphinx-rtd-theme-4.0.0[${PYTHON_USEDEP}]
-    )
+	>=dev-python/aiolifx-1.1.0[${PYTHON_USEDEP}]
+	<dev-python/aiolifx-2.0.0[${PYTHON_USEDEP}]
+	docs? (
+		>=dev-python/sphinx-9.0.0[${PYTHON_USEDEP}]
+		<dev-python/sphinx-10.0.0[${PYTHON_USEDEP}]
+		>=dev-python/myst-parser-5.0.0[${PYTHON_USEDEP}]
+		<dev-python/myst-parser-6.0.0[${PYTHON_USEDEP}]
+		>=dev-python/sphinx-rtd-theme-3.0.0[${PYTHON_USEDEP}]
+		<dev-python/sphinx-rtd-theme-4.0.0[${PYTHON_USEDEP}]
+	)
 "
 BDEPEND="
-    test? (
-        dev-python/pytest-asyncio[${PYTHON_USEDEP}]
-    )
+	test? (
+		dev-python/pytest-asyncio[${PYTHON_USEDEP}]
+	)
 "
 
 distutils_enable_tests pytest

@@ -5,11 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">zm</remote-id>
-    <maintainer status="active">
-      <name>Pablo Orviz Fernandez</name>
-      <email>orviz@ifca.unican.es</email>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

@@ -1,4 +1,4 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -20,17 +20,17 @@ RESTRICT="!test? ( test )"
 DOCS="README.md"
 
 RDEPEND="
-    >=dev-python/aiohttp-3.11.10[${PYTHON_USEDEP}]
-    >=dev-python/bleak-retry-connector-4.3.0[${PYTHON_USEDEP}]
-    >=dev-python/bleak-0.22.0[${PYTHON_USEDEP}]
-    >=dev-python/bluetooth-adapters-2.1.0[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-3.11.10[${PYTHON_USEDEP}]
+	>=dev-python/bleak-retry-connector-4.3.0[${PYTHON_USEDEP}]
+	>=dev-python/bleak-0.22.0[${PYTHON_USEDEP}]
+	>=dev-python/bluetooth-adapters-2.1.0[${PYTHON_USEDEP}]
 "
 BDEPEND="
-    >=dev-python/setuptools-68.0[${PYTHON_USEDEP}]
-    test? (
-        dev-python/pytest[${PYTHON_USEDEP}]
-        dev-python/pytest-asyncio[${PYTHON_USEDEP}]
-    )
+	>=dev-python/setuptools-68.0[${PYTHON_USEDEP}]
+	test? (
+		dev-python/pytest[${PYTHON_USEDEP}]
+		dev-python/pytest-asyncio[${PYTHON_USEDEP}]
+	)
 "
 
 distutils_enable_tests pytest

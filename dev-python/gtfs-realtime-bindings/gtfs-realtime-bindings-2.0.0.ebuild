@@ -1,4 +1,3 @@
-
 # Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
@@ -20,12 +19,10 @@ KEYWORDS="~amd64 ~arm64 ~x86"
 
 # No runtime dependencies — it's pure generated Python code (protobuf classes)
 RDEPEND=""
-DEPEND="${RDEPEND}"
-
-BDEPEND="
-    >=dev-python/setuptools-68.0[${PYTHON_USEDEP}]
+DEPEND="${RDEPEND}
+	>=dev-python/setuptools-68.0[${PYTHON_USEDEP}]
 "
-    
+
 # No tests are included in the sdist
 RESTRICT="test"
     

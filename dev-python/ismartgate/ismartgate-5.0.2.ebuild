@@ -1,4 +1,4 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -23,7 +23,7 @@ RDEPEND="
 	>=dev-python/dicttoxml-1.7.4[${PYTHON_USEDEP}]
 	>=dev-python/defusedxml-0.7.1[${PYTHON_USEDEP}]
 	>=dev-python/pycryptodome-3.9.8[${PYTHON_USEDEP}]
-	>=dev-python/httpx-0.18.0[${PYTHON_USEDEP}]
+	>=dev-python/httpx-0.28.1[${PYTHON_USEDEP}]
 "
 BDEPEND="
 	test? (
@@ -32,9 +32,5 @@ BDEPEND="
 		dev-python/respx[${PYTHON_USEDEP}]
 	)
 "
-
-python_test() {
-	py.test -v -v || die
-}
 
 distutils_enable_tests pytest

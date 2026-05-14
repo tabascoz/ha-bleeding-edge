@@ -1,4 +1,4 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -19,11 +19,13 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
+PYPI_PN="pyenphase"
+
 RDEPEND=">=dev-python/aiohttp-3.12.8[${PYTHON_USEDEP}]
 	>=dev-python/awesomeversion-22.9.0[${PYTHON_USEDEP}]
 	>=dev-python/envoy-utils-0.0.1[${PYTHON_USEDEP}]
 	>=dev-python/lxml-4.9.2[${PYTHON_USEDEP}]
-	>=dev-python/orjson-3.10[${PYTHON_USEDEP}]
+	>=dev-python/orjson-3.11.8[${PYTHON_USEDEP}]
 	>=dev-python/pyjwt-2.7.0[${PYTHON_USEDEP}]
 	>=dev-python/tenacity-8.2.2[${PYTHON_USEDEP}]
 	<dev-python/tenacity-10.0.0[${PYTHON_USEDEP}]"

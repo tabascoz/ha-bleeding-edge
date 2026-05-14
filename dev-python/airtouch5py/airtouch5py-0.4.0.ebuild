@@ -1,4 +1,4 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -9,7 +9,7 @@ DISTUTILS_USE_PEP517=poetry
 inherit distutils-r1 pypi
 
 DESCRIPTION="Python client for the airtouch 5"
-HOMEPAGE=" https://pypi.org/project/airtouch5py/"
+HOMEPAGE="https://pypi.org/project/airtouch5py/"
 
 LICENSE="Apache-2.0"
 SLOT="0"
@@ -19,9 +19,9 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND=">=dev-python/bitarray-3.4.2[${PYTHON_USEDEP}]
-	<dev-python/bitarray-4.0.0[${PYTHON_USEDEP}]
-	>=dev-python/crc-7.1.0[${PYTHON_USEDEP}]
+RDEPEND=">=dev-python/bitarray-3.4.2[${PYTHON_USEDEP}] \
+	<dev-python/bitarray-4.0.0[${PYTHON_USEDEP}] \
+	>=dev-python/crc-7.1.0[${PYTHON_USEDEP}] \
 	<dev-python/crc-8.0.0[${PYTHON_USEDEP}]"
 
 distutils_enable_tests pytest

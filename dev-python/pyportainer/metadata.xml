@@ -5,12 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">portainer</remote-id>
-    <remote-id type="github">rnt/python-portainer</remote-id>
-    <maintainer status="active">
-      <name>Renato Covarrubias</name>
-      <email>rnt@rnt.cl</email>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

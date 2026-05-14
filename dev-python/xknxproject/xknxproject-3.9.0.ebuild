@@ -1,4 +1,4 @@
-# Copyright 1999-2025 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -18,7 +18,7 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND=">=dev-python/pyzipper-0.3.6[${PYTHON_USEDEP}]
+RDEPEND=">=dev-python/pyzipper-0.3.6[${PYTHON_USEDEP}] \
 	>=dev-python/striprtf-0.0.26[${PYTHON_USEDEP}]"
 
 distutils_enable_tests pytest

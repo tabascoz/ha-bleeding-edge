@@ -5,9 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">aioasuswrt</remote-id>
-    <remote-id type="github">kennedyshead/aioasuswrt</remote-id>
-    <remote-id type="github">kennedyshead/aioasuswrt.git</remote-id>
-  </upstream>
 </pkgmetadata>

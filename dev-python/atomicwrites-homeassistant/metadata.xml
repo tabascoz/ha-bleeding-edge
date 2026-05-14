@@ -5,12 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">atomicwrites-homeassistant</remote-id>
-    <remote-id type="github">untitaker/python-atomicwrites</remote-id>
-    <maintainer status="active">
-      <name>Markus Unterwaditzer</name>
-      <email>markus@unterwaditzer.net</email>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

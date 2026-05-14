@@ -1,4 +1,4 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -17,10 +17,9 @@ IUSE="test"
 RESTRICT="!test? ( test )"
 
 BDEPEND="
-        dev-python/pybind11[${PYTHON_USEDEP}]
-	"
+	dev-python/pybind11[${PYTHON_USEDEP}]
+"
 
 DOCS="README.md"
-
 
 distutils_enable_tests pytest

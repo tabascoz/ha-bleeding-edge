@@ -5,11 +5,5 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">plugwise</remote-id>
-    <remote-id type="github">plugwise/python-plugwise</remote-id>
-    <maintainer status="active">
-      <name>bouwew, CoMPaTech</name>
-    </maintainer>
-  </upstream>
+  <longdescription>Library for interacting with Plugwise devices</longdescription>
 </pkgmetadata>

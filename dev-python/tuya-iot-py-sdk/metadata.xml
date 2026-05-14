@@ -5,13 +5,7 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">tuya-iot-py-sdk</remote-id>
-    <remote-id type="github">tuya/tuya-iot-app-sdk-python</remote-id>
-    <remote-id type="github">tuya/tuya-iot-python-sdk</remote-id>
-    <maintainer status="active">
-      <name>Tuya Inc.</name>
-      <email>developer@tuya.com</email>
-    </maintainer>
-  </upstream>
+  <longdescription lang="en">
+    Tuya IoT Python SDK for interacting with Tuya smart devices.
+  </longdescription>
 </pkgmetadata>

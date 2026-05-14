@@ -5,8 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">devolo-plc-api</remote-id>
-    <remote-id type="github">2Fake/devolo_plc_api</remote-id>
-  </upstream>
 </pkgmetadata>

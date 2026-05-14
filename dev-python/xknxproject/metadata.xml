@@ -5,8 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">xknxproject</remote-id>
-    <remote-id type="github">XKNX/xknxproject</remote-id>
-  </upstream>
 </pkgmetadata>

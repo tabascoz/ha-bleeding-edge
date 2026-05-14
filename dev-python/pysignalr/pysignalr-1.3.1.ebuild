@@ -18,16 +18,17 @@ SLOT="0"
 KEYWORDS="~amd64 ~arm64 ~x86"
 
 RDEPEND="
-    >=dev-python/aiohttp-3.8.0[${PYTHON_USEDEP}]
-    >=dev-python/websockets-12.0[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-3.8.0[${PYTHON_USEDEP}]
+	>=dev-python/websockets-12.0[${PYTHON_USEDEP}]
 "
 
 BDEPEND="
-    >=dev-python/hatchling-1.21.0[${PYTHON_USEDEP}]
+	>=dev-python/hatchling-1.21.0[${PYTHON_USEDEP}]
 "
 
 IUSE="test"
 RESTRICT="!test? ( test )"
 
+PYPI_PN="pysignalr"
 
 distutils_enable_tests pytest

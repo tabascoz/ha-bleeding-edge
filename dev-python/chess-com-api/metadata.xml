@@ -5,9 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">chess-com-api</remote-id>
-    <remote-id type="github">Stupidoodle/chess-com-api</remote-id>
-    <remote-id type="github">Stupidoodle/chess-com-api.git</remote-id>
-  </upstream>
 </pkgmetadata>

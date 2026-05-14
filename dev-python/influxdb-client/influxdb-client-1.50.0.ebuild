@@ -27,6 +27,6 @@ src_prepare() {
 	sed -e "s;packages=find_packages();packages=find_packages(exclude=['tests', 'docs']);" \
 		-i setup.py || die
 	eapply_user
-	}
+}
 
 distutils_enable_tests pytest

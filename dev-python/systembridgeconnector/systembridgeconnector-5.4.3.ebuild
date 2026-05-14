@@ -1,4 +1,4 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -16,12 +16,16 @@ KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
 RESTRICT="!test? ( test )"
 
-RDEPEND=">=dev-python/aiohttp-3.12.15[${PYTHON_USEDEP}]
+RDEPEND=">=dev-python/aiohttp-3.12.15[${PYTHON_USEDEP}] \
 	>=dev-python/packaging-24.0[${PYTHON_USEDEP}]"
 
 src_prepare() {
-	echo -e "aiohttp>=3.12.15\npackaging>=24.0\n" > requirements.txt
-	echo -e "aiohttp>=3.12.15\npackaging>=24.0\n" > requirements_setup.txt
+	echo -e "aiohttp>=3.12.15
+packaging>=24.0
+" > requirements.txt
+	echo -e "aiohttp>=3.12.15
+packaging>=24.0
+" > requirements_setup.txt
 	eapply_user
 }
 

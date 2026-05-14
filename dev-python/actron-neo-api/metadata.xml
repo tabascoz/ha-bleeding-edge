@@ -5,8 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">actron-neo-api</remote-id>
-    <remote-id type="github">kclif9/actronneoapi</remote-id>
-  </upstream>
 </pkgmetadata>

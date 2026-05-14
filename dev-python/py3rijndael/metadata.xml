@@ -5,12 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">rijndael</remote-id>
-    <remote-id type="github">moeenz/rijndael</remote-id>
-    <maintainer status="active">
-      <name>Moeen Zamani</name>
-      <email>moeen.zamani@gmail.com</email>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

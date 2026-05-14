@@ -1,4 +1,4 @@
-# Copyright 2026 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -17,14 +17,16 @@ KEYWORDS="~amd64 ~arm64"
 IUSE="test"
 
 RDEPEND="
-    >=dev-python/aiohttp-3.8[${PYTHON_USEDEP}]
-    >=dev-python/mashumaro-3.12[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-3.8[${PYTHON_USEDEP}]
+	>=dev-python/mashumaro-3.12[${PYTHON_USEDEP}]
 "
 BDEPEND="
-    >=dev-python/setuptools-68.0[${PYTHON_USEDEP}]
-    test? (
-        dev-python/pytest[${PYTHON_USEDEP}]
-    )
+	>=dev-python/setuptools-68.0[${PYTHON_USEDEP}]
+	test? (
+		dev-python/pytest[${PYTHON_USEDEP}]
+	)
 "
+
+PYPI_PN="python-google-drive-api"
 
 distutils_enable_tests pytest

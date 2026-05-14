@@ -5,12 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">PyMetEireann</remote-id>
-    <remote-id type="github">DylanGore/PyMetEireann</remote-id>
-    <maintainer status="active">
-      <name>Dylan Gore</name>
-      <email>hello@dylangore.ie</email>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

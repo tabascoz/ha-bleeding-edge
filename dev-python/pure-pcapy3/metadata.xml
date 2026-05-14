@@ -5,12 +5,7 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">pure-pcapy3</remote-id>
-    <remote-id type="bitbucket">viraptor/pure-pcapy</remote-id>
-    <maintainer status="active">
-      <name>Stanislaw Pitucha</name>
-      <email>viraptor@gmail.com</email>
-    </maintainer>
-  </upstream>
+  <longdescription lang="en">
+    Pure Python implementation of libpcap interface
+  </longdescription>
 </pkgmetadata>

@@ -1,4 +1,4 @@
-# Copyright 1999-2025 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -20,7 +20,8 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND=">=dev-python/async-interrupt-1.1.1[${PYTHON_USEDEP}]
+RDEPEND="
+	>=dev-python/async-interrupt-1.1.1[${PYTHON_USEDEP}]
 	>=dev-python/bleak-1.0.1[${PYTHON_USEDEP}]
 	>=dev-python/bleak-retry-connector-4.2.0[${PYTHON_USEDEP}]
 	>=dev-python/bluetooth-adapters-2.1.0[${PYTHON_USEDEP}]

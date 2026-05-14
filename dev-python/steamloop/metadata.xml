@@ -5,8 +5,7 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">steamloop</remote-id>
-    <remote-id type="github">hvaclibs/steamloop</remote-id>
-  </upstream>
+  <longdescription lang="en">
+    steamloop is a Python library for interacting with Steam.
+  </longdescription>
 </pkgmetadata>

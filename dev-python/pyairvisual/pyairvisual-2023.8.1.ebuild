@@ -1,4 +1,4 @@
-# Copyright 1999-2025 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -9,6 +9,7 @@ inherit distutils-r1 pypi
 
 DESCRIPTION="A simple API for AirVisual air quality data"
 HOMEPAGE="https://github.com/bachya/pyairvisual https://pypi.org/project/pyairvisual/"
+PYPI_PN="pyairvisual"
 
 LICENSE="MIT"
 SLOT="0"
@@ -26,9 +27,5 @@ BDEPEND="
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]
 	)"
-
-python_test() {
-	py.test -v -v || die
-}
 
 distutils_enable_tests pytest

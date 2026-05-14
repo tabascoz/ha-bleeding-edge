@@ -5,12 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">pulsectl</remote-id>
-    <remote-id type="github">mk-fg/python-pulse-control</remote-id>
-    <maintainer status="active">
-      <name>George Filipkin, Mike Kazantsev</name>
-      <email>mk.fraggod@gmail.com</email>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

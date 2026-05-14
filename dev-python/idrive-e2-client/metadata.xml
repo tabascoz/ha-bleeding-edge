@@ -5,11 +5,7 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">idrive-e2-client</remote-id>
-    <remote-id type="github">patrickvorgers/idrive-e2-client</remote-id>
-    <maintainer status="active">
-      <name>Patrick Vorgers</name>
-    </maintainer>
-  </upstream>
+  <longdescription lang="en">
+    iDrive E2 client library
+  </longdescription>
 </pkgmetadata>

@@ -5,11 +5,4 @@
     <email>b@edevau.net</email>
     <name>Andreas Billmeier</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">metar</remote-id>
-    <maintainer status="unknown">
-      <email>pollard@alum.mit.edu</email>
-      <name>Tom Pollard</name>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

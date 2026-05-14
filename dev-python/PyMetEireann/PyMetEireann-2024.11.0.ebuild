@@ -1,4 +1,4 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -8,6 +8,7 @@ DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 DESCRIPTION="A library to communicate with the Met Eireann Public Weather Forecast API"
 HOMEPAGE="https://github.com/DylanGore/PyMetEireann/ https://pypi.org/project/PyMetEireann/"
+PYPI_PN="PyMetEireann"
 
 LICENSE="MIT"
 SLOT="0"
@@ -25,9 +26,5 @@ BDEPEND="
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]
 	)"
-
-python_test() {
-	py.test -v -v || die
-}
 
 distutils_enable_tests pytest

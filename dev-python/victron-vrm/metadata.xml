@@ -5,12 +5,7 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">victron-vrm</remote-id>
-    <remote-id type="github">KSoft-Si/vrm-client</remote-id>
-    <maintainer status="active">
-      <name>AndyTempel</name>
-      <email>oss@ksoft.tech</email>
-    </maintainer>
-  </upstream>
+  <use>
+    <flag name="dev">Enable development features.</flag>
+  </use>
 </pkgmetadata>

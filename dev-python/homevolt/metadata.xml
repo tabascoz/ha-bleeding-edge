@@ -5,7 +5,7 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">homevolt</remote-id>
-  </upstream>
+  <longdescription lang="en">
+    The homevolt package provides a Python interface for HomeVolt devices.
+  </longdescription>
 </pkgmetadata>

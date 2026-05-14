@@ -5,12 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">tuya-device-sharing-sdk</remote-id>
-    <remote-id type="github">tuya/tuya-device-sharing-sdk</remote-id>
-    <maintainer status="active">
-      <name>Tuya Inc.</name>
-      <email>developer@tuya.com</email>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

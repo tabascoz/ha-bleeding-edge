@@ -18,8 +18,4 @@ KEYWORDS="~amd64 ~arm64"
 RDEPEND=""
 DEPEND="${RDEPEND}"
 
-
-python_test() {
-	# If tests are desired (optional)
-	epytest || die
-}
+distutils_enable_tests pytest

@@ -5,4 +5,7 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <longdescription>
+    Python client for Suez water and energy consumption data
+  </longdescription>
 </pkgmetadata>

@@ -5,12 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">concord232</remote-id>
-    <remote-id type="github">JasonCarter80/concord232</remote-id>
-    <maintainer status="active">
-      <name>Jason Carter</name>
-      <email>jason@jason-carter.net</email>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

@@ -1,4 +1,4 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -20,22 +20,22 @@ RESTRICT="!test? ( test )"
 DOCS="README.md"
 
 BDEPEND="
-    >=dev-python/aiohttp-3.9.2[${PYTHON_USEDEP}]
-    dev-python/pillow[${PYTHON_USEDEP}]
-    test? (
-        ~dev-util/codespell-2.4.1[${PYTHON_USEDEP}]
-        ~dev-python/isort-7.0.0[${PYTHON_USEDEP}]
-        ~dev-python/mypy-1.18.2[${PYTHON_USEDEP}]
-        ~dev-python/pre-commit-4.5.1[${PYTHON_USEDEP}]
-        ~dev-python/pre-commit-hooks-6.0.0[${PYTHON_USEDEP}]
-        ~dev-python/pytest-8.4.1[${PYTHON_USEDEP}]
-        ~dev-python/pytest-asyncio-1.3.0[${PYTHON_USEDEP}]
-        ~dev-python/pytest-aiohttp-1.1.0[${PYTHON_USEDEP}]
-        ~dev-python/pytest-cov-7.0.0[${PYTHON_USEDEP}]
-        ~dev-python/ruff-0.12.8[${PYTHON_USEDEP}]
-        ~dev-python/safety-3.6.2[${PYTHON_USEDEP}]
-        ~dev-python/tomli-2.2.1[${PYTHON_USEDEP}]
-    )
+	>=dev-python/aiohttp-3.9.2[${PYTHON_USEDEP}]
+	dev-python/pillow[${PYTHON_USEDEP}]
+	test? (
+		~dev-util/codespell-2.4.1[${PYTHON_USEDEP}]
+		~dev-python/isort-7.0.0[${PYTHON_USEDEP}]
+		~dev-python/mypy-1.18.2[${PYTHON_USEDEP}]
+		~dev-python/pre-commit-4.5.1[${PYTHON_USEDEP}]
+		~dev-python/pre-commit-hooks-6.0.0[${PYTHON_USEDEP}]
+		~dev-python/pytest-8.4.1[${PYTHON_USEDEP}]
+		~dev-python/pytest-asyncio-1.3.0[${PYTHON_USEDEP}]
+		~dev-python/pytest-aiohttp-1.1.0[${PYTHON_USEDEP}]
+		~dev-python/pytest-cov-7.0.0[${PYTHON_USEDEP}]
+		~dev-python/ruff-0.12.8[${PYTHON_USEDEP}]
+		~dev-python/safety-3.6.2[${PYTHON_USEDEP}]
+		~dev-python/tomli-2.2.1[${PYTHON_USEDEP}]
+	)
 "
 
 distutils_enable_tests pytest

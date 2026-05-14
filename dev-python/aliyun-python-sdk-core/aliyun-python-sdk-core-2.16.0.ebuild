@@ -3,13 +3,13 @@
 
 EAPI=8
 
-PYTHON_COMPAT=( python3_{11..14} )
+PYTHON_COMPAT=( python3_{12..14} )
 PYTHON_REQ_USE="threads(+)"
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
 DESCRIPTION="The core module of Alibaba Cloud (Aliyun) Python SDK"
-HOMEPAGE="https://github.com/aliyun/aliyun-openapi-python-sdk/tree/master/aliyun-python-sdk-core
+HOMEPAGE="https://github.com/aliyun/aliyun-openapi-python-sdk/tree/master/aliyun-python-sdk-core\
     https://pypi.org/project/aliyun-python-sdk-core/"
 SRC_URI="$(pypi_sdist_url --no-normalize ${PN} ${PV})"
 S="${WORKDIR}/${PN}-${PV}"
@@ -25,9 +25,7 @@ BDEPEND="
     dev-python/setuptools[${PYTHON_USEDEP}]
 "
 
-# Many of these old SDKs have no tests in the sdist, so tests are often disabled
-# If you want to try enabling them later, you can add:
-# distutils_enable_tests pytest   (but you'll probably need to fetch tests from git)
+distutils_enable_tests pytest
 
 pkg_postinst() {
     elog "This is the core library required by most Alibaba Cloud service SDKs"

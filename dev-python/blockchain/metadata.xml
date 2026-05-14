@@ -5,12 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">blockchain</remote-id>
-    <remote-id type="github">blockchain/api-v1-client-python</remote-id>
-    <maintainer status="active">
-      <name>Blockchain.info</name>
-      <email>support@blockchain.zendesk.com</email>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

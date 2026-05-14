@@ -5,11 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">hyperion</remote-id>
-    <maintainer status="active">
-      <name>Thomas Robitaille</name>
-      <email>thomas.robitaille@gmail.com</email>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

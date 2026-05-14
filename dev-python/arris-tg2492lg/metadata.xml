@@ -5,11 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">arris-tg2492lg</remote-id>
-    <remote-id type="github">vanbalken/arris-tg2492lg</remote-id>
-    <maintainer status="active">
-      <name>vanbalken</name>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

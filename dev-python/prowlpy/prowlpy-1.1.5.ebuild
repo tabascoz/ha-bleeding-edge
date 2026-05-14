@@ -1,4 +1,4 @@
-# Copyright 2026 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -17,7 +17,7 @@ IUSE="cli test"
 RESTRICT="!test? ( test )"
 
 RDEPEND="
-	>=dev-python/httpx-0.23.0[${PYTHON_USEDEP}]
+	>=dev-python/httpx-0.28.1[${PYTHON_USEDEP}]
 	>=dev-python/xmltodict-0.13.0[${PYTHON_USEDEP}]
 	cli? (
 		>=dev-python/click-8.1.0[${PYTHON_USEDEP}]

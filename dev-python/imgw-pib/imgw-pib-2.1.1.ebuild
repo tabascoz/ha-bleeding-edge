@@ -1,4 +1,4 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -19,6 +19,20 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND=">=dev-python/aiohttp-3.13.4[${PYTHON_USEDEP}] dev-python/aiofiles[${PYTHON_USEDEP}] dev-python/orjson[${PYTHON_USEDEP}] dev-python/yarl[${PYTHON_USEDEP}]"
+RDEPEND="
+	>=dev-python/aiohttp-3.13.4[${PYTHON_USEDEP}]
+	dev-python/aiofiles[${PYTHON_USEDEP}]
+	>=dev-python/orjson-3.9.9[${PYTHON_USEDEP}]
+	dev-python/yarl[${PYTHON_USEDEP}]
+"
+
+BDEPEND="
+	test? (
+		>=dev-python/aiohttp-3.13.4[${PYTHON_USEDEP}]
+		dev-python/aiofiles[${PYTHON_USEDEP}]
+		>=dev-python/orjson-3.9.9[${PYTHON_USEDEP}]
+		dev-python/yarl[${PYTHON_USEDEP}]
+	)
+"
 
 distutils_enable_tests pytest

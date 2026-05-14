@@ -1,4 +1,4 @@
-# Copyright 1999-2025 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -13,7 +13,6 @@ HOMEPAGE="https://github.com/tuya/tuya-device-sharing-sdk https://pypi.org/proje
 SRC_URI="$(pypi_wheel_url)"
 S=${WORKDIR}
 
-
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
@@ -23,7 +22,9 @@ RESTRICT="!test? ( test )"
 #DOCS="README.md"
 
 src_prepare() {
-	echo -ne "requests\npaho-mqtt\n" > requirements.txt
+	echo -ne "requests
+paho-mqtt
+" > requirements.txt
 	eapply_user
 }
 
@@ -33,12 +34,9 @@ src_prepare() {
 #	mv tuya_device_sharing_sdk-${PV}-py3-none-any.whl  ${P}-${PV}--py3-none-any.whl
 #}
 
-
 RDEPEND="dev-python/paho-mqtt[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]"
 
 python_compile() {
 	distutils_wheel_install "${BUILD_DIR}/install" "${DISTDIR}/tuya_device_sharing_sdk-${PV}-py3-none-any.whl"
 }
-
-

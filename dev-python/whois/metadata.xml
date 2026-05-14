@@ -5,11 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">whois</remote-id>
-    <remote-id type="github">mboot-github/WhoisDomain</remote-id>
-    <maintainer status="active">
-      <name>mboot-github</name>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

@@ -1,4 +1,4 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -7,7 +7,8 @@ PYTHON_COMPAT=( python3_{11..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 DESCRIPTION="A GeoRSS client library for the Queensland Bushfire Alert feed."
-HOMEPAGE="https://github.com/exxamalte/python-georss-qld-bushfire-alert-client https://pypi.org/project/georss-qld-bushfire-alert-client/"
+HOMEPAGE="https://github.com/exxamalte/python-georss-qld-bushfire-alert-client \
+	https://pypi.org/project/georss-qld-bushfire-alert-client/"
 
 LICENSE="Apache-2.0"
 SLOT="0"

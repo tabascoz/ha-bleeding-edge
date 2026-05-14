@@ -1,4 +1,4 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -12,7 +12,6 @@ DESCRIPTION="Async version of apcaccess library implemented in python."
 HOMEPAGE="https://github.com/yuxincs/aioapcaccess https://pypi.org/project/aioapcaccess/"
 SRC_URI="$(pypi_wheel_url --unpack)"
 
-
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
@@ -24,21 +23,21 @@ BDEPEND="
 		dev-python/pytest[${PYTHON_USEDEP}]
 		dev-python/pytest-cov[${PYTHON_USEDEP}]
 		dev-python/pytest-asyncio[${PYTHON_USEDEP}]
-	)"
-
-#python_compile() {
-#distutils_wheel_install "${BUILD_DIR}/install" "${DISTDIR}/${P}-py3-none-any.whl"
-#
+	)
+	app-arch/unzip
+"
 
 S="${WORKDIR}"
 
 python_prepare_all() {
     # === Fix missing [build-system] section (same as aioacaia) ===
     cat >> pyproject.toml <<- EOF || die
-    [build-system]
-    requires = ["setuptools >= 68.0"]
-    build-backend = "setuptools.build_meta"
+[build-system]
+requires = ["setuptools >= 68.0"]
+build-backend = "setuptools.build_meta"
 EOF
             
-distutils-r1_python_prepare_all
-                            }
+    distutils-r1_python_prepare_all
+}
+
+distutils_enable_tests pytest

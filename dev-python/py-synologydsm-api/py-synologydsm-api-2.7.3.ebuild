@@ -1,4 +1,4 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -17,26 +17,30 @@ KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
 RESTRICT="!test? ( test )"
 
-
 RDEPEND="
 	dev-python/aiohttp[${PYTHON_USEDEP}]
 	dev-python/aiofiles[${PYTHON_USEDEP}]
 	dev-python/awesomeversion[${PYTHON_USEDEP}]
 "
 
+DEPEND="
+	${RDEPEND}
+	test? (
+		app-arch/unzip
+	)
+"
 
 python_prepare_all() {
     # Fix missing [build-system] section in upstream pyproject.toml
     # Added proper newlines and blank line to prevent TOML parse error
     cat >> pyproject.toml <<- EOF || die
 
-    [build-system]
-    requires = ["setuptools >= 68.0"]
-    build-backend = "setuptools.build_meta"
+[build-system]
+requires = ["setuptools >= 68.0"]
+build-backend = "setuptools.build_meta"
 EOF
 
     distutils-r1_python_prepare_all
 }
 
 distutils_enable_tests pytest
-

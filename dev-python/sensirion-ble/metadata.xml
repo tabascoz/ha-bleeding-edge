@@ -5,8 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">sensirion-ble</remote-id>
-    <remote-id type="github">akx/sensirion-ble</remote-id>
-  </upstream>
 </pkgmetadata>

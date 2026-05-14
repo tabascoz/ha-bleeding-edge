@@ -1,4 +1,4 @@
-# Copyright 2026 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -18,7 +18,7 @@ IUSE="test"
 RESTRICT="!test? ( test )"
 
 RDEPEND="
-    >=dev-python/orjson-3.10[${PYTHON_USEDEP}]
+    >=dev-python/orjson-3.11.8[${PYTHON_USEDEP}]
 "
 BDEPEND="
     >=dev-python/setuptools-68.0[${PYTHON_USEDEP}]

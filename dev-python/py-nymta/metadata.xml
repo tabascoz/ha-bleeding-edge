@@ -5,11 +5,5 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">nymta</remote-id>
-    <remote-id type="github">nymta/nymta</remote-id>
-    <maintainer status="active">
-      <name>Nicolas Dufour</name>
-    </maintainer>
-  </upstream>
+  <longdescription>Python library for handling nymta data</longdescription>
 </pkgmetadata>

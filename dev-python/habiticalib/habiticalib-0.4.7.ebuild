@@ -1,4 +1,4 @@
-# Copyright 2026 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -18,7 +18,7 @@ KEYWORDS="~amd64 ~arm64"
 RDEPEND="
     >=dev-python/aiohttp-3.9[${PYTHON_USEDEP}]
     >=dev-python/mashumaro-3.13[${PYTHON_USEDEP}]
-    >=dev-python/orjson-3.11.7[${PYTHON_USEDEP}]
+    >=dev-python/orjson-3.11.8[${PYTHON_USEDEP}]
     >=dev-python/pillow-11.0[${PYTHON_USEDEP}]
 "
 BDEPEND="

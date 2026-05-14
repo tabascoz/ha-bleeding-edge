@@ -1,4 +1,4 @@
-# Copyright 2026 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -23,7 +23,7 @@ RDEPEND="
 	>=dev-python/dparse-0.6.4[${PYTHON_USEDEP}]
 	>=dev-python/filelock-3.16.1[${PYTHON_USEDEP}]
 	<dev-python/filelock-4.0[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]
+	~dev-python/httpx-0.28.1[${PYTHON_USEDEP}]
 	>=dev-python/jinja2-3.1.0[${PYTHON_USEDEP}]
 	>=dev-python/marshmallow-3.15.0[${PYTHON_USEDEP}]
 	>=dev-python/nltk-3.9[${PYTHON_USEDEP}]

@@ -5,12 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">aiofile</remote-id>
-    <remote-id type="github">mosquito/aiofile</remote-id>
-    <maintainer status="active">
-      <name>Dmitry Orlov</name>
-      <email>me@mosquito.su</email>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

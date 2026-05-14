@@ -1,4 +1,4 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -9,6 +9,7 @@ PYPI_NO_NORMALIZE=1
 inherit distutils-r1 pypi
 DESCRIPTION="A library to communicate with Switchmate"
 HOMEPAGE="https://github.com/Danielhiversen/pySwitchmate/ https://pypi.org/project/PySwitchmate/"
+PYPI_PN="PySwitchmate"
 
 LICENSE="MIT"
 SLOT="0"
@@ -22,8 +23,5 @@ BDEPEND="
 		dev-python/pytest[${PYTHON_USEDEP}]
 	)"
 
-python_test() {
-	py.test -v -v || die
-}
 
 distutils_enable_tests pytest

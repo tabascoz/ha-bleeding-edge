@@ -1,4 +1,4 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -18,7 +18,9 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.rst"
 
-RDEPEND=">=dev-python/aiohttp-3.8.5[${PYTHON_USEDEP}]
+RDEPEND=">=dev-python/aiohttp-3.8.5[${PYTHON_USEDEP}] \
 	dev-python/urllib3[${PYTHON_USEDEP}]"
+
+PYPI_PN="python-opendata-transport"
 
 distutils_enable_tests pytest

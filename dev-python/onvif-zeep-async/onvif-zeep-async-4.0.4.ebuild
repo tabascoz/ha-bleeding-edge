@@ -1,4 +1,4 @@
-# Copyright 1999-2025 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -18,9 +18,19 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.rst"
 
-RDEPEND=">=dev-python/httpx-0.19.0[${PYTHON_USEDEP}]
+BDEPEND="
+	>=dev-python/httpx-0.28.1[${PYTHON_USEDEP}]
+	${PYTHON_DEPS}
+	test? (
+		dev-python/pytest
+	)
+"
+
+RDEPEND="
+	>=dev-python/httpx-0.28.1[${PYTHON_USEDEP}]
 	>=dev-python/zeep-4.2.1[async,${PYTHON_USEDEP}]
 	>=dev-python/ciso8601-2.1.3[${PYTHON_USEDEP}]
-	>=dev-python/yarl-1.10.0[${PYTHON_USEDEP}]"
+	>=dev-python/yarl-1.10.0[${PYTHON_USEDEP}]
+"
 
 distutils_enable_tests pytest

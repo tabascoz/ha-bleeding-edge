@@ -9,7 +9,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 inherit distutils-r1 pypi
 
 DESCRIPTION="Dithering algorithms optimized for e-paper / e-ink displays"
-HOMEPAGE="https://github.com/OpenDisplay-org/epaper-dithering
+HOMEPAGE="https://github.com/OpenDisplay-org/epaper-dithering\
     https://pypi.org/project/epaper-dithering/"
 
 SRC_URI="$(pypi_sdist_url)"
@@ -19,11 +19,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~arm64 ~x86"
 
 RDEPEND="
-    dev-python/pillow[${PYTHON_USEDEP}]
+	dev-python/pillow[${PYTHON_USEDEP}]
 "
 
 BDEPEND="
-    >=dev-python/setuptools-68.0[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-68.0[${PYTHON_USEDEP}]
 "
 
 IUSE="test"

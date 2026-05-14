@@ -5,12 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">mbddns</remote-id>
-    <remote-id type="github">thinkl33t/mb-ddns</remote-id>
-    <maintainer status="active">
-      <name>Bob Clough</name>
-      <email>bob@clough.me</email>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

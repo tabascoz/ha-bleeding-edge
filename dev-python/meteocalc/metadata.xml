@@ -5,12 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">meteocalc</remote-id>
-    <remote-id type="github">malexer/meteocalc</remote-id>
-    <maintainer status="active">
-      <name>Alex (Oleksii) Markov</name>
-      <email>alex@markovs.me</email>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

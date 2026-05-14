@@ -1,4 +1,4 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -18,7 +18,6 @@ KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
 RESTRICT="!test? ( test )"
 
-
 RDEPEND="
 	>=dev-python/aiohttp-3.9.0[${PYTHON_USEDEP}]
 	>=dev-python/asyncio-dgram-2.0.0[${PYTHON_USEDEP}]
@@ -29,6 +28,7 @@ RDEPEND="
 	>=dev-python/yarl-1.9.2[${PYTHON_USEDEP}]"
 BDEPEND="
 	test? (
+		app-arch/unzip
 		dev-python/asynctest[${PYTHON_USEDEP}]
 		dev-python/pytest[${PYTHON_USEDEP}]
 		dev-python/pytest-aiohttp[${PYTHON_USEDEP}]
@@ -43,15 +43,15 @@ python_test() {
 
 distutils_enable_tests pytest
 
-
 python_prepare_all() {
     # === Fix missing [build-system] section (same as aioacaia) ===
     cat >> pyproject.toml <<- EOF || die
-    [build-system]
-    requires = ["setuptools >= 68.0"]
-    build-backend = "setuptools.build_meta"
+[build-system]
+requires = ["setuptools >= 68.0"]
+build-backend = "setuptools.build_meta"
 EOF
         
     distutils-r1_python_prepare_all
 }
 
+distutils_enable_tests pytest

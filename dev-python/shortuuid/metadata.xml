@@ -5,12 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">shortuuid</remote-id>
-    <remote-id type="github">skorokithakis/shortuuid</remote-id>
-    <maintainer status="active">
-      <name>Stavros Korokithakis</name>
-      <email>hi@stavros.io</email>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

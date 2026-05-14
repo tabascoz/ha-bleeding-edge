@@ -5,4 +5,7 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <longdescription lang="en">
+    Python library for interacting with IAlarm devices
+  </longdescription>
 </pkgmetadata>

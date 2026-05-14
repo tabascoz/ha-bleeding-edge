@@ -1,4 +1,4 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -6,6 +6,7 @@ EAPI=8
 PYTHON_COMPAT=( python3_{11..14} )
 DISTUTILS_USE_PEP517=poetry
 PYPI_NO_NORMALIZE=1
+PYPI_PN="python-miio"
 inherit distutils-r1 pypi
 
 DESCRIPTION="Python library for interfacing with Xiaomi smart appliances"
@@ -19,27 +20,23 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.rst"
 
-RDEPEND=">=dev-python/click-8.0[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/construct[${PYTHON_USEDEP}]
-	dev-python/zeroconf[${PYTHON_USEDEP}]
-	dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]
-	dev-python/appdirs[${PYTHON_USEDEP}]
-	dev-python/tqdm[${PYTHON_USEDEP}]
-	dev-python/netifaces[${PYTHON_USEDEP}]
-	dev-python/croniter[${PYTHON_USEDEP}]
-	dev-python/defusedxml[${PYTHON_USEDEP}]
+RDEPEND=">=dev-python/click-8.0[${PYTHON_USEDEP}] \
+	dev-python/cryptography[${PYTHON_USEDEP}] \
+	dev-python/construct[${PYTHON_USEDEP}] \
+	dev-python/zeroconf[${PYTHON_USEDEP}] \
+	dev-python/attrs[${PYTHON_USEDEP}] \
+	dev-python/pytz[${PYTHON_USEDEP}] \
+	dev-python/appdirs[${PYTHON_USEDEP}] \
+	dev-python/tqdm[${PYTHON_USEDEP}] \
+	dev-python/netifaces[${PYTHON_USEDEP}] \
+	dev-python/croniter[${PYTHON_USEDEP}] \
+	dev-python/defusedxml[${PYTHON_USEDEP}] \
 	dev-python/pyyaml[${PYTHON_USEDEP}]"
-BDEPEND="dev-python/setuptools[${PYTHON_USEDEP}]
-	test? (
-		dev-python/pytest[${PYTHON_USEDEP}]
-		dev-python/pytest-cov[${PYTHON_USEDEP}]
-		dev-python/pytest-mock[${PYTHON_USEDEP}]
+BDEPEND="dev-python/setuptools[${PYTHON_USEDEP}] \
+	test? ( \
+		dev-python/pytest[${PYTHON_USEDEP}] \
+		dev-python/pytest-cov[${PYTHON_USEDEP}] \
+		dev-python/pytest-mock[${PYTHON_USEDEP}] \
 	)"
-
-python_test() {
-	py.test -v -v || die
-}
 
 distutils_enable_tests pytest

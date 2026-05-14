@@ -5,12 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">pexpect</remote-id>
-    <remote-id type="github">pexpect/pexpect</remote-id>
-    <maintainer status="active">
-      <name>Noah Spurrier; Thomas Kluyver; Jeff Quast</name>
-      <email>noah@noah.org, thomas@kluyver.me.uk, contact@jeffquast.com</email>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

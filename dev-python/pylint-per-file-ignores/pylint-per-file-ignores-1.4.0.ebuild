@@ -1,14 +1,15 @@
-# Copyright 1999-2025 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
 
-PYTHON_COMPAT=( pypy3_11 python3_{11..14} )
+PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=poetry
 inherit distutils-r1 pypi
 
 DESCRIPTION="A pylint plugin to ignore error codes per file."
-HOMEPAGE="https://github.com/christopherpickering/pylint-per-file-ignores.git https://pypi.org/project/pylint-per-file-ignores/"
+HOMEPAGE="https://github.com/christopherpickering/pylint-per-file-ignores.git \
+	https://pypi.org/project/pylint-per-file-ignores/"
 
 LICENSE="MIT"
 SLOT="0"

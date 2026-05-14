@@ -1,4 +1,4 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -24,7 +24,7 @@ RDEPEND="dev-python/rich[${PYTHON_USEDEP}]
 	>=dev-python/av-16[${PYTHON_USEDEP}]
 	>=dev-python/convertertools-0.5.0[${PYTHON_USEDEP}]
 	>=dev-python/dateparser-1.1.0[${PYTHON_USEDEP}]
-	>=dev-python/orjson-3.9.15[${PYTHON_USEDEP}]
+	>=dev-python/orjson-3.11.8[${PYTHON_USEDEP}]
 	>=dev-python/pillow-12.2.0[${PYTHON_USEDEP}]
 	>=dev-python/platformdirs-4.9.6[${PYTHON_USEDEP}]
 	>=dev-python/propcache-0.0.0[${PYTHON_USEDEP}]

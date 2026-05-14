@@ -5,12 +5,7 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">meteoalertapi</remote-id>
-    <remote-id type="github">rolfberkenbosch/meteoalert-api</remote-id>
-    <maintainer status="active">
-      <name>Rolf Berkenbosch</name>
-      <email>rolf@berkenbosch.nl</email>
-    </maintainer>
-  </upstream>
+  <longdescription lang="en">
+    MeteoAlert API client library
+  </longdescription>
 </pkgmetadata>

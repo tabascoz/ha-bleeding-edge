@@ -1,4 +1,4 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -42,28 +42,4 @@ src_prepare() {
 	# cryptography dep is entirely optional, and has a good fallback
 	sed -i -e 's:from cryptography.*:pass:' tests/__init__.py || die
 	distutils-r1_src_prepare
-}
-
-python_test() {
-	local EPYTEST_DESELECT=(
-		# broken by using system certificates
-		tests/test_cacerts_from_env.py::test_certs_file_from_builtin
-		tests/test_cacerts_from_env.py::test_certs_file_from_environment
-		tests/test_cacerts_from_env.py::test_with_certifi_removed_from_modules
-
-		# broken by new PySocks, probably
-		tests/test_proxy.py::test_server_not_found_error_is_raised_for_invalid_hostname
-		tests/test_proxy.py::test_socks5_auth
-
-		# broken by recerting (TODO)
-		tests/test_https.py::test_min_tls_version
-		tests/test_https.py::test_max_tls_version
-
-		# new cryptography or openssl-3?
-		tests/test_https.py::test_client_cert_password_verified
-	)
-
-	# tests in python* are replaced by tests/
-	# upstream fails at cleaning up stuff
-	epytest tests
 }

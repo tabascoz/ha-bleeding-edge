@@ -5,12 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">bthomehub5-devicelist</remote-id>
-    <remote-id type="github">ahobsonsayers/bthomehub5-devicelist</remote-id>
-    <maintainer status="active">
-      <name>Arran Hobson Sayers</name>
-      <email>ahobsonsayers@gmail.com</email>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

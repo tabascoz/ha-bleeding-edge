@@ -1,4 +1,4 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -19,6 +19,8 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
+PYPI_PN="python-homewizard-energy"
+
 RDEPEND="
     >=dev-python/aiohttp-3.0.0[${PYTHON_USEDEP}]
     >=dev-python/async-timeout-4.0.3[${PYTHON_USEDEP}]
@@ -27,8 +29,7 @@ RDEPEND="
     <dev-python/multidict-7.0.0[${PYTHON_USEDEP}]
     >=dev-python/backoff-2.2.1[${PYTHON_USEDEP}]
     <dev-python/backoff-3.0.0[${PYTHON_USEDEP}]
-    >=dev-python/orjson-3.10[${PYTHON_USEDEP}]
-    <dev-python/orjson-4.0[${PYTHON_USEDEP}]
+    >=dev-python/orjson-3.9.9[${PYTHON_USEDEP}]
     >=dev-python/mashumaro-3.15[${PYTHON_USEDEP}]
     <dev-python/mashumaro-4.0[${PYTHON_USEDEP}]
     >=dev-python/awesomeversion-24.6.0[${PYTHON_USEDEP}]

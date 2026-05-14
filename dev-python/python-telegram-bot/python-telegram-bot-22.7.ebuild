@@ -1,4 +1,4 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -21,22 +21,19 @@ REQUIRED_USE="all? ( ext http2 passport socks )
 DOCS="README.rst"
 
 RDEPEND="
-	>=dev-python/httpx-0.27.0[${PYTHON_USEDEP}]
+	~dev-python/httpx-0.28.1[${PYTHON_USEDEP}]
 	callback-data? ( >=dev-python/cachetools-5.3.3[${PYTHON_USEDEP}] )
-	http2? ( dev-python/httpx[${PYTHON_USEDEP}] )
+	http2? ( ~dev-python/httpx-0.28.1[${PYTHON_USEDEP}] )
 	job-queue? ( ~dev-python/APScheduler-3.10.4[${PYTHON_USEDEP}] >=dev-python/pytz-2018.6[${PYTHON_USEDEP}] )
 	passport? ( >=dev-python/cryptography-39.0.1[${PYTHON_USEDEP}] >=dev-python/cffi-1.17.0_rc1[${PYTHON_USEDEP}] )
 	rate-limiter? ( ~dev-python/aiolimiter-1.2.1[${PYTHON_USEDEP}] )
-	socks? ( dev-python/httpx[${PYTHON_USEDEP}] )
+	socks? ( ~dev-python/httpx-0.28.1[${PYTHON_USEDEP}] )
 	webhooks? ( ~dev-python/tornado-6.5.5[${PYTHON_USEDEP}] )
 "
 BDEPEND="
 	test? (
 		dev-python/ruff[${PYTHON_USEDEP}]
-	)"
-
-python_test() {
-	py.test -v -v || die
-}
+	)
+"
 
 distutils_enable_tests pytest

@@ -5,12 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">pyserial-asyncio</remote-id>
-    <remote-id type="github">pyserial/pyserial-asyncio</remote-id>
-    <maintainer status="active">
-      <name>Chris Liechti</name>
-    </maintainer>
-    <doc>https://pyserial.readthedocs.io/en/latest/asyncio.html</doc>
-  </upstream>
 </pkgmetadata>

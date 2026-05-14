@@ -5,12 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">directv</remote-id>
-    <remote-id type="github">ctalkington/python-directv</remote-id>
-    <maintainer status="active">
-      <name>Chris Talkington</name>
-      <email>chris@talkingtontech.com</email>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

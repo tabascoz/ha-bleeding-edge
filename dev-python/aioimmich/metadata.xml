@@ -5,11 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">aioimmich</remote-id>
-    <remote-id type="github">mib1185/aioimmich</remote-id>
-    <maintainer status="active">
-      <name>mib1185</name>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

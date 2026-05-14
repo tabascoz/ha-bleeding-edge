@@ -5,8 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">home-assistant-chip-clusters</remote-id>
-    <remote-id type="github">project-chip/connectedhomeip</remote-id>
-  </upstream>
 </pkgmetadata>

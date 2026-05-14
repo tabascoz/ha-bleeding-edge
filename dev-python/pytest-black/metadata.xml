@@ -5,11 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">pytest-black</remote-id>
-    <remote-id type="github">psf/black</remote-id>
-    <maintainer status="active">
-      <name>Tom Christie</name>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

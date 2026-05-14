@@ -1,4 +1,4 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -105,13 +105,14 @@ LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
-RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
 SRC_URI+="
 	${CARGO_CRATE_URIS}
 "
+
+RESTRICT="!test? ( test )"
 
 RDEPEND=">=dev-python/aiohttp-3.13.3[${PYTHON_USEDEP}]
 	<dev-python/aiohttp-4.0[${PYTHON_USEDEP}]
@@ -120,12 +121,10 @@ RDEPEND=">=dev-python/aiohttp-3.13.3[${PYTHON_USEDEP}]
 	>=dev-python/cachetools-5.0[${PYTHON_USEDEP}]
 	<dev-python/cachetools-8.0[${PYTHON_USEDEP}]
 	>=dev-python/defusedxml-0.7.1[${PYTHON_USEDEP}]
-	>=dev-python/orjson-3.11.3[${PYTHON_USEDEP}]"
+	>=dev-python/orjson-3.11.8[${PYTHON_USEDEP}]"
 BDEPEND="dev-python/pytest-asyncio[${PYTHON_USEDEP}]
 	dev-python/pytest-timeout[${PYTHON_USEDEP}]
 	>=dev-python/pycountry-24.6.1[${PYTHON_USEDEP}]"
-
-
 
 src_compile() {
     distutils-r1_src_compile

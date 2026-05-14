@@ -5,11 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">PyXiaomiGateway</remote-id>
-    <remote-id type="github">Danielhiversen/PyXiaomiGateway</remote-id>
-    <maintainer status="active">
-      <name>=?utf-8?q?Daniel_Hjelseth_H=C3=B8yer?=</name>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

@@ -1,4 +1,4 @@
-# Copyright 1999-2025 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -9,11 +9,11 @@ PYTHON_COMPAT=( python3_{12..14} )
 inherit distutils-r1 pypi
 
 DESCRIPTION="Google API Client for Python"
-HOMEPAGE="https://github.com/googleapis/google-api-python-client/ https://pypi.org/project/google-api-python-client/ "
+HOMEPAGE="https://github.com/googleapis/google-api-python-client/ https://pypi.org/project/google-api-python-client/"
 
 SRC_URI="
 	https://github.com/googleapis/google-api-python-client/archive/v${PV}.tar.gz
-		-> ${P}.gh.tar.gz
+	-> ${P}.gh.tar.gz
 "
 
 S="${WORKDIR}/google-api-python-client-${PV}"

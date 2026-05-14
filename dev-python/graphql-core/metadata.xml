@@ -5,12 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">graphql-core</remote-id>
-    <remote-id type="github">graphql-python/graphql-core</remote-id>
-    <maintainer status="active">
-      <name>Christoph Zwerschke</name>
-      <email>cito@online.de</email>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

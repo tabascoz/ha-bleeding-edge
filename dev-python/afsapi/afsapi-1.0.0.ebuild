@@ -1,4 +1,4 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -18,17 +18,15 @@ RESTRICT="!test? ( test )"
 DOCS="README.md"
 
 RDEPEND="
-    >=dev-python/aiohttp-3.9[${PYTHON_USEDEP}]
-    <dev-python/aiohttp-4[${PYTHON_USEDEP}]
-    >=dev-python/defusedxml-0.7.1[${PYTHON_USEDEP}]
-    "
+	>=dev-python/aiohttp-3.9[${PYTHON_USEDEP}]
+	<dev-python/aiohttp-4[${PYTHON_USEDEP}]
+	>=dev-python/defusedxml-0.7.1[${PYTHON_USEDEP}]
+"
 BDEPEND="
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]
-	)"
+	)
+"
 
-python_test() {
-	py.test -v -v || die
-}
 
 distutils_enable_tests pytest

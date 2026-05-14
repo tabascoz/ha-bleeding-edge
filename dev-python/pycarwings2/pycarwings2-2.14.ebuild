@@ -1,4 +1,4 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -9,6 +9,7 @@ inherit distutils-r1 pypi
 
 DESCRIPTION="Python library for interacting with the Nissan Leaf Carwings telematics service"
 HOMEPAGE="https://github.com/filcole/pycarwings2 https://pypi.org/project/pycarwings2/"
+PYPI_PN="pycarwings2"
 
 LICENSE="Apache-2.0"
 SLOT="0"
@@ -28,9 +29,5 @@ BDEPEND="
 		dev-python/pytest[${PYTHON_USEDEP}]
 		dev-python/pytest-cov[${PYTHON_USEDEP}]
 	)"
-
-python_test() {
-	py.test -v -v || die
-}
 
 distutils_enable_tests pytest

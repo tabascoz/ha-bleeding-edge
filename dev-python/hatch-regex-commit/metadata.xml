@@ -5,9 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">hatch-regex-commit</remote-id>
-    <remote-id type="github">frankie567/hatch-regex-commit#readme</remote-id>
-    <remote-id type="github">frankie567/hatch-regex-commit</remote-id>
-  </upstream>
 </pkgmetadata>

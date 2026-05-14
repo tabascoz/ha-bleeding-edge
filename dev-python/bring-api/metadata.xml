@@ -5,8 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">bring-api</remote-id>
-    <remote-id type="github">miaucl/bring-api</remote-id>
-  </upstream>
 </pkgmetadata>

@@ -5,12 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">omnilogic</remote-id>
-    <remote-id type="github">djtimca/omnilogic-api</remote-id>
-    <maintainer status="active">
-      <name>Tim Empringham</name>
-      <email>tim.empringham@live.ca</email>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

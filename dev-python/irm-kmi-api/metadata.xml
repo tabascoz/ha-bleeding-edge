@@ -5,8 +5,7 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">irm-kmi-api</remote-id>
-    <remote-id type="github">jdejaegh/irm-kmi-api</remote-id>
-  </upstream>
+  <longdescription lang="en">
+    irm-kmi-api is a Python library for interacting with the IRM KMI API.
+  </longdescription>
 </pkgmetadata>

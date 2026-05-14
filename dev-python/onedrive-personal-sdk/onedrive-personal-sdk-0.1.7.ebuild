@@ -1,4 +1,4 @@
-# Copyright 2026 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -17,36 +17,35 @@ IUSE="test"
 RESTRICT="!test? ( test )"
 
 RDEPEND="
-    >=dev-python/aiohttp-3.8.1[${PYTHON_USEDEP}]
-    >=dev-python/mashumaro-3.9.1[${PYTHON_USEDEP}]
-    >=dev-python/numpy-1.24.0[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-3.8.1[${PYTHON_USEDEP}]
+	>=dev-python/mashumaro-3.9.1[${PYTHON_USEDEP}]
+	>=dev-python/numpy-1.24.0[${PYTHON_USEDEP}]
 "
 
 BDEPEND="
-    >=dev-python/setuptools-68.0[${PYTHON_USEDEP}]
-    test? (
-        =dev-python/covdefaults-2.3.0[${PYTHON_USEDEP}]
-        =dev-python/coverage-7.6.7[${PYTHON_USEDEP}]
-        =dev-python/syrupy-4.7.2[${PYTHON_USEDEP}]
-        =dev-python/pytest-8.3.3[${PYTHON_USEDEP}]
-        =dev-python/pytest-asyncio-0.24.0[${PYTHON_USEDEP}]
-        =dev-python/pytest-cov-6.0.0[${PYTHON_USEDEP}]
-        =dev-python/aioresponses-0.7.7[${PYTHON_USEDEP}]
-    )
+	>=dev-python/setuptools-68.0[${PYTHON_USEDEP}]
+	test? (
+		=dev-python/covdefaults-2.3.0[${PYTHON_USEDEP}]
+		=dev-python/coverage-7.6.7[${PYTHON_USEDEP}]
+		=dev-python/syrupy-4.7.2[${PYTHON_USEDEP}]
+		=dev-python/pytest-8.3.3[${PYTHON_USEDEP}]
+		=dev-python/pytest-asyncio-0.24.0[${PYTHON_USEDEP}]
+		=dev-python/pytest-cov-6.0.0[${PYTHON_USEDEP}]
+		=dev-python/aioresponses-0.7.7[${PYTHON_USEDEP}]
+	)
 "
 
-
 python_prepare_all() {
-    # Fix missing [build-system] section in upstream pyproject.toml
-    # Added proper newlines and blank line to prevent TOML parse error
-    cat >> pyproject.toml <<- EOF || die
-    
-    [build-system]
-    requires = ["setuptools >= 68.0"]
-    build-backend = "setuptools.build_meta"
+	# Fix missing [build-system] section in upstream pyproject.toml
+	# Added proper newlines and blank line to prevent TOML parse error
+	cat >> pyproject.toml <<- EOF || die
+
+	[build-system]
+	requires = ["setuptools >= 68.0"]
+	build-backend = "setuptools.build_meta"
 EOF
-                            
-    distutils-r1_python_prepare_all
+
+	distutils-r1_python_prepare_all
 }
 
 distutils_enable_tests pytest

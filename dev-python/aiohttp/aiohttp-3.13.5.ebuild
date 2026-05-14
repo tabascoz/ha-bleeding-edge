@@ -1,4 +1,4 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -70,8 +70,7 @@ src_prepare() {
 }
 
 python_configure() {
-	if [[ ! -d tools && ${EPYTHON} != pypy3 ]] && use native-extensions
-	then
+	if [[ ! -d tools && ${EPYTHON} != pypy3 ]] && use native-extensions; then
 		# workaround missing files
 		mkdir tools || die
 		> requirements/cython.txt || die
@@ -116,7 +115,7 @@ python_test() {
 	fi
 
 	local -x PYTEST_DISABLE_PLUGIN_AUTOLOAD=1
-	local -x PYTEST_PLUGINS=pytest_mock,xdist.plugin
+	local -x PYTEST_PLUGINS="pytest_mock xdist.plugin"
 	rm -rf aiohttp || die
 	epytest -m "not internal and not dev_mode" \
 		-p rerunfailures --reruns=5

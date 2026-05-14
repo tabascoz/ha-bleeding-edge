@@ -5,13 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">wakeonlan</remote-id>
-    <remote-id type="github">remcohaszing/pywakeonlan</remote-id>
-    <remote-id type="github">sponsors/remcohaszing</remote-id>
-    <maintainer status="active">
-      <name>Remco Haszing</name>
-      <email>remcohaszing@gmail.com</email>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

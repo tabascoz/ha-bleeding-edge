@@ -1,4 +1,4 @@
-# Copyright 2026 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -10,6 +10,7 @@ inherit pypi distutils-r1
 
 DESCRIPTION="Asynchronous Python client for the Firefly III API"
 HOMEPAGE="https://pypi.org/project/${PN}/"
+PYPI_PN="pyfirefly"
 
 LICENSE="MIT"
 SLOT="0"
@@ -20,8 +21,7 @@ RESTRICT="!test? ( test )"
 RDEPEND="
 	>=dev-python/aiohttp-3.0.0[${PYTHON_USEDEP}]
 	>=dev-python/mashumaro-3.15[${PYTHON_USEDEP}]
-	>=dev-python/orjson-3.10.16[${PYTHON_USEDEP}]
-	<dev-python/orjson-4[${PYTHON_USEDEP}]
+	>=dev-python/orjson-3.9.9[${PYTHON_USEDEP}]
 	>=dev-python/yarl-1.6.0[${PYTHON_USEDEP}]
 "
 

@@ -5,12 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">switchbot-api</remote-id>
-    <remote-id type="github">SeraphicCorp/py-switchbot-api</remote-id>
-    <maintainer status="active">
-      <name>Ravaka Razafimanantsoa</name>
-      <email>contact@ravaka.dev</email>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

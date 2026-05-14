@@ -5,8 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">flexcache</remote-id>
-    <remote-id type="github">hgrecco/flexcache</remote-id>
-  </upstream>
 </pkgmetadata>

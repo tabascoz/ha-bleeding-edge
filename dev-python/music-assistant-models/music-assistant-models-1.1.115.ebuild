@@ -1,4 +1,4 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -19,19 +19,25 @@ RESTRICT="!test? ( test )"
 DOCS="README.md"
 
 RDEPEND="
-	>=dev-python/orjson-3.9[${PYTHON_USEDEP}]
+	>=dev-python/orjson-3.11.8[${PYTHON_USEDEP}]
 	>=dev-python/mashumaro-3.14[${PYTHON_USEDEP}]
+"
+
+BDEPEND="
+	${RDEPEND}
+	test? (
+		dev-python/pytest
+	)
 "
 
 python_prepare_all() {
     # Fix missing [build-system] section in upstream pyproject.toml
     cat >> pyproject.toml <<-EOF || die
-    [build-system]
-    requires = ["setuptools >= 68.0"]
-    build-backend = "setuptools.build_meta"
+[build-system]
+requires = ["setuptools >= 68.0"]
+build-backend = "setuptools.build_meta"
 EOF
     distutils-r1_python_prepare_all
 }
-
 
 distutils_enable_tests pytest

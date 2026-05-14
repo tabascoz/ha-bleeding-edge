@@ -5,12 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">scsgate</remote-id>
-    <remote-id type="github">flavio/scsgate</remote-id>
-    <maintainer status="active">
-      <name>Flavio Castelli</name>
-      <email>flavio@castelli.me</email>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

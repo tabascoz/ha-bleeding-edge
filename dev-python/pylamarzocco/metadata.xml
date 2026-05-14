@@ -5,11 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">lamarzocco</remote-id>
-    <remote-id type="github">lamarzocco/pylamarzocco</remote-id>
-    <maintainer status="active">
-      <name>Lamarzocco Team</name>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

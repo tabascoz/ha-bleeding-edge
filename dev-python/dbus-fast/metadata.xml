@@ -5,12 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">dbus-fast</remote-id>
-    <remote-id type="github">bluetooth-devices/dbus-fast</remote-id>
-    <maintainer status="active">
-      <name>Bluetooth Devices Authors</name>
-      <email>bluetooth@koston.org</email>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

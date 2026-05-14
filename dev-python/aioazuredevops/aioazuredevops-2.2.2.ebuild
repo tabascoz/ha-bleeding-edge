@@ -1,4 +1,4 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -21,10 +21,11 @@ DOCS="README.md"
 RDEPEND=">=dev-python/aiohttp-3.12.15[${PYTHON_USEDEP}]"
 BDEPEND="
 	test? (
-		  dev-python/aioresponses[${PYTHON_USEDEP}]
-		  dev-python/pytest-aiohttp[${PYTHON_USEDEP}]
-		  dev-python/pytest-asyncio[${PYTHON_USEDEP}]
-		  dev-python/syrupy[${PYTHON_USEDEP}]
-		  )"
+		dev-python/aioresponses[${PYTHON_USEDEP}]
+		dev-python/pytest-aiohttp[${PYTHON_USEDEP}]
+		dev-python/pytest-asyncio[${PYTHON_USEDEP}]
+		dev-python/syrupy[${PYTHON_USEDEP}]
+	)
+"
 
 distutils_enable_tests pytest

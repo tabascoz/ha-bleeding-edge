@@ -5,12 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">zipper</remote-id>
-    <remote-id type="github">trivio/zipper</remote-id>
-    <maintainer status="active">
-      <name>Scott Robertson</name>
-      <email>scott@triv.io</email>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

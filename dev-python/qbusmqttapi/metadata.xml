@@ -5,12 +5,7 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">qbusmqttapi</remote-id>
-    <remote-id type="github">Qbus-iot/qbusmqttapi</remote-id>
-    <maintainer status="active">
-      <name>thomasddn</name>
-      <email>ks@qbus.be</email>
-    </maintainer>
-  </upstream>
+  <longdescription lang="en">
+    qbusmqttapi is a Python library for interacting with Qbus MQTT API.
+  </longdescription>
 </pkgmetadata>

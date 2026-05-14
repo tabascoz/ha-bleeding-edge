@@ -1,4 +1,4 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -9,7 +9,8 @@ PYPI_NO_NORMALIZE=1
 inherit distutils-r1 pypi
 
 DESCRIPTION="Simple wrapper client for the Vilfo router API"
-HOMEPAGE="https://github.com/mannew/vilfo-api-client-python https://pypi.org/project/vilfo-api-client/"
+HOMEPAGE="https://github.com/mannew/vilfo-api-client-python \
+	https://pypi.org/project/vilfo-api-client/"
 
 LICENSE="MIT"
 SLOT="0"

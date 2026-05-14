@@ -1,4 +1,4 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -29,44 +29,21 @@ BDEPEND="
 	)
 "
 
-python_test() {
-	py.test -v -v || die
-}
-
-
-
 python_prepare_all() {
     # Force a clean [build-system] section at the end of pyproject.toml
     # This reliably fixes "Unable to obtain build-backend from pyproject.toml"
     sed -i '/^\[build-system\]/,/^$/d' pyproject.toml || die
 
     cat >> pyproject.toml <<- 'EOF' || die
-            
-    [build-system]
-    requires = ["setuptools >= 68.0"]
-    build-backend = "setuptools.build_meta"
+[build-system]
+requires = ["setuptools >= 68.0"]
+build-backend = "setuptools.build_meta"
 EOF
-                            
+
     # Optional: fix any hardcoded version if present
     sed -i "s/version = [\"']1\.11\.0[\"']/version = \"${PV}\"/" pyproject.toml || true
-                
+
     distutils-r1_python_prepare_all
 }
-#python_prepare_all() {
-    # Fix missing [build-system] section in upstream pyproject.toml
-    # This is the root cause of "Unable to obtain build-backend from pyproject.toml"
-
-#    cat >> pyproject.toml <<- EOF || die
-
-#    [build-system]
-#    requires = ["setuptools >= 68.0"]
-#    build-backend = "setuptools.build_meta"
-#EOF
-                
-#    distutils-r1_python_prepare_all
-#}
-
-
-
 
 distutils_enable_tests pytest

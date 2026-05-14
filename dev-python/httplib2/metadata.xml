@@ -5,12 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">httplib2</remote-id>
-    <remote-id type="github">httplib2/httplib2</remote-id>
-    <maintainer status="active">
-      <name>Joe Gregorio</name>
-      <email>joe@bitworking.org</email>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

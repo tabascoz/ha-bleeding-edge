@@ -5,8 +5,7 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">igloohome-api</remote-id>
-    <remote-id type="github">keithle888/igloohome-api</remote-id>
-  </upstream>
+  <longdescription lang="en">
+    The igloohome-api package provides a Python interface to interact with the Igloo Home API.
+  </longdescription>
 </pkgmetadata>

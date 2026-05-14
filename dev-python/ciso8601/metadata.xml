@@ -5,8 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">ciso8601</remote-id>
-    <remote-id type="github">closeio/ciso8601</remote-id>
-  </upstream>
 </pkgmetadata>

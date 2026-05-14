@@ -5,12 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">ephem</remote-id>
-    <remote-id type="github">brandon-rhodes/pyephem</remote-id>
-    <maintainer status="active">
-      <name>Brandon Rhodes</name>
-      <email>brandon@rhodesmill.org</email>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

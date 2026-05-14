@@ -5,8 +5,7 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">transmission-rpc</remote-id>
-    <remote-id type="github">Trim21/transmission-rpc</remote-id>
-  </upstream>
+  <longdescription>
+    Python bindings for Transmission BitTorrent client RPC interface
+  </longdescription>
 </pkgmetadata>

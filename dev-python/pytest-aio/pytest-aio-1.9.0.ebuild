@@ -1,4 +1,4 @@
-# Copyright 2024 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -15,11 +15,12 @@ LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64"
 
-RDEPEND="dev-python/pytest[${PYTHON_USEDEP}]
+RDEPEND="
+	dev-python/pytest[${PYTHON_USEDEP}]
 	dev-python/curio-compat[${PYTHON_USEDEP}]
 	dev-python/trio[${PYTHON_USEDEP}]
 	dev-python/uvloop[${PYTHON_USEDEP}]
 "
-BDEPEND=""
+BDEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
 
 distutils_enable_tests pytest

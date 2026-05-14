@@ -91,6 +91,7 @@ BDEPEND="
 		dev-python/pretend[${PYTHON_USEDEP}]
 		dev-python/pyasn1-modules[${PYTHON_USEDEP}]
 		dev-python/pytz[${PYTHON_USEDEP}]
+		=dev-python/pytest-subtests-0.15.0[${PYTHON_USEDEP}]
 	)
 "
 
@@ -132,12 +133,4 @@ src_prepare() {
 
 python_configure_all() {
 	filter-lto # bug #903908
-}
-
-python_test() {
-	local -x PYTHONPATH="${PYTHONPATH}:${WORKDIR}/${VEC_P}"
-	local EPYTEST_IGNORE=(
-		tests/bench
-	)
-	epytest
 }

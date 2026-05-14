@@ -1,4 +1,4 @@
-# Copyright 1999-2025 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -16,7 +16,7 @@ HOMEPAGE="
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~arm ~x86 ~amd64"
+KEYWORDS="~amd64 ~arm ~x86"
 
 RDEPEND="
 	>=dev-python/humanfriendly-9.1[${PYTHON_USEDEP}]"
@@ -41,7 +41,3 @@ EPYTEST_DESELECT=(
 	# test_auto_install fails because the pth file isn't being loaded
 	coloredlogs/tests.py::ColoredLogsTestCase::test_auto_install
 )
-
-python_test() {
-	epytest coloredlogs/tests.py
-}

@@ -5,8 +5,7 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">hdfury</remote-id>
-    <remote-id type="github">glenndehaan/python-hdfury</remote-id>
-  </upstream>
+  <longdescription lang="en">
+    The hdfury package provides utilities for handling HDF5 files.
+  </longdescription>
 </pkgmetadata>

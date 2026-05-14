@@ -1,4 +1,4 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -8,7 +8,8 @@ DISTUTILS_USE_PEP517=setuptools
 PYPI_NO_NORMALIZE=1
 inherit distutils-r1 pypi
 DESCRIPTION="Python bindings for the Plex API."
-HOMEPAGE="https://github.com/pkkid/python-plexapi https://pypi.org/project/PlexAPI/"
+HOMEPAGE="https://github.com/pkkid/python-plexapi \
+	https://pypi.org/project/PlexAPI/"
 
 LICENSE="BSD"
 SLOT="0"
@@ -20,5 +21,11 @@ DOCS="README.rst"
 
 RDEPEND="dev-python/requests[${PYTHON_USEDEP}]
 	>=dev-python/websocket-client-1.3.3[${PYTHON_USEDEP}]"
+
+BDEPEND="
+	test? (
+		dev-python/pytest
+	)
+"
 
 distutils_enable_tests pytest

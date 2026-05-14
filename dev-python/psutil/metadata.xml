@@ -5,12 +5,8 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">psutil</remote-id>
-    <remote-id type="github">giampaolo/psutil</remote-id>
-    <maintainer status="active">
-      <name>Giampaolo Rodola</name>
-      <email>g.rodola@gmail.com</email>
-    </maintainer>
-  </upstream>
+  <longdescription>
+    psutil is a cross-platform library for retrieving information on running
+    processes and system utilization (CPU, memory, disks, network, sensors) in Python.
+  </longdescription>
 </pkgmetadata>

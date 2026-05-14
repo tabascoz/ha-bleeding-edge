@@ -22,16 +22,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~arm64"
 IUSE="doc"
 
-distutils_enable_tests unittest
+distutils_enable_tests pytest
 
 python_install_all() {
 	use doc && local HTML_DOCS=( docs/Features.html )
 	local DOCS=( README.rst docs/*.rst )
 
 	distutils-r1_python_install_all
-}
-
-python_test() {
-	cd "${BUILD_DIR}/install$(python_get_sitedir)/regex/tests" || die
-	eunittest
 }

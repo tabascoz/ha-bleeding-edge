@@ -5,8 +5,7 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">egauge-async</remote-id>
-    <remote-id type="github">neggert/egauge-async</remote-id>
-  </upstream>
+  <longdescription lang="en">
+    This package provides asynchronous support for communicating with eGauge devices.
+  </longdescription>
 </pkgmetadata>

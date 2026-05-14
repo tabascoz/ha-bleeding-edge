@@ -1,4 +1,4 @@
-# Copyright 2026 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -19,27 +19,27 @@ RESTRICT="!test? ( test )"
 
 RDEPEND=""
 BDEPEND="
-    >=dev-python/setuptools-68.0[${PYTHON_USEDEP}]
-    test? (
-        dev-python/pytest[${PYTHON_USEDEP}]
-    )
+	>=dev-python/setuptools-68.0[${PYTHON_USEDEP}]
+	test? (
+		dev-python/pytest[${PYTHON_USEDEP}]
+	)
 "
 
 python_install() {
-    distutils-r1_python_install
+	distutils-r1_python_install
 
-    # Remove stray top-level files
-    local sitedir=$(python_get_sitedir)
-    rm -rf "${D}${sitedir}/tests"
+	# Remove stray top-level files
+	local sitedir=$(python_get_sitedir)
+	rm -rf "${D}${sitedir}/tests"
 }
 
 python_prepare_all() {
-    # Fix missing version.txt in the PyPI sdist
+	# Fix missing version.txt in the PyPI sdist
 
-    echo "2025.1.0" > version.txt || die "Failed to create version.txt"
+	echo "2025.1.0" > version.txt || die "Failed to create version.txt"
 
-    # IMPORTANT: Call the eclass function
-    distutils-r1_python_prepare_all
+	# IMPORTANT: Call the eclass function
+	distutils-r1_python_prepare_all
 }
 
 distutils_enable_tests pytest

@@ -5,12 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">growattServer</remote-id>
-    <remote-id type="github">indykoning/PyPi_GrowattServer</remote-id>
-    <maintainer status="active">
-      <name>IndyKoning</name>
-      <email>indykoningnl@gmail.com</email>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

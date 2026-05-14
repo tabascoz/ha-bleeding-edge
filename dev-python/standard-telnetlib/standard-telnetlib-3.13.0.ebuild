@@ -4,7 +4,7 @@
 EAPI=8
 
 DISTUTILS_USE_PEP517=setuptools
-PYTHON_COMPAT=( python3_{11..14} pypy3 )
+PYTHON_COMPAT=( python3_{12..14})
 
 inherit distutils-r1 pypi
 
@@ -18,11 +18,4 @@ LICENSE="PSF-2"
 SLOT="0"
 KEYWORDS="~amd64 ~arm ~arm64 ~ppc64 ~riscv ~x86"
 
-IUSE=""
-
-RDEPEND=""
-
-BDEPEND=""
-
 distutils_enable_tests pytest
-

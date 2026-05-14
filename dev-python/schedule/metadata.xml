@@ -5,12 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">schedule</remote-id>
-    <remote-id type="github">dbader/schedule</remote-id>
-    <remote-id type="github">dbader/schedule.git</remote-id>
-    <maintainer status="active">
-      <name>Sijmen Huizenga</name>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

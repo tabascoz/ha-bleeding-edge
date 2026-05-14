@@ -5,12 +5,7 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">openevse-http</remote-id>
-    <remote-id type="github">openEVSE/openEVSE-HTTP</remote-id>
-    <maintainer status="active">
-      <name>openEVSE</name>
-    </maintainer>
-    <doc>https://openevse.com/</doc>
-  </upstream>
+  <longdescription lang="en">
+    The openEVSE HTTP library provides a Python interface to interact with the openEVSE charging station over HTTP.
+  </longdescription>
 </pkgmetadata>

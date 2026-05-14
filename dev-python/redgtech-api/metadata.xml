@@ -5,12 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">redgtech-api</remote-id>
-    <remote-id type="github">redgtech-automacao/redgtech-python-api</remote-id>
-    <maintainer status="active">
-      <name>Jonh Sady</name>
-      <email>jonh.system@gmail.com</email>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

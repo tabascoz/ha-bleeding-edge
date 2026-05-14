@@ -5,12 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">coveralls</remote-id>
-    <remote-id type="github">TheKevJames/coveralls-python</remote-id>
-    <maintainer status="active">
-      <name>Kevin James</name>
-      <email>coveralls-python@thekev.in</email>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

@@ -1,4 +1,4 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -10,6 +10,7 @@ inherit distutils-r1 pypi
 
 DESCRIPTION="Provides a python interface to interact with a Emby media server."
 HOMEPAGE="https://github.com/mezz64/pyemby https://pypi.org/project/pyEmby/"
+PYPI_PN="pyEmby"
 
 LICENSE="MIT"
 SLOT="0"

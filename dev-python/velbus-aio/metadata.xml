@@ -5,8 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">velbus-aio</remote-id>
-    <remote-id type="github">Cereal2nd/velbus-aio</remote-id>
-  </upstream>
 </pkgmetadata>

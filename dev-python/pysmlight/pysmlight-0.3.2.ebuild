@@ -1,4 +1,4 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -19,9 +19,11 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND=">=dev-python/aiohttp-3.9.3[${PYTHON_USEDEP}]
-	>=dev-python/aiohttp-sse-client2-0.3.0[${PYTHON_USEDEP}]
-	>=dev-python/awesomeversion-24.6.0[${PYTHON_USEDEP}]
+PYPI_PN="pysmlight"
+
+RDEPEND=">=dev-python/aiohttp-3.9.3[${PYTHON_USEDEP}] \
+	>=dev-python/aiohttp-sse-client2-0.3.0[${PYTHON_USEDEP}] \
+	>=dev-python/awesomeversion-24.6.0[${PYTHON_USEDEP}] \
 	>=dev-python/mashumaro-3.10[${PYTHON_USEDEP}]"
 
 distutils_enable_tests pytest

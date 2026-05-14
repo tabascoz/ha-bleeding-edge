@@ -1,4 +1,4 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -18,26 +18,15 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-#RDEPEND="#
-#    dev-python/ifaddr[${PYTHON_USEDEP}]
-#    $(python_gen_cond_dep 'dev-python/importlib_metadata[${PYTHON_USEDEP}]' '<3.8')
-#    $(python_gen_cond_dep 'dev-python/async-timeout[${PYTHON_USEDEP}]' '<3.11')
-#"
-
 RDEPEND="
-    dev-python/ifaddr[${PYTHON_USEDEP}]
-    dev-python/importlib-metadata[${PYTHON_USEDEP}]
-    dev-python/async-timeout[${PYTHON_USEDEP}]
+	dev-python/ifaddr[${PYTHON_USEDEP}]
+	dev-python/importlib-metadata[${PYTHON_USEDEP}]
+	dev-python/async-timeout[${PYTHON_USEDEP}]
 "
 DEPEND="
-    test? (
-        dev-python/pytest[${PYTHON_USEDEP}]
-    )
+	test? (
+		dev-python/pytest[${PYTHON_USEDEP}]
+	)
 "
-
-python_test() {
-    py.test -v -v || die
-    yeelight/tests.py || die
-}
 
 distutils_enable_tests pytest

@@ -1,4 +1,4 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -27,13 +27,13 @@ BDEPEND="
 		dev-python/pytest[${PYTHON_USEDEP}]
 	)"
 
-python_test() {
-	py.test -v -v || die
-}
-
 # packages=find_packages()
 src_prepare() {
-	echo -ne "paho-mqtt\nrequests\npycryptodome\nwebsocket-client\n" > requirements.txt || die
+	echo -ne "paho-mqtt
+requests
+pycryptodome
+websocket-client
+" > requirements.txt || die
 	eapply_user
 }
 

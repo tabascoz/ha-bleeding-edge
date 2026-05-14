@@ -1,4 +1,4 @@
-# Copyright 1999-2025 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -11,8 +11,8 @@ DESCRIPTION="Find the vendor for a given MAC address"
 HOMEPAGE="https://github.com/bauerj/mac_vendor_lookup https://pypi.org/project/mac-vendor-lookup/"
 MY_PN=${PN//-/_}
 COMMIT="90dbea48f8a9d567b5f9039ebd151ddfe7d12a19"
-SRC_URI="https://github.com/bauerj/${MY_PN}/archive/${COMMIT}.tar.gz -> ${P}.gh.tar.gz
-		 https://hasf.edevau.net/m/mac-vendors/mac-vendors-${PV}.txt.xz"
+SRC_URI="https://github.com/bauerj/${MY_PN}/archive/${COMMIT}.tar.gz -> ${P}.gh.tar.gz \
+		https://hasf.edevau.net/m/mac-vendors/mac-vendors-${PV}.txt.xz"
 S="${WORKDIR}/${MY_PN}-${COMMIT}"
 
 LICENSE="Apache-2.0"
@@ -29,10 +29,6 @@ BDEPEND="
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]
 	)"
-
-python_test() {
-	py.test -v -v || die
-}
 
 src_prepare() {
 	xzcat "${DISTDIR}/mac-vendors-${PV}.txt.xz" > "${S}/mac-vendors.txt" || die

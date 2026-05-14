@@ -5,11 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">nacl</remote-id>
-    <maintainer status="active">
-      <name>Paul Kehrer</name>
-      <email>cryptography-dev@python.org</email>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

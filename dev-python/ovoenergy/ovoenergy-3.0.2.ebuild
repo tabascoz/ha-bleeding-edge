@@ -1,4 +1,4 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -22,11 +22,13 @@ RDEPEND="
 	>=dev-python/typer-0.6.1[${PYTHON_USEDEP}]
 	>=dev-python/pyjwt-2.0.0[${PYTHON_USEDEP}]
 "
-BDEPEND=""
+BDEPEND="test? (
+	dev-python/pytest
+)"
 
-src_prepare() {                                                                                                                                                                                                    
-        echo -e "aiohttp" > requirements.txt                                                                                                                                               
-        eapply_user                                                                                                                                                                                                
-} 
+src_prepare() {
+	echo -e "aiohttp" > requirements.txt
+	eapply_user
+}
 
 distutils_enable_tests pytest

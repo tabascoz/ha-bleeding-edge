@@ -5,8 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">dwdwfsapi</remote-id>
-    <remote-id type="github">stephan192/dwdwfsapi</remote-id>
-  </upstream>
 </pkgmetadata>

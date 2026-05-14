@@ -1,4 +1,4 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -17,7 +17,8 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.rst"
 
-RDEPEND=">=dev-python/python-dateutil-2.7.0[${PYTHON_USEDEP}]
+RDEPEND="
+	>=dev-python/python-dateutil-2.7.0[${PYTHON_USEDEP}]
 	>=dev-python/pytz-2024.2[${PYTHON_USEDEP}]
 	>=dev-python/regex-2024.9.11[${PYTHON_USEDEP}]
 	>=dev-python/tzlocal-0.2[${PYTHON_USEDEP}]"

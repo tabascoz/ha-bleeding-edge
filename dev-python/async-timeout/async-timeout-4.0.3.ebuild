@@ -1,11 +1,11 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
 
 DISTUTILS_USE_PEP517=setuptools
 PYPI_NO_NORMALIZE=1
-PYTHON_COMPAT=( python3_{10..14} pypy3 )
+PYTHON_COMPAT=( python3_{12..14} pypy3 )
 
 inherit distutils-r1 pypi
 
@@ -32,8 +32,4 @@ python_prepare_all() {
 	# remove pointless dep on pytest-cov
 	sed -i -e '/addopts/d' setup.cfg || die
 	distutils-r1_python_prepare_all
-}
-
-python_test() {
-	epytest -p no:aiohttp
 }

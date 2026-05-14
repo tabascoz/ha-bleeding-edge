@@ -1,4 +1,4 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -7,7 +7,9 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 DESCRIPTION="Kafka integration with asyncio."
-HOMEPAGE="https://github.com/aio-libs/aiokafka https://aiokafka.readthedocs.org https://pypi.org/project/aiokafka/"
+HOMEPAGE="https://github.com/aio-libs/aiokafka \
+	https://aiokafka.readthedocs.org \
+	https://pypi.org/project/aiokafka/"
 
 LICENSE="Apache-2.0"
 SLOT="0"
@@ -20,7 +22,8 @@ BDEPEND="
 	>=dev-python/cython-3[${PYTHON_USEDEP}]
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]
-	)"
+	)
+"
 
 src_prepare() {
 	# remove dynamic-versioning

@@ -1,4 +1,4 @@
-# Copyright 1999-2025 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -8,7 +8,8 @@ DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
 DESCRIPTION="Python Serial Port Extension - Asynchronous I/O support"
-HOMEPAGE="https://github.com/home-assistant-libs/pyserial-asyncio-fast https://pypi.org/project/pyserial-asyncio-fast/"
+HOMEPAGE="https://github.com/home-assistant-libs/pyserial-asyncio-fast \
+	https://pypi.org/project/pyserial-asyncio-fast/"
 
 LICENSE="BSD"
 SLOT="0"

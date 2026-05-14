@@ -1,4 +1,4 @@
-# Copyright 2024 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -26,9 +26,11 @@ BDEPEND="
 		dev-python/wheel
 	)
 "
+
 src_unpack() {
 	default
 	export PBR_VERSION=${PV}
-	mv ${WORKDIR}/retry-${PV} ${S}
+	mv "${WORKDIR}/retry-${PV}" "${S}"
 }
+
 distutils_enable_tests pytest

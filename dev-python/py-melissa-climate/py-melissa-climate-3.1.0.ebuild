@@ -1,4 +1,4 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -9,6 +9,7 @@ inherit distutils-r1 pypi
 
 DESCRIPTION="Api wrapper for Melissa Climate https://seemelissa.com"
 HOMEPAGE="https://github.com/kennedyshead/py-melissa-climate https://pypi.org/project/py-melissa-climate/"
+PYPI_PN="py-melissa-climate"
 
 LICENSE="MIT"
 SLOT="0"
@@ -26,4 +27,5 @@ src_prepare() {
 	eapply "${FILESDIR}"/fix-setup-py.patch
 	eapply_user
 }
-distutils_enable_tests unittest
+
+distutils_enable_tests pytest

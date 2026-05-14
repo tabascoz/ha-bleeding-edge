@@ -1,4 +1,4 @@
-# Copyright 2026 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -18,16 +18,18 @@ IUSE="test"
 RESTRICT="!test? ( test )"
 
 RDEPEND="
-    dev-python/aiohttp[${PYTHON_USEDEP}]
-    >=dev-python/aiomqtt-2.4.0[${PYTHON_USEDEP}]
-    <dev-python/aiomqtt-3.0.0[${PYTHON_USEDEP}]
-    >=dev-python/freenub-0.1.0[${PYTHON_USEDEP}]
-    <dev-python/freenub-0.2.0[${PYTHON_USEDEP}]
-    >=dev-python/mashumaro-3.15[${PYTHON_USEDEP}]
-    <dev-python/mashumaro-4.0[${PYTHON_USEDEP}]
+	dev-python/aiohttp[${PYTHON_USEDEP}]
+	>=dev-python/aiomqtt-2.4.0[${PYTHON_USEDEP}]
+	<dev-python/aiomqtt-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/freenub-0.1.0[${PYTHON_USEDEP}]
+	<dev-python/freenub-0.2.0[${PYTHON_USEDEP}]
+	>=dev-python/mashumaro-3.15[${PYTHON_USEDEP}]
+	<dev-python/mashumaro-4.0[${PYTHON_USEDEP}]
 "
 BDEPEND="
-    >=dev-python/setuptools-68.0[${PYTHON_USEDEP}]
+	>=dev-python/setuptools-68.0[${PYTHON_USEDEP}]
 "
+
+PYPI_PN="python-snoo"
 
 distutils_enable_tests pytest

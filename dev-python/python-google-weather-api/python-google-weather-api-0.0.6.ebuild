@@ -1,5 +1,5 @@
-#Copyright 2025 Gentoo Authors
-#Distributed under the terms of the GNU General Public License v2
+# Copyright 1999-2026 Gentoo Authors
+# Distributed under the terms of the GNU General Public License v2
 EAPI=8
 DISTUTILS_USE_PEP517=setuptools
 PYTHON_COMPAT=( python3_{12..14} )
@@ -15,23 +15,18 @@ KEYWORDS="~amd64 ~arm64 ~x86"
 IUSE="test"
 RESTRICT="!test? ( test )"
 DEPEND="
-    test? (
-        dev-python/pytest[${PYTHON_USEDEP}]
-    )
+	test? (
+		dev-python/pytest[${PYTHON_USEDEP}]
+	)
 "
 RDEPEND="
-    >=dev-python/requests-2.25.1[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.25.1[${PYTHON_USEDEP}]
 "
+
+PYPI_PN="python-google-weather-api"
 
 distutils_enable_tests pytest
 
 python_compile() {
-    distutils-r1_python_compile
+	distutils-r1_python_compile
 }
-python_test() {
-    # Skip tests if no API key, but assume they run
-    distutils_write_config_files
-    # Or cd "${BUILD_DIR}" && pytest
-    ${EPYTHON} -m pytest -v -v || die "Tests failed with ${EPYTHON}"
-}
-

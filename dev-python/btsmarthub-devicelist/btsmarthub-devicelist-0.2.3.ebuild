@@ -1,4 +1,4 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -7,7 +7,8 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 DESCRIPTION="Retrieve a list of devices from a bt smarthub or bt smarthub 2 on a local network"
-HOMEPAGE="https://github.com/jxwolstenholme/btsmarthub_devicelist https://pypi.org/project/btsmarthub-devicelist/"
+HOMEPAGE="https://github.com/jxwolstenholme/btsmarthub_devicelist \
+	https://pypi.org/project/btsmarthub-devicelist/"
 
 LICENSE="MIT"
 SLOT="0"

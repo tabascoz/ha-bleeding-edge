@@ -1,4 +1,4 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -9,6 +9,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python Publish-Subscribe Package"
 HOMEPAGE="https://github.com/schollii/pypubsub https://pypi.org/project/PyPubSub/"
 MY_PN="pypubsub"
+PYPI_PN="Pypubsub"
 SRC_URI="https://github.com/schollii/${MY_PN}/archive/refs/tags/v${PV}.tar.gz -> ${P}.gh.tar.gz"
 S="${WORKDIR}/${MY_PN}-${PV}"
 
@@ -21,7 +22,6 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.rst"
 
-
 RDEPEND="
     dev-python/six[${PYTHON_USEDEP}]
 "
@@ -29,6 +29,9 @@ RDEPEND="
 BDEPEND="
     dev-python/setuptools[${PYTHON_USEDEP}]
     dev-python/setuptools-scm[${PYTHON_USEDEP}]
+    test? (
+        dev-python/pytest
+    )
 "
 
 distutils_enable_tests pytest

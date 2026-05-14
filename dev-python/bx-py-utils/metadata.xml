@@ -5,8 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">bx-py-utils</remote-id>
-    <remote-id type="github">boxine/bx_py_utils</remote-id>
-  </upstream>
 </pkgmetadata>

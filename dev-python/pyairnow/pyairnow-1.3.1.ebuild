@@ -1,4 +1,4 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -8,6 +8,7 @@ inherit distutils-r1 pypi
 
 DESCRIPTION="A lightweight Python wrapper for EPA AirNow Air Quality API"
 HOMEPAGE="https://github.com/asymworks/pyairnow https://pypi.org/project/pyairnow/"
+PYPI_PN="pyairnow"
 
 LICENSE="MIT"
 SLOT="0"
@@ -21,10 +22,7 @@ RDEPEND=">=dev-python/aiohttp-3.10.0[${PYTHON_USEDEP}] <dev-python/aiohttp-4.0.0
 BDEPEND="
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]
-	)"
-
-python_test() {
-	py.test -v -v || die
-}
+	)
+"
 
 distutils_enable_tests pytest

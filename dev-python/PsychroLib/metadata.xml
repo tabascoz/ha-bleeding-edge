@@ -5,12 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">PsychroLib</remote-id>
-    <remote-id type="github">psychrometrics/psychrolib</remote-id>
-    <maintainer status="active">
-      <name>The PsychroLib Developers</name>
-      <email>didierthevenard@users.noreply.github.com</email>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

@@ -5,9 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">kiosker-python-api</remote-id>
-    <remote-id type="github">Top-North/kiosker-python</remote-id>
-    <remote-id type="github">Top-North/kiosker-python.git</remote-id>
-  </upstream>
 </pkgmetadata>

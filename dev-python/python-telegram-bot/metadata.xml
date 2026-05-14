@@ -5,4 +5,14 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <use>
+    <flag name="all">Enable all optional features</flag>
+    <flag name="callback-data">Enable callback data support</flag>
+    <flag name="ext">Enable extended functionality</flag>
+    <flag name="job-queue">Enable job queue support</flag>
+    <flag name="passport">Enable passport support</flag>
+    <flag name="rate-limiter">Enable rate limiter</flag>
+    <flag name="socks">Enable SOCKS proxy support</flag>
+    <flag name="webhooks">Enable webhooks support</flag>
+  </use>
 </pkgmetadata>

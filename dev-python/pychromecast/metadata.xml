@@ -5,11 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">pychromecast</remote-id>
-    <remote-id type="github">home-assistant/pychromecast</remote-id>
-    <maintainer status="active">
-      <name>Home Assistant</name>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

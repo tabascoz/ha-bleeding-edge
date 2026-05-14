@@ -1,4 +1,4 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -19,14 +19,13 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]
+RDEPEND="
+	dev-python/aiohttp[${PYTHON_USEDEP}]
 	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
 	dev-python/colorlog[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-45.0.3[${PYTHON_USEDEP}]
-	>=dev-python/orjson-3.10[${PYTHON_USEDEP}]
-	<dev-python/orjson-4[${PYTHON_USEDEP}]
+	dev-python/orjson[${PYTHON_USEDEP}]
 	>=dev-python/pycryptodome-3.17[${PYTHON_USEDEP}]
-	<dev-python/pycryptodome-4[${PYTHON_USEDEP}]
 	>=dev-python/segno-1.6.6[${PYTHON_USEDEP}]"
 BDEPEND="
 	test? (

@@ -1,4 +1,4 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -18,11 +18,11 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND="$(python_gen_cond_dep 'dev-python/async-timeout[${PYTHON_USEDEP}]' python3_10)
-	dev-python/bitstring[${PYTHON_USEDEP}]
-	dev-python/ifaddr[${PYTHON_USEDEP}]
-	dev-python/click[${PYTHON_USEDEP}]                                                                                          
-	>=dev-python/inquirerpy-0.3.0[${PYTHON_USEDEP}]
+RDEPEND="$(python_gen_cond_dep 'dev-python/async-timeout[${PYTHON_USEDEP}]' python3_10) \
+	dev-python/bitstring[${PYTHON_USEDEP}] \
+	dev-python/ifaddr[${PYTHON_USEDEP}] \
+	dev-python/click[${PYTHON_USEDEP}] \
+	>=dev-python/inquirerpy-0.3.0[${PYTHON_USEDEP}] \
 	<dev-python/inquirerpy-0.4.0[${PYTHON_USEDEP}]"
 
 distutils_enable_tests pytest

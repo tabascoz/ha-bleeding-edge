@@ -1,14 +1,16 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
+#PYPI_NO_NORMALIZE=1
 inherit distutils-r1 pypi
 
 DESCRIPTION="A python library to communicate with the KEBA charging stations via udp"
 HOMEPAGE="https://github.com/dannerph/keba-kecontact https://pypi.org/project/keba-kecontact/"
+PYPI_PN="keba_kecontact"
 
 LICENSE="MIT"
 SLOT="0"
@@ -17,9 +19,6 @@ IUSE="test"
 RESTRICT="!test? ( test )"
 
 DOCS="README.md"
-
-PYPI_PN="keba_kecontact"
-PYPI_NO_NORMALIZE=1
 
 RDEPEND="
 	>=dev-python/asyncio-dgram-2.2.0[${PYTHON_USEDEP}]
@@ -31,9 +30,5 @@ BDEPEND="
 		dev-python/pytest[${PYTHON_USEDEP}]
 	)
 "
-
-python_test() {
-	py.test -v -v || die
-}
 
 distutils_enable_tests pytest

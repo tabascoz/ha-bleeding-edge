@@ -5,11 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">country-convert</remote-id>
-    <remote-id type="github">pycountry/pycountry-convert</remote-id>
-    <maintainer status="active">
-      <name>Michael A. Dorman</name>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

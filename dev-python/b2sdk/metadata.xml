@@ -5,8 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">b2sdk</remote-id>
-    <remote-id type="github">Backblaze/b2-sdk-python</remote-id>
-  </upstream>
 </pkgmetadata>

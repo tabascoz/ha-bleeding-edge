@@ -5,11 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">enphase</remote-id>
-    <remote-id type="github">enphase/pyenphase</remote-id>
-    <maintainer status="active">
-      <name>Enphase Energy</name>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

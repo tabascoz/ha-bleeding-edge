@@ -1,4 +1,4 @@
-# Copyright 2026 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -9,7 +9,7 @@ DISTUTILS_USE_PEP517=setuptools
 PYPI_NO_NORMALIZE=1
 inherit pypi distutils-r1
 
-DESCRIPTION="Pytest plugin to treat skipped tests a test failure"
+DESCRIPTION="Pytest plugin to treat skipped tests as test failures"
 HOMEPAGE="https://github.com/jankatins/pytest-error-for-skips"
 
 LICENSE="MIT"

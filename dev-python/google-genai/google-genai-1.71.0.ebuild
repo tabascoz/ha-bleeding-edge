@@ -1,4 +1,4 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -31,7 +31,7 @@ RDEPEND="
 	>=dev-python/certifi-2024.8.30[${PYTHON_USEDEP}]
 	>=dev-python/charset-normalizer-3.4.0[${PYTHON_USEDEP}]
 	>=dev-python/coverage-7.6.9[${PYTHON_USEDEP}]
-	>=dev-python/httpx-0.28.1[${PYTHON_USEDEP}]
+	>=dev-python/httpx-0.27.2[${PYTHON_USEDEP}]
 	>=dev-python/google-auth-2.47.0[${PYTHON_USEDEP}]
 	>=dev-python/idna-3.10[${PYTHON_USEDEP}]
 	>=dev-python/iniconfig-2.0.0[${PYTHON_USEDEP}]
@@ -55,7 +55,7 @@ RDEPEND="
 src_unpack() {
 	unpack ${A}
 	echo ${P}
-	mv python-genai-${PV}  google-genai-${PV} 
-	}
+	mv python-genai-${PV} google-genai-${PV}
+}
 
 PATCHES=( "${FILESDIR}/${P}-add-build.patch" )

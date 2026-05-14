@@ -5,13 +5,7 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">vegehub</remote-id>
-    <remote-id type="github">GhoweVege/VegeHubPyPiLib</remote-id>
-    <maintainer status="active">
-      <name>GhoweVege</name>
-      <email>85890024+GhoweVege@users.noreply.github.com</email>
-    </maintainer>
-    <doc>https://www.vegetronix.com/Products/VG-HUB-RELAY/</doc>
-  </upstream>
+  <longdescription lang="en">
+    vegehub is a library for interacting with the VG-HUB relay.
+  </longdescription>
 </pkgmetadata>

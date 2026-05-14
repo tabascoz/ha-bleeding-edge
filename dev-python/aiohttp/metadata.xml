@@ -5,8 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">aiohttp</remote-id>
-    <remote-id type="github">aio-libs/aiohttp</remote-id>
-  </upstream>
 </pkgmetadata>

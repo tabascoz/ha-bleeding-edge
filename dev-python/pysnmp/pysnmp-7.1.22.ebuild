@@ -1,4 +1,4 @@
-# Copyright 1999-2025 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -35,15 +35,4 @@ distutils_enable_tests pytest
 # TODO
 # distutils_enable_sphinx docs/source dev-python/furo dev-python/sphinx-copybutton dev-python/sphinx-sitemap
 
-python_test() {
-	local EPYTEST_DESELECT=(
-		# TODO
-		tests/smi/manager/test_mib-tree-inspection.py::test_getNodeName_by_symbol_description_with_module_name_2
-	)
-
-	mibdump CISCO-ENHANCED-IPSEC-FLOW-MIB.py || die
-	mibdump LEXTUDIO-TEST-MIB || die
-	mibdump NET-SNMP-EXAMPLES-MIB || die
-	mibdump IF-MIB || die
-	epytest
-}
+PYPI_PN="pysnmp"

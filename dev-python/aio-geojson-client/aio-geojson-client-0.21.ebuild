@@ -9,7 +9,7 @@ PYTHON_COMPAT=( python3_{10..14} )
 inherit distutils-r1 pypi
 
 DESCRIPTION="An async GeoJSON client library"
-HOMEPAGE="https://github.com/exxamalte/python-aio-geojson-client
+HOMEPAGE="https://github.com/exxamalte/python-aio-geojson-client \
     https://pypi.org/project/aio-geojson-client/"
 
 SRC_URI="$(pypi_sdist_url)"

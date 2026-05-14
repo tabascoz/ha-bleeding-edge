@@ -5,8 +5,7 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">aio-geojson-usgs-earthquakes</remote-id>
-    <remote-id type="github">exxamalte/python-aio-geojson-usgs-earthquakes</remote-id>
-  </upstream>
+  <longdescription>
+    Asynchronous client for USGS earthquakes feed.
+  </longdescription>
 </pkgmetadata>

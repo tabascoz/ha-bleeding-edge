@@ -5,8 +5,5 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">google-genai</remote-id>
-    <remote-id type="github">googleapis/python-genai</remote-id>
-  </upstream>
+  <longdescription>Google GenAI library for Python</longdescription>
 </pkgmetadata>

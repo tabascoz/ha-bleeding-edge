@@ -5,12 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">home-assistant-bluetooth</remote-id>
-    <remote-id type="github">home-assistant-libs/home-assistant-bluetooth</remote-id>
-    <maintainer status="active">
-      <name>J. Nick Koston</name>
-      <email>nick@home-assistant.io</email>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

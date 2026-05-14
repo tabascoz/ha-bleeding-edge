@@ -1,4 +1,4 @@
-# Copyright 1999-2025 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -8,7 +8,9 @@ PYTHON_COMPAT=( pypy3_11 python3_{11..14} )
 
 inherit distutils-r1 pypi
 
-DESCRIPTION="Python Rate-Limiter using Leaky-Bucket Algorimth Family"
+PYPI_PN="pyrate-limiter"
+
+DESCRIPTION="Python Rate-Limiter using Leaky-Bucket Algorithm Family"
 HOMEPAGE="
 	https://github.com/vutran1710/PyrateLimiter/
 	https://pypi.org/project/pyrate-limiter/
@@ -67,9 +69,4 @@ src_test() {
 
 	# Clean up afterwards
 	kill "$(<"${redis_pid}")" || die
-}
-
-python_test() {
-	# postgres tests require psycopg-pool
-	epytest -k "not postgres"
 }

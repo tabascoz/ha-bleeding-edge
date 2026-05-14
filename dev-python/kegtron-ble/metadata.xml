@@ -5,12 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">kegtron-ble</remote-id>
-    <remote-id type="github">bluetooth-devices/kegtron-ble</remote-id>
-    <maintainer status="active">
-      <name>Ernst Klamer</name>
-      <email>e.klamer@gmail.com</email>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

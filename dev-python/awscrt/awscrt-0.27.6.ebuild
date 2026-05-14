@@ -1,4 +1,4 @@
-# Copyright 2023 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -15,17 +15,16 @@ HOMEPAGE="
 	https://pypi.org/project/awscrt/
 "
 
-IUSE="test"
-
 LICENSE="Apache-2.0"
+IUSE="test"
 SLOT="0"
 KEYWORDS="~amd64"
 
+RESTRICT="!test? ( test )"
 
 #PATCHES=(
 #    "${FILESDIR}/awscrt-0.27.6-const-fix.patch"
 #)
-
 
 RDEPEND=""
 BDEPEND="
@@ -34,7 +33,9 @@ BDEPEND="
 		dev-python/boto3
 		dev-python/pytest
 		dev-python/websockets
-	)"
+	)
+"
+
 src_prepare() {
     # GCC 14+ treats memchr(const void*, ...) as returning const void*.
     # The wrapper returns void*, so explicitly cast to suppress -Werror=discarded-qualifiers.
@@ -50,4 +51,4 @@ python_install() {
     rm -rf "${D}$(python_get_sitedir)/tests" || die
 }
 
-distutils_enable_tests unittest
+distutils_enable_tests pytest

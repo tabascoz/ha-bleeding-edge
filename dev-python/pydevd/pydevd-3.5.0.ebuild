@@ -9,6 +9,8 @@ PYTHON_COMPAT=( python3_{11..14} )
 
 inherit distutils-r1 toolchain-funcs
 
+PYPI_PN="pydevd"
+
 TAG="pydev_debugger_${PV//./_}"
 MY_P="PyDev.Debugger-${TAG}"
 DESCRIPTION="PyDev.Debugger (used in PyDev, PyCharm and VSCode Python)"
@@ -89,49 +91,6 @@ src_compile() {
 
 	# C extensions
 	rm -r _pydevd* || die
-}
-
-python_test() {
-	local EPYTEST_DESELECT=(
-		# TODO
-		# NB: upstream seems to run tests via runfiles.py but that script
-		# is a horror and it seems broken for us anyway
-		tests_python/test_debugger.py::test_attach_to_pid_halted
-		tests_python/test_debugger.py::test_attach_to_pid_no_threads
-		'tests_python/test_debugger.py::test_path_translation[False]'
-		tests_python/test_debugger_json.py::test_attach_to_pid
-		tests_python/test_debugger_json.py::test_case_sys_exit_multiple_exception_attach
-		tests_python/test_debugger_json.py::test_evaluate_exception_trace
-		tests_python/test_debugger_json.py::test_gui_event_loop_custom
-		tests_python/test_debugger_json.py::test_path_translation_and_source_reference
-		tests_python/test_utilities.py::test_tracing_basic
-		tests_python/test_utilities.py::test_tracing_other_threads
-		# incompatible with xdist
-		tests_python/test_utilities.py::test_find_main_thread_id
-		tests_python/test_utilities.py::test_is_main_thread
-		# numpy-2?
-		tests_python/test_debugger_json.py::test_evaluate_numpy
-	)
-
-	case ${EPYTHON} in
-		python3.11)
-			EPYTEST_DESELECT+=(
-				tests_python/test_debugger.py::test_frame_eval_limitations
-				tests_python/test_debugger.py::test_remote_debugger_threads
-			)
-			;;
-		python3.12)
-			EPYTEST_DESELECT+=(
-				# flaky
-				tests_python/test_debugger_json.py::test_step_next_step_in_multi_threads
-			)
-			;;
-	esac
-
-	# this is only used to compare against getpid() to detect that xdist
-	# is being used
-	local -x PYDEV_MAIN_PID=1
-	epytest
 }
 
 python_install_all() {

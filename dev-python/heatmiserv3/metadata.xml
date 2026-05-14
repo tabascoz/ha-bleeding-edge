@@ -5,8 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">requests</remote-id>
-    <remote-id type="github">psf/requests</remote-id>
-  </upstream>
 </pkgmetadata>

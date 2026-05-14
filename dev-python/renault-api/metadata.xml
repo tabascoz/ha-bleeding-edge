@@ -5,11 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">renault-api</remote-id>
-    <remote-id type="github">hacf-fr/renault-api</remote-id>
-    <maintainer status="active">
-      <name>epenet</name>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

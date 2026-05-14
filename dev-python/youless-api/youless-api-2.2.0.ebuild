@@ -1,4 +1,4 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -8,7 +8,8 @@ DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
 DESCRIPTION="A bridge for python to the YouLess sensor"
-HOMEPAGE="https://github.com/gjong/youless-python-bridge/ https://pypi.org/project/youless-api/"
+HOMEPAGE="https://github.com/gjong/youless-python-bridge/ \
+	https://pypi.org/project/youless-api/"
 
 LICENSE="MIT"
 SLOT="0"

@@ -5,12 +5,7 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">weatherflowudp</remote-id>
-    <remote-id type="github">WeatherFlow/WeatherFlowUDP</remote-id>
-    <maintainer status="active">
-      <name>WeatherFlow</name>
-    </maintainer>
-    <doc>https://weatherflow.com/</doc>
-  </upstream>
+  <longdescription lang="en">
+    Python library for WeatherFlow UDP data
+  </longdescription>
 </pkgmetadata>

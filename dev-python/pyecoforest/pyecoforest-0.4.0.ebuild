@@ -1,4 +1,4 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -18,6 +18,8 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
+PYPI_PN="pyecoforest"
+
 RDEPEND="dev-python/httpx[${PYTHON_USEDEP}]"
 BDEPEND="
 	test? (
@@ -25,10 +27,7 @@ BDEPEND="
 		dev-python/pytest-cov[${PYTHON_USEDEP}]
 		dev-python/pytest-asyncio[${PYTHON_USEDEP}]
 		dev-python/respx[${PYTHON_USEDEP}]
-	)"
-
-python_test() {
-	py.test -v -v || die
-}
+	)
+"
 
 distutils_enable_tests pytest

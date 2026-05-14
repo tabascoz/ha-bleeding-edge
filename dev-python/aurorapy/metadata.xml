@@ -5,12 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">aurorapy</remote-id>
-    <remote-id type="gitlab">energievalsabbia/aurorapy</remote-id>
-    <maintainer status="active">
-      <name>Claudio Catterina</name>
-      <email>ccatterina@energievalsabbia.it</email>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

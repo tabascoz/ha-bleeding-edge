@@ -5,12 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">somfy-mylink-synergy</remote-id>
-    <remote-id type="github">bendews/somfy-mylink-synergy</remote-id>
-    <maintainer status="active">
-      <name>Ben Dews</name>
-      <email>contact@bendews.com</email>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

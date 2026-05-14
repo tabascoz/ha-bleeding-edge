@@ -1,4 +1,4 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -22,7 +22,7 @@ DOCS="README.md"
 RDEPEND="
 	>=dev-python/aiohttp-3.8.6[${PYTHON_USEDEP}]
 	=dev-python/music-assistant-models-1.1.115[${PYTHON_USEDEP}]
-	>=dev-python/orjson-3.9[${PYTHON_USEDEP}]
+	>=dev-python/orjson-3.11.8[${PYTHON_USEDEP}]
 "
 
 BDEPEND="
@@ -38,7 +38,11 @@ BDEPEND="
 "
 
 src_prepare() {
-	echo -ne '\n[build-system]\nrequires = ["setuptools"]\nbuild-backend = "setuptools.build_meta"\n' >> pyproject.toml || die
+	echo -ne '
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+' >> pyproject.toml || die
 	default
 }
 

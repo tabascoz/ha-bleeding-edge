@@ -5,12 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">azure-kusto-data</remote-id>
-    <remote-id type="github">Azure/azure-kusto-python</remote-id>
-    <maintainer status="active">
-      <name>Microsoft Corporation</name>
-      <email>kustalk@microsoft.com</email>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

@@ -5,12 +5,7 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">inquirerpy</remote-id>
-    <remote-id type="github">kazhala/InquirerPy</remote-id>
-    <maintainer status="active">
-      <name>Kevin Zhuang</name>
-      <email>kevin7441@gmail.com</email>
-    </maintainer>
-  </upstream>
+  <longdescription lang="en">
+    Interactive command line prompts for Python
+  </longdescription>
 </pkgmetadata>

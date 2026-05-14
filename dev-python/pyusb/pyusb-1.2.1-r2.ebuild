@@ -1,4 +1,4 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -24,7 +24,6 @@ PATCHES=(
 	"${FILESDIR}"/${P}-setuptools.patch
 )
 
-python_test() {
-	cd tests || die
-	"${EPYTHON}" testall.py || die "Tests failed with ${EPYTHON}"
-}
+PYPI_PN="pyusb"
+
+distutils_enable_tests pytest

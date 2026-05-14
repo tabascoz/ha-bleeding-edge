@@ -5,8 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">voluptuous-serialize</remote-id>
-    <remote-id type="github">home-assistant-libs/voluptuous-serialize</remote-id>
-  </upstream>
 </pkgmetadata>

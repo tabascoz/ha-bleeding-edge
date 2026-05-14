@@ -5,8 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">aiounifi</remote-id>
-    <remote-id type="github">Kane610/aiounifi</remote-id>
-  </upstream>
 </pkgmetadata>

@@ -1,4 +1,4 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -18,23 +18,25 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND=">=dev-python/aio-geojson-client-0.21[${PYTHON_USEDEP}]
+RDEPEND="
+	>=dev-python/aio-geojson-client-0.21[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-3.7.4[${PYTHON_USEDEP}]
 	<dev-python/aiohttp-4[${PYTHON_USEDEP}]
 	>=dev-python/geojson-3.1.0[${PYTHON_USEDEP}]
-	>=dev-python/pytz-2019.01[${PYTHON_USEDEP}]"
+	>=dev-python/pytz-2019.01[${PYTHON_USEDEP}]
+"
 
 BDEPEND="
-    dev-python/setuptools[${PYTHON_USEDEP}]
-    test? (
-        dev-python/pytest-asyncio[${PYTHON_USEDEP}]
-        dev-python/pytest-timeout[${PYTHON_USEDEP}]
-        dev-python/pytest-xdist[${PYTHON_USEDEP}]
-        dev-python/pytest-cov[${PYTHON_USEDEP}]
-        dev-python/coverage[${PYTHON_USEDEP}]
-        dev-python/mock[${PYTHON_USEDEP}]
-        dev-python/aioresponses[${PYTHON_USEDEP}]
-    )
+	dev-python/setuptools[${PYTHON_USEDEP}]
+	test? (
+		dev-python/pytest-asyncio[${PYTHON_USEDEP}]
+		dev-python/pytest-timeout[${PYTHON_USEDEP}]
+		dev-python/pytest-xdist[${PYTHON_USEDEP}]
+		dev-python/pytest-cov[${PYTHON_USEDEP}]
+		dev-python/coverage[${PYTHON_USEDEP}]
+		dev-python/mock[${PYTHON_USEDEP}]
+		dev-python/aioresponses[${PYTHON_USEDEP}]
+	)
 "
 
 distutils_enable_tests pytest

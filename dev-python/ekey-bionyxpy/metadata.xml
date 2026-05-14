@@ -5,8 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">ekey-bionyxpy</remote-id>
-    <remote-id type="github">richardpolzer/ekey-bionyx-api</remote-id>
-  </upstream>
 </pkgmetadata>

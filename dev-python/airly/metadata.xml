@@ -5,12 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">airly</remote-id>
-    <remote-id type="github">ak-ambi/python-airly</remote-id>
-    <maintainer status="active">
-      <name>Paweł Stankowski</name>
-      <email>ak_ambi@op.pl</email>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

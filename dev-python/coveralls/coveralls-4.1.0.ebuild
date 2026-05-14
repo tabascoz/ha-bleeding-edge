@@ -1,4 +1,4 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -19,14 +19,14 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.rst"
 
-RDEPEND=">=dev-python/coverage-5.0[${PYTHON_USEDEP}]
-	<dev-python/coverage-8.0[${PYTHON_USEDEP}]
-	>=dev-python/docopt-0.6.1[${PYTHON_USEDEP}]
-	>=dev-python/requests-1.0.0[${PYTHON_USEDEP}]
-	<dev-python/requests-3.0.0[${PYTHON_USEDEP}]
-	>=dev-python/typer-0.12.0[${PYTHON_USEDEP}]
-	<dev-python/typer-1.0.0[${PYTHON_USEDEP}]
-	yaml? ( >=dev-python/pyyaml-3.10[${PYTHON_USEDEP}]
+RDEPEND=">=dev-python/coverage-5.0[${PYTHON_USEDEP}] \
+	<dev-python/coverage-8.0[${PYTHON_USEDEP}] \
+	>=dev-python/docopt-0.6.1[${PYTHON_USEDEP}] \
+	>=dev-python/requests-1.0.0[${PYTHON_USEDEP}] \
+	<dev-python/requests-3.0.0[${PYTHON_USEDEP}] \
+	>=dev-python/typer-0.12.0[${PYTHON_USEDEP}] \
+	<dev-python/typer-1.0.0[${PYTHON_USEDEP}] \
+	yaml? ( >=dev-python/pyyaml-3.10[${PYTHON_USEDEP}] \
 		<dev-python/pyyaml-7.0[${PYTHON_USEDEP}] )"
 
 distutils_enable_tests pytest

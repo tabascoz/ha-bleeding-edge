@@ -5,12 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">anthemav</remote-id>
-    <remote-id type="github">nugget/python-anthemav</remote-id>
-    <maintainer status="active">
-      <name>David McNett</name>
-      <email>nugget@macnugget.org</email>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

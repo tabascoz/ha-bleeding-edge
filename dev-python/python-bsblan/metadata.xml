@@ -5,12 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">bsblan</remote-id>
-    <remote-id type="github">liudger/python-bsblan</remote-id>
-    <maintainer status="active">
-      <name>Willem-Jan van Rootselaaar</name>
-      <email>liudgervr@gmail.com</email>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

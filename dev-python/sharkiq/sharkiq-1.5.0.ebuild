@@ -1,4 +1,4 @@
-# Copyright 1999-2025 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -27,12 +27,9 @@ BDEPEND="
 	)"
 
 src_prepare() {
-	echo -e "aiohttp>=3.8.1\nrequests>=2.27.1" > requirements.txt
+	echo -e "aiohttp>=3.8.1
+requests>=2.27.1" > requirements.txt
 	eapply_user
-}
-
-python_test() {
-	py.test -v -v || die
 }
 
 distutils_enable_tests pytest

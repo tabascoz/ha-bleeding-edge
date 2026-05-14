@@ -5,8 +5,5 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">gTTS</remote-id>
-    <remote-id type="github">pndurette/gTTS</remote-id>
-  </upstream>
+  <longdescription>Library and CLI tool to interface with Google Text-to-Speech API.</longdescription>
 </pkgmetadata>

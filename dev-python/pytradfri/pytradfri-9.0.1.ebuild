@@ -1,4 +1,4 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -16,7 +16,10 @@ KEYWORDS="amd64 arm arm64 x86"
 IUSE="async test"
 RESTRICT="!test? ( test )"
 
-RDEPEND="async? ( dev-python/aiocoap[${PYTHON_USEDEP}] dev-python/DTLSSocket[${PYTHON_USEDEP}] )"
+RDEPEND="async? (
+		dev-python/aiocoap[${PYTHON_USEDEP}]
+		dev-python/DTLSSocket[${PYTHON_USEDEP}]
+	)"
 
 DOCS="README.md"
 
@@ -27,9 +30,5 @@ DEPEND="${DEPEND}
 		>=dev-python/pytest-timeout-2.1.0[${PYTHON_USEDEP}]
 		dev-python/flake8[${PYTHON_USEDEP}]
 	)"
-
-python_test() {
-	py.test -v -v || die
-}
 
 distutils_enable_tests pytest

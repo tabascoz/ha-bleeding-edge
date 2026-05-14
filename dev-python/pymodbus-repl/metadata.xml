@@ -5,12 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">modbus-repl</remote-id>
-    <remote-id type="github">pyModbus/pymodbus-repl</remote-id>
-    <maintainer status="active">
-      <name>pyModbus Team</name>
-    </maintainer>
-    <doc>https://pymodbus.readthedocs.io/</doc>
-  </upstream>
 </pkgmetadata>

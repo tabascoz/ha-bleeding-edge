@@ -29,4 +29,6 @@ BDEPEND="
     )
 "
 
-#distutils_enable_tests pytest
+RESTRICT="!test? ( test )"
+
+distutils_enable_tests pytest

@@ -5,12 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">proliphix</remote-id>
-    <remote-id type="github">sdague/proliphix</remote-id>
-    <maintainer status="active">
-      <name>Sean Dague</name>
-      <email>sean@dague.net</email>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

@@ -5,12 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">pure-python-adb</remote-id>
-    <remote-id type="github">Swind/pure-python-adb</remote-id>
-    <maintainer status="active">
-      <name>Swind Ou</name>
-      <email>swind@cloudmosa.com</email>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

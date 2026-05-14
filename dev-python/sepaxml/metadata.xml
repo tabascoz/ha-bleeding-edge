@@ -5,12 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">sepaxml</remote-id>
-    <remote-id type="github">raphaelm/python-sepaxml</remote-id>
-    <maintainer status="active">
-      <name>Raphael Michel</name>
-      <email>mail@raphaelmichel.de</email>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

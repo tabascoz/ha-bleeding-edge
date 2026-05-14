@@ -1,4 +1,4 @@
-# Copyright 1999-2025 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -19,5 +19,11 @@ DOCS="README.md"
 
 RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]
 	>=dev-python/meteocalc-1.1.0[${PYTHON_USEDEP}]"
+
+BDEPEND="
+	test? (
+		dev-python/pytest
+	)
+"
 
 distutils_enable_tests pytest

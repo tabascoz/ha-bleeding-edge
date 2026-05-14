@@ -5,12 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">Tibber</remote-id>
-    <remote-id type="github">Danielhiversen/pyTibber</remote-id>
-    <maintainer status="active">
-      <name>Daniel Hjelseth Hoyer</name>
-      <email>mail@dahoiv.net</email>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

@@ -1,4 +1,4 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -17,8 +17,8 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND=">dev-python/aiohttp-3.9[${PYTHON_USEDEP}]
-	>dev-python/orjson-3.9[${PYTHON_USEDEP}]
+RDEPEND=">dev-python/aiohttp-3.9-r0[${PYTHON_USEDEP}]
+	>dev-python/orjson-3.11.8[${PYTHON_USEDEP}]
 	>=dev-python/pyotp-2.9[${PYTHON_USEDEP}]
 	>=dev-python/segno-1.5.2[${PYTHON_USEDEP}]"
 BDEPEND="

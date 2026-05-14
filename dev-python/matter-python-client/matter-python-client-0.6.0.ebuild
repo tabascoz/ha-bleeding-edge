@@ -19,7 +19,7 @@ KEYWORDS="~amd64 ~arm64 ~x86"
 RDEPEND="
 	dev-python/aiohttp[${PYTHON_USEDEP}]
 	dev-python/dacite[${PYTHON_USEDEP}]
-	dev-python/orjson[${PYTHON_USEDEP}]
+	>=dev-python/orjson-3.9.9[${PYTHON_USEDEP}]
 "
 
 BDEPEND="${RDEPEND}"

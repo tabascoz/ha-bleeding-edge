@@ -5,8 +5,7 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">ha-silabs-firmware-client</remote-id>
-    <remote-id type="github">home-assistant-libs/ha-silabs-firmware-client</remote-id>
-  </upstream>
+  <longdescription lang="en">
+    ha-silabs-firmware-client is a Python library for interacting with Silabs firmware.
+  </longdescription>
 </pkgmetadata>

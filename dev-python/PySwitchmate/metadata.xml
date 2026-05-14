@@ -5,11 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">PySwitchmate</remote-id>
-    <remote-id type="github">Danielhiversen/pySwitchmate</remote-id>
-    <maintainer status="active">
-      <name>Daniel Hjelseth Hoyer</name>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

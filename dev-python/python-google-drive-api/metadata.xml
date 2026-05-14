@@ -5,12 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">google-drive-api</remote-id>
-    <remote-id type="github">m4ce/google-drive-api-python</remote-id>
-    <maintainer status="active">
-      <name>Matteo Cerutti</name>
-      <email>matteo.cerutti@hotmail.co.uk</email>
-    </maintainer>
-  </upstream>
 </pkgmetadata>

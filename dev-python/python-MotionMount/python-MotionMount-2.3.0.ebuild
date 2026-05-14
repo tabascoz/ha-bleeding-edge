@@ -1,11 +1,10 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
-#PYPI_NO_NORMALIZE=1
 inherit distutils-r1 pypi
 DESCRIPTION="Control your MotionMount Signature TVM7675 Pro using Python"
 HOMEPAGE="https://github.com/vogelsproducts/python-MotionMount https://pypi.org/project/python-MotionMount/"
@@ -29,3 +28,4 @@ EOF
     distutils-r1_python_prepare_all
 }
 
+    distutils_enable_tests pytest

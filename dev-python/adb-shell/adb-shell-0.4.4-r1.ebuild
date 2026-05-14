@@ -1,4 +1,4 @@
-# Copyright 1999-2025 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -17,8 +17,10 @@ RESTRICT="!test? ( test )"
 DOCS="README.rst"
 
 RDEPEND="
-	async? ( >=dev-python/aiofiles-0.4.0[${PYTHON_USEDEP}]
-			 $(python_gen_cond_dep 'dev-python/async-timeout[${PYTHON_USEDEP}]' python3_10) )
+	async? (
+		>=dev-python/aiofiles-0.4.0[${PYTHON_USEDEP}]
+		$(python_gen_cond_dep 'dev-python/async-timeout[${PYTHON_USEDEP}]' python3_10)
+	)
 	dev-python/cryptography[${PYTHON_USEDEP}]
 	|| ( dev-python/pyasn1[${PYTHON_USEDEP}] dev-python/pysnmp-pyasn1[${PYTHON_USEDEP}] )
 	dev-python/rsa[${PYTHON_USEDEP}]

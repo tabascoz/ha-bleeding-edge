@@ -5,8 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">orjson</remote-id>
-    <remote-id type="github">ijl/orjson</remote-id>
-  </upstream>
 </pkgmetadata>

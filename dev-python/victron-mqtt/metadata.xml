@@ -5,9 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <upstream>
-    <remote-id type="pypi">victron-mqtt</remote-id>
-    <remote-id type="github">tomer-w/victron_mqtt#readme</remote-id>
-    <remote-id type="github">tomer-w/victron_mqtt</remote-id>
-  </upstream>
 </pkgmetadata>

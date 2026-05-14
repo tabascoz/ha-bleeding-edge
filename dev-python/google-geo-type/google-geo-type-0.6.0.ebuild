@@ -9,7 +9,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 inherit distutils-r1 pypi
 
 DESCRIPTION="Google Geo Type API client library - Protobuf definitions for geo types (Viewport, etc.)"
-HOMEPAGE="https://github.com/googleapis/google-cloud-python/tree/main/packages/google-geo-type
+HOMEPAGE="https://github.com/googleapis/google-cloud-python/tree/main/packages/google-geo-type\
     https://pypi.org/project/google-geo-type/"
 
 SRC_URI="$(pypi_sdist_url)"
