@@ -510,7 +510,7 @@ RDEPEND="${RDEPEND}
 	hassio? ( ~dev-python/aiohasupervisor-0.4.3[${PYTHON_USEDEP}] )
 	hdfury? ( ~dev-python/hdfury-1.6.0[${PYTHON_USEDEP}] )
 	hdmi_cec? ( ~dev-python/pyCEC-0.5.2[${PYTHON_USEDEP}] )
-	heatmiser? ( ~dev-python/heatmiserV3-2.0.4[${PYTHON_USEDEP}] )
+	heatmiser? ( ~dev-python/heatmiserv3-2.0.4[${PYTHON_USEDEP}] )
 	hegel? ( ~dev-python/hegel-ip-client-0.1.4[${PYTHON_USEDEP}] )
 	heos? ( ~dev-python/pyheos-1.0.6[${PYTHON_USEDEP}] )
 	here_travel_time? ( ~dev-python/here-routing-1.2.0[${PYTHON_USEDEP}] ~dev-python/here-transit-1.2.1[${PYTHON_USEDEP}] )

@@ -1,10 +1,10 @@
-# Copyright 1999-2025 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
 DISTUTILS_USE_PEP517=setuptools
 DISTUTILS_SINGLE_IMPL=1
-PYTHON_COMPAT=( pypy3_11 python3_{11..14} )
+PYTHON_COMPAT=( python3_{11..14} )
 
 inherit readme.gentoo-r1 distutils-r1
 
@@ -17,7 +17,6 @@ else
 	inherit pypi
 	MY_P=${P/_beta/b}
 	MY_PV=${PV/_beta/b}
-#	SRC_URI="https://github.com/${PN}/${PN}/archive/${MY_PV}.tar.gz"
 	S="${WORKDIR}/${MY_P}/"
 fi
 
@@ -32,44 +31,50 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND="
-	$(python_gen_cond_dep '
-	        server? ( acct-group/esphome acct-user/esphome ~dev-embedded/esphome-dashboard-20260425.0[${PYTHON_USEDEP}] ~dev-python/tornado-6.5.5[${PYTHON_USEDEP}] )
-		>=dev-python/cryptography-46.0.7[${PYTHON_USEDEP}]
-		~dev-python/voluptuous-0.16.0[${PYTHON_USEDEP}]
-		>=dev-python/pyyaml-6.0.3[${PYTHON_USEDEP}]
-		>=dev-python/paho-mqtt-1.6.1[${PYTHON_USEDEP}]
-		~dev-python/colorama-0.4.6[${PYTHON_USEDEP}]
-		~dev-python/icmplib-3.0.4[${PYTHON_USEDEP}]
-		~dev-python/tzlocal-5.3.1[${PYTHON_USEDEP}]
-		>=dev-python/tzdata-10001[${PYTHON_USEDEP}]
-		~dev-python/pyserial-3.5[${PYTHON_USEDEP}]
-		~dev-embedded/platformio-6.1.19[${PYTHON_USEDEP}]
-		~dev-embedded/esptool-5.2.0[${PYTHON_SINGLE_USEDEP}]
-		~dev-python/click-8.3.3[${PYTHON_USEDEP}]
-		dev-python/aioesphomeapi[${PYTHON_USEDEP}]
-		dev-python/zeroconf[${PYTHON_USEDEP}]
-		~dev-python/puremagic-1.30[${PYTHON_USEDEP}]
-		~dev-python/ruamel-yaml-0.19.1[${PYTHON_USEDEP}]
-		~dev-embedded/esphome-glyphsets-0.2.0[${PYTHON_USEDEP}]
-		dev-python/pillow[${PYTHON_USEDEP}]
-		~dev-python/resvg-py-0.3.1[${PYTHON_USEDEP}]
-		~dev-python/freetype-py-2.5.1[${PYTHON_USEDEP}]
-		~dev-python/jinja2-3.1.6[${PYTHON_USEDEP}]
-		>=dev-python/bleak-2.1.1[${PYTHON_USEDEP}]
-		>=dev-python/pyparsing-3.0[${PYTHON_USEDEP}]
-		>=dev-python/argcomplete-3.6.3[${PYTHON_USEDEP}]		
-	')"
+RDEPEND="$(python_gen_cond_dep '
+	server? (
+		acct-group/esphome
+		acct-user/esphome
+		~dev-embedded/esphome-dashboard-20260425.0[${PYTHON_USEDEP}]
+		~dev-python/tornado-6.5.5[${PYTHON_USEDEP}]
+	)
+	>=dev-python/cryptography-46.0.7[${PYTHON_USEDEP}]
+	~dev-python/voluptuous-0.16.0[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-6.0.3[${PYTHON_USEDEP}]
+	>=dev-python/paho-mqtt-1.6.1[${PYTHON_USEDEP}]
+	~dev-python/colorama-0.4.6[${PYTHON_USEDEP}]
+	~dev-python/icmplib-3.0.4[${PYTHON_USEDEP}]
+	~dev-python/tzlocal-5.3.1[${PYTHON_USEDEP}]
+	>=dev-python/tzdata-10001[${PYTHON_USEDEP}]
+	~dev-python/pyserial-3.5[${PYTHON_USEDEP}]
+	~dev-embedded/platformio-6.1.19[${PYTHON_USEDEP}]
+	~dev-embedded/esptool-5.2.0[${PYTHON_SINGLE_USEDEP}]
+	~dev-python/click-8.3.3[${PYTHON_USEDEP}]
+	dev-python/aioesphomeapi[${PYTHON_USEDEP}]
+	dev-python/zeroconf[${PYTHON_USEDEP}]
+	~dev-python/puremagic-2.2.0[${PYTHON_USEDEP}]
+	~dev-python/ruamel-yaml-0.19.1[${PYTHON_USEDEP}]
+	~dev-embedded/esphome-glyphsets-0.2.0[${PYTHON_USEDEP}]
+	dev-python/pillow[${PYTHON_USEDEP}]
+	~dev-python/resvg-py-0.3.1[${PYTHON_USEDEP}]
+	~dev-python/freetype-py-2.5.1[${PYTHON_USEDEP}]
+	~dev-python/jinja2-3.1.6[${PYTHON_USEDEP}]
+	>=dev-python/bleak-2.1.1[${PYTHON_USEDEP}]
+	>=dev-python/pyparsing-3.0[${PYTHON_USEDEP}]
+	>=dev-python/argcomplete-3.6.3[${PYTHON_USEDEP}]
+')"
 
 BDEPEND="$(python_gen_cond_dep '
+	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? (
+		dev-python/pytest[${PYTHON_USEDEP}]
 		dev-python/pytest-cov[${PYTHON_USEDEP}]
 		dev-python/pytest-mock[${PYTHON_USEDEP}]
 		dev-python/pytest-asyncio[${PYTHON_USEDEP}]
 		dev-python/asyncmock[${PYTHON_USEDEP}]
 		dev-python/hypothesis[${PYTHON_USEDEP}]
 	)
-	')"
+')"
 
 DISABLE_AUTOFORMATTING=1
 DOC_CONTENTS="
@@ -95,7 +100,7 @@ src_prepare() {
 	sed "/puremagic==/c\puremagic" -i requirements.txt || die
 
 	# esphome/components/font/__init__.py pillow version check
-	sed "s/10.2.0/10.3.0/g" -i esphome/components/font/__init__.py || die
+	#sed "s/10.2.0/10.3.0/g" -i esphome/components/font/__init__.py || die
 
 	eapply_user
 }
