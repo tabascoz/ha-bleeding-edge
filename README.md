@@ -15,43 +15,41 @@ The primary goal of this overlay is to provide **bleeding-edge versions** of Hom
 
 ## Important Notes
 
-- This work **heavily relies on packages and ebuilds from the original HomeAssistantRepository**. Most ebuilds are derived, synced, or directly based on the upstream work, with modifications to enable bleeding-edge versioning.
 - **Bleeding-edge means unstable**. These versions may introduce bugs, breaking changes, incomplete features, or dependency conflicts.
-- **Testing is encouraged, but use in production is not advised**. Always create full backups of your Home Assistant configuration and database before installing or updating packages from this overlay.
+- **Testing is encouraged, use in production at your discretion **. Always create full backups of your Home Assistant configuration and database before installing or updating packages from this overlay.
 
 ## Maintenance
 
-I am happy to work on additional ebuilds and USE flags to support more components **as time permits**. Contributions, bug reports, suggestions, and pull requests are very welcome!
+Most of the current HA components are translated in USE flags. I'll implement new flags **as time permits**. Contributions, bug reports, suggestions, and pull requests are very welcome!
 
 ## Current USE Flags (homeassistant-full)
 
-The `homeassistant-full` ebuild includes an extensive set of USE flags for optional integrations. The list below represents the flags that are currently available and **more or less tested** in my own setup:
+The `homeassistant-full` ebuild includes an extensive set of USE flags for optional integrations. The list below represents the flags that are currently available and **tested** in my own setup:
 
-aemet androidtv androidtv_remote apple_tv backup bluetooth bthome caldav camera cast co2signal deluge dht ecowitt esphome ffmpeg forecast_solar fully_kiosk google google_assistant_sdk google_cloud google_generative_ai_conversation google_photos google_translate google_weather growatt_server home_connect html5 http ibeacon influxdb inkbird iperf3 ipma ipp isal lg_soundbar lg_thinq luci mariadb marytts matter meteoalarm meteoclimatic mobile_app mosquitto mqtt mysql network notify_events ollama onvif open_meteo openai_conversation openexchangerates openweathermap otp ping plex profiler proxy pushover pvoutput python_script recorder rest roborock rtsp_to_webrtc samsungtv scrape shelly smartthings speedtestdotnet spotify sql stream systemd tasmota tesla_fleet teslemetry todoist tomorrowio tts tuya ubus upnp usb utility_meter version victron_ble weatherkit xiaomi_aqara xiaomi_ble xiaomi_miio zeroconf
+aemet androidtv androidtv_remote apple_tv backup bluetooth bthome camera cast co2signal deluge ecowitt esphome ffmpeg forecast_solar frontend fully_kiosk go2rtc google google_assistant_sdk google_cloud google_generative_ai_conversation google_photos google_translate google_weather growatt_server home_connect html5 ibeacon influxdb inkbird iperf3 ipma ipp isal lg_soundbar lg_thinq luci marytts matter meteoalarm meteoclimatic mobile_app mqtt network notify_events ollama omie onvif open_meteo openai_conversation openexchangerates openweathermap otp ping profiler proxy pushover pvoutput python_script recorder rest roborock samsungtv shelly smartthings speedtestdotnet spotify sql stream systemd tasmota tesla_fleet teslemetry thread todoist tomorrowio tts tuya ubus upnp usb utility_meter version victron_ble weatherkit xiaomi_aqara xiaomi_ble xiaomi_miio zeroconf
 
-> **Note**: This is only a partial preview of the full list. The complete list can be viewed with `eix app-misc/homeassistant-full` after syncing the overlay. Not every flag is exhaustively tested — some are still to be fully implemented. Feedback and requests are appreciated!
-> Homeassistant package is being maintained with all integrations and their correct dependency requests as per upstream, however the python dependencies themselves not part of the useflags above  are not being "all" actively maintained by be as it is a tremendous work. Pypi repository may have most of the dependencies. If you need support with a particular dependency or useflag, raise an Issue and I'll see what i can do.
+> Homeassistant package is being maintained with all integrations and their correct dependency requests as per upstream. Some dependencies have been bumped or downgraded to either keep compatibility with Gentoo and/or to test new functionality. 
+> 
 
-Ha and most of the HA ecossystem packages are ready and should be running fine with python3_14. 
+Overlay is tested with Python 3.14 only. Should also work with 3.13.  
 
 ## Installation
 
 Add the overlay to your system:
 
-1. Create the repos.conf entry:
+1. run
 
-```ini
-# /etc/portage/repos.conf/ha-bleeding-edge.conf
-[ha-bleeding-edge]
-location = /var/db/repos/ha-bleeding-edge
-sync-type = git
-sync-uri = https://github.com/tabascoz/ha-bleeding-edge.git
-auto-sync = yes
-priority = 50
+```
+eselect repository enable ha-bleeding-edge
 ```
 
-2. Sync the overlay:
 
+2. Sync the overlay(s):
+
+```
+emaint sync -r ha-bleeding-edge
+```
+optionally (recommended) run:
 ```
 emerge --sync
 ```
@@ -63,7 +61,6 @@ emerge -av app-misc/homeassistant-full
 ```
 
 Stay on the cutting edge — but test thoroughly! This overlay is inspired by and heavily based on the outstanding work in [onkelbeh/HomeAssistantRepository](https://github.com/onkelbeh/HomeAssistantRepository). Full credit to the original maintainers and all contributors.
-
 
 ## Update #1 2026-05
 
