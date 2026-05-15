@@ -5,4 +5,11 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">python-duco-connectivity</remote-id>
+    <remote-id type="github">ronaldvdmeer/python-duco-connectivity</remote-id>
+    <maintainer status="active">
+      <name>RonaldvdMeer</name>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

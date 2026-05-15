@@ -7,9 +7,9 @@
   </maintainer>
   <upstream>
     <remote-id type="pypi">duco-client</remote-id>
-    <remote-id type="github">DucatusNetwork/duco-client</remote-id>
+    <remote-id type="github">ronaldvdmeer/python-duco-client</remote-id>
     <maintainer status="active">
-      <name>Ducatus Network</name>
+      <name>RonaldvdMeer</name>
     </maintainer>
     <doc>https://ducatus.network</doc>
   </upstream>
