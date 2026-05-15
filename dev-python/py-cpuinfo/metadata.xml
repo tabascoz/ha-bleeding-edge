@@ -5,4 +5,11 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">py-cpuinfo</remote-id>
+    <remote-id type="github">s-matyukevich/py-cpuinfo</remote-id>
+    <maintainer status="active">
+      <name>Sergey Matyukevich</name>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

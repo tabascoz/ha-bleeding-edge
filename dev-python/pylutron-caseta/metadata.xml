@@ -5,4 +5,11 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">lutron-caseta</remote-id>
+    <remote-id type="github">pylutron/pylutron-caseta</remote-id>
+    <maintainer status="active">
+      <name>Pylutron Team</name>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

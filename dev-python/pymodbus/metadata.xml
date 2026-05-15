@@ -5,9 +5,12 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <use>
-    <flag name="repl">Enable REPL support.</flag>
-    <flag name="serial">Enable serial communication support.</flag>
-    <flag name="simulator">Enable simulator functionality.</flag>
-  </use>
+  <upstream>
+    <remote-id type="pypi">modbus</remote-id>
+    <remote-id type="github">ipal0/modbus</remote-id>
+    <maintainer status="active">
+      <name>Pal</name>
+      <email>ipal0can@gmail.com</email>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

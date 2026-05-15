@@ -5,4 +5,12 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">raspyrfm-client</remote-id>
+    <remote-id type="github">markusressel/raspyrfm-client</remote-id>
+    <maintainer status="active">
+      <name>Markus Ressel</name>
+      <email>mail@markusressel.de</email>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

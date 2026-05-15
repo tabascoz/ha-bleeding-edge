@@ -5,7 +5,11 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <longdescription>
-    Python API for Volvo Cars.
-  </longdescription>
+  <upstream>
+    <remote-id type="pypi">volvocarsapi</remote-id>
+    <remote-id type="github">thomasddn/volvo-cars-api</remote-id>
+    <maintainer status="active">
+      <name>thomasddn</name>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

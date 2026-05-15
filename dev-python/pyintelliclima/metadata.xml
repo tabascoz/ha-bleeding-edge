@@ -5,7 +5,8 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <longdescription lang="en">
-    The pyintelliclima package provides a Python interface for interacting with Intelliclima devices.
-  </longdescription>
+  <upstream>
+    <remote-id type="pypi">intelliclima</remote-id>
+    <remote-id type="github">pyintelliclima/pyintelliclima</remote-id>
+  </upstream>
 </pkgmetadata>

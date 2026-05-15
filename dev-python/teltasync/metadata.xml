@@ -5,7 +5,11 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <longdescription lang="en">
-    teltasync is a Python package for synchronizing files.
-  </longdescription>
+  <upstream>
+    <remote-id type="pypi">teltasync</remote-id>
+    <maintainer status="active">
+      <name>Karl Beecken</name>
+      <email>karl+teltasync@beecken.berlin</email>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

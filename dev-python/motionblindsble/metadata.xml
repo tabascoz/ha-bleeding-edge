@@ -5,7 +5,12 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <longdescription lang="en">
-Control motion blinds over BLE
-  </longdescription>
+  <upstream>
+    <remote-id type="pypi">motionblindsble</remote-id>
+    <remote-id type="github">LennP/motionblindsble</remote-id>
+    <maintainer status="active">
+      <name>LennP</name>
+      <email>lennperik@hotmail.nl</email>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

@@ -5,7 +5,7 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <use>
-    <flag name="cli">Enable command line interface support.</flag>
-  </use>
+  <upstream>
+    <remote-id type="pypi">gardena-bluetooth</remote-id>
+  </upstream>
 </pkgmetadata>

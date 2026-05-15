@@ -5,4 +5,12 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">aiovodafone</remote-id>
+    <remote-id type="github">chemelli74/aiovodafone</remote-id>
+    <maintainer status="active">
+      <name>Simone Chemelli</name>
+      <email>simone.chemelli@gmail.com</email>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

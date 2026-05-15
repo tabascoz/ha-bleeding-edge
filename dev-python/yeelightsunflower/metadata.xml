@@ -5,4 +5,12 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">yeelightsunflower</remote-id>
+    <remote-id type="github">lindsaymarkward/python-yeelight-sunflower</remote-id>
+    <maintainer status="active">
+      <name>Lindsay Ward</name>
+      <email>lindsay.ward@jcu.edu.au</email>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

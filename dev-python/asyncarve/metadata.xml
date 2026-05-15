@@ -5,4 +5,8 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">asyncarve</remote-id>
+    <remote-id type="github">arvetech/asyncarve</remote-id>
+  </upstream>
 </pkgmetadata>

@@ -5,4 +5,8 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">screenlogicpy</remote-id>
+    <remote-id type="github">dieselrabbit/screenlogicpy</remote-id>
+  </upstream>
 </pkgmetadata>

@@ -5,4 +5,8 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">evolutionhttp</remote-id>
+    <remote-id type="github">danielsmyers/evolutionhttp</remote-id>
+  </upstream>
 </pkgmetadata>

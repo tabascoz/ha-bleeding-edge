@@ -5,4 +5,12 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">annotatedyaml</remote-id>
+    <remote-id type="github">home-assistant-libs/annotatedyaml</remote-id>
+    <maintainer status="active">
+      <name>Home Assistant Devs</name>
+      <email>hello@home-assistant.io</email>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

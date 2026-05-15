@@ -5,4 +5,8 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">emulated-roku</remote-id>
+    <remote-id type="github">martonperei/emulated_roku</remote-id>
+  </upstream>
 </pkgmetadata>

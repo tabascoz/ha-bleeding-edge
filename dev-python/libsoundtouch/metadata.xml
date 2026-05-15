@@ -5,4 +5,12 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">libsoundtouch</remote-id>
+    <remote-id type="github">CharlesBlonde/libsoundtouch</remote-id>
+    <maintainer status="active">
+      <name>Charles Blonde</name>
+      <email>charles.blonde@gmail.com</email>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

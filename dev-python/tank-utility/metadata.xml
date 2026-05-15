@@ -5,4 +5,12 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">tank-utility</remote-id>
+    <maintainer status="active">
+      <name>Kris Molendyke</name>
+      <email>kris@k20e.com</email>
+    </maintainer>
+    <doc>https://git.io/k20e</doc>
+  </upstream>
 </pkgmetadata>

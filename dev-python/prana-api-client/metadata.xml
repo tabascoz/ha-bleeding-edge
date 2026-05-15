@@ -5,7 +5,8 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <longdescription lang="en">
-    The prana-api-client is a Python library for interacting with the Prana API.
-  </longdescription>
+  <upstream>
+    <remote-id type="pypi">prana-api-client</remote-id>
+    <remote-id type="github">YourUsername/prana-api-client</remote-id>
+  </upstream>
 </pkgmetadata>

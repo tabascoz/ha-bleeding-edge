@@ -5,7 +5,11 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <longdescription>
-    Crownstone UART library for Python
-  </longdescription>
+  <upstream>
+    <remote-id type="pypi">crownstone-uart</remote-id>
+    <remote-id type="github">crownstone/crownstone-lib-python-uart</remote-id>
+    <maintainer status="active">
+      <name>Crownstone B.V.</name>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

@@ -5,4 +5,8 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">awesomeversion</remote-id>
+    <remote-id type="github">ludeeus/awesomeversion</remote-id>
+  </upstream>
 </pkgmetadata>

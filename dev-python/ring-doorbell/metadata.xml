@@ -5,4 +5,11 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">ring-doorbell</remote-id>
+    <remote-id type="github">python-ring-doorbell/python-ring-doorbell</remote-id>
+    <maintainer status="active">
+      <name>python-ring-doorbell developers</name>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

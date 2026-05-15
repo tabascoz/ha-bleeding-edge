@@ -5,4 +5,12 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">asyncio-throttle</remote-id>
+    <remote-id type="github">hallazzang/asyncio-throttle</remote-id>
+    <maintainer status="active">
+      <name>Hanjun Kim</name>
+      <email>hallazzang@gmail.com</email>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

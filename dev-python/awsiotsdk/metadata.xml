@@ -5,4 +5,11 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">awsiotsdk</remote-id>
+    <remote-id type="github">aws/aws-iot-device-sdk-python-v2</remote-id>
+    <maintainer status="active">
+      <name>AWS SDK Common Runtime Team</name>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

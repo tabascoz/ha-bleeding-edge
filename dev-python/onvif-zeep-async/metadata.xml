@@ -5,4 +5,12 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">onvif-zeep-async</remote-id>
+    <remote-id type="github">hunterjm/python-onvif-zeep-async</remote-id>
+    <maintainer status="active">
+      <name>sinchb</name>
+      <email>sinchb128@gmail.com</email>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

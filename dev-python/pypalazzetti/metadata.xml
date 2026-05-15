@@ -5,7 +5,4 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <longdescription>
-    PyPalazzetti API for controlling Palazzetti stoves.
-  </longdescription>
 </pkgmetadata>

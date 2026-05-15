@@ -5,4 +5,11 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">iglo</remote-id>
+    <remote-id type="github">jesserockz/python-iglo</remote-id>
+    <maintainer status="active">
+      <name>Jesse Hills</name>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

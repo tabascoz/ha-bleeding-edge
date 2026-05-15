@@ -5,7 +5,12 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <use>
-    <flag name="async">Enable async support</flag>
-  </use>
+  <upstream>
+    <remote-id type="pypi">adb-shell</remote-id>
+    <remote-id type="github">JeffLIrion/adb_shell</remote-id>
+    <maintainer status="active">
+      <name>Jeff Irion</name>
+      <email>jefflirion@users.noreply.github.com</email>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

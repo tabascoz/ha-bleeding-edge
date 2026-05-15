@@ -5,4 +5,8 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">enocean-async</remote-id>
+    <remote-id type="github">henningkerstan/enocean-async</remote-id>
+  </upstream>
 </pkgmetadata>

@@ -5,4 +5,12 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">haversine</remote-id>
+    <remote-id type="github">mapado/haversine</remote-id>
+    <maintainer status="active">
+      <name>Julien Deniau</name>
+      <email>julien.deniau@mapado.com</email>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

@@ -5,4 +5,12 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">boschshcpy</remote-id>
+    <remote-id type="github">tschamm/boschshcpy</remote-id>
+    <maintainer status="active">
+      <name>Clemens-Alexander Brust, Thomas Schamm</name>
+      <email>cabrust@pm.me, thomas@tschamm.de</email>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

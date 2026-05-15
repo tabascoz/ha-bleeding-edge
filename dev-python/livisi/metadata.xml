@@ -5,7 +5,8 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <longdescription lang="en">
-    livisi is a Python library for interacting with Livisi devices.
-  </longdescription>
+  <upstream>
+    <remote-id type="pypi">livisi</remote-id>
+    <remote-id type="github">planbnet/livisi</remote-id>
+  </upstream>
 </pkgmetadata>

@@ -5,4 +5,12 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">ziggo-mediabox-xl</remote-id>
+    <remote-id type="github">b10m/ziggo_mediabox_xl</remote-id>
+    <maintainer status="active">
+      <name>Menno Blom</name>
+      <email>menno@b10m.net</email>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

@@ -5,4 +5,12 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">babel</remote-id>
+    <remote-id type="github">python-babel/babel</remote-id>
+    <maintainer status="active">
+      <name>Aarni Koskela</name>
+      <email>akx@iki.fi</email>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

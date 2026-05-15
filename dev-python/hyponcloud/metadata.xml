@@ -5,7 +5,8 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <longdescription lang="en">
-    hyponcloud is a Python library for interacting with the HyponCloud API.
-  </longdescription>
+  <upstream>
+    <remote-id type="pypi">hyponcloud</remote-id>
+    <remote-id type="github">jcisio/hyponcloud</remote-id>
+  </upstream>
 </pkgmetadata>

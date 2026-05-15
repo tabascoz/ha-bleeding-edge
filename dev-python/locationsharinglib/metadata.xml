@@ -5,7 +5,12 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <longdescription>
-    Library for accessing Google Location Sharing
-  </longdescription>
+  <upstream>
+    <remote-id type="pypi">locationsharinglib</remote-id>
+    <remote-id type="github">costastf/locationsharinglib</remote-id>
+    <maintainer status="active">
+      <name>Costas Tyfoxylos</name>
+      <email>costas.tyf@gmail.com</email>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

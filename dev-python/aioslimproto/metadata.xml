@@ -5,5 +5,7 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <longdescription>Asynchronous SLIM protocol implementation for Python.</longdescription>
+  <upstream>
+    <remote-id type="pypi">aioslimproto</remote-id>
+  </upstream>
 </pkgmetadata>

@@ -5,7 +5,8 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <longdescription lang="en">
-    The lunatone-rest-api-client is a Python library for interacting with the Lunatone REST API.
-  </longdescription>
+  <upstream>
+    <remote-id type="pypi">lunatone-rest-api-client</remote-id>
+    <remote-id type="gitlab">lunatone-public/lunatone-rest-api-client</remote-id>
+  </upstream>
 </pkgmetadata>

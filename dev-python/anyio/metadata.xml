@@ -5,4 +5,8 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">anyio</remote-id>
+    <remote-id type="github">agronholm/anyio</remote-id>
+  </upstream>
 </pkgmetadata>

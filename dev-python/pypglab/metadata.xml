@@ -5,5 +5,11 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <longdescription>Python library for PGLab</longdescription>
+  <upstream>
+    <remote-id type="pypi">pglab</remote-id>
+    <remote-id type="github">pglab/pglab</remote-id>
+    <maintainer status="active">
+      <name>PGLab Team</name>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

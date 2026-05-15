@@ -5,7 +5,11 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <longdescription lang="en">
-    Control Vizio Smart TVs and Sound Bars via network.
-  </longdescription>
+  <upstream>
+    <remote-id type="pypi">pyvizio</remote-id>
+    <remote-id type="github">samsmithnz/pyvizio</remote-id>
+    <maintainer status="active">
+      <name>Sam Smith</name>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

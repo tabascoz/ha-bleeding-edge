@@ -5,4 +5,12 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">sharp-aquos-rc</remote-id>
+    <remote-id type="github">jmoore987/sharp_aquos_rc</remote-id>
+    <maintainer status="active">
+      <name>Jeffrey Moore</name>
+      <email>jmoore987@yahoo.com</email>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

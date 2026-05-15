@@ -5,4 +5,11 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">boto3</remote-id>
+    <remote-id type="github">boto/boto3</remote-id>
+    <maintainer status="active">
+      <name>Amazon Web Services</name>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

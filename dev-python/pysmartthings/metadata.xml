@@ -5,7 +5,11 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <longdescription lang="en">
-    SmartThings API client library
-  </longdescription>
+  <upstream>
+    <remote-id type="pypi">smartthings</remote-id>
+    <remote-id type="github">smartthingscommunity/smartthings</remote-id>
+    <maintainer status="active">
+      <name>SmartThings Community</name>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

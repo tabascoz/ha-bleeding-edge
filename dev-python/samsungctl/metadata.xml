@@ -5,4 +5,12 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">samsungctl</remote-id>
+    <remote-id type="github">Ape/samsungctl</remote-id>
+    <maintainer status="active">
+      <name>Lauri Niskanen</name>
+      <email>ape@ape3000.com</email>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

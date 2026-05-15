@@ -5,4 +5,12 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">iometer</remote-id>
+    <remote-id type="github">iometer-gmbh/iometer.py</remote-id>
+    <maintainer status="active">
+      <name>jukrebs</name>
+      <email>justus@iometer.de</email>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

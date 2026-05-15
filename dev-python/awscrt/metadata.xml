@@ -5,4 +5,8 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">awscrt</remote-id>
+    <remote-id type="github">awslabs/aws-crt-python</remote-id>
+  </upstream>
 </pkgmetadata>

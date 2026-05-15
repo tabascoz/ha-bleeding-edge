@@ -5,4 +5,8 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">tomli</remote-id>
+    <remote-id type="github">hukkin/tomli</remote-id>
+  </upstream>
 </pkgmetadata>

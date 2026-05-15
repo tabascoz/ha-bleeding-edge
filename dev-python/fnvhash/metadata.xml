@@ -5,4 +5,8 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">fnvhash</remote-id>
+    <remote-id type="github">znerol/py-fnvhash</remote-id>
+  </upstream>
 </pkgmetadata>

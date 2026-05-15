@@ -5,4 +5,11 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">aiopvapi</remote-id>
+    <remote-id type="github">sander76/aio-powerview-api</remote-id>
+    <maintainer status="active">
+      <name>Sander Teunissen</name>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

@@ -5,4 +5,12 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">pmsensor</remote-id>
+    <remote-id type="github">open-homeautomation/pmsensor</remote-id>
+    <maintainer status="active">
+      <name>Daniel Matuschek</name>
+      <email>daniel@matuschek.net</email>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

@@ -5,4 +5,12 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">vallox-websocket-api</remote-id>
+    <remote-id type="github">yozik04/vallox_websocket_api</remote-id>
+    <maintainer status="active">
+      <name>Jevgeni Kiski</name>
+      <email>yozik04@gmail.com</email>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

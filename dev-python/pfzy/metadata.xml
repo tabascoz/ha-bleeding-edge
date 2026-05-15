@@ -5,4 +5,12 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">pfzy</remote-id>
+    <remote-id type="github">kazhala/pfzy</remote-id>
+    <maintainer status="active">
+      <name>Kevin Zhuang</name>
+      <email>kevin7441@gmail.com</email>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

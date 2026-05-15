@@ -5,7 +5,8 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <longdescription lang="en">
-    MVG library for Python
-  </longdescription>
+  <upstream>
+    <remote-id type="pypi">mvg</remote-id>
+    <remote-id type="github">mondbaron/mvg</remote-id>
+  </upstream>
 </pkgmetadata>

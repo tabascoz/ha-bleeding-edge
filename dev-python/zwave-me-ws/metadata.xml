@@ -5,4 +5,12 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">zwave-me-ws</remote-id>
+    <remote-id type="github">Z-Wave-Me/zwave-me-ws</remote-id>
+    <maintainer status="active">
+      <name>Dmitry Vlasov</name>
+      <email>kerbalspacema@gmail.com</email>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

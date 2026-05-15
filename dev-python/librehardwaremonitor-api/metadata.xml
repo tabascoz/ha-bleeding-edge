@@ -5,7 +5,8 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <longdescription lang="en">
-    The librehardwaremonitor-api is a Python library that provides access to hardware monitoring features.
-  </longdescription>
+  <upstream>
+    <remote-id type="pypi">librehardwaremonitor-api</remote-id>
+    <remote-id type="github">Sab44/librehardwaremonitor-api</remote-id>
+  </upstream>
 </pkgmetadata>

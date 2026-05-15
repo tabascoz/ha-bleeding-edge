@@ -5,4 +5,12 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">notify-events</remote-id>
+    <remote-id type="github">notify-events/python</remote-id>
+    <maintainer status="active">
+      <name>Notify.Events</name>
+      <email>support@notify.events</email>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

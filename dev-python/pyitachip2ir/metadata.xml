@@ -5,4 +5,12 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">itachip2ir</remote-id>
+    <remote-id type="github">thehappydinoa/itachip2ir</remote-id>
+    <maintainer status="active">
+      <name>Aidan Holland (thehappydinoa)</name>
+      <email>thehappydinoa@gmail.com</email>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

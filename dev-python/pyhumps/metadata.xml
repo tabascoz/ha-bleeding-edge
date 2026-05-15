@@ -5,7 +5,12 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <longdescription>
-    Python library for converting strings between snake_case and camelCase.
-  </longdescription>
+  <upstream>
+    <remote-id type="pypi">humps</remote-id>
+    <remote-id type="github">erikhuizinga/humps</remote-id>
+    <maintainer status="active">
+      <name>Erik Huizinga</name>
+      <email>huizinga.erik@gmail.com</email>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

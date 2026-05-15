@@ -5,4 +5,12 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">tikteck</remote-id>
+    <remote-id type="github">mjg59/python-tikteck</remote-id>
+    <maintainer status="active">
+      <name>Matthew Garrett</name>
+      <email>mjg59@srcf.ucam.org</email>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

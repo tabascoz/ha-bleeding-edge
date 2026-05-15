@@ -5,4 +5,9 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">homematicip</remote-id>
+    <remote-id type="github">hahn-th/homematicip-rest-api</remote-id>
+    <remote-id type="github">hahn-th/homematicip-rest-api.git</remote-id>
+  </upstream>
 </pkgmetadata>

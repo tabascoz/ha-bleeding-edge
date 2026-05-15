@@ -5,4 +5,8 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">prometheus-client</remote-id>
+    <remote-id type="github">prometheus/client_python</remote-id>
+  </upstream>
 </pkgmetadata>

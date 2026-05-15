@@ -5,4 +5,12 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">noiseprotocol</remote-id>
+    <remote-id type="github">plizonczyk/noiseprotocol</remote-id>
+    <maintainer status="active">
+      <name>Piotr Lizonczyk</name>
+      <email>plizonczyk.public@gmail.com</email>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

@@ -5,4 +5,12 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">pysnmp-pyasn1-modules</remote-id>
+    <remote-id type="github">pyasn1/pyasn1-modules</remote-id>
+    <maintainer status="active">
+      <name>pyasn1 developers</name>
+    </maintainer>
+    <doc>https://pyasn1.github.io/pyasn1-modules/</doc>
+  </upstream>
 </pkgmetadata>

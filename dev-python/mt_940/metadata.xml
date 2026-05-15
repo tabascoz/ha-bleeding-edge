@@ -5,7 +5,12 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <longdescription lang="en">
-    Library to parse MT940 files
-  </longdescription>
+  <upstream>
+    <remote-id type="pypi">mt-940</remote-id>
+    <remote-id type="github">WoLpH/mt940</remote-id>
+    <maintainer status="active">
+      <name>Rick van Hattem (wolph)</name>
+      <email>wolph@wol.ph</email>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

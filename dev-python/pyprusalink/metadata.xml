@@ -5,4 +5,12 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">prusalink</remote-id>
+    <remote-id type="github">prusa3d/Prusa-Link</remote-id>
+    <maintainer status="active">
+      <name>PrusaLink Developers</name>
+      <email>link@prusa3d.cz</email>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

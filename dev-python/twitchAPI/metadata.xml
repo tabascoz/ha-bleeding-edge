@@ -5,4 +5,12 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">twitchAPI</remote-id>
+    <remote-id type="github">Teekeks/pyTwitchAPI</remote-id>
+    <maintainer status="active">
+      <name>Lena "Teekeks" During</name>
+      <email>info@teawork.de</email>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

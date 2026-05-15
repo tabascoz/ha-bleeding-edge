@@ -5,4 +5,12 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">aioftp</remote-id>
+    <remote-id type="github">aio-libs/aioftp</remote-id>
+    <maintainer status="active">
+      <name>yieyu, rsichnyi, jw4js, oleksandr-kuzmenko, ndhansen, modelmat, greut, PonyPC, jacobtomlinson, bachya, CrafterKolyan, jkr78, sakosha</name>
+      <email>multisosnooley@gmail.com</email>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

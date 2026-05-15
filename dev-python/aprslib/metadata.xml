@@ -5,4 +5,12 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">aprslib</remote-id>
+    <remote-id type="github">rossengeorgiev/aprs-python</remote-id>
+    <maintainer status="active">
+      <name>Rossen Georgiev</name>
+      <email>hello@rgp.io</email>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

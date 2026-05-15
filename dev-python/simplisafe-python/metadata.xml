@@ -5,4 +5,13 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">simplisafe-python</remote-id>
+    <remote-id type="github">bachya/simplipy</remote-id>
+    <remote-id type="github">bachya/simplisafe-python</remote-id>
+    <maintainer status="active">
+      <name>Aaron Bach</name>
+      <email>bachya1208@gmail.com</email>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

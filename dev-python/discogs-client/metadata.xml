@@ -5,4 +5,12 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">discogs-client</remote-id>
+    <remote-id type="github">discogs/discogs_client</remote-id>
+    <maintainer status="active">
+      <name>Discogs</name>
+      <email>api@discogsinc.com</email>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

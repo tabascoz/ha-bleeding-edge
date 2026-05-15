@@ -5,4 +5,12 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">colorzero</remote-id>
+    <remote-id type="github">waveform80/colorzero</remote-id>
+    <maintainer status="active">
+      <name>Dave Jones</name>
+      <email>dave@waveform.org.uk</email>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

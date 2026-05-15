@@ -5,4 +5,12 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">faust-cchardet</remote-id>
+    <remote-id type="github">faust-streaming/cChardet</remote-id>
+    <maintainer status="active">
+      <name>PyYoshi</name>
+      <email>myoshi321go@gmail.com</email>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

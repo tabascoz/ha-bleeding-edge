@@ -5,7 +5,8 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <longdescription lang="en">
-    aiontfy is a Python library for asynchronous TensorFlow operations.
-  </longdescription>
+  <upstream>
+    <remote-id type="pypi">aiontfy</remote-id>
+    <remote-id type="github">tr4nt0r/aiontfy</remote-id>
+  </upstream>
 </pkgmetadata>

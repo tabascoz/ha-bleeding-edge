@@ -5,4 +5,8 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">aranet4</remote-id>
+    <remote-id type="github">Anrijs/Aranet4-Python</remote-id>
+  </upstream>
 </pkgmetadata>

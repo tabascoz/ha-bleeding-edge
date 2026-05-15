@@ -5,4 +5,8 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">opower</remote-id>
+    <remote-id type="github">tronikos/opower</remote-id>
+  </upstream>
 </pkgmetadata>

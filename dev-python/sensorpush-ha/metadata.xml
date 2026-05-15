@@ -5,4 +5,12 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">sensorpush-ha</remote-id>
+    <remote-id type="github">sstallion/sensorpush-ha</remote-id>
+    <maintainer status="active">
+      <name>Steven Stallion</name>
+      <email>sstallion@gmail.com</email>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

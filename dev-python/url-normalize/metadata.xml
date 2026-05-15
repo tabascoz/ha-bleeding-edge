@@ -5,4 +5,8 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">url-normalize</remote-id>
+    <remote-id type="github">niksite/url-normalize</remote-id>
+  </upstream>
 </pkgmetadata>

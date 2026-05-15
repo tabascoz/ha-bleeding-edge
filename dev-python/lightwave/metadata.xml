@@ -5,7 +5,12 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <longdescription>
-    Lightwave library for controlling LIFX devices.
-  </longdescription>
+  <upstream>
+    <remote-id type="pypi">lightwave</remote-id>
+    <remote-id type="github">GeoffAtHome/lightwave</remote-id>
+    <maintainer status="active">
+      <name>Geoff Soord</name>
+      <email>geoff@soord.org.uk</email>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

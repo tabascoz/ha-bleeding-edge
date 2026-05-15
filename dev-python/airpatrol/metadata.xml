@@ -5,7 +5,8 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <longdescription lang="en">
-    AirPatrol is a tool for monitoring and managing wireless networks.
-  </longdescription>
+  <upstream>
+    <remote-id type="pypi">airpatrol</remote-id>
+    <remote-id type="github">antondalgren/airpatrol</remote-id>
+  </upstream>
 </pkgmetadata>

@@ -5,4 +5,12 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">aliyun-python-sdk-core</remote-id>
+    <remote-id type="github">aliyun/aliyun-openapi-python-sdk</remote-id>
+    <maintainer status="active">
+      <name>Alibaba Cloud</name>
+      <email>alibaba-cloud-sdk-dev-team@list.alibaba-inc.com</email>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

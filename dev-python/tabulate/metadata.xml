@@ -5,4 +5,8 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">tabulate</remote-id>
+    <remote-id type="github">astanin/python-tabulate</remote-id>
+  </upstream>
 </pkgmetadata>

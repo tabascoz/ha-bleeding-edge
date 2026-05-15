@@ -5,4 +5,8 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">httpx-sse</remote-id>
+    <remote-id type="github">florimondmanca/httpx-sse</remote-id>
+  </upstream>
 </pkgmetadata>

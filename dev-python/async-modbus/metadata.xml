@@ -5,4 +5,12 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">async-modbus</remote-id>
+    <remote-id type="github">tiagocoutinho/async_modbus</remote-id>
+    <maintainer status="active">
+      <name>Tiago Coutinho</name>
+      <email>coutinhotiago@gmail.com</email>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

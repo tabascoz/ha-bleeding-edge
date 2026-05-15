@@ -5,4 +5,11 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">imaplib2</remote-id>
+    <remote-id type="github">jazzband/imaplib2</remote-id>
+    <maintainer status="active">
+      <name>Piers Lauder</name>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

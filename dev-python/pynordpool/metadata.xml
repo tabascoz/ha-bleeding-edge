@@ -5,4 +5,12 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">nordpool</remote-id>
+    <remote-id type="github">kipe/nordpool</remote-id>
+    <maintainer status="active">
+      <name>Kimmo Huoman</name>
+      <email>kipenroskaposti@gmail.com</email>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

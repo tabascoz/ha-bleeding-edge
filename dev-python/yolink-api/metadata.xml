@@ -5,4 +5,11 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">yolink-api</remote-id>
+    <remote-id type="github">YoSmart-Inc/yolink-api</remote-id>
+    <maintainer status="active">
+      <name>YoSmart</name>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

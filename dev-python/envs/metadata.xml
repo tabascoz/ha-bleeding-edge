@@ -5,7 +5,11 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <longdescription>
-    Environment management for Python projects.
-  </longdescription>
+  <upstream>
+    <remote-id type="pypi">envs</remote-id>
+    <maintainer status="active">
+      <name>Brian Jinwright</name>
+      <email>bjinwright@qwigo.com</email>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

@@ -5,4 +5,12 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">psnawp</remote-id>
+    <remote-id type="github">isFakeAccount/psnawp</remote-id>
+    <maintainer status="active">
+      <name>Yoshikage Kira</name>
+      <email>8bit_yoshikage_kira@proton.me</email>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

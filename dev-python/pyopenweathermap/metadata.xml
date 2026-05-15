@@ -5,4 +5,12 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">openweathermap</remote-id>
+    <remote-id type="github">alishekari/openweathermap</remote-id>
+    <maintainer status="active">
+      <name>Ali Shekari</name>
+      <email>alishekari1991@outlook.com</email>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

@@ -5,4 +5,8 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">mashumaro</remote-id>
+    <remote-id type="github">Fatal1ty/mashumaro</remote-id>
+  </upstream>
 </pkgmetadata>

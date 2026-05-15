@@ -5,4 +5,8 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">grpc-google-iam-v1</remote-id>
+    <remote-id type="github">googleapis/google-cloud-python</remote-id>
+  </upstream>
 </pkgmetadata>

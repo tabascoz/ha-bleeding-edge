@@ -5,4 +5,8 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">aioraven</remote-id>
+    <remote-id type="github">cottsay/aioraven</remote-id>
+  </upstream>
 </pkgmetadata>

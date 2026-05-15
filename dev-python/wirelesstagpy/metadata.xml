@@ -5,4 +5,12 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">wirelesstagpy</remote-id>
+    <remote-id type="github">sergeymaysak/wirelesstagpy</remote-id>
+    <maintainer status="active">
+      <name>Sergiy Maysak</name>
+      <email>sergey.maysak@gmail.com</email>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

@@ -5,4 +5,8 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">tesla-powerwall</remote-id>
+    <remote-id type="github">jrester/tesla_powerwall</remote-id>
+  </upstream>
 </pkgmetadata>

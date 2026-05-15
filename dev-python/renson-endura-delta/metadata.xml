@@ -5,4 +5,11 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">renson-endura-delta</remote-id>
+    <remote-id type="github">jimmyd-be/Renson-endura-delta-library</remote-id>
+    <maintainer status="active">
+      <name>JimmyD-be</name>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

@@ -5,4 +5,11 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">airnow</remote-id>
+    <remote-id type="github">pyairnow/pyairnow</remote-id>
+    <maintainer status="active">
+      <name>Derek K. Smith</name>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

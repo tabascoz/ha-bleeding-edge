@@ -5,4 +5,8 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">async-upnp-client</remote-id>
+    <remote-id type="github">StevenLooman/async_upnp_client</remote-id>
+  </upstream>
 </pkgmetadata>

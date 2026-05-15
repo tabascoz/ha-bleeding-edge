@@ -5,5 +5,8 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <longdescription>Python library for serial communication</longdescription>
+  <upstream>
+    <remote-id type="pypi">serialx</remote-id>
+    <remote-id type="github">puddly/serialx</remote-id>
+  </upstream>
 </pkgmetadata>

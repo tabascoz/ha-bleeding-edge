@@ -5,5 +5,8 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <longdescription>Python bindings for miniaudio library</longdescription>
+  <upstream>
+    <remote-id type="pypi">miniaudio</remote-id>
+    <remote-id type="github">irmen/pyminiaudio</remote-id>
+  </upstream>
 </pkgmetadata>

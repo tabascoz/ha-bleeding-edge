@@ -5,4 +5,12 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">batinfo</remote-id>
+    <remote-id type="github">nicolargo/batinfo</remote-id>
+    <maintainer status="active">
+      <name>Nicolas Hennion</name>
+      <email>nicolas@nicolargo.com</email>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

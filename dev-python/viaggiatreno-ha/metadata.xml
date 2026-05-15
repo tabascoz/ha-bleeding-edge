@@ -5,7 +5,8 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <longdescription lang="en">
-    Python library to interact with the ViaggiaTreno API.
-  </longdescription>
+  <upstream>
+    <remote-id type="pypi">viaggiatreno-ha</remote-id>
+    <remote-id type="github">monga/viaggiatreno_ha</remote-id>
+  </upstream>
 </pkgmetadata>

@@ -5,7 +5,8 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <use>
-    <flag name="http">Enable HTTP support.</flag>
-  </use>
+  <upstream>
+    <remote-id type="pypi">wyoming</remote-id>
+    <remote-id type="github">OHF-voice/wyoming</remote-id>
+  </upstream>
 </pkgmetadata>

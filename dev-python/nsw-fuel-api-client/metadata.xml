@@ -5,4 +5,12 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">nsw-fuel-api-client</remote-id>
+    <remote-id type="github">nickw444/nsw-fuel-api-client</remote-id>
+    <maintainer status="active">
+      <name>Nick Whyte</name>
+      <email>nick@nickwhyte.com</email>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

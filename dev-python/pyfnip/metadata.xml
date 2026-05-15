@@ -5,4 +5,8 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">fnip</remote-id>
+    <remote-id type="github">pyfnip/pyfnip</remote-id>
+  </upstream>
 </pkgmetadata>

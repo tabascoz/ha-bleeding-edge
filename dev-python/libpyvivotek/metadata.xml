@@ -5,4 +5,8 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">libpyvivotek</remote-id>
+    <remote-id type="github">HarlemSquirrel/python-vivotek</remote-id>
+  </upstream>
 </pkgmetadata>

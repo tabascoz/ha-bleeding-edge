@@ -5,4 +5,8 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">asyncinotify</remote-id>
+    <remote-id type="github">ProCern/asyncinotify</remote-id>
+  </upstream>
 </pkgmetadata>

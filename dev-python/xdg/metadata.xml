@@ -5,4 +5,12 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">xdg</remote-id>
+    <remote-id type="github">srstevenson/xdg-base-dirs</remote-id>
+    <maintainer status="active">
+      <name>Scott Stevenson</name>
+      <email>scott@stevenson.io</email>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

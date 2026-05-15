@@ -5,7 +5,12 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <longdescription lang="en">
-    Loqed API client library
-  </longdescription>
+  <upstream>
+    <remote-id type="pypi">loqedAPI</remote-id>
+    <remote-id type="github">cpolhout/loqedAPI</remote-id>
+    <maintainer status="active">
+      <name>Casper Polhout</name>
+      <email>cpolhout@gmail.com</email>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

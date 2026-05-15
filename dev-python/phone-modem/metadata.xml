@@ -5,4 +5,12 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">phone-modem</remote-id>
+    <remote-id type="github">tkdrob/phone_modem</remote-id>
+    <maintainer status="active">
+      <name>Robert Hillis</name>
+      <email>tkdrob4390@yahoo.com</email>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

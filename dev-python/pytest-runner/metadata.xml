@@ -5,4 +5,12 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">test-runner</remote-id>
+    <remote-id type="github">pytesting/test-runner</remote-id>
+    <maintainer status="active">
+      <name>Stephan Lukasczyk</name>
+      <email>python-test-runner@googlegroups.com</email>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

@@ -5,4 +5,12 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">openhomedevice</remote-id>
+    <remote-id type="github">bazwilliams/openhomedevice</remote-id>
+    <maintainer status="active">
+      <name>Barry John Williams</name>
+      <email>barry@bjw.me.uk</email>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

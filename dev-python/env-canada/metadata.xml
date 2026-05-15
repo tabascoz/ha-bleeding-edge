@@ -5,4 +5,8 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">env-canada</remote-id>
+    <remote-id type="github">michaeldavie/env_canada</remote-id>
+  </upstream>
 </pkgmetadata>

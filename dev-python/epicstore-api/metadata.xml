@@ -5,4 +5,11 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">epicstore-api</remote-id>
+    <remote-id type="github">SD4RK/epicstore_api</remote-id>
+    <maintainer status="active">
+      <name>SD4RK</name>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

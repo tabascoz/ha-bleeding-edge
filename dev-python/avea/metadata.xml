@@ -5,4 +5,11 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">avea</remote-id>
+    <remote-id type="github">k0rventen/avea</remote-id>
+    <maintainer status="active">
+      <name>k0rventen</name>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

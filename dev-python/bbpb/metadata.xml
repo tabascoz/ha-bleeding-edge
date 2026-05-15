@@ -5,4 +5,12 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">bbpb</remote-id>
+    <remote-id type="github">nccgroup/blackboxprotobuf</remote-id>
+    <maintainer status="active">
+      <name>Ryan Winkelmaier</name>
+      <email>ryan.winkelmaier@nccgroup.com</email>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

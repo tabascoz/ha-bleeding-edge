@@ -5,4 +5,12 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">asn1</remote-id>
+    <remote-id type="github">andrivet/python-asn1</remote-id>
+    <maintainer status="active">
+      <name>Sebastien Andrivet</name>
+      <email>sebastien@andrivet.com</email>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

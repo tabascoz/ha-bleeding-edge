@@ -5,7 +5,11 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <longdescription lang="en">
-    The Liebherr Home API allows you to interact with Liebherr home appliances.
-  </longdescription>
+  <upstream>
+    <remote-id type="pypi">liebherrhomeapi</remote-id>
+    <remote-id type="github">juliankrispel/liebherr-home-api</remote-id>
+    <maintainer status="active">
+      <name>Julian Krispel</name>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

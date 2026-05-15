@@ -5,4 +5,9 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">elkm1-lib</remote-id>
+    <remote-id type="github">gwww/elkm1</remote-id>
+    <remote-id type="github">gwww/elkm1.git</remote-id>
+  </upstream>
 </pkgmetadata>

@@ -5,4 +5,11 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">pyroute2</remote-id>
+    <remote-id type="github">scitools/pyroute2</remote-id>
+    <maintainer status="active">
+      <name>Alexander K. S. K.</name>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

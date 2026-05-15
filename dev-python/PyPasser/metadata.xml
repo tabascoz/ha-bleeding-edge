@@ -5,5 +5,11 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <longdescription>Python library for bypassing CAPTCHAs</longdescription>
+  <upstream>
+    <remote-id type="pypi">PyPasser</remote-id>
+    <remote-id type="github">xHossein/PyPasser</remote-id>
+    <maintainer status="active">
+      <name>xHossein</name>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

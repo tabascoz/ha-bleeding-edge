@@ -5,4 +5,11 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">kmtronic</remote-id>
+    <remote-id type="github">kmtronic/pykmtronic</remote-id>
+    <maintainer status="active">
+      <name>Unknown</name>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

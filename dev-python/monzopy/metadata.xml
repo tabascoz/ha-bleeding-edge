@@ -5,7 +5,8 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <longdescription lang="en">
-    Monzo API client for Python
-  </longdescription>
+  <upstream>
+    <remote-id type="pypi">monzopy</remote-id>
+    <remote-id type="github">JakeMartin-ICL/monzopy</remote-id>
+  </upstream>
 </pkgmetadata>

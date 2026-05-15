@@ -5,7 +5,8 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <longdescription lang="en">
-    Python bindings for resvg, a Rust library for rendering SVG images.
-  </longdescription>
+  <upstream>
+    <remote-id type="pypi">resvg</remote-id>
+    <remote-id type="github">briceyan/resvg-py</remote-id>
+  </upstream>
 </pkgmetadata>

@@ -5,4 +5,11 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">ps4-2ndscreen</remote-id>
+    <remote-id type="github">SonicMastr/ps4-2ndscreen</remote-id>
+    <maintainer status="active">
+      <name>SonicMastr</name>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

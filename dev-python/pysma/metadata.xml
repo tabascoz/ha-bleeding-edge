@@ -5,4 +5,12 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">sma</remote-id>
+    <remote-id type="gitlab">t.seppelt/sesmotifanalyser</remote-id>
+    <maintainer status="active">
+      <name>Tim Seppelt</name>
+      <email>t.seppelt-dev@posteo.de</email>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

@@ -5,4 +5,12 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">energyzero</remote-id>
+    <remote-id type="github">klaasnicolaas/python-energyzero</remote-id>
+    <maintainer status="active">
+      <name>Klaas Schoute</name>
+      <email>hello@student-techlife.com</email>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

@@ -5,4 +5,12 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">opensky</remote-id>
+    <remote-id type="github">shopkick/opensky</remote-id>
+    <maintainer status="active">
+      <name>Mahmoud Hashemi, Kurt Rose, and OpenSky contributors</name>
+      <email>mahmoud@shopkick.com</email>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

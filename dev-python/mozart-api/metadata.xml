@@ -5,4 +5,12 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">mozart-api</remote-id>
+    <remote-id type="github">bang-olufsen/mozart-open-api</remote-id>
+    <maintainer status="active">
+      <name>BangOlufsen</name>
+      <email>support@bang-olufsen.dk</email>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

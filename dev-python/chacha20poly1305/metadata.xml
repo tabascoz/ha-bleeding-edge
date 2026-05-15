@@ -5,5 +5,12 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <longdescription>Chacha20Poly1305 encryption library</longdescription>
+  <upstream>
+    <remote-id type="pypi">chacha20poly1305</remote-id>
+    <remote-id type="github">ph4r05/py-chacha20poly1305</remote-id>
+    <maintainer status="active">
+      <name>Dusan Klinec</name>
+      <email>dusan.klinec@gmail.com</email>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

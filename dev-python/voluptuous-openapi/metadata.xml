@@ -5,4 +5,8 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">voluptuous-openapi</remote-id>
+    <remote-id type="github">home-assistant-libs/voluptuous-openapi</remote-id>
+  </upstream>
 </pkgmetadata>

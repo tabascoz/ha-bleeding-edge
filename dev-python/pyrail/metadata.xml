@@ -5,4 +5,12 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">rail</remote-id>
+    <remote-id type="github">davidbailey/rail</remote-id>
+    <maintainer status="active">
+      <name>David Bailey</name>
+      <email>david@davidabailey.com</email>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

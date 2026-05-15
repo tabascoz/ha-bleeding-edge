@@ -5,4 +5,12 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">flux-led</remote-id>
+    <remote-id type="github">Danielhiversen/flux_led</remote-id>
+    <maintainer status="active">
+      <name>Daniel Hjelseth Høyer</name>
+      <email>mail@dahoiv.net</email>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

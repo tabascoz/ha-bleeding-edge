@@ -5,4 +5,8 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">bellows</remote-id>
+    <remote-id type="github">zigpy/bellows</remote-id>
+  </upstream>
 </pkgmetadata>

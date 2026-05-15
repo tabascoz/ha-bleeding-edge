@@ -5,4 +5,12 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">ovoenergy</remote-id>
+    <remote-id type="github">timmo001/ovoenergy</remote-id>
+    <maintainer status="active">
+      <name>Aidan Timson (Timmo)</name>
+      <email>aidan@timmo.dev</email>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

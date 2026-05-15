@@ -5,4 +5,12 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">hkavr</remote-id>
+    <remote-id type="github">Devqon/hkavr</remote-id>
+    <maintainer status="active">
+      <name>Sander Geerts</name>
+      <email>s.geerts@live.nl</email>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

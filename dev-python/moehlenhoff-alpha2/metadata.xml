@@ -5,4 +5,8 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">moehlenhoff-alpha2</remote-id>
+    <remote-id type="github">j-a-n/python-moehlenhoff-alpha2</remote-id>
+  </upstream>
 </pkgmetadata>

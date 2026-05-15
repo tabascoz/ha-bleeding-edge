@@ -5,4 +5,8 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">jaraco-functools</remote-id>
+    <remote-id type="github">jaraco/jaraco.functools</remote-id>
+  </upstream>
 </pkgmetadata>

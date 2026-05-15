@@ -5,4 +5,8 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">aiocomelit</remote-id>
+    <remote-id type="github">chemelli74/aiocomelit</remote-id>
+  </upstream>
 </pkgmetadata>

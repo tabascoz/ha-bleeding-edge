@@ -5,4 +5,8 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">firebase-messaging</remote-id>
+    <remote-id type="github">sdb9696/firebase-messaging</remote-id>
+  </upstream>
 </pkgmetadata>

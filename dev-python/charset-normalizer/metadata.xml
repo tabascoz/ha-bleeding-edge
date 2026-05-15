@@ -5,4 +5,8 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">charset-normalizer</remote-id>
+    <remote-id type="github">jawah/charset_normalizer</remote-id>
+  </upstream>
 </pkgmetadata>

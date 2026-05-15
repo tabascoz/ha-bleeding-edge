@@ -5,4 +5,12 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">habluetooth</remote-id>
+    <remote-id type="github">bluetooth-devices/habluetooth</remote-id>
+    <maintainer status="active">
+      <name>J. Nick Koston</name>
+      <email>bluetooth@koston.org</email>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

@@ -5,7 +5,8 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <longdescription lang="en">
-    The Azure Service Bus SDK for Python allows you to interact with the Azure Service Bus service.
-  </longdescription>
+  <upstream>
+    <remote-id type="pypi">azure-servicebus</remote-id>
+    <remote-id type="github">Azure/azure-sdk-for-python.git</remote-id>
+  </upstream>
 </pkgmetadata>

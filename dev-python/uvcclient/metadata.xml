@@ -5,4 +5,12 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">uvcclient</remote-id>
+    <remote-id type="github">uilibs/uvcclient</remote-id>
+    <maintainer status="active">
+      <name>Dan Smith</name>
+      <email>dsmith+uvcclient@danplanet.com</email>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

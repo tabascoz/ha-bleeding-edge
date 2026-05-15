@@ -5,4 +5,11 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">switchbee</remote-id>
+    <remote-id type="github">pyswitchbee/pyswitchbee</remote-id>
+    <maintainer status="active">
+      <name>Miklos Koren</name>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

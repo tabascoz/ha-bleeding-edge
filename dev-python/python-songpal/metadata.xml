@@ -5,4 +5,11 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">songpal</remote-id>
+    <remote-id type="github">karlch/smart-home</remote-id>
+    <maintainer status="active">
+      <name>Karl Choi</name>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

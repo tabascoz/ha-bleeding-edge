@@ -5,4 +5,7 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">elkoep-aio-mqtt</remote-id>
+  </upstream>
 </pkgmetadata>

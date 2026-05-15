@@ -5,7 +5,12 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <longdescription>
-    SleekXMPP is an elegant Python library for XMPP.
-  </longdescription>
+  <upstream>
+    <remote-id type="pypi">sleekxmppfs</remote-id>
+    <remote-id type="github">aszymanik/SleekXMPP</remote-id>
+    <maintainer status="active">
+      <name>Alex Szymanik</name>
+      <email>aszymanik@gmail.com</email>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

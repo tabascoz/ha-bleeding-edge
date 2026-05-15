@@ -5,7 +5,11 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <longdescription lang="en">
-    Python library for interfacing with Envisalink alarm systems
-  </longdescription>
+  <upstream>
+    <remote-id type="pypi">envisalink</remote-id>
+    <remote-id type="github">glenndandrea/envisalink</remote-id>
+    <maintainer status="active">
+      <name>Glenn D'Andrea</name>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

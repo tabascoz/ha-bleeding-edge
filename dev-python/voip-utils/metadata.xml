@@ -5,4 +5,8 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">voip-utils</remote-id>
+    <remote-id type="github">home-assistant-libs/voip-utils</remote-id>
+  </upstream>
 </pkgmetadata>

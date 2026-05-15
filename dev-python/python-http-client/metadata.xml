@@ -5,4 +5,12 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">http-client</remote-id>
+    <remote-id type="github">huynhminhson/http_client</remote-id>
+    <maintainer status="active">
+      <name>Minh Son Huynh</name>
+      <email>minhsonftu@gmail.com</email>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

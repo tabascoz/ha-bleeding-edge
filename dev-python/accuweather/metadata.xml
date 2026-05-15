@@ -5,4 +5,11 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">accuweather</remote-id>
+    <remote-id type="github">bieniu/accuweather</remote-id>
+    <maintainer status="active">
+      <name>Maciej Bieniek</name>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

@@ -5,4 +5,12 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">tautulli</remote-id>
+    <remote-id type="github">nwithan8/pytulli</remote-id>
+    <maintainer status="active">
+      <name>Nate Harris</name>
+      <email>nwithan8@users.noreply.github.com</email>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

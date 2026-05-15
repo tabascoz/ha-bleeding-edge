@@ -5,4 +5,8 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">sqlparse</remote-id>
+    <remote-id type="github">andialbrecht/sqlparse</remote-id>
+  </upstream>
 </pkgmetadata>

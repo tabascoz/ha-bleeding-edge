@@ -5,4 +5,14 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">cognito</remote-id>
+    <remote-id type="github">Cleverinsight/congito</remote-id>
+    <remote-id type="github">CleverInsight/cognito</remote-id>
+    <maintainer status="active">
+      <name>Bastin Robins .J</name>
+      <email>robin@cleverinsight.co</email>
+    </maintainer>
+    <doc>https://github.com/cleverinsight</doc>
+  </upstream>
 </pkgmetadata>

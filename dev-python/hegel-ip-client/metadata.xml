@@ -5,7 +5,8 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <longdescription lang="en">
-    The hegel-ip-client is a Python library for interacting with the Hegel IP service.
-  </longdescription>
+  <upstream>
+    <remote-id type="pypi">hegel-ip-client</remote-id>
+    <remote-id type="github">boazca/hegel-ip-client</remote-id>
+  </upstream>
 </pkgmetadata>

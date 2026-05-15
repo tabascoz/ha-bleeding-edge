@@ -5,4 +5,12 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">tinyhtml</remote-id>
+    <remote-id type="github">niklasf/python-tinyhtml</remote-id>
+    <maintainer status="active">
+      <name>Niklas Fiekas</name>
+      <email>niklas.fiekas@backscattering.de</email>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

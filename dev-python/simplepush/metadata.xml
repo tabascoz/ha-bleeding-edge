@@ -5,4 +5,8 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">simplepush</remote-id>
+    <remote-id type="github">simplepush/simplepush-python</remote-id>
+  </upstream>
 </pkgmetadata>

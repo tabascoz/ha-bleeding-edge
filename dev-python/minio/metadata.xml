@@ -5,4 +5,12 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">minio</remote-id>
+    <remote-id type="github">minio/minio-py</remote-id>
+    <maintainer status="active">
+      <name>MinIO, Inc.</name>
+      <email>dev@min.io</email>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

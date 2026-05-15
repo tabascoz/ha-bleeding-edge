@@ -5,4 +5,12 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">aiocache</remote-id>
+    <remote-id type="github">aio-libs/aiocache</remote-id>
+    <maintainer status="active">
+      <name>Manuel Miranda</name>
+      <email>manu.mirandad@gmail.com</email>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

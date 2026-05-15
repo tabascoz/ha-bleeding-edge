@@ -5,4 +5,8 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">gassist-text</remote-id>
+    <remote-id type="github">tronikos/gassist_text</remote-id>
+  </upstream>
 </pkgmetadata>

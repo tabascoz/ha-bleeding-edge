@@ -5,4 +5,8 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">openai</remote-id>
+    <remote-id type="github">openai/openai-python</remote-id>
+  </upstream>
 </pkgmetadata>

@@ -5,7 +5,8 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <longdescription lang="en">
-    cync is a tool for synchronizing files and directories.
-  </longdescription>
+  <upstream>
+    <remote-id type="pypi">cync</remote-id>
+    <remote-id type="github">ZacharyShonk/Cync</remote-id>
+  </upstream>
 </pkgmetadata>

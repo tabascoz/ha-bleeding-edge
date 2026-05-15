@@ -5,7 +5,11 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <use>
-    <flag name="qrcode">Enable QR code support</flag>
-  </use>
+  <upstream>
+    <remote-id type="pypi">HAP-python</remote-id>
+    <remote-id type="github">ikalchev/HAP-python</remote-id>
+    <maintainer status="active">
+      <name>Ivan Kalchev</name>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

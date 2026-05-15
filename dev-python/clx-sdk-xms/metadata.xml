@@ -5,4 +5,12 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">clx-sdk-xms</remote-id>
+    <remote-id type="github">clxcommunications/sdk-xms-python</remote-id>
+    <maintainer status="active">
+      <name>Robert Helgesson</name>
+      <email>robert@chaitsa.com</email>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

@@ -5,7 +5,8 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <use>
-    <flag name="cli">Enable command line interface support.</flag>
-  </use>
+  <upstream>
+    <remote-id type="pypi">aiohomeconnect</remote-id>
+    <remote-id type="github">MartinHjelmare/aiohomeconnect</remote-id>
+  </upstream>
 </pkgmetadata>

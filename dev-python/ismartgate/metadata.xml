@@ -5,4 +5,12 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">ismartgate</remote-id>
+    <remote-id type="github">bdraco/ismartgate</remote-id>
+    <maintainer status="active">
+      <name>Robbie Van Gorkom</name>
+      <email>nick@koston.org</email>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

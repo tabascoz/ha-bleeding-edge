@@ -5,7 +5,8 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <longdescription lang="en">
-    aioamazondevices is a Python library for interacting with Amazon devices.
-  </longdescription>
+  <upstream>
+    <remote-id type="pypi">aioamazondevices</remote-id>
+    <remote-id type="github">chemelli74/aioamazondevices</remote-id>
+  </upstream>
 </pkgmetadata>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <maintainer type="project">
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
+  </maintainer>
+  <upstream>
+    <remote-id type="pypi">coverage</remote-id>
+    <remote-id type="github">coveragepy/coveragepy</remote-id>
+    <maintainer status="active">
+      <name>Ned Batchelder and 253 others</name>
+      <email>ned@nedbatchelder.com</email>
+    </maintainer>
+  </upstream>
+</pkgmetadata>

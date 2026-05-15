@@ -5,4 +5,8 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">evohome-async</remote-id>
+    <remote-id type="github">zxdavb/evohome-async</remote-id>
+  </upstream>
 </pkgmetadata>

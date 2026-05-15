@@ -5,7 +5,11 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <longdescription lang="en">
-    Intesishome library for controlling Intesi smart home devices.
-  </longdescription>
+  <upstream>
+    <remote-id type="pypi">intesishome</remote-id>
+    <remote-id type="github">intesi/home</remote-id>
+    <maintainer status="active">
+      <name>Intesi Group</name>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

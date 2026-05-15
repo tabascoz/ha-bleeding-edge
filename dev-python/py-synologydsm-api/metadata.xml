@@ -5,4 +5,11 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">synologydsm-api</remote-id>
+    <remote-id type="github">hacf-fr/synologydsm-api</remote-id>
+    <maintainer status="active">
+      <name>Quentin POLLET (Quentame)</name>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

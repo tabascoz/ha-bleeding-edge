@@ -5,4 +5,8 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">linkplay</remote-id>
+    <remote-id type="github">linkplay/linkplay</remote-id>
+  </upstream>
 </pkgmetadata>

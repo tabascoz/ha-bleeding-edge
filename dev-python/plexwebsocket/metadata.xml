@@ -5,4 +5,12 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">plexwebsocket</remote-id>
+    <remote-id type="github">jjlawren/python-plexwebsocket</remote-id>
+    <maintainer status="active">
+      <name>Jason Lawrence</name>
+      <email>jjlawren@users.noreply.github.com</email>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

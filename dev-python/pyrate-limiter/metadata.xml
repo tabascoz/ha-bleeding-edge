@@ -5,4 +5,12 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">rate-limiter</remote-id>
+    <remote-id type="github">shuttl-tech/rate-limiter</remote-id>
+    <maintainer status="active">
+      <name>Sherub Thakur</name>
+      <email>sherub.thakur@shuttl.com</email>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

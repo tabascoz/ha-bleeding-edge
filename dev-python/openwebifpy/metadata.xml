@@ -5,4 +5,8 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">openwebifpy</remote-id>
+    <remote-id type="github">autinerd/openwebifpy</remote-id>
+  </upstream>
 </pkgmetadata>

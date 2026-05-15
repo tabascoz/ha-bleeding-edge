@@ -5,4 +5,12 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">airthings-cloud</remote-id>
+    <remote-id type="github">Danielhiversen/pyAirthings</remote-id>
+    <maintainer status="active">
+      <name>Daniel Hjelseth Høyer</name>
+      <email>github@dahoiv.net</email>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

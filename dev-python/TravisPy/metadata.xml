@@ -5,4 +5,12 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">TravisPy</remote-id>
+    <remote-id type="github">menegazzo/travispy</remote-id>
+    <maintainer status="active">
+      <name>Fabio Menegazzo</name>
+      <email>menegazzo@gmail.com</email>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

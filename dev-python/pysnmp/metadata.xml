@@ -5,4 +5,8 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">snmp</remote-id>
+    <remote-id type="github">charlestolley/python-snmp</remote-id>
+  </upstream>
 </pkgmetadata>

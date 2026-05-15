@@ -5,4 +5,11 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">carwings2</remote-id>
+    <remote-id type="github">davidf/pycarwings2</remote-id>
+    <maintainer status="active">
+      <name>David F.</name>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

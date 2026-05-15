@@ -5,4 +5,12 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">vacuum-map-parser-base</remote-id>
+    <remote-id type="github">PiotrMachowski/Python-package-vacuum-map-parser-base</remote-id>
+    <maintainer status="active">
+      <name>Piotr Machowski</name>
+      <email>piotr.machowski.dev@gmail.com</email>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

@@ -5,4 +5,8 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">webrtc-models</remote-id>
+    <remote-id type="github">home-assistant-libs/python-webrtc-models</remote-id>
+  </upstream>
 </pkgmetadata>

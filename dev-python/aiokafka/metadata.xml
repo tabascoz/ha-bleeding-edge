@@ -5,8 +5,8 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <use>
-    <flag name="all">Enable all optional features.</flag>
-    <flag name="gssapi">Enable GSSAPI support.</flag>
-  </use>
+  <upstream>
+    <remote-id type="pypi">aiokafka</remote-id>
+    <remote-id type="github">aio-libs/aiokafka</remote-id>
+  </upstream>
 </pkgmetadata>

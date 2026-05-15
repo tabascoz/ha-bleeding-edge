@@ -5,7 +5,12 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <longdescription>
-    pysnmp-pysmi is a tool for managing SNMP SMI MIBs.
-  </longdescription>
+  <upstream>
+    <remote-id type="pypi">pysnmp-pysmi</remote-id>
+    <remote-id type="github">pysnmp/pysmi</remote-id>
+    <maintainer status="active">
+      <name>Ilya Etingof</name>
+    </maintainer>
+    <doc>https://pysnmp.github.io/pysmi/</doc>
+  </upstream>
 </pkgmetadata>

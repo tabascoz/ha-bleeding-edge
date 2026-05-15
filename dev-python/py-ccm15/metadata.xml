@@ -5,4 +5,8 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">ccm15</remote-id>
+    <remote-id type="github">ccm15/ccm15</remote-id>
+  </upstream>
 </pkgmetadata>

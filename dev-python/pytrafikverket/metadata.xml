@@ -5,7 +5,11 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <longdescription lang="en">
-    Library for accessing Trafikverket API
-  </longdescription>
+  <upstream>
+    <remote-id type="pypi">trafikverket</remote-id>
+    <remote-id type="github">trafikverket/trafikverket</remote-id>
+    <maintainer status="active">
+      <name>John Doe</name>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

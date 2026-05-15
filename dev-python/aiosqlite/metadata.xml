@@ -5,4 +5,8 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">aiosqlite</remote-id>
+    <remote-id type="github">omnilib/aiosqlite</remote-id>
+  </upstream>
 </pkgmetadata>

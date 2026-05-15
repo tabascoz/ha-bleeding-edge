@@ -5,4 +5,8 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">webmin-xmlrpc</remote-id>
+    <remote-id type="github">autinerd/webmin-xmlrpc</remote-id>
+  </upstream>
 </pkgmetadata>

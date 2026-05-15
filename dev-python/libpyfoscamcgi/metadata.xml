@@ -5,4 +5,12 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">libpyfoscamcgi</remote-id>
+    <remote-id type="github">Foscam-wangzhengyu/libfoscamcgi</remote-id>
+    <maintainer status="active">
+      <name>Foscam-wangzhengyu</name>
+      <email>wangzhengyu@foscam.com</email>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

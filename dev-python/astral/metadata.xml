@@ -5,4 +5,12 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">astral</remote-id>
+    <remote-id type="github">sffjunkie/astral</remote-id>
+    <maintainer status="active">
+      <name>Simon Kennedy</name>
+      <email>sffjunkie+code@gmail.com</email>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

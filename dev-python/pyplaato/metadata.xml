@@ -5,4 +5,11 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">plaato</remote-id>
+    <remote-id type="github">plaato/plaato-python</remote-id>
+    <maintainer status="active">
+      <name>Plaato</name>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

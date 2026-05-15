@@ -5,7 +5,8 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <longdescription lang="en">
-    Control and monitor Midea smart devices using msmart-ng.
-  </longdescription>
+  <upstream>
+    <remote-id type="pypi">msmart-ng</remote-id>
+    <remote-id type="github">mill1000/midea-msmart</remote-id>
+  </upstream>
 </pkgmetadata>

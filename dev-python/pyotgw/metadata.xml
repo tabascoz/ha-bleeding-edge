@@ -5,4 +5,11 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">otgw</remote-id>
+    <remote-id type="github">otgw/otgw</remote-id>
+    <maintainer status="active">
+      <name>Johan H. van der Veen</name>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

@@ -5,4 +5,12 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">pdunehd</remote-id>
+    <remote-id type="github">valentinalexeev/pdunehd</remote-id>
+    <maintainer status="active">
+      <name>Valentin Alexeev</name>
+      <email>valentin.alekseev@gmail.com</email>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

@@ -5,7 +5,7 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <longdescription lang="en">
-    The HomeLink Integration API provides a way to interact with the HomeLink system.
-  </longdescription>
+  <upstream>
+    <remote-id type="pypi">homelink-integration-api</remote-id>
+  </upstream>
 </pkgmetadata>

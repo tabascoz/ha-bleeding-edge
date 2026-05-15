@@ -5,4 +5,12 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">unifiled</remote-id>
+    <remote-id type="github">florisvdk/unifiled</remote-id>
+    <maintainer status="active">
+      <name>Floris Van der krieken</name>
+      <email>git@florisvdk.net</email>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

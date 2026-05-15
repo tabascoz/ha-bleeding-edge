@@ -5,4 +5,12 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">titlecase</remote-id>
+    <remote-id type="github">ppannuto/python-titlecase</remote-id>
+    <maintainer status="active">
+      <name>Pat Pannuto</name>
+      <email>pat.pannuto+titlecase@gmail.com</email>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

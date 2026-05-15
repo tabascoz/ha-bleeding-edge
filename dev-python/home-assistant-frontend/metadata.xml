@@ -5,4 +5,8 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">home-assistant-frontend</remote-id>
+    <remote-id type="github">home-assistant/frontend</remote-id>
+  </upstream>
 </pkgmetadata>

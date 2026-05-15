@@ -5,7 +5,12 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <longdescription lang="en">
-Enum implementation for Python
-  </longdescription>
+  <upstream>
+    <remote-id type="pypi">aenum</remote-id>
+    <remote-id type="github">ethanfurman/aenum</remote-id>
+    <maintainer status="active">
+      <name>Ethan Furman</name>
+      <email>ethan@stoneleaf.us</email>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

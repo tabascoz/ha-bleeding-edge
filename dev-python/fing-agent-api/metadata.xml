@@ -5,4 +5,8 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">fing-agent-api</remote-id>
+    <remote-id type="github">fingltd/fing-agent-pyapi</remote-id>
+  </upstream>
 </pkgmetadata>

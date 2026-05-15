@@ -5,7 +5,8 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <longdescription lang="en">
-    aiolichess is an asynchronous Python library for interacting with the Lichess API.
-  </longdescription>
+  <upstream>
+    <remote-id type="pypi">aiolichess</remote-id>
+    <remote-id type="github">aryanhasgithub/aiolichess</remote-id>
+  </upstream>
 </pkgmetadata>

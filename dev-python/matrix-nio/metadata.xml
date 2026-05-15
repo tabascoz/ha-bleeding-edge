@@ -5,7 +5,8 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <use>
-    <flag name="e2e">Enable end-to-end encryption support.</flag>
-  </use>
+  <upstream>
+    <remote-id type="pypi">matrix-nio</remote-id>
+    <remote-id type="github">matrix-nio/matrix-nio</remote-id>
+  </upstream>
 </pkgmetadata>

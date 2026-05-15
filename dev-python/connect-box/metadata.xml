@@ -5,4 +5,12 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">connect-box</remote-id>
+    <remote-id type="github">home-assistant-ecosystem/python-connect-box</remote-id>
+    <maintainer status="active">
+      <name>Fabian Affolter</name>
+      <email>fabian@affolter-engineering.ch</email>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

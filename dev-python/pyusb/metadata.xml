@@ -5,4 +5,12 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">usb</remote-id>
+    <remote-id type="github">kchawla-pi/united-states-of-browsers</remote-id>
+    <maintainer status="active">
+      <name>kchawla-pi</name>
+      <email>kc.insight.pi@gmail.com</email>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

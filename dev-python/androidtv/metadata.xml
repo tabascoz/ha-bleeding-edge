@@ -5,4 +5,12 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">androidtv</remote-id>
+    <remote-id type="github">JeffLIrion/python-androidtv</remote-id>
+    <maintainer status="active">
+      <name>Jeff Irion</name>
+      <email>jefflirion@users.noreply.github.com</email>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

@@ -5,4 +5,11 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">qbittorrent-api</remote-id>
+    <remote-id type="github">rmartin16/qbittorrent-api</remote-id>
+    <maintainer status="active">
+      <name>Russell Martin</name>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

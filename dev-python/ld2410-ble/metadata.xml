@@ -5,4 +5,12 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">ld2410-ble</remote-id>
+    <remote-id type="github">930913/ld2410-ble</remote-id>
+    <maintainer status="active">
+      <name>930913</name>
+      <email>3722064+930913@users.noreply.github.com</email>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

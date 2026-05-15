@@ -5,4 +5,12 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">vtjp</remote-id>
+    <remote-id type="github">Miicroo/python-vasttrafik</remote-id>
+    <maintainer status="active">
+      <name>Per Sandström</name>
+      <email>per.j.sandstrom@gmail.com</email>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

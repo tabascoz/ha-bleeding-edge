@@ -5,4 +5,8 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">volkszaehler</remote-id>
+    <remote-id type="github">home-assistant-ecosystem/python-volkszaehler</remote-id>
+  </upstream>
 </pkgmetadata>

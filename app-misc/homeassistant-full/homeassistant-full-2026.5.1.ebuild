@@ -671,7 +671,7 @@ RDEPEND="${RDEPEND}
 	marytts? ( ~dev-python/speak2mary-1.5.0[${PYTHON_USEDEP}] )
 	mastodon? ( ~dev-python/Mastodon-py-2.2.1[${PYTHON_USEDEP}] )
 	matrix? ( ~dev-python/pillow-12.2.0[${PYTHON_USEDEP}] ~dev-python/aiofiles-25.1.0[${PYTHON_USEDEP}] ~dev-python/matrix-nio-0.25.2[${PYTHON_USEDEP}] )
-	matter? ( ~dev-python/matter-python-client-0.6.0[${PYTHON_USEDEP}] )
+	matter? ( ~dev-python/matter-python-client-0.6.0[${PYTHON_USEDEP}] net-misc/matterjs-server )
 	maxcube? ( ~dev-python/maxcube-api-0.4.3[${PYTHON_USEDEP}] )
 	mcp? ( ~dev-python/mcp-1.27.1[${PYTHON_USEDEP}] )
 	mcp_server? ( ~dev-python/aiohttp-sse-2.2.0[${PYTHON_USEDEP}] ~dev-python/anyio-4.12.1[${PYTHON_USEDEP}] ~dev-python/mcp-1.27.1[${PYTHON_USEDEP}] )

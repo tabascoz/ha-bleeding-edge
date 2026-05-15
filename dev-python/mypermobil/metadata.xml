@@ -5,4 +5,12 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">mypermobil</remote-id>
+    <remote-id type="github">IsakNyberg/MyPermobil-API</remote-id>
+    <maintainer status="active">
+      <name>Isak Nyberg</name>
+      <email>isak@nyberg.dev</email>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

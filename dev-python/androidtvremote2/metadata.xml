@@ -5,4 +5,8 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">androidtvremote2</remote-id>
+    <remote-id type="github">tronikos/androidtvremote2</remote-id>
+  </upstream>
 </pkgmetadata>

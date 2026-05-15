@@ -5,4 +5,8 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">ruuvitag-ble</remote-id>
+    <remote-id type="github">bluetooth-devices/ruuvitag-ble</remote-id>
+  </upstream>
 </pkgmetadata>

@@ -5,7 +5,12 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <longdescription>
-Utility functions for computer vision and image processing tasks
-  </longdescription>
+  <upstream>
+    <remote-id type="pypi">imutils</remote-id>
+    <remote-id type="github">jrosebr1/imutils</remote-id>
+    <maintainer status="active">
+      <name>Adrian Rosebrock</name>
+      <email>adrian@pyimagesearch.com</email>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

@@ -5,7 +5,8 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <longdescription lang="en">
-    Victron BLE HA Parser is a tool for parsing data from Victron devices over Bluetooth Low Energy.
-  </longdescription>
+  <upstream>
+    <remote-id type="pypi">victron-ble-ha-parser</remote-id>
+    <remote-id type="github">rajlaud/victron-ble-ha-parser</remote-id>
+  </upstream>
 </pkgmetadata>

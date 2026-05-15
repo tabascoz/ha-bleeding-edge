@@ -5,4 +5,12 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">aioeagle</remote-id>
+    <remote-id type="github">home-assistant-libs/aioeagle</remote-id>
+    <maintainer status="active">
+      <name>Paulus Schoutsen</name>
+      <email>paulus@paulusschoutsen.nl</email>
+    </maintainer>
+  </upstream>
 </pkgmetadata>

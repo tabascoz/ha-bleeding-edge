@@ -5,7 +5,8 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <longdescription lang="en">
-    solaredge-web is a Python library for interacting with the SolarEdge monitoring API.
-  </longdescription>
+  <upstream>
+    <remote-id type="pypi">solaredge-web</remote-id>
+    <remote-id type="github">tronikos/solaredge-web</remote-id>
+  </upstream>
 </pkgmetadata>

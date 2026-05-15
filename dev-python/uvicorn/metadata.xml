@@ -5,4 +5,9 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">uvicorn</remote-id>
+    <remote-id type="github">sponsors/encode</remote-id>
+    <remote-id type="github">Kludex/uvicorn</remote-id>
+  </upstream>
 </pkgmetadata>

@@ -5,4 +5,8 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">unicode-rbnf</remote-id>
+    <remote-id type="github">rhasspy/unicode-rbnf</remote-id>
+  </upstream>
 </pkgmetadata>

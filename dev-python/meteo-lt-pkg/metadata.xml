@@ -5,7 +5,8 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <use>
-    <flag name="dev">Enable development features.</flag>
-  </use>
+  <upstream>
+    <remote-id type="pypi">meteo-lt-pkg</remote-id>
+    <remote-id type="github">Brunas/meteo_lt-pkg</remote-id>
+  </upstream>
 </pkgmetadata>

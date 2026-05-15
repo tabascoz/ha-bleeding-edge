@@ -5,7 +5,8 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
-  <longdescription lang="en">
-    The Things Network client library for Python.
-  </longdescription>
+  <upstream>
+    <remote-id type="pypi">ttn-client</remote-id>
+    <remote-id type="github">angelnu/thethinksnetwork_python_client</remote-id>
+  </upstream>
 </pkgmetadata>

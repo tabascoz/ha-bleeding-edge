@@ -5,4 +5,8 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">insteon-frontend-home-assistant</remote-id>
+    <remote-id type="github">pyinsteon/insteon-panel</remote-id>
+  </upstream>
 </pkgmetadata>

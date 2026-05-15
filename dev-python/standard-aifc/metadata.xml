@@ -5,4 +5,8 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">standard-aifc</remote-id>
+    <remote-id type="github">youknowone/python-deadlib</remote-id>
+  </upstream>
 </pkgmetadata>

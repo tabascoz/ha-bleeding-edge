@@ -5,4 +5,8 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">idasen-ha</remote-id>
+    <remote-id type="github">abmantis/idasen-ha</remote-id>
+  </upstream>
 </pkgmetadata>

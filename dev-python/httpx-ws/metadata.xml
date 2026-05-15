@@ -5,4 +5,8 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <upstream>
+    <remote-id type="pypi">httpx-ws</remote-id>
+    <remote-id type="github">frankie567/httpx-ws</remote-id>
+  </upstream>
 </pkgmetadata>
