@@ -62,6 +62,21 @@ emerge -av app-misc/homeassistant-full
 
 Stay on the cutting edge — but test thoroughly! This overlay is inspired by and heavily based on the outstanding work in [onkelbeh/HomeAssistantRepository](https://github.com/onkelbeh/HomeAssistantRepository). Full credit to the original maintainers and all contributors.
 
+## Extra-ebuilds
+
+Some ebuilds present are not direct dependency of HA or it's depenency chain. They are here to support popoular community-based extensions, such as: 
+
+- Grott: https://github.com/johanmeijer/grott
+- Ha-llmvision: https://github.com/valentinfrlch/ha-llmvision
+- Midea-ac-py: https://github.com/mill1000/midea-ac-py
+- Esphome: https://esphome.io/
+- Solcast: https://github.com/BJReplay/ha-solcast-solar
+- Neakasa: https://github.com/timniklas/hass-neakasa
+- Tuya-local: https://github.com/make-all/tuya-local
+- Frigate: https://github.com/blakeblackshear/frigate-hass-integration
+
+( may do ebuilds for them) 
+
 ## Update #1 2026-05
 
 - Heavily cleaned up and tested wider range of useflags and successfull installation, so expect more stuff to work. Mind that is virtually impossible for me to test all their functionality. 
