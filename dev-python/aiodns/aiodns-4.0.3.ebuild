@@ -31,3 +31,5 @@ distutils_enable_tests pytest
 python_test() {
 	epytest --asyncio-mode=auto
 }
+
+PATCHES=( "${FILESDIR}/${P}-add-build.patch" )

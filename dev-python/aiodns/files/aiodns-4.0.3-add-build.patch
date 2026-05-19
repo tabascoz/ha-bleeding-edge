@@ -1,0 +1,10 @@
+--- a/pyproject.toml      2026-05-19 13:55:08.863572285 +0100
++++ b/pyproject.toml      2026-05-19 14:03:09.128476957 +0100
+@@ -36,6 +36,7 @@
+ [build-system]
+ # pycares required because of the fact that it's in the __init__ module
+ requires = ["setuptools", "pycares"]
++build-backend = "setuptools.build_meta"
+ 
+ [tool.setuptools]
+ # Disables inclusion of non-package data (like tests) in the wheel if they are in the sdist
