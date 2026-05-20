@@ -1,0 +1,32 @@
+[Unit]
+Description=Grott Growatt Inverter Monitor
+After=syslog.target
+After=network.target
+Wants=systemd-networkd-wait-online.service
+#Wants=mosquitto.service
+#Wants=influxdb.service
+#After=influxdb.service
+
+
+[Service]
+SyslogIdentifier=grott
+Type=simple
+User=root
+
+WorkingDirectory=/opt/grott/
+ExecStart=/usr/bin/python -u /opt/grott/grott.py -c /etc/grott/grott.ini -v
+##StandardInput=socket
+StandardOutput=journal
+LogLevelMax=2
+
+Restart=always
+RestartSec=5
+StartLimitInterval=10
+StartLimitBurst=5
+RuntimeMaxSec=43200
+
+# Give the script some time to startup
+TimeoutSec=120
+
+[Install]
+WantedBy=multi-user.target
