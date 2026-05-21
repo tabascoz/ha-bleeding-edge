@@ -1,0 +1,16 @@
+[Unit]
+Description= ESPHome Dashboard
+#After=network-online.target
+After=network.target
+Wants=network.target
+
+[Service]
+Type=simple
+User=esphome
+ExecStart=/usr/bin/esphome dashboard /var/lib/esphome/
+Restart=on-failure
+RestartSec=5s
+Environment="UV_CACHE_DIR=/var/lib/esphome/uv"
+
+[Install]
+WantedBy=multi-user.target

@@ -6,7 +6,7 @@ DISTUTILS_USE_PEP517=setuptools
 DISTUTILS_SINGLE_IMPL=1
 PYTHON_COMPAT=( python3_{11..14} )
 
-inherit readme.gentoo-r1 distutils-r1
+inherit readme.gentoo-r1 distutils-r1 systemd
 
 if [[ ${PV} == *9999* ]]; then
 	inherit git-r3
@@ -26,17 +26,24 @@ HOMEPAGE="https://github.com/esphome/esphome https://pypi.org/project/esphome/"
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~arm ~arm64 ~x86"
-IUSE="+server test"
+IUSE="+esphomeDashboard esphome-device-builder +systemd test"
+REQUIRED_USE="^^ ( esphomeDashboard esphome-device-builder )"
 RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
 RDEPEND="$(python_gen_cond_dep '
-	server? (
+	esphomeDashboard? (
 		acct-group/esphome
 		acct-user/esphome
 		~dev-embedded/esphome-dashboard-20260425.0[${PYTHON_USEDEP}]
 		~dev-python/tornado-6.5.5[${PYTHON_USEDEP}]
+	)
+        esphome-device-builder? (
+	    acct-group/esphome
+	    acct-user/esphome
+	    ~dev-embedded/esphome-device-builder-9999[${PYTHON_SINGLE_USEDEP}]
+	    ~dev-python/tornado-6.5.5[${PYTHON_USEDEP}]
 	)
 	>=dev-python/cryptography-48.0.0[${PYTHON_USEDEP}]
 	~dev-python/voluptuous-0.16.0[${PYTHON_USEDEP}]
@@ -78,13 +85,6 @@ BDEPEND="$(python_gen_cond_dep '
 ')"
 
 DISABLE_AUTOFORMATTING=1
-DOC_CONTENTS="
-The ESPHome dashboard listens on port 6052
-ESPHome configuration is in: /etc/${PN}
-dashboard command line arguments are configured in: /etc/conf.d/${PN}
-logging is to: /var/log/${PN}/{dashboard,warnings}.log
-support at https://git.edevau.net/onkelbeh/HomeAssistantRepository
-"
 
 src_prepare() {
 	sed "/aioesphomeapi==/c\aioesphomeapi" -i requirements.txt || die
@@ -109,19 +109,48 @@ src_prepare() {
 python_install_all() {
 	dodoc ${DOCS}
 	distutils-r1_python_install_all
-	if use server; then
-		keepdir "/etc/${PN}"
-		fowners -R "${PN}:${PN}" "/etc/${PN}"
+
+	if use esphomeDashboard; then
+	DOC_CONTENTS="
+The ESPHome dashboard listens on port 6052
+ESPHome configuration is in: /var/lib/${PN}
+dashboard command line arguments are configured in: /etc/conf.d/${PN}
+logging is to: /var/log/${PN}/{dashboard,warnings}.log
+support at github.com/tabascoz/ha-bleeding-edge
+"
+		keepdir "/var/lib/${PN}"
+		fowners -R "${PN}:${PN}" "/var/lib/${PN}"
 		keepdir "/var/log/${PN}"
 		fowners -R "${PN}:${PN}" "/var/log/${PN}"
 		newconfd "${FILESDIR}/${PN}.conf.d" "${PN}"
 		newinitd "${FILESDIR}/${PN}.init.d-r3" "${PN}"
 		readme.gentoo_create_doc
-	fi
+		if use systemd; then                                                                                                                                                                                           
+	            systemd_dounit "${FILESDIR}/esphomeDashboard.service"                                                                                                                                                                 
+	        fi  
+
+	elif use esphome-device-builder; then
+		DOC_CONTENTS="
+ESPHome device builder listens on port 6052
+Configuration is in: /etc/${PN}
+Device builder arguments are configured in: /etc/conf.d/${PN}
+Logging is to: /var/log/${PN}/{dashboard,warnings}.log
+Data directory: /var/lib/esphome-device-builder
+Support at https://git.edevau.net/onkelbeh/HomeAssistantRepository
+"
+		keepdir "/var/lib/${PN}"
+		fowners -R "${PN}:${PN}" "/var/lib/${PN}"
+		keepdir "/var/log/${PN}"
+		fowners -R "${PN}:${PN}" "/var/log/${PN}"
+		newconfd "${FILESDIR}/${PN}.conf.d" "${PN}"
+		newinitd "${FILESDIR}/${PN}.init.d-r3" "${PN}"
+		readme.gentoo_create_doc
+    fi
+
 }
 
 pkg_postinst() {
-	if use server; then
+	if use esphomeDashboard || use esphome-device-builder; then
 		readme.gentoo_print_elog
 	fi
 }
