@@ -133,7 +133,7 @@ RDEPEND="${RDEPEND}
 	~dev-python/pyyaml-6.0.3[${PYTHON_USEDEP}]
 	~dev-python/pyotp-2.9.0[${PYTHON_USEDEP}]
 	~dev-python/pyqrcode-1.2.1[${PYTHON_USEDEP}]
-	~dev-python/requests-2.33.1[${PYTHON_USEDEP}]
+	~dev-python/requests-2.34.2[${PYTHON_USEDEP}]
 	~dev-python/rf-protocols-2.2.0[${PYTHON_USEDEP}]
 	>=net-analyzer/scapy-2.6.1[${PYTHON_USEDEP}]
 	~dev-python/securetar-2026.4.1[${PYTHON_USEDEP}]
@@ -400,7 +400,7 @@ RDEPEND="${RDEPEND}
 	epson? ( ~dev-python/epson-projector-0.6.0[${PYTHON_USEDEP}] )
 	eq3btsmart? ( ~dev-python/eq3btsmart-2.3.0[${PYTHON_USEDEP}] )
 	escea? ( ~dev-python/pescea-1.0.12[${PYTHON_USEDEP}] )
-	esphome? ( ~dev-python/aioesphomeapi-44.24.1[${PYTHON_USEDEP}] ~dev-python/bleak-esphome-3.7.3[${PYTHON_USEDEP}] ~dev-python/esphome-dashboard-api-1.3.0[${PYTHON_USEDEP}] )
+	esphome? ( ~dev-python/aioesphomeapi-45.0.4[${PYTHON_USEDEP}] ~dev-python/bleak-esphome-3.7.3[${PYTHON_USEDEP}] ~dev-python/esphome-dashboard-api-1.3.0[${PYTHON_USEDEP}] )
 	essent? ( ~dev-python/essent-dynamic-pricing-0.3.1[${PYTHON_USEDEP}] )
 	etherscan? ( ~dev-python/python-etherscan-api-0.0.3[${PYTHON_USEDEP}] )
 	eufy? ( ~dev-python/lakeside-0.13[${PYTHON_USEDEP}] )

@@ -14,3 +14,10 @@ LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 DOCS="README.md"
+
+
+RDEPEND="
+	~dev-python/ruamel-yaml-0.19.1[${PYTHON_USEDEP}]
+	~dev-python/ruamel-yaml-clib-0.2.15[${PYTHON_USEDEP}]
+"
+
