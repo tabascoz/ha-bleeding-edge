@@ -52,8 +52,6 @@ src_install() {
     doins -r public/
     doins -r src/
     doins -r package.json
-
-    # Create symlink for easy access
     dosym ../share/${PN} /usr/lib/node_modules/${PN}
                                                                                                                                                                                                                  
     if use systemd; then                                                                                                                                                                                           

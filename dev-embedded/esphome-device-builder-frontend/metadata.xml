@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <maintainer type="project">
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
+  </maintainer>
+  <upstream>
+    <remote-id type="pypi">esphome-device-builder-frontend</remote-id>
+    <remote-id type="github">esphome/device-builder-frontend</remote-id>
+    <maintainer status="active">
+      <name>Open Home Foundation</name>
+      <email>hello@openhomefoundation.org</email>
+    </maintainer>
+  </upstream>
+</pkgmetadata>

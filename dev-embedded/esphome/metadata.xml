@@ -10,4 +10,8 @@
     <remote-id type="github">esphome/esphome</remote-id>
     <remote-id type="github">orgs/esphome</remote-id>
   </upstream>
+  <use>
+    <flag name="esphomeDashboard">Install ESPHome dashboard web interface (esphome-dashboard package)</flag>
+    <flag name="esphome-device-builder">Install ESPHome device builder (esphome-device-builder package)</flag>
+  </use>
 </pkgmetadata>
