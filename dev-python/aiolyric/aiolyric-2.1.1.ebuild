@@ -24,4 +24,17 @@ BDEPEND="
 		dev-python/pytest[${PYTHON_USEDEP}]
 	)"
 
+
+python_prepare_all() {
+	sed -i \
+		-e '/requirements_setup/d' \
+		-e '/requirements =/d' \
+		-e '/with open("requirements_setup.txt"/,/^$/d' \
+		-e '/with open("requirements.txt"/,/^$/d' \
+		-e 's/install_requires=requirements,/install_requires=[ "aiohttp", "packaging" ],/' \
+		setup.py || die
+
+	sed -i "s/version=\"2.0.2\"/version=\"${PV}\"/" setup.py || die
+	distutils-r1_python_prepare_all
+}
 distutils_enable_tests pytest

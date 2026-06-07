@@ -20,7 +20,7 @@ DOCS="README.rst"
 
 RDEPEND="
 	>=dev-python/protobuf-6.31.1[${PYTHON_USEDEP}]
-	<dev-python/protobuf-7.0.0[${PYTHON_USEDEP}]
+	<dev-python/protobuf-8.0.0[${PYTHON_USEDEP}]
 	>=dev-python/grpcio-${PV}[${PYTHON_USEDEP}]
 	>=dev-python/googleapis-common-protos-1.5.5[${PYTHON_USEDEP}]"
 BDEPEND="

@@ -28,7 +28,7 @@ RDEPEND="
 	>=dev-python/proto-plus-1.22.3[${PYTHON_USEDEP}]
 	<dev-python/proto-plus-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/protobuf-3.20.2[${PYTHON_USEDEP}]
-	<dev-python/protobuf-7.0.0[${PYTHON_USEDEP}]
+	<dev-python/protobuf-8.0.0[${PYTHON_USEDEP}]
 "
 BDEPEND="
 	>=dev-python/setuptools-68.0[${PYTHON_USEDEP}]

@@ -1267,7 +1267,6 @@ src_prepare() {
 		chmod u+x "${S}/tests/auth/providers/test_command_line_cmd.sh"
 	fi
 	sed -E -i "s/regex==[^ ]*/regex/g" -i homeassistant/package_constraints.txt || die
-	sed -E -i "s/uv==[^ ]*/uv/g" -i homeassistant/package_constraints.txt || die
 	distutils-r1_src_prepare
 }
 INSTALL_DIR="/opt/${MY_PN}"

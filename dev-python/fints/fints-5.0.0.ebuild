@@ -26,7 +26,7 @@ RDEPEND="dev-python/bleach[${PYTHON_USEDEP}]
 	>=dev-python/enum-tools-0.12.0[${PYTHON_USEDEP}]
 	<dev-python/enum-tools-0.13.0[${PYTHON_USEDEP}]
 	>=dev-python/lxml-6.0.2[${PYTHON_USEDEP}]
-	<dev-python/lxml-6.1.0[${PYTHON_USEDEP}]"
+	<dev-python/lxml-7.0.0[${PYTHON_USEDEP}]"
 BDEPEND="
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]

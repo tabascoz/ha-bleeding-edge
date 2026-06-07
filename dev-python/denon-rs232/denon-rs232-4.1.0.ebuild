@@ -18,7 +18,7 @@ IUSE="test"
 RESTRICT="!test? ( test )"
 
 RDEPEND="
-	>=dev-python/serialx-1.2.0[esphome,${PYTHON_USEDEP}]
+	>=dev-python/serialx-1.2.0[${PYTHON_USEDEP}]
 "
 BDEPEND="
 	test? (

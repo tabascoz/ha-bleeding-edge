@@ -21,7 +21,7 @@ DOCS="README.rst"
 RDEPEND="
 	>=dev-python/grpcio-${PV}[${PYTHON_USEDEP}]
 	>=dev-python/protobuf-6.31.1[${PYTHON_USEDEP}]
-	<dev-python/protobuf-7.0.0[${PYTHON_USEDEP}]"
+	<dev-python/protobuf-8.0.0[${PYTHON_USEDEP}]"
 BDEPEND="
 	>=dev-python/cython-3[${PYTHON_USEDEP}]
 	test? (

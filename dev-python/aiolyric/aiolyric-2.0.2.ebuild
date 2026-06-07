@@ -25,10 +25,6 @@ BDEPEND="
 	)"
 
 
-#src_prepare() {
-#	eapply ${FILESDIR}/aiolyric-2.0.2-setup-py.patch
-#	default
-#}
 python_prepare_all() {
 	sed -i \
 		-e '/requirements_setup/d' \

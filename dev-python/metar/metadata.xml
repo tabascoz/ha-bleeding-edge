@@ -2,12 +2,13 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
     <remote-id type="pypi">metar</remote-id>
-    <maintainer status="unknown">
+    <remote-id type="github">python-metar/python-metar</remote-id>
+    <maintainer status="active">
       <email>pollard@alum.mit.edu</email>
       <name>Tom Pollard</name>
     </maintainer>

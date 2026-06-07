@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <maintainer type="project">
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
+  </maintainer>
+  <upstream>
+    <remote-id type="pypi">ouman-eh-800-api</remote-id>
+    <remote-id type="github">Markus98/ouman-eh-800-api</remote-id>
+    <maintainer status="active">
+      <name>Markus Tuominen</name>
+      <email>Markus Tuominen <3738613+Markus98@users.noreply.github.com></email>
+    </maintainer>
+  </upstream>
+</pkgmetadata>

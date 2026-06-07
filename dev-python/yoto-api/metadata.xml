@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <maintainer type="project">
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
+  </maintainer>
+  <upstream>
+    <remote-id type="pypi">yoto-api</remote-id>
+    <remote-id type="github">cdnninja/yoto_api</remote-id>
+    <maintainer status="active">
+      <name>cdnninja</name>
+    </maintainer>
+  </upstream>
+</pkgmetadata>

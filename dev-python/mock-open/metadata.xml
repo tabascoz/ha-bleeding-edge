@@ -2,15 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
     <remote-id type="pypi">mock-open</remote-id>
     <remote-id type="github">nivbend/mock-open</remote-id>
-    <maintainer status="unknown">
-      <email>nivbend@gmail.com</email>
+    <maintainer status="active">
       <name>Niv Ben-David</name>
+      <email>nivbend@gmail.com</email>
     </maintainer>
   </upstream>
 </pkgmetadata>

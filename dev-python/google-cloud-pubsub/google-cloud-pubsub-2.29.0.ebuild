@@ -33,7 +33,7 @@ RDEPEND="
 	>=dev-python/opentelemetry-api-1.27.0[${PYTHON_USEDEP}]
 	>=dev-python/opentelemetry-sdk-1.27.0[${PYTHON_USEDEP}]
 	>=dev-python/protobuf-3.20.2[${PYTHON_USEDEP}]
-	<dev-python/protobuf-7.0.0[${PYTHON_USEDEP}]
+	<dev-python/protobuf-8.0.0[${PYTHON_USEDEP}]
 	>=dev-python/proto-plus-1.22.0[${PYTHON_USEDEP}]
 	<dev-python/proto-plus-2.0.0[${PYTHON_USEDEP}]
 "

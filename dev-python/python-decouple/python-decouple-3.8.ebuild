@@ -37,7 +37,6 @@ python_prepare_all() {
     requires = ["setuptools >= 68.0"]
     build-backend = "setuptools.build_meta"
 EOF
-
-    distutils_enable_tests pytest
     distutils-r1_python_prepare_all
 }
+distutils_enable_tests pytest

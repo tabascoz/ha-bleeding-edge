@@ -2,15 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
     <remote-id type="pypi">pytest-unordered</remote-id>
-    <remote-id type="github">utapyngo/pytest-unordered</remote-id>
-    <maintainer status="unknown">
-      <email>ut@pyngo.tom.ru</email>
-      <name>Ivan Zaikin</name>
+    <remote-id type="github">pytest-dev/pytest-unordered</remote-id>
+    <maintainer status="active">
+      <name>pytest-dev</name>
     </maintainer>
   </upstream>
 </pkgmetadata>

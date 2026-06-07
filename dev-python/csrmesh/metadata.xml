@@ -2,15 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
     <remote-id type="pypi">csrmesh</remote-id>
     <remote-id type="github">nkaminski/csrmesh</remote-id>
-    <maintainer status="unknown">
-      <email>nashkaminski@kaminski.io, tomas@salfischberger.nl</email>
+    <maintainer status="active">
       <name>Nash Kaminski, Tomas Salfischberger</name>
+      <email>nashkaminski@kaminski.io, tomas@salfischberger.nl</email>
     </maintainer>
   </upstream>
 </pkgmetadata>

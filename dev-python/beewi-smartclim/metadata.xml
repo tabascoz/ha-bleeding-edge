@@ -2,15 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
   </maintainer>
   <upstream>
     <remote-id type="pypi">beewi-smartclim</remote-id>
     <remote-id type="github">alemuro/beewi_smartclim</remote-id>
-    <maintainer status="unknown">
-      <email>hello@aleix.cloud</email>
+    <maintainer status="active">
       <name>alemuro</name>
+      <email>hello@aleix.cloud</email>
     </maintainer>
   </upstream>
 </pkgmetadata>
