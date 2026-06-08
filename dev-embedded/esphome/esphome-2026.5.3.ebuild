@@ -9,10 +9,11 @@ PYTHON_COMPAT=( python3_{11..14} )
 
 inherit readme.gentoo-r1 distutils-r1 systemd
 
-if [[ ${PV} == *9999* ]]; then
+if [[ ${PV} == 9999 ]]; then
     inherit git-r3
     EGIT_REPO_URI="https://github.com/esphome/esphome.git"
     EGIT_BRANCH="dev"
+    SRC_URI=""
     S="${WORKDIR}/${P}/"
     PROPERTIES="live"
 else
@@ -20,6 +21,7 @@ else
     MY_P=${P/_beta/b}
     MY_PV=${PV/_beta/b}
     S="${WORKDIR}/${MY_P}/"
+    KEYWORDS="~amd64 ~arm ~arm64 ~x86"
 fi
 
 DESCRIPTION="Make creating custom firmwares for ESP32/ESP8266 super easy."
@@ -27,7 +29,6 @@ HOMEPAGE="https://github.com/esphome/esphome https://pypi.org/project/esphome/"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64 ~arm ~arm64 ~x86"
 IUSE="+esphomeDashboard esphome-device-builder +systemd test"
 REQUIRED_USE="^^ ( esphomeDashboard esphome-device-builder )"
 RESTRICT="!test? ( test )"
