@@ -56,7 +56,7 @@ RDEPEND="$(python_gen_cond_dep '
     >=dev-python/tzdata-10001[${PYTHON_USEDEP}]
     ~dev-python/pyserial-3.5[${PYTHON_USEDEP}]
     ~dev-embedded/platformio-6.1.19[${PYTHON_USEDEP}]
-    ~dev-embedded/esptool-5.2.0[${PYTHON_SINGLE_USEDEP}]
+    ~dev-embedded/esptool-5.3.0[${PYTHON_SINGLE_USEDEP}]
     ~dev-python/click-8.3.3[${PYTHON_USEDEP}]
     dev-python/aioesphomeapi[${PYTHON_USEDEP}]
     dev-python/zeroconf[${PYTHON_USEDEP}]
@@ -69,7 +69,7 @@ RDEPEND="$(python_gen_cond_dep '
     >=dev-python/bleak-2.1.1[${PYTHON_USEDEP}]
     >=dev-python/smpclient-6.0.0[${PYTHON_USEDEP}]
     >=dev-python/requests-2.34.2[${PYTHON_USEDEP}]
-    >=dev-python/pyparsing-3.0[${PYTHON_USEDEP}]
+    >=dev-python/pyparsing-3.3.2[${PYTHON_USEDEP}]
     >=dev-python/argcomplete-3.6.3[${PYTHON_USEDEP}]
 ')"
 
