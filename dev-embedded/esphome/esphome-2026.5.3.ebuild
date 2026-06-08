@@ -59,7 +59,7 @@ RDEPEND="$(python_gen_cond_dep '
     ~dev-python/pyserial-3.5[${PYTHON_USEDEP}]
     ~dev-embedded/platformio-6.1.19[${PYTHON_USEDEP}]
     ~dev-embedded/esptool-5.3.0[${PYTHON_SINGLE_USEDEP}]
-    ~dev-python/click-8.4.1[${PYTHON_USEDEP}]
+    >=dev-python/click-8.3.3[${PYTHON_USEDEP}]
     dev-python/aioesphomeapi[${PYTHON_USEDEP}]
     dev-python/zeroconf[${PYTHON_USEDEP}]
     ~dev-python/puremagic-2.2.0[${PYTHON_USEDEP}]
