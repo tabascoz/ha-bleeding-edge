@@ -1,0 +1,96 @@
+#!/bin/bash
+# lto-rebuild-ng - Modern replacement for Gentoo LTO rebuild after GCC upgrade
+# Works with official Gentoo LTO (no overlay needed)
+
+set -euo pipefail
+
+display_help() {
+    echo -e "
+Usage: $(basename "$0") [OPTION]
+
+Rebuild static archives (.a files) built with a different GCC version.
+Best used after major GCC upgrades when using -flto.
+
+Options:
+  -h    Show this help
+  -a    List only affected static archives
+  -l    List only packages that would be rebuilt (recommended first)
+  -r    Rebuild packages with emerge --ask --oneshot
+  -f    Force rebuild of ALL packages containing static libs (nuclear option)
+"
+}
+
+get_current_gcc_ver() {
+    gcc -dumpversion
+}
+
+perform_action() {
+    local mode="${1:-}"
+    local gcc_ver
+    gcc_ver=$(get_current_gcc_ver)
+    
+    echo "Current GCC version: $gcc_ver"
+    echo "Searching for static archives built with different GCC version..."
+
+    # More efficient search using scanelf + readelf only when needed
+    mapfile -t archives < <(
+        find /usr/lib{,32,64} /opt/*/lib{,64} -name "*.a" -type f 2>/dev/null | \
+        xargs -r -P "$(nproc)" -I {} bash -c '
+            if readelf -p .comment "$1" 2>/dev/null | grep -q "GCC:"; then
+                if ! readelf -p .comment "$1" 2>/dev/null | grep -q "GCC:.*'"$gcc_ver"'"; then
+                    echo "$1"
+                fi
+            fi
+        ' _ {} 
+    )
+
+    if [[ ${#archives[@]} -eq 0 ]]; then
+        echo "No mismatched LTO static archives found. You're good!"
+        exit 0
+    fi
+
+    if [[ "$mode" == "-a" ]]; then
+        echo -e "\nMismatched static archives:"
+        printf '%s\n' "${archives[@]}"
+        exit 0
+    fi
+
+    # Get unique packages
+    mapfile -t packages < <(qfile -qS "${archives[@]}" 2>/dev/null | sort -u)
+
+    case "$mode" in
+        "-l")
+            echo -e "\nPackages that need rebuilding:"
+            printf '%s\n' "${packages[@]}"
+            ;;
+        "-r")
+            if [[ ${#packages[@]} -eq 0 ]]; then
+                echo "No packages found via qfile."
+                exit 1
+            fi
+            echo -e "\nRebuilding ${#packages[@]} packages..."
+            emerge -1a "${packages[@]}"
+            ;;
+        "-f")
+            echo -e "\nForcing rebuild of all packages with static libs..."
+            emerge -1a "${packages[@]}"
+            ;;
+        *)
+            echo "Invalid mode"
+            exit 1
+            ;;
+    esac
+}
+
+case "${1:-}" in
+    "" | "-h")
+        display_help
+        ;;
+    "-a" | "-l" | "-r" | "-f")
+        perform_action "$1"
+        ;;
+    *)
+        echo "Unknown option. Use -h for help."
+        exit 1
+        ;;
+esac
