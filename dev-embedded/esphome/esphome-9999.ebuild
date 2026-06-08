@@ -14,6 +14,7 @@ if [[ ${PV} == *9999* ]]; then
     EGIT_REPO_URI="https://github.com/esphome/esphome.git"
     EGIT_BRANCH="dev"
     S="${WORKDIR}/${P}/"
+    PROPERTIES="live"
 else
     inherit pypi
     MY_P=${P/_beta/b}
@@ -43,7 +44,7 @@ RDEPEND="$(python_gen_cond_dep '
     esphome-device-builder? (
 	acct-group/esphome
 	acct-user/esphome
-	~dev-embedded/esphome-device-builder-9999[${PYTHON_SINGLE_USEDEP}]
+	dev-embedded/esphome-device-builder[${PYTHON_SINGLE_USEDEP}]
 	~dev-python/tornado-6.5.5[${PYTHON_USEDEP}]
     )
     >=dev-python/cryptography-48.0.0[${PYTHON_USEDEP}]
