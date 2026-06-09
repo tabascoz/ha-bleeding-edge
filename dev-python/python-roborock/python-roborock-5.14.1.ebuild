@@ -11,7 +11,7 @@ HOMEPAGE="https://github.com/humbertogontijo/python-roborock https://pypi.org/pr
 
 LICENSE="GPL-3"
 SLOT="0"
-KEYWORDS="amd64 arm arm64 x86"
+KEYWORDS="~amd64 ~arm64"
 IUSE="test"
 RESTRICT="!test? ( test )"
 
@@ -19,13 +19,19 @@ DOCS="README.md"
 
 RDEPEND=">=dev-python/click-8.0.0[${PYTHON_USEDEP}] \
 	>=dev-python/aiohttp-3.8.2[${PYTHON_USEDEP}] \
+	<dev-python/aiohttp-4[${PYTHON_USEDEP}] \
 	>=dev-python/pycryptodome-3.18.0[${PYTHON_USEDEP}] \
-	>=dev-python/paho-mqtt-2.1.0[${PYTHON_USEDEP}] \
+	>=dev-python/paho-mqtt-1.6.1[${PYTHON_USEDEP}] \
+	<dev-python/paho-mqtt-3.0.0[${PYTHON_USEDEP}] \
 	>=dev-python/construct-2.10.57[${PYTHON_USEDEP}] \
+	<dev-python/construct-3[${PYTHON_USEDEP}] \
 	dev-python/vacuum-map-parser-roborock[${PYTHON_USEDEP}] \
-	>=dev-python/pyrate-limiter-4.1.0[${PYTHON_USEDEP}] \
-	>=dev-python/aiomqtt-2.3.2[${PYTHON_USEDEP}] \
+	>=dev-python/pyrate-limiter-4.0.0[${PYTHON_USEDEP}] \
+	<dev-python/pyrate-limiter-5[${PYTHON_USEDEP}] \
+	>=dev-python/aiomqtt-2.5.0[${PYTHON_USEDEP}] \
+	<dev-python/aiomqtt-3[${PYTHON_USEDEP}] \
+	>=dev-python/protobuf-6.31.1[${PYTHON_USEDEP}] \
+	<dev-python/protobuf-8[${PYTHON_USEDEP}] \
 	~dev-python/click-shell-2.1[${PYTHON_USEDEP}]"
 
-PYPI_PN="python-roborock"
 distutils_enable_tests pytest
