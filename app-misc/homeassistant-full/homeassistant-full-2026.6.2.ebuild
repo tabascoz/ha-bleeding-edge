@@ -152,6 +152,7 @@ RDEPEND="${RDEPEND}
 	>=dev-python/websockets-13.1[${PYTHON_USEDEP}]
 	~dev-python/yarl-1.24.2[${PYTHON_USEDEP}]
 	dev-python/zeroconf[${PYTHON_USEDEP}]
+	dev-libs/jemalloc
 "
 
 # Integration-specific dependencies (sorted alphabetically by use flag)
