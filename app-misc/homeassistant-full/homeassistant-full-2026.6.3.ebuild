@@ -655,7 +655,7 @@ RDEPEND="${RDEPEND}
 	letpot? ( ~dev-python/letpot-0.7.0[${PYTHON_USEDEP}] )
 	lg_netcast? ( ~dev-python/pylgnetcast-0.3.9[${PYTHON_USEDEP}] )
 	lg_soundbar? ( ~dev-python/temescal-0.5[${PYTHON_USEDEP}] )
-	lg_thinq? ( ~dev-python/thinqconnect-1.0.12[${PYTHON_USEDEP}] )
+	lg_thinq? ( ~dev-python/thinqconnect-1.0.12[${PYTHON_USEDEP}] <dev-python/pyopenssl-26.3.0[${PYTHON_USEDEP}] )
 	libre_hardware_monitor? ( ~dev-python/librehardwaremonitor-api-1.11.1[${PYTHON_USEDEP}] )
 	lichess? ( ~dev-python/aiolichess-1.3.0[${PYTHON_USEDEP}] )
 	lidarr? ( ~dev-python/aiopyarr-23.4.0[${PYTHON_USEDEP}] )
