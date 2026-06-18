@@ -19,7 +19,9 @@ if [[ ${PV} == 9999 ]]; then
     EGIT_BRANCH="main"
     S="${WORKDIR}/${P}/"
 else
-    SRC_URI="https://github.com/esphome/device-builder-frontend/archive/refs/tags/${PV}.tar.gz -> ${P}.tar.gz"
+    SRC_URI="https://github.com/esphome/device-builder-frontend/archive/refs/tags/${PV}.tar.gz -> ${P}.tar.gz
+    https://raw.githubusercontent.com/tabascoz/ha-bleeding-edge/main/dev-embedded/esphome-device-builder-frontend/files/${PN}-${PV}-node_modules.tar.xz
+"
     KEYWORDS="~amd64 ~arm ~arm64 ~x86"
     S="${WORKDIR}/device-builder-frontend-${PV}/"
 fi
@@ -36,12 +38,14 @@ BDEPEND="
     dev-python/hatchling[${PYTHON_USEDEP}]
 "
 
+npm_cache_tarball="${PN}-${PV}-node_modules.tar.xz"
+
 src_compile() {
 
 #    npm install --offline --foreground-scripts --progress false || npm install --foreground-scripts --progress false
-    npm install
+#    npm install
 #    npm run build --color false --offline --progress false || npm run build --color false
-    npm run build --color false --progress false 
+    npm run build --color false --progress false || die "npm build failed"
 }
 
 src_install() {
