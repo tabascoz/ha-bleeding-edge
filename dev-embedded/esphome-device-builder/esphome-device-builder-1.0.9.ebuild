@@ -47,6 +47,7 @@ DEPEND="$(python_gen_cond_dep '
 	>=dev-python/pyyaml-6.0.0[${PYTHON_USEDEP}]
 	~dev-python/ruamel-yaml-0.19.1[${PYTHON_USEDEP}]
 	>=dev-python/voluptuous-0.13.1[${PYTHON_USEDEP}]
+	>=dev-python/mashumaro-3.20[${PYTHON_USEDEP}]
 	dev-python/uv
 ')"
 
