@@ -22,13 +22,12 @@ else
     SRC_URI="https://github.com/esphome/device-builder-frontend/archive/refs/tags/${PV}.tar.gz -> ${P}.tar.gz
     https://raw.githubusercontent.com/tabascoz/ha-bleeding-edge/main/dev-embedded/esphome-device-builder-frontend/files/${PN}-${PV}-node_modules.tar.xz
 "
-    KEYWORDS="~amd64 ~arm ~arm64 ~x86"
+    KEYWORDS="~amd64 ~arm64 "
     S="${WORKDIR}/device-builder-frontend-${PV}/"
 fi
 
 LICENSE="Apache-2.0"
 SLOT="0"
-KEYWORDS="~amd64 ~arm64"
 
 IUSE="+systemd"
 

@@ -19,14 +19,15 @@ if [[ ${PV} == 9999 ]]; then
     EGIT_BRANCH="main"
     S="${WORKDIR}/${P}/"
 else
-    SRC_URI="https://github.com/esphome/device-builder-frontend/archive/refs/tags/${PV}.tar.gz -> ${P}.tar.gz"
-    KEYWORDS="~amd64 ~arm ~arm64 ~x86"
+    SRC_URI="https://github.com/esphome/device-builder-frontend/archive/refs/tags/${PV}.tar.gz -> ${P}.tar.gz
+    https://raw.githubusercontent.com/tabascoz/ha-bleeding-edge/main/dev-embedded/esphome-device-builder-frontend/files/${PN}-${PV}-node_modules.tar.xz
+"
+    KEYWORDS="~amd64 ~arm64 "
     S="${WORKDIR}/device-builder-frontend-${PV}/"
 fi
 
 LICENSE="Apache-2.0"
 SLOT="0"
-KEYWORDS="~amd64 ~arm64"
 
 IUSE="+systemd"
 
@@ -36,12 +37,19 @@ BDEPEND="
     dev-python/hatchling[${PYTHON_USEDEP}]
 "
 
-src_compile() {
+npm_cache_tarball="${PN}-${PV}-node_modules.tar.xz"
 
-#    npm install --offline --foreground-scripts --progress false || npm install --foreground-scripts --progress false
-    npm install
-#    npm run build --color false --offline --progress false || npm run build --color false
-    npm run build --color false --progress false 
+src_compile() {
+    if [[ -d "${WORKDIR}/node_modules" ]] && [[ ! -d "${S}/node_modules" ]]; then
+        ln -s "${WORKDIR}/node_modules" "${S}/node_modules" || die "Failed to symlink node_modules"
+    fi
+
+    if [[ -d "${WORKDIR}/package-lock.json" ]] && [[ ! -f "${S}/package-lock.json" ]]; then
+        cp "${WORKDIR}/package-lock.json" "${S}/package-lock.json" || die "Failed to copy package-lock.json"
+    fi
+
+
+    npm run build --color false --progress false || die "npm build failed"
 }
 
 src_install() {
@@ -58,7 +66,6 @@ src_install() {
         systemd_dounit "${FILESDIR}/${PN}.service"                                                                                                                                                                 
     fi  
 }
-
 pkg_postinst() {
     chown -R esphome:esphome /usr/share/${PN} || die
 }

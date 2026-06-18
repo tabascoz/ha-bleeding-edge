@@ -11,6 +11,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 inherit distutils-r1 systemd
 
 DESCRIPTION="ESPHome device builder backend"
+
 HOMEPAGE="https://github.com/esphome/esphome-device-builder https://pypi.org/project/esphome-device-builder/"
 
 
@@ -19,11 +20,11 @@ if [[ ${PV} == *9999* ]]; then
     EGIT_REPO_URI="https://github.com/esphome/device-builder.git"
     EGIT_BRANCH="main"
     S="${WORKDIR}/${P}/"
-    KEYWORDS="~amd64 ~arm64"
 else
     inherit pypi
     SRC_URI="$(pypi_sdist_url "${PN}" "${PV}")"
-    KEYWORDS="~amd64 ~arm ~arm64 ~x86"
+    S="${WORKDIR}/esphome_device_builder-${PV}/"
+    KEYWORDS="~amd64 ~arm64 "
 fi
 
 
@@ -35,7 +36,7 @@ RESTRICT="!test? ( test )"
 
 DEPEND="$(python_gen_cond_dep '
 	>=dev-embedded/esphome-2026.0.0
-        dev-embedded/esphome-device-builder-frontend
+        ~dev-embedded/esphome-device-builder-frontend-0.1.168[${PYTHON_USEDEP}]
         >=dev-python/cryptography-48.0.0[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-3.9.0[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-asyncmdnsresolver-0.1.1[${PYTHON_USEDEP}]

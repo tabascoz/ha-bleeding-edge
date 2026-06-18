@@ -20,12 +20,11 @@ if [[ ${PV} == *9999* ]]; then
     EGIT_REPO_URI="https://github.com/esphome/device-builder.git"
     EGIT_BRANCH="main"
     S="${WORKDIR}/${P}/"
-    KEYWORDS="~amd64 ~arm64"
 else
     inherit pypi
     SRC_URI="$(pypi_sdist_url "${PN}" "${PV}")"
     S="${WORKDIR}/esphome_device_builder-${PV}/"
-    KEYWORDS="~amd64 ~arm ~arm64 ~x86"
+    KEYWORDS="~amd64 ~arm64 "
 fi
 
 
