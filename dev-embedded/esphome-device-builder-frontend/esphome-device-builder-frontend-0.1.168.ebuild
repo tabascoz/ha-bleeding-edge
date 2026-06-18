@@ -41,10 +41,15 @@ BDEPEND="
 npm_cache_tarball="${PN}-${PV}-node_modules.tar.xz"
 
 src_compile() {
+    if [[ -d "${WORKDIR}/node_modules" ]] && [[ ! -d "${S}/node_modules" ]]; then
+        ln -s "${WORKDIR}/node_modules" "${S}/node_modules" || die "Failed to symlink node_modules"
+    fi
 
-#    npm install --offline --foreground-scripts --progress false || npm install --foreground-scripts --progress false
-#    npm install
-#    npm run build --color false --offline --progress false || npm run build --color false
+    if [[ -d "${WORKDIR}/package-lock.json" ]] && [[ ! -f "${S}/package-lock.json" ]]; then
+        cp "${WORKDIR}/package-lock.json" "${S}/package-lock.json" || die "Failed to copy package-lock.json"
+    fi
+
+
     npm run build --color false --progress false || die "npm build failed"
 }
 
