@@ -58,7 +58,6 @@ src_install() {
         systemd_dounit "${FILESDIR}/${PN}.service"                                                                                                                                                                 
     fi  
 }
-
 pkg_postinst() {
     chown -R esphome:esphome /usr/share/${PN} || die
 }
