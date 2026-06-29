@@ -29,7 +29,7 @@ HOMEPAGE="https://github.com/esphome/esphome https://pypi.org/project/esphome/"
 
 LICENSE="MIT"
 SLOT="0"
-IUSE="+esphomeDashboard esphome-device-builder +systemd test"
+IUSE="esphomeDashboard +esphome-device-builder +systemd test"
 REQUIRED_USE="^^ ( esphomeDashboard esphome-device-builder )"
 RESTRICT="!test? ( test )"
 
