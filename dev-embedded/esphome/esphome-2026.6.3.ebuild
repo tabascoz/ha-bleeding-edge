@@ -45,7 +45,7 @@ RDEPEND="$(python_gen_cond_dep '
     esphome-device-builder? (
 	acct-group/esphome
 	acct-user/esphome
-	~dev-embedded/esphome-device-builder-1.0.9[${PYTHON_SINGLE_USEDEP}]
+	~dev-embedded/esphome-device-builder-1.0.14[${PYTHON_SINGLE_USEDEP}]
 	~dev-python/tornado-6.5.7[${PYTHON_USEDEP}]
     )
     >=dev-python/cryptography-48.0.1[${PYTHON_USEDEP}]
