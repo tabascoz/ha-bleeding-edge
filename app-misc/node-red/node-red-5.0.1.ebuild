@@ -8,7 +8,7 @@ inherit nodejs-mod systemd tmpfiles
 DESCRIPTION="A visual tool for wiring the Internet of Things."
 HOMEPAGE="https://nodered.org"
 SRC_URI="https://github.com/${PN}/${PN}/archive/refs/tags/${PV}.tar.gz  -> ${P}.tar.gz
-        https://raw.githubusercontent.com/tabascoz/node-red/main/install/releases/v${PV}/${PN}-${PV}-node_modules.tar.xz
+        https://raw.githubusercontent.com/tabascoz/node_modules/main/app-misc/node-red/${PN}-${PV}-node_modules.tar.xz
 "
 
 LICENSE="Apache-2.0"

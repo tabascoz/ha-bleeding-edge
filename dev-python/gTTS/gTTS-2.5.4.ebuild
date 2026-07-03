@@ -24,7 +24,7 @@ RDEPEND="
     >=dev-python/requests-2.27[${PYTHON_USEDEP}]
     <dev-python/requests-3[${PYTHON_USEDEP}]
     >=dev-python/click-7.1[${PYTHON_USEDEP}]
-    <dev-python/click-8.2[${PYTHON_USEDEP}]
+    <dev-python/click-8.5[${PYTHON_USEDEP}]
 "
 BDEPEND="
     test? (

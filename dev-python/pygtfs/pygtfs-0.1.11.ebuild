@@ -1,0 +1,26 @@
+# Copyright 1999-2026 Gentoo Authors
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=8
+
+PYTHON_COMPAT=( python3_{12..14} )
+DISTUTILS_USE_PEP517=setuptools
+inherit distutils-r1 pypi
+
+DESCRIPTION="Models GTFS data in a database."
+HOMEPAGE="https://github.com/jarondl/pygtfs https://pypi.org/project/pygtfs/"
+
+LICENSE="MIT"
+SLOT="0"
+KEYWORDS="~amd64 ~arm64"
+IUSE="test"
+RESTRICT="!test? ( test )"
+
+DOCS="README.md"
+
+RDEPEND=">=dev-python/sqlalchemy-0.7.8[${PYTHON_USEDEP}]
+	>=dev-python/pytz-2014.9[${PYTHON_USEDEP}]
+	dev-python/docopt[${PYTHON_USEDEP}]"
+
+PYPI_PN="pygtfs"
+distutils_enable_tests pytest
