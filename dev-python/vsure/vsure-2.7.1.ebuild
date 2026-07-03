@@ -7,9 +7,10 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-SRC_URI="$(pypi_wheel_url)"
 DESCRIPTION="Read and change status of verisure devices through mypages."
 HOMEPAGE="https://github.com/persandstrom/python-verisure https://pypi.org/project/vsure/"
+SRC_URI="$(pypi_wheel_url --unpack)"
+
 
 LICENSE="MIT"
 SLOT="0"
@@ -17,11 +18,22 @@ KEYWORDS="~amd64 ~arm64"
 IUSE="test"
 RESTRICT="!test? ( test )"
 
-DOCS="README.md"
+S=${WORKDIR}/verisure
+
 
 RDEPEND="
 	>=dev-python/click-8.0.0_alpha1[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.25.1[${PYTHON_USEDEP}]
 "
+
+src_prepare() {
+	echo -ne '
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+' >> pyproject.toml || die
+	default
+}
+
 
 distutils_enable_tests pytest

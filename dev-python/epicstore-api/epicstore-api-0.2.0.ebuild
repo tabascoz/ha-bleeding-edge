@@ -9,7 +9,8 @@ DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 DESCRIPTION="An API wrapper for Epic Games Store written in Python"
 HOMEPAGE="https://github.com/SD4RK/epicstore_api https://pypi.org/project/epicstore-api/"
-SRC_URI="$(pypi_wheel_url)"
+SRC_URI="$(pypi_wheel_url --unpack)"
+S="${WORKDIR}"
 
 LICENSE="MIT"
 SLOT="0"
@@ -17,8 +18,16 @@ KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
 RESTRICT="!test? ( test )"
 
-DOCS="README.md"
 
 RDEPEND=">=dev-python/cloudscraper-1.2.71[${PYTHON_USEDEP}]"
 
-distutils_enable_tests pytest
+python_prepare_all() {
+    # === Fix missing [build-system] section (same as aioacaia) ===
+    cat >> pyproject.toml <<- EOF || die
+[build-system]
+requires = ["setuptools >= 68.0"]
+build-backend = "setuptools.build_meta"
+EOF
+
+    distutils-r1_python_prepare_all
+}

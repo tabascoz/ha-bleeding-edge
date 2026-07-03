@@ -23,4 +23,12 @@ PYPI_PN="pyrisco"
 
 RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]"
 
+src_prepare() {
+    distutils-r1_src_prepare
+
+    # Prevent setuptools from accidentally installing the examples 
+    # directory as a top-level package in site-packages.
+    rm -r examples || die
+}
+
 distutils_enable_tests pytest

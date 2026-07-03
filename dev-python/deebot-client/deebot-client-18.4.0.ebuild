@@ -6,20 +6,21 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=maturin
 
+
 CRATES="
 	adler2@2.0.1
 	aho-corasick@1.1.4
-	arc-swap@1.9.1
-	autocfg@1.5.0
+	arc-swap@1.9.2
+	autocfg@1.5.1
 	base64@0.22.1
-	bitflags@2.11.1
+	bitflags@2.13.0
 	bytemuck@1.25.0
 	byteorder-lite@0.1.0
 	byteorder@1.5.0
-	cc@1.2.61
+	cc@1.2.65
 	cfg-if@1.0.4
 	crc32fast@1.5.0
-	either@1.15.0
+	either@1.16.0
 	equivalent@1.0.2
 	fdeflate@0.3.7
 	find-msvc-tools@0.1.9
@@ -27,22 +28,22 @@ CRATES="
 	futures-core@0.3.32
 	futures-macro@0.3.32
 	futures-task@0.3.32
-	futures-timer@3.0.3
+	futures-timer@3.0.4
 	futures-util@0.3.32
 	getrandom@0.3.4
 	glob@0.3.3
-	hashbrown@0.17.0
+	hashbrown@0.17.1
 	heck@0.5.0
 	image@0.25.10
 	indexmap@2.14.0
-	itertools@0.14.0
+	itertools@0.15.0
 	itoa@1.0.18
 	jobserver@0.1.34
 	libc@0.2.186
-	liblzma-sys@0.4.6
-	liblzma@0.4.6
-	log@0.4.29
-	memchr@2.8.0
+	liblzma-sys@0.4.7
+	liblzma@0.4.7
+	log@0.4.33
+	memchr@2.8.2
 	miniz_oxide@0.8.9
 	moxcms@0.8.1
 	num-traits@0.2.19
@@ -55,17 +56,17 @@ CRATES="
 	proc-macro-crate@3.5.0
 	proc-macro2@1.0.106
 	pxfm@0.1.29
-	pyo3-build-config@0.28.3
-	pyo3-ffi@0.28.3
-	pyo3-log@0.13.3
-	pyo3-macros-backend@0.28.3
-	pyo3-macros@0.28.3
-	pyo3@0.28.3
-	quote@1.0.45
+	pyo3-build-config@0.29.0
+	pyo3-ffi@0.29.0
+	pyo3-log@0.13.4
+	pyo3-macros-backend@0.29.0
+	pyo3-macros@0.29.0
+	pyo3@0.29.0
+	quote@1.0.46
 	r-efi@5.3.0
 	regex-automata@0.4.14
-	regex-syntax@0.8.10
-	regex@1.12.3
+	regex-syntax@0.8.11
+	regex@1.12.4
 	relative-path@1.9.3
 	rstest@0.26.1
 	rstest_macros@0.26.1
@@ -75,27 +76,29 @@ CRATES="
 	serde@1.0.228
 	serde_core@1.0.228
 	serde_derive@1.0.228
-	serde_json@1.0.149
-	shlex@1.3.0
+	serde_json@1.0.150
+	shlex@2.0.1
 	simd-adler32@0.3.9
 	slab@0.4.12
 	strum@0.28.0
 	strum_macros@0.28.0
 	svg@0.18.0
-	syn@2.0.117
+	syn@2.0.118
 	target-lexicon@0.13.5
 	toml_datetime@1.1.1+spec-1.1.0
-	toml_edit@0.25.11+spec-1.1.0
+	toml_edit@0.25.12+spec-1.1.0
 	toml_parser@1.1.2+spec-1.1.0
 	unicode-ident@1.0.24
-	wasip2@1.0.3+wasi-0.2.9
-	winnow@1.0.2
+	wasip2@1.0.4+wasi-0.2.12
+	winnow@1.0.3
 	wit-bindgen@0.57.1
 	zmij@1.0.21
 	zstd-safe@7.2.4
 	zstd-sys@2.0.16+zstd.1.5.7
 	zstd@0.13.3
 "
+
+
 inherit distutils-r1 pypi cargo
 
 DESCRIPTION="Deebot client library in python 3"

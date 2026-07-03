@@ -18,8 +18,17 @@ KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
 RESTRICT="!test? ( test )"
 
-DOCS="README.pypi"
+DOCS="README.md"
+
 
 RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]"
 
+src_prepare() {
+    # setup.py attempts to read README.pypi, but it's missing from the source distribution
+    touch README.pypi || die
+
+    distutils-r1_src_prepare
+}
+
 distutils_enable_tests pytest
+

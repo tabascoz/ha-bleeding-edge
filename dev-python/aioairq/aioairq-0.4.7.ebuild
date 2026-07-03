@@ -8,12 +8,14 @@ DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 DESCRIPTION="Asynchronous library to retrieve data from air-Q devices."
 HOMEPAGE="https://github.com/CorantGmbH/aioairq https://pypi.org/project/aioairq/"
+SRC_URI="$(pypi_wheel_url --unpack)"
 
 LICENSE="Apache-2.0"
 SLOT="0"
-KEYWORDS="amd64 arm arm64 x86"
+KEYWORDS="~amd64 ~arm64"
 IUSE="test"
 RESTRICT="!test? ( test )"
+S="${WORKDIR}"
 
 DOCS="README.md"
 
@@ -27,4 +29,13 @@ BDEPEND="
 	)
 "
 
-distutils_enable_tests pytest
+python_prepare_all() {
+    # === Fix missing [build-system] section (same as aioacaia) ===
+    cat >> pyproject.toml <<- EOF || die
+[build-system]
+requires = ["setuptools >= 68.0"]
+build-backend = "setuptools.build_meta"
+EOF
+
+    distutils-r1_python_prepare_all
+}
