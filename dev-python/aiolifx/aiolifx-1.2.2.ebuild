@@ -22,7 +22,7 @@ RDEPEND="$(python_gen_cond_dep 'dev-python/async-timeout[${PYTHON_USEDEP}]' pyth
 	dev-python/bitstring[${PYTHON_USEDEP}] \
 	dev-python/ifaddr[${PYTHON_USEDEP}] \
 	>=dev-python/click-8.1.0[${PYTHON_USEDEP}] \
-	<dev-python/click-8.2.0[${PYTHON_USEDEP}] \
+	<dev-python/click-8.5.0[${PYTHON_USEDEP}] \
 	>=dev-python/inquirerpy-0.3.0[${PYTHON_USEDEP}] \
 	<dev-python/inquirerpy-0.4.0[${PYTHON_USEDEP}]"
 

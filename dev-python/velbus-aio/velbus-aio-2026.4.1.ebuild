@@ -20,7 +20,7 @@ RESTRICT="!test? ( test )"
 DOCS="README.md"
 
 RDEPEND="dev-python/serialx[${PYTHON_USEDEP}]
-	>=dev-python/backoff-1.10.0[${PYTHON_USEDEP}]
+	>=dev-python/python-backoff-2.3.1[${PYTHON_USEDEP}]
 	dev-python/aiofile[${PYTHON_USEDEP}]
 	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]"

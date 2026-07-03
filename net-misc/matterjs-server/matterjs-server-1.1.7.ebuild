@@ -8,6 +8,7 @@ HOMEPAGE="https://github.com/matter-js/matterjs-server"
 
 SRC_URI="
     https://registry.npmjs.org/matter-server/-/matter-server-${PV}.tgz -> ${P}.tgz
+    https://raw.githubusercontent.com/tabascoz/node_modules/main/app-misc/matterjs-server/${PN}-${PV}-node_modules.tar.xz
 "
 
 LICENSE="Apache-2.0"
@@ -31,26 +32,34 @@ QA_TEXTRELS="opt/matterjs-server/node_modules/*/prebuilds/*/*.node"
 QA_PRESTRIPPED="opt/matterjs-server/node_modules/*/*.node opt/matterjs-server/node_modules/*/*/*.node"
 QA_SONAME="opt/matterjs-server/node_modules/*/*.node opt/matterjs-server/node_modules/*/*/*.node"
 
-src_prepare() {
-    default
+npm_cache_tarball="${PN}-${PV}-node_modules.tar.xz"
 
-    if use server; then
-        einfo "Unpacking base vendor node_modules..."
-        mkdir -p "${S}/node_modules" || die
-        tar -xf "${FILESDIR}/${P}-vendor.tar.xz" -C "${S}/node_modules" --strip-components=1 \
-            || die "Failed to unpack vendor tarball"
-    fi
-}
+
+#src_prepare() {
+#    default
+#
+#    if use server; then
+#        einfo "Unpacking base vendor node_modules..."
+#        mkdir -p "${S}/node_modules" || die
+#        tar -xf "${FILESDIR}/${P}-vendor.tar.xz" -C "${S}/node_modules" --strip-components=1 \
+#            || die "Failed to unpack vendor tarball"
+#    fi
+#}
 
 src_compile() {
     if ! use server; then
         return 0
     fi
 
-    cd "${S}" || die
+    if [[ -d "${WORKDIR}/node_modules" ]] && [[ ! -d "${S}/node_modules" ]]; then
+        mv "${WORKDIR}/node_modules" "${S}/node_modules" || die "Failed to symlink node_modules"
+    fi
 
-    einfo "Running npm install to fix scoped packages and symlinks..."
-#    npm install --production --omit=dev --ignore-scripts --no-audit --no-fund --no-bin-links || die "npm install failed"
+    if [[ -d "${WORKDIR}/package-lock.json" ]] && [[ ! -f "${S}/package-lock.json" ]]; then
+        cp "${WORKDIR}/package-lock.json" "${S}/package-lock.json" || die "Failed to copy package-lock.json"
+    fi
+
+    cd "${S}" || die
 
     einfo "matter-server build completed"
 }

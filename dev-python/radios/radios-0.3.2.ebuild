@@ -21,7 +21,7 @@ DOCS="README.md"
 RDEPEND=">=dev-python/aiodns-3.0[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-3.0.0[${PYTHON_USEDEP}]
 	>=dev-python/awesomeversion-21.10.1[${PYTHON_USEDEP}]
-	>=dev-python/backoff-1.9.0[${PYTHON_USEDEP}]
+	>=dev-python/python-backoff-2.3.1[${PYTHON_USEDEP}]
 	>=dev-python/cachetools-4.0.0[${PYTHON_USEDEP}]
 	>=dev-python/mashumaro-3.10[${PYTHON_USEDEP}]
 	>=dev-python/orjson-3.11.8[${PYTHON_USEDEP}]

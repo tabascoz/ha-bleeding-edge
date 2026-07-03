@@ -19,7 +19,7 @@ RESTRICT="!test? ( test )"
 DOCS="README.md"
 
 RDEPEND=">=dev-python/aiohttp-3.8.0[${PYTHON_USEDEP}]
-	>=dev-python/backoff-1.11.1[${PYTHON_USEDEP}]"
+	>=dev-python/python-backoff-2.3.1[${PYTHON_USEDEP}]"
 BDEPEND="
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]

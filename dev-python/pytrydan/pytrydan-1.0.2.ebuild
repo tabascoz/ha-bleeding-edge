@@ -25,7 +25,7 @@ RDEPEND="
 	>=dev-python/orjson-3.9.2[${PYTHON_USEDEP}]
 	>=dev-python/rich-10[${PYTHON_USEDEP}]
 	>=dev-python/tenacity-8.2.2[${PYTHON_USEDEP}]
-	<dev-python/tenacity-9.0.0[${PYTHON_USEDEP}]
+	<dev-python/tenacity-9.2.0[${PYTHON_USEDEP}]
 	>=dev-python/typer-0.7.0[${PYTHON_USEDEP}]"
 BDEPEND="
 	test? (

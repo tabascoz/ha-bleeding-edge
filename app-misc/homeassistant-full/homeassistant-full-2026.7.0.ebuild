@@ -207,7 +207,7 @@ RDEPEND="${RDEPEND}
 	alexa_devices? ( ~dev-python/aioamazondevices-14.1.8[${PYTHON_USEDEP}] )
 	alpha_vantage? ( ~dev-python/alpha-vantage-2.3.1[${PYTHON_USEDEP}] )
 	altruist? ( ~dev-python/altruistclient-0.1.1[${PYTHON_USEDEP}] )
-	amazon_polly? ( ~dev-python/boto3-1.43.6[${PYTHON_USEDEP}] )
+	amazon_polly? ( ~dev-python/boto3-1.43.14[${PYTHON_USEDEP}] )
 	amberelectric? ( ~dev-python/amberelectric-2.0.12[${PYTHON_USEDEP}] )
 	ambient_network? ( ~dev-python/aioambient-2024.8.0[${PYTHON_USEDEP}] )
 	ambient_station? ( ~dev-python/aioambient-2024.8.0[${PYTHON_USEDEP}] )
@@ -253,7 +253,7 @@ RDEPEND="${RDEPEND}
 	autoskope? ( ~dev-python/autoskope-client-1.4.1[${PYTHON_USEDEP}] )
 	avea? ( ~dev-python/avea-1.8.0[${PYTHON_USEDEP}] )
 	awair? ( ~dev-python/python-awair-0.2.5[${PYTHON_USEDEP}] )
-	aws? ( ~dev-python/aiobotocore-3.3.0[${PYTHON_USEDEP}] ~dev-python/botocore-1.43.6[${PYTHON_USEDEP}] )
+	aws? ( ~dev-python/aiobotocore-3.3.0[${PYTHON_USEDEP}] ~dev-python/botocore-1.43.14[${PYTHON_USEDEP}] )
 	aws_s3? ( ~dev-python/aiobotocore-3.3.0[${PYTHON_USEDEP}] )
 	axis? ( ~dev-python/axis-72[${PYTHON_USEDEP}] )
 	azure_data_explorer? ( ~dev-python/azure-kusto-ingest-4.5.1[${PYTHON_USEDEP}] )
@@ -264,7 +264,7 @@ RDEPEND="${RDEPEND}
 	backblaze_b2? ( ~dev-python/b2sdk-2.10.4[${PYTHON_USEDEP}] )
 	backup? ( ~dev-python/cronsim-2.7[${PYTHON_USEDEP}] ~dev-python/securetar-2026.4.1[${PYTHON_USEDEP}] )
 	baf? ( ~dev-python/aiobafi6-0.9.0[${PYTHON_USEDEP}] )
-	baidu? ( ~dev-python/baidu-aip-1.6.6[${PYTHON_USEDEP}] )
+	baidu? ( ~dev-python/baidu-aip-1.6.6.0[${PYTHON_USEDEP}] )
 	balboa? ( ~dev-python/pybalboa-1.1.3[${PYTHON_USEDEP}] )
 	bang_olufsen? ( ~dev-python/mozart-api-6.2.0.44.0[${PYTHON_USEDEP}] )
 	bbox? ( ~dev-python/pybbox-0.0.5_alpha0[${PYTHON_USEDEP}] )
@@ -411,7 +411,7 @@ RDEPEND="${RDEPEND}
 	environment_canada? ( ~dev-python/env-canada-0.15.0[${PYTHON_USEDEP}] )
 	envisalink? ( ~dev-python/pyenvisalink-4.9[${PYTHON_USEDEP}] )
 	ephember? ( ~dev-python/pyephember2-0.4.12[${PYTHON_USEDEP}] )
-	epic_games_store? ( ~dev-python/epicstore-api-0.1.9[${PYTHON_USEDEP}] )
+	epic_games_store? ( ~dev-python/epicstore-api-0.2.0[${PYTHON_USEDEP}] )
 	epion? ( ~dev-python/epion-0.0.3[${PYTHON_USEDEP}] )
 	epson? ( ~dev-python/epson-projector-0.6.0[${PYTHON_USEDEP}] )
 	eq3btsmart? ( ~dev-python/eq3btsmart-2.3.0[${PYTHON_USEDEP}] )
@@ -512,7 +512,7 @@ RDEPEND="${RDEPEND}
 	govee_light_local? ( ~dev-python/govee-local-api-2.4.0[${PYTHON_USEDEP}] )
 	gpsd? ( ~dev-python/gps3-0.33.3[${PYTHON_USEDEP}] )
 	gree? ( ~dev-python/greeclimate-2.1.4[${PYTHON_USEDEP}] )
-	greencell? ( ~dev-python/greencell_client-1.0.3[${PYTHON_USEDEP}] )
+	greencell? ( ~dev-python/greencell-client-1.0.3[${PYTHON_USEDEP}] )
 	greeneye_monitor? ( ~dev-python/greeneye-monitor-3.0.3[${PYTHON_USEDEP}] )
 	green_planet_energy? ( ~dev-python/greenplanet-energy-api-0.1.10[${PYTHON_USEDEP}] )
 	growatt_server? ( ~dev-python/growattServer-2.1.0[${PYTHON_USEDEP}] )
@@ -694,7 +694,7 @@ RDEPEND="${RDEPEND}
 	mealie? ( ~dev-python/aiomealie-1.2.4[${PYTHON_USEDEP}] )
 	meater? ( ~dev-python/meater-python-0.0.8[${PYTHON_USEDEP}] )
 	medcom_ble? ( ~dev-python/medcom-ble-0.1.1[${PYTHON_USEDEP}] )
-	media_extractor? ( ~net-misc/yt-dlp-2026.03.17 )
+	media_extractor? ( ~net-misc/yt-dlp-2026.06.09 )
 	mediaroom? ( ~dev-python/pymediaroom-0.6.5.4[${PYTHON_USEDEP}] )
 	melcloud? ( ~dev-python/python-melcloud-0.1.3[${PYTHON_USEDEP}] )
 	melcloud_home? ( ~dev-python/aiomelcloudhome-0.1.9[${PYTHON_USEDEP}] )
@@ -712,7 +712,7 @@ RDEPEND="${RDEPEND}
 	microbees? ( ~dev-python/microBeesPy-0.3.5[${PYTHON_USEDEP}] )
 	microsoft? ( ~dev-python/pycsspeechtts-1.0.8[${PYTHON_USEDEP}] )
 	miele? ( ~dev-python/pymiele-0.6.2[${PYTHON_USEDEP}] )
-	mikrotik? ( ~dev-python/librouteros-3.2.1[${PYTHON_USEDEP}] )
+	mikrotik? ( ~dev-python/librouteros-4.0.1[${PYTHON_USEDEP}] )
 	mill? ( ~dev-python/mill-local-0.5.0[${PYTHON_USEDEP}] ~dev-python/millheater-0.14.1[${PYTHON_USEDEP}] )
 	minecraft_server? ( ~dev-python/mcstatus-13.1.0[${PYTHON_USEDEP}] )
 	minio? ( ~dev-python/minio-7.1.12[${PYTHON_USEDEP}] )
@@ -815,7 +815,7 @@ RDEPEND="${RDEPEND}
 	openevse? ( ~dev-python/python-openevse-http-1.0.1[${PYTHON_USEDEP}] )
 	openexchangerates? ( ~dev-python/aioopenexchangerates-0.6.8[${PYTHON_USEDEP}] )
 	opengarage? ( ~dev-python/open-garage-0.2.0[${PYTHON_USEDEP}] )
-	openhome? ( ~dev-python/openhomedevice-2.2.0[${PYTHON_USEDEP}] )
+	openhome? ( ~dev-python/openhomedevice-2.2[${PYTHON_USEDEP}] )
 	openrgb? ( ~dev-python/openrgb-python-0.3.6[${PYTHON_USEDEP}] )
 	opensensemap? ( ~dev-python/opensensemap-api-0.4.1[${PYTHON_USEDEP}] )
 	opensky? ( ~dev-python/python-opensky-1.0.1[${PYTHON_USEDEP}] )
@@ -942,7 +942,7 @@ RDEPEND="${RDEPEND}
 	romy? ( ~dev-python/romy-0.0.10[${PYTHON_USEDEP}] )
 	roomba? ( ~dev-python/roombapy-1.9.1[${PYTHON_USEDEP}] )
 	roon? ( ~dev-python/roonapi-0.1.6[${PYTHON_USEDEP}] )
-	route53? ( ~dev-python/boto3-1.43.6[${PYTHON_USEDEP}] )
+	route53? ( ~dev-python/boto3-1.43.14[${PYTHON_USEDEP}] )
 	route_b_smart_meter? ( ~dev-python/momonga-0.3.0[${PYTHON_USEDEP}] )
 	rova? ( ~dev-python/rova-0.4.1[${PYTHON_USEDEP}] )
 	rpi_power? ( ~dev-python/rpi-bad-power-0.1.0[${PYTHON_USEDEP}] )
@@ -1247,7 +1247,7 @@ RDEPEND="${RDEPEND}
 BDEPEND="${RDEPEND}
 	test? (
 		dev-python/astroid[${PYTHON_USEDEP}]
-		~dev-python/coverage-7.13.5[${PYTHON_USEDEP}]
+		~dev-python/coverage-7.14.0[${PYTHON_USEDEP}]
 		~dev-python/freezegun-1.5.5[${PYTHON_USEDEP}]
 		~dev-python/license-expression-30.4.4[${PYTHON_USEDEP}]
 		~dev-python/mock-open-1.4.0[${PYTHON_USEDEP}]
@@ -1256,22 +1256,22 @@ BDEPEND="${RDEPEND}
 		~dev-vcs/pre-commit-4.5.1
 		dev-python/pydantic[${PYTHON_USEDEP}]
 		~dev-python/pylint-per-file-ignores-1.4.0[${PYTHON_USEDEP}]
-		~dev-python/pylint-4.0.5[${PYTHON_USEDEP}]
-		~dev-python/pytest-asyncio-1.3.0[${PYTHON_USEDEP}]
+		~dev-python/pylint-4.0.6[${PYTHON_USEDEP}]
+		~dev-python/pytest-asyncio-1.4.0[${PYTHON_USEDEP}]
 		~dev-python/pytest-cov-7.1.0[${PYTHON_USEDEP}]
 		~dev-python/pytest-freezer-0.4.9[${PYTHON_USEDEP}]
-		~dev-python/pytest-github-actions-annotate-failures-0.3.0[${PYTHON_USEDEP}]
+		~dev-python/pytest-github-actions-annotate-failures-0.4.2[${PYTHON_USEDEP}]
 		~dev-python/pytest-picked-0.5.1[${PYTHON_USEDEP}]
-		~dev-python/pytest-socket-0.7.0[${PYTHON_USEDEP}]
+		~dev-python/pytest-socket-0.8.0[${PYTHON_USEDEP}]
 		~dev-python/pytest-sugar-1.1.1[${PYTHON_USEDEP}]
 		~dev-python/pytest-timeout-2.4.0[${PYTHON_USEDEP}]
-		~dev-python/pytest-unordered-0.7.0[${PYTHON_USEDEP}]
+		~dev-python/pytest-unordered-0.8.0[${PYTHON_USEDEP}]
 		~dev-python/pytest-xdist-3.8.0[${PYTHON_USEDEP}]
-		~dev-python/pytest-9.0.3[${PYTHON_USEDEP}]
+		~dev-python/pytest-9.1.1[${PYTHON_USEDEP}]
 		~dev-python/requests-mock-1.12.1[${PYTHON_USEDEP}]
 		~dev-python/respx-0.23.1[${PYTHON_USEDEP}]
-		~dev-python/syrupy-4.9.1[${PYTHON_USEDEP}]
-		~dev-python/tqdm-4.67.3[${PYTHON_USEDEP}]
+		~dev-python/syrupy-5.3.4[${PYTHON_USEDEP}]
+		~dev-python/tqdm-4.68.3[${PYTHON_USEDEP}]
 	)
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/mock[${PYTHON_USEDEP}]"

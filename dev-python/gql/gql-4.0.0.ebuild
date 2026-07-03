@@ -23,8 +23,8 @@ RDEPEND=">=dev-python/graphql-core-3.2[${PYTHON_USEDEP}]
 	<dev-python/graphql-core-3.3[${PYTHON_USEDEP}]
 	>=dev-python/yarl-1.6[${PYTHON_USEDEP}]
 	<dev-python/yarl-2.0[${PYTHON_USEDEP}]
-	>=dev-python/backoff-1.11.1[${PYTHON_USEDEP}]
-	<dev-python/backoff-3.0[${PYTHON_USEDEP}]
+	>=dev-python/python-backoff-2.3.1[${PYTHON_USEDEP}]
+	<dev-python/python-backoff-3.0[${PYTHON_USEDEP}]
 	>=dev-python/anyio-3.0[${PYTHON_USEDEP}]
 	<dev-python/anyio-5[${PYTHON_USEDEP}]"
 BDEPEND="

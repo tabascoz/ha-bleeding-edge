@@ -20,7 +20,7 @@ RESTRICT="!test? ( test )"
 
 RDEPEND="
 	>=dev-python/aiohttp-3.11.12[${PYTHON_USEDEP}]
-	>=dev-python/backoff-2.2.1[${PYTHON_USEDEP}]
+	>=dev-python/python-backoff-2.3.1[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.32.3[${PYTHON_USEDEP}]
 "
 
