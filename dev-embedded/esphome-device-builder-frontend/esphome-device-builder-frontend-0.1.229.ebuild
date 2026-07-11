@@ -21,8 +21,8 @@ if [[ ${PV} == 9999 ]]; then
 else
     SRC_URI="https://github.com/esphome/device-builder-frontend/archive/refs/tags/${PV}.tar.gz -> ${P}.tar.gz
     https://raw.githubusercontent.com/tabascoz/node_modules/main/dev-embedded/esphome-device-builder-frontend/${PN}-${PV}-node_modules.tar.xz
-
 "
+
     KEYWORDS="~amd64 ~arm64 "
     S="${WORKDIR}/device-builder-frontend-${PV}/"
 fi
