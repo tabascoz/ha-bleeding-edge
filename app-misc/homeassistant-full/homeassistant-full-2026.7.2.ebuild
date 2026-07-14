@@ -85,10 +85,10 @@ RDEPEND="${RDEPEND}
 	~dev-python/infrared-protocols-6.3.0[${PYTHON_USEDEP}]
 	~dev-python/jinja2-3.1.6[${PYTHON_USEDEP}]
 	~dev-python/lru-dict-1.4.1[${PYTHON_USEDEP}]
-	~media-libs/mutagen-1.47.0[${PYTHON_USEDEP}]
+	~media-libs/mutagen-1.48.1[${PYTHON_USEDEP}]
 	dev-python/orjson[${PYTHON_USEDEP}]
 	>=dev-python/packaging-23.1[${PYTHON_USEDEP}]
-	dev-python/pillow[${PYTHON_USEDEP}]
+	~dev-python/pillow-12.3.0[${PYTHON_USEDEP}]
 	~dev-python/propcache-0.5.2[${PYTHON_USEDEP}]
 	~dev-python/psutil-home-assistant-0.0.1[${PYTHON_USEDEP}]
 	~dev-python/pyjwt-2.12.1[${PYTHON_USEDEP}]
@@ -317,7 +317,7 @@ RDEPEND="${RDEPEND}
 	dlna_dmr? ( ~dev-python/async-upnp-client-0.46.2[${PYTHON_USEDEP}] ~dev-python/getmac-0.9.5[${PYTHON_USEDEP}] )
 	dlna_dms? ( ~dev-python/async-upnp-client-0.46.2[${PYTHON_USEDEP}] )
 	dnsip? ( ~dev-python/aiodns-4.0.4[${PYTHON_USEDEP}] )
-	doods? ( ~dev-python/pillow-12.2.0[${PYTHON_USEDEP}] ~dev-python/pydoods-1.0.2[${PYTHON_USEDEP}] )
+	doods? ( ~dev-python/pillow-12.3.0[${PYTHON_USEDEP}] ~dev-python/pydoods-1.0.2[${PYTHON_USEDEP}] )
 	doorbird? ( ~dev-python/DoorBirdPy-3.0.12[${PYTHON_USEDEP}] )
 	dormakaba_dkey? ( ~dev-python/py-dormakaba-dkey-1.0.6[${PYTHON_USEDEP}] )
 	dremel_3d_printer? ( ~dev-python/dremel3dpy-2.1.1[${PYTHON_USEDEP}] )
@@ -439,7 +439,7 @@ RDEPEND="${RDEPEND}
 	gardena_bluetooth? ( ~dev-python/gardena-bluetooth-2.8.1[${PYTHON_USEDEP}] )
 	gc100? ( ~dev-python/python-gc100-1.0.3_alpha0[${PYTHON_USEDEP}] )
 	gdacs? ( ~dev-python/aio-georss-gdacs-0.10[${PYTHON_USEDEP}] )
-	generic? ( ~dev-python/pillow-12.2.0[${PYTHON_USEDEP}] ~dev-python/av-17.0.1[${PYTHON_USEDEP}] )
+	generic? ( ~dev-python/pillow-12.3.0[${PYTHON_USEDEP}] ~dev-python/av-17.0.1[${PYTHON_USEDEP}] )
 	geniushub? ( ~dev-python/geniushub-client-0.7.4[${PYTHON_USEDEP}] )
 	geo_json_events? ( ~dev-python/aio-geojson-generic-client-0.5[${PYTHON_USEDEP}] )
 	geo_rss_events? ( ~dev-python/georss-generic-client-0.8[${PYTHON_USEDEP}] )
@@ -540,7 +540,7 @@ RDEPEND="${RDEPEND}
 	igloohome? ( ~dev-python/igloohome-api-0.1.1[${PYTHON_USEDEP}] )
 	ign_sismologia? ( ~dev-python/georss-ign-sismologia-client-0.8[${PYTHON_USEDEP}] )
 	ihc? ( ~dev-python/defusedxml-0.8.0_rc2[${PYTHON_USEDEP}] ~dev-python/ihcsdk-2.8.12[${PYTHON_USEDEP}] )
-	image_upload? ( ~dev-python/pillow-12.2.0[${PYTHON_USEDEP}] )
+	image_upload? ( ~dev-python/pillow-12.3.0[${PYTHON_USEDEP}] )
 	imap? ( ~dev-python/aioimaplib-2.0.1[${PYTHON_USEDEP}] )
 	imeon_inverter? ( ~dev-python/imeon-inverter-api-0.4.0[${PYTHON_USEDEP}] )
 	imgw_pib? ( ~dev-python/imgw-pib-2.4.0[${PYTHON_USEDEP}] )
@@ -648,7 +648,7 @@ RDEPEND="${RDEPEND}
 	mailgun? ( ~dev-python/pymailgunner-1.4[${PYTHON_USEDEP}] )
 	marytts? ( ~dev-python/speak2mary-1.5.0[${PYTHON_USEDEP}] )
 	mastodon? ( ~dev-python/Mastodon-py-2.2.1[${PYTHON_USEDEP}] )
-	matrix? ( ~dev-python/pillow-12.2.0[${PYTHON_USEDEP}] ~dev-python/aiofiles-25.1.0[${PYTHON_USEDEP}] ~dev-python/matrix-nio-0.25.2[${PYTHON_USEDEP}] )
+	matrix? ( ~dev-python/pillow-12.3.0[${PYTHON_USEDEP}] ~dev-python/aiofiles-25.1.0[${PYTHON_USEDEP}] ~dev-python/matrix-nio-0.25.2[${PYTHON_USEDEP}] )
 	matter? ( ~dev-python/matter-ble-proxy-0.7.1[${PYTHON_USEDEP}] ~dev-python/matter-python-client-0.7.1[${PYTHON_USEDEP}] net-misc/matterjs-server )
 	maxcube? ( ~dev-python/maxcube-api-0.4.3[${PYTHON_USEDEP}] )
 	mcp? ( ~dev-python/mcp-1.27.1[${PYTHON_USEDEP}] )
@@ -837,7 +837,7 @@ RDEPEND="${RDEPEND}
 	prosegur? ( ~dev-python/pyprosegur-0.0.14[${PYTHON_USEDEP}] )
 	prowl? ( ~dev-python/prowlpy-1.1.5[${PYTHON_USEDEP}] )
 	proxmoxve? ( ~dev-python/proxmoxer-2.3.0[${PYTHON_USEDEP}] )
-	proxy? ( ~dev-python/pillow-12.2.0[${PYTHON_USEDEP}] )
+	proxy? ( ~dev-python/pillow-12.3.0[${PYTHON_USEDEP}] )
 	prusalink? ( ~dev-python/pyprusalink-3.0.0[${PYTHON_USEDEP}] )
 	ps4? ( ~dev-python/pyps4-2ndscreen-1.3.1[${PYTHON_USEDEP}] )
 	pterodactyl? ( ~dev-python/py-dactyl-2.0.4[${PYTHON_USEDEP}] )
@@ -856,7 +856,7 @@ RDEPEND="${RDEPEND}
 	qld_bushfire? ( ~dev-python/georss-qld-bushfire-alert-client-0.8[${PYTHON_USEDEP}] )
 	qnap? ( ~dev-python/qnapstats-0.4.0[${PYTHON_USEDEP}] )
 	qnap_qsw? ( ~dev-python/aioqsw-0.4.3[${PYTHON_USEDEP}] )
-	qrcode? ( ~dev-python/pillow-12.2.0[${PYTHON_USEDEP}] ~dev-python/pyzbar-0.1.9[${PYTHON_USEDEP}] )
+	qrcode? ( ~dev-python/pillow-12.3.0[${PYTHON_USEDEP}] ~dev-python/pyzbar-0.1.9[${PYTHON_USEDEP}] )
 	quantum_gateway? ( ~dev-python/quantum-gateway-0.0.8[${PYTHON_USEDEP}] )
 	qvr_pro? ( ~dev-python/pyqvrpro-0.52[${PYTHON_USEDEP}] )
 	qwikswitch? ( ~dev-python/pyqwikswitch-0.93[${PYTHON_USEDEP}] )
@@ -938,7 +938,7 @@ RDEPEND="${RDEPEND}
 	serial? ( ~dev-python/serialx-1.8.2[${PYTHON_USEDEP}] )
 	serial_pm? ( ~dev-python/pmsensor-0.4[${PYTHON_USEDEP}] )
 	sesame? ( ~dev-python/pysesame2-1.0.2[${PYTHON_USEDEP}] )
-	seven_segments? ( ~dev-python/pillow-12.2.0[${PYTHON_USEDEP}] )
+	seven_segments? ( ~dev-python/pillow-12.3.0[${PYTHON_USEDEP}] )
 	seventeentrack? ( ~dev-python/pyseventeentrack-1.1.3[${PYTHON_USEDEP}] )
 	sfr_box? ( ~dev-python/sfrbox-api-0.1.1[${PYTHON_USEDEP}] )
 	sftp_storage? ( ~dev-python/asyncssh-2.21.0[${PYTHON_USEDEP}] )
@@ -946,7 +946,7 @@ RDEPEND="${RDEPEND}
 	shelly? ( ~dev-python/aioshelly-13.26.2[${PYTHON_USEDEP}] )
 	shodan? ( ~dev-python/shodan-1.28.0[${PYTHON_USEDEP}] )
 	sia? ( ~dev-python/pysiaalarm-3.2.2[${PYTHON_USEDEP}] )
-	sighthound? ( ~dev-python/pillow-12.2.0[${PYTHON_USEDEP}] ~dev-python/simplehound-0.3[${PYTHON_USEDEP}] )
+	sighthound? ( ~dev-python/pillow-12.3.0[${PYTHON_USEDEP}] ~dev-python/simplehound-0.3[${PYTHON_USEDEP}] )
 	signal_messenger? ( ~dev-python/pysignalclirestapi-0.3.24[${PYTHON_USEDEP}] )
 	simplefin? ( ~dev-python/simplefin4py-0.0.18[${PYTHON_USEDEP}] )
 	simplepush? ( ~dev-python/simplepush-2.2.3[${PYTHON_USEDEP}] )
@@ -1083,7 +1083,7 @@ RDEPEND="${RDEPEND}
 	trend? ( dev-python/numpy[${PYTHON_USEDEP}] )
 	triggercmd? ( ~dev-python/triggercmd-0.0.36[${PYTHON_USEDEP}] )
 	trmnl? ( ~dev-python/trmnl-0.1.1[${PYTHON_USEDEP}] )
-	tts? ( ~media-libs/mutagen-1.47.0[${PYTHON_USEDEP}] )
+	tts? ( ~media-libs/mutagen-1.48.1[${PYTHON_USEDEP}] )
 	tuya? ( ~dev-python/tuya-device-handlers-0.0.25[${PYTHON_USEDEP}] ~dev-python/tuya-device-sharing-sdk-0.2.10[${PYTHON_USEDEP}] )
 	twentemilieu? ( ~dev-python/twentemilieu-3.0.0[${PYTHON_USEDEP}] )
 	twilio? ( ~dev-python/twilio-6.32.0[${PYTHON_USEDEP}] )
