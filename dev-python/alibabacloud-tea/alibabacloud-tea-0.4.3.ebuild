@@ -25,7 +25,6 @@ KEYWORDS="~amd64 ~arm ~arm64 ~riscv ~x86"
 
 # No runtime dependencies listed on PyPI (very lightweight base runtime)
 RDEPEND="
-    ~dev-python/alibabacloud-tea-util-0.3.14[${PYTHON_USEDEP}]
 "
 DEPEND="${RDEPEND}"
 BDEPEND="
