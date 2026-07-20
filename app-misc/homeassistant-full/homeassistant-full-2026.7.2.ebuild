@@ -777,7 +777,7 @@ RDEPEND="${RDEPEND}
 	openevse? ( ~dev-python/python-openevse-http-1.0.1[${PYTHON_USEDEP}] )
 	openexchangerates? ( ~dev-python/aioopenexchangerates-0.6.8[${PYTHON_USEDEP}] )
 	opengarage? ( ~dev-python/open-garage-0.2.0[${PYTHON_USEDEP}] )
-	openhome? ( ~dev-python/openhomedevice-2.2.0[${PYTHON_USEDEP}] )
+	openhome? ( ~dev-python/openhomedevice-2.2[${PYTHON_USEDEP}] )
 	openrgb? ( ~dev-python/openrgb-python-0.3.6[${PYTHON_USEDEP}] )
 	opensensemap? ( ~dev-python/opensensemap-api-0.4.1[${PYTHON_USEDEP}] )
 	opensky? ( ~dev-python/python-opensky-1.0.1[${PYTHON_USEDEP}] )
