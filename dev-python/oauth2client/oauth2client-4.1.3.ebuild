@@ -1,27 +1,23 @@
-# Copyright 1999-2026 Gentoo Authors
-# Distributed under the terms of the GNU General Public License v2
-
 EAPI=8
 
-PYTHON_COMPAT=( python3_{11..14} )
+PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
-inherit distutils-r1 pypi
 
-DESCRIPTION="OAuth 2.0 client library"
-HOMEPAGE="http://github.com/google/oauth2client/ https://pypi.org/project/oauth2client/"
+inherit pypi distutils-r1
 
+DESCRIPTION="OAuth 2.0 client library (deprecated, used by PyDrive2)"
+HOMEPAGE="https://pypi.org/project/oauth2client/"
 LICENSE="Apache-2.0"
+SRC_URI="https://files.pythonhosted.org/packages/source/${PN::1}/${PN}/${PN}-${PV}.tar.gz"
+RESTRICT="mirror test"
+
 SLOT="0"
-KEYWORDS="amd64 arm arm64 x86"
-IUSE="test"
-RESTRICT="!test? ( test )"
+KEYWORDS="~amd64 ~x86"
 
-DOCS="README.md"
-
-RDEPEND=">=dev-python/httplib2-0.9.1[${PYTHON_USEDEP}]
-	|| ( >=dev-python/pysnmp-pyasn1-0.1.7[${PYTHON_USEDEP}] dev-python/pyasn1[${PYTHON_USEDEP}] )
-	|| ( >=dev-python/pysnmp-pyasn1-modules-0.0.5[${PYTHON_USEDEP}] dev-python/pyasn1-modules[${PYTHON_USEDEP}] )
-	>=dev-python/rsa-3.1.4[${PYTHON_USEDEP}]
-	>=dev-python/six-1.6.1[${PYTHON_USEDEP}]"
-
-distutils_enable_tests pytest
+RDEPEND="
+	dev-python/httplib2[${PYTHON_USEDEP}]
+	dev-python/pyasn1[${PYTHON_USEDEP}]
+	dev-python/pyasn1-modules[${PYTHON_USEDEP}]
+	dev-python/rsa[${PYTHON_USEDEP}]
+	dev-python/six[${PYTHON_USEDEP}]
+"
