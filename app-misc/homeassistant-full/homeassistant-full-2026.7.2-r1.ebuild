@@ -574,7 +574,7 @@ RDEPEND="${RDEPEND}
 	iss? ( ~dev-python/pyiss-1.0.1[${PYTHON_USEDEP}] )
 	ista_ecotrend? ( ~dev-python/pyecotrend-ista-3.4.0[${PYTHON_USEDEP}] )
 	isy994? ( ~dev-python/pyisy-3.6.1[${PYTHON_USEDEP}] )
-	itach? ( ~dev-python/pyitachip2ir-0.0.7[${PYTHON_USEDEP}] )
+	itach? ( ~dev-python/pyitachip2ir2-0.0.8[${PYTHON_USEDEP}] )
 	ituran? ( ~dev-python/pyituran-0.1.6[${PYTHON_USEDEP}] )
 	izone? ( ~dev-python/python-izone-1.2.10[${PYTHON_USEDEP}] )
 	jellyfin? ( ~dev-python/jellyfin-apiclient-python-1.11.0[${PYTHON_USEDEP}] )
