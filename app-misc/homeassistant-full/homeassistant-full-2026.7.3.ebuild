@@ -898,7 +898,7 @@ RDEPEND="${RDEPEND}
 	risco? ( ~dev-python/pyrisco-0.8.0[${PYTHON_USEDEP}] )
 	rituals_perfume_genie? ( ~dev-python/pyrituals-0.0.7[${PYTHON_USEDEP}] )
 	rmvtransport? ( ~dev-python/PyRMVtransport-0.3.3[${PYTHON_USEDEP}] )
-	roborock? ( ~dev-python/python-roborock-5.27.0[${PYTHON_USEDEP}] ~dev-python/vacuum-map-parser-roborock-0.1.5[${PYTHON_USEDEP}] )
+	roborock? ( ~dev-python/python-roborock-5.31.1[${PYTHON_USEDEP}] ~dev-python/vacuum-map-parser-roborock-0.1.5[${PYTHON_USEDEP}] )
 	rocketchat? ( ~dev-python/rocketchat-API-0.6.1[${PYTHON_USEDEP}] )
 	roku? ( ~dev-python/rokuecp-0.19.5[${PYTHON_USEDEP}] )
 	romy? ( ~dev-python/romy-0.0.10[${PYTHON_USEDEP}] )
