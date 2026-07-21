@@ -378,7 +378,7 @@ RDEPEND="${RDEPEND}
 	epson? ( ~dev-python/epson-projector-0.6.0[${PYTHON_USEDEP}] )
 	eq3btsmart? ( ~dev-python/eq3btsmart-2.3.0[${PYTHON_USEDEP}] )
 	escea? ( ~dev-python/pescea-1.0.12[${PYTHON_USEDEP}] )
-	esphome? ( ~dev-python/aioesphomeapi-45.6.0[${PYTHON_USEDEP}] ~dev-python/bleak-esphome-3.9.7[${PYTHON_USEDEP}] ~dev-python/esphome-dashboard-api-1.3.0[${PYTHON_USEDEP}] )
+	esphome? ( ~dev-python/aioesphomeapi-45.6.2[${PYTHON_USEDEP}] ~dev-python/bleak-esphome-3.9.7[${PYTHON_USEDEP}] ~dev-python/esphome-dashboard-api-1.3.0[${PYTHON_USEDEP}] )
 	essent? ( ~dev-python/essent-dynamic-pricing-0.3.1[${PYTHON_USEDEP}] )
 	etherscan? ( ~dev-python/python-etherscan-api-0.0.3[${PYTHON_USEDEP}] )
 	eufy? ( ~dev-python/lakeside-0.13[${PYTHON_USEDEP}] )
