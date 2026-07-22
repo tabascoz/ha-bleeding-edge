@@ -1,0 +1,32 @@
+# Copyright 1999-2026 Gentoo Authors
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=8
+
+PYTHON_COMPAT=( python3_{12..14} )
+DISTUTILS_USE_PEP517=setuptools
+inherit pypi distutils-r1
+
+DESCRIPTION="A JSON-RPC websocket client library for asyncio"
+HOMEPAGE="https://github.com/emlove/jsonrpc-websocket https://pypi.org/project/jsonrpc-websocket/"
+
+LICENSE="BSD"
+SLOT="0"
+KEYWORDS="~amd64 ~arm64"
+IUSE="test"
+RESTRICT="!test? ( test )"
+
+DOCS="README.rst"
+
+RDEPEND="
+	>=dev-python/jsonrpc-base-2.1.0[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/async-timeout-4.0.0[${PYTHON_USEDEP}]
+"
+BDEPEND="
+	test? (
+		dev-python/pytest[${PYTHON_USEDEP}]
+	)
+"
+
+distutils_enable_tests pytest

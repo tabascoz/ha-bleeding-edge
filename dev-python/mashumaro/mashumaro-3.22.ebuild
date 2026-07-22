@@ -1,0 +1,35 @@
+# Copyright 1999-2026 Gentoo Authors
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=8
+
+PYTHON_COMPAT=( python3_{12..14} )
+DISTUTILS_USE_PEP517=setuptools
+inherit distutils-r1 pypi
+
+DESCRIPTION="Fast and well tested serialization library"
+HOMEPAGE="https://github.com/Fatal1ty/mashumaro https://pypi.org/project/mashumaro/"
+
+LICENSE="Apache-2.0"
+SLOT="0"
+KEYWORDS="~amd64 ~arm64"
+IUSE="test"
+RESTRICT="!test? ( test )"
+
+DOCS="README.md"
+
+RDEPEND="
+	>=dev-python/typing-extensions-4.14.0[${PYTHON_USEDEP}]
+	>=dev-python/orjson-3.9.9[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-3.13[${PYTHON_USEDEP}]
+	>=dev-python/msgpack-0.5.6[${PYTHON_USEDEP}]
+	>=dev-python/tomli-w-1.0[${PYTHON_USEDEP}]
+	>=dev-python/tomli-1.1.0[${PYTHON_USEDEP}]
+"
+BDEPEND="
+	test? (
+		${RDEPEND}
+	)
+"
+
+distutils_enable_tests pytest
