@@ -33,7 +33,7 @@ RDEPEND="
 	>=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	>=dev-python/srp-1.0.22[${PYTHON_USEDEP}]
 	>=dev-python/tinyhtml-1.3.0[${PYTHON_USEDEP}]
-	=dev-python/tzlocal-5.3.1[${PYTHON_USEDEP}]
+	>=dev-python/tzlocal-5.3.1[${PYTHON_USEDEP}]
 "
 BDEPEND="
 	test? (

@@ -8,7 +8,7 @@ DISTUTILS_USE_PEP517=hatchling
 inherit pypi distutils-r1
 
 DESCRIPTION="Modern, reliable and async-ready Python client for Microsoft SignalR"
-HOMEPAGE="https://github.com/eshizhan/pysignalr https://pypi.org/project/pysignalr/"
+HOMEPAGE="https://github.com/baking-bad/pysignalr https://pypi.org/project/pysignalr/"
 
 LICENSE="MIT"
 SLOT="0"

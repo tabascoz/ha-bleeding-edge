@@ -1,4 +1,4 @@
-# Copyright 1999-202	6 Gentoo Authors9
+# Copyright 1999-202	6 Gentoo Authors	
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -169,7 +169,7 @@ RDEPEND="${RDEPEND}
 	alexa_devices? ( ~dev-python/aioamazondevices-14.1.9[${PYTHON_USEDEP}] )
 	alpha_vantage? ( ~dev-python/alpha-vantage-2.3.1[${PYTHON_USEDEP}] )
 	altruist? ( ~dev-python/altruistclient-0.1.1[${PYTHON_USEDEP}] )
-	amazon_polly? ( ~dev-python/boto3-1.43.14[${PYTHON_USEDEP}] )
+	amazon_polly? ( ~dev-python/boto3-1.43.53[${PYTHON_USEDEP}] )
 	amberelectric? ( ~dev-python/amberelectric-2.0.12[${PYTHON_USEDEP}] )
 	ambient_network? ( ~dev-python/aioambient-2024.8.0[${PYTHON_USEDEP}] )
 	ambient_station? ( ~dev-python/aioambient-2024.8.0[${PYTHON_USEDEP}] )
@@ -215,14 +215,14 @@ RDEPEND="${RDEPEND}
 	autoskope? ( ~dev-python/autoskope-client-1.4.1[${PYTHON_USEDEP}] )
 	avea? ( ~dev-python/avea-1.8.0[${PYTHON_USEDEP}] )
 	awair? ( ~dev-python/python-awair-0.2.5[${PYTHON_USEDEP}] )
-	aws? ( ~dev-python/aiobotocore-3.3.0[${PYTHON_USEDEP}] ~dev-python/botocore-1.43.14[${PYTHON_USEDEP}] )
+	aws? ( ~dev-python/aiobotocore-3.3.0[${PYTHON_USEDEP}] ~dev-python/botocore-1.43.53[${PYTHON_USEDEP}] )
 	aws_s3? ( ~dev-python/aiobotocore-3.3.0[${PYTHON_USEDEP}] )
 	axis? ( ~dev-python/axis-74[${PYTHON_USEDEP}] )
 	azure_data_explorer? ( ~dev-python/azure-kusto-ingest-4.5.1[${PYTHON_USEDEP}] )
 	azure_devops? ( ~dev-python/aioazuredevops-2.2.2[${PYTHON_USEDEP}] )
 	azure_event_hub? ( ~dev-python/azure-eventhub-5.11.1[${PYTHON_USEDEP}] )
 	azure_service_bus? ( ~dev-python/azure-servicebus-7.10.0[${PYTHON_USEDEP}] )
-	azure_storage? ( ~dev-python/azure-storage-blob-12.24.0[${PYTHON_USEDEP}] )
+	azure_storage? ( ~dev-python/azure-storage-blob-12.26.0[${PYTHON_USEDEP}] )
 	backblaze_b2? ( ~dev-python/b2sdk-2.10.4[${PYTHON_USEDEP}] )
 	backup? ( ~dev-python/cronsim-2.7[${PYTHON_USEDEP}] ~dev-python/securetar-2026.4.1[${PYTHON_USEDEP}] )
 	baf? ( ~dev-python/aiobafi6-0.9.0[${PYTHON_USEDEP}] )
@@ -656,7 +656,7 @@ RDEPEND="${RDEPEND}
 	mealie? ( ~dev-python/aiomealie-1.2.4[${PYTHON_USEDEP}] )
 	meater? ( ~dev-python/meater-python-0.0.8[${PYTHON_USEDEP}] )
 	medcom_ble? ( ~dev-python/medcom-ble-0.1.1[${PYTHON_USEDEP}] )
-	media_extractor? ( ~net-misc/yt-dlp-2026.06.09 )
+	media_extractor? ( ~net-misc/yt-dlp-2026.07.04 )
 	mediaroom? ( ~dev-python/pymediaroom-0.6.5.4[${PYTHON_USEDEP}] )
 	melcloud? ( ~dev-python/python-melcloud-0.1.3[${PYTHON_USEDEP}] )
 	melcloud_home? ( ~dev-python/aiomelcloudhome-0.1.9[${PYTHON_USEDEP}] )
@@ -904,7 +904,7 @@ RDEPEND="${RDEPEND}
 	romy? ( ~dev-python/romy-0.0.10[${PYTHON_USEDEP}] )
 	roomba? ( ~dev-python/roombapy-1.9.1[${PYTHON_USEDEP}] )
 	roon? ( ~dev-python/roonapi-0.1.6[${PYTHON_USEDEP}] )
-	route53? ( ~dev-python/boto3-1.43.14[${PYTHON_USEDEP}] )
+	route53? ( ~dev-python/boto3-1.43.53[${PYTHON_USEDEP}] )
 	route_b_smart_meter? ( ~dev-python/momonga-0.3.0[${PYTHON_USEDEP}] )
 	rova? ( ~dev-python/rova-0.4.1[${PYTHON_USEDEP}] )
 	rpi_power? ( ~dev-python/rpi-bad-power-0.1.0[${PYTHON_USEDEP}] )
@@ -1209,7 +1209,7 @@ RDEPEND="${RDEPEND}
 BDEPEND="${RDEPEND}
 	test? (
 		dev-python/astroid[${PYTHON_USEDEP}]
-		~dev-python/coverage-7.14.0[${PYTHON_USEDEP}]
+		~dev-python/coverage-7.14.1[${PYTHON_USEDEP}]
 		~dev-python/freezegun-1.5.5[${PYTHON_USEDEP}]
 		~dev-python/license-expression-30.4.4[${PYTHON_USEDEP}]
 		~dev-python/mock-open-1.4.0[${PYTHON_USEDEP}]
@@ -1232,7 +1232,7 @@ BDEPEND="${RDEPEND}
 		~dev-python/pytest-9.1.1[${PYTHON_USEDEP}]
 		~dev-python/requests-mock-1.12.1[${PYTHON_USEDEP}]
 		~dev-python/respx-0.23.1[${PYTHON_USEDEP}]
-		~dev-python/syrupy-5.3.4[${PYTHON_USEDEP}]
+		~dev-python/syrupy-5.4.0[${PYTHON_USEDEP}]
 		~dev-python/tqdm-4.68.3[${PYTHON_USEDEP}]
 	)
 	dev-python/setuptools[${PYTHON_USEDEP}]

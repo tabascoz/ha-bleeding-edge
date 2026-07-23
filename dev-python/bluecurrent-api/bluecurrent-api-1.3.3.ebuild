@@ -19,6 +19,6 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND="~dev-python/websockets-16.0[${PYTHON_USEDEP}]"
+RDEPEND="dev-python/websockets[${PYTHON_USEDEP}]"
 
 distutils_enable_tests pytest
