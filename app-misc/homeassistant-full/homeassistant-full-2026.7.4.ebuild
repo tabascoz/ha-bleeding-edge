@@ -56,7 +56,7 @@ RDEPEND="${RDEPEND}
 	~dev-python/aiohasupervisor-0.5.0[${PYTHON_USEDEP}]
 	~dev-python/aiohttp-asyncmdnsresolver-0.2.0[${PYTHON_USEDEP}]
 	~dev-python/aiohttp-fast-zlib-0.3.0[${PYTHON_USEDEP}]
-	~dev-python/aiohttp-3.14.2[${PYTHON_USEDEP}]
+	~dev-python/aiohttp-3.14.3[${PYTHON_USEDEP}]
 	~dev-python/aiohttp-cors-0.8.1[${PYTHON_USEDEP}]
 	~dev-python/aiozoneinfo-0.2.3[${PYTHON_USEDEP}]
 	~dev-python/annotatedyaml-1.0.2[${PYTHON_USEDEP}]
@@ -135,7 +135,7 @@ RDEPEND="${RDEPEND}
 	trane? ( ~dev-python/steamloop-1.2.1[${PYTHON_USEDEP}] )
 	vistapool? ( ~dev-python/aioaquarite-0.5.1[${PYTHON_USEDEP}] )
 	xthings_cloud? ( ~dev-python/ha-xthings-cloud-1.0.5[${PYTHON_USEDEP}] )
-	yoto? ( ~dev-python/yoto-api-4.3.1[${PYTHON_USEDEP}] )
+	yoto? ( ~dev-python/yoto-api-4.3.2[${PYTHON_USEDEP}] )
 	abode? ( ~dev-python/jaraco-abode-6.4.0[${PYTHON_USEDEP}] )
 	acaia? ( ~dev-python/aioacaia-0.1.18[${PYTHON_USEDEP}] )
 	accuweather? ( ~dev-python/accuweather-5.1.0[${PYTHON_USEDEP}] )
@@ -243,7 +243,7 @@ RDEPEND="${RDEPEND}
 	bond? ( ~dev-python/bond-async-0.2.1[${PYTHON_USEDEP}] )
 	bosch_alarm? ( ~dev-python/bosch-alarm-mode2-0.4.10[${PYTHON_USEDEP}] )
 	bosch_shc? ( ~dev-python/boschshcpy-0.3.5[${PYTHON_USEDEP}] )
-	braviatv? ( ~dev-python/pybravia-0.4.1[${PYTHON_USEDEP}] )
+	braviatv? ( ~dev-python/pybravia-0.5.1[${PYTHON_USEDEP}] )
 	bring? ( ~dev-python/bring-api-1.1.2[${PYTHON_USEDEP}] )
 	broadlink? ( ~dev-python/broadlink-0.19.0[${PYTHON_USEDEP}] )
 	brother? ( ~dev-python/brother-6.1.1[${PYTHON_USEDEP}] )
@@ -602,7 +602,7 @@ RDEPEND="${RDEPEND}
 	kwb? ( ~dev-python/pykwb-0.0.8[${PYTHON_USEDEP}] )
 	lacrosse? ( ~dev-python/pylacrosse-0.4[${PYTHON_USEDEP}] )
 	lacrosse_view? ( ~dev-python/lacrosse-view-1.1.2[${PYTHON_USEDEP}] )
-	lamarzocco? ( ~dev-python/pylamarzocco-2.4.2[${PYTHON_USEDEP}] )
+	lamarzocco? ( ~dev-python/pylamarzocco-2.4.3[${PYTHON_USEDEP}] )
 	lametric? ( ~dev-python/demetriek-1.3.0[${PYTHON_USEDEP}] )
 	landisgyr_heat_meter? ( ~dev-python/ultraheat-api-0.6.1[${PYTHON_USEDEP}] )
 	lastfm? ( ~dev-python/pylast-5.1.0[${PYTHON_USEDEP}] )

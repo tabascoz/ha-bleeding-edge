@@ -17,6 +17,11 @@ KEYWORDS="~amd64 ~arm64"
 IUSE="test"
 RESTRICT="!test? ( test )"
 
+PATCHES=(
+    "${FILESDIR}/aiohttp-sse-2.2.0-python314-ast.patch"
+)
+
+
 RDEPEND="
 	>=dev-python/aiohttp-3.0[${PYTHON_USEDEP}]
 "

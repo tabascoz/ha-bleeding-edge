@@ -3,38 +3,22 @@
 
 EAPI=8
 
-PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
-PYPI_NO_NORMALIZE=1
-inherit distutils-r1 pypi
+PYTHON_COMPAT=( python3_{12..14} )
+
+inherit distutils-r1
 
 DESCRIPTION="Bringing the elegance of C# EventHandler to Python"
-HOMEPAGE="http://github.com/pyeve/events https://pypi.org/project/Events/"
-SRC_URI="https://files.pythonhosted.org/packages/25/ed/e47dec0626edd468c84c04d97769e7ab4ea6457b7f54dcb3f72b17fcd876/${P}-py3-none-any.whl"
-S="${WORKDIR}"
+HOMEPAGE="
+    https://pypi.org/project/Events/
+    https://github.com/pyeve/events
+"
+# No sdist on PyPI as of v0.5, only a broken wheel (unknown-0.0.0.dist-info)
+SRC_URI="https://github.com/pyeve/events/archive/v${PV}.tar.gz -> ${P}.gh.tar.gz"
+S="${WORKDIR}/${P,,}"
+
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS="amd64 arm arm64 x86"
-IUSE="test"
-RESTRICT="!test? ( test )"
+KEYWORDS="~amd64 ~arm64"
 
-BDEPEND="
-	test? (
-		dev-python/pytest[${PYTHON_USEDEP}]
-	)
-"
-
-
-distutils_enable_tests pytest
-
-python_prepare_all() {
-    # Ensure a clean build-system section for hatchling
-    cat >> pyproject.toml <<- EOF || die
-[build-system]
-requires = ["setuptools >= 68.0"]
-build-backend = "setuptools.build_meta"
-EOF
-
-    distutils-r1_python_prepare_all
-}
-
+distutils_enable_tests unittest

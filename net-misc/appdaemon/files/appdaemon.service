@@ -1,0 +1,14 @@
+[Unit]
+Description=AppDaemon
+After=home-assistant.service
+
+[Service]
+User=appdaemon
+Group=appdaemon
+WorkingDirectory=/var/lib/appdaemon
+ExecStart=/var/lib/appdaemon/venv/bin/appdaemon -c /var/lib/appdaemon/conf
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target

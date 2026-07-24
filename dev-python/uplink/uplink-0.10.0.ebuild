@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~arm64"
 IUSE="test"
 RESTRICT="!test? ( test )"
 
-DOCS="README.rst"
+DOCS="README.md"
 
 RDEPEND="
     >=dev-python/requests-2.18.0[${PYTHON_USEDEP}]

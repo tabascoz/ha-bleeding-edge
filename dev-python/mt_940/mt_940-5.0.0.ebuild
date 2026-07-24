@@ -17,7 +17,7 @@ KEYWORDS="~amd64 ~arm64"
 IUSE="test"
 RESTRICT="!test? ( test )"
 
-DOCS="README.rst"
+DOCS="README.md"
 
 RDEPEND="
 	!dev-python/mt_940[${PYTHON_USEDEP}]
