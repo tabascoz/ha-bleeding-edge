@@ -35,7 +35,7 @@ IUSE="+systemd test "
 RESTRICT="!test? ( test )"
 
 DEPEND="$(python_gen_cond_dep '
-        ~dev-embedded/esphome-device-builder-frontend-0.1.266[${PYTHON_USEDEP}]
+        ~dev-embedded/esphome-device-builder-frontend-0.1.285[${PYTHON_USEDEP}]
         >=dev-python/cryptography-48.0.0[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-3.9.0[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-asyncmdnsresolver-0.1.1[${PYTHON_USEDEP}]
