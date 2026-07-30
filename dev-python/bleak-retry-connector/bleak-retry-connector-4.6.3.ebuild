@@ -21,7 +21,7 @@ RDEPEND="
 	>=dev-python/bleak-3.0.2[${PYTHON_USEDEP}]
 	>=dev-python/dbus-fast-5.0.22[${PYTHON_USEDEP}]
 	>=dev-python/bluetooth-adapters-2.3.0[${PYTHON_USEDEP}]
-	async-timeout[${PYTHON_USEDEP}]
+	dev-python/async-timeout[${PYTHON_USEDEP}]
 "
 BDEPEND="
 	test? (

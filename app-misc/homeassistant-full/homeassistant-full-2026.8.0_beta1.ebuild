@@ -16,9 +16,10 @@ if [[ ${PV} == 9999 ]]; then
 	S="${WORKDIR}/homeassistant-full-9999/"
 else
 
-    if [[ ${PV} == *_beta ]]; then
-        beta_num="${PR#r}"
-        MY_PV="${PV%_beta}b${beta_num}"
+    if [[ ${PV} == *_beta* ]]; then
+#        beta_num="${PR#r}"
+#        MY_PV="${PV%_b}b${beta_num}"
+	MY_PV="${PV/_beta/b}"
     else
         MY_PV="${PV}"
     fi

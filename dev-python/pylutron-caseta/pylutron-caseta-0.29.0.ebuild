@@ -20,6 +20,7 @@ RESTRICT="!test? ( test )"
 DOCS="CHANGELOG.md README.md"
 
 PYPI_PN="pylutron-caseta"
+S="${WORKDIR}/${PN}-${PV}"
 
 RDEPEND="
 	>=dev-python/async-timeout-3.0.1[${PYTHON_USEDEP}]

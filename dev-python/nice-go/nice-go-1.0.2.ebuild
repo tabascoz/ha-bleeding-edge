@@ -29,7 +29,7 @@ RDEPEND="
 	>=dev-python/pycognito-2024.5.1[${PYTHON_USEDEP}]
 	<dev-python/pycognito-2025.0.0[${PYTHON_USEDEP}]
 	>=dev-python/tenacity-8.5.0[${PYTHON_USEDEP}]
-	<dev-python/tenacity-9.0.0[${PYTHON_USEDEP}]
+	<dev-python/tenacity-9.2.0[${PYTHON_USEDEP}]
 "
 BDEPEND="
 	test? (

@@ -18,7 +18,7 @@ RESTRICT="!test? ( test )"
 
 RDEPEND="
 	>=dev-python/aiohttp-3.9.0[${PYTHON_USEDEP}]
-	<dev-python/aiohttp-3.14[${PYTHON_USEDEP}]
+	<dev-python/aiohttp-3.15[${PYTHON_USEDEP}]
 "
 BDEPEND="
 	test? (

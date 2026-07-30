@@ -20,7 +20,7 @@ RESTRICT="!test? ( test )"
 DOCS="README.rst"
 
 RDEPEND="
-	>=dev-python/python-dateutil-2.9.0.post0[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.9.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.34.2[${PYTHON_USEDEP}]
 	>=dev-python/python-slugify-8.0.4[${PYTHON_USEDEP}]
 	~dev-python/sortedcontainers-2.4.0[${PYTHON_USEDEP}]

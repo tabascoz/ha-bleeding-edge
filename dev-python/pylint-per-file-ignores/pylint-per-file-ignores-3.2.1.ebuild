@@ -7,8 +7,9 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="Generate and work with holidays in Python"
-HOMEPAGE="https://github.com/vacanza/holidays https://pypi.org/project/holidays/"
+DESCRIPTION="A pylint plugin to ignore error codes per file."
+HOMEPAGE="https://github.com/SAP/pylint-per-file-ignores \
+	https://pypi.org/project/pylint-per-file-ignores/"
 
 LICENSE="MIT"
 SLOT="0"
@@ -19,8 +20,8 @@ RESTRICT="!test? ( test )"
 DOCS="README.md"
 
 RDEPEND="
-	>=dev-python/python-dateutil-2.9.0[${PYTHON_USEDEP}]
-	<dev-python/python-dateutil-3[${PYTHON_USEDEP}]
+	>=dev-python/pylint-3.3[${PYTHON_USEDEP}]
+	<dev-python/pylint-5[${PYTHON_USEDEP}]
 "
 
 distutils_enable_tests pytest

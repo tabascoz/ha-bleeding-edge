@@ -14,6 +14,7 @@ KEYWORDS="~amd64 ~arm64"
 IUSE="test"
 RESTRICT="!test? ( test )"
 DOCS="README.md"
+S="${WORKDIR}/evohome_async-${PV}"
 
 RDEPEND="
 	>=dev-python/aiohttp-3.13.5[${PYTHON_USEDEP}]
@@ -36,7 +37,19 @@ BDEPEND="
 distutils_enable_tests pytest
 
 src_prepare() {
-	# remove dynamic-versioning
-	sed 's/dynamic = \["version"\]/version = \"'${PV}'\"/g' -i pyproject.toml || die
-	eapply_user
+    # remove dynamic-versioning
+    sed 's/dynamic = \["version"\]/version = "'${PV}'"/g' -i pyproject.toml || die
+
+    # Drop hatch-vcs and its build hook — static version is provided
+    python3 -c "
+import re
+p = 'pyproject.toml'
+s = open(p).read()
+s = re.sub(r'\[tool\.hatch\.build\.hooks\.vcs\].*?(?=\n\[|\Z)', '', s, flags=re.S)
+s = re.sub(r'\[tool\.hatch\.build\.hooks\.version\].*?(?=\n\[|\Z)', '', s, flags=re.S)
+s = re.sub(r'\"hatch-vcs\",?\s*', '', s)
+open(p, 'w').write(s)
+" || die
+
+    distutils-r1_src_prepare
 }

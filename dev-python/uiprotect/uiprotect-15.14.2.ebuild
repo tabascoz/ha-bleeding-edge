@@ -39,5 +39,6 @@ BDEPEND="
 		dev-python/pytest-asyncio[${PYTHON_USEDEP}]
 		dev-python/pytest-timeout[${PYTHON_USEDEP}]
 		dev-python/pytest-xdist[${PYTHON_USEDEP}]
+	)
 "
 distutils_enable_tests pytest

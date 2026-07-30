@@ -20,7 +20,7 @@ DOCS="README.md"
 
 RDEPEND="
 	>=dev-python/aiohttp-3.9.0[${PYTHON_USEDEP}]
-	>=dev-python/geopy-2.3.0[${PYTHON_USEDEP}]
+	>=sci-geosciences/geopy-2.3.0[${PYTHON_USEDEP}]
 	>=dev-python/lxml-5.3.0[${PYTHON_USEDEP}]
 	>=dev-python/pandas-2.2.3[${PYTHON_USEDEP}]
 	>=dev-python/pillow-10.0.1[${PYTHON_USEDEP}]

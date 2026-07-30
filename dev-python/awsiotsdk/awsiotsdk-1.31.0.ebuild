@@ -4,11 +4,12 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
-DISTUTILS_USE_PEP517=poetry
-inherit distutils-r1 pypi
+DISTUTILS_USE_PEP517=setuptools
+inherit pypi distutils-r1
 
-DESCRIPTION="Python library for connecting to nexia"
-HOMEPAGE="https://github.com/bdraco/nexia https://pypi.org/project/nexia/"
+DESCRIPTION="AWS IoT SDK based on the AWS Common Runtime"
+HOMEPAGE="https://github.com/aws/aws-iot-device-sdk-python-v2 \
+	https://pypi.org/project/awsiotsdk/"
 
 LICENSE="Apache-2.0"
 SLOT="0"
@@ -19,14 +20,11 @@ RESTRICT="!test? ( test )"
 DOCS="README.md"
 
 RDEPEND="
-	>=dev-python/aiohttp-3.8.0[${PYTHON_USEDEP}]
-	dev-python/orjson[${PYTHON_USEDEP}]
-	>=dev-python/propcache-0.2.0[${PYTHON_USEDEP}]"
+	=dev-python/awscrt-0.36.1[${PYTHON_USEDEP}]
+"
 BDEPEND="
-	dev-python/pytest-runner[${PYTHON_USEDEP}]
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]
 	)
 "
-
 distutils_enable_tests pytest

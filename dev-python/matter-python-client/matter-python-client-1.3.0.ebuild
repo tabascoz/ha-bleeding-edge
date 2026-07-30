@@ -21,18 +21,6 @@ RDEPEND="
 	dev-python/dacite[${PYTHON_USEDEP}]
 	dev-python/orjson[${PYTHON_USEDEP}]
 "
-BDEPEND="
-	${RDEPEND}
-	test? (
-		dev-python/codespell-2.4.1[${PYTHON_USEDEP}]
-		dev-python/isort-7.0.0[${PYTHON_USEDEP}]
-		dev-python/mypy-1.19.1[${PYTHON_USEDEP}]
-		dev-python/pylint-4.0.4[${PYTHON_USEDEP}]
-		dev-python/pytest-9.0[${PYTHON_USEDEP}]
-		dev-python/pytest-asyncio-0.24[${PYTHON_USEDEP}]
-		dev-python/pytest-aiohttp[${PYTHON_USEDEP}]
-		dev-python/pytest-cov-7.0[${PYTHON_USEDEP}]
-		dev-python/ruff-0.14.9[${PYTHON_USEDEP}]
-	)
-"
+BDEPEND="${RDEPEND}"
+
 distutils_enable_tests pytest

@@ -4,7 +4,6 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
-
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
@@ -20,9 +19,20 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/python-socketio[${PYTHON_USEDEP}]
-	dev-python/websocket-client[${PYTHON_USEDEP}]
-	dev-python/xmltodict[${PYTHON_USEDEP}]"
+RDEPEND="
+    dev-python/aiohttp[${PYTHON_USEDEP}]
+    dev-python/python-socketio[${PYTHON_USEDEP}]
+    dev-python/websocket-client[${PYTHON_USEDEP}]
+    dev-python/xmltodict[${PYTHON_USEDEP}]
+"
 
 distutils_enable_tests pytest
+
+src_prepare() {
+    distutils-r1_src_prepare
+
+    # Prevent setuptools from bundling the stray tests/ directory
+    sed -i \
+        -e 's|find_packages()|find_packages(exclude=["tests", "tests.*"])|' \
+        setup.py || die
+}

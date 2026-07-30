@@ -1,15 +1,8 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<?xml version='1.0' encoding='utf-8'?>
 <pkgmetadata>
-  <maintainer type="project">
-    <email>tabascoz@gmail.com</email>
-    <name>Fernando Cunha</name>
-  </maintainer>
-  <upstream>
-    <remote-id type="pypi">construct-typing</remote-id>
-    <remote-id type="github">timrid/construct-typing</remote-id>
-    <maintainer status="active">
-      <name>Tim Riddermann</name>
-    </maintainer>
-  </upstream>
+	<maintainer type="project"><email>tabascoz@gmail.com</email><name>Fernando Cunha</name></maintainer><stabilize-allarches />
+	<upstream>
+		<remote-id type="github">timrid/construct-typing</remote-id>
+		<remote-id type="pypi">construct-typing</remote-id>
+	</upstream>
 </pkgmetadata>

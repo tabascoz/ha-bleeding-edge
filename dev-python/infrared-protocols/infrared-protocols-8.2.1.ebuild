@@ -16,9 +16,8 @@ KEYWORDS="~amd64 ~arm64"
 IUSE="test"
 RESTRICT="!test? ( test )"
 
-RDEPEND="
-	>=dev-python/prek-1.0.0[${PYTHON_USEDEP}]
-"
+RDEPEND=" "
+
 BDEPEND="
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]
