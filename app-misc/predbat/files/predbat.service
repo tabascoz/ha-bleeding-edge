@@ -9,15 +9,20 @@ Type=simple
 User=predbat
 Group=predbat
 WorkingDirectory=/var/lib/predbat
-Environment=PYTHONPATH=/usr/share/predbat
 Environment=PYTHONUNBUFFERED=1
-ExecStart=/usr/bin/python3 /usr/share/predbat/hass.py
-Restart=on-failure
-RestartSec=20
+# No PYTHONPATH needed — all .py files are in the working directory.
+ExecStart=/usr/bin/python3 /var/lib/predbat/hass.py
 
+# Restart on any exit: covers crashes AND the intentional os._exit()
+# that hass.py calls when the file watcher detects a .py or apps.yaml
+# change (config edit or self-update).
+Restart=always
+RestartSec=5
+LogFilterPatterns=~Warn:
+LogFilterPatterns=~Info:
 # Hardening
 NoNewPrivileges=yes
-ProtectSystem=strict
+ProtectSystem=full
 ProtectHome=yes
 PrivateTmp=yes
 PrivateDevices=yes
@@ -27,11 +32,14 @@ ProtectControlGroups=yes
 RestrictAddressFamilies=AF_INET AF_INET6 AF_UNIX
 RestrictRealtime=yes
 LockPersonality=yes
-MemoryDenyWriteExecute=no
-# predbat needs to write to its own home dir only
+# /var/lib/predbat is the ONLY writable path. predbat writes:
+#   - apps.yaml (config edits)
+#   - *.py files (self-updates via download.py)
+#   - predbat.log, predbat_config.json, predbat_save.json, etc.
+#   - prediction_kernel_lib_*.so (if updated)
 ReadWritePaths=/var/lib/predbat
-# Pre-load localtime for proper timezone handling
 BindReadOnlyPaths=/etc/localtime
+BindPaths=/var/lib/predbat:/config
 
 [Install]
 WantedBy=multi-user.target
