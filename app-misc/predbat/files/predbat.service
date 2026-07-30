@@ -1,0 +1,37 @@
+[Unit]
+Description=Predbat — Home battery prediction and charging automation
+Documentation=https://springfall2008.github.io/batpred/
+After=network-online.target home-assistant.service
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=predbat
+Group=predbat
+WorkingDirectory=/var/lib/predbat
+Environment=PYTHONPATH=/usr/share/predbat
+Environment=PYTHONUNBUFFERED=1
+ExecStart=/usr/bin/python3 /usr/share/predbat/hass.py
+Restart=on-failure
+RestartSec=20
+
+# Hardening
+NoNewPrivileges=yes
+ProtectSystem=strict
+ProtectHome=yes
+PrivateTmp=yes
+PrivateDevices=yes
+ProtectKernelTunables=yes
+ProtectKernelModules=yes
+ProtectControlGroups=yes
+RestrictAddressFamilies=AF_INET AF_INET6 AF_UNIX
+RestrictRealtime=yes
+LockPersonality=yes
+MemoryDenyWriteExecute=no
+# predbat needs to write to its own home dir only
+ReadWritePaths=/var/lib/predbat
+# Pre-load localtime for proper timezone handling
+BindReadOnlyPaths=/etc/localtime
+
+[Install]
+WantedBy=multi-user.target
