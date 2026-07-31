@@ -17,7 +17,7 @@ ExecStart=/usr/bin/python3 /var/lib/predbat/hass.py
 # that hass.py calls when the file watcher detects a .py or apps.yaml
 # change (config edit or self-update).
 Restart=always
-RestartSec=5
+RestartSec=15
 LogFilterPatterns=~Warn:
 LogFilterPatterns=~Info:
 # Hardening
