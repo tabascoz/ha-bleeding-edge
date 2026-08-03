@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<pkgmetadata>
+	<maintainer type="project"><email>tabascoz@gmail.com</email><name>Fernando Cunha</name></maintainer><upstream>
+		<remote-id type="pypi">kiss-headers</remote-id>
+		<remote-id type="github">jawah/kiss-headers</remote-id>
+	</upstream>
+</pkgmetadata>

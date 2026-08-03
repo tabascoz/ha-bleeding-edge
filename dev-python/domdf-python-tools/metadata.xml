@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<pkgmetadata>
+	<maintainer type="project"><email>tabascoz@gmail.com</email><name>Fernando Cunha</name></maintainer><longdescription lang="en">
+	This package provides a various helper functions for Python, like
+	bases, compat, dates, etc.
+	</longdescription>
+	<upstream>
+		<remote-id type="github">domdfcoding/domdf_python_tools</remote-id>
+		<remote-id type="pypi">domdf-python-tools</remote-id>
+	</upstream>
+</pkgmetadata>

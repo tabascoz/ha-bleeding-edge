@@ -31,7 +31,7 @@ RDEPEND="
 		>=dev-python/atomicwrites-1.4.0[${PYTHON_USEDEP}]
 		>=dev-python/cachetools-5.3.0[${PYTHON_USEDEP}]
 		>=dev-python/peewee-3.14.4[${PYTHON_USEDEP}]
-		>=dev-python/vodozemac-0.9.0[${PYTHON_USEDEP}]
+		>=dev-python/vodozemac-python-0.10.0[${PYTHON_USEDEP}]
 	)
 "
 BDEPEND="
