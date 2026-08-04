@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<pkgmetadata>
+	<maintainer type="project"><email>tabascoz@gmail.com</email><name>Fernando Cunha</name></maintainer><upstream>
+		<remote-id type="pypi">jh2</remote-id>
+		<remote-id type="github">jawah/h2</remote-id>
+	</upstream>
+</pkgmetadata>

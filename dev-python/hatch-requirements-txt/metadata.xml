@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<pkgmetadata>
+	<maintainer type="project"><email>tabascoz@gmail.com</email><name>Fernando Cunha</name></maintainer><longdescription lang="en">
+	This package provides a hatchling plugin to read project
+	dependencies from requirements.txt. hatch-requirements-txt only supports
+	a subset of the requirements.txt format supported by pip.
+	</longdescription>
+	<upstream>
+		<remote-id type="github">repo-helper/hatch-requirements-txt</remote-id>
+		<remote-id type="pypi">hatch-requirements-txt</remote-id>
+	</upstream>
+</pkgmetadata>
