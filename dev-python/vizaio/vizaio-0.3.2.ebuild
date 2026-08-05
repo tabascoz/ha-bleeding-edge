@@ -18,7 +18,7 @@ RESTRICT="!test? ( test )"
 
 RDEPEND="
     >=dev-python/aiohttp-3.9[${PYTHON_USEDEP}]
-    <dev-python/aiohttp-3.14[${PYTHON_USEDEP}]
+    <dev-python/aiohttp-3.16[${PYTHON_USEDEP}]
     >=dev-python/platformdirs-4.0[${PYTHON_USEDEP}]
     dev-python/pyyaml[${PYTHON_USEDEP}]
     >=dev-python/typing-extensions-4.0.0[${PYTHON_USEDEP}]

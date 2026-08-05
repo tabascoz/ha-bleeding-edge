@@ -4,7 +4,7 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=hatchling
 inherit pypi distutils-r1
 
 DESCRIPTION="Async client for Harman Luxury Audio / StreamUnlimited network streamers (Arcam Radia, JBL, Mark Levinson)."
@@ -21,9 +21,9 @@ RDEPEND="
 "
 BDEPEND="
     test? (
-        dev-python/pytest-asyncio-0.24[${PYTHON_USEDEP}]
+        ~dev-python/pytest-asyncio-0.24[${PYTHON_USEDEP}]
         dev-python/pytest-cov[${PYTHON_USEDEP}]
-        dev-python/pytest-8[${PYTHON_USEDEP}]
+        dev-python/pytest[${PYTHON_USEDEP}]
     )
 "
 distutils_enable_tests pytest
