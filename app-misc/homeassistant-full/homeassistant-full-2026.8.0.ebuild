@@ -926,7 +926,7 @@ RDEPEND="${RDEPEND}
 	rympro? ( ~dev-python/pyrympro-0.0.9[${PYTHON_USEDEP}] )
 	sabnzbd? ( ~dev-python/pysabnzbd-1.1.1[${PYTHON_USEDEP}] )
 	saj? ( ~dev-python/pysaj-0.0.16[${PYTHON_USEDEP}] )
-	samsungtv? ( ~dev-python/async-upnp-client-0.47.1[${PYTHON_USEDEP}] ~dev-python/getmac-0.9.5[${PYTHON_USEDEP}] ~dev-python/wakeonlan-3.3.0[${PYTHON_USEDEP}] )
+	samsungtv? ( ~dev-python/async-upnp-client-0.47.1[${PYTHON_USEDEP}] ~dev-python/getmac-0.9.5[${PYTHON_USEDEP}] ~dev-python/wakeonlan-3.3.0[${PYTHON_USEDEP}] ~dev-python/samsungtvws-3.0.5[async,encrypted,${PYTHON_USEDEP}]  )
 	sanix? ( ~dev-python/sanix-1.0.6[${PYTHON_USEDEP}] )
 	satel_integra? ( ~dev-python/satel-integra-1.3.1[${PYTHON_USEDEP}] )
 	saunum? ( ~dev-python/pysaunum-0.7.0[${PYTHON_USEDEP}] )
