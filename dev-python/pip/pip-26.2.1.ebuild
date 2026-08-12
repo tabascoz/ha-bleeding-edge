@@ -73,13 +73,13 @@ BDEPEND="
 "
 
 python_prepare_all() {
-	local PATCHES=(
-		# prepare to unbundle dependencies and remove redundant test wheels
-		"${FILESDIR}/pip-26.2.1-unbundle-r1.patch"
-		# https://github.com/pypa/pip/pull/14033
-		# + https://github.com/pypa/pip/commit/4c6d7471dec62fb004a47a7c2164b6b5b089ac06
-		"${FILESDIR}/pip-26.2.1-py315.patch"
-	)
+#	local PATCHES=(
+#		# prepare to unbundle dependencies and remove redundant test wheels
+#		"${FILESDIR}/pip-26.1.2-unbundle-r1.patch"
+#		# https://github.com/pypa/pip/pull/14033
+#		# + https://github.com/pypa/pip/commit/4c6d7471dec62fb004a47a7c2164b6b5b089ac06
+#		"${FILESDIR}/pip-26.1.2-py315.patch"
+#	)
 
 	distutils-r1_python_prepare_all
 

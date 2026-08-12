@@ -23,7 +23,7 @@ SLOT="0"
 KEYWORDS="amd64 arm arm64 ~loong ~mips ppc ppc64 ~riscv ~s390 ~sparc x86"
 
 RDEPEND="
-	>=dev-python/cryptography-49[${PYTHON_USEDEP}]
+	<=dev-python/cryptography-50[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-46.0.0[${PYTHON_USEDEP}]
 	$(python_gen_cond_dep '
 		>=dev-python/typing-extensions-4.9[${PYTHON_USEDEP}]
