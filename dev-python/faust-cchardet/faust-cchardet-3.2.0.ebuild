@@ -5,7 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=meson-python
-
+DISTUTILS_EXT=1
 
 inherit distutils-r1 pypi
 
@@ -18,6 +18,6 @@ KEYWORDS="~amd64 ~arm64"
 IUSE="test"
 RESTRICT="!test? ( test )"
 
-DOCS="README.rst"
+DOCS="README.md"
 
 distutils_enable_tests pytest
