@@ -32,8 +32,8 @@ RDEPEND="
 	>=dev-python/shellingham-1.4.0[${PYTHON_USEDEP}]
 	>=dev-python/tomli-w-1.0[${PYTHON_USEDEP}]
 	>=dev-python/tomlkit-0.11.1[${PYTHON_USEDEP}]
-	~dev-python/userpath-1.7[${PYTHON_USEDEP}]
-	>=dev-python/uv-0.5.23[${PYTHON_USEDEP}]
+	~dev-python/userpath-1.9.2[${PYTHON_USEDEP}]
+	>=dev-python/uv-0.12.3
 	>=dev-python/virtualenv-21[${PYTHON_USEDEP}]
 "
 
