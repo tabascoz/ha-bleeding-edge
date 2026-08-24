@@ -46,7 +46,7 @@ RDEPEND="$(python_gen_cond_dep '
     esphome-device-builder? (
 	acct-group/esphome
 	acct-user/esphome
-	~dev-embedded/esphome-device-builder-1.12.0[${PYTHON_SINGLE_USEDEP}]
+	~dev-embedded/esphome-device-builder-1.12.4[${PYTHON_SINGLE_USEDEP}]
     )
     >=dev-python/cryptography-49.0.0[${PYTHON_USEDEP}]
     ~dev-python/voluptuous-0.16.0[${PYTHON_USEDEP}]
@@ -74,8 +74,8 @@ RDEPEND="$(python_gen_cond_dep '
     >=dev-python/smpclient-7.2.0[${PYTHON_USEDEP}]
     >=dev-python/requests-2.34.2[${PYTHON_USEDEP}]
     ~dev-python/py7zr-1.1.3[${PYTHON_USEDEP}]
-    ~dev-python/platformdirs-4.11.3[${PYTHON_USEDEP}]
-    ~dev-python/filelock-3.32.2[${PYTHON_USEDEP}]
+    dev-python/platformdirs[${PYTHON_USEDEP}]
+    dev-python/filelock[${PYTHON_USEDEP}]
     >=dev-python/pyparsing-3.3.2[${PYTHON_USEDEP}]
     >=dev-python/argcomplete-3.7.0[${PYTHON_USEDEP}]
     
