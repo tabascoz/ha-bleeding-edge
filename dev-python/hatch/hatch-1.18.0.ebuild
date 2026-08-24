@@ -24,7 +24,7 @@ RDEPEND="
 	>=dev-python/hyperlink-21.0.0[${PYTHON_USEDEP}]
 	>=dev-python/keyring-23.5.0[${PYTHON_USEDEP}]
 	>=dev-python/packaging-24.2[${PYTHON_USEDEP}]
-	~dev-python/pexpect-4.8[${PYTHON_USEDEP}]
+	~dev-python/pexpect-4.9.0[${PYTHON_USEDEP}]
 	>=dev-python/platformdirs-2.5.0[${PYTHON_USEDEP}]
 	dev-python/pyproject-hooks[${PYTHON_USEDEP}]
 	>=dev-python/python-discovery-1.1[${PYTHON_USEDEP}]
