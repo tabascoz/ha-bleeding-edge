@@ -21,7 +21,7 @@ RDEPEND="
 	>=dev-python/msgpack-1.0.0[${PYTHON_USEDEP}]
 	>=dev-python/orjson-3.9.0[${PYTHON_USEDEP}]
 	>=dev-python/websockets-16.0[${PYTHON_USEDEP}]
-	<dev-python/websockets-17.0[${PYTHON_USEDEP}]
+	<dev-python/websockets-18.0[${PYTHON_USEDEP}]
 "
 BDEPEND="
 	>=dev-python/hatchling-1.21.0[${PYTHON_USEDEP}]

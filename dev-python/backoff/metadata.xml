@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<pkgmetadata>
+  <maintainer type="project"><email>tabascoz@gmail.com</email><name>Fernando Cunha</name></maintainer><upstream>
+    <remote-id type="pypi">backoff</remote-id>
+    <remote-id type="github">litl/backoff</remote-id>
+    <maintainer status="unknown">
+      <email>rgreen@aquent.com</email>
+      <name>Bob Green</name>
+    </maintainer>
+  </upstream>
+</pkgmetadata>

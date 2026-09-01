@@ -11,8 +11,11 @@ inherit distutils-r1 pypi
 DESCRIPTION="The core module of Alibaba Cloud (Aliyun) Python SDK"
 HOMEPAGE="https://github.com/aliyun/aliyun-openapi-python-sdk/tree/master/aliyun-python-sdk-core\
     https://pypi.org/project/aliyun-python-sdk-core/"
-SRC_URI="$(pypi_wheel_url)"
-S="${WORKDIR}/${PN}-${PV}"
+#SRC_URI="$(pypi_wheel_url)"
+SRC_URI="$(pypi_wheel_url --unpack)"
+S="${WORKDIR}/aliyunsdkcore"
+
+
 
 LICENSE="Apache-2.0"
 SLOT="0"
