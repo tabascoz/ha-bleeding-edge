@@ -35,6 +35,7 @@ RDEPEND="
 	>=dev-python/pyjwt-2.8.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.0[${PYTHON_USEDEP}]
 	<dev-python/requests-3[${PYTHON_USEDEP}]
+	~dev-python/snitun-0.47.0[${PYTHON_USEDEP}]
 	>=dev-python/voluptuous-0.15[${PYTHON_USEDEP}]
 	<dev-python/webrtc-models-1.0.0[${PYTHON_USEDEP}]
 	>=dev-python/yarl-1.20[${PYTHON_USEDEP}]
