@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <pkgmetadata>
   <maintainer type="project"><email>tabascoz@gmail.com</email><name>Fernando Cunha</name></maintainer><upstream>
-    <remote-id type="pypi">jiter</remote-id>
-    <remote-id type="github">pydantic/jiter</remote-id>
-    <bugs-to>https://github.com/pydantic/jiter/issues</bugs-to>
+    <remote-id type="pypi">slack_sdk</remote-id>
+    <remote-id type="github">slackapi/python-slack-sdk</remote-id>
   </upstream>
 </pkgmetadata>
