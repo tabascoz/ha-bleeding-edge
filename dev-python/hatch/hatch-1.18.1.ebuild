@@ -25,7 +25,7 @@ RDEPEND="
 	>=dev-python/hyperlink-21.0.0[${PYTHON_USEDEP}]
 	>=dev-python/keyring-23.5.0[${PYTHON_USEDEP}]
 	>=dev-python/packaging-24.2[${PYTHON_USEDEP}]
-	~dev-python/pexpect-4.8[${PYTHON_USEDEP}]
+	>=dev-python/pexpect-4.8[${PYTHON_USEDEP}]
 	>=dev-python/platformdirs-2.5.0[${PYTHON_USEDEP}]
 	dev-python/pyproject-hooks[${PYTHON_USEDEP}]
 	>=dev-python/python-discovery-1.1[${PYTHON_USEDEP}]
@@ -33,7 +33,7 @@ RDEPEND="
 	>=dev-python/shellingham-1.4.0[${PYTHON_USEDEP}]
 	>=dev-python/tomli-w-1.0[${PYTHON_USEDEP}]
 	>=dev-python/tomlkit-0.11.1[${PYTHON_USEDEP}]
-	~dev-python/userpath-1.7[${PYTHON_USEDEP}]
+	>=dev-python/userpath-1.7[${PYTHON_USEDEP}]
 	>=dev-python/uv-0.5.23
 	>=dev-python/virtualenv-21[${PYTHON_USEDEP}]
 "

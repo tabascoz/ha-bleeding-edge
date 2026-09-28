@@ -21,7 +21,6 @@ RDEPEND="
 	>=dev-python/cryptography-44.0.0[${PYTHON_USEDEP}]
 	>=dev-python/httpx-0.21.2[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-1.9.2[${PYTHON_USEDEP}]
-	>=dev-python/pydantic-core-2.18.2[${PYTHON_USEDEP}]
 	>=dev-python/pyjwt-2.8.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.32.3[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.0.0[${PYTHON_USEDEP}]
