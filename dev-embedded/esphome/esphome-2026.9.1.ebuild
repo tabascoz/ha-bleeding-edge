@@ -46,7 +46,7 @@ RDEPEND="$(python_gen_cond_dep '
     esphome-device-builder? (
 	acct-group/esphome
 	acct-user/esphome
-	~dev-embedded/esphome-device-builder-1.13.1[${PYTHON_SINGLE_USEDEP}]
+	~dev-embedded/esphome-device-builder-1.17.2[${PYTHON_SINGLE_USEDEP}]
     )
     >=dev-python/cryptography-49.0.0[${PYTHON_USEDEP}]
     ~dev-python/voluptuous-0.16.0[${PYTHON_USEDEP}]
@@ -56,7 +56,7 @@ RDEPEND="$(python_gen_cond_dep '
     ~dev-python/tzlocal-5.4.4[${PYTHON_USEDEP}]
     >=dev-python/tzdata-10001[${PYTHON_USEDEP}]
     ~dev-python/pyserial-3.5[${PYTHON_USEDEP}]
-    ~dev-embedded/platformio-6.1.19[${PYTHON_USEDEP}]
+    ~dev-embedded/platformio-6.2.0[${PYTHON_USEDEP}]
     ~dev-embedded/esptool-5.3.1[${PYTHON_SINGLE_USEDEP}]
     >=dev-python/click-8.3.3[${PYTHON_USEDEP}]
     dev-python/aioesphomeapi[${PYTHON_USEDEP}]
@@ -67,17 +67,18 @@ RDEPEND="$(python_gen_cond_dep '
     ~dev-python/ruamel-yaml-clib-0.2.15[${PYTHON_USEDEP}]    
     ~dev-embedded/esphome-glyphsets-0.2.0[${PYTHON_USEDEP}]
     dev-python/pillow[${PYTHON_USEDEP}]
-    ~dev-python/resvg-py-0.3.4[${PYTHON_USEDEP}]
+    ~dev-python/resvg-py-0.5.0[${PYTHON_USEDEP}]
     ~dev-python/freetype-py-2.5.1[${PYTHON_USEDEP}]
     ~dev-python/jinja2-3.1.6[${PYTHON_USEDEP}]
-    >=dev-python/bleak-2.1.1[${PYTHON_USEDEP}]
+    >=dev-python/bleak-3.0.2[${PYTHON_USEDEP}]
     >=dev-python/smpclient-7.2.0[${PYTHON_USEDEP}]
     >=dev-python/requests-2.34.2[${PYTHON_USEDEP}]
     ~dev-python/py7zr-1.1.3[${PYTHON_USEDEP}]
     dev-python/platformdirs[${PYTHON_USEDEP}]
+    dev-build/ninja
     dev-python/filelock[${PYTHON_USEDEP}]
     >=dev-python/pyparsing-3.3.2[${PYTHON_USEDEP}]
-    >=dev-python/argcomplete-3.7.0[${PYTHON_USEDEP}]
+    >=dev-python/argcomplete-3.7.2[${PYTHON_USEDEP}]
     
 ')"
 
