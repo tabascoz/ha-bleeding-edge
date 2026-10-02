@@ -1,0 +1,29 @@
+# Copyright 1999-2026 Gentoo Authors
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=8
+PYTHON_COMPAT=( python3_{12..14} )
+DISTUTILS_USE_PEP517=poetry
+inherit distutils-r1 pypi
+
+DESCRIPTION="Python library for interfacing with ZhongHong HVAC controller"
+HOMEPAGE="https://github.com/crhan/ZhongHongHVAC https://pypi.org/project/zhong-hong-hvac/"
+
+LICENSE="Apache-2.0"
+SLOT="0"
+KEYWORDS="~amd64 ~arm64"
+IUSE="test"
+RESTRICT="!test? ( test )"
+
+DOCS="README.md"
+
+RDEPEND="
+    >=dev-python/attrs-23.1.0[${PYTHON_USEDEP}]
+"
+BDEPEND="
+    >=dev-python/poetry-core-1.0.0[${PYTHON_USEDEP}]
+    test? (
+        dev-python/pytest[${PYTHON_USEDEP}]
+    )
+"
+distutils_enable_tests pytest

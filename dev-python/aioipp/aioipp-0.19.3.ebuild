@@ -1,0 +1,32 @@
+# Copyright 2026 Gentoo Authors
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=8
+
+PYTHON_COMPAT=( python3_{12..14} )
+DISTUTILS_USE_PEP517=poetry
+inherit pypi distutils-r1
+
+DESCRIPTION="Asynchronous Python client for Internet Printing Protocol (IPP), a maintained fork of pyipp"
+HOMEPAGE="https://pypi.org/project/aioipp/"
+
+LICENSE="MIT"
+SLOT="0"
+KEYWORDS="~amd64 ~arm64"
+IUSE="test"
+RESTRICT="!test? ( test )"
+
+RDEPEND="
+    >=dev-python/aiohttp-3.0.0[${PYTHON_USEDEP}]
+    >=dev-python/awesomeversion-21.10.1[${PYTHON_USEDEP}]
+    >=dev-python/deepmerge-1.1.0[${PYTHON_USEDEP}]
+    >=dev-python/yarl-1.6.0[${PYTHON_USEDEP}]
+"
+BDEPEND="
+    >=dev-python/setuptools-68.0[${PYTHON_USEDEP}]
+    test? (
+        dev-python/pytest[${PYTHON_USEDEP}]
+        dev-python/pytest-asyncio[${PYTHON_USEDEP}]
+    )
+"
+distutils_enable_tests pytest

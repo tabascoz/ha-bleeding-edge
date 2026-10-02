@@ -1,0 +1,34 @@
+# Copyright 1999-2026 Gentoo Authors
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=8
+
+PYTHON_COMPAT=( python3_{12..14} )
+DISTUTILS_USE_PEP517=hatchling
+inherit pypi distutils-r1
+
+DESCRIPTION="An event-based asynchronous library to read UDP packets from Weatherflow weather systems on a local network without any reliance on the cloud."
+HOMEPAGE="https://github.com/briis/pyweatherflowudp https://pypi.org/project/pyweatherflowudp/"
+
+LICENSE="MIT"
+SLOT="0"
+KEYWORDS="~amd64 ~arm64"
+IUSE="test"
+RESTRICT="!test? ( test )"
+
+DOCS="README.md"
+
+RDEPEND="
+	>=dev-python/Pint-0.24[${PYTHON_USEDEP}]
+	>=dev-python/PsychroLib-2.5.0[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.15.0[${PYTHON_USEDEP}]
+"
+BDEPEND="
+	test? (
+		dev-python/pytest[${PYTHON_USEDEP}]
+	)
+"
+
+PYPI_PN="pyweatherflowudp"
+
+distutils_enable_tests pytest

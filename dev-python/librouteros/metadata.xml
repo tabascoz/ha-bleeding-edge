@@ -1,16 +1,9 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<?xml version='1.0' encoding='utf-8'?>
 <pkgmetadata>
-  <maintainer type="project">
-    <email>tabascoz@gmail.com</email>
-    <name>Fernando Cunha</name>
-  </maintainer>
-  <upstream>
-    <remote-id type="pypi">librouteros</remote-id>
-    <remote-id type="github">luqasz/librouteros</remote-id>
-    <maintainer status="active">
-      <name>Łukasz Kostka</name>
-      <email>lukasz.g.kostka@gmail.com</email>
-    </maintainer>
-  </upstream>
+	<maintainer type="project"><email>tabascoz@gmail.com</email><name>Fernando Cunha</name></maintainer><upstream>
+		<bugs-to>https://github.com/luqasz/librouteros/issues</bugs-to>
+		<doc>https://librouteros.readthedocs.io/</doc>
+		<remote-id type="pypi">librouteros</remote-id>
+		<remote-id type="github">luqasz/librouteros</remote-id>
+	</upstream>
 </pkgmetadata>
