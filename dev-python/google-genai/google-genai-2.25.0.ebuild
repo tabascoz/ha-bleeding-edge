@@ -45,7 +45,7 @@ RDEPEND="
 		>=sci-ml/sentencepiece-0.2.0[${PYTHON_USEDEP}]
 		dev-python/protobuf[${PYTHON_USEDEP}]
 		png? ( dev-python/pillow[${PYTHON_USEDEP}] )
-		torch? ( dev-python/pytorch[${PYTHON_USEDEP}] )
+		torch? ( sci-ml/pytorch[${PYTHON_USEDEP}] )
 		torchvision? ( sci-ml/torchvision[${PYTHON_USEDEP}] )
 		transformers? ( dev-python/transformers[${PYTHON_USEDEP}] )
 	)
