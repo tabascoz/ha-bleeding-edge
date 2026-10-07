@@ -22,9 +22,9 @@ RDEPEND="
 BDEPEND="
     >=dev-python/setuptools-68.0[${PYTHON_USEDEP}]
     test? (
-        dev-python/pytest-asyncio-0.20.0[${PYTHON_USEDEP}]
-        dev-python/pytest-7.0.0[${PYTHON_USEDEP}]
-        dev-python/aioresponses-0.7.0[${PYTHON_USEDEP}]
+        >=dev-python/pytest-asyncio-0.20.0[${PYTHON_USEDEP}]
+        >=dev-python/pytest-7.0.0[${PYTHON_USEDEP}]
+        >=dev-python/aioresponses-0.7.0[${PYTHON_USEDEP}]
     )
 "
 distutils_enable_tests pytest

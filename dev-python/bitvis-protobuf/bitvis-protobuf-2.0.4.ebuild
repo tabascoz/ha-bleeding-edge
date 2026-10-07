@@ -17,7 +17,7 @@ IUSE="test"
 RESTRICT="!test? ( test )"
 
 RDEPEND="
-    dev-python/getmac==0.9.5[${PYTHON_USEDEP}]
+    >=dev-python/getmac-0.9.5[${PYTHON_USEDEP}]
     >=dev-python/protobuf-4.25.0[${PYTHON_USEDEP}]
 "
 BDEPEND="
