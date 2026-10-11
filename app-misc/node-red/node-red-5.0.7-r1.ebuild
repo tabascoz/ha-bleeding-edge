@@ -5,7 +5,7 @@ EAPI=8
 
 inherit nodejs-mod systemd tmpfiles
 
-DESCRIPTION="A visual tool for wiring the Internet of Things."
+DESCRIPTION="A visual tool for wiring the Internet of Things"
 HOMEPAGE="https://nodered.org"
 SRC_URI="https://github.com/${PN}/${PN}/archive/refs/tags/${PV}.tar.gz  -> ${P}.tar.gz
         https://raw.githubusercontent.com/tabascoz/node_modules/main/app-misc/node-red/${PN}-${PV}-node_modules.tar.xz
@@ -23,10 +23,25 @@ RDEPEND="
 
 NODEJS_EXTRA_FILES="packages"
 
+# @node-rs/bcrypt (napi-rs, Rust) is only shipped as a prebuilt binary, and
+# modules using the prebuilds/ layout keep their linux-x64 binary (see below).
+# https://github.com/inode64/inode64-overlay/issues/29
+QA_PREBUILT="
+	usr/lib*/node_modules/${PN}/node_modules/@node-rs/*/*.node
+	usr/lib*/node_modules/${PN}/node_modules/*/prebuilds/linux-x64/*
+"
+
 src_install() {
 	# Remove jsdoc-nr-template, prune use git to get the version
 	rm -rf node_modules/jsdoc-nr-template/ || die
 	sed -i -e '/jsdoc-nr-template/d' package.json || die
+
+	# Drop prebuilt binaries for other platforms (android, darwin, ios, win32...)
+	local dir
+	while IFS= read -r -d '' dir; do
+		rm -r "${dir}" || die
+	done < <(find node_modules -mindepth 2 -maxdepth 2 -type d -path '*/prebuilds/*' \
+		! -name 'linux-x64' -print0)
 
 	nodejs-mod_src_install
 
