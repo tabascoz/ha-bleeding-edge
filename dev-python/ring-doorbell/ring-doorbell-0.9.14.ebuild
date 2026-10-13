@@ -20,7 +20,6 @@ DOCS="README.rst"
 
 RDEPEND="
 	>=dev-python/oauthlib-3.0.0[${PYTHON_USEDEP}]
-	<dev-python/oauthlib-4.0.0[${PYTHON_USEDEP}]
 	>=dev-python/pytz-2022.0[${PYTHON_USEDEP}]
 	>=dev-python/asyncclick-8.1.7.1[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-3.0.0[${PYTHON_USEDEP}]

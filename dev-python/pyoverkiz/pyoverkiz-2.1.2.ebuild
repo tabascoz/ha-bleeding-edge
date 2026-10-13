@@ -26,7 +26,6 @@ RDEPEND="
 	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
 	>=dev-python/attrs-22.2[${PYTHON_USEDEP}]
 	>=dev-python/python-backoff-1.10.0[${PYTHON_USEDEP}]
-	<dev-python/python-backoff-3.0[${PYTHON_USEDEP}]
 	>=dev-python/cattrs-23.2[${PYTHON_USEDEP}]
 "
 BDEPEND="

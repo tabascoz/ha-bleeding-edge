@@ -35,7 +35,7 @@ RDEPEND="
 	>=dev-python/tinyhtml-1.3.0[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.5.0[${PYTHON_USEDEP}]
 	<dev-python/typing-extensions-5[${PYTHON_USEDEP}]
-	=dev-python/tzlocal-5.3.1[${PYTHON_USEDEP}]
+	>=dev-python/tzlocal-5.3.1[${PYTHON_USEDEP}]
 "
 BDEPEND="
 	test? (

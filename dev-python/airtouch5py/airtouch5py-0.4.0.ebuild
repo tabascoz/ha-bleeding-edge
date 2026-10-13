@@ -21,7 +21,6 @@ DOCS="README.md"
 
 RDEPEND=">=dev-python/bitarray-3.4.2[${PYTHON_USEDEP}] \
 	<dev-python/bitarray-4.0.0[${PYTHON_USEDEP}] \
-	>=dev-python/crc-7.1.0[${PYTHON_USEDEP}] \
-	<dev-python/crc-8.0.0[${PYTHON_USEDEP}]"
+	>=dev-python/crc-7.1.0[${PYTHON_USEDEP}] "
 
 distutils_enable_tests pytest

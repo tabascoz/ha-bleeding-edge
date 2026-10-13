@@ -25,11 +25,9 @@ RDEPEND="
 	>=dev-python/aiohttp-3.0.0[${PYTHON_USEDEP}]
 	>=dev-python/awesomeversion-24.6.0[${PYTHON_USEDEP}]
 	>=dev-python/python-backoff-2.2.1[${PYTHON_USEDEP}]
-	<dev-python/python-backoff-3.0.0[${PYTHON_USEDEP}]
 	>=dev-python/mashumaro-3.15[${PYTHON_USEDEP}]
 	<dev-python/mashumaro-4.0[${PYTHON_USEDEP}]
 	>=dev-python/multidict-6.0.5[${PYTHON_USEDEP}]
-	<dev-python/multidict-7.0.0[${PYTHON_USEDEP}]
 	>=dev-python/orjson-3.10[${PYTHON_USEDEP}]
 	<dev-python/orjson-4.0[${PYTHON_USEDEP}]
 "

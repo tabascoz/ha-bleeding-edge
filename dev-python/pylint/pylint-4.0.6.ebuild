@@ -22,7 +22,7 @@ KEYWORDS="~alpha amd64 arm arm64 ~hppa ~loong ~m68k ~mips ppc ppc64 ~riscv ~s390
 IUSE="examples"
 
 RDEPEND="
-	<dev-python/astroid-4.3[${PYTHON_USEDEP}]
+	<dev-python/astroid-5[${PYTHON_USEDEP}]
 	>=dev-python/astroid-4.1.2[${PYTHON_USEDEP}]
 	>=dev-python/dill-0.3.7[${PYTHON_USEDEP}]
 	>=dev-python/isort-5.14[${PYTHON_USEDEP}]
