@@ -1,0 +1,22 @@
+From 0eed7a57f503fc552948a45e7f490ddaff711896 Mon Sep 17 00:00:00 2001
+From: Neal Fennimore <hi@neal.codes>
+Date: Tue, 7 Jan 2025 10:23:23 -0500
+Subject: [PATCH] fix: Update pyproject.toml
+
+Add in build-system
+---
+ pyproject.toml | 4 ++++
+ 1 file changed, 4 insertions(+)
+
+diff --git a/pyproject.toml b/pyproject.toml
+index 308cea3..9039796 100644
+--- a/pyproject.toml
++++ b/pyproject.toml
+@@ -68,3 +68,7 @@ no_implicit_optional = true
+ warn_return_any = true
+ warn_unreachable = true
+ show_error_codes = true
++
++[build-system]
++requires = ["poetry-core>=1.0.0"]
++build-backend = "poetry.core.masonry.api"
