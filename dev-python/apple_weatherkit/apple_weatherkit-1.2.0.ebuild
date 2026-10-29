@@ -5,11 +5,11 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=poetry
+PYPI_PN="apple_weatherkit"
 inherit distutils-r1 pypi
 
 DESCRIPTION="Python client for Apple WeatherKit API"
 HOMEPAGE="https://github.com/tjhorner/python-weatherkit https://pypi.org/project/apple_weatherkit/"
-PYPI_PN="apple_weatherkit"
 
 LICENSE="MIT"
 SLOT="0"
