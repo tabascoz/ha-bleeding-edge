@@ -9,4 +9,7 @@
     <remote-id type="pypi">bellows</remote-id>
     <remote-id type="github">zigpy/bellows</remote-id>
   </upstream>
+  <use>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
 </pkgmetadata>
