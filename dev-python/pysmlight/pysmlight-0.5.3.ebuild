@@ -5,6 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=hatchling
+PYPI_PN="pysmlight"
 inherit pypi distutils-r1
 
 DESCRIPTION="A library implementing API control of the SMLIGHT SLZB-06 LAN Coordinators."
@@ -18,7 +19,6 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-PYPI_PN="pysmlight"
 
 RDEPEND="
     >=dev-python/aiohttp-3.9.3[${PYTHON_USEDEP}]
