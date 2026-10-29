@@ -11,4 +11,8 @@
       <name>Programer-Turtle</name>
     </maintainer>
   </upstream>
+  <use>
+    <flag name="retry">Optional dependency group retry declared by pynws-1.8.2</flag>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
 </pkgmetadata>
