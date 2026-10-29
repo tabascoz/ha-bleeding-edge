@@ -13,4 +13,7 @@
       <email>marius@gedmin.as</email>
     </maintainer>
   </upstream>
+  <use>
+    <flag name="doc">Pull the dependencies the doc integration of Home Assistant needs</flag>
+  </use>
 </pkgmetadata>
