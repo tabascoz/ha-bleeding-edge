@@ -5,6 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=poetry
+PYPI_PN="pytrydan"
 inherit distutils-r1 pypi
 
 DESCRIPTION="Library to interface with V2C EVSE Trydan"
@@ -18,7 +19,6 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-PYPI_PN="pytrydan"
 
 RDEPEND="
 	>=dev-python/httpx-0.24.0[${PYTHON_USEDEP}]
