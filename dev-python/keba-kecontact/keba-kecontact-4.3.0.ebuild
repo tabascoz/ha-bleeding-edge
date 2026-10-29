@@ -6,11 +6,11 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 #PYPI_NO_NORMALIZE=1
+PYPI_PN="keba_kecontact"
 inherit distutils-r1 pypi
 
 DESCRIPTION="A python library to communicate with the KEBA charging stations via udp"
 HOMEPAGE="https://github.com/dannerph/keba-kecontact https://pypi.org/project/keba-kecontact/"
-PYPI_PN="keba_kecontact"
 
 LICENSE="MIT"
 SLOT="0"
