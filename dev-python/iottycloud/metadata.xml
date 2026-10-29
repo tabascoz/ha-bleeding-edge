@@ -9,4 +9,7 @@
     <remote-id type="pypi">iottycloud</remote-id>
     <remote-id type="github">pburgio/iottycloud</remote-id>
   </upstream>
+  <use>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
 </pkgmetadata>
