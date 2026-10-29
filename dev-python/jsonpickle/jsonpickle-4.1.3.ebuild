@@ -10,7 +10,7 @@ inherit pypi distutils-r1
 DESCRIPTION="jsonpickle encodes/decodes any Python object to/from JSON"
 HOMEPAGE="https://pypi.org/project/jsonpickle/"
 
-LICENSE="BSD-3-Clause"
+LICENSE="BSD"
 SLOT="0"
 KEYWORDS="~amd64 ~arm64"
 IUSE="test"
