@@ -5,6 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="pypca"
 inherit distutils-r1 pypi
 
 DESCRIPTION="A python cli for PCA 301 smart plugs."
@@ -25,6 +26,5 @@ BDEPEND="
 		dev-python/pytest[${PYTHON_USEDEP}]
 	)"
 
-PYPI_PN="pypca"
 
 distutils_enable_tests pytest
