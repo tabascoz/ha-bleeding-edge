@@ -6,11 +6,11 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 
+PYPI_PN="pyenvertechevt800"
 inherit distutils-r1 pypi
 
 DESCRIPTION="Library to interface an Envertech EVT-800 device"
 HOMEPAGE="https://github.com/daniel-bergmann-00/pyenvertech-evt800"
-PYPI_PN="pyenvertechevt800"
 
 LICENSE="MIT"
 SLOT="0"
