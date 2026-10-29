@@ -9,4 +9,7 @@
     <remote-id type="pypi">transmission-rpc</remote-id>
     <remote-id type="github">Trim21/transmission-rpc</remote-id>
   </upstream>
+  <use>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
 </pkgmetadata>
