@@ -5,6 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="pyisy"
 inherit distutils-r1 pypi
 
 DESCRIPTION="Python module to talk to ISY devices from UDI."
@@ -28,6 +29,5 @@ BDEPEND="
 	)
 "
 
-PYPI_PN="pyisy"
 
 distutils_enable_tests pytest
