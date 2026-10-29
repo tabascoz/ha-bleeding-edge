@@ -5,4 +5,12 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
 </maintainer>
+  <use>
+    <flag name="examples">Pull the dependencies the examples integration of Home Assistant needs</flag>
+    <flag name="gui">Pull the dependencies the gui integration of Home Assistant needs</flag>
+    <flag name="nbconvert">Pull the dependencies the nbconvert integration of Home Assistant needs</flag>
+    <flag name="notebook">Pull the dependencies the notebook integration of Home Assistant needs</flag>
+    <flag name="smp">Pull dev-python/ipykernel-5.1.0, dev-python/ipyparallel-6.2.3 for smp support</flag>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
 </pkgmetadata>
