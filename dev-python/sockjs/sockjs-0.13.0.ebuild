@@ -6,9 +6,9 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 
+PYPI_PN="sockjs"
 inherit distutils-r1 pypi
 
-PYPI_PN="sockjs"
 
 DESCRIPTION="SockJS server implementation for aiohttp"
 HOMEPAGE="https://pypi.org/project/sockjs/ https://github.com/aio-libs/sockjs"
