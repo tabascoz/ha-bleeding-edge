@@ -6,13 +6,13 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="pydroplet"
 inherit pypi distutils-r1
 
 DESCRIPTION="Package to connect to a Droplet device."
 HOMEPAGE="https://pypi.org/project/pydroplet/"
-PYPI_PN="pydroplet"
 
-LICENSE="All-rights-reserved"
+LICENSE="all-rights-reserved"
 SLOT="0"
 KEYWORDS="~amd64 ~arm64"
 IUSE="test"
