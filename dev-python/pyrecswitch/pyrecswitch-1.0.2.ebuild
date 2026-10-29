@@ -5,6 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="pyrecswitch"
 inherit distutils-r1 pypi
 
 DESCRIPTION="A pure-python interface for controlling Ankuoo RecSwitch MS6126"
@@ -25,6 +26,5 @@ BDEPEND="
 	)
 "
 
-PYPI_PN="pyrecswitch"
 
 distutils_enable_tests pytest
