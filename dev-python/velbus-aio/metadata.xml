@@ -9,4 +9,7 @@
     <remote-id type="pypi">velbus-aio</remote-id>
     <remote-id type="github">Cereal2nd/velbus-aio</remote-id>
   </upstream>
+  <use>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
 </pkgmetadata>
