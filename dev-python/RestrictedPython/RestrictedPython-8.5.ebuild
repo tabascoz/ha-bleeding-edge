@@ -5,13 +5,13 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="RestrictedPython"
 inherit distutils-r1
 MY_PV1=${PV/_beta/b}
 MY_PV=${MY_PV1/_alpha/a}
 
 DESCRIPTION="subset of Python which allows program input into a trusted environment."
 HOMEPAGE="https://github.com/zopefoundation/RestrictedPython https://pypi.org/project/RestrictedPython/"
-PYPI_PN="RestrictedPython"
 SRC_URI="https://github.com/zopefoundation/${PN}/archive/refs/tags/${MY_PV}.tar.gz -> ${P}.gh.tar.gz"
 S=${WORKDIR}/${PN}-${MY_PV}
 
