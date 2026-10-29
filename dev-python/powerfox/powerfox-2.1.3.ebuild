@@ -10,7 +10,7 @@ inherit pypi distutils-r1
 
 DESCRIPTION="Asynchronous Python client for the Powerfox devices"
 HOMEPAGE="https://pypi.org/project/powerfox/"
-LICENSE="None"
+LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~arm64"
 
