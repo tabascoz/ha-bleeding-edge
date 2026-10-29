@@ -6,11 +6,11 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 
 DISTUTILS_USE_PEP517=hatchling
+PYPI_PN="pybravia"
 inherit distutils-r1 pypi
 
 DESCRIPTION="Python async library for remote control of Sony Bravia TVs 2013 and newer."
 HOMEPAGE="https://github.com/Drafteed/pybravia https://pypi.org/project/pybravia/"
-PYPI_PN="pybravia"
 
 LICENSE="MIT"
 SLOT="0"
