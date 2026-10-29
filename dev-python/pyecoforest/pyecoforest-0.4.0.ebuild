@@ -5,6 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=poetry
+PYPI_PN="pyecoforest"
 inherit distutils-r1 pypi
 
 DESCRIPTION="Python library for ecoforest local device."
@@ -18,7 +19,6 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-PYPI_PN="pyecoforest"
 
 RDEPEND="dev-python/httpx[${PYTHON_USEDEP}]"
 BDEPEND="
