@@ -13,4 +13,8 @@
       <email>ben@bennuttall.com</email>
     </maintainer>
   </upstream>
+  <use>
+    <flag name="doc">Optional dependency group doc declared by gpiozero-1.6.2</flag>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
 </pkgmetadata>
