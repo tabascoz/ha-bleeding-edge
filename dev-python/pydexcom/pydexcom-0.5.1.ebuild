@@ -5,6 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=hatchling
+PYPI_PN="pydexcom"
 inherit distutils-r1 pypi
 
 DESCRIPTION="Python API to interact with Dexcom Share API"
@@ -20,6 +21,5 @@ DOCS="README.md"
 
 RDEPEND=">=dev-python/requests-2.0[${PYTHON_USEDEP}]"
 
-PYPI_PN="pydexcom"
 
 distutils_enable_tests pytest
