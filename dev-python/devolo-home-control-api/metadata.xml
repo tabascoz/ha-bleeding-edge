@@ -9,4 +9,7 @@
     <remote-id type="pypi">devolo-home-control-api</remote-id>
     <remote-id type="github">2Fake/devolo_home_control_api</remote-id>
   </upstream>
+  <use>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
 </pkgmetadata>
