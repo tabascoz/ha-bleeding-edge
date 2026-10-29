@@ -5,4 +5,9 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
 </maintainer>
+  <use>
+    <flag name="pymodbus">Pull dev-python/pymodbus-3.11 for the pymodbus integration</flag>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+    <flag name="tmodbus">Pull dev-python/tmodbus-1.1.0 for tmodbus support</flag>
+  </use>
 </pkgmetadata>

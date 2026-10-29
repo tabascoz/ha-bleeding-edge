@@ -5,9 +5,9 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=hatchling
+PYPI_PN="modbus-connection"
 inherit pypi distutils-r1
 
-PYPI_PN="modbus-connection"
 
 DESCRIPTION="Backend-neutral Modbus connection abstraction (pymodbus / tmodbus)"
 HOMEPAGE="https://pypi.org/project/modbus-connection/ https://github.com/home-assistant-libs/modbus-connection"
