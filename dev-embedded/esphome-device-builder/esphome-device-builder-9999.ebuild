@@ -34,7 +34,7 @@ fi
 
 
 SLOT="0"
-LICENSE="APACHE-2"
+LICENSE="Apache-2.0"
 
 IUSE="+systemd test "
 RESTRICT="!test? ( test )"

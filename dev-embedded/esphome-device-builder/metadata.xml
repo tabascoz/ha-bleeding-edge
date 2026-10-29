@@ -13,4 +13,8 @@
       <email>hello@openhomefoundation.org</email>
     </maintainer>
   </upstream>
+  <use>
+    <flag name="systemd">Use systemd for service management and initialization</flag>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
 </pkgmetadata>
