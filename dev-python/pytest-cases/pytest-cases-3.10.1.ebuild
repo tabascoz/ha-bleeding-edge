@@ -13,7 +13,7 @@ HOMEPAGE="
 	https://github.com/smarie/python-pytest-cases
 "
 
-LICENSE="BSD-3-Clause"
+LICENSE="BSD"
 SLOT="0"
 KEYWORDS="~amd64 ~arm64"
 IUSE="test"
