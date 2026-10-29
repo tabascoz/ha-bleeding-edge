@@ -5,6 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="pyqwikswitch"
 inherit distutils-r1 pypi
 
 DESCRIPTION="Library to interface Qwikswitch USB Hub"
@@ -23,5 +24,4 @@ BDEPEND="
 		dev-python/pytest[${PYTHON_USEDEP}]
 	)"
 
-PYPI_PN="pyqwikswitch"
 distutils_enable_tests pytest
