@@ -5,4 +5,10 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
 </maintainer>
+  <use>
+    <flag name="cli">Install Home Assistant CLI (hass-cli) for command-line interaction</flag>
+    <flag name="dev">Optional dependency group dev declared by vizaio-0.7.0; needs a, a, m, p</flag>
+    <flag name="discovery">Optional dependency group discovery declared by vizaio-0.7.0; needs z, z</flag>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
 </pkgmetadata>
