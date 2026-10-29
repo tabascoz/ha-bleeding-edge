@@ -6,10 +6,10 @@ EAPI=8
 PYTHON_COMPAT=( python3_{11..14} )
 DISTUTILS_USE_PEP517=setuptools
 PYPI_NO_NORMALIZE=1
+PYPI_PN="agent-py"
 inherit distutils-r1 pypi
 DESCRIPTION="A python wrapper around the Agent REST API."
 HOMEPAGE="https://github.com/ispysoftware/agent-py https://pypi.org/project/agent-py/"
-PYPI_PN="agent-py"
 
 LICENSE="Apache-2.0"
 SLOT="0"
