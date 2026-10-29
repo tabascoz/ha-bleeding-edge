@@ -14,6 +14,8 @@ EGIT_REPO_URI="https://github.com/repo-helper/${PN}.git"
 
 LICENSE="MIT"
 SLOT="0"
+# unstable keywords only: a live efile must be selectable when asked for, and never installed automatically
+KEYWORDS="~amd64 ~arm64"
 
 RDEPEND="dev-python/attrs[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
