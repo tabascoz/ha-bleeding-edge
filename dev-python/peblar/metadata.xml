@@ -13,4 +13,8 @@
       <email>opensource@frenck.dev</email>
     </maintainer>
   </upstream>
+  <use>
+    <flag name="cli">Install Home Assistant CLI (hass-cli) for command-line interaction</flag>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
 </pkgmetadata>
