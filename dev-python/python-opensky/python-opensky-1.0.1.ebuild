@@ -5,9 +5,9 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{11..14} )
 DISTUTILS_USE_PEP517=poetry
+PYPI_PN="python_opensky"
 inherit distutils-r1
 
-PYPI_PN="python_opensky"
 
 DESCRIPTION="Asynchronous Python client for Opensky API."
 HOMEPAGE="https://github.com/joostlek/python-opensky https://pypi.org/project/python-opensky/"
