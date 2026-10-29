@@ -9,4 +9,7 @@
     <remote-id type="pypi">igloohome-api</remote-id>
     <remote-id type="github">keithle888/igloohome-api</remote-id>
   </upstream>
+  <use>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
 </pkgmetadata>
