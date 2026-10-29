@@ -6,11 +6,11 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=hatchling
+PYPI_PN="py-vapid"
 inherit distutils-r1 pypi
 
 DESCRIPTION="Simple VAPID header generation library"
 HOMEPAGE="https://github.com/mozilla-services/vapid https://pypi.org/project/py-vapid/"
-PYPI_PN="py-vapid"
 
 LICENSE="MPL-2.0"
 SLOT="0"
