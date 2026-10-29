@@ -5,9 +5,9 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=hatchling
+PYPI_PN="hatch"
 inherit distutils-r1 pypi
 
-PYPI_PN="hatch"
 
 DESCRIPTION="Modern, extensible Python project management"
 HOMEPAGE="https://pypi.org/project/hatch/ https://github.com/pypa/hatch"
