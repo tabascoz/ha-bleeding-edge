@@ -13,4 +13,9 @@
       <email>kustalk@microsoft.com</email>
     </maintainer>
   </upstream>
+  <use>
+    <flag name="aio">Pull dev-python/aiohttp-3.8.0, dev-python/asgiref-3.2.3 for aio support</flag>
+    <flag name="pandas">Pull dev-python/pandas-2.3.1 for the pandas integration</flag>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
 </pkgmetadata>
