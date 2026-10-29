@@ -5,11 +5,11 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=poetry
+PYPI_PN="Netio"
 inherit pypi distutils-r1
 
 DESCRIPTION="Interface to control NETIO Products devices"
 HOMEPAGE="https://pypi.org/project/Netio/"
-PYPI_PN="Netio"
 
 LICENSE="MIT"
 SLOT="0"
