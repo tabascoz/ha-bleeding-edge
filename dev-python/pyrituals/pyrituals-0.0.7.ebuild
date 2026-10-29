@@ -5,6 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="pyrituals"
 inherit distutils-r1 pypi
 
 DESCRIPTION="Async Python wrapper for the Rituals Perfume Genie API"
@@ -25,6 +26,5 @@ BDEPEND="
 	)
 "
 
-PYPI_PN="pyrituals"
 
 distutils_enable_tests pytest
