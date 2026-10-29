@@ -5,6 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="pymonoprice"
 inherit pypi distutils-r1
 
 DESCRIPTION="Python API for talking to Monoprice 6-zone amplifier"
@@ -30,4 +31,3 @@ BDEPEND="
     )
 "
 distutils_enable_tests pytest
-PYPI_PN="pymonoprice"
