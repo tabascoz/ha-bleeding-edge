@@ -5,6 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="pysabnzbd"
 inherit distutils-r1
 
 DESCRIPTION="Python wrapper for SABnzbd API"
@@ -23,6 +24,5 @@ DOCS="README.md"
 
 RDEPEND=">=dev-python/aiohttp-3.6.1[${PYTHON_USEDEP}]"
 
-PYPI_PN="pysabnzbd"
 
 distutils_enable_tests pytest
