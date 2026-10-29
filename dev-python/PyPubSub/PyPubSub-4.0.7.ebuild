@@ -4,12 +4,12 @@
 EAPI=8
 DISTUTILS_USE_PEP517=setuptools
 PYTHON_COMPAT=( python3_{12..14} )
+PYPI_PN="Pypubsub"
 inherit distutils-r1 pypi
 
 DESCRIPTION="Python Publish-Subscribe Package"
 HOMEPAGE="https://github.com/schollii/pypubsub https://pypi.org/project/PyPubSub/"
 MY_PN="pypubsub"
-PYPI_PN="Pypubsub"
 SRC_URI="https://github.com/schollii/${MY_PN}/archive/refs/tags/v${PV}.tar.gz -> ${P}.gh.tar.gz"
 S="${WORKDIR}/${MY_PN}-${PV}"
 
