@@ -6,6 +6,7 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="pynintendoauth"
 inherit pypi distutils-r1
 
 DESCRIPTION="A Python module to provide APIs to authenticate with Nintendo services."
@@ -30,4 +31,3 @@ BDEPEND="
 "
 
 distutils_enable_tests pytest
-PYPI_PN="pynintendoauth"
