@@ -5,6 +5,7 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 
 DISTUTILS_USE_PEP517=poetry
+PYPI_PN="pytraccar"
 inherit distutils-r1 pypi
 
 DESCRIPTION="Update and fetch device information from Traccar."
@@ -18,7 +19,6 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-PYPI_PN="pytraccar"
 
 RDEPEND="
 	>=dev-python/aiohttp-3.6[${PYTHON_USEDEP}]
