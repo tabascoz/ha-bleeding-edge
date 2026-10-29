@@ -6,11 +6,11 @@ EAPI=8
 PYTHON_COMPAT=( python3_{11..14} )
 DISTUTILS_USE_PEP517=setuptools
 
+PYPI_PN="Tami4EdgeAPI"
 inherit distutils-r1 pypi
 
 DESCRIPTION="Tami 4 Edge / Edge+ API in Python"
 HOMEPAGE="https://github.com/Guy293/Tami4EdgeAPI https://pypi.org/project/Tami4EdgeAPI/"
-PYPI_PN="Tami4EdgeAPI"
 
 LICENSE="MIT"
 SLOT="0"
