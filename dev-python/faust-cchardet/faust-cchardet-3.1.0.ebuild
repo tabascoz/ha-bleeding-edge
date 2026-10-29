@@ -10,7 +10,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="cChardet is high speed universal character encoding detector."
 HOMEPAGE="https://github.com/faust-streaming/cChardet https://pypi.org/project/faust-cchardet/"
 
-LICENSE="MPL-1.1 GPL-2.0-or-later LGPL-2.1-or-later"
+LICENSE="MPL-1.1 GPL-2+ LGPL-2.1+"
 SLOT="0"
 KEYWORDS="~amd64 ~arm64"
 IUSE="test"
