@@ -13,4 +13,8 @@
       <email>swind@cloudmosa.com</email>
     </maintainer>
   </upstream>
+  <use>
+    <flag name="async">Optional dependency group async declared by pure_python_adb-0.3.0.dev0</flag>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
 </pkgmetadata>
