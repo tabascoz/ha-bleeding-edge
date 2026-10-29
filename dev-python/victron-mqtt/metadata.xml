@@ -10,4 +10,7 @@
     <remote-id type="github">tomer-w/victron_mqtt#readme</remote-id>
     <remote-id type="github">tomer-w/victron_mqtt</remote-id>
   </upstream>
+  <use>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
 </pkgmetadata>
