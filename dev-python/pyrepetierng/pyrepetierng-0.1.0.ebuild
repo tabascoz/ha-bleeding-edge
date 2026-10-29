@@ -5,6 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="pyrepetierng"
 inherit distutils-r1 pypi
 
 DESCRIPTION="A updated python Repetier-Server library based on Mtrabs library"
@@ -24,6 +25,5 @@ BDEPEND="
 	)
 "
 
-PYPI_PN="pyrepetierng"
 
 distutils_enable_tests pytest
