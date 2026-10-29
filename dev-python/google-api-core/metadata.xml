@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <maintainer type="project">
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
+  </maintainer>
+  <upstream>
+    <remote-id type="pypi">google-api-core</remote-id>
+    <remote-id type="github">google-cloud-python/</remote-id>
+  </upstream>
+  <use>
+    <flag name="grpc">Pull dev-python/grpcio-1.49.1, dev-python/grpcio-2.0.0, dev-python/grpcio-status-1.49.1, dev-python/grpcio-status-2.0.0 for grpc support</flag>
+  </use>
+</pkgmetadata>
