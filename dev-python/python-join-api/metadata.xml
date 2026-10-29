@@ -9,4 +9,7 @@
     <remote-id type="pypi">join-api</remote-id>
     <remote-id type="github">join-api/join-api</remote-id>
   </upstream>
+  <use>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
 </pkgmetadata>
