@@ -5,4 +5,8 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
 </maintainer>
+  <use>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+    <flag name="test-rust">Pull the dependencies the test-rust integration of Home Assistant needs</flag>
+  </use>
 </pkgmetadata>
