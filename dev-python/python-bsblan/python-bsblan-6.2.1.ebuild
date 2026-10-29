@@ -5,6 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=hatchling
+PYPI_PN="python-bsblan"
 inherit distutils-r1 pypi
 
 DESCRIPTION="Asynchronous Python client for BSBLAN API"
@@ -18,7 +19,6 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-PYPI_PN="python-bsblan"
 
 RDEPEND="
 	>=dev-python/aiohttp-3.8.1[${PYTHON_USEDEP}]
