@@ -11,7 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python client for the Volvo Cars API"
 HOMEPAGE="https://pypi.org/project/${PN}/"
 
-LICENSE="None"
+LICENSE="all-rights-reserved"
 SLOT="0"
 KEYWORDS="~amd64 ~arm64"
 IUSE="test"
