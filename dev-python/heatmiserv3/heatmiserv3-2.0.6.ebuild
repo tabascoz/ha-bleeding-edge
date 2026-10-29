@@ -6,9 +6,9 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 
 DISTUTILS_USE_PEP517=hatchling
+PYPI_PN="heatmiserv3"
 inherit distutils-r1 pypi
 
-PYPI_PN="heatmiserv3"
 
 DESCRIPTION="A library to interact with Heatmiser Themostats using V3"
 HOMEPAGE="https://github.com/andylockran/heatmiserV3 https://pypi.org/project/heatmiserv3/"
