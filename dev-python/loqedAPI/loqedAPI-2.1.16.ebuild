@@ -6,11 +6,11 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="loqedAPI"
 inherit distutils-r1 pypi
 
 DESCRIPTION="Python package to use the Loqed Smart Door Lock APIs in a local network. To be used by Home Assistant."
 HOMEPAGE="https://github.com/cpolhout/loqedAPI https://pypi.org/project/loqedAPI/"
-PYPI_PN="loqedAPI"
 
 LICENSE="BSD-2"
 SLOT="0"
