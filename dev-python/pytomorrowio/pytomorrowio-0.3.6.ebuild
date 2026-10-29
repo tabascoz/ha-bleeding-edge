@@ -5,6 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( pypy3_11 python3_{11..14} )
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="pytomorrowio"
 inherit distutils-r1 pypi
 
 DESCRIPTION="Async Python3.9+ package to access the Tomorrow.io API"
@@ -25,6 +26,5 @@ BDEPEND="
 	)
 "
 
-PYPI_PN="pytomorrowio"
 
 distutils_enable_tests pytest
