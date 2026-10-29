@@ -9,4 +9,7 @@
     <remote-id type="pypi">sonos-websocket</remote-id>
     <remote-id type="github">jjlawren/sonos-websocket</remote-id>
   </upstream>
+  <use>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
 </pkgmetadata>
