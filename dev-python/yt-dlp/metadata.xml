@@ -5,4 +5,7 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
 </maintainer>
+  <use>
+    <flag name="default">Optional dependency group default declared by yt_dlp-2026.8.19; needs c, m, p, r</flag>
+  </use>
 </pkgmetadata>
