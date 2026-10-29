@@ -9,4 +9,10 @@
     <remote-id type="pypi">python-kasa</remote-id>
     <remote-id type="github">python-kasa/python-kasa</remote-id>
   </upstream>
+  <use>
+    <flag name="docs">Pull dev-python/docutils-0.17.0 for the docs integration</flag>
+    <flag name="shell">Optional dependency group shell declared by python_kasa-0.12.0; needs p, r</flag>
+    <flag name="speedups">Pull dev-python/orjson-3.11.1, dev-python/kasa-crypt-0.2.0 for speedups support</flag>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
 </pkgmetadata>
