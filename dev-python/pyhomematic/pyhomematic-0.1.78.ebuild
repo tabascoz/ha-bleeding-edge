@@ -5,9 +5,9 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="pyhomematic"
 inherit distutils-r1 pypi
 
-PYPI_PN="pyhomematic"
 
 DESCRIPTION="Homematic interface"
 HOMEPAGE="https://github.com/danielperna84/pyhomematic https://pypi.org/project/pyhomematic/"
