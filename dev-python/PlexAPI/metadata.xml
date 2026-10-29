@@ -9,4 +9,9 @@
     <remote-id type="pypi">PlexAPI</remote-id>
     <remote-id type="github">pushingkarmaorg/python-plexapi</remote-id>
   </upstream>
+  <use>
+    <flag name="alert">Pull dev-python/websocket-client-1.3.3 for the alert integration</flag>
+    <flag name="jwt">Pull the dependencies the jwt integration of Home Assistant needs</flag>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
 </pkgmetadata>
