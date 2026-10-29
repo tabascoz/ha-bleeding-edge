@@ -4,6 +4,7 @@
 EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="pywilight"
 inherit distutils-r1 pypi
 
 DESCRIPTION="Python API for WiLight in Home Assistant"
@@ -24,6 +25,5 @@ BDEPEND="
 		dev-python/pytest[${PYTHON_USEDEP}]
 	)"
 
-PYPI_PN="pywilight"
 
 distutils_enable_tests pytest
