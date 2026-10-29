@@ -13,4 +13,8 @@
       <email>oss@ksoft.tech</email>
     </maintainer>
   </upstream>
+  <use>
+    <flag name="dev">Optional dependency group dev declared by victron_vrm-0.1.14; needs b, i, m, p</flag>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
 </pkgmetadata>
