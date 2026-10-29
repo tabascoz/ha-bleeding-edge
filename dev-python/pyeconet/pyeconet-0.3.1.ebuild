@@ -5,6 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="pyeconet"
 inherit pypi distutils-r1
 
 DESCRIPTION="Interface to the unofficial EcoNet API"
@@ -18,7 +19,6 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-PYPI_PN="pyeconet"
 
 RDEPEND="
     >=dev-python/aiohttp-3.11.11[${PYTHON_USEDEP}]
