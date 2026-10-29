@@ -6,12 +6,13 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 
 DISTUTILS_USE_PEP517=poetry
+PYPI_PN="python-snoo"
 inherit pypi distutils-r1
 
 DESCRIPTION="A package to control Snoos."
 HOMEPAGE="https://pypi.org/project/${PN}/"
 
-LICENSE="GPL-3.0-only"
+LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="~amd64 ~arm64"
 IUSE="test"
@@ -30,6 +31,5 @@ BDEPEND="
 	>=dev-python/setuptools-68.0[${PYTHON_USEDEP}]
 "
 
-PYPI_PN="python-snoo"
 
 distutils_enable_tests pytest
