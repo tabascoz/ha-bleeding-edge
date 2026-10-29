@@ -11,7 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="nose extends unittest to make testing easier"
 HOMEPAGE="https://nose.readthedocs.io/en/latest/ https://pypi.org/project/nose/"
 
-LICENSE="LGPL"
+LICENSE="LGPL-2+"
 SLOT="0"
 KEYWORDS="~amd64"
 
