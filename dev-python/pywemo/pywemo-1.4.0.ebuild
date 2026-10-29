@@ -5,6 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( pypy3_11 python3_{11..14} )
 DISTUTILS_USE_PEP517=poetry
+PYPI_PN="pywemo"
 inherit distutils-r1 pypi
 
 DESCRIPTION="Lightweight Python module to discover and control WeMo devices"
@@ -18,7 +19,6 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.rst"
 
-PYPI_PN="pywemo"
 
 RDEPEND=">=dev-python/ifaddr-0.1.0[${PYTHON_USEDEP}] \
 	>=dev-python/requests-2.0[${PYTHON_USEDEP}] \
