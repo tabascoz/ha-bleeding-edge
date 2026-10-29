@@ -5,6 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="pyfritzhome"
 inherit pypi distutils-r1
 
 DESCRIPTION="Fritz!Box Smarthome Python Library"
@@ -23,6 +24,5 @@ RDEPEND="
 	dev-python/cryptography[${PYTHON_USEDEP}]
 "
 
-PYPI_PN="pyfritzhome"
 
 distutils_enable_tests pytest
