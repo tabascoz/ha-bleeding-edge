@@ -5,6 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( pypy3_11 python3_{11..14} )
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="pycognito"
 inherit distutils-r1 pypi
 
 DESCRIPTION="Python class to integrate Boto3's Cognito client so it is easy to login users. With SRP support."
@@ -18,7 +19,6 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-PYPI_PN="pycognito"
 
 RDEPEND=">=dev-python/boto3-1.10.49[${PYTHON_USEDEP}] \
 		>=dev-python/envs-1.3[${PYTHON_USEDEP}] \
