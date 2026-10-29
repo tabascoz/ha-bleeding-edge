@@ -5,6 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="pyprobeplus"
 inherit pypi distutils-r1
 
 DESCRIPTION="A generic library to interact with a Probe Plus BLE device"
@@ -30,5 +31,4 @@ BDEPEND="
 	)
 "
 
-PYPI_PN="pyprobeplus"
 distutils_enable_tests pytest
