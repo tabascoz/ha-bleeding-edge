@@ -9,4 +9,7 @@
     <remote-id type="pypi">aiopulse</remote-id>
     <remote-id type="github">atmurray/aiopulse</remote-id>
   </upstream>
+  <use>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
 </pkgmetadata>
