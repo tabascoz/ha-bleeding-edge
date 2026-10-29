@@ -5,6 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=poetry
+PYPI_PN="pyopenuv"
 inherit distutils-r1 pypi
 
 DESCRIPTION="A simple Python API data from openuv.io"
@@ -29,6 +30,5 @@ BDEPEND="
 		>=dev-python/pytest-cov-4.0.0[${PYTHON_USEDEP}]
 	)"
 
-PYPI_PN="pyopenuv"
 
 distutils_enable_tests pytest
