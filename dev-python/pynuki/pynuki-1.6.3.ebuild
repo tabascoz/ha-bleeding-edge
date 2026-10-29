@@ -5,6 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=poetry
+PYPI_PN="pynuki"
 inherit distutils-r1 pypi
 
 DESCRIPTION="Python bindings for nuki.io bridges"
@@ -21,6 +22,5 @@ DOCS="README.md"
 RDEPEND="dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/pynacl[${PYTHON_USEDEP}]"
 
-PYPI_PN="pynuki"
 
 distutils_enable_tests pytest
