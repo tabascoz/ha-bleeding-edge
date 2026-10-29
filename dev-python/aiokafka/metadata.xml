@@ -9,4 +9,12 @@
     <remote-id type="pypi">aiokafka</remote-id>
     <remote-id type="github">aio-libs/aiokafka</remote-id>
   </upstream>
+  <use>
+    <flag name="all">Optional dependency group all declared by aiokafka-0.10.0</flag>
+    <flag name="gssapi">Optional dependency group gssapi declared by aiokafka-0.10.0</flag>
+    <flag name="lz4">Pull dev-python/cramjam-2.8.0 for the lz4 integration</flag>
+    <flag name="snappy">Optional dependency group snappy declared by aiokafka-0.10.0</flag>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+    <flag name="zstd">Optional dependency group zstd declared by aiokafka-0.10.0</flag>
+  </use>
 </pkgmetadata>
