@@ -5,6 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="python-duco-connectivity"
 inherit pypi distutils-r1
 
 DESCRIPTION="Async HTTP client for the local Duco Connectivity API"
@@ -28,6 +29,5 @@ BDEPEND="
 	)
 "
 
-PYPI_PN="python-duco-connectivity"
 
 distutils_enable_tests pytest
