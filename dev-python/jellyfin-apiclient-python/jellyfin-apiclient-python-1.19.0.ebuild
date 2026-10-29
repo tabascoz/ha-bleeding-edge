@@ -11,7 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Jellyfin API client for Python"
 HOMEPAGE="https://pypi.org/project/jellyfin-apiclient-python/"
 
-LICENSE="GPL-3.0"
+LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="~amd64 ~arm64"
 
