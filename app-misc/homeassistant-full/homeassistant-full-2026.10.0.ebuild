@@ -228,7 +228,7 @@ RDEPEND="${RDEPEND}
 	blue_current? ( ~dev-python/bluecurrent-api-1.3.3[${PYTHON_USEDEP}] )
 	bluemaestro? ( ~dev-python/bluemaestro-ble-0.4.1[${PYTHON_USEDEP}] )
 	bluesound? ( ~dev-python/pyblu-2.0.8[${PYTHON_USEDEP}] )
-	bluetooth? ( ~dev-python/bleak-retry-connector-4.7.1[${PYTHON_USEDEP}] ~dev-python/bleak-3.0.2[${PYTHON_USEDEP}] ~dev-python/bluetooth-adapters-2.4.0[${PYTHON_USEDEP}] ~dev-python/bluetooth-auto-recovery-1.6.4[${PYTHON_USEDEP}] ~dev-python/bluetooth-data-tools-1.29.24[${PYTHON_USEDEP}] ~dev-python/dbus-fast-5.0.22[${PYTHON_USEDEP}] ~dev-python/habluetooth-7.1.2[${PYTHON_USEDEP}] )
+	bluetooth? ( ~dev-python/bleak-retry-connector-4.7.1[${PYTHON_USEDEP}] ~dev-python/bleak-3.0.2[${PYTHON_USEDEP}] ~dev-python/bluetooth-adapters-2.4.0[${PYTHON_USEDEP}] ~dev-python/bluetooth-auto-recovery-1.6.4[${PYTHON_USEDEP}] ~dev-python/bluetooth-data-tools-1.29.24[${PYTHON_USEDEP}] >=dev-python/dbus-fast-5.2.0[${PYTHON_USEDEP}] ~dev-python/habluetooth-7.1.2[${PYTHON_USEDEP}] )
 	bond? ( ~dev-python/bond-async-0.2.1[${PYTHON_USEDEP}] )
 	bosch_alarm? ( ~dev-python/bosch-alarm-mode2-0.4.11[${PYTHON_USEDEP}] )
 	bosch_shc? ( ~dev-python/boschshcpy-0.6.15[${PYTHON_USEDEP}] )
