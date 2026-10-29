@@ -13,4 +13,8 @@
       <email>dermot.duffy@gmail.com</email>
     </maintainer>
   </upstream>
+  <use>
+    <flag name="debug">Pull the dependencies the debug integration of Home Assistant needs</flag>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
 </pkgmetadata>
