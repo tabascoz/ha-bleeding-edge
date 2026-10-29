@@ -1,7 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <pkgmetadata>
-	<maintainer type="project"><email>tabascoz@gmail.com</email><name>Fernando Cunha</name></maintainer><stabilize-allarches />
-	<upstream>
+	<maintainer type="project"><email>tabascoz@gmail.com</email><name>Fernando Cunha</name></maintainer><upstream>
 		<remote-id type="github">sysid/sse-starlette</remote-id>
 		<remote-id type="pypi">sse-starlette</remote-id>
 	</upstream>
