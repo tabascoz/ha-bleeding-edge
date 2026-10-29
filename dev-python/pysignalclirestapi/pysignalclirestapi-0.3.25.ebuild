@@ -5,6 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{11..14} )
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="pysignalclirestapi"
 inherit distutils-r1
 
 DESCRIPTION="Small python library for the Signal Cli REST API"
@@ -24,6 +25,5 @@ RDEPEND="
 	dev-python/six[${PYTHON_USEDEP}]
 "
 
-PYPI_PN="pysignalclirestapi"
 
 distutils_enable_tests pytest
