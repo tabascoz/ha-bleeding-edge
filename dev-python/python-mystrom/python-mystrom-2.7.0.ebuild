@@ -6,9 +6,9 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 
 DISTUTILS_USE_PEP517=poetry
+PYPI_PN="python-mystrom"
 inherit distutils-r1 pypi
 
-PYPI_PN="python-mystrom"
 
 DESCRIPTION="Python API for interacting with myStrom devices"
 HOMEPAGE="https://github.com/fabaff/python-mystrom https://pypi.org/project/python-mystrom/"
