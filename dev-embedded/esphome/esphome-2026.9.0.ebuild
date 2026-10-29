@@ -53,7 +53,7 @@ RDEPEND="$(python_gen_cond_dep '
     >=dev-python/pyyaml-6.0.3[${PYTHON_USEDEP}]
     >=dev-python/paho-mqtt-1.6.1[${PYTHON_USEDEP}]
     ~dev-python/colorama-0.4.6[${PYTHON_USEDEP}]
-    ~dev-python/tzlocal-5.4.4[${PYTHON_USEDEP}]
+    ~dev-python/tzlocal-5.4.5[${PYTHON_USEDEP}]
     >=dev-python/tzdata-10001[${PYTHON_USEDEP}]
     ~dev-python/pyserial-3.5[${PYTHON_USEDEP}]
     ~dev-embedded/platformio-6.1.19[${PYTHON_USEDEP}]
