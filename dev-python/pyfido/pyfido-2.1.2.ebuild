@@ -5,6 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="pyfido"
 inherit distutils-r1 pypi
 
 DESCRIPTION="Get your Fido consumption (wwww.fido.ca)"
@@ -16,4 +17,3 @@ KEYWORDS="amd64 arm arm64 x86"
 DOCS="README.rst"
 RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]"
 
-PYPI_PN="pyfido"
