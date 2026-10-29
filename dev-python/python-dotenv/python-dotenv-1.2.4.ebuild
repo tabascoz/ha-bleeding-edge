@@ -10,7 +10,7 @@ inherit pypi distutils-r1
 DESCRIPTION="Read key-value pairs from a .env file and set them as environment variables"
 HOMEPAGE="https://pypi.org/project/python-dotenv/"
 
-LICENSE="BSD-3-Clause"
+LICENSE="BSD"
 SLOT="0"
 KEYWORDS="~amd64 ~arm64"
 IUSE="test"
