@@ -11,7 +11,7 @@ inherit pypi distutils-r1
 DESCRIPTION="SensorPush Cloud Home Assistant Library"
 HOMEPAGE="https://pypi.org/project/${PN}/"
 
-LICENSE="BSD-2-Clause"
+LICENSE="BSD-2"
 SLOT="0"
 KEYWORDS="~amd64 ~arm64"
 IUSE="test"
