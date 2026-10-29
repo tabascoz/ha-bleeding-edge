@@ -5,6 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=hatchling
+PYPI_PN="pypaperless"
 inherit pypi distutils-r1
 
 DESCRIPTION="Little api client for paperless(-ngx)"
@@ -27,5 +28,4 @@ BDEPEND="
 	)
 "
 
-PYPI_PN="pypaperless"
 distutils_enable_tests pytest
