@@ -9,4 +9,7 @@
     <remote-id type="pypi">steamloop</remote-id>
     <remote-id type="github">hvaclibs/steamloop</remote-id>
   </upstream>
+  <use>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
 </pkgmetadata>
