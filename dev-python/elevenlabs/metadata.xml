@@ -9,4 +9,8 @@
     <remote-id type="pypi">elevenlabs</remote-id>
     <remote-id type="github">elevenlabs/elevenlabs-python</remote-id>
   </upstream>
+  <use>
+    <flag name="pyaudio">Pull dev-python/pyaudio-0.2.14 for the pyaudio integration</flag>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
 </pkgmetadata>
