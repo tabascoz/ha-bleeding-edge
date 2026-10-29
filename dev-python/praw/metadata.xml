@@ -9,4 +9,7 @@
     <remote-id type="pypi">praw</remote-id>
     <remote-id type="github">praw-dev/praw</remote-id>
   </upstream>
+  <use>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
 </pkgmetadata>
