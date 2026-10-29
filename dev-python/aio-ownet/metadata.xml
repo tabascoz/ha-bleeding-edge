@@ -12,4 +12,7 @@
       <name>epenet</name>
     </maintainer>
   </upstream>
+  <use>
+    <flag name="cli">Install Home Assistant CLI (hass-cli) for command-line interaction</flag>
+  </use>
 </pkgmetadata>
