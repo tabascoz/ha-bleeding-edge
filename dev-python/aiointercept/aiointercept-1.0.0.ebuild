@@ -28,7 +28,8 @@ BDEPEND="
 	>=dev-python/setuptools-68.0[${PYTHON_USEDEP}]
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]
-		dev-python/pytest-asyncio-0.24.0[${PYTHON_USEDEP}]
+		>=dev-python/pytest-asyncio-1.4.0[${PYTHON_USEDEP}]
 	)
 "
+EPYTEST_PLUGINS=( pytest-asyncio )
 distutils_enable_tests pytest
