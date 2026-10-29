@@ -5,6 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="pyevilgenius"
 inherit distutils-r1 pypi
 
 DESCRIPTION="Python module to talk to Evil Genius Labs devices."
@@ -21,6 +22,5 @@ DOCS="README.md"
 RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]
 	dev-python/async-timeout[${PYTHON_USEDEP}]"
 
-PYPI_PN="pyevilgenius"
 
 distutils_enable_tests pytest
