@@ -5,4 +5,8 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
 </maintainer>
+  <use>
+    <flag name="crypto">Optional dependency group crypto declared by pygbl-1.2.0</flag>
+    <flag name="lz4">Optional dependency group lz4 declared by pygbl-1.2.0</flag>
+  </use>
 </pkgmetadata>
