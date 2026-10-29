@@ -9,4 +9,7 @@
     <remote-id type="pypi">typer</remote-id>
     <remote-id type="github">fastapi/typer</remote-id>
   </upstream>
+  <use>
+    <flag name="cli">Install Home Assistant CLI (hass-cli) for command-line interaction</flag>
+  </use>
 </pkgmetadata>
