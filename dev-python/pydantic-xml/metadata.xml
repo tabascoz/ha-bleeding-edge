@@ -5,4 +5,7 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
 </maintainer>
+  <use>
+    <flag name="lxml">Pull dev-python/lxml-4.9.0 for the lxml integration</flag>
+  </use>
 </pkgmetadata>
