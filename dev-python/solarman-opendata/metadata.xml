@@ -9,4 +9,7 @@
     <remote-id type="pypi">solarman-opendata</remote-id>
     <remote-id type="github">solarmanpv/solarman-opendata</remote-id>
   </upstream>
+  <use>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
 </pkgmetadata>
