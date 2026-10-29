@@ -13,4 +13,9 @@
       <email>code@nextcord.dev</email>
     </maintainer>
   </upstream>
+  <use>
+    <flag name="speed">Optional dependency group speed declared by nextcord-3.1.0</flag>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+    <flag name="voice">Optional dependency group voice declared by nextcord-3.1.0</flag>
+  </use>
 </pkgmetadata>
