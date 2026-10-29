@@ -17,18 +17,18 @@ IUSE="test"
 RESTRICT="!test? ( test )"
 
 RDEPEND="
-    >=dev-python/aiohttp-3.13.3[${PYTHON_USEDEP}]
-    <dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
-    >=dev-python/multidict-6.0[${PYTHON_USEDEP}]
-    <dev-python/multidict-7.0[${PYTHON_USEDEP}]
-    >=dev-python/yarl-1.23.0[${PYTHON_USEDEP}]
-    <dev-python/yarl-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-3.13.3[${PYTHON_USEDEP}]
+	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
+	>=dev-python/multidict-6.0[${PYTHON_USEDEP}]
+	<dev-python/multidict-7.0[${PYTHON_USEDEP}]
+	>=dev-python/yarl-1.23.0[${PYTHON_USEDEP}]
+	<dev-python/yarl-2.0.0[${PYTHON_USEDEP}]
 "
 BDEPEND="
-    >=dev-python/setuptools-68.0[${PYTHON_USEDEP}]
-    test? (
-        dev-python/pytest[${PYTHON_USEDEP}]
-        dev-python/pytest-asyncio[${PYTHON_USEDEP}]
-    )
+	>=dev-python/setuptools-68.0[${PYTHON_USEDEP}]
+	test? (
+		dev-python/pytest[${PYTHON_USEDEP}]
+		dev-python/pytest-asyncio[${PYTHON_USEDEP}]
+	)
 "
 distutils_enable_tests pytest
