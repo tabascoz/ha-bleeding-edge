@@ -5,6 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="pycmus"
 inherit distutils-r1 pypi
 
 DESCRIPTION="A python cmus remote library"
@@ -19,6 +20,5 @@ RESTRICT="!test? ( test )"
 RDEPEND="dev-python/pbr[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]"
 
-PYPI_PN="pycmus"
 
 distutils_enable_tests pytest
