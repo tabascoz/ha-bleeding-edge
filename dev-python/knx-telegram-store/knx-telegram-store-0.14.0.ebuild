@@ -35,7 +35,7 @@ BDEPEND="
 		>=dev-python/ruff-0.3[${PYTHON_USEDEP}]
 		>=dev-python/mypy-1.9[${PYTHON_USEDEP}]
 		>=dev-python/aiosqlite-0.20[${PYTHON_USEDEP}]
-		>=dev-python/types-defusedxml[${PYTHON_USEDEP}]
+		dev-python/types-defusedxml[${PYTHON_USEDEP}]
 	)
 "
 
