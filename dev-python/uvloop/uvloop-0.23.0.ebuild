@@ -31,7 +31,7 @@ BDEPEND="
 	dev-python/pkg-resources[${PYTHON_USEDEP}]
 	test? (
 		>=dev-python/aiohttp-3.10.5[${PYTHON_USEDEP}]
-		>=dev-python/psutil[${PYTHON_USEDEP}]
+		>=dev-python/psutil-7.2.2[${PYTHON_USEDEP}]
 	)
 "
 
