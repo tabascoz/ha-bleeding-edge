@@ -4,6 +4,7 @@
 EAPI=8
 PYTHON_COMPAT=( python3_{11..14} )
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="pyxeoma"
 inherit distutils-r1 pypi
 
 DESCRIPTION="Python wrapper for Xeoma web server API"
@@ -17,6 +18,5 @@ RESTRICT="!test? ( test )"
 
 RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]"
 
-PYPI_PN="pyxeoma"
 
 distutils_enable_tests pytest
