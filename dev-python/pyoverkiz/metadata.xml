@@ -12,4 +12,8 @@
       <name>Overkiz</name>
     </maintainer>
   </upstream>
+  <use>
+    <flag name="nexity">Optional dependency group nexity declared by pyoverkiz-2.3.1; needs b, w, b, w</flag>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
 </pkgmetadata>
