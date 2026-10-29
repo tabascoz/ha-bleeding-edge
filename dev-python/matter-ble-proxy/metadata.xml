@@ -9,4 +9,7 @@
     <remote-id type="pypi">matter-ble-proxy</remote-id>
     <remote-id type="github">matter-js/matterjs-server</remote-id>
   </upstream>
+  <use>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
 </pkgmetadata>
