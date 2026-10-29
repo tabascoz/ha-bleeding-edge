@@ -6,6 +6,7 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="pyiskra"
 inherit distutils-r1 pypi
 
 DESCRIPTION="Python Iskra devices interface"
@@ -22,6 +23,5 @@ DOCS="README.md"
 RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]
 	>=dev-python/pymodbus-3.11.1[${PYTHON_USEDEP}]"
 
-PYPI_PN="pyiskra"
 
 distutils_enable_tests pytest
