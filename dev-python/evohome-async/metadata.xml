@@ -9,4 +9,7 @@
     <remote-id type="pypi">evohome-async</remote-id>
     <remote-id type="github">zxdavb/evohome-async</remote-id>
   </upstream>
+  <use>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
 </pkgmetadata>
