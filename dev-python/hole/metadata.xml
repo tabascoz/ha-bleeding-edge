@@ -9,4 +9,7 @@
     <remote-id type="pypi">hole</remote-id>
     <remote-id type="github">home-assistant-ecosystem/python-hole</remote-id>
   </upstream>
+  <use>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
 </pkgmetadata>
