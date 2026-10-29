@@ -9,4 +9,7 @@
     <remote-id type="pypi">onedrive-personal-sdk</remote-id>
     <remote-id type="github">zweckj/onedrive-personal-sdk</remote-id>
   </upstream>
+  <use>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
 </pkgmetadata>
