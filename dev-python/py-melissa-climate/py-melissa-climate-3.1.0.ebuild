@@ -5,11 +5,11 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="py-melissa-climate"
 inherit distutils-r1 pypi
 
 DESCRIPTION="Api wrapper for Melissa Climate https://seemelissa.com"
 HOMEPAGE="https://github.com/kennedyshead/py-melissa-climate https://pypi.org/project/py-melissa-climate/"
-PYPI_PN="py-melissa-climate"
 
 LICENSE="MIT"
 SLOT="0"
