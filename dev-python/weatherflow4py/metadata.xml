@@ -9,4 +9,7 @@
     <remote-id type="pypi">weatherflow4py</remote-id>
     <remote-id type="github">jeeftor/weatherflow4py</remote-id>
   </upstream>
+  <use>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
 </pkgmetadata>
