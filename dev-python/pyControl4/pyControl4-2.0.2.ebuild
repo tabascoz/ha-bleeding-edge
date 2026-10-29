@@ -5,11 +5,11 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="pyControl4"
 inherit distutils-r1 pypi
 
 DESCRIPTION="Python 3 asyncio package for interacting with Control4 systems"
 HOMEPAGE="https://github.com/lawtancool/pyControl4 https://pypi.org/project/pyControl4/"
-PYPI_PN="pyControl4"
 
 LICENSE="Apache-2.0"
 SLOT="0"
