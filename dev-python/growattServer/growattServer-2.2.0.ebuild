@@ -5,8 +5,8 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
-inherit distutils-r1 pypi
 PYPI_PN="growattServer"
+inherit distutils-r1 pypi
 
 DESCRIPTION="A package to talk to growatt server"
 HOMEPAGE="https://github.com/indykoning/PyPi_GrowattServer https://pypi.org/project/growattServer/"
