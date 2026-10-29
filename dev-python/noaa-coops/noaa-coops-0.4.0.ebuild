@@ -22,7 +22,6 @@ DOCS="README.md"
 RDEPEND=">=dev-python/requests-2.32.3[${PYTHON_USEDEP}] \
 	<dev-python/requests-3.0.0[${PYTHON_USEDEP}] \
 	>=dev-python/pandas-2.2.2[${PYTHON_USEDEP}] \
-	<dev-python/pandas-3.0.0[${PYTHON_USEDEP}] \
 	>=dev-python/zeep-4.2.1[${PYTHON_USEDEP}] \
 	<dev-python/zeep-5.0.0[${PYTHON_USEDEP}]"
 
