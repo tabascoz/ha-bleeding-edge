@@ -5,6 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=poetry
+PYPI_PN="pyenphase"
 inherit pypi distutils-r1
 
 DESCRIPTION="Library to control enphase envoy"
@@ -18,7 +19,6 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-PYPI_PN="pyenphase"
 
 RDEPEND="
 	>=dev-python/aiohttp-3.12.8[${PYTHON_USEDEP}]
