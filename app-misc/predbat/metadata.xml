@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <maintainer type="project">
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
+  </maintainer>
+  <upstream>
+    <remote-id type="github">springfall2008/batpred</remote-id>
+  </upstream>
+  <use>
+    <flag name="systemd">Use systemd for service management and initialization</flag>
+  </use>
+</pkgmetadata>
