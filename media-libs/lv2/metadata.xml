@@ -12,4 +12,9 @@
       <name>David Robillard</name>
     </maintainer>
   </upstream>
+  <use>
+    <flag name="doc">Pull the dependencies the doc integration of Home Assistant needs</flag>
+    <flag name="plugins">Pull the dependencies the plugins integration of Home Assistant needs</flag>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
 </pkgmetadata>
