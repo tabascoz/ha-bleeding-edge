@@ -9,4 +9,7 @@
     <remote-id type="pypi">aiohasupervisor</remote-id>
     <remote-id type="github">home-assistant-libs/python-supervisor-client</remote-id>
   </upstream>
+  <use>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
 </pkgmetadata>
