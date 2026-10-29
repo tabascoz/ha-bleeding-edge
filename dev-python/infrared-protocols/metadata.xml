@@ -9,4 +9,7 @@
     <remote-id type="pypi">infrared-protocols</remote-id>
     <remote-id type="github">home-assistant-libs/infrared-protocols</remote-id>
   </upstream>
+  <use>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
 </pkgmetadata>
