@@ -28,5 +28,5 @@ BDEPEND="
 	)
 "
 
-distutils_enable_tests pytest
 EPYTEST_PLUGINS=( pytest-localserver )
+distutils_enable_tests pytest
