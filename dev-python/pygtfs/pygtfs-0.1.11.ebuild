@@ -5,6 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="pygtfs"
 inherit distutils-r1 pypi
 
 DESCRIPTION="Models GTFS data in a database."
@@ -22,5 +23,4 @@ RDEPEND=">=dev-python/sqlalchemy-0.7.8[${PYTHON_USEDEP}]
 	>=dev-python/pytz-2014.9[${PYTHON_USEDEP}]
 	dev-python/docopt[${PYTHON_USEDEP}]"
 
-PYPI_PN="pygtfs"
 distutils_enable_tests pytest
