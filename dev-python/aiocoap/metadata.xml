@@ -12,4 +12,10 @@
       <email>chrysn@fsfe.org</email>
     </maintainer>
   </upstream>
+  <use>
+    <flag name="oscore">Optional dependency group oscore declared by aiocoap-0.4.17</flag>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+    <flag name="tinydtls">Pull dev-python/DTLSSocket-0.1.18 for the tinydtls integration</flag>
+    <flag name="ws">Optional dependency group ws declared by aiocoap-0.4.17</flag>
+  </use>
 </pkgmetadata>
