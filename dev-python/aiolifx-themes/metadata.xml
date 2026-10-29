@@ -13,4 +13,8 @@
       <email>me@dje.li</email>
     </maintainer>
   </upstream>
+  <use>
+    <flag name="docs">Optional dependency group docs declared by aiolifx_themes-1.0.4</flag>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
 </pkgmetadata>
