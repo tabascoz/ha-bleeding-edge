@@ -5,4 +5,8 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <use>
+    <flag name="server">Pull the dependencies the server integration of Home Assistant needs</flag>
+    <flag name="systemd">Use systemd for service management and initialization</flag>
+  </use>
 </pkgmetadata>
