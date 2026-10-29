@@ -5,6 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="pytautulli"
 inherit distutils-r1 pypi
 
 DESCRIPTION="Python API wrapper for Tautulli."
@@ -25,6 +26,5 @@ BDEPEND="
 	)
 "
 
-PYPI_PN="pytautulli"
 
 distutils_enable_tests pytest
