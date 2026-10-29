@@ -6,6 +6,7 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="pyvesync"
 inherit distutils-r1 pypi
 
 DESCRIPTION="pyvesync is a library to manage Etekcity Devices, Cosori Air Fryers, and Levoit Air Purifiers run on the VeSync app."
@@ -22,6 +23,5 @@ DOCS="README.md"
 RDEPEND=">=dev-python/aiohttp-3.8.1[${PYTHON_USEDEP}] \
 	>=dev-python/mashumaro-3.13.1[${PYTHON_USEDEP}]"
 
-PYPI_PN="pyvesync"
 
 distutils_enable_tests pytest
