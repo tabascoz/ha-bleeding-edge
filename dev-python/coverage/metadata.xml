@@ -13,4 +13,7 @@
       <email>ned@nedbatchelder.com</email>
     </maintainer>
   </upstream>
+  <use>
+    <flag name="native-extensions">Pull the dependencies the native-extensions integration of Home Assistant needs</flag>
+  </use>
 </pkgmetadata>
