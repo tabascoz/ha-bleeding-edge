@@ -9,4 +9,7 @@
     <remote-id type="pypi">aiowebdav2</remote-id>
     <remote-id type="github">jpbede/aiowebdav2</remote-id>
   </upstream>
+  <use>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
 </pkgmetadata>
