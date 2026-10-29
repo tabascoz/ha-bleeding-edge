@@ -7,6 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 
 DISTUTILS_USE_PEP517=poetry
 
+PYPI_PN="python-dropbox-api"
 inherit distutils-r1 pypi
 
 DESCRIPTION="Lightweight wrapper for the Dropbox API intended for use in Home Assistant"
@@ -29,6 +30,5 @@ BDEPEND="
 	)
 "
 
-PYPI_PN="python-dropbox-api"
 
 distutils_enable_tests pytest
