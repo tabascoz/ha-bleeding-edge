@@ -10,7 +10,7 @@ inherit pypi distutils-r1
 DESCRIPTION="API to interact with Homelink cloud for MQTT-enabled smart home platforms"
 HOMEPAGE="https://pypi.org/project/${PN}/"
 
-LICENSE="None"
+LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~arm64"
 IUSE="test"
