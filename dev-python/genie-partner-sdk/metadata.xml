@@ -9,4 +9,7 @@
     <remote-id type="pypi">genie-partner-sdk</remote-id>
     <remote-id type="github">genie-garage/aladdin-python-sdk</remote-id>
   </upstream>
+  <use>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
 </pkgmetadata>
