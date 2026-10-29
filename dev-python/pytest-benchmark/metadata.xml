@@ -8,4 +8,9 @@
 		<remote-id type="github">ionelmc/pytest-benchmark</remote-id>
 		<remote-id type="pypi">pytest-benchmark</remote-id>
 	</upstream>
+  <use>
+    <flag name="aspect">Pull the dependencies the aspect integration of Home Assistant needs</flag>
+    <flag name="elasticsearch">Pull the dependencies the elasticsearch integration of Home Assistant needs</flag>
+    <flag name="histogram">Pull the dependencies the histogram integration of Home Assistant needs</flag>
+  </use>
 </pkgmetadata>
