@@ -9,4 +9,7 @@
     <remote-id type="pypi">sensoterra</remote-id>
     <remote-id type="gitlab">sensoterra/public</remote-id>
   </upstream>
+  <use>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
 </pkgmetadata>
