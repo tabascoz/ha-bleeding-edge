@@ -4,6 +4,7 @@
 EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="pyvlx"
 inherit distutils-r1 pypi
 
 DESCRIPTION="PyVLX is a wrapper for the Velux KLF 200 API. PyVLX enables you to run scenes and or open and close velux windows."
@@ -17,7 +18,6 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-PYPI_PN="pyvlx"
 
 RDEPEND="
 	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
