@@ -6,11 +6,11 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="pylamarzocco"
 inherit pypi distutils-r1
 
 DESCRIPTION="A Python implementation of the La Marzocco API"
 HOMEPAGE="https://pypi.org/project/pylamarzocco/"
-PYPI_PN="pylamarzocco"
 
 LICENSE="MIT"
 SLOT="0"
