@@ -5,6 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="pyfnip"
 inherit distutils-r1 pypi
 
 DESCRIPTION="Python wrapper for FutureNow IP relay/dimmer units"
@@ -20,6 +21,5 @@ DOCS="README.md"
 
 RDEPEND="dev-python/requests[${PYTHON_USEDEP}]"
 
-PYPI_PN="pyfnip"
 
 distutils_enable_tests pytest
