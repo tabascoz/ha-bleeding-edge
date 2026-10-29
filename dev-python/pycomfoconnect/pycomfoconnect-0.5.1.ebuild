@@ -4,6 +4,7 @@
 EAPI=8
 DISTUTILS_USE_PEP517=setuptools
 PYTHON_COMPAT=( python3_{12..14} )
+PYPI_PN="pycomfoconnect"
 inherit distutils-r1 pypi
 
 DESCRIPTION="Python interface for the Zehnder ComfoConnect LAN C bridge."
@@ -19,6 +20,5 @@ DOCS="README.rst"
 
 RDEPEND=">=dev-python/protobuf-3.20.3[${PYTHON_USEDEP}]"
 
-PYPI_PN="pycomfoconnect"
 
 distutils_enable_tests pytest
