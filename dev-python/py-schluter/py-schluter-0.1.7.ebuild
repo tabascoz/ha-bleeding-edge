@@ -6,11 +6,11 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 PYPI_NO_NORMALIZE=1
+PYPI_PN="py-schluter"
 inherit distutils-r1 pypi
 
 DESCRIPTION="Python API for Schluter DITRA-HEAT thermostat"
 HOMEPAGE="https://github.com/prairieapps/py-schluter https://pypi.org/project/py-schluter/"
-PYPI_PN="py-schluter"
 
 LICENSE="MIT"
 SLOT="0"
