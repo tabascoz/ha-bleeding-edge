@@ -12,4 +12,8 @@
       <email>cryptography-dev@python.org</email>
     </maintainer>
   </upstream>
+  <use>
+    <flag name="docs">Optional dependency group docs declared by pynacl-1.6.2</flag>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
 </pkgmetadata>
