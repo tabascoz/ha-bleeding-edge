@@ -9,4 +9,7 @@
     <remote-id type="pypi">universal-silabs-flasher</remote-id>
     <remote-id type="github">NabuCasa/universal-silabs-flasher</remote-id>
   </upstream>
+  <use>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
 </pkgmetadata>
