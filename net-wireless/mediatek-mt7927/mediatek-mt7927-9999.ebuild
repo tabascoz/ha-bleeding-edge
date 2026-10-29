@@ -19,7 +19,16 @@ MT76_S="${S}/mt76"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
+# keywords are deliberately EMPTY on this live (9999) branch: a moving upstream snapshot
+# must not be reachable by keyword, or portage could install whatever the tree holds that
+# day and drag it into another package's dependency set. An explicit request still works
+# (`emerge -pU '=pkg-9999'` answers a row against what is installed - measured 2026-10-29
+# on whey-9999 and esphome-9999), which is what a person asks for; leaving KEYWORDS unset
+# instead masks the package (`masked by: missing keyword`) and nobody can use it, so this
+# line is written rather than omitted. Stable keywords here would be worse than wrong, and
+# the gentoo master uses this same `KEYWORDS=""` form in 40 of its live efiles (step 10's
+# rule). The released branch below keeps its own keywords.
+KEYWORDS=""
 
 CONFIG_CHECK="~CFG80211 ~MAC80211 ~BT ~BT_HCIBTUSB"
 
