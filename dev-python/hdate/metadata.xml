@@ -9,4 +9,7 @@
     <remote-id type="pypi">hdate</remote-id>
     <remote-id type="github">py-libhdate/py-libhdate</remote-id>
   </upstream>
+  <use>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
 </pkgmetadata>
