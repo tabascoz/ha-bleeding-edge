@@ -9,4 +9,7 @@
     <remote-id type="pypi">deptry</remote-id>
     <remote-id type="github">osprey-oss/deptry</remote-id>
   </upstream>
+  <use>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
 </pkgmetadata>
