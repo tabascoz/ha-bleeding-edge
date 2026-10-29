@@ -6,11 +6,11 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="python-linkplay"
 inherit distutils-r1 pypi
 
 DESCRIPTION="A Python Library for Seamless LinkPlay Device Control"
 HOMEPAGE="https://pypi.org/project/python-linkplay/"
-PYPI_PN="python-linkplay"
 
 LICENSE="MIT"
 SLOT="0"
