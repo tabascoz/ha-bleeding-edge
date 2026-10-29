@@ -5,11 +5,11 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="py-nightscout"
 inherit distutils-r1 pypi
 
 DESCRIPTION="A library that provides a Python async interface to Nightscout"
 HOMEPAGE="https://github.com/marciogranzotto/py-nightscout https://pypi.org/project/py-nightscout/"
-PYPI_PN="py-nightscout"
 
 LICENSE="MIT"
 SLOT="0"
