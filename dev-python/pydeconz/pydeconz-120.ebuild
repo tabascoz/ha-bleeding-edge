@@ -4,6 +4,7 @@
 EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="pydeconz"
 inherit distutils-r1
 
 DESCRIPTION="A Python library for communicating with deCONZ REST-API from Dresden Elektronik"
@@ -29,4 +30,3 @@ BDEPEND="
 	)"
 
 distutils_enable_tests pytest
-PYPI_PN="pydeconz"
