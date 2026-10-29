@@ -13,4 +13,7 @@
       <email>32528627+noahhusby@users.noreply.github.com</email>
     </maintainer>
   </upstream>
+  <use>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
 </pkgmetadata>
