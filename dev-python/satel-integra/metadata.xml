@@ -9,4 +9,7 @@
     <remote-id type="pypi">satel-integra</remote-id>
     <remote-id type="github">c-soft/satel_integra</remote-id>
   </upstream>
+  <use>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
 </pkgmetadata>
