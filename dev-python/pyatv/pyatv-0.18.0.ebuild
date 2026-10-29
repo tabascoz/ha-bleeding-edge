@@ -5,6 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="pyatv"
 inherit distutils-r1 pypi
 DESCRIPTION="A client library for Apple TV and AirPlay devices"
 HOMEPAGE="https://github.com/postlund/pyatv/ https://pyatv.dev https://pypi.org/project/pyatv/"
@@ -17,7 +18,6 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-PYPI_PN="pyatv"
 
 RDEPEND=">=dev-python/aiohttp-3.8.3[${PYTHON_USEDEP}]
 	<dev-python/aiohttp-5[${PYTHON_USEDEP}]
