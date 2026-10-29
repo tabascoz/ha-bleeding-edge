@@ -13,4 +13,8 @@
       <email>ascl@microsoft.com</email>
     </maintainer>
   </upstream>
+  <use>
+    <flag name="aio">Pull dev-python/azure-core-1.30.0 for the aio integration</flag>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
 </pkgmetadata>
