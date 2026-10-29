@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <maintainer type="project">
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
+  </maintainer>
+  <upstream>
+    <remote-id type="pypi">jaraco-packaging</remote-id>
+  </upstream>
+  <use>
+    <flag name="check">Pull the dependencies the check integration of Home Assistant needs</flag>
+    <flag name="cover">Pull the dependencies the cover integration of Home Assistant needs</flag>
+    <flag name="doc">Pull the dependencies the doc integration of Home Assistant needs</flag>
+    <flag name="enabler">Pull the dependencies the enabler integration of Home Assistant needs</flag>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+    <flag name="type">Pull the dependencies the type integration of Home Assistant needs</flag>
+  </use>
+</pkgmetadata>
