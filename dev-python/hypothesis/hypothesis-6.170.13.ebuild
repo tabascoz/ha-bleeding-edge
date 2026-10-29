@@ -34,6 +34,7 @@ CRATES="
 	rand_chacha@0.9.0
 	rand_core@0.9.5
 	syn@2.0.118
+	syn@3.0.9
 	target-lexicon@0.13.5
 	unicode-ident@1.0.24
 	wasip2@1.0.4+wasi-0.2.12
