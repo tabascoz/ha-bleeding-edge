@@ -6,6 +6,7 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 
 DISTUTILS_USE_PEP517=poetry
+PYPI_PN="python-homewizard-energy"
 inherit distutils-r1 pypi
 
 DESCRIPTION="Asynchronous Python client for the HomeWizard Energy"
@@ -19,7 +20,6 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-PYPI_PN="python-homewizard-energy"
 
 RDEPEND="
 	>=dev-python/aiohttp-3.0.0[${PYTHON_USEDEP}]
