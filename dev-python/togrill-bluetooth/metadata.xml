@@ -9,4 +9,7 @@
     <remote-id type="pypi">togrill-bluetooth</remote-id>
     <remote-id type="github">elupus/togrill-bluetooth</remote-id>
   </upstream>
+  <use>
+    <flag name="cli">Install Home Assistant CLI (hass-cli) for command-line interaction</flag>
+  </use>
 </pkgmetadata>
