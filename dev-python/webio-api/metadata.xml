@@ -13,4 +13,7 @@
       <email>devel_team@chomtech.com</email>
     </maintainer>
   </upstream>
+  <use>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
 </pkgmetadata>
