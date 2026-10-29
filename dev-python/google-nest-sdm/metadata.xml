@@ -9,4 +9,7 @@
     <remote-id type="pypi">google-nest-sdm</remote-id>
     <remote-id type="github">allenporter/google_nest_sdm</remote-id>
   </upstream>
+  <use>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
 </pkgmetadata>
