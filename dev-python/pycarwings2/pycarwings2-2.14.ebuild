@@ -5,11 +5,11 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="pycarwings2"
 inherit distutils-r1 pypi
 
 DESCRIPTION="Python library for interacting with the Nissan Leaf Carwings telematics service"
 HOMEPAGE="https://github.com/filcole/pycarwings2 https://pypi.org/project/pycarwings2/"
-PYPI_PN="pycarwings2"
 
 LICENSE="Apache-2.0"
 SLOT="0"
