@@ -21,14 +21,15 @@ if [[ ${PV} == *9999* ]]; then
     EGIT_BRANCH="main"
     S="${WORKDIR}/${P}/"
 	# keywords are deliberately EMPTY on this live (9999) branch: a moving upstream snapshot
-	# must not be reachable by keyword, or portage could install whatever the tree holds that
-	# day and drag it into another package's dependency set. An explicit request still works
-	# (`emerge -pU '=pkg-9999'` answers a row against what is installed - measured 2026-10-29
-	# on whey-9999 and esphome-9999), which is what a person asks for; leaving KEYWORDS unset
-	# instead masks the package (`masked by: missing keyword`) and nobody can use it, so this
-	# line is written rather than omitted. Stable keywords here would be worse than wrong, and
-	# the gentoo master uses this same `KEYWORDS=""` form in 40 of its live efiles (step 10's
-	# rule). The released branch below keeps its own keywords.
+	# must not be reachable by keyword, or portage could install whatever that tree holds that
+	# day and any package naming it in a dependency would drag an unpinnable tree in. The
+	# assignment is written rather than omitted so the intent is in the file: portage treats
+	# both the same (an explicit request answers `masked by: missing keyword` even for the
+	# master's own `KEYWORDS=""` live efiles - measured 2026-10-29 on this tree and on
+	# gentoo/app-portage/hackport/hackport-9999.ebuild:19) - and the gentoo master writes
+	# this same form in 40 of its live efiles. What the form does buy is the guarantee above:
+	# unstable markers (`~amd64 ~arm64`) would keep the snapshot selectable, which is what
+	# someone wanted to avoid. Stable markers here would also be wrong in kind (step 10's rule).
 	KEYWORDS=""
 else
     inherit pypi
