@@ -5,10 +5,10 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=poetry
+PYPI_PN="PyViCare"
 inherit distutils-r1 pypi
 DESCRIPTION="Library to communicate with the Viessmann ViCare API"
 HOMEPAGE="https://github.com/somm15/PyViCare https://pypi.org/project/PyViCare/"
-PYPI_PN="PyViCare"
 
 LICENSE="Apache-2.0"
 SLOT="0"
