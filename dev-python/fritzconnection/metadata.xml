@@ -13,4 +13,8 @@
       <email>bremer@bremer-media.com</email>
     </maintainer>
   </upstream>
+  <use>
+    <flag name="qrcode">QR code recognition integration</flag>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
 </pkgmetadata>
