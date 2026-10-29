@@ -21,7 +21,7 @@ RDEPEND="
 	>=dev-python/coloredlogs-15.0.1[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 	>=dev-python/cachetools-5.3.2[${PYTHON_USEDEP}]
-	>=dev-python/pytz-2023.3.post1[${PYTHON_USEDEP}]
+	>=dev-python/pytz-2023.3_p1[${PYTHON_USEDEP}]
 "
 BDEPEND="
 	test? (
@@ -29,7 +29,7 @@ BDEPEND="
 		>=dev-python/coloredlogs-15.0.1[${PYTHON_USEDEP}]
 		>=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
 		>=dev-python/cachetools-5.3.2[${PYTHON_USEDEP}]
-		>=dev-python/pytz-2023.3.post1[${PYTHON_USEDEP}]
+		>=dev-python/pytz-2023.3_p1[${PYTHON_USEDEP}]
 	)
 "
 
