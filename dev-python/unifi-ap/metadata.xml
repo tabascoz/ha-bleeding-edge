@@ -9,4 +9,7 @@
     <remote-id type="pypi">unifi-ap</remote-id>
     <remote-id type="github">tofuSCHNITZEL/unifi_ap</remote-id>
   </upstream>
+  <use>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
 </pkgmetadata>
