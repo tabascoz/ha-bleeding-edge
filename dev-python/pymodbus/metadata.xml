@@ -13,4 +13,10 @@
       <email>ipal0can@gmail.com</email>
     </maintainer>
   </upstream>
+  <use>
+    <flag name="repl">Pull dev-python/pymodbus-repl-2.0.4 for repl support</flag>
+    <flag name="serial">Read data from serial port devices</flag>
+    <flag name="simulator">Optional dependency group simulator declared by pymodbus-3.13.1</flag>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
 </pkgmetadata>

@@ -6,9 +6,9 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="pymodbus"
 inherit distutils-r1 pypi
 
-PYPI_PN="pymodbus"
 
 DESCRIPTION="A fully featured modbus protocol stack in python"
 HOMEPAGE="https://github.com/riptideio/pymodbus/ https://pypi.org/project/pymodbus/"
