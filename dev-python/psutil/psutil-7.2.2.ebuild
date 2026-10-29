@@ -10,7 +10,7 @@ inherit pypi distutils-r1
 
 DESCRIPTION="Cross-platform lib for process and system monitoring."
 HOMEPAGE="https://pypi.org/project/${PN}/"
-LICENSE="BSD-3-Clause"
+LICENSE="BSD"
 SLOT="0"
 KEYWORDS="~amd64 ~arm64"
 IUSE="test"
