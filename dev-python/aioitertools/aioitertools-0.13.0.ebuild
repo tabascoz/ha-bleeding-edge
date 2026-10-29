@@ -19,7 +19,6 @@ DOCS="README.md"
 BDEPEND="
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]
-		dev-python/pylint[${PYTHON_USEDEP}]  # EPyTestPluginsSuggestion
 	)
 "
 
