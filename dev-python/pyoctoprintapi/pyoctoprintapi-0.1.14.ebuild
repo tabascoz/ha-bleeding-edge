@@ -5,6 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( pypy3_11 python3_{11..14} )
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="pyoctoprintapi"
 inherit distutils-r1 pypi
 
 DESCRIPTION="An asynchronous Python library for communicating with the OctoPrint API"
@@ -27,5 +28,4 @@ BDEPEND="
 	)
 "
 
-PYPI_PN="pyoctoprintapi"
 distutils_enable_tests pytest
