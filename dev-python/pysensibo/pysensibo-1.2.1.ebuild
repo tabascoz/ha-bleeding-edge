@@ -6,6 +6,7 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 
 DISTUTILS_USE_PEP517=poetry
+PYPI_PN="pysensibo"
 inherit distutils-r1 pypi
 
 DESCRIPTION="asyncio-friendly python API for Sensibo"
@@ -24,5 +25,4 @@ RDEPEND="
     <dev-python/aiohttp-4.0[${PYTHON_USEDEP}]
 "
 
-PYPI_PN="pysensibo"
 distutils_enable_tests pytest
