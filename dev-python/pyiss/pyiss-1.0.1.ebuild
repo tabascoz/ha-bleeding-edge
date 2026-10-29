@@ -5,6 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="pyiss"
 inherit distutils-r1
 
 DESCRIPTION="A simple python3 library for info about the current International Space Station location"
@@ -23,6 +24,5 @@ RDEPEND="dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/httmock[${PYTHON_USEDEP}]
 	dev-python/voluptuous[${PYTHON_USEDEP}]"
 
-PYPI_PN="pyiss"
 
 distutils_enable_tests pytest
