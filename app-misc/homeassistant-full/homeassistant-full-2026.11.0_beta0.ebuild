@@ -261,7 +261,7 @@ RDEPEND="${RDEPEND}
 	channels? ( ~dev-python/pychannels-1.2.3[${PYTHON_USEDEP}] )
 	chef_iq? ( ~dev-python/chefiq-ble-1.1.1[${PYTHON_USEDEP}] )
 	chess_com? ( ~dev-python/chess-com-api-1.1.0[${PYTHON_USEDEP}] )
-	chirpstack? ( ~dev-python/lorawan-connection-1.3.0[${PYTHON_USEDEP}] )
+	chirpstack? ( ~dev-python/chirpstack-api-4.19.0[${PYTHON_USEDEP}] ~dev-python/lorawan-connection-1.3.0[${PYTHON_USEDEP}] )
 	cielo_home? ( ~dev-python/cielo-connect-api-1.0.6[${PYTHON_USEDEP}] )
 	cisco_ios? ( ~dev-python/pexpect-4.9.0[${PYTHON_USEDEP}] )
 	cisco_mobility_express? ( ~dev-python/ciscomobilityexpress-0.3.9[${PYTHON_USEDEP}] )
