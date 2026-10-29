@@ -3,7 +3,12 @@
 
 EAPI=8
 
-PYTHON_COMPAT=( python3_{10..12} )
+# the live branch must build with an interpreter this tree actually has: with the upstream
+# compat (10..12) `emerge -p '=app-misc/home-assistant-cli-9999'` answered
+# `!!! The ebuild selected to satisfy ‘…-9999’ has unmet requirements` (only 3.14 and
+# 3.15 are installed), i.e. nobody could use the live package at all. Same range as every
+# other package here, and the released 0.9.6 keeps upstream’s own compat untouched.
+PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=poetry
 inherit distutils-r1
 
