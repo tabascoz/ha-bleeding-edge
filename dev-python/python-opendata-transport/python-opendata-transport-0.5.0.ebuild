@@ -5,6 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{11..14} )
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="python-opendata-transport"
 inherit distutils-r1 pypi
 
 DESCRIPTION="Python API for interacting with transport.opendata.ch."
@@ -21,6 +22,5 @@ DOCS="README.rst"
 RDEPEND=">=dev-python/aiohttp-3.8.5[${PYTHON_USEDEP}] \
 	dev-python/urllib3[${PYTHON_USEDEP}]"
 
-PYPI_PN="python-opendata-transport"
 
 distutils_enable_tests pytest
