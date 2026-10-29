@@ -6,11 +6,11 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="py-nextbusnext"
 inherit distutils-r1 pypi
 
 DESCRIPTION="Minimalistic Python client for the NextBus public API for real-time transit arrival data"
 HOMEPAGE="https://github.com/vividboarder/py_nextbus https://pypi.org/project/py-nextbusnext/"
-PYPI_PN="py-nextbusnext"
 
 LICENSE="MIT"
 SLOT="0"
