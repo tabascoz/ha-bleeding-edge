@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <maintainer type="project">
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
+  </maintainer>
+  <upstream>
+    <remote-id type="github">core/azure-core</remote-id>
+  </upstream>
+  <use>
+    <flag name="aio">Pull dev-python/aiohttp-3.0 for aio support</flag>
+    <flag name="doc">Pull the dependencies the doc integration of Home Assistant needs</flag>
+    <flag name="examples">Pull the dependencies the examples integration of Home Assistant needs</flag>
+    <flag name="tracing">Optional dependency group tracing declared by azure_core-1.41.0</flag>
+  </use>
+</pkgmetadata>
