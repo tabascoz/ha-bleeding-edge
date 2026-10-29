@@ -9,4 +9,7 @@
     <remote-id type="pypi">romy</remote-id>
     <remote-id type="github">xeniter/romy</remote-id>
   </upstream>
+  <use>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
 </pkgmetadata>
