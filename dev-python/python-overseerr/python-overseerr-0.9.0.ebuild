@@ -6,6 +6,7 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 
 DISTUTILS_USE_PEP517=poetry
+PYPI_PN="python-overseerr"
 inherit pypi distutils-r1
 
 DESCRIPTION="Asynchronous Python client for Overseerr"
@@ -32,4 +33,3 @@ BDEPEND="
 "
 
 distutils_enable_tests pytest
-PYPI_PN="python-overseerr"
