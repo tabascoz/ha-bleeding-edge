@@ -6,6 +6,7 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 
 DISTUTILS_USE_PEP517=poetry
+PYPI_PN="pyaussiebb"
 inherit distutils-r1 pypi
 
 DESCRIPTION="Aussie Broadband API module"
@@ -19,7 +20,6 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-PYPI_PN="pyaussiebb"
 
 RDEPEND=">=dev-python/requests-2.27.1[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-3.11.18[${PYTHON_USEDEP}]
