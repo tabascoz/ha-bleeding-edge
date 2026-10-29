@@ -13,4 +13,7 @@
       <email>developers@senic.com</email>
     </maintainer>
   </upstream>
+  <use>
+    <flag name="GATTTOOL">Pull the dependencies the GATTTOOL integration of Home Assistant needs</flag>
+  </use>
 </pkgmetadata>

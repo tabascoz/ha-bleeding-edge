@@ -6,6 +6,7 @@ EAPI=8
 DISTUTILS_USE_PEP517=setuptools
 PYTHON_COMPAT=( python3_{12..14} )
 
+PYPI_PN="pygatt"
 inherit distutils-r1 pypi
 
 DESCRIPTION="Python Bluetooth LE (Low Energy) and GATT Library"
@@ -26,4 +27,3 @@ RDEPEND="
 	GATTTOOL? ( dev-python/pexpect[${PYTHON_USEDEP}] )
 "
 
-PYPI_PN="pygatt"
