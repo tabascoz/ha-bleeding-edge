@@ -5,6 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{11..14} )
 DISTUTILS_USE_PEP517=poetry
+PYPI_PN="pymodbus-repl"
 inherit distutils-r1 pypi
 
 DESCRIPTION="REPL (Read-Eval-Print Loop) tool for working with Modbus devices using the Pymodbus library."
@@ -18,7 +19,6 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-PYPI_PN="pymodbus-repl"
 
 RDEPEND="
 	$(python_gen_cond_dep '>=dev-python/aiohttp-3.9.0[${PYTHON_USEDEP}]' python3_12)
