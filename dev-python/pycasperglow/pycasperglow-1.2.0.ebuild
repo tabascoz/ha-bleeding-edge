@@ -6,11 +6,11 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="pycasperglow"
 inherit pypi distutils-r1
 
 DESCRIPTION="Async Python library for controlling Casper Glow lights via BLE"
 HOMEPAGE="https://pypi.org/project/${PN}/"
-PYPI_PN="pycasperglow"
 
 LICENSE="MIT"
 SLOT="0"
