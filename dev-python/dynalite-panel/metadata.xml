@@ -9,4 +9,7 @@
     <remote-id type="pypi">dynalite-panel</remote-id>
     <remote-id type="github">ziv1234/dynalitepanel</remote-id>
   </upstream>
+  <use>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
 </pkgmetadata>
