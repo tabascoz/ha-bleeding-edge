@@ -9,4 +9,7 @@
     <remote-id type="pypi">mitsubishi-comfort</remote-id>
     <remote-id type="github">nikolairahimi/mitsubishi-comfort</remote-id>
   </upstream>
+  <use>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
 </pkgmetadata>
