@@ -6,6 +6,7 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="pydeako"
 inherit distutils-r1 pypi
 
 DESCRIPTION="Connect and interact with deako devices over the network locally"
@@ -35,4 +36,3 @@ build-backend = "setuptools.build_meta"
 
 distutils_enable_tests pytest
 
-PYPI_PN="pydeako"
