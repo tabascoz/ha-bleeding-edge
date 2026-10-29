@@ -5,13 +5,13 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=hatchling
+PYPI_PN="pyportainer"
 inherit pypi distutils-r1
 
 DESCRIPTION="Asynchronous Python client for the Portainer API"
 HOMEPAGE="https://pypi.org/project/${PN}/"
-PYPI_PN="pyportainer"
 
-LICENSE="None"
+LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~arm64"
 IUSE="test"
