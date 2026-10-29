@@ -5,6 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{11..14} )
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="pyplaato"
 inherit distutils-r1 pypi
 
 DESCRIPTION="Asynchronous Python client for getting Plaato Airlock and Keg data"
@@ -21,6 +22,5 @@ DOCS="README.md"
 RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]"
 
-PYPI_PN="pyplaato"
 
 distutils_enable_tests pytest
