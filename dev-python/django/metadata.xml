@@ -5,4 +5,9 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
 </maintainer>
+  <use>
+    <flag name="doc">Pull the dependencies the doc integration of Home Assistant needs</flag>
+    <flag name="sqlite">Pull the dependencies the sqlite integration of Home Assistant needs</flag>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
 </pkgmetadata>
