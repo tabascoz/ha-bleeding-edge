@@ -10,4 +10,7 @@
     <remote-id type="github">OpenDisplay-org/epaper-dithering#readme</remote-id>
     <remote-id type="github">OpenDisplay-org/epaper-dithering</remote-id>
   </upstream>
+  <use>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
 </pkgmetadata>
