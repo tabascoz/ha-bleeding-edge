@@ -13,4 +13,10 @@
       <email>packages@tensorflow.org</email>
     </maintainer>
   </upstream>
+  <use>
+    <flag name="cuda">Pull archive/v2.8.3-1.tar.gz for cuda support</flag>
+    <flag name="mpi">Pull dev-libs/flatbuffers-2.0.6:=, dev-python/astor-0.7.1, dev-python/gast-0.3.3, dev-python/numpy-1.19, dev-python/google-pasta-0.1.8, dev-python/opt-einsum-3.3.0, dev-python/protobuf-3.13.0, dev-python/grpcio-1.28, dev-python/wrapt-1.11.1, net-libs/google-cloud-cpp-0.10.0, sci-libs/keras-applications-1.0.8, sci-libs/keras-preprocessing-1.1.2, sci-visualization/tensorboard-2.5.0 for mpi support</flag>
+    <flag name="python">Pull 3cdb0a02e7e96f6c70bd971bc8a90b8463fda83e264fa9c5c1c98ceabd81/backports.weakref-1.0rc1.tar.gz for python support</flag>
+    <flag name="xla">Pull the dependencies the xla integration of Home Assistant needs</flag>
+  </use>
 </pkgmetadata>
