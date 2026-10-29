@@ -5,11 +5,11 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="py-synologydsm-api"
 inherit pypi distutils-r1
 
 DESCRIPTION="Python API for communication with Synology DSM"
 HOMEPAGE="https://github.com/mib1185/py-synologydsm-api https://pypi.org/project/py-synologydsm-api/"
-PYPI_PN="py-synologydsm-api"
 SRC_URI="$(pypi_wheel_url --unpack)"
 
 LICENSE="MIT"
