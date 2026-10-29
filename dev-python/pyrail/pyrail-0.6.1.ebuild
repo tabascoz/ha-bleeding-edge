@@ -5,6 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=hatchling
+PYPI_PN="pyrail"
 inherit distutils-r1 pypi
 
 DESCRIPTION="Python wrapper for the iRail API"
@@ -29,6 +30,5 @@ BDEPEND="
 	)
 "
 
-PYPI_PN="pyrail"
 
 distutils_enable_tests pytest
