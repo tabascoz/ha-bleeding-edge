@@ -5,11 +5,11 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="py-nymta"
 inherit pypi distutils-r1
 
 DESCRIPTION="Python library for accessing MTA (Metropolitan Transportation Authority) real-time transit data for NYC"
 HOMEPAGE="https://pypi.org/project/${PN}/"
-PYPI_PN="py-nymta"
 
 LICENSE="MIT"
 SLOT="0"
