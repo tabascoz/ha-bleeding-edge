@@ -10,4 +10,7 @@
     <remote-id type="github">clssn/numato-gpio</remote-id>
     <remote-id type="github">clssn/numato-gpio.git</remote-id>
   </upstream>
+  <use>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
 </pkgmetadata>
