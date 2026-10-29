@@ -6,6 +6,7 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="pyjvcprojector"
 inherit distutils-r1 pypi
 
 DESCRIPTION="A python library for controlling a JVC Projector over a network connection"
@@ -19,6 +20,5 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-PYPI_PN="pyjvcprojector"
 
 distutils_enable_tests pytest
