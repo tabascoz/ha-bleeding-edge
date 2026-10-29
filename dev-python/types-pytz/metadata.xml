@@ -10,4 +10,7 @@
     <remote-id type="github">typeshed-internal/stub_uploader</remote-id>
     <remote-id type="github">python/typeshed</remote-id>
   </upstream>
+  <use>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
 </pkgmetadata>
