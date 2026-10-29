@@ -13,4 +13,8 @@
       <email>ape@ape3000.com</email>
     </maintainer>
   </upstream>
+  <use>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+    <flag name="websocket">Optional dependency group websocket declared by samsungctl-0.7.1</flag>
+  </use>
 </pkgmetadata>
