@@ -6,9 +6,9 @@ EAPI=8
 DISTUTILS_USE_PEP517=setuptools
 PYTHON_COMPAT=( python3_{11..14} )
 
+PYPI_PN="solaredge_modbus"
 inherit distutils-r1 pypi
 
-PYPI_PN="solaredge_modbus"
 
 DESCRIPTION="SolarEdge Modbus data collection library for inverters over RTU/TCP"
 HOMEPAGE="
