@@ -4,6 +4,7 @@
 EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=hatchling
+PYPI_PN="python-smarttub"
 inherit distutils-r1 pypi
 
 DESCRIPTION="API to query and control hot tubs using the SmartTub system"
@@ -17,7 +18,6 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-PYPI_PN="python-smarttub"
 
 RDEPEND=">=dev-python/aiohttp-3.9.1[${PYTHON_USEDEP}]
 	~dev-python/inflection-0.5.1[${PYTHON_USEDEP}]
