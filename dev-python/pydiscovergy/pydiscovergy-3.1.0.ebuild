@@ -5,6 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{11..14} )
 DISTUTILS_USE_PEP517=poetry
+PYPI_PN="pydiscovergy"
 inherit distutils-r1 pypi
 
 DESCRIPTION="Async Python 3 library for interacting with Discovergy smart meters API"
@@ -18,7 +19,6 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-PYPI_PN="pydiscovergy"
 
 RDEPEND="
 	>=dev-python/authlib-0.15[${PYTHON_USEDEP}]
