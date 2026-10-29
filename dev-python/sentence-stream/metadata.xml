@@ -9,4 +9,7 @@
     <remote-id type="pypi">sentence-stream</remote-id>
     <remote-id type="github">OHF-Voice/sentence-stream</remote-id>
   </upstream>
+  <use>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
 </pkgmetadata>
