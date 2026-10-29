@@ -6,6 +6,7 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="pysmarty2"
 inherit distutils-r1 pypi
 
 DESCRIPTION="Python API for Salda Smarty Modbus TCP"
@@ -28,4 +29,3 @@ src_prepare() {
 
 distutils_enable_tests pytest
 
-PYPI_PN="pysmarty2"
