@@ -6,10 +6,10 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 PYPI_NO_NORMALIZE=1
+PYPI_PN="PySwitchmate"
 inherit distutils-r1 pypi
 DESCRIPTION="A library to communicate with Switchmate"
 HOMEPAGE="https://github.com/Danielhiversen/pySwitchmate/ https://pypi.org/project/PySwitchmate/"
-PYPI_PN="PySwitchmate"
 
 LICENSE="MIT"
 SLOT="0"
