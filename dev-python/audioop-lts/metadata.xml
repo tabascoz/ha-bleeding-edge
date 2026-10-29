@@ -10,4 +10,7 @@
     <remote-id type="github">sponsors/AbstractUmbra</remote-id>
     <remote-id type="github">AbstractUmbra/audioop</remote-id>
   </upstream>
+  <use>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
 </pkgmetadata>
