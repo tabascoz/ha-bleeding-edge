@@ -9,4 +9,7 @@
     <remote-id type="pypi">fitbit-web-api</remote-id>
     <remote-id type="github">allenporter/fitbit-web-api</remote-id>
   </upstream>
+  <use>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
 </pkgmetadata>
