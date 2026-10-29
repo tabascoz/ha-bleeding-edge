@@ -9,4 +9,7 @@
     <remote-id type="pypi">fish-audio-sdk</remote-id>
     <remote-id type="github">fishaudio/fish-audio-python</remote-id>
   </upstream>
+  <use>
+    <flag name="utils">Optional dependency group utils declared by fish_audio_sdk-1.3.0; needs s, s</flag>
+  </use>
 </pkgmetadata>
