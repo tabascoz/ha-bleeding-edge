@@ -6,12 +6,13 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 
 DISTUTILS_USE_PEP517=poetry
+PYPI_PN="pycountry"
 inherit pypi distutils-r1
 
 DESCRIPTION="ISO country, subdivision, language, currency and script definitions and their translations"
 HOMEPAGE="https://github.com/flyingcircusio/pycountry"
 
-LICENSE="LGPL-2.1-only"
+LICENSE="LGPL-2.1"
 SLOT="0"
 KEYWORDS="~amd64 ~arm64"
 IUSE="test"
@@ -24,5 +25,4 @@ BDEPEND="
 		dev-python/pytest[${PYTHON_USEDEP}]
 	)
 "
-PYPI_PN="pycountry"
 distutils_enable_tests pytest
