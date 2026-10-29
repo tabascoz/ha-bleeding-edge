@@ -6,9 +6,9 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="py-unifi-access"
 inherit distutils-r1 pypi
 
-PYPI_PN="py-unifi-access"
 
 DESCRIPTION="Async Python client for the UniFi Access local API with WebSocket event support"
 HOMEPAGE="https://pypi.org/project/${PN}/"
