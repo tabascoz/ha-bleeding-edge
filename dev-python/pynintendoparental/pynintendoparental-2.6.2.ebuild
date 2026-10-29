@@ -6,6 +6,7 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="pynintendoparental"
 inherit pypi distutils-r1
 
 DESCRIPTION="A Python module to interact with Nintendo Parental Controls"
@@ -17,7 +18,6 @@ KEYWORDS="~amd64 ~arm64"
 IUSE="test"
 RESTRICT="!test? ( test )"
 
-PYPI_PN="pynintendoparental"
 
 RDEPEND="
 	=dev-python/pynintendoauth-1.0.3[${PYTHON_USEDEP}]
