@@ -14,6 +14,8 @@ HOMEPAGE="https://github.com/georgewhewell/undervolt"
 
 LICENSE="GPL-2"
 SLOT="0"
+# unstable keywords only: a live efile must be selectable when asked for, and never installed automatically
+KEYWORDS="~amd64 ~arm64"
 
 src_compile() {
 	distutils-r1_src_compile
