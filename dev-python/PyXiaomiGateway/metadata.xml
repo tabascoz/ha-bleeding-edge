@@ -12,4 +12,7 @@
       <name>=?utf-8?q?Daniel_Hjelseth_H=C3=B8yer?=</name>
     </maintainer>
   </upstream>
+  <use>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
 </pkgmetadata>
