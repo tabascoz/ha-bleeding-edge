@@ -13,4 +13,8 @@
       <email>kustalk@microsoft.com</email>
     </maintainer>
   </upstream>
+  <use>
+    <flag name="pandas">Pull dev-python/pandas-2.3.1 for the pandas integration</flag>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
 </pkgmetadata>
