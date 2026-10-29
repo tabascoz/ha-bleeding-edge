@@ -5,6 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=poetry
+PYPI_PN="pysnooz"
 inherit distutils-r1 pypi
 
 DESCRIPTION="Control SNOOZ white noise machines."
@@ -37,5 +38,4 @@ BDEPEND="
 	)
 "
 
-PYPI_PN="pysnooz"
 distutils_enable_tests pytest
