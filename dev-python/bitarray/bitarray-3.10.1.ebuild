@@ -14,7 +14,7 @@ HOMEPAGE="
 	https://pypi.org/project/bitarray/
 "
 
-LICENSE="PSF-2.0"
+LICENSE="PSF-2"
 SLOT="0"
 KEYWORDS="~amd64 ~arm64"
 IUSE="test"
