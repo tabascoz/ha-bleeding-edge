@@ -5,6 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( pypy3_11 python3_{11..14} )
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="pyps4-2ndscreen"
 inherit distutils-r1 pypi
 
 DESCRIPTION="PS4 2nd Screen Python Library"
@@ -27,6 +28,5 @@ BDEPEND="
 		dev-python/pytest[${PYTHON_USEDEP}]
 	)"
 
-PYPI_PN="pyps4-2ndscreen"
 
 distutils_enable_tests pytest
