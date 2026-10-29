@@ -6,11 +6,11 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 
 DISTUTILS_USE_PEP517=hatchling
+PYPI_PN="pyfirefly"
 inherit pypi distutils-r1
 
 DESCRIPTION="Asynchronous Python client for the Firefly III API"
 HOMEPAGE="https://pypi.org/project/${PN}/"
-PYPI_PN="pyfirefly"
 
 LICENSE="MIT"
 SLOT="0"
