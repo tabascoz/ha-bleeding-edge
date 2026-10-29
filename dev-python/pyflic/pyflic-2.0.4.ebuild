@@ -5,6 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="pyflic"
 inherit distutils-r1 pypi
 
 DESCRIPTION="Python library to connect to and interact with Flic buttons."
@@ -18,6 +19,5 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-PYPI_PN="pyflic"
 
 distutils_enable_tests pytest
