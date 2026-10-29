@@ -5,12 +5,12 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="coinbase-advanced-py"
 inherit distutils-r1
 
 DESCRIPTION="Coinbase Advanced API Python SDK"
 HOMEPAGE="https://github.com/coinbase/coinbase-advanced-py https://pypi.org/project/coinbase-advanced-py/"
 SRC_URI="https://github.com/coinbase/${PN}/archive/refs/tags/v${PV}.tar.gz -> ${P}.gh.tar.gz"
-PYPI_PN="coinbase-advanced-py"
 
 LICENSE="Apache-2.0"
 SLOT="0"
