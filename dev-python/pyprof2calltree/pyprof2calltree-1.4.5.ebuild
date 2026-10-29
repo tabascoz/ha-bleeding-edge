@@ -5,6 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="pyprof2calltree"
 inherit distutils-r1 pypi
 
 DESCRIPTION="Help visualize profiling data from cProfile with kcachegrind and qcachegrind"
@@ -23,6 +24,5 @@ BDEPEND="
 		dev-python/pytest[${PYTHON_USEDEP}]
 	)"
 
-PYPI_PN="pyprof2calltree"
 
 distutils_enable_tests pytest
