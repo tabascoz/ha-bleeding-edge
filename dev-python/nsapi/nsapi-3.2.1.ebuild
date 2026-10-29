@@ -6,6 +6,7 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 
 DISTUTILS_USE_PEP517=setuptools
+PYPI_EXTENSION=".zip"
 inherit distutils-r1 pypi
 
 DESCRIPTION="api wrapper for Dutch Railways (NS)"
@@ -19,7 +20,6 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.rst"
 
-PYPI_EXTENSION=".zip"
 
 RDEPEND=">=dev-python/pytz-2018.5[${PYTHON_USEDEP}]"
 BDEPEND="
