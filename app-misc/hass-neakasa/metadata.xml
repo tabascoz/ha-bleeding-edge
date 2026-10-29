@@ -9,4 +9,9 @@
     <remote-id type="pypi">grott</remote-id>
     <remote-id type="github">grott-project/grott</remote-id>
   </upstream>
+  <use>
+    <flag name="influxdb">Export sensor data to InfluxDB time-series database</flag>
+    <flag name="mqtt">MQTT broker and client support</flag>
+    <flag name="systemd">Use systemd for service management and initialization</flag>
+  </use>
 </pkgmetadata>
