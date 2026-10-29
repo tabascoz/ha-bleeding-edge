@@ -5,6 +5,7 @@ EAPI=8
 
 DISTUTILS_USE_PEP517=setuptools
 PYTHON_COMPAT=( python3_{12..14} )
+PYPI_PN="pyusb"
 inherit distutils-r1 pypi
 
 DESCRIPTION="USB support for Python"
@@ -24,6 +25,5 @@ PATCHES=(
 	"${FILESDIR}"/${P}-setuptools.patch
 )
 
-PYPI_PN="pyusb"
 
 distutils_enable_tests pytest
