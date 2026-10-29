@@ -13,6 +13,20 @@ This repository is based on the work of the excellent [HomeAssistantRepository](
 
 The primary goal of this overlay is to provide **bleeding-edge versions** of Home Assistant, with a strong focus on the `app-misc/homeassistant-full` package. This includes untested ebuilds that usually pull directly from the latest development branch or pre-release/beta versions of Home Assistant core and its dependencies, giving users access to the newest features and fixes as soon as they land upstream.
 
+## Update #2 2026-11 
+
+**⚠️ Important warning for all users of this overlay**
+
+Home Assistant core has introduced a **hardcoded check** that prevents certain installation methods (including the type of OS-level / Core installations that this overlay maintains and supports) from running.
+
+To keep this overlay functional, a **patch is applied** in the newer 2026.11* ebuilds that disables the relevant function in the Home Assistant code.
+
+- This is a temporary workaround so that Gentoo / bleeding-edge Core installations continue to work.
+- An upstream issue was raised here: https://github.com/home-assistant/core/issues/189454
+- Please be aware that this is an unofficial patch. Future Home Assistant releases may break it again or change the check in ways that require further adjustments or may render Gentoo's method of installation totally useless. 
+- The unsupported state was a decision HA dev took in 2025. At the time it was not clear that the goal would be to prevent non-supported installations from running. 
+- Always keep backups of your configuration before updating.
+
 ## Important Notes
 
 - **Bleeding-edge means unstable**. These versions may introduce bugs, breaking changes, incomplete features, or dependency conflicts.
@@ -76,6 +90,8 @@ Some ebuilds present are not direct dependency of HA or it's depenency chain. Th
 - Frigate: https://github.com/blakeblackshear/frigate-hass-integration
 
 ( may do ebuilds for them) 
+
+
 
 ## Update #1 2026-05
 
