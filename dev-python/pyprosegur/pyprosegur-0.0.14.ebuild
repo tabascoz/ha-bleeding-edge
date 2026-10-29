@@ -5,6 +5,7 @@ EAPI=8
 
 DISTUTILS_USE_PEP517=setuptools
 PYTHON_COMPAT=( python3_{12..14} )
+PYPI_PN="pyprosegur"
 inherit distutils-r1 pypi
 
 DESCRIPTION="Unofficial Python library to interface with Prosegur Alarmes PT/ES."
@@ -27,6 +28,5 @@ BDEPEND="
 	)
 "
 
-PYPI_PN="pyprosegur"
 
 distutils_enable_tests pytest
