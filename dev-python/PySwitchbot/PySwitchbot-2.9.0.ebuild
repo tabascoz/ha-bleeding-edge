@@ -5,11 +5,11 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=poetry
+PYPI_PN="PySwitchbot"
 inherit distutils-r1 pypi
 
 DESCRIPTION="A library to communicate with Switchbot"
 HOMEPAGE="https://github.com/sblibs/pySwitchbot/ https://pypi.org/project/PySwitchbot/"
-PYPI_PN="PySwitchbot"
 
 LICENSE="MIT"
 SLOT="0"
