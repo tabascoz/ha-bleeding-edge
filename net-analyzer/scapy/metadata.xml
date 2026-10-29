@@ -12,4 +12,7 @@
       <name>Pierre LALET, Gabriel POTTER, Guillaume VALADON, Nils WEISS</name>
     </maintainer>
   </upstream>
+  <use>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
 </pkgmetadata>
