@@ -9,4 +9,7 @@
     <remote-id type="pypi">evolutionhttp</remote-id>
     <remote-id type="github">danielsmyers/evolutionhttp</remote-id>
   </upstream>
+  <use>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
 </pkgmetadata>
