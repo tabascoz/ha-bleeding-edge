@@ -7,8 +7,8 @@ PYTHON_COMPAT=( python3_{12..14} )
 PYPI_NO_NORMALIZE=1
 
 DISTUTILS_USE_PEP517=setuptools
-inherit distutils-r1 pypi
 PYPI_PN="pyW800rf32"
+inherit distutils-r1 pypi
 
 DESCRIPTION="A library to communicate with the W800rf32 family of devices"
 HOMEPAGE="https://github.com/horga83/pyW800rf32 https://pypi.org/project/pyW800rf32/"
