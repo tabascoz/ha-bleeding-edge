@@ -5,6 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{11..14} )
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="pyswitchbee"
 inherit distutils-r1 pypi
 
 DESCRIPTION="SwitchBee Python Integration."
@@ -21,6 +22,5 @@ DOCS="README.md"
 RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]
 	dev-python/awesomeversion[${PYTHON_USEDEP}]"
 
-PYPI_PN="pyswitchbee"
 
 distutils_enable_tests pytest
