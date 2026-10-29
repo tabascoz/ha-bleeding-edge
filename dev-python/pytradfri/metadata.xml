@@ -13,4 +13,8 @@
       <email>moroen@gmail.com</email>
     </maintainer>
   </upstream>
+  <use>
+    <flag name="async">Optional dependency group async declared by pytradfri-14.0.0</flag>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
 </pkgmetadata>
