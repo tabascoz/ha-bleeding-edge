@@ -6,11 +6,11 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 PYPI_NO_NORMALIZE=1
+PYPI_PN="PsychroLib"
 inherit distutils-r1 pypi
 
 DESCRIPTION="Library of psychrometric functions to calculate thermodynamic properties of air"
 HOMEPAGE="https://github.com/psychrometrics/psychrolib https://pypi.org/project/PsychroLib/"
-PYPI_PN="PsychroLib"
 
 LICENSE="MIT"
 SLOT="0"
