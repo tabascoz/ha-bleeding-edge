@@ -5,4 +5,7 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
 </maintainer>
+  <use>
+    <flag name="bleak">Optional dependency group bleak declared by spinev_ble-0.5.0; needs b, b</flag>
+  </use>
 </pkgmetadata>
