@@ -5,6 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="pymochad"
 inherit distutils-r1 pypi
 
 DESCRIPTION="A python library for interacting with moch"
@@ -18,7 +19,6 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.rst"
 
-PYPI_PN="pymochad"
 
 RDEPEND="dev-python/pbr[${PYTHON_USEDEP}]"
 
