@@ -9,4 +9,7 @@
     <remote-id type="pypi">kaiterra-async-client</remote-id>
     <remote-id type="github">Michsior14/python-kaiterra-async-client</remote-id>
   </upstream>
+  <use>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
 </pkgmetadata>
