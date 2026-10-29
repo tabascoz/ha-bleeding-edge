@@ -5,11 +5,11 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="pyRFXtrx"
 inherit distutils-r1 pypi
 
 DESCRIPTION="a library to communicate with the RFXtrx family of devices"
 HOMEPAGE="https://github.com/Danielhiversen/pyRFXtrx https://pypi.org/project/pyRFXtrx/"
-PYPI_PN="pyRFXtrx"
 
 LICENSE="LGPL-3"
 SLOT="0"
