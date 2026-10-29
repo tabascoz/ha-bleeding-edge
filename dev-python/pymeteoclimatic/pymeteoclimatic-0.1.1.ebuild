@@ -5,6 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{11..14} )
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="pymeteoclimatic"
 inherit distutils-r1 pypi
 
 DESCRIPTION="A Python wrapper around the Meteoclimatic service"
@@ -21,6 +22,5 @@ DOCS="README.md"
 RDEPEND=">=dev-python/lxml-4.5[${PYTHON_USEDEP}] \
 	dev-python/beautifulsoup4[${PYTHON_USEDEP}]"
 
-PYPI_PN="pymeteoclimatic"
 
 distutils_enable_tests pytest
