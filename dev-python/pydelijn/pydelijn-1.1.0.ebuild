@@ -5,6 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="pydelijn"
 inherit distutils-r1 pypi
 
 DESCRIPTION="Get realtime info on stop passages of De Lijn (api.delijn.be)"
@@ -22,6 +23,5 @@ RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]
 	dev-python/async-timeout[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]"
 
-PYPI_PN="pydelijn"
 
 distutils_enable_tests pytest
