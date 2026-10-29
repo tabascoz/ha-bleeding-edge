@@ -5,6 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( pypy3_11 python3_{11..14} )
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="pyzipper"
 inherit distutils-r1 pypi
 
 DESCRIPTION="AES encryption for zipfile."
@@ -25,6 +26,5 @@ BDEPEND="
 	)
 "
 
-PYPI_PN="pyzipper"
 
 distutils_enable_tests pytest
