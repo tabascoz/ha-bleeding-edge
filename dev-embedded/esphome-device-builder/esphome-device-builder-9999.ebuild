@@ -20,6 +20,11 @@ if [[ ${PV} == *9999* ]]; then
     EGIT_REPO_URI="https://github.com/esphome/device-builder.git"
     EGIT_BRANCH="main"
     S="${WORKDIR}/${P}/"
+	# unstable keywords on the LIVE branch: a live efile with no keywords at all is masked by
+	# `missing keyword`, so even `emerge -p '=pkg-9999'` cannot select it (measured: 8 of the 9
+	# live efiles here were unusable). Unstable keywords make it installable when someone asks
+	# for it, and never picked up automatically - stable ones would also be wrong (step 10's rule).
+	KEYWORDS="~amd64 ~arm64"
 else
     inherit pypi
     SRC_URI="$(pypi_sdist_url "${PN}" "${PV}")"
