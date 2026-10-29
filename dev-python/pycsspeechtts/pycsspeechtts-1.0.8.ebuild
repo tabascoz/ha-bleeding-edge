@@ -5,6 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=hatchling
+PYPI_PN="pycsspeechtts"
 inherit distutils-r1 pypi
 
 DESCRIPTION="Python 3 interface to Microsoft Cognitive Services Text To Speech"
@@ -20,6 +21,5 @@ RESTRICT="!test? ( test )"
 
 RDEPEND=">=dev-python/requests-2.0[${PYTHON_USEDEP}]"
 
-PYPI_PN="pycsspeechtts"
 
 distutils_enable_tests pytest
