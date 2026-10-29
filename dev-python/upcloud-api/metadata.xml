@@ -13,4 +13,8 @@
       <email>hello@upcloud.com</email>
     </maintainer>
   </upstream>
+  <use>
+    <flag name="keyring">Optional dependency group keyring declared by upcloud_api-2.9.0</flag>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
 </pkgmetadata>
