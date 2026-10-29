@@ -5,11 +5,11 @@ EAPI=8
 
 PYTHON_COMPAT=( pypy3_11 python3_{11..14} )
 DISTUTILS_USE_PEP517=poetry
+PYPI_PN="pyairvisual"
 inherit distutils-r1 pypi
 
 DESCRIPTION="A simple API for AirVisual air quality data"
 HOMEPAGE="https://github.com/bachya/pyairvisual https://pypi.org/project/pyairvisual/"
-PYPI_PN="pyairvisual"
 
 LICENSE="MIT"
 SLOT="0"
