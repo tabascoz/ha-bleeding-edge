@@ -31,7 +31,7 @@ BDEPEND="
 		>=dev-python/pytest-checkdocs-2.4[${PYTHON_USEDEP}]
 		dev-python/pytest-cov[${PYTHON_USEDEP}]
 		>=dev-python/pytest-enabler-2.2[${PYTHON_USEDEP}]
-		>=dev-python/pytest-ruff[${PYTHON_USEDEP}]
+		>=dev-python/pytest-ruff-0.2.1[${PYTHON_USEDEP}]
 		>=dev-python/pytest-black-0.3.7[${PYTHON_USEDEP}]
 		>=dev-python/pytest-mypy-0.9.1[${PYTHON_USEDEP}]
 	)"
