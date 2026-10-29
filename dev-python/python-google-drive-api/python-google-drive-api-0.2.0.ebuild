@@ -5,6 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="python-google-drive-api"
 inherit pypi distutils-r1
 
 DESCRIPTION="A python client library for Google Drive API"
@@ -29,6 +30,5 @@ BDEPEND="
 	)
 "
 
-PYPI_PN="python-google-drive-api"
 
 distutils_enable_tests pytest
