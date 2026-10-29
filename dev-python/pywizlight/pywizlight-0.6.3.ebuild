@@ -4,11 +4,11 @@
 EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="pywizlight"
 inherit distutils-r1 pypi
 
 DESCRIPTION="A python connector for WiZ light bulbs (e.g SLV Play)"
 HOMEPAGE="https://github.com/sbidy/pywizlight https://pypi.org/project/pywizlight/"
-PYPI_PN="pywizlight"
 
 LICENSE="MIT"
 SLOT="0"
