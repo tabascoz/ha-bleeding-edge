@@ -6,6 +6,7 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 
 DISTUTILS_USE_PEP517=hatchling
+PYPI_PN="pylitterbot"
 inherit distutils-r1 pypi
 
 DESCRIPTION="Python package for controlling Whisker automatic robots."
@@ -32,7 +33,6 @@ BDEPEND="
 		dev-python/pytest-timeout[${PYTHON_USEDEP}]
 	)"
 
-PYPI_PN="pylitterbot"
 
 src_prepare() {
 	# remove unsupported dynamic-versioning plugin
