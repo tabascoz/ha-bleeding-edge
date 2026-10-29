@@ -5,4 +5,8 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
 </maintainer>
+  <use>
+    <flag name="image">Pull dev-python/pillow-8.4 for image support</flag>
+    <flag name="video">Pull dev-python/pillow-8.4, dev-python/ffpyplayer-4.3.5, dev-python/yt-dlp-2024.1.1 for video support</flag>
+  </use>
 </pkgmetadata>
