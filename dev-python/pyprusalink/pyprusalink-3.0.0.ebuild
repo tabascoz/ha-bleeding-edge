@@ -5,6 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="pyprusalink"
 inherit distutils-r1 pypi
 
 DESCRIPTION="Library to interact with PrusaLink v2"
@@ -18,7 +19,6 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-PYPI_PN="pyprusalink"
 
 RDEPEND="dev-python/httpx[${PYTHON_USEDEP}]"
 
