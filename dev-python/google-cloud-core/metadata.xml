@@ -5,4 +5,8 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
 </maintainer>
+  <use>
+    <flag name="grpc">Optional dependency group grpc declared by google_cloud_core-2.8.0</flag>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
 </pkgmetadata>
