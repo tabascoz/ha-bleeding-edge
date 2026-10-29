@@ -5,6 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( pypy3_11 python3_{11..14} )
 DISTUTILS_USE_PEP517=poetry
+PYPI_PN="pyopenweathermap"
 inherit distutils-r1 pypi
 
 DESCRIPTION="lib for OpenWeatherMap for Home Assistant"
@@ -25,6 +26,5 @@ BDEPEND="
 	)
 "
 
-PYPI_PN="pyopenweathermap"
 
 distutils_enable_tests pytest
