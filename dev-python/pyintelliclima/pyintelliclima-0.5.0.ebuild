@@ -5,6 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=hatchling
+PYPI_PN="pyintelliclima"
 inherit pypi distutils-r1
 
 DESCRIPTION="Python module for a HTTP API to communicate with the IntelliClima device server"
@@ -28,4 +29,3 @@ BDEPEND="
 	)
 "
 distutils_enable_tests pytest
-PYPI_PN="pyintelliclima"
