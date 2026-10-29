@@ -5,4 +5,7 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
 </maintainer>
+  <use>
+    <flag name="kerberos">Pull dev-python/cython-3.2.1, dev-python/cython-4 for kerberos support</flag>
+  </use>
 </pkgmetadata>
