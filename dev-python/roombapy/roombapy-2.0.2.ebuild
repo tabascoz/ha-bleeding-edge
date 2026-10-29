@@ -1,0 +1,35 @@
+# Copyright 1999-2026 Gentoo Authors
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=8
+
+PYTHON_COMPAT=( python3_{12..14} )
+
+DISTUTILS_USE_PEP517=uv-build
+inherit distutils-r1 pypi
+
+DESCRIPTION="Python program and library to control Wi-Fi enabled iRobot Roombas"
+HOMEPAGE="https://github.com/pschmitt/roombapy https://pypi.org/project/roombapy/"
+
+LICENSE="MIT"
+SLOT="0"
+KEYWORDS="~amd64 ~arm64"
+IUSE="test"
+RESTRICT="!test? ( test )"
+
+DOCS="README.md"
+
+RDEPEND="
+	>=dev-python/orjson-3.9.13[${PYTHON_USEDEP}]
+	>=dev-python/aiomqtt-2.5[${PYTHON_USEDEP}]
+	<dev-python/aiomqtt-3.0[${PYTHON_USEDEP}]
+	>=dev-python/mashumaro-3.12[${PYTHON_USEDEP}]
+	<dev-python/mashumaro-4.0[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.12.0[${PYTHON_USEDEP}]
+"
+BDEPEND="
+	test? (
+		dev-python/pytest-asyncio[${PYTHON_USEDEP}]
+	)"
+
+distutils_enable_tests pytest
