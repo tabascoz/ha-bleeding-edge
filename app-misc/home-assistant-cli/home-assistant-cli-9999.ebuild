@@ -15,6 +15,11 @@ inherit distutils-r1
 if [[ ${PV} == *9999* ]]; then
 	inherit git-r3
 	EGIT_REPO_URI="https://github.com/home-assistant/home-assistant-cli.git"
+	# unstable keywords on the LIVE branch: a live efile with no keywords at all is masked by
+	# `missing keyword`, so even `emerge -p '=pkg-9999'` cannot select it (measured: 8 of the 9
+	# live efiles here were unusable). Unstable keywords make it installable when someone asks
+	# for it, and never picked up automatically - stable ones would also be wrong (step 10's rule).
+	KEYWORDS="~amd64 ~arm64"
 else
 	SRC_URI="https://github.com/home-assistant/${PN}/archive/${PV}.tar.gz -> ${P}.gh.tar.gz"
 	# keywords belong to the released branch only: a stable KEYWORDS reachable while the
