@@ -9,4 +9,7 @@
     <remote-id type="pypi">influxdb-client</remote-id>
     <remote-id type="github">influxdata/influxdb-client-python</remote-id>
   </upstream>
+  <use>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
 </pkgmetadata>
