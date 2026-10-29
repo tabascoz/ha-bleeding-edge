@@ -5,6 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{11..14} )
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="pylitejet"
 inherit distutils-r1 pypi
 
 DESCRIPTION="A library for controlling a LiteJet lighting system."
@@ -20,6 +21,5 @@ DOCS="README.md"
 
 RDEPEND="dev-python/pyserial[${PYTHON_USEDEP}]"
 
-PYPI_PN="pylitejet"
 
 distutils_enable_tests pytest
