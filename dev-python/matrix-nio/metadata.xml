@@ -9,4 +9,8 @@
     <remote-id type="pypi">matrix-nio</remote-id>
     <remote-id type="github">matrix-nio/matrix-nio</remote-id>
   </upstream>
+  <use>
+    <flag name="e2e">Optional dependency group e2e declared by matrix_nio-0.26.0</flag>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
 </pkgmetadata>
