@@ -47,6 +47,7 @@ DOCS=( {CHANGELOG,MIGRATION_GUIDE,README}.md )
 export DJANGO_SETTINGS_MODULE='tests.integrations.django.myapp.settings'
 
 EPYTEST_PLUGINS=( pytest-{asyncio,forked,localserver} )
+EPYTEST_IGNORE=( tests/{integrations,test_shadowed_module.py} )
 distutils_enable_tests pytest
 
 EPYTEST_DESELECT=(
@@ -58,7 +59,6 @@ EPYTEST_DESELECT=(
 	tests/test_utils.py::test_datetime_from_isoformat_with_py_36_or_lower
 	tests/test_utils.py::test_default_release
 )
-EPYTEST_IGNORE=( tests/{integrations,test_shadowed_module.py} )
 
 src_prepare() {
 	default
