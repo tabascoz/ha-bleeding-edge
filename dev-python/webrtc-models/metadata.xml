@@ -9,4 +9,7 @@
     <remote-id type="pypi">webrtc-models</remote-id>
     <remote-id type="github">home-assistant-libs/python-webrtc-models</remote-id>
   </upstream>
+  <use>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
 </pkgmetadata>
