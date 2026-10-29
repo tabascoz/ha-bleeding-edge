@@ -13,10 +13,18 @@ HOMEPAGE="https://pypi.org/project/lorawan-connection/"
 LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="~amd64 ~arm64"
-IUSE="test"
+IUSE="chirpstack test tts"
 RESTRICT="!test? ( test )"
 
-RDEPEND=""
+# PEP 508 extras this wheel declares (its METADATA's Provides-Extra), modelled here as
+# flags so a consumer that asks for lorawan-connection[chirpstack,tts] gets the groups'
+# own requirements. Bounds copied verbatim from that METADATA.
+RDEPEND="
+	chirpstack? ( >=dev-python/chirpstack-api-4.19.0[${PYTHON_USEDEP}] )
+	tts? ( >=dev-python/grpcio-1.76[${PYTHON_USEDEP}] <dev-python/grpcio-2.0[${PYTHON_USEDEP}] )
+	tts? ( >=dev-python/protobuf-6.31[${PYTHON_USEDEP}] <dev-python/protobuf-8.0[${PYTHON_USEDEP}] )
+
+"
 BDEPEND="
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]
