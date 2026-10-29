@@ -5,6 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=poetry
+PYPI_PN="pyspcwebgw"
 inherit distutils-r1 pypi
 
 DESCRIPTION="A Python library for communicating with SPC Web Gateway."
@@ -25,6 +26,5 @@ BDEPEND="
 	)
 "
 
-PYPI_PN="pyspcwebgw"
 
 distutils_enable_tests pytest
