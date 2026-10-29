@@ -5,4 +5,7 @@
 		<remote-id type="github">rec/editor</remote-id>
 		<remote-id type="pypi">editor</remote-id>
 	</upstream>
+  <use>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
 </pkgmetadata>
