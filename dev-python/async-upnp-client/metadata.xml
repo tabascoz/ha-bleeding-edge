@@ -9,4 +9,7 @@
     <remote-id type="pypi">async-upnp-client</remote-id>
     <remote-id type="github">StevenLooman/async_upnp_client</remote-id>
   </upstream>
+  <use>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
 </pkgmetadata>
