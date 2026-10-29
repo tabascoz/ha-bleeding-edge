@@ -5,11 +5,11 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="ProgettiHWSW"
 inherit pypi distutils-r1
 
 DESCRIPTION="Controls ProgettiHWSW relay boards."
 HOMEPAGE="https://github.com/ardaseremet/progettihwsw https://pypi.org/project/ProgettiHWSW/"
-PYPI_PN="ProgettiHWSW"
 
 LICENSE="MIT"
 SLOT="0"
