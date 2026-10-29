@@ -4,6 +4,7 @@
 EAPI=8
 DISTUTILS_USE_PEP517=setuptools
 PYTHON_COMPAT=( python3_{12..14} )
+PYPI_PN="python-otbr-api"
 inherit pypi distutils-r1
 
 DESCRIPTION="API to interact with an OTBR via its REST API"
@@ -17,7 +18,6 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-PYPI_PN="python-otbr-api"
 
 RDEPEND="
 	dev-python/aiohttp[${PYTHON_USEDEP}]
