@@ -9,4 +9,7 @@
     <remote-id type="pypi">starlink-grpc-core</remote-id>
     <remote-id type="github">sparky8512/starlink-grpc-tools</remote-id>
   </upstream>
+  <use>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
 </pkgmetadata>
