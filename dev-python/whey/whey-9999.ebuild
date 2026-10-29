@@ -14,8 +14,16 @@ EGIT_REPO_URI="https://github.com/repo-helper/${PN}.git"
 
 LICENSE="MIT"
 SLOT="0"
-# unstable keywords only: a live efile must be selectable when asked for, and never installed automatically
-KEYWORDS="~amd64 ~arm64"
+# keywords are deliberately EMPTY on this live (9999) branch: a moving upstream snapshot
+# must not be reachable by keyword, or portage could install whatever the tree holds that
+# day and drag it into another package's dependency set. An explicit request still works
+# (`emerge -pU '=pkg-9999'` answers a row against what is installed - measured 2026-10-29
+# on whey-9999 and esphome-9999), which is what a person asks for; leaving KEYWORDS unset
+# instead masks the package (`masked by: missing keyword`) and nobody can use it, so this
+# line is written rather than omitted. Stable keywords here would be worse than wrong, and
+# the gentoo master uses this same `KEYWORDS=""` form in 40 of its live efiles (step 10's
+# rule). The released branch below keeps its own keywords.
+KEYWORDS=""
 
 RDEPEND="dev-python/attrs[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
