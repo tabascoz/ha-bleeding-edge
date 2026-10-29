@@ -9,4 +9,7 @@
     <remote-id type="pypi">go2rtc-client</remote-id>
     <remote-id type="github">home-assistant-libs/python-go2rtc-client</remote-id>
   </upstream>
+  <use>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
 </pkgmetadata>
