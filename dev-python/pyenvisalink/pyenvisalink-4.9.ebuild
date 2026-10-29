@@ -5,6 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="pyenvisalink"
 inherit distutils-r1 pypi
 
 DESCRIPTION="A python3 library for running asynchronous communications with envisalink alarm control panel modules."
@@ -20,6 +21,5 @@ DOCS="README.md"
 
 RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]"
 
-PYPI_PN="pyenvisalink"
 
 distutils_enable_tests pytest
