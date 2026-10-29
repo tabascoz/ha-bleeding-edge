@@ -11,7 +11,7 @@ inherit pypi distutils-r1
 DESCRIPTION="Python package to interact with the Watergate Local API"
 HOMEPAGE="https://github.com/watergate-ai/watergate-local-api-python"
 
-LICENSE="All-rights-reserved"
+LICENSE="all-rights-reserved"
 SLOT="0"
 KEYWORDS="~amd64 ~arm64"
 IUSE="test"
