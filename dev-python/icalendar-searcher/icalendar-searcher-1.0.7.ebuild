@@ -11,7 +11,7 @@ inherit pypi distutils-r1
 DESCRIPTION="Search, filter and sort iCalendar components"
 HOMEPAGE="https://pypi.org/project/icalendar-searcher/"
 
-LICENSE="AGPL-3.0-or-later"
+LICENSE="AGPL-3+"
 SLOT="0"
 KEYWORDS="~amd64 ~arm64"
 IUSE="test"
