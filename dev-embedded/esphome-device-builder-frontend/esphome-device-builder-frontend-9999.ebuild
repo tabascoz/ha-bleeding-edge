@@ -64,17 +64,17 @@ src_compile() {
 
 src_install() {
     insinto /usr/share/${PN}
-    doins -r build-scripts/ 
+    doins -r build-scripts/
     doins -r esphome_device_builder_frontend/
     doins -r node_modules/
     doins -r public/
     doins -r src/
     doins -r package.json
     dosym ../share/${PN} /usr/lib/node_modules/${PN}
-                                                                                                                                                                                                                 
-    if use systemd; then                                                                                                                                                                                           
-        systemd_dounit "${FILESDIR}/${PN}.service"                                                                                                                                                                 
-    fi  
+
+    if use systemd; then
+        systemd_dounit "${FILESDIR}/${PN}.service"
+    fi
 }
 pkg_postinst() {
     chown -R esphome:esphome /usr/share/${PN} || die
