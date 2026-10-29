@@ -13,4 +13,7 @@
       <email>hi@stavros.io</email>
     </maintainer>
   </upstream>
+  <use>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
 </pkgmetadata>
