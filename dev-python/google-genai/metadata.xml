@@ -9,4 +9,14 @@
     <remote-id type="pypi">google-genai</remote-id>
     <remote-id type="github">googleapis/python-genai</remote-id>
   </upstream>
+  <use>
+    <flag name="aiohttp">Optional dependency group aiohttp declared by google_genai-2.25.0</flag>
+    <flag name="local-tokenizer">Optional dependency group local-tokenizer declared by google_genai-2.25.0</flag>
+    <flag name="png">Pull the dependencies the png integration of Home Assistant needs</flag>
+    <flag name="pyopenssl">Optional dependency group pyopenssl declared by google_genai-2.25.0</flag>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+    <flag name="torch">Pull the dependencies the torch integration of Home Assistant needs</flag>
+    <flag name="torchvision">Pull the dependencies the torchvision integration of Home Assistant needs</flag>
+    <flag name="transformers">Pull the dependencies the transformers integration of Home Assistant needs</flag>
+  </use>
 </pkgmetadata>
