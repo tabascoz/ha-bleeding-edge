@@ -6,10 +6,10 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 PYPI_NO_NORMALIZE=1
+PYPI_PN="PyTransportNSW"
 inherit distutils-r1 pypi
 DESCRIPTION="Get transport information from TransportNSW"
 HOMEPAGE="https://github.com/Dav0815/TransportNSW https://pypi.org/project/PyTransportNSW/"
-PYPI_PN="PyTransportNSW"
 
 LICENSE="GPL-3"
 SLOT="0"
