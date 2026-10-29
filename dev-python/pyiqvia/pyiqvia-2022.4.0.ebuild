@@ -5,6 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=poetry
+PYPI_PN="pyiqvia"
 inherit distutils-r1 pypi
 
 DESCRIPTION="A clean, async-focused Python3 API for IQVIA data"
@@ -26,6 +27,5 @@ BDEPEND="
 		dev-python/pytest-aiohttp[${PYTHON_USEDEP}]
 	)"
 
-PYPI_PN="pyiqvia"
 
 distutils_enable_tests pytest
