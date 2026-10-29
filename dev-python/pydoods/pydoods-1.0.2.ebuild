@@ -5,6 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="pydoods"
 inherit distutils-r1 pypi
 
 DESCRIPTION="A Python wrapper for the DOODS image detection service"
@@ -16,7 +17,6 @@ KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
 RESTRICT="!test? ( test )"
 
-PYPI_PN="pydoods"
 
 RDEPEND="dev-python/requests[${PYTHON_USEDEP}]"
 
