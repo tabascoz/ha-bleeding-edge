@@ -6,11 +6,11 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="pyaprilaire"
 inherit distutils-r1 pypi
 
 DESCRIPTION="a library to interact with Aprilaire thermostats"
 HOMEPAGE="https://pypi.org/project/pyaprilaire/"
-PYPI_PN="pyaprilaire"
 
 LICENSE="MIT"
 SLOT="0"
