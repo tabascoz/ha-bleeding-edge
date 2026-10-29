@@ -9,4 +9,8 @@
     <remote-id type="pypi">aiovlc</remote-id>
     <remote-id type="github">MartinHjelmare/aiovlc</remote-id>
   </upstream>
+  <use>
+    <flag name="cli">Install Home Assistant CLI (hass-cli) for command-line interaction</flag>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
 </pkgmetadata>
