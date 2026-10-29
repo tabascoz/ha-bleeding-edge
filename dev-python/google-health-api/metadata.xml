@@ -5,4 +5,8 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
 </maintainer>
+  <use>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+    <flag name="webhook">Optional dependency group webhook declared by google_health_api-0.9.0</flag>
+  </use>
 </pkgmetadata>
