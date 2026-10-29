@@ -5,6 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="pykmtronic"
 inherit distutils-r1 pypi
 
 DESCRIPTION="Python library to interface with KM Tronic Web Relays"
@@ -21,6 +22,5 @@ DOCS="README.md"
 RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]"
 
-PYPI_PN="pykmtronic"
 
 distutils_enable_tests pytest
