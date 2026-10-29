@@ -5,6 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=hatchling
+PYPI_PN="pyweatherflowudp"
 inherit pypi distutils-r1
 
 DESCRIPTION="An event-based asynchronous library to read UDP packets from Weatherflow weather systems on a local network without any reliance on the cloud."
@@ -28,6 +29,5 @@ BDEPEND="
 	)
 "
 
-PYPI_PN="pyweatherflowudp"
 
 distutils_enable_tests pytest
