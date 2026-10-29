@@ -7,11 +7,11 @@ PYTHON_COMPAT=( python3_{12..14} )
 
 DISTUTILS_USE_PEP517=setuptools
 PYPI_NO_NORMALIZE=1
+PYPI_PN="microBeesPy"
 inherit distutils-r1 pypi
 
 DESCRIPTION="microBees Python Library"
 HOMEPAGE="https://github.com/microBeesTech/pythonSDK/ https://pypi.org/project/microBeesPy/"
-PYPI_PN="microBeesPy"
 
 LICENSE="MIT"
 SLOT="0"
