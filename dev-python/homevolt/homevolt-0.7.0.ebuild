@@ -9,7 +9,7 @@ inherit pypi distutils-r1
 
 DESCRIPTION="Python library for Homevolt EMS devices"
 HOMEPAGE="https://pypi.org/project/${PN}/"
-LICENSE="GPL-3.0"
+LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="~amd64 ~arm64"
 
