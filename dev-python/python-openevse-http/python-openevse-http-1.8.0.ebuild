@@ -6,6 +6,7 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="python-openevse-http"
 inherit pypi distutils-r1
 
 DESCRIPTION="Python wrapper for OpenEVSE HTTP API"
@@ -27,6 +28,5 @@ BDEPEND="
 	)
 "
 
-PYPI_PN="python-openevse-http"
 
 distutils_enable_tests pytest
