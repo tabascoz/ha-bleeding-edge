@@ -79,7 +79,7 @@ src_install() {
     fowners esphome:esphome /var/lib/esphome
     fperms 0750 /var/lib/esphome
 
-    if use systemd; then                                                                                                                                                                                           
-        systemd_dounit "${FILESDIR}/${PN}.service"                                                                                                                                                                 
-    fi  
+    if use systemd; then
+        systemd_dounit "${FILESDIR}/${PN}.service"
+    fi
 }
