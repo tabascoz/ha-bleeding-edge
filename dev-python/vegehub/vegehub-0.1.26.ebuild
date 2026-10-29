@@ -11,7 +11,7 @@ inherit pypi distutils-r1
 DESCRIPTION="A basic package for simplifying interactions with the Vegetronix VegeHub"
 HOMEPAGE="https://pypi.org/project/${PN}/"
 
-LICENSE="GPL-3.0-or-later"
+LICENSE="GPL-3+"
 SLOT="0"
 KEYWORDS="~amd64 ~arm64"
 IUSE="test"
