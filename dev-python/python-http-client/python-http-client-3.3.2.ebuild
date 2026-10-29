@@ -5,6 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="python-http-client"
 inherit distutils-r1 pypi
 
 DESCRIPTION="HTTP REST client, simplified for Python"
@@ -25,6 +26,5 @@ BDEPEND="
 	)
 "
 
-PYPI_PN="python-http-client"
 
 distutils_enable_tests pytest
