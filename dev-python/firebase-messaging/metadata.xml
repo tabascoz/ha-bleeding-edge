@@ -9,4 +9,7 @@
     <remote-id type="pypi">firebase-messaging</remote-id>
     <remote-id type="github">sdb9696/firebase-messaging</remote-id>
   </upstream>
+  <use>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
 </pkgmetadata>
