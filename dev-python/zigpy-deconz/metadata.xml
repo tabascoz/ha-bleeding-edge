@@ -9,4 +9,7 @@
     <remote-id type="pypi">zigpy-deconz</remote-id>
     <remote-id type="github">zigpy/zigpy-deconz</remote-id>
   </upstream>
+  <use>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
 </pkgmetadata>
