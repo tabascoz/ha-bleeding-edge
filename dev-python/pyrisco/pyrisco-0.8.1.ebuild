@@ -6,6 +6,7 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="pyrisco"
 inherit distutils-r1 pypi
 
 DESCRIPTION="A python library to communicate with Risco Cloud."
@@ -19,7 +20,6 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-PYPI_PN="pyrisco"
 
 RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]"
 
