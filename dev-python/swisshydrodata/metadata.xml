@@ -9,4 +9,7 @@
     <remote-id type="pypi">swisshydrodata</remote-id>
     <remote-id type="github">Bouni/swisshydrodata</remote-id>
   </upstream>
+  <use>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
 </pkgmetadata>
