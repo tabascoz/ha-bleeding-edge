@@ -13,4 +13,8 @@
       <email>nick@koston.org</email>
     </maintainer>
   </upstream>
+  <use>
+    <flag name="docs">Optional dependency group docs declared by led_ble-1.1.11</flag>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
 </pkgmetadata>
