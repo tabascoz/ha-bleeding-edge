@@ -4,6 +4,7 @@
 EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=poetry
+PYPI_PN="pyvera"
 inherit distutils-r1 pypi
 
 DESCRIPTION="Python API for talking to Veracontrollers"
@@ -19,6 +20,5 @@ DOCS="README.md"
 
 RDEPEND=">=dev-python/requests-2.22.0[${PYTHON_USEDEP}]"
 
-PYPI_PN="pyvera"
 
 distutils_enable_tests pytest
