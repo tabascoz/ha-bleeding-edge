@@ -6,6 +6,7 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="pyheos"
 inherit distutils-r1 pypi
 
 DESCRIPTION="An async python library for controlling HEOS devices through the HEOS CLI Protocol"
@@ -19,6 +20,5 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-PYPI_PN="pyheos"
 
 distutils_enable_tests pytest
