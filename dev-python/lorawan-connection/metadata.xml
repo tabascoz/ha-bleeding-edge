@@ -5,4 +5,9 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
 </maintainer>
+  <use>
+    <flag name="chirpstack">Pull dev-python/chirpstack-api-4.19.0 for chirpstack support</flag>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+    <flag name="tts">Pull dev-python/grpcio-1.76, dev-python/grpcio-2.0 for tts support</flag>
+  </use>
 </pkgmetadata>
