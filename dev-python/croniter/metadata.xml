@@ -9,4 +9,7 @@
     <remote-id type="pypi">croniter</remote-id>
     <remote-id type="github">pallets-eco/croniter</remote-id>
   </upstream>
+  <use>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
 </pkgmetadata>
