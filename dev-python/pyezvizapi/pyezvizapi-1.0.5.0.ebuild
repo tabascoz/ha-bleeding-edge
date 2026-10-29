@@ -5,6 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="pyezvizapi"
 inherit pypi distutils-r1
 
 DESCRIPTION="Pilot your Ezviz cameras"
@@ -26,4 +27,3 @@ BDEPEND="
 	>=dev-python/setuptools-68.0[${PYTHON_USEDEP}]
 "
 
-PYPI_PN="pyezvizapi"
