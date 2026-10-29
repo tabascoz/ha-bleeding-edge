@@ -5,11 +5,11 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="py-improv-ble-client"
 inherit distutils-r1 pypi
 
 DESCRIPTION="API to provision devices which implement Improv via BLE"
 HOMEPAGE="https://github.com/home-assistant-libs/py-improv-ble-client https://pypi.org/project/py-improv-ble-client/"
-PYPI_PN="py-improv-ble-client"
 
 LICENSE="MIT"
 SLOT="0"
