@@ -5,6 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( pypy3_11 python3_{11..14} )
 DISTUTILS_USE_PEP517=poetry
+PYPI_PN="hyperion-py"
 inherit distutils-r1 pypi
 
 DESCRIPTION="Hyperion Ambient Lighting Python Package"
@@ -27,7 +28,6 @@ BDEPEND="
 	)
 "
 
-PYPI_PN="hyperion-py"
 
 distutils_enable_tests pytest
 
