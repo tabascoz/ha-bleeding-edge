@@ -5,10 +5,10 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="PyMetEireann"
 inherit distutils-r1 pypi
 DESCRIPTION="A library to communicate with the Met Eireann Public Weather Forecast API"
 HOMEPAGE="https://github.com/DylanGore/PyMetEireann/ https://pypi.org/project/PyMetEireann/"
-PYPI_PN="PyMetEireann"
 
 LICENSE="MIT"
 SLOT="0"
