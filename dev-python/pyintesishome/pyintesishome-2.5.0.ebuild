@@ -5,6 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="pyintesishome"
 inherit distutils-r1 pypi
 
 DESCRIPTION="A python3 library for running asynchronous communications with IntesisHome Smart AC Controllers"
@@ -23,6 +24,5 @@ RDEPEND="
 	<dev-python/aiohttp-4[${PYTHON_USEDEP}]
 "
 
-PYPI_PN="pyintesishome"
 
 distutils_enable_tests pytest
