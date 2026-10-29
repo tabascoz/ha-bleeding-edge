@@ -5,6 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( pypy3_11 python3_{11..14} )
 DISTUTILS_USE_PEP517=poetry
+PYPI_PN="pytile"
 inherit distutils-r1 pypi
 
 DESCRIPTION="A simple Python API for Tile Bluetooth trackers"
@@ -27,6 +28,5 @@ BDEPEND="
 	)
 "
 
-PYPI_PN="pytile"
 
 distutils_enable_tests pytest
