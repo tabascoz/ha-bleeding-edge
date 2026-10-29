@@ -5,6 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=hatchling
+PYPI_PN="pysignalr"
 inherit pypi distutils-r1
 
 DESCRIPTION="Modern, reliable and async-ready Python client for Microsoft SignalR"
@@ -30,4 +31,3 @@ BDEPEND="
 	)
 "
 distutils_enable_tests pytest
-PYPI_PN="pysignalr"
