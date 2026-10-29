@@ -5,6 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=hatchling
+PYPI_PN="pylutron-caseta"
 inherit pypi distutils-r1
 
 DESCRIPTION="Provides an API to the Lutron Smartbridge"
@@ -19,7 +20,6 @@ RESTRICT="!test? ( test )"
 
 DOCS="CHANGELOG.md README.md"
 
-PYPI_PN="pylutron-caseta"
 S="${WORKDIR}/${PN}-${PV}"
 
 RDEPEND="
