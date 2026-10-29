@@ -13,4 +13,9 @@
       <email>jefflirion@users.noreply.github.com</email>
     </maintainer>
   </upstream>
+  <use>
+    <flag name="async">Optional dependency group async declared by adb_shell-0.4.4</flag>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+    <flag name="usb">Watch for USB devices and configure integrations</flag>
+  </use>
 </pkgmetadata>
