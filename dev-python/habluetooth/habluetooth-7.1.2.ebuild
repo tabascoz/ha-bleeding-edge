@@ -26,7 +26,7 @@ RDEPEND="
 	>=dev-python/bluetooth-auto-recovery-1.6.4[${PYTHON_USEDEP}]
 	>=dev-python/bluetooth-data-tools-1.29.24[${PYTHON_USEDEP}]
 	>=dev-python/btsocket-0.3.0[${PYTHON_USEDEP}]
-	>=dev-python/dbus-fast-5.0.22[${PYTHON_USEDEP}]
+	>=dev-python/dbus-fast-5.2.0[${PYTHON_USEDEP}]
 "
 BDEPEND="
 	dev-python/cython[${PYTHON_USEDEP}]
