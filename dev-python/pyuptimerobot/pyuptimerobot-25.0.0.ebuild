@@ -4,6 +4,7 @@
 EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=hatchling
+PYPI_PN="pyuptimerobot"
 inherit distutils-r1 pypi
 
 DESCRIPTION="Python API wrapper for Uptime Robot."
@@ -25,6 +26,5 @@ BDEPEND="
 		dev-python/pytest-asyncio[${PYTHON_USEDEP}]
 	)"
 
-PYPI_PN="pyuptimerobot"
 
 distutils_enable_tests pytest
