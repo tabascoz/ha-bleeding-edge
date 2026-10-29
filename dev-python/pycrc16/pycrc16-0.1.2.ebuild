@@ -5,6 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="pycrc16"
 inherit distutils-r1 pypi
 
 DESCRIPTION="Library for calculating CRC16"
@@ -24,6 +25,5 @@ BDEPEND="
 	)
 "
 
-PYPI_PN="pycrc16"
 
 distutils_enable_tests pytest
