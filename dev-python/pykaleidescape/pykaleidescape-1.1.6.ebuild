@@ -6,6 +6,7 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="pykaleidescape"
 inherit distutils-r1 pypi
 
 DESCRIPTION="A python client library for the Kaleidescape System Control Protocol."
@@ -22,6 +23,5 @@ DOCS="README.md"
 RDEPEND=">=dev-python/aiohttp-3.8.0[${PYTHON_USEDEP}] \
 	>=dev-python/dnspython-2.1.0[${PYTHON_USEDEP}]"
 
-PYPI_PN="pykaleidescape"
 
 distutils_enable_tests pytest

@@ -9,4 +9,7 @@
     <remote-id type="pypi">kaleidescape</remote-id>
     <remote-id type="github">kaleidescape/kaleidescape</remote-id>
   </upstream>
+  <use>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
 </pkgmetadata>
