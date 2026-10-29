@@ -6,6 +6,7 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 
 DISTUTILS_USE_PEP517=hatchling
+PYPI_PN="pypglab"
 inherit pypi distutils-r1
 
 DESCRIPTION="An asynchronous Python library to communicate with PG LAB Electronics devices over MQTT"
@@ -28,6 +29,5 @@ BDEPEND="
 	)
 "
 
-PYPI_PN="pypglab"
 
 distutils_enable_tests pytest
