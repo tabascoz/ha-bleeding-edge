@@ -5,13 +5,13 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="pybbox"
 inherit distutils-r1 pypi
 
 
 MY_PV=${PV/_alpha0/-alpha}
 DESCRIPTION="a simple python3 library for the Bouygues BBox Routeur API"
 HOMEPAGE="https://github.com/HydrelioxGitHub/pybbox https://pypi.org/project/pybbox/"
-PYPI_PN="pybbox"
 SRC_URI="$(pypi_sdist_url "${PN}" "${MY_PV}" ".zip")"
 S="${WORKDIR}/${PN}-${MY_PV}"
 
