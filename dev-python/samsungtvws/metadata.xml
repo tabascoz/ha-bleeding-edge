@@ -12,4 +12,9 @@
       <name>Xchwarze</name>
     </maintainer>
   </upstream>
+  <use>
+    <flag name="async">Optional dependency group async declared by samsungtvws-3.0.6</flag>
+    <flag name="encrypted">Optional dependency group encrypted declared by samsungtvws-3.0.6</flag>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
 </pkgmetadata>
