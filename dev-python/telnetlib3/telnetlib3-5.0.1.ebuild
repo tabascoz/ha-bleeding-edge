@@ -5,13 +5,13 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=hatchling
+PYPI_PN="telnetlib3"
 inherit pypi distutils-r1
 
-PYPI_PN="telnetlib3"
 
 DESCRIPTION="Python Telnet server and client CLI and Protocol library"
 HOMEPAGE="https://pypi.org/project/telnetlib3/ https://github.com/jquast/telnetlib3"
-LICENSE="BSD-3-Clause"
+LICENSE="BSD"
 SLOT="0"
 KEYWORDS="~amd64 ~arm64"
 

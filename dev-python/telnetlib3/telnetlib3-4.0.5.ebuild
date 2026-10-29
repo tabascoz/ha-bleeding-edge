@@ -6,13 +6,13 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=hatchling
 
+PYPI_PN="telnetlib3"
 inherit distutils-r1 pypi
 
-PYPI_PN="telnetlib3"
 
 DESCRIPTION="Telnet and SSH servers implementing RFC 854 and RFC 6144"
 HOMEPAGE="https://pypi.org/project/telnetlib3/ https://github.com/jquast/telnetlib3"
-LICENSE="BSD-3-Clause"
+LICENSE="BSD"
 SLOT="0"
 KEYWORDS="~amd64 ~arm64 ~x86"
 
