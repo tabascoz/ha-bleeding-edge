@@ -20,7 +20,10 @@ EGIT_REPO_URI="https://github.com/home-assistant/home-assistant-cli.git"
 
 LICENSE="Apache-2.0"
 SLOT="0"
-KEYWORDS="amd64 arm arm64 x86"
+# unstabled, as every other python package in this tree is: pkgcheck reports
+# NonsolvableDepsInStable for the stable arches this file used to claim (arm, x86, and
+# amd64 at that), because its own dependencies do not resolve on those stable profiles.
+KEYWORDS="~amd64 ~arm64"
 IUSE="test"
 RESTRICT="!test? ( test )"
 

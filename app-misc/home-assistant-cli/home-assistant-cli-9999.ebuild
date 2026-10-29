@@ -12,15 +12,18 @@ if [[ ${PV} == *9999* ]]; then
 	EGIT_REPO_URI="https://github.com/home-assistant/home-assistant-cli.git"
 else
 	SRC_URI="https://github.com/home-assistant/${PN}/archive/${PV}.tar.gz -> ${P}.gh.tar.gz"
+	# keywords belong to the released branch only: a stable KEYWORDS reachable while the
+	# package is live lets portage treat a moving upstream tree as installable by default
+	# (measured: this assignment used to sit outside the conditional, at column 1).
+	# A live efile carries none: nothing may be pulled from a tree we cannot pin.
+	KEYWORDS="~amd64 ~arm64"
 fi
 
 DESCRIPTION="The Home Assistant Command-line Interface (hass-cli)"
 HOMEPAGE="https://github.com/home-assistant/home-assistant-cli/"
-EGIT_REPO_URI="https://github.com/home-assistant/home-assistant-cli.git"
 
 LICENSE="Apache-2.0"
 SLOT="0"
-KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
 RESTRICT="!test? ( test )"
 
