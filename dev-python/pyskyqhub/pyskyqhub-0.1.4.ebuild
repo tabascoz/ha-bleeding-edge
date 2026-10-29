@@ -5,6 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="pyskyqhub"
 inherit distutils-r1 pypi
 
 DESCRIPTION="Library for Sky Q hub"
@@ -25,6 +26,5 @@ BDEPEND="
 	)
 "
 
-PYPI_PN="pyskyqhub"
 
 distutils_enable_tests pytest
