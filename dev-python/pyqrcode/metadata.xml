@@ -13,4 +13,8 @@
       <email>info@lincolnloop.com</email>
     </maintainer>
   </upstream>
+  <use>
+    <flag name="png">Optional dependency group png declared by pyqrcode-1.2.1</flag>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
 </pkgmetadata>

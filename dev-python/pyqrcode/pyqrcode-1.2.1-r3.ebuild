@@ -6,9 +6,9 @@ EAPI=8
 PYTHON_COMPAT=( pypy3_11 python3_{11..14} )
 DISTUTILS_USE_PEP517=setuptools
 
+PYPI_PN="PyQRCode"
 inherit distutils-r1
 
-PYPI_PN="PyQRCode"
 
 # upstream doesn't do tags
 EGIT_COMMIT="674a77b5eaf850d063f518bd90c243ee34ad6b5d"
