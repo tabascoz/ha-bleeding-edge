@@ -9,4 +9,8 @@
     <remote-id type="pypi">b2sdk</remote-id>
     <remote-id type="github">Backblaze/b2-sdk-python</remote-id>
   </upstream>
+  <use>
+    <flag name="full">Optional dependency group full declared by b2sdk-2.10.4; needs p, t, p, t</flag>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
 </pkgmetadata>
