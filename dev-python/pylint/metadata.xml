@@ -13,4 +13,7 @@
       <email>strawac1@gmail.com</email>
     </maintainer>
   </upstream>
+  <use>
+    <flag name="examples">Pull the dependencies the examples integration of Home Assistant needs</flag>
+  </use>
 </pkgmetadata>
