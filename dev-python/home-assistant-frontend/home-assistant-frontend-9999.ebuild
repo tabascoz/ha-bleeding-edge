@@ -15,6 +15,11 @@ if [[ ${PV} == *9999* ]]; then
 	EGIT_BRANCH="dev"
 	S="${WORKDIR}/${P}/"
 	PROPERTIES="live"
+	# unstable keywords on the LIVE branch: a live efile with no keywords at all is masked by
+	# `missing keyword`, so even `emerge -p '=pkg-9999'` cannot select it (measured: 8 of the 9
+	# live efiles here were unusable). Unstable keywords make it installable when someone asks
+	# for it, and never picked up automatically - stable ones would also be wrong (step 10's rule).
+	KEYWORDS="~amd64 ~arm64"
 else
 	MY_PV=${PV/_beta/b}
 	MY_P=${MY_PN}-${MY_PV}
