@@ -28,9 +28,9 @@ BDEPEND="dev-python/hatch-requirements-txt[${PYTHON_USEDEP}]
 		dev-python/faker[${PYTHON_USEDEP}]
 		dev-python/funcy[${PYTHON_USEDEP}] )"
 
+EPYTEST_IGNORE=( tests/test_paths_stdlib.py )
 distutils_enable_tests pytest
 
-EPYTEST_IGNORE=( tests/test_paths_stdlib.py )
 
 EPYTEST_DESELECT=(
 	# AssertionError
