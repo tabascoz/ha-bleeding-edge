@@ -3,6 +3,7 @@
 EAPI=8
 DISTUTILS_USE_PEP517=setuptools
 PYTHON_COMPAT=( python3_{12..14} )
+PYPI_PN="python-google-weather-api"
 inherit distutils-r1 pypi
 
 DESCRIPTION="A Python client library for Google Weather API"
@@ -26,7 +27,6 @@ RDEPEND="
 	>=dev-python/requests-2.25.1[${PYTHON_USEDEP}]
 "
 
-PYPI_PN="python-google-weather-api"
 
 distutils_enable_tests pytest
 python_compile() {
