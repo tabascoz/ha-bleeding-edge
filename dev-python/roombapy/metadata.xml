@@ -13,4 +13,8 @@
       <email>philipp@schmitt.co</email>
     </maintainer>
   </upstream>
+  <use>
+    <flag name="mqtt">MQTT broker and client support</flag>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
 </pkgmetadata>
