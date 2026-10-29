@@ -5,11 +5,11 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{11..14} )
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="py-canary"
 inherit distutils-r1 pypi
 
 DESCRIPTION="Python API for Canary Security Camera"
 HOMEPAGE="https://github.com/snjoetw/py-canary https://pypi.org/project/py-canary/"
-PYPI_PN="py-canary"
 
 LICENSE="MIT"
 SLOT="0"
