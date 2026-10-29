@@ -5,6 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="pyeverlights"
 inherit distutils-r1 pypi
 
 DESCRIPTION="A library for controlling an EverLights lighting system."
@@ -18,6 +19,5 @@ RESTRICT="!test? ( test )"
 
 RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]"
 
-PYPI_PN="pyeverlights"
 
 distutils_enable_tests pytest
