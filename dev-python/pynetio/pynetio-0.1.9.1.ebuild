@@ -5,6 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="pynetio"
 inherit distutils-r1 pypi
 
 DESCRIPTION="Binding library for Koukaam netio devices"
@@ -16,6 +17,5 @@ KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
 RESTRICT="!test? ( test )"
 
-PYPI_PN="pynetio"
 
 distutils_enable_tests pytest
