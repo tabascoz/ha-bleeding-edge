@@ -12,7 +12,7 @@ inherit pypi distutils-r1
 DESCRIPTION="MQTT API for Qbus Home Automation"
 HOMEPAGE="https://pypi.org/project/${PN}/"
 
-LICENSE="All-rights-reserved"
+LICENSE="all-rights-reserved"
 SLOT="0"
 KEYWORDS="~amd64 ~arm64"
 IUSE="test"
