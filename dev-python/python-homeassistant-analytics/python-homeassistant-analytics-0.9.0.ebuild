@@ -5,6 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{11..14} )
 DISTUTILS_USE_PEP517=poetry
+PYPI_PN="python-homeassistant-analytics"
 inherit distutils-r1 pypi
 
 DESCRIPTION="Asynchronous Python client for Homeassistant Analytics."
@@ -18,7 +19,6 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-PYPI_PN="python-homeassistant-analytics"
 
 RDEPEND=">=dev-python/aiohttp-3.0.0[${PYTHON_USEDEP}]
 	>=dev-python/yarl-1.6.0[${PYTHON_USEDEP}]
