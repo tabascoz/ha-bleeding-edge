@@ -5,4 +5,13 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
 </maintainer>
+  <use>
+    <flag name="aws-secrets-manager">Optional dependency group aws-secrets-manager declared by pydantic_settings-2.16.0; needs b</flag>
+    <flag name="aws-systems-manager">Optional dependency group aws-systems-manager declared by pydantic_settings-2.16.0; needs b</flag>
+    <flag name="azure-key-vault">Optional dependency group azure-key-vault declared by pydantic_settings-2.16.0; needs a, a</flag>
+    <flag name="gcp-secret-manager">Optional dependency group gcp-secret-manager declared by pydantic_settings-2.16.0; needs g</flag>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+    <flag name="toml">Pull dev-python/tomli-2.0.1 for the toml integration</flag>
+    <flag name="yaml">Pull dev-python/pyyaml-6.0.1 for the yaml integration</flag>
+  </use>
 </pkgmetadata>
