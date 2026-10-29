@@ -5,6 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( pypy3_11 python3_{11..14} )
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="pykodi"
 inherit distutils-r1 pypi
 
 DESCRIPTION="An async python interface for Kodi over JSON-RPC."
@@ -26,6 +27,5 @@ BDEPEND="
 		dev-python/pytest[${PYTHON_USEDEP}]
 	)"
 
-PYPI_PN="pykodi"
 
 distutils_enable_tests pytest
