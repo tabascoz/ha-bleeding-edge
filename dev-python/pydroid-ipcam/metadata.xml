@@ -9,4 +9,7 @@
     <remote-id type="pypi">droid-ipcam</remote-id>
     <remote-id type="github">droid-ipcam/droid-ipcam</remote-id>
   </upstream>
+  <use>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
 </pkgmetadata>

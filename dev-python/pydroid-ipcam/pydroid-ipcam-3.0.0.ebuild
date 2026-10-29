@@ -5,6 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( pypy3_11 python3_{11..14} )
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="pydroid-ipcam"
 inherit distutils-r1 pypi
 
 DESCRIPTION="Library for handling the Android IP Webcam app"
@@ -25,6 +26,5 @@ BDEPEND="
 	)
 "
 
-PYPI_PN="pydroid-ipcam"
 
 distutils_enable_tests pytest
