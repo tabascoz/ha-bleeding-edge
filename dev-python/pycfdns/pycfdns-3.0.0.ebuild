@@ -5,6 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=poetry
+PYPI_PN="pycfdns"
 inherit distutils-r1 pypi
 
 DESCRIPTION="Update Cloudflare DNS A-records."
@@ -19,7 +20,6 @@ RESTRICT="!test? ( test )"
 DOCS="README.md"
 
 RDEPEND=">=dev-python/aiohttp-3.8[${PYTHON_USEDEP}]"
-PYPI_PN="pycfdns"
 distutils_enable_tests pytest
 
 src_prepare() {
