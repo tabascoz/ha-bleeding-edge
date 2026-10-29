@@ -6,6 +6,7 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 
 DISTUTILS_USE_PEP517=poetry
+PYPI_PN="python-melcloud"
 inherit pypi distutils-r1
 
 DESCRIPTION="Asynchronous Python client for controlling Melcloud devices"
@@ -28,6 +29,5 @@ BDEPEND="
 	)
 "
 
-PYPI_PN="python-melcloud"
 
 distutils_enable_tests pytest
