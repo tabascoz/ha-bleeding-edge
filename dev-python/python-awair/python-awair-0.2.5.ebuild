@@ -4,6 +4,7 @@
 EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=poetry
+PYPI_PN="python-awair"
 inherit distutils-r1 pypi
 
 DESCRIPTION="asyncio client for the Awair GraphQL and Local APIs"
@@ -24,6 +25,5 @@ BDEPEND="
 		dev-python/pytest[${PYTHON_USEDEP}]
 	)"
 
-PYPI_PN="python-awair"
 
 distutils_enable_tests pytest
