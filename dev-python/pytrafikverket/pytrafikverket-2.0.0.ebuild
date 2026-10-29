@@ -6,9 +6,9 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 
 DISTUTILS_USE_PEP517=poetry
+PYPI_PN="pytrafikverket"
 inherit distutils-r1 pypi
 
-PYPI_PN="pytrafikverket"
 
 DESCRIPTION="Retrieve values from public API at the Swedish Transport Administration (Trafikverket)."
 HOMEPAGE="https://github.com/gjohansson-ST/pytrafikverket https://pypi.org/project/pytrafikverket/"
