@@ -5,11 +5,11 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="gTTS"
 inherit pypi distutils-r1
 
 DESCRIPTION="gTTS (Google Text-to-Speech), a Python library and CLI tool to interface with Google Translate text-to-speech API"
 HOMEPAGE="https://github.com/pndurette/gTTS https://pypi.org/project/gTTS/"
-PYPI_PN="gTTS"
 
 LICENSE="MIT"
 SLOT="0"
