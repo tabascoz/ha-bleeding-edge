@@ -5,6 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="pymediaroom"
 inherit distutils-r1 pypi
 
 DESCRIPTION="Remote control your Mediaroom Set-up-box"
@@ -21,6 +22,5 @@ DOCS="README.rst"
 RDEPEND="dev-python/async-timeout[${PYTHON_USEDEP}]
 	dev-python/xmltodict[${PYTHON_USEDEP}]"
 
-PYPI_PN="pymediaroom"
 
 distutils_enable_tests pytest
