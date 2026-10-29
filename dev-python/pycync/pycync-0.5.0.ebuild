@@ -6,12 +6,13 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 
 DISTUTILS_USE_PEP517=hatchling
+PYPI_PN="pycync"
 inherit pypi distutils-r1
 
 DESCRIPTION="A Python library to communicate with Cync devices."
 HOMEPAGE="https://pypi.org/project/${PN}/"
 
-LICENSE="GPL-3.0-or-later"
+LICENSE="GPL-3+"
 SLOT="0"
 KEYWORDS="~amd64 ~arm64"
 IUSE="test"
@@ -27,6 +28,5 @@ BDEPEND="
 	)
 "
 
-PYPI_PN="pycync"
 
 distutils_enable_tests pytest
