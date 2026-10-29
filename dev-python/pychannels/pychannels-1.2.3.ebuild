@@ -5,6 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="pychannels"
 inherit distutils-r1 pypi
 
 DESCRIPTION="API client for the Channels app - https://getchannels.com"
@@ -20,6 +21,5 @@ RESTRICT="!test? ( test )"
 
 RDEPEND=">=dev-python/requests-2.0[${PYTHON_USEDEP}]"
 
-PYPI_PN="pychannels"
 
 distutils_enable_tests pytest
