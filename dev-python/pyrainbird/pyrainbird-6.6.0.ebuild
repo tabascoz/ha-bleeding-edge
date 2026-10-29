@@ -6,6 +6,7 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="pyrainbird"
 inherit distutils-r1
 
 DESCRIPTION="Rain Bird Controller"
@@ -30,5 +31,4 @@ RDEPEND="
 	>=dev-python/aiohttp-3.13.5[${PYTHON_USEDEP}]
 "
 
-PYPI_PN="pyrainbird"
 distutils_enable_tests pytest
