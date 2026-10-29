@@ -9,4 +9,7 @@
     <remote-id type="pypi">ccm15</remote-id>
     <remote-id type="github">ccm15/ccm15</remote-id>
   </upstream>
+  <use>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
 </pkgmetadata>
