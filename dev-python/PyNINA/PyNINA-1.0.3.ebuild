@@ -5,9 +5,9 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="pynina"
 inherit distutils-r1 pypi
 
-PYPI_PN="pynina"
 
 DESCRIPTION="A Python API wrapper to retrieve warnings from the german NINA app."
 HOMEPAGE="https://gitlab.com/DeerMaximum/pynina https://pypi.org/project/PyNINA/"
