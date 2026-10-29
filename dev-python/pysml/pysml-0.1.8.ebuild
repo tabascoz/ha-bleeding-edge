@@ -5,6 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=poetry
+PYPI_PN="pysml"
 inherit distutils-r1 pypi
 
 DESCRIPTION="Python library for EDL21 smart meters using Smart Message Language (SML)"
@@ -27,7 +28,6 @@ BDEPEND="
 		dev-python/pytest[${PYTHON_USEDEP}]
 	)"
 
-PYPI_PN="pysml"
 
 src_prepare() {
 	# lots of top level vios:
