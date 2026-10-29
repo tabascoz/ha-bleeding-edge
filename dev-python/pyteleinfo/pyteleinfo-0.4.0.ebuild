@@ -6,6 +6,7 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 
 DISTUTILS_USE_PEP517=hatchling
+PYPI_PN="pyteleinfo"
 inherit distutils-r1 pypi
 
 DESCRIPTION="Python library for decoding and encoding ENEDIS teleinfo frames"
@@ -29,6 +30,5 @@ BDEPEND="
 	)
 "
 
-PYPI_PN="pyteleinfo"
 
 distutils_enable_tests pytest
