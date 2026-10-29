@@ -6,12 +6,12 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 
+PYPI_PN="pyHik"
 inherit distutils-r1
 
 DESCRIPTION="Provides a python api to interact with a Hikvision camera event stream and toggle motion detection."
 HOMEPAGE="https://github.com/mezz64/pyhik https://pypi.org/project/pyHik/"
 SRC_URI="https://github.com/mezz64/${PN}/archive/refs/tags/${PV}.tar.gz -> ${P}.gh.tar.gz"
-PYPI_PN="pyHik"
 
 LICENSE="MIT"
 SLOT="0"
