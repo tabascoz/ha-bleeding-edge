@@ -6,6 +6,7 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 
 DISTUTILS_USE_PEP517=poetry
+PYPI_PN="pynordpool"
 inherit pypi distutils-r1
 
 DESCRIPTION="Retrieve values from API at Nord Pool"
@@ -27,5 +28,4 @@ BDEPEND="
 	)
 "
 
-PYPI_PN="pynordpool"
 distutils_enable_tests pytest
