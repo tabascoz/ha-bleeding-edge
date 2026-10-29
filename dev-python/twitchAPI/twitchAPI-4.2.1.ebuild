@@ -5,6 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{11..14} )
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="twitchAPI"
 inherit distutils-r1 pypi
 
 DESCRIPTION="Twitch Helix API, its Webhook, PubSub and EventSub"
@@ -22,6 +23,5 @@ RDEPEND="dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/aiohttp[${PYTHON_USEDEP}]
 	dev-python/typing-extensions[${PYTHON_USEDEP}]"
 
-PYPI_PN="twitchAPI"
 
 distutils_enable_tests pytest
