@@ -4,11 +4,11 @@
 EAPI=8
 DISTUTILS_USE_PEP517=poetry
 PYTHON_COMPAT=( python3_{12..14} )
+PYPI_PN="pyairnow"
 inherit distutils-r1 pypi
 
 DESCRIPTION="A lightweight Python wrapper for EPA AirNow Air Quality API"
 HOMEPAGE="https://github.com/asymworks/pyairnow https://pypi.org/project/pyairnow/"
-PYPI_PN="pyairnow"
 
 LICENSE="MIT"
 SLOT="0"
