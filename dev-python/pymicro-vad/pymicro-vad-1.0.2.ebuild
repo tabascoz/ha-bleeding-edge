@@ -6,6 +6,7 @@ EAPI=8
 PYTHON_COMPAT=( python3_{11..14} )
 DISTUTILS_EXT=1
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="pymicro-vad"
 inherit distutils-r1 pypi
 
 DESCRIPTION="Self-contained voice activity detector"
@@ -20,7 +21,6 @@ RESTRICT="!test? ( test )"
 
 RDEPEND=">=dev-python/pybind11-2.13.6[${PYTHON_USEDEP}]"
 
-PYPI_PN="pymicro-vad"
 
 src_unpack() {
 	unpack ${A}
