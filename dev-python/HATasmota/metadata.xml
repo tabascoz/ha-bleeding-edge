@@ -9,4 +9,7 @@
     <remote-id type="pypi">HATasmota</remote-id>
     <remote-id type="github">emontnemery/hatasmota</remote-id>
   </upstream>
+  <use>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
 </pkgmetadata>
