@@ -5,6 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="pysoma"
 inherit distutils-r1 pypi
 
 DESCRIPTION="A simple package for controlling SOMA devices"
@@ -24,6 +25,5 @@ BDEPEND="
 	)
 "
 
-PYPI_PN="pysoma"
 
 distutils_enable_tests pytest
