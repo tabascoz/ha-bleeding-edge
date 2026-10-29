@@ -6,6 +6,7 @@ EAPI=8
 DISTUTILS_USE_PEP517=poetry
 PYTHON_COMPAT=( python3_{12..14} )
 
+PYPI_PN="pyseventeentrack"
 inherit distutils-r1 pypi
 
 DESCRIPTION="A Simple Python API for 17track.net"
@@ -19,5 +20,4 @@ RDEPEND=">=dev-python/aiohttp-3.9.5[${PYTHON_USEDEP}] \
 	>=dev-python/pytz-2021.1[${PYTHON_USEDEP}] \
 	>=dev-python/cryptography-45.0.3[${PYTHON_USEDEP}]"
 
-PYPI_PN="pyseventeentrack"
 distutils_enable_tests pytest
