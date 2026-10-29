@@ -6,13 +6,13 @@ EAPI=8
 DISTUTILS_USE_PEP517=setuptools
 PYTHON_COMPAT=( python3_{12..14} )
 
+PYPI_PN="python-decouple"
 inherit distutils-r1 pypi
 
 DESCRIPTION="Strict separation of settings from code"
 HOMEPAGE="https://github.com/HBNetwork/python-decouple https://pypi.org/project/python-decouple/"
 
 SRC_URI="$(pypi_wheel_url --unpack)"
-PYPI_PN="python-decouple"
 
 LICENSE="MIT"
 SLOT="0"
