@@ -9,4 +9,8 @@
     <remote-id type="pypi">mysensors</remote-id>
     <remote-id type="github">mysensors/pyMysensors</remote-id>
   </upstream>
+  <use>
+    <flag name="mqtt">MQTT broker and client support</flag>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
 </pkgmetadata>

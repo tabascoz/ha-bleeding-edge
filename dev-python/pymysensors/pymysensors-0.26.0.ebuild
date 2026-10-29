@@ -5,6 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( pypy3_11 python3_{11..14} )
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="pymysensors"
 inherit distutils-r1 pypi
 
 DESCRIPTION="Python API for talking to a MySensors gateway"
@@ -28,5 +29,4 @@ RDEPEND="dev-python/awesomeversion[${PYTHON_USEDEP}]
 	>=dev-python/voluptuous-0.11.1[${PYTHON_USEDEP}]
 	mqtt? ( dev-python/paho-mqtt[${PYTHON_USEDEP}] )"
 
-PYPI_PN="pymysensors"
 distutils_enable_tests pytest
