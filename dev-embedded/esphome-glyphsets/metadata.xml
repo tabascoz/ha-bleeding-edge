@@ -9,4 +9,7 @@
     <remote-id type="pypi">esphome-glyphsets</remote-id>
     <remote-id type="github">esphome/esphome-glyphsets</remote-id>
   </upstream>
+  <use>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
 </pkgmetadata>
