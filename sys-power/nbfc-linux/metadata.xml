@@ -11,4 +11,9 @@
       <name>NBFCLinux</name>
     </maintainer>
   </upstream>
+  <use>
+    <flag name="bash-completion">Pull the dependencies the bash-completion integration of Home Assistant needs</flag>
+    <flag name="fish-completion">Pull the dependencies the fish-completion integration of Home Assistant needs</flag>
+    <flag name="zsh-completion">Pull the dependencies the zsh-completion integration of Home Assistant needs</flag>
+  </use>
 </pkgmetadata>
