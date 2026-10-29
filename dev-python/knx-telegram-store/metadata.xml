@@ -5,4 +5,9 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
 </maintainer>
+  <use>
+    <flag name="postgres">Optional dependency group postgres declared by knx_telegram_store-0.15.2</flag>
+    <flag name="sqlite">Optional dependency group sqlite declared by knx_telegram_store-0.15.2</flag>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
 </pkgmetadata>
