@@ -9,4 +9,8 @@
     <remote-id type="pypi">meteo-lt-pkg</remote-id>
     <remote-id type="github">Brunas/meteo_lt-pkg</remote-id>
   </upstream>
+  <use>
+    <flag name="dev">Optional dependency group dev declared by meteo_lt_pkg-0.7.3</flag>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
 </pkgmetadata>
