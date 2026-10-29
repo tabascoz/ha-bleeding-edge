@@ -5,6 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="pyirishrail"
 inherit distutils-r1 pypi
 
 DESCRIPTION="Python library to get the real-time transport information (RTPI) from Irish Rail"
@@ -20,6 +21,5 @@ DOCS="README.md"
 
 RDEPEND="dev-python/requests[${PYTHON_USEDEP}]"
 
-PYPI_PN="pyirishrail"
 
 distutils_enable_tests pytest
