@@ -5,6 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="python-ecobee-api"
 inherit distutils-r1 pypi
 
 DESCRIPTION="Python API for talking to Ecobee thermostats"
@@ -20,6 +21,5 @@ DOCS="README.md"
 
 RDEPEND=">=dev-python/requests-2.25[${PYTHON_USEDEP}]"
 
-PYPI_PN="python-ecobee-api"
 
 distutils_enable_tests pytest
