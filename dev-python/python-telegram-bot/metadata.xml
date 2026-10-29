@@ -5,4 +5,16 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
   </maintainer>
+  <use>
+    <flag name="all">Optional dependency group all declared by python_telegram_bot-22.7; needs a, a, c, c</flag>
+    <flag name="callback-data">Optional dependency group callback-data declared by python_telegram_bot-22.7; needs c</flag>
+    <flag name="ext">Optional dependency group ext declared by python_telegram_bot-22.7; needs a, a, c, t</flag>
+    <flag name="http2">Pull dev-python/httpx-0.28.1 for the http2 integration</flag>
+    <flag name="job-queue">Optional dependency group job-queue declared by python_telegram_bot-22.7; needs a</flag>
+    <flag name="passport">Pull dev-python/cryptography-39.0.1, dev-python/cffi-1.17.0_rc1 for the passport integration</flag>
+    <flag name="rate-limiter">Optional dependency group rate-limiter declared by python_telegram_bot-22.7; needs a</flag>
+    <flag name="socks">Pull dev-python/httpx-0.28.1 for socks support</flag>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+    <flag name="webhooks">Pull dev-python/tornado-6.5.5 for the webhooks integration</flag>
+  </use>
 </pkgmetadata>
