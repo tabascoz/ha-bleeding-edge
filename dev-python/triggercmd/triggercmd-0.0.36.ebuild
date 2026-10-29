@@ -12,7 +12,7 @@ DESCRIPTION="Python agent for TRIGGERcmd cloud service."
 HOMEPAGE="https://github.com/rvmey/triggercmd-python-agent \
 	https://pypi.org/project/triggercmd/"
 
-LICENSE="GPL-3.0"
+LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
