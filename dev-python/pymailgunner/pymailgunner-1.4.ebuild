@@ -5,6 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="pymailgunner"
 inherit distutils-r1 pypi
 
 DESCRIPTION="A simple mailgun client - pymailgun fork with Python 3 support"
@@ -20,6 +21,5 @@ RESTRICT="!test? ( test )"
 
 RDEPEND=">=dev-python/requests-2.2.1[${PYTHON_USEDEP}]"
 
-PYPI_PN="pymailgunner"
 
 distutils_enable_tests pytest
