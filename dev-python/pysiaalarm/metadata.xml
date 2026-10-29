@@ -8,4 +8,8 @@
   <upstream>
     <remote-id type="pypi">siaalarm</remote-id>
   </upstream>
+  <use>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+    <flag name="typing">Optional dependency group typing declared by pysiaalarm-3.2.2</flag>
+  </use>
 </pkgmetadata>
