@@ -9,4 +9,7 @@
     <remote-id type="pypi">aioharmony</remote-id>
     <remote-id type="github">harmony-libs/aioharmony</remote-id>
   </upstream>
+  <use>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
 </pkgmetadata>
