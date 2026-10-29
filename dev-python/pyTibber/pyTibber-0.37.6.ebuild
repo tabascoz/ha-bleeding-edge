@@ -6,11 +6,11 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="pyTibber"
 inherit distutils-r1 pypi
 
 DESCRIPTION="A python3 library to communicate with Tibber"
 HOMEPAGE="https://github.com/Danielhiversen/pyTibber https://pypi.org/project/pyTibber/"
-PYPI_PN="pyTibber"
 
 LICENSE="MIT"
 SLOT="0"
