@@ -12,4 +12,7 @@
       <name>Johan H. van der Veen</name>
     </maintainer>
   </upstream>
+  <use>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
 </pkgmetadata>

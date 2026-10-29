@@ -6,6 +6,7 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="pyotgw"
 inherit distutils-r1 pypi
 
 DESCRIPTION="A library to interface with the opentherm gateway through serial or network connection."
@@ -21,6 +22,5 @@ DOCS="README.md"
 
 RDEPEND="dev-python/pyserial-asyncio-fast[${PYTHON_USEDEP}]"
 
-PYPI_PN="pyotgw"
 
 distutils_enable_tests pytest
