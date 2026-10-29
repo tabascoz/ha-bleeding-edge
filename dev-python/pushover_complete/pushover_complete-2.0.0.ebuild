@@ -5,11 +5,11 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{11..14} )
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="pushover-complete"
 inherit distutils-r1 pypi
 
 DESCRIPTION="A Python package for interacting with *all* aspects of the Pushover API"
 HOMEPAGE="https://github.com/scolby33/pushover_complete https://pypi.org/project/pushover_complete/"
-PYPI_PN="pushover-complete"
 
 LICENSE="MIT"
 SLOT="0"
