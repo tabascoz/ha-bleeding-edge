@@ -4,6 +4,7 @@
 EAPI=8
 PYTHON_COMPAT=( python3_{11..14} )
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="pywebpush"
 inherit distutils-r1 pypi
 
 DESCRIPTION="WebPush publication library"
@@ -21,5 +22,4 @@ RDEPEND=">=dev-python/cryptography-2.6.1[${PYTHON_USEDEP}] \
 	>=dev-python/http-ece-1.1.0[${PYTHON_USEDEP}] \
 	>=dev-python/py-vapid-1.7.0[${PYTHON_USEDEP}]"
 
-PYPI_PN="pywebpush"
 distutils_enable_tests pytest
