@@ -4,6 +4,7 @@
 EAPI=8
 PYTHON_COMPAT=( python3_{11..14} )
 DISTUTILS_USE_PEP517=poetry
+PYPI_PN="python-songpal"
 inherit distutils-r1 pypi
 
 DESCRIPTION="Python library for interfacing with Sony's Songpal devices"
@@ -22,5 +23,4 @@ RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]
 	dev-python/attrs[${PYTHON_USEDEP}]
 	dev-python/async-upnp-client[${PYTHON_USEDEP}]"
 
-PYPI_PN="python-songpal"
 distutils_enable_tests pytest
