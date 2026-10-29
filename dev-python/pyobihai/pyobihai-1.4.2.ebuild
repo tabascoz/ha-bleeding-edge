@@ -5,6 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
+PYPI_PN="pyobihai"
 inherit distutils-r1 pypi
 
 DESCRIPTION="A Python wrapper for Obihai"
@@ -23,7 +24,6 @@ RDEPEND="
 	dev-python/requests[${PYTHON_USEDEP}]
 "
 
-PYPI_PN="pyobihai"
 
 distutils_enable_tests pytest
 
