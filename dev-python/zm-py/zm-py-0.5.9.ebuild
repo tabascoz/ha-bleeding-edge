@@ -5,6 +5,7 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=poetry
+PYPI_PN="zm-py"
 inherit distutils-r1 pypi
 
 DESCRIPTION="A loose python wrapper around the ZoneMinder REST API."
@@ -31,5 +32,4 @@ BDEPEND="
 	)
 "
 
-PYPI_PN="zm-py"
 distutils_enable_tests pytest
