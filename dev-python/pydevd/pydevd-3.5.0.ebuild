@@ -7,9 +7,9 @@ DISTUTILS_EXT=1
 DISTUTILS_USE_PEP517=setuptools
 PYTHON_COMPAT=( python3_{11..14} )
 
+PYPI_PN="pydevd"
 inherit distutils-r1 toolchain-funcs
 
-PYPI_PN="pydevd"
 
 TAG="pydev_debugger_${PV//./_}"
 MY_P="PyDev.Debugger-${TAG}"
