@@ -9,4 +9,7 @@
     <remote-id type="pypi">todoist-api-python</remote-id>
     <remote-id type="github">Doist/todoist-api-python</remote-id>
   </upstream>
+  <use>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
 </pkgmetadata>
