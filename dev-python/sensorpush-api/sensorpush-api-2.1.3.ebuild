@@ -12,7 +12,7 @@ DESCRIPTION="SensorPush Public API"
 HOMEPAGE="https://pypi.org/project/sensorpush-api/"
 
 SRC_URI="$(pypi_sdist_url)"
-LICENSE="BSD-2-Clause"
+LICENSE="BSD-2"
 SLOT="0"
 KEYWORDS="~amd64 ~arm64"
 IUSE="test"
