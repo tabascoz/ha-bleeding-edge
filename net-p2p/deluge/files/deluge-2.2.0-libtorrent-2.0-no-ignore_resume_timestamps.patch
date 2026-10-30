@@ -1,0 +1,12 @@
+diff --git a/deluge/core/core.py b/deluge/core/core.py
+index 66392b6b4..bcb651461 100644
+--- a/deluge/core/core.py
++++ b/deluge/core/core.py
+@@ -118,7 +118,6 @@ def __init__(
+         settings_pack = {
+             'peer_fingerprint': peer_id,
+             'user_agent': user_agent,
+-            'ignore_resume_timestamps': True,
+         }
+         self.session = lt.session(settings_pack, flags=0)
+ 

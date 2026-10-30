@@ -1,0 +1,227 @@
+Support libtorrent 2.x without the removed/deprecated torrent file APIs: read the
+torrent metadata and file layout through the current accessors (torrent_info.layout()
+falling back to orig_files()/files()), apply file renames through the torrent handle
+while preserving mapped filenames, and keep get_files()/get_orig_files()/get_name()/
+get_file_progress() in sync with renamed and mapped names.
+
+Upstream: https://github.com/deluge-torrent/deluge/pull/532
+
+Upstream Gentoo only reacted to that PR by bounding the dependency
+(<net-libs/libtorrent-rasterbar-2.1); applying the code instead keeps the same
+source working with both the 1.2 and the 2.x python bindings, which is what this
+revision is for.
+diff --git a/deluge/core/torrent.py b/deluge/core/torrent.py
+index dbcf8f101c..ced6ec5e84 100644
+--- a/deluge/core/torrent.py
++++ b/deluge/core/torrent.py
+@@ -115,6 +115,15 @@ def convert_lt_files(files):
+     return filelist
+ 
+ 
++def _get_torrent_file_storage(torrent_info, original=True):
++    """Return torrent file metadata across supported libtorrent versions."""
++    if hasattr(torrent_info, 'layout'):
++        return torrent_info.layout()
++    if original:
++        return torrent_info.orig_files()
++    return torrent_info.files()
++
++
+ class TorrentOptions(dict):
+     """TorrentOptions create a dict of the torrent options.
+ 
+@@ -244,6 +253,10 @@ def __init__(self, handle, options, state=None, filename=None, magnet=None):
+ 
+         self.options = TorrentOptions()
+         self.options.update(options)
++        mapped_files = self.options['mapped_files'] or {}
++        self.options['mapped_files'] = {
++            int(index): path for index, path in mapped_files.items()
++        }
+ 
+         # Load values from state if we have it
+         if state:
+@@ -272,6 +285,8 @@ def __init__(self, handle, options, state=None, filename=None, magnet=None):
+ 
+         self._create_status_funcs()
+         self.set_options(self.options)
++        if self.has_metadata and self.options['mapped_files']:
++            self.rename_files(self.options['mapped_files'].items())
+         self.update_state()
+ 
+         if log.isEnabledFor(logging.DEBUG):
+@@ -292,7 +307,9 @@ def _set_handle_flags(self, flag: lt.torrent_flags, set_flag: bool):
+     def on_metadata_received(self):
+         """Process the metadata received alert for this torrent"""
+         self.has_metadata = True
+-        self.torrent_info = self.handle.get_torrent_info()
++        self.torrent_info = self.handle.torrent_file()
++        if self.options['mapped_files']:
++            self.rename_files(self.options['mapped_files'].items())
+         if self.options['prioritize_first_last_pieces']:
+             self.set_prioritize_first_last_pieces(True)
+         self.write_torrentfile()
+@@ -410,8 +427,9 @@ def set_prioritize_first_last_pieces(self, prioritize):
+         def get_file_piece(idx, byte_offset):
+             return self.torrent_info.map_file(idx, byte_offset, 0).piece
+ 
++        files = _get_torrent_file_storage(self.torrent_info)
+         for idx in range(self.torrent_info.num_files()):
+-            file_size = self.torrent_info.files().file_size(idx)
++            file_size = files.file_size(idx)
+             two_percent_bytes = int(0.02 * file_size)
+             # Get the pieces for the byte offsets
+             first_start = get_file_piece(idx, 0)
+@@ -787,8 +805,19 @@ def get_files(self):
+         if not self.has_metadata:
+             return []
+ 
+-        files = self.torrent_info.files()
+-        return convert_lt_files(files)
++        files = _get_torrent_file_storage(self.torrent_info, original=False)
++        filelist = convert_lt_files(files)
++        if hasattr(self.handle, 'get_renamed_files'):
++            renamed_files = self.handle.get_renamed_files()
++            for file_info in filelist:
++                file_info['path'] = decode_bytes(
++                    renamed_files.file_path(files, file_info['index'])
++                )
++        for file_info in filelist:
++            mapped_path = self.options['mapped_files'].get(file_info['index'])
++            if mapped_path is not None:
++                file_info['path'] = sanitize_filepath(decode_bytes(mapped_path))
++        return filelist
+ 
+     def get_orig_files(self):
+         """Get the original filenames of files in this torrent.
+@@ -800,7 +829,7 @@ def get_orig_files(self):
+         if not self.has_metadata:
+             return []
+ 
+-        files = self.torrent_info.orig_files()
++        files = _get_torrent_file_storage(self.torrent_info)
+         return convert_lt_files(files)
+ 
+     def get_peers(self):
+@@ -895,11 +924,15 @@ def get_file_progress(self):
+ 
+         try:
+             files_progresses = zip(
+-                self.handle.file_progress(), self.torrent_info.files()
++                self.handle.file_progress(),
++                _get_torrent_file_storage(self.torrent_info, original=False),
+             )
+         except Exception:
+             # Handle libtorrent >=2.0.0,<=2.0.4 file_progress error
+-            files_progresses = zip(iter(lambda: 0, 1), self.torrent_info.files())
++            files_progresses = zip(
++                iter(lambda: 0, 1),
++                _get_torrent_file_storage(self.torrent_info, original=False),
++            )
+ 
+         return [
+             progress / _file.size if _file.size else 0.0
+@@ -964,7 +997,7 @@ def get_name(self):
+ 
+         if self.has_metadata:
+             # Use the top-level folder as torrent name.
+-            filename = decode_bytes(self.torrent_info.files().file_path(0))
++            filename = self.get_files()[0]['path']
+             name = filename.replace('\\', '/', 1).split('/', 1)[0]
+         else:
+             name = decode_bytes(self.handle.status().name)
+@@ -1431,6 +1464,7 @@ def rename_files(self, filenames):
+             filenames (list): A list of (index, filename) pairs.
+         """
+         for index, filename in filenames:
++            index = int(index)
+             # Make sure filename is a sanitized unicode string.
+             filename = sanitize_filepath(decode_bytes(filename))
+             # lt needs utf8 byte-string. Otherwise if wstrings enabled, unicode string.
+diff --git a/deluge/core/torrentmanager.py b/deluge/core/torrentmanager.py
+index 1233553a8f..0b528ac4e6 100644
+--- a/deluge/core/torrentmanager.py
++++ b/deluge/core/torrentmanager.py
+@@ -33,7 +33,11 @@
+ )
+ from deluge.configmanager import ConfigManager, get_config_dir
+ from deluge.core.authmanager import AUTH_LEVEL_ADMIN
+-from deluge.core.torrent import Torrent, TorrentOptions, sanitize_filepath
++from deluge.core.torrent import (
++    Torrent,
++    TorrentOptions,
++    _get_torrent_file_storage,
++)
+ from deluge.decorators import maybe_coroutine
+ from deluge.error import AddTorrentError, InvalidTorrentError
+ from deluge.event import (
+@@ -426,9 +430,12 @@ def _build_torrent_params(
+             add_torrent_params['ti'] = torrent_info
+             name = torrent_info.name()
+             if not name:
+-                name = (
+-                    torrent_info.file_at(0).path.replace('\\', '/', 1).split('/', 1)[0]
++                name = decode_bytes(
++                    _get_torrent_file_storage(
++                        torrent_info, original=False
++                    ).file_path(0)
+                 )
++                name = name.replace('\\', '/', 1).split('/', 1)[0]
+             add_torrent_params['name'] = name
+             torrent_id = str(torrent_info.info_hash())
+         elif magnet:
+@@ -454,18 +461,6 @@ def _build_torrent_params(
+             # Cancel and remove metadata fetching torrent.
+             self.prefetching_metadata[torrent_id].alert_deferred.cancel()
+ 
+-        # Check for renamed files and if so, rename them in the torrent_info before adding.
+-        if options['mapped_files'] and torrent_info:
+-            for index, fname in options['mapped_files'].items():
+-                fname = sanitize_filepath(decode_bytes(fname))
+-                if log.isEnabledFor(logging.DEBUG):
+-                    log.debug('renaming file index %s to %s', index, fname)
+-                try:
+-                    torrent_info.rename_file(index, fname.encode('utf8'))
+-                except TypeError:
+-                    torrent_info.rename_file(index, fname)
+-            add_torrent_params['ti'] = torrent_info
+-
+         if log.isEnabledFor(logging.DEBUG):
+             log.debug('options: %s', options)
+ 
+@@ -1527,6 +1522,7 @@ def on_alert_file_renamed(self, alert):
+ 
+         new_name = decode_bytes(alert.new_name())
+         log.debug('index: %s name: %s', alert.index, new_name)
++        torrent.options['mapped_files'][alert.index] = new_name
+ 
+         # We need to see if this file index is in a waiting_on_folder dict
+         for wait_on_folder in torrent.waiting_on_folder_rename:
+@@ -1560,7 +1556,7 @@ def on_alert_metadata_received(self, alert):
+         except KeyError:
+             pass
+         else:
+-            torrent_info = alert.handle.get_torrent_info()
++            torrent_info = alert.handle.torrent_file()
+             return d.callback(torrent_info)
+ 
+     def on_alert_file_error(self, alert):
+diff --git a/deluge/tests/test_torrent.py b/deluge/tests/test_torrent.py
+index 5a298ef656..fde7aeb5d4 100644
+--- a/deluge/tests/test_torrent.py
++++ b/deluge/tests/test_torrent.py
+@@ -352,6 +352,14 @@ def test_get_name_unicode(self):
+         self.torrent = Torrent(handle, {})
+         assert self.torrent.get_name() == 'সুকুমার রায়.txt'
+ 
++    def test_get_files_with_mapped_names(self):
++        atp = self.get_torrent_atp('dir_with_6_files.torrent')
++        handle = self.session.add_torrent(atp)
++        self.torrent = Torrent(handle, {'mapped_files': {0: 'renamed_file'}})
++
++        assert self.torrent.get_files()[0]['path'] == 'renamed_file'
++        assert self.torrent.get_orig_files()[0]['path'] != 'renamed_file'
++
+     def test_rename_unicode(self):
+         """Test renaming file/folders with unicode filenames."""
+         atp = self.get_torrent_atp('unicode_filenames.torrent')
