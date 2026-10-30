@@ -1,0 +1,31 @@
+Build the python bindings (and the library) with the oldest ABI view, TORRENT_ABI_VERSION=1.
+
+libtorrent 2.1 hides the API that deluge-2.2.0 still calls: those entries are guarded by
+'#if TORRENT_ABI_VERSION == 1' inside the bindings themselves -
+  * add_torrent_params['resume_data'] (bindings/python/src/session.cpp): without that key
+    session.add_torrent() raises KeyError 'unknown name in torrent params: resume_data',
+    which emptied the torrent library under 2.1.2 - the daemon re-adds its saved torrents
+    with fast-resume data at startup.
+  * torrent_status::paused / ::auto_managed (bindings/python/src/torrent_status.cpp): read
+    by deluge/core/torrent.py in nine places (the 'no attribute paused' tracebacks).
+  * enc_level aliases plaintext/rc4/both (bindings/python/src/session_settings.cpp): 2.1
+    ships only pe_plaintext/pe_rc4/pe_both, and deluge/core/preferencesmanager.py uses the
+    old spellings (the per-minute 'no attribute plaintext' tracebacks).
+
+libtorrent's own default (its 'deprecated-functions' cmake feature) selects ABI 2;
+include/libtorrent/aux_/export.hpp numbers the macros 1 = libtorrent-1.1 ... 4 =
+libtorrent-2.1, so ABI 1 is the backwards-compatible build. It keeps the newer names the
+bindings gate at 'TORRENT_ABI_VERSION < 4' (torrent_handle.torrent_file(),
+get_renamed_files()), so it still pairs with the deluge#532 patch folded into
+deluge-2.2.0-r4. No deluge-side patching for these four call sites is then needed.
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -739,7 +739,7 @@
+ feature_option(dht "enable support for Mainline DHT" ON)
+ target_optional_compile_definitions(torrent-rasterbar PUBLIC FEATURE NAME deprecated-functions DEFAULT ON
+ 	DESCRIPTION "enable deprecated functions for backwards compatibility"
+-	ENABLED TORRENT_ABI_VERSION=2
++	ENABLED TORRENT_ABI_VERSION=1
+ 	DISABLED TORRENT_ABI_VERSION=100)
+ feature_option(encryption "Enables encryption in libtorrent" ON)
+ feature_option(exceptions "build with exception support" ON)
