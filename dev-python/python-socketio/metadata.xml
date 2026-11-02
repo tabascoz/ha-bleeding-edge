@@ -1,11 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <pkgmetadata>
 	<maintainer type="project"><email>tabascoz@gmail.com</email><name>Fernando Cunha</name></maintainer><upstream>
-		<remote-id type="pypi">python-socketio</remote-id>
 		<remote-id type="github">miguelgrinberg/python-socketio</remote-id>
+		<remote-id type="pypi">python-socketio</remote-id>
 	</upstream>
-	<use>
-		<flag name="client">Use standard Python client</flag>
-		<flag name="asyncio-client">Use asyncio client</flag>
-	</use>
 </pkgmetadata>
