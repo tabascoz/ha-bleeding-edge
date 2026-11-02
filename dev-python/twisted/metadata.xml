@@ -5,4 +5,12 @@
     <email>tabascoz@gmail.com</email>
     <name>Fernando Cunha</name>
 </maintainer>
+  <use>
+    <flag name="conch">Pull dev-python/appdirs-1.4.0, dev-python/bcrypt-3.2.1, dev-python/cryptography-46 for the conch integration</flag>
+    <flag name="http2">Pull dev-python/httpx-0.28.1 for the http2 integration</flag>
+    <flag name="serial">Read data from serial port devices</flag>
+    <flag name="ssl">Pull dev-python/pyopenssl-25.3.0, dev-python/service-identity-21.1.0, dev-python/idna-2.5 for the ssl integration</flag>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+    <flag name="websockets">Pull dev-python/wsproto-1.2.0 for the websockets integration</flag>
+  </use>
 </pkgmetadata>
