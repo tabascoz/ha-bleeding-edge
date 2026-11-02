@@ -8,4 +8,9 @@
 		<remote-id type="github">ionelmc/pytest-benchmark</remote-id>
 		<remote-id type="pypi">pytest-benchmark</remote-id>
 	</upstream>
+  <use>
+    <flag name="aspect">Pull dev-python/aspectlib for aspect support</flag>
+    <flag name="elasticsearch">Pull dev-python/elasticsearch for elasticsearch support</flag>
+    <flag name="histogram">Pull dev-python/pygal, dev-python/pygaljs for histogram support</flag>
+  </use>
 </pkgmetadata>
