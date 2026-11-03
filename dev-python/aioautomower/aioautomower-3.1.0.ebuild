@@ -19,6 +19,10 @@ KEYWORDS="~amd64 ~arm64"
 IUSE="test"
 RESTRICT="!test? ( test )"
 
+# bounds raised by hand (2026-11-03) — python-dateutil raised to >=4.0.0, its <3.0.0 ceiling dropped, for the same
+# reason: the release's own requirement for this version is python-dateutil>=4.0.0.
+# aioautomower uses dateutil's rrule only (timeline.py:13), which 4.0.0 keeps and iterates
+# identically (tmp/probe3_behaviors.py). Every other ceiling here is another library.
 RDEPEND="
 	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-3.9.3[${PYTHON_USEDEP}]
@@ -29,8 +33,7 @@ RDEPEND="
 	>=dev-python/orjson-3.11.2[${PYTHON_USEDEP}]
 	<dev-python/pyjwt-3.0.0[${PYTHON_USEDEP}]
 	>=dev-python/pyjwt-2.8.0[${PYTHON_USEDEP}]
-	<dev-python/python-dateutil-3.0.0[${PYTHON_USEDEP}]
-	>=dev-python/python-dateutil-2.9.0_p0[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-4.0.0[${PYTHON_USEDEP}]
 	<dev-python/tzlocal-6.0[${PYTHON_USEDEP}]
 	>=dev-python/tzlocal-5.2[${PYTHON_USEDEP}]
 "
