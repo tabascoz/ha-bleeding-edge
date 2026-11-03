@@ -19,7 +19,11 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
+# bounds raised by hand (2026-11-03) — pycryptodome same-major pin (~) widened to a floor: ~ asks for the 3.24.x line
+# only, which is exactly what held 4.3.0 in ::gentoo back. The release's metadata for this
+# version asks pycryptodome<5.0.0. greeclimate's CipherV1 (ECB) and CipherV2 (GCM) produce
+# byte-identical ciphertext and tags under 4.3.0 (tmp/probe3_behaviors.py). ifaddr's ~ is not touched.
 RDEPEND="~dev-python/ifaddr-0.2.0[${PYTHON_USEDEP}]
-	~dev-python/pycryptodome-3.24.1[${PYTHON_USEDEP}]"
+	>=dev-python/pycryptodome-3.24.1[${PYTHON_USEDEP}]"
 
 distutils_enable_tests pytest
