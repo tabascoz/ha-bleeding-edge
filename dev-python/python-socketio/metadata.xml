@@ -4,4 +4,9 @@
 		<remote-id type="github">miguelgrinberg/python-socketio</remote-id>
 		<remote-id type="pypi">python-socketio</remote-id>
 	</upstream>
+  <use>
+    <flag name="asyncio-client">Optional dependency group asyncio-client declared by python_socketio-5.18.0</flag>
+    <flag name="client">Pull dev-python/requests-2.21.0, dev-python/websocket-client-0.54.0 for the client integration</flag>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
 </pkgmetadata>
