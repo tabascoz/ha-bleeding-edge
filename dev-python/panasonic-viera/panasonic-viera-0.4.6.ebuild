@@ -16,11 +16,14 @@ KEYWORDS="~amd64 ~arm64"
 IUSE="test"
 RESTRICT="!test? ( test )"
 
+# bounds raised by hand (2026-11-03) — pycryptodome <4.0.0 ceiling dropped, same class as switchbot-api.
+# panasonic_viera signs with AES.new + MODE_CBC + HMAC (remote_control.py:239,253) and 4.3.0
+# returns the same ciphertext (tmp/probe3_behaviors.py). The aiohttp and xmltodict ceilings are
+# constraints on other libraries and are left exactly as they are.
 RDEPEND="
 	>=dev-python/aiohttp-3.12.15[${PYTHON_USEDEP}]
 	<dev-python/aiohttp-4.0.0[${PYTHON_USEDEP}]
 	>=dev-python/pycryptodome-3.20.0[${PYTHON_USEDEP}]
-	<dev-python/pycryptodome-4.0.0[${PYTHON_USEDEP}]
 	>=dev-python/xmltodict-0.13.0[${PYTHON_USEDEP}]
 	<dev-python/xmltodict-2.0.0[${PYTHON_USEDEP}]"
 BDEPEND="
