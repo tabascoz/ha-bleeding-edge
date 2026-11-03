@@ -16,10 +16,13 @@ KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
 RESTRICT="!test? ( test )"
 DOCS="README.md"
+# bounds raised by hand (2026-11-03) — the <4.0.0 ceiling held back pycryptodome-4.3.0, which is in ::gentoo.
+# The metadata this release uses for this very version asks only pycryptodome<5.0.0
+# (requirements_all.txt:5307). switchbot_api calls AES.new + MODE_CBC + Crypto.Util.Padding.unpad
+# (__init__.py:360-363) and 4.3.0 gives byte-identical plaintext (tmp/probe3_behaviors.py).
 RDEPEND="
 	>=dev-python/aiohttp-3.0.0[${PYTHON_USEDEP}]
 	>=dev-python/pycryptodome-3.23.0[${PYTHON_USEDEP}]
-	<dev-python/pycryptodome-4.0.0[${PYTHON_USEDEP}]
 "
 
 distutils_enable_tests pytest
