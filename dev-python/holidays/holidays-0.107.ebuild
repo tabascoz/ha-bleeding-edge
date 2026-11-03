@@ -18,9 +18,13 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
+# bounds raised by hand (2026-11-03) — python-dateutil floor raised to 4.0.0, the <3 ceiling dropped: this release's
+# requirement for this very version IS python-dateutil>=4.0.0 (requirements_all.txt:5583).
+# holidays calls dateutil.parser.parse and dateutil.easter (EASTER_ORTHODOX/EASTER_WESTERN/easter,
+# all present in 4.0.0, same values: tmp/probe3_behaviors.py); 4.0 needs dev-python/tzdata (installed
+# at 10001) and no longer six. Only isoparse got stricter, and holidays never calls isoparse.
 RDEPEND="
-	>=dev-python/python-dateutil-2.9.0[${PYTHON_USEDEP}]
-	<dev-python/python-dateutil-3[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-4.0.0[${PYTHON_USEDEP}]
 "
 
 distutils_enable_tests pytest
