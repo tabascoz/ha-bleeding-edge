@@ -9,4 +9,7 @@
     <remote-id type="pypi">pandas</remote-id>
     <remote-id type="github">pandas-dev/pandas</remote-id>
   </upstream>
+  <use>
+    <flag name="full-support">Pull all packages to give pandas full support</flag>
+  </use>
 </pkgmetadata>
