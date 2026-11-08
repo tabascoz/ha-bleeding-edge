@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <!-- This copy is the one carried by ha-bleeding-edge / the local overlays, so
+    its maintainer is listed first; upstream's own maintainer follows. -->
+  <maintainer type="project">
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
+  </maintainer>
+  <maintainer type="person">
+    <email>mattst88@gentoo.org</email>
+    <name>Matt Turner</name>
+  </maintainer>
+  <upstream>
+    <remote-id type="github">eclipse/mosquitto</remote-id>
+  </upstream>
+  <use>
+    <flag name="bridge">Enable bridge support in the MQTT broker.</flag>
+    <flag name="persistence">Store messages and subscriptions to a file.</flag>
+    <flag name="srv">Include SRV lookup support.</flag>
+    <flag name="websockets">Support the WebSocket protocol.</flag>
+  </use>
+</pkgmetadata>
