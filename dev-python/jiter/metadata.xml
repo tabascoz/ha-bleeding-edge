@@ -1,8 +1,17 @@
 <?xml version='1.0' encoding='utf-8'?>
 <pkgmetadata>
-  <maintainer type="project"><email>tabascoz@gmail.com</email><name>Fernando Cunha</name></maintainer><upstream>
-    <remote-id type="pypi">jiter</remote-id>
-    <remote-id type="github">pydantic/jiter</remote-id>
-    <bugs-to>https://github.com/pydantic/jiter/issues</bugs-to>
-  </upstream>
+	<maintainer type="project"><email>tabascoz@gmail.com</email><name>Fernando Cunha</name></maintainer><longdescription lang="en">
+		jiter is a fast, iterable JSON parser written in Rust and exposed to
+		Python through pyo3.  Unlike the stdlib json module, it can parse a
+		document incrementally and offers configurable handling of floats
+		(float, Decimal or a lossless representation), duplicate keys and
+		partial/incomplete input, which makes it suitable for consuming
+		streaming JSON such as LLM responses.  It is the JSON backend used by
+		pydantic-core and the OpenAI Python client.
+	</longdescription>
+	<upstream>
+		<bugs-to>https://github.com/pydantic/jiter/issues</bugs-to>
+		<remote-id type="github">pydantic/jiter</remote-id>
+		<remote-id type="pypi">jiter</remote-id>
+	</upstream>
 </pkgmetadata>
