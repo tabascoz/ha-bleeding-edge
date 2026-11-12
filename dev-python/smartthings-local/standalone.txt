@@ -1,1 +1,0 @@
-dev-python/smartthings-local smartthings-local Local CoAP-over-DTLS (OCF) transport + polling layer; not required by HA
