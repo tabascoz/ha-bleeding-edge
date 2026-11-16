@@ -18,13 +18,16 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
+# Dead bound relaxed: no registered repo carries a version satisfying
+# the original constraint, which made this ebuild unmergeable. Floor kept
+# so the resolver takes the newest version any repo carries (never a
+# downgrade) and stays compatible with homeassistant-full's own pins.
 RDEPEND="dev-python/bleach[${PYTHON_USEDEP}]
 	dev-python/mt_940[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	>=dev-python/sepaxml-2.7[${PYTHON_USEDEP}]
 	<dev-python/sepaxml-3.0[${PYTHON_USEDEP}]
 	>=dev-python/enum-tools-0.12.0[${PYTHON_USEDEP}]
-	<dev-python/enum-tools-0.13.0[${PYTHON_USEDEP}]
 	>=dev-python/lxml-6.0.2[${PYTHON_USEDEP}]
 	<dev-python/lxml-7.0.0[${PYTHON_USEDEP}]"
 BDEPEND="
