@@ -15,8 +15,12 @@ KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
 RESTRICT="!test? ( test )"
 
+# Dead bound relaxed: no registered repo carries a version satisfying
+# the original constraint, which made this ebuild unmergeable. Floor kept
+# so the resolver takes the newest version any repo carries (never a
+# downgrade) and stays compatible with homeassistant-full's own pins.
 RDEPEND="
-	~dev-python/requests-2.21.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.21.0[${PYTHON_USEDEP}]
 "
 
 distutils_enable_tests pytest
