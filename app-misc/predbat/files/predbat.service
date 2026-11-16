@@ -1,0 +1,45 @@
+[Unit]
+Description=Predbat — Home battery prediction and charging automation
+Documentation=https://springfall2008.github.io/batpred/
+After=network-online.target home-assistant.service
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=predbat
+Group=predbat
+WorkingDirectory=/var/lib/predbat
+Environment=PYTHONUNBUFFERED=1
+# No PYTHONPATH needed — all .py files are in the working directory.
+ExecStart=/usr/bin/python3 /var/lib/predbat/hass.py
+
+# Restart on any exit: covers crashes AND the intentional os._exit()
+# that hass.py calls when the file watcher detects a .py or apps.yaml
+# change (config edit or self-update).
+Restart=always
+RestartSec=15
+LogFilterPatterns=~Warn:
+LogFilterPatterns=~Info:
+# Hardening
+NoNewPrivileges=yes
+ProtectSystem=full
+ProtectHome=yes
+PrivateTmp=yes
+PrivateDevices=yes
+ProtectKernelTunables=yes
+ProtectKernelModules=yes
+ProtectControlGroups=yes
+RestrictAddressFamilies=AF_INET AF_INET6 AF_UNIX
+RestrictRealtime=yes
+LockPersonality=yes
+# /var/lib/predbat is the ONLY writable path. predbat writes:
+#   - apps.yaml (config edits)
+#   - *.py files (self-updates via download.py)
+#   - predbat.log, predbat_config.json, predbat_save.json, etc.
+#   - prediction_kernel_lib_*.so (if updated)
+ReadWritePaths=/var/lib/predbat
+BindReadOnlyPaths=/etc/localtime
+BindPaths=/var/lib/predbat:/config
+
+[Install]
+WantedBy=multi-user.target
