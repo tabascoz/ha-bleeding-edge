@@ -20,10 +20,16 @@ DOCS="README.md"
 
 
 
+# PyViCare declares deprecated<2.0 upstream, but no registered repo carries
+# dev-python/deprecated below 2.0.0 (only the unregistered tgbugs-overlay has
+# 1.3.1), so that upper bound was dead and made this ebuild unmergeable. It is
+# dropped and the floor raised to the newest version any repo carries (gentoo
+# 3.0.0/3.0.1). Deviation from the upstream pin, recorded for 2026.11.1-r1.
+# The note stays above the assignment: inside a quoted DEPEND string '#' is
+# not a comment, it is handed to the dependency parser.
 RDEPEND=">=dev-python/authlib-1.2.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
-	>=dev-python/deprecated-1.3.0[${PYTHON_USEDEP}]
-	<dev-python/deprecated-2.0.0[${PYTHON_USEDEP}]"
+	>=dev-python/deprecated-3.0.1[${PYTHON_USEDEP}]"
 
 BDEPEND=">=dev-python/authlib-1.2.0[${PYTHON_USEDEP}]"
 
