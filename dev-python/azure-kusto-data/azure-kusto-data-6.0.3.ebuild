@@ -18,6 +18,10 @@ IUSE="aio pandas test"
 RESTRICT="!test? ( test )"
 REQUIRED_USE="pandas? ( aio )"
 
+# Dead bound relaxed: no registered repo carries a version satisfying
+# the original constraint, which made this ebuild unmergeable. Floor kept
+# so the resolver takes the newest version any repo carries (never a
+# downgrade) and stays compatible with homeassistant-full's own pins.
 RDEPEND=">=dev-python/python-dateutil-2.9.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.32.4[${PYTHON_USEDEP}]
 	>=dev-python/azure-identity-1.24.0[${PYTHON_USEDEP}]
@@ -25,7 +29,6 @@ RDEPEND=">=dev-python/python-dateutil-2.9.0[${PYTHON_USEDEP}]
 	>=dev-python/msal-1.34.0_beta1[${PYTHON_USEDEP}]
 	<dev-python/msal-2[${PYTHON_USEDEP}]
 	>=dev-python/ijson-3.4.0[${PYTHON_USEDEP}]
-	<dev-python/ijson-3.5.0[${PYTHON_USEDEP}]
 	>=dev-python/azure-core-1.35.0[${PYTHON_USEDEP}]
 	<dev-python/azure-core-2[${PYTHON_USEDEP}]
 	aio? ( >=dev-python/aiohttp-3.12.15[${PYTHON_USEDEP}] >=dev-python/asgiref-3.9.1[${PYTHON_USEDEP}] )
