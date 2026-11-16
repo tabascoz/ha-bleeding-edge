@@ -19,12 +19,16 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
+# Dead bound relaxed: no registered repo carries a version satisfying
+# the original constraint, which made this ebuild unmergeable. Floor kept
+# so the resolver takes the newest version any repo carries (never a
+# downgrade) and stays compatible with homeassistant-full's own pins.
 RDEPEND="
 	>=dev-python/aiohttp-3.9.0[${PYTHON_USEDEP}]
 	>=dev-python/certifi-2023.7.22[${PYTHON_USEDEP}]
-	=dev-python/ciso8601-2.3.0[${PYTHON_USEDEP}]
-	=dev-python/frozenlist-1.5.0[${PYTHON_USEDEP}]
-	=dev-python/mashumaro-3.12[${PYTHON_USEDEP}]
+	>=dev-python/ciso8601-2.3.0[${PYTHON_USEDEP}]
+	>=dev-python/frozenlist-1.5.0[${PYTHON_USEDEP}]
+	>=dev-python/mashumaro-3.12[${PYTHON_USEDEP}]
 	>=dev-python/pyjwt-2.4.0[${PYTHON_USEDEP}]
 	>=dev-python/yarl-1.9.2[${PYTHON_USEDEP}]
 "
