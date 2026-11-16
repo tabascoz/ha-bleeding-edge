@@ -20,11 +20,14 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
+# Dead bound relaxed: no registered repo carries a version satisfying
+# the original constraint, which made this ebuild unmergeable. Floor kept
+# so the resolver takes the newest version any repo carries (never a
+# downgrade) and stays compatible with homeassistant-full's own pins.
 RDEPEND="
 	>=dev-python/crownstone-core-3.2[${PYTHON_USEDEP}]
 	<dev-python/crownstone-core-3.3[${PYTHON_USEDEP}]
 	>=dev-python/pyserial-3.4[${PYTHON_USEDEP}]
-	<dev-python/pyserial-3.5[${PYTHON_USEDEP}]
 "
 BDEPEND="
 	test? (
