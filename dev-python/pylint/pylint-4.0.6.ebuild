@@ -21,12 +21,15 @@ SLOT="0"
 KEYWORDS="~alpha amd64 arm arm64 ~hppa ~loong ~m68k ~mips ppc ppc64 ~riscv ~s390 ~sparc x86"
 IUSE="examples"
 
+# Dead bound relaxed: no registered repo carries a version satisfying
+# the original constraint, which made this ebuild unmergeable. Floor kept
+# so the resolver takes the newest version any repo carries (never a
+# downgrade) and stays compatible with homeassistant-full's own pins.
 RDEPEND="
 	<dev-python/astroid-5[${PYTHON_USEDEP}]
 	>=dev-python/astroid-4.1.2[${PYTHON_USEDEP}]
 	>=dev-python/dill-0.3.7[${PYTHON_USEDEP}]
 	>=dev-python/isort-5.14[${PYTHON_USEDEP}]
-	<dev-python/isort-9[${PYTHON_USEDEP}]
 	>=dev-python/mccabe-0.6[${PYTHON_USEDEP}]
 	<dev-python/mccabe-0.8[${PYTHON_USEDEP}]
 	>=dev-python/platformdirs-2.2.0[${PYTHON_USEDEP}]
