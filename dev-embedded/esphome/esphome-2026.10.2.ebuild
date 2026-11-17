@@ -15,7 +15,8 @@ if [[ ${PV} == 9999 ]]; then
     EGIT_BRANCH="dev"
     SRC_URI=""
     S="${WORKDIR}/${P}/"
-    PROPERTIES="live"
+	   PROPERTIES="live"
+				KEYWORDS=""
 else
     inherit pypi
     MY_P=${P/_beta/b}
