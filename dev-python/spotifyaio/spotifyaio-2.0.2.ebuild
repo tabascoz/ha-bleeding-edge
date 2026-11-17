@@ -30,7 +30,7 @@ BDEPEND="
 		dev-python/pytest[${PYTHON_USEDEP}]
 		dev-python/pytest-asyncio[${PYTHON_USEDEP}]
 		dev-python/pytest-cov[${PYTHON_USEDEP}]
-		dev-python/yamlint[${PYTHON_USEDEP}]
+		dev-util/yamllint[${PYTHON_USEDEP}]
 	)"
 
 distutils_enable_tests pytest
