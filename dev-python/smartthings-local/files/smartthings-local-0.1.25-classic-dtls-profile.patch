@@ -1,0 +1,73 @@
+diff --git a/smartthings_local/protocol/auth.py b/smartthings_local/protocol/auth.py
+index d98b89b..3c9a282 100644
+--- a/smartthings_local/protocol/auth.py
++++ b/smartthings_local/protocol/auth.py
+@@ -64,6 +64,19 @@ def _load_pem_chain(ctx: SSL.Context, cert_pem: str, key_pem: str) -> None:
+     ctx.check_privatekey()
+ 
+ 
++def _configure_classic_certificate_profile(context: SSL.Context) -> None:
++    """Force certificate-backed DTLS onto the profile Samsung accepts.
++
++    OpenSSL 3 configures TLS 1.3 cipher suites separately from the classic
++    cipher list. A narrow classic list alone still produces a ClientHello that
++    advertises TLS 1.3 suites and extensions, and some Samsung certificate
++    stacks answer that flight with a fatal handshake_failure before they get
++    to certificate validation.
++    """
++    context.set_cipher_list(_DTLS_CIPHERS)
++    context.set_options(SSL.OP_NO_TLSv1_3 | SSL.OP_NO_TICKET)
++
++
+ @runtime_checkable
+ class AuthenticationProvider(Protocol):
+     """Configure authentication for a newly created DTLS context."""
+@@ -387,7 +400,7 @@ def _configure_certificate_server(
+     # intermediate is SHA-1 signed). This is the only channel that reaches
+     # the OpenSSL instance cryptography bundles; ctypes and cffi bindings
+     # do not expose SSL_CTX_set_security_level on this build.
+-    context.set_cipher_list(_DTLS_CIPHERS)
++    _configure_classic_certificate_profile(context)
+ 
+ 
+ class ServerCertificateAuth:
+diff --git a/smartthings_local/protocol/dtls_probe.py b/smartthings_local/protocol/dtls_probe.py
+index 8d2992f..f1594dd 100644
+--- a/smartthings_local/protocol/dtls_probe.py
++++ b/smartthings_local/protocol/dtls_probe.py
+@@ -40,7 +40,13 @@ from dataclasses import dataclass
+ from OpenSSL import SSL
+ 
+ from ..errors import ProbeError
+-from .auth import PskAuth, _DTLS_CIPHERS, _OCF_ROOT_CA, _load_pem_chain
++from .auth import (
++    PskAuth,
++    _configure_classic_certificate_profile,
++    _DTLS_CIPHERS,
++    _OCF_ROOT_CA,
++    _load_pem_chain,
++)
+ from .coap import split_dtls
+ from .dtls_handshake import _drive_dtls_handshake, _validate_mtu
+ from .endpoint import open_host_filtered_udp_socket
+@@ -214,7 +220,7 @@ def _client_hello_flight(*, mtu):
+     context = SSL.Context(SSL.DTLS_METHOD)
+     context.load_verify_locations(_OCF_ROOT_CA)
+     context.set_verify(SSL.VERIFY_PEER, lambda *args: True)
+-    context.set_cipher_list(_DTLS_CIPHERS)
++    _configure_classic_certificate_profile(context)
+ 
+     connection = SSL.Connection(context, None)
+     connection.set_connect_state()
+@@ -800,7 +806,10 @@ def _diagnostic_context(*, auth, cert_pem, key_pem, cert_path, key_path):
+     ctx = SSL.Context(SSL.DTLS_METHOD)
+     ctx.load_verify_locations(_OCF_ROOT_CA)
+     ctx.set_verify(SSL.VERIFY_PEER, _accept_any_peer_chain)
+-    ctx.set_cipher_list(_DTLS_CIPHERS)
++    if auth is None:
++        _configure_classic_certificate_profile(ctx)
++    else:
++        ctx.set_cipher_list(_DTLS_CIPHERS)
+     if auth is not None:
+         auth.configure_context(ctx)
+         # Providers configure a context to *gate* on trust: CertificateAuth
