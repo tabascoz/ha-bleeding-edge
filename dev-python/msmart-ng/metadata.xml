@@ -11,5 +11,6 @@
   </upstream>
   <use>
     <flag name="test">Enable testing dependencies and test runners</flag>
+    <flag name="yaml">Pull dev-python/pyyaml for yaml support</flag>
   </use>
 </pkgmetadata>
