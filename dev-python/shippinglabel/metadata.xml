@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<pkgmetadata>
+	<maintainer type="project"><email>tabascoz@gmail.com</email><name>Fernando Cunha</name></maintainer><longdescription lang="en">
+	This package provides utilities for handling packages, additionaly
+	includes a vendored copy of trove-classifiers.
+	</longdescription>
+	<upstream>
+		<remote-id type="github">domdfcoding/shippinglabel</remote-id>
+		<remote-id type="pypi">shippinglabel</remote-id>
+	</upstream>
+</pkgmetadata>
