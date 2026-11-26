@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+<maintainer type="project">
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
+</maintainer>
+  <use>
+    <flag name="crt">Pull dev-python/awscrt for the Common Runtime (CRT) bindings</flag>
+  </use>
+
+</pkgmetadata>
