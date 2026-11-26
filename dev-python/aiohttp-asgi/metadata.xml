@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+<maintainer type="project">
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
+</maintainer>
+  <use>
+    <flag name="rloop">Use rloop as the event loop implementation</flag>
+    <flag name="uvloop">Use uvloop as the event loop implementation</flag>
+  </use>
+
+</pkgmetadata>
