@@ -1304,5 +1304,16 @@
 
     <!-- documented by tmp/flagdesc.py -->
     <flag name="zestimate">Pull the dependencies the zestimate integration of Home Assistant needs</flag>
+
+    <flag name="bambu_lab">Support the bambu_lab integration; requires aiobambulab</flag>
+    <flag name="busybar">Support the busybar integration; requires busylib</flag>
+    <flag name="e3dc">Support the e3dc integration; requires e3dc-ess-modbus</flag>
+    <flag name="electrolux">Support the electrolux integration; requires electrolux-group-developer-sdk</flag>
+    <flag name="intesis_modbus">Support the intesis_modbus integration; requires intesis-gw-modbus</flag>
+    <flag name="meraki">Support the meraki integration; requires meraki</flag>
+    <flag name="picotts">Support the picotts integration; requires py-nanotts</flag>
+    <flag name="powersensor_au">Support the powersensor_au integration; requires powersensor-local</flag>
+    <flag name="tile_ble">Support the tile_ble integration; requires tile-ble</flag>
+    <flag name="trimlight">Support the trimlight integration; requires aiotrimlight</flag>
   </use>
 </pkgmetadata>
