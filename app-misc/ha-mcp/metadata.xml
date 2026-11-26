@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="project">
+		<email>tabascoz@gmail.com</email>
+		<name>Fernando Cunha</name>
+	</maintainer>
+	<longdescription lang="en">
+		ha-mcp is a Model Context Protocol server that lets AI assistants
+		(Claude, ChatGPT and others) inspect and configure a Home Assistant
+		instance. fastmcp, mcp and websockets are vendored inside the package
+		so that the server cannot conflict with the versions Home Assistant
+		Core pins.
+	</longdescription>
+	<upstream>
+		<remote-id type="github">homeassistant-ai/ha-mcp</remote-id>
+		<remote-id type="pypi">ha-mcp</remote-id>
+	</upstream>
+</pkgmetadata>
