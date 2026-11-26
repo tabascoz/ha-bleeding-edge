@@ -15,5 +15,7 @@
   <use>
     <flag name="qrcode">QR code recognition integration</flag>
     <flag name="test">Enable testing dependencies and test runners</flag>
+  <flag name="bench">Pull dev-python/psutil and dev-python/py-spy for the benchmarking tools</flag>
+  <flag name="talkback">Pull dev-python/pylibsrtp for two-way (talkback) audio</flag>
   </use>
 </pkgmetadata>
