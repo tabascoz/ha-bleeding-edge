@@ -11,5 +11,6 @@
   </upstream>
   <use>
     <flag name="test">Enable testing dependencies and test runners</flag>
+  <flag name="filesystem">Pull dev-python/aiofiles for filesystem-backed storage</flag>
   </use>
 </pkgmetadata>
