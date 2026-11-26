@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<pkgmetadata>
+	<maintainer type="project"><email>tabascoz@gmail.com</email><name>Fernando Cunha</name></maintainer><longdescription lang="en">
+	This package provides a core (offline) functionality for the apeye library,
+	which provides handy tools for working with URLs and APIs.
+	</longdescription>
+	<upstream>
+		<remote-id type="github">domdfcoding/apeye-core</remote-id>
+		<remote-id type="pypi">apeye-core</remote-id>
+	</upstream>
+</pkgmetadata>
