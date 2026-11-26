@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+<maintainer type="project">
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
+</maintainer>
+  <use>
+    <flag name="aiohttp">Pull dev-python/aiohttp for the aiohttp integration</flag>
+    <flag name="asgi">Pull dev-python/aiohttp-asgi for ASGI support</flag>
+    <flag name="carbon">Pull dev-python/aiocarbon for Carbon metrics</flag>
+    <flag name="cron">Pull dev-python/croniter for cron scheduling</flag>
+    <flag name="dns">Pull dev-python/dnslib for DNS support</flag>
+    <flag name="grpc">Pull dev-python/grpcio for gRPC support</flag>
+    <flag name="raven">Pull dev-python/raven for Sentry reporting</flag>
+    <flag name="rich">Pull dev-python/rich for rich terminal output</flag>
+    <flag name="uvicorn">Pull dev-python/uvicorn to serve as an ASGI server</flag>
+    <flag name="uvloop">Pull dev-python/uvloop as the event loop implementation</flag>
+  </use>
+
+</pkgmetadata>
