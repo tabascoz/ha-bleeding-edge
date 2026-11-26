@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <maintainer type="project">
+    <email>tabascoz@gmail.com</email>
+    <name>Fernando Cunha</name>
+  </maintainer>
+  <longdescription lang="en">
+    HASS-data-detective explores and analyses the data a Home Assistant
+    installation records.  It opens the recorder database through SQLAlchemy,
+    loads states and events into a pandas DataFrame and adds helpers for
+    entities, timelines and attributes; the intended way to drive it is a Jupyter
+    notebook.  It is a companion of a running Home Assistant rather than one of
+    its dependencies, so it is filed in app-misc beside homeassistant-full.
+    Upstream's auto-discovery looks only for /config (when HASSIO_TOKEN is set)
+    or ~/.homeassistant; on Gentoo the config directory must be passed
+    explicitly - the Home Assistant this overlay installs uses
+    /etc/homeassistant.  That recorder runs in WAL mode, so a normal user must
+    work on a copy of the database (or run as the homeassistant user) instead of
+    opening the live file.
+  </longdescription>
+  <upstream>
+    <remote-id type="pypi">HASS-data-detective</remote-id>
+    <remote-id type="github">robmarkcole/HASS-data-detective</remote-id>
+  </upstream>
+  <use>
+    <flag name="test">Enable testing dependencies and test runners</flag>
+  </use>
+</pkgmetadata>
