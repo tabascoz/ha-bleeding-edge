@@ -9,4 +9,9 @@
     <remote-id type="pypi">caldav</remote-id>
     <remote-id type="github">python-caldav/caldav</remote-id>
   </upstream>
+  <use>
+    <flag name="jmap">Pull dev-python/calendaring-jmap for JMAP calendar support</flag>
+    <flag name="niquests">Pull dev-python/niquests as the HTTP backend</flag>
+  </use>
+
 </pkgmetadata>
