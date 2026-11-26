@@ -1,0 +1,10 @@
+<tool_call>
+<function=git_read_file>
+<parameter=path>
+setup.py
+</parameter>
+<parameter=repo>
+mosquito/forklib
+</parameter>
+</function>
+</tool_call>
