@@ -1,0 +1,28 @@
+# Copyright 1999-2026 Gentoo Authors
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=8
+
+PYTHON_COMPAT=( python3_{12..14} )
+
+DISTUTILS_USE_PEP517=setuptools
+inherit distutils-r1 pypi
+
+DESCRIPTION="Simple API to access fibaro home center from any Python 3 script. Designed for Home Assistant (but not only)"
+HOMEPAGE="https://github.com/rappenze/pyfibaro https://pypi.org/project/pyfibaro/"
+
+LICENSE="MIT"
+SLOT="0"
+KEYWORDS="amd64 arm arm64 x86"
+IUSE="test"
+RESTRICT="!test? ( test )"
+
+DOCS="README.md"
+
+# relaxed by tools/relaxbounds.py: an operator in the block below named a version
+# no repo carries. The bound is answered with the newest version that IS available -
+# never a downgrade, never a version nobody declared (WORKFLOW.md step 12's rule).
+RDEPEND="
+	>=dev-python/requests-2.34.2[${PYTHON_USEDEP}]
+"
+distutils_enable_tests pytest
