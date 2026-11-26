@@ -1,0 +1,34 @@
+# Copyright 2025 Gentoo Authors
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=8
+
+PYTHON_COMPAT=( python3_{12..14} )
+DISTUTILS_USE_PEP517=hatchling
+inherit pypi distutils-r1
+
+DESCRIPTION="Asynchronous Python client for the Seafile Web API"
+HOMEPAGE="https://pypi.org/project/aioseafile/"
+
+LICENSE="MIT"
+SLOT="0"
+KEYWORDS="~amd64 ~arm64"
+IUSE="test"
+RESTRICT="!test? ( test )"
+
+RDEPEND="
+	>=dev-python/aiohttp-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/mashumaro-3.17[${PYTHON_USEDEP}]
+	<dev-python/mashumaro-4[${PYTHON_USEDEP}]
+	>=dev-python/orjson-3.10.16[${PYTHON_USEDEP}]
+	<dev-python/orjson-4[${PYTHON_USEDEP}]
+	>=dev-python/tenacity-9.0.0[${PYTHON_USEDEP}]
+	>=dev-python/yarl-1.6.0[${PYTHON_USEDEP}]
+"
+BDEPEND="
+	test? (
+		dev-python/pytest[${PYTHON_USEDEP}]
+		dev-python/pytest-asyncio[${PYTHON_USEDEP}]
+	)
+"
+distutils_enable_tests pytest
